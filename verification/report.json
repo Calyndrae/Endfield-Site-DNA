@@ -1,5 +1,5 @@
 {
- "startedAt": "2026-10-03T21:02:22.971Z",
+ "startedAt": "2026-10-03T22:30:35.390Z",
  "checks": [
   {
    "name": "body of handbook/index.html is byte-identical to the original SSR response",
@@ -30,7 +30,7 @@
    "ok": true,
    "detail": {
     "cid": "7013",
-    "chars": 592618
+    "chars": 610620
    }
   },
   {
@@ -75,12 +75,12 @@
   {
    "name": "client refetch of /api/bulletin/7013 was answered by the local handbook record",
    "ok": true,
-   "detail": "2919 ms"
+   "detail": "2750 ms"
   },
   {
    "name": "first-load screen finished and left",
    "ok": true,
-   "detail": "8067 ms"
+   "detail": "8073 ms"
   },
   {
    "name": "article title replaced by the handbook title",
@@ -224,11 +224,11 @@
  "failedRequests": [],
  "stats": {
   "specimens": 13,
-  "chapters": 36,
-  "contentChars": 592618,
-  "loaderMs": 32149
+  "chapters": 37,
+  "contentChars": 610620,
+  "loaderMs": 31923
  },
  "passed": 29,
  "failed": 0,
- "finishedAt": "2026-10-03T21:02:56.522Z"
+ "finishedAt": "2026-10-03T22:31:08.699Z"
 }

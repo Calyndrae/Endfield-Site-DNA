@@ -1,0 +1,1382 @@
+[
+ {
+  "url": "https://endfield.gryphline.com/api/content/info_video?lang=en-us&page=1&pageSize=10",
+  "key": "endfield.gryphline.com/api/content/info_video?lang=en-us&page=1&pageSize=10",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6e76c5c860f9d557.json",
+  "bytes": 5894,
+  "sha256": "fc62be4e323f41dfecd6a2d9b0af6344118fbfc0171186b177c4b8b8b455e2db",
+  "source": "page"
+ },
+ {
+  "url": "https://web-api.gryphline.com/static/gl_account_web_sdk/grayscale.json",
+  "key": "web-api.gryphline.com/static/gl_account_web_sdk/grayscale.json",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/a86fba4d976a6e5b.json",
+  "bytes": 52,
+  "sha256": "0a58b1df3c487a8f2c2d54457b4dfac366e8e4cbb804decdc2b18b74326457cc",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=10",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=10",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/077d61953d5fcdb0.json",
+  "bytes": 3757,
+  "sha256": "48bf3197a8132e1108dda889065910a560b0f283c27ae3d34999f8311c02643b",
+  "source": "page"
+ },
+ {
+  "url": "https://web-api.gryphline.com/static/gl_web_sdk/grayscale.json",
+  "key": "web-api.gryphline.com/static/gl_web_sdk/grayscale.json",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/23a4fd6b86011c3a.json",
+  "bytes": 52,
+  "sha256": "20be56475d1b9f3dea48c0795172d1287fadcc128c7e2546b7893dceb38d4024",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7013?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7013?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/7dd2256ed74cbcc8.json",
+  "bytes": 1470,
+  "sha256": "0f01724c081b5440e1fccabf86a314d05db8015b17e436e0345f36c2a0974a35",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=2&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=2&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8e42beb2daa421ff.json",
+  "bytes": 3386,
+  "sha256": "190530a05e7626ff5a62a70c20628ce7289cf4556326bd5104c1ecbcf4670033",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=3&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=3&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/32ef875524db45da.json",
+  "bytes": 3286,
+  "sha256": "dc8eac6c35a0335a1e9532c4beff58c080abab6ba28375cc027896a25c0c2fc9",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=4&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=4&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8ffc12436f7f3978.json",
+  "bytes": 3485,
+  "sha256": "230812e0bcc0c9cf00dc26ec9cff572eb62fc872d309c05cf8424622f82200b3",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=5&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=5&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6963e32e76394bdf.json",
+  "bytes": 3367,
+  "sha256": "9019c4bec61acb3601599113d791a933cc4e344dd0448d6e51931a30a9591fbc",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=7&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=7&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/58c8bc19780415fc.json",
+  "bytes": 3307,
+  "sha256": "d4f350321848d19e43e4d51e28e5cf5de224ea4a03a6ead5b025780bf20009af",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=8&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=8&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/e5fe0fc8f3cc52ea.json",
+  "bytes": 3463,
+  "sha256": "78e4d07fb7c83660d17bb58be4dfd7a4cf424a82e31bb61b782b8c40ddfde0a7",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=10&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=10&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/92b296638599f428.json",
+  "bytes": 3400,
+  "sha256": "fbb899ff81a1c3ac28a9be664679e8d8b7411c9ac960b73924ca1e0eae6e113a",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=11&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=11&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/73ceac169347b0cf.json",
+  "bytes": 3358,
+  "sha256": "44f5284a62621261f8fcec6b1614a1abb16d71f024961ffa534a8febee500f78",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=12&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=12&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/fc109f9dd647eddc.json",
+  "bytes": 3782,
+  "sha256": "7408e9cd3376d83c3a30a7499d772c923c04f6b104efa8f89206aa97920629fa",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=notices",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=notices",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/305ac130e604da8d.json",
+  "bytes": 3406,
+  "sha256": "0cb385bae95a06e2f90319875a75d3f6546ddd1e897ba9d530b200e73d83735d",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=6&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=6&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/ff936f06754b876c.json",
+  "bytes": 3437,
+  "sha256": "7eb0a1a03d95f1c04e683177085f78d795ebc682df6fa2989e7777421daa2b09",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=9&pageSize=9",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=9&pageSize=9",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/950842e18dfed0f3.json",
+  "bytes": 3314,
+  "sha256": "d4a0ba173799d30452c15e11ccb8747d17917ff97b79fbcf285a8ad319d47398",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=events",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=events",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/9a9828765e5a7b8e.json",
+  "bytes": 3364,
+  "sha256": "5bb43cac244025454395ff8fec2e423761b44320ba2b8d64a74a4bf451bed1d0",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=news",
+  "key": "web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=news",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/80c9b5cdeee77119.json",
+  "bytes": 3314,
+  "sha256": "e766181b65f00f28f49003b8814acc8061bbfc4d0a9a2e070850448d6a2a3bc3",
+  "source": "page"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0748?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0748?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/1d924e63ce081712.json",
+  "bytes": 2843,
+  "sha256": "d5fa9d1e8e3b5477af72ca93ff8f7762d8cb7cc9deb3abffb23ce3e842f59239",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0750?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0750?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/cc5fe556e92e7ba7.json",
+  "bytes": 1180,
+  "sha256": "5c79f6a74d73c642ba9abaf8c180c27515c32444def46a14105546dc2ddf8ab3",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/11f6277651b3228f.json",
+  "bytes": 26298,
+  "sha256": "1f49751c46acb45f8bad9a32f332b1c8f3924e3e0a14f137562a7ed50c8f7601",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0752?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0752?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/40c0c1b9e7dc4172.json",
+  "bytes": 2560,
+  "sha256": "de143fb4e688dd126ac9a3a9294eb77ec8f2d23d173d9255c3d517a47294e022",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0753?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0753?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b5d1c6629dfae998.json",
+  "bytes": 1904,
+  "sha256": "0c4e38ab8cd0c53d279d6c33820279fbaf101f8e71199e5da204001df153a4b4",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/e4290f98f5591fd7.json",
+  "bytes": 2760,
+  "sha256": "8e2697898f64868c4968b34f0f199a1886ff10f447641ee75ed42906998a9372",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0755?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0755?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/3f01be5ebbdc1542.json",
+  "bytes": 2982,
+  "sha256": "79d4661707bb2da4cf557eeb58a911c7e57973dcc641e58f836607165bb7857d",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0758?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/d61ceb2876df2525.json",
+  "bytes": 21646,
+  "sha256": "256860ae6eff848ffeb14c70182ea36701d9e8935b56b28de42b8df176c663b5",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/cda73c72691ebbd8.json",
+  "bytes": 5440,
+  "sha256": "138049f0916f286ed4e7b1e304ef069c3e6ff58cda5fac842b709a4bd4012e21",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/0767?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/0767?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/686cfde52cc881f1.json",
+  "bytes": 3075,
+  "sha256": "4f7a61734201806f0d389efb41ec95061bf5b802c7738ab50b4361fbcf088122",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1320?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1320?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b72584972d175090.json",
+  "bytes": 1792,
+  "sha256": "f6caa69d554e65ec1f2606dfc69c25e6d21f228470e42d02be4232bc1107f6c6",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/353e585f3a382461.json",
+  "bytes": 3318,
+  "sha256": "3faacb6d15321672ad95701a25a0f8ce02d812bd74dd06446848aa346e5e5bd7",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1326?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1326?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/12fa61cb6398859c.json",
+  "bytes": 826,
+  "sha256": "a2205bc756f31d5d1dc5dad4a3222ca9c92ddc4ddc0f80a267daa668f92c31cd",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1329?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1329?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/d3e7b2928f1347cd.json",
+  "bytes": 4006,
+  "sha256": "2ba33012f01dbc4e843dabc265323f9ef3cd0907d09d4364851c3494165a13e4",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1331?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1331?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/223b96cea2e9cb31.json",
+  "bytes": 5453,
+  "sha256": "fac04705e7f016b37d899cc34ed39db93ea0e5927143f82a0d901b30b0ee817f",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1332?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1332?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/9f01b410ae3aa2df.json",
+  "bytes": 11506,
+  "sha256": "cad13d43f8ac851051c0bab1f12b287e0a35332bc4a90e3cfdbc4602c0a9e1df",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1335?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1335?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/d34c6763d2b6de68.json",
+  "bytes": 5605,
+  "sha256": "ae1f94fe272634f912d5974c3f0ba327d67d748baf345144b12ad9ee8f855b47",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1336?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1336?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/05509918caeda0a1.json",
+  "bytes": 1871,
+  "sha256": "b3db2506f72ceff75887984bc8eee91e712044b7ccc0f4e1b924979dbda00712",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1337?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1337?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/2afd52b45aa4a4a5.json",
+  "bytes": 1413,
+  "sha256": "ebe6da63398adf4899bdac8c07651433dc154ec12ad9af1816195b7b145dadca",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1338?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1338?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/640a6dacab82595a.json",
+  "bytes": 5495,
+  "sha256": "5296e3a80e448fe5d09ab4a874cf2fa8c2c136765ea664a5b2e9ee27782389b6",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1339?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1339?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/a7a081572dc7461f.json",
+  "bytes": 1210,
+  "sha256": "1ea6f19990de409fbc691d57811b1b897b1da5d4d5c7a61cf4defdd5aeb9c1e3",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1340?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1340?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c3fdb977dc909a21.json",
+  "bytes": 21346,
+  "sha256": "48e801c0a2eb1928469030d30d9aa3b57ef8d3af5e133a1e821733ae91b18f68",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/1857?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/1857?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8655167fdcd7249c.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2653?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2653?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/ad0b32e97ac52c1b.json",
+  "bytes": 1809,
+  "sha256": "350783323dc0045a1cc0ad57c8f1b275855302fa64986abec9e5cccbbfe64116",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2654?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2654?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/7fba666dea0106b8.json",
+  "bytes": 4681,
+  "sha256": "efb81bbd39b66af3a1c575877654de1691f77bb4919e9e7bd454e1656c79cd26",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2655?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2655?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/cae0258742581e9d.json",
+  "bytes": 5425,
+  "sha256": "42a354a5ef45d093763235dafbac5bf3a4a9bb99f4ffd19c905c4509e67958db",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2656?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2656?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/d63cba8784a049d9.json",
+  "bytes": 5566,
+  "sha256": "79fccdd512a881346ca2970c73497df7a4051b14f0c82f68a6c8291effa6dd35",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2657?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2657?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/44529a70222e89e7.json",
+  "bytes": 3405,
+  "sha256": "c27a9f02eb78fb4f226c134b35038a3bd5ceefa36265251612b76fa2602b3332",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2660?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2660?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c1d087e3100f1f69.json",
+  "bytes": 2700,
+  "sha256": "c1bbdb8d17e510ed4ba24aab735830a9202ebf53bf20be464a363a5dc7a499b7",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2662?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2662?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/57b2f4838dc82b60.json",
+  "bytes": 12794,
+  "sha256": "4f2f22684172a9d33d58a9e9da341814e692e67f6a10fb323d2150c6d8598fbf",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2668?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2668?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6d81b45d217cd65d.json",
+  "bytes": 2469,
+  "sha256": "ee8a72629434a203590884826db0dee6d570ba86a34939a1deb04880c8a5c9cf",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2669?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2669?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b5534c763b6fa32d.json",
+  "bytes": 3290,
+  "sha256": "9531fd46b5e6253fc0fef19738d0017343e42dd825af472530f69068cc3e2086",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/2677?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/2677?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/ac3adca291296364.json",
+  "bytes": 5460,
+  "sha256": "6645ae9ac2895e7d18c5c57e424f89077855451d305fd6359c1400d4d1add714",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/05ed33e950e766de.json",
+  "bytes": 6035,
+  "sha256": "58ec8c1a13df316050734920c075e1608a0fdf9b539df213a02ca7606212b028",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3832?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3832?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/96f2dd31b15c3981.json",
+  "bytes": 1804,
+  "sha256": "786cd33678f1ceb8f814c46327c603c77bcdbf8f802581a49f54afb99342d940",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3839?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3839?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/093f851d59ad2880.json",
+  "bytes": 5371,
+  "sha256": "0a8927b0160e7f38367f6416b09863573dd891938c1677da7431bc23f1aa7d5c",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3840?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3840?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/384be29916c0b2fc.json",
+  "bytes": 10066,
+  "sha256": "d5cbb7abfe76e04772e16ab0f608c3954d6a5f6c91afb734d1229a33e2eccdef",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3843?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3843?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/af0c8e8770647714.json",
+  "bytes": 5378,
+  "sha256": "278399155a34eedf5c711de174281cb3ded2a58247ac5966fb55979d7467e5e9",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3844?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3844?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/3a8f9d1341c96e1c.json",
+  "bytes": 2108,
+  "sha256": "4cdfa62372c725db43d42598554a48531dbd102f5cd7a3a8a88bbed2ea1be3af",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3846?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3846?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/02399fabfd395a14.json",
+  "bytes": 8742,
+  "sha256": "38df6709c0fcd63a31f4be4de7a76e209c709e2f6fc57489ad00f658059755d1",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3847?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3847?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/7738b89433f04b45.json",
+  "bytes": 7184,
+  "sha256": "8476412b71b38c216a16a46c4a1030d51a23c65576480f895cd13c06ede7dfe8",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3848?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3848?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/9cc53330517d8a5b.json",
+  "bytes": 825,
+  "sha256": "8590ca83c2e804a13e8fef7d74d58d853b0183b1d88e2e86d80a5cacab41cf51",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/3859?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/3859?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/76fc6350aa8dc477.json",
+  "bytes": 2081,
+  "sha256": "99bf294b11aa29f1b81c71850987b57c079844bce0cb1c58f1b2d7dc835d0da0",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4174?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4174?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8c5cb943d470b164.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4176?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4176?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8c655f0f6ceaf316.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4404?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4404?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/17378f116092a15a.json",
+  "bytes": 2295,
+  "sha256": "f6e773b9019464c0cca0b6c916199aa665563298d0fb2b975fcad2dccc594131",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4480?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4480?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6ae2297285c1e382.json",
+  "bytes": 2680,
+  "sha256": "077ccf723b6c2898bd3c52f872dd49fcb7f1164cfd38d8ada148eac119ad6d83",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4481?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4481?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/87d9b4ef7e69a48d.json",
+  "bytes": 15285,
+  "sha256": "01a52cb86dbef9885a079cc680b99e18bb8f232bc16cc54c36acec248535f597",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4482?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4482?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c2fc62f314b98fe1.json",
+  "bytes": 2174,
+  "sha256": "4750f36112c32ae36cf1f0b9d088d0c1d5fff68617694e93e2931204433984c2",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4484?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4484?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/f6320f2171535fe4.json",
+  "bytes": 3274,
+  "sha256": "c8a0fd3797ba20b2cb69dc7f76a2d70f1eb086b15a5a25028bc2abb1357fcee8",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5624494db3cd3523.json",
+  "bytes": 2499,
+  "sha256": "e9c12766ba800e0cf5ae442593a332a1e321b8a8584bc4435bcbcab7e3a7003d",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4493?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4493?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/cfcd65837cb22fae.json",
+  "bytes": 1849,
+  "sha256": "699a09f0de2ff384a77dc50d6e0b653b11b9df1ff48e494dbf4ab93c65559687",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4494?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4494?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/28699e7f71dc9b52.json",
+  "bytes": 14214,
+  "sha256": "cf4addbe1d861a3336732988afd73a591ffb0d8a589c90cf1b9ec3869d900e09",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4497?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4497?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5c621f48614d66d4.json",
+  "bytes": 5870,
+  "sha256": "004268d1058db5121c1a7c7de2f4aab435cd6975def549bfa2b4a526d34dbd20",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/4499?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/4499?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/f02c063c91247f60.json",
+  "bytes": 14739,
+  "sha256": "8495dc6939d554be9c77066e64a0ce75557b2970018d9358835bef8b02afa326",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5200?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/607758aa3dc5f9a8.json",
+  "bytes": 34876,
+  "sha256": "3b521b6732be5d47a63724522388fe02d1dc46c0f0b61888132a9fac28d3f6f2",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5201?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5201?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5abb18fe09ff9537.json",
+  "bytes": 6089,
+  "sha256": "7ec34ac1b2a5ad0a6bfa5c47e24a86502f96285028d4875fe35e84333a51a2d1",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5202?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5202?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c40b8dd1262da9ff.json",
+  "bytes": 4365,
+  "sha256": "4a54d371c4913995e4f7158bab7375be787d5b4880bd249f539e0d6dcd7eec50",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5208?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5208?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/cd20dfd69694313b.json",
+  "bytes": 32116,
+  "sha256": "3b337dde2bbd12f08522f19c1bd66947a1a84889daf7551809611d901dfca7b6",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5209?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5209?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/01c6846ee941d405.json",
+  "bytes": 5506,
+  "sha256": "771761a6adc3efaf0f5fd4d6748f1657451c8589b74b50940c5ae4945a96fb2a",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5210?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5210?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/efa82bd2ac50139a.json",
+  "bytes": 3294,
+  "sha256": "f2956ad8b93d41a12da76d1857c8573ab13433393fbf9de3d1308044343cc579",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5211?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5211?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/be4a6d34c82d76a3.json",
+  "bytes": 1724,
+  "sha256": "04e1f0f1eb6a2a5b81ac9988c9decfb20d74a349d1cd48020e9448867d495644",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5212?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5212?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/fd7184c3d7a15cd2.json",
+  "bytes": 2457,
+  "sha256": "d95afa126d1ef5f7b748bd213c0c19a8c8c5f5f004999a6ecca685d0fb10a8a5",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5213?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5213?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/4e0c9416f18cad95.json",
+  "bytes": 2516,
+  "sha256": "99968f9e93be01f9294fdfa08056a0f6b79a3270332b0365a17abfd44a950bdd",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5215?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5215?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/67622ac5c748deed.json",
+  "bytes": 1188,
+  "sha256": "bd96d42f6cf1827e2f8759e104050b202c391074c1f1fa887055dc4acde80dbb",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/2af027ade786d9e3.json",
+  "bytes": 2858,
+  "sha256": "531c81ac08952287719537357b6b1ee772909ec99a3586c8252c4fe9db2b66ef",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5218?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5218?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/526eb9fb5d74d5e9.json",
+  "bytes": 2396,
+  "sha256": "e86785faa0787622a5bb64700c45ee78014ca9e9a973614444dfca6298d54d0f",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5222?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5222?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/716ccda1ad07a198.json",
+  "bytes": 1684,
+  "sha256": "bb5b706d664d40441e06220c594e9f7afaed12d07e4d1520a8539167cc2340bf",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/5229?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/5229?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/4ff56d4f70b94282.json",
+  "bytes": 3007,
+  "sha256": "4abbd6612cb4db120eeacff73575a852803bc772fcd54cdaa95181b6dcebcb94",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6171?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6171?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c335102b583fa8d9.json",
+  "bytes": 12608,
+  "sha256": "501fc0805884e8322e8ee71cf977250487d7728b9fad1e71faa2ce5df9cd8228",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6172?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6172?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/803386bbf9d5edc7.json",
+  "bytes": 7162,
+  "sha256": "0a0bb1df6907f17ffd874c205af23737ff2cfcdba7baea895171f0760564c961",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6174?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6174?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5088528e09344834.json",
+  "bytes": 2492,
+  "sha256": "ffbbf91beb8198e79c65432ae8b4b4492f489dc81777e416f269e332a262bf05",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/36ca2f1aec498927.json",
+  "bytes": 7184,
+  "sha256": "38af8b13c0ade97ad579a993f344abe43aa7ad11c10809d3e370c40667329696",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6180?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6180?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/f0e9e886274003cf.json",
+  "bytes": 6691,
+  "sha256": "c62193f8c5fb851ef9c3f2fefbcd8d30199837511cc0276ff6620173d54a45e0",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6181?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6181?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b2003b5b142c02e1.json",
+  "bytes": 3726,
+  "sha256": "b54dd9c5801f7dd6d924b47e8d33c3e56f1cdce0559d0361df92bcead6be01f0",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6184?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6184?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6301d97f78ef86ac.json",
+  "bytes": 2499,
+  "sha256": "a7ff77edadea76b4a9f8d3829d5dd9cf2d6ebae1fcf058cb9a0576646d37bdd4",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6186?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6186?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/f07c90219c1708a8.json",
+  "bytes": 1874,
+  "sha256": "34c145bfd6ab8153482cb5d76e70f65eb1a66c9529ac10e36f550a742b3c2505",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6187?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6187?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/79b2bcd908db5e48.json",
+  "bytes": 4166,
+  "sha256": "8e712c0366ca758520160c68b6b6acfa1c3b5b54725d7a69d87f8fa278cd63aa",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6400?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6400?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8639588a973242af.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/6409?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/6409?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/a6842e27a46a80dc.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7017?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7017?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/63a54a886e44a1e9.json",
+  "bytes": 16489,
+  "sha256": "d97990cb44dfa83f250fb01d1c2f62c29261d8f51b655fbb6e67e7a6e45951fb",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7020?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7020?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/808365c50932343d.json",
+  "bytes": 1239,
+  "sha256": "7f3e736acc18bb87bf64238e4348ff2fd9a5f0d40da79c0c6586d151cfcd745d",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7021?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7021?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6c08340aad007312.json",
+  "bytes": 2698,
+  "sha256": "639730ddd7de1a16321512e0fce488f8b60b00d0901329fdb1fec49c6aef7c9f",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7023?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7023?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/4647a66809301385.json",
+  "bytes": 2632,
+  "sha256": "0349b2e2e85c601a90e3c8d2e00b996ee0c2859aedbf9b76a65df34b02daa9fc",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7024?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7024?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/eb3e40a2f53f6722.json",
+  "bytes": 6132,
+  "sha256": "d4bf251334e56b35a4e5e72aa7661278520e129e0ae0a381e233069cdca12966",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7025?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7025?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8afb4658f21e306e.json",
+  "bytes": 3584,
+  "sha256": "ae9967e41f68f7baca09b434abd00ad7e64aa9235dd771e2c5680c08a932e0d6",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7026?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7026?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/ed5632570ddafc91.json",
+  "bytes": 1377,
+  "sha256": "7efaddd292d2f4ca7424e81120eaa9a95b9ad2f482327c016898d561b6d38787",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7028?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7028?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5d1381d5487bf237.json",
+  "bytes": 7350,
+  "sha256": "6b25586819eec634dc55d9117d12ac3dc0613966e6d3d34ad64b1da65cc69a79",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7029?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7029?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/21bfbfd9432ae9d5.json",
+  "bytes": 1563,
+  "sha256": "62749866860d2d49b235d3fb2b770f21efe82393c613f4dfdd6396e502b514fd",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7031?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7031?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b251cc4b418a521e.json",
+  "bytes": 4186,
+  "sha256": "57510f0f4d7bf7d1e2221a09870c461e279148f36fd0cb8576a60e500f14ffc9",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7034?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7034?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/444b4589c0d8f6c4.json",
+  "bytes": 2738,
+  "sha256": "663e5cdc306ccddee31f779b2f9dc1d99f17668071f94759d0251f17a9c5c2e7",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7761?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7761?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c1940bcb52019b2a.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7763?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/7763?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/c97e9c494226efb5.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8632?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8632?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/37008b4e775c1e79.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8900?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8900?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/1c064b4b23898e70.json",
+  "bytes": 2195,
+  "sha256": "7c407ba8c5ada6c63db7b1a8ec362142d0dc638cf9a9a828887cc959ab71edd1",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8903?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8903?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/98b9bf3faa43253d.json",
+  "bytes": 5013,
+  "sha256": "9c580795d0f101293428df51537dc89dc180e34d88c185c7d08ed6ba68f74332",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8904?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8904?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/a7bc3d8ce370120c.json",
+  "bytes": 4801,
+  "sha256": "43444deae23617bb566d656c9562138945627fe2a255ae9754cc6df2ca787691",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8905?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8905?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/506c37a12d86886e.json",
+  "bytes": 2464,
+  "sha256": "8dfe38bf16fcd94c35a14ad923cef401a96c4d0996e5334463c615c632256fe6",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8906?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8906?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/56aa4130429f3679.json",
+  "bytes": 4679,
+  "sha256": "a9da0ee28d6a48a6356ee268c2ba0031479f53333f2e60c4d6555abc824a001c",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8907?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8907?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/553ae282adf9dc75.json",
+  "bytes": 28828,
+  "sha256": "6bd871a6adc285f2c4bd3cdab8b61f7fbb34824e3a902740b4a3eae33d26ab94",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/150cd17aad954f87.json",
+  "bytes": 2703,
+  "sha256": "8c2b2f33b2fe8a294a33f41cba90a9c178b34a121a5a95319a6b416b946ee946",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8919?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8919?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/6e75c91841729ccb.json",
+  "bytes": 2738,
+  "sha256": "54733671086f68e8556671d714c0cab48109f5eb9ff7ab6673de24268362542f",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/8999?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/8999?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/dbbc9eb54599b636.json",
+  "bytes": 1337,
+  "sha256": "1fd022e2bb3aeccd13b510249270661d4cca33ffaec59e5421a791858f8bdf98",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9348?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9348?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/8a7281c0b0c7c1d6.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9349?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9349?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/b683752e3e138c78.json",
+  "bytes": 47,
+  "sha256": "c19b50aa17eada8474a3440cf760b45c4a7e82973efe48292be2f4752843659e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9562?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9562?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5cb68d0deaf231a8.json",
+  "bytes": 4171,
+  "sha256": "e9dd0044b4897632f9bd339ed9377ad765840c33998b67bf04721749be12f18c",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/f49b479f2671fa51.json",
+  "bytes": 2562,
+  "sha256": "a6792ba24854bc6f5bfdc5ae7839085d6866bafb88e2094c95d85c519acd9194",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9566?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9566?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/2c1e6afc401e5f56.json",
+  "bytes": 4665,
+  "sha256": "59e684566f06720edf3fec20cdc9e13fd360e074199b69dca2134ea83d48c45e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9570?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9570?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/66d184ba5a4e6bfb.json",
+  "bytes": 4386,
+  "sha256": "28a5d190236b574f06fa167858d83542aa018985f83eaf217b16ad336c9dff2e",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9572?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9572?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/95ed6252eee8cb96.json",
+  "bytes": 6820,
+  "sha256": "32d9d8a5524fbe68c0e73d8f263e0c4afbc244d8be6dcf5d35b8865b4d496f79",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9573?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9573?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/bb6242bb154ab6e9.json",
+  "bytes": 1516,
+  "sha256": "04e73406f6890adcd4d8a841cda763dbecdbbba692426311df947967b0c81776",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9574?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9574?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/0ab296a8041676d9.json",
+  "bytes": 8256,
+  "sha256": "161109d31124a77ff1371e91e4c7d51ddaa2d6ebdcd5e4ff7f43fcaf50cac83d",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9575?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9575?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/480e32ddae7010a8.json",
+  "bytes": 1486,
+  "sha256": "0740d21b656b492b23c0a6cb80f4ee05c70db752e4f36b745df3a5f77b5c466f",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9577?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9577?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/199dc04e3f11c329.json",
+  "bytes": 9196,
+  "sha256": "0921a9fdb9086bcc05a073b01fea59b96c2be052ca0d06c22df65c175a3a032a",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9578?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9578?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/badeb4a1a3541668.json",
+  "bytes": 2222,
+  "sha256": "b896f58bd3f6d0446247e70f383ae85d35c0802045b2f751647ae8d2d7f49fb1",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/5996e3bcad524c6e.json",
+  "bytes": 5305,
+  "sha256": "0351533b950c06e2d27ec8d2af90b934d95d475c2a20a45f17f8fbe5449e3d1c",
+  "source": "direct"
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/9582?lang=en-us&code=arknights_endfield_official",
+  "key": "web-news.gryphline.com/api/bulletin/9582?lang=en-us&code=arknights_endfield_official",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/9062d5616fddbe45.json",
+  "bytes": 4469,
+  "sha256": "700a55f145ec45733f40135af0935f84567564d1ff4c0543e16f22de2c9f24e5",
+  "source": "direct"
+ },
+ {
+  "url": "https://endfield.gryphline.com/api/content/info_video?lang=en-us&page=2&pageSize=10",
+  "key": "endfield.gryphline.com/api/content/info_video?lang=en-us&page=2&pageSize=10",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/76f3b22708b3d054.json",
+  "bytes": 5904,
+  "sha256": "487783eaa8c4ef879c111f6c3f38105ce5f9343d6de7807d51c255f45d6b626d",
+  "source": "direct"
+ },
+ {
+  "url": "https://endfield.gryphline.com/api/content/info_video?lang=en-us&page=3&pageSize=10",
+  "key": "endfield.gryphline.com/api/content/info_video?lang=en-us&page=3&pageSize=10",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "file": "archive/api/3c44fdc1db4df78c.json",
+  "bytes": 3962,
+  "sha256": "da773137a123e881de27faf8c1e4788ed6b538c9f0b13eb7f1b79427540f6c59",
+  "source": "direct"
+ }
+]

@@ -128,6 +128,7 @@
   "javascript",
   "unrendered",
   "coverage",
-  "blueprint"
+  "blueprint",
+  "originals"
  ]
 }
