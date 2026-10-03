@@ -5,7 +5,7 @@
 //   render with their own shipped CSS. No authored CSS, classes, wrappers or animation code.
 // - handbook/handbook-bulletin.json: the bulletin record with the handbook as its `data` HTML.
 // - handbook/coverage.json: which components are used where (proof of coverage).
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { root, data, p, h, br, a, link, esc, t, table } from './handbook/lib.mjs';
 import { chapters as A } from './handbook/chapters-a.mjs';
@@ -62,7 +62,9 @@ writeFileSync(join(root, 'handbook/index.html'), shell);
 // The repository root is the Pages site root, so the shell lives at /index.html and the content's
 // root-absolute links (/capture, /source, /analysis, /verification) get the base prefix; links to the
 // mirrored original routes (/en-us…) point at the live site because a static host cannot proxy them.
-const PAGES_BASE = (process.argv.find(a => a.startsWith('--base=')) || '--base=/Endfield-Site-DNA').slice(7).replace(/\/$/, '');
+// With a custom domain (root CNAME file) GitHub serves the site at the domain root, so the base path is empty.
+const CNAME = existsSync(join(root, 'CNAME')) ? readFileSync(join(root, 'CNAME'), 'utf8').trim() : '';
+const PAGES_BASE = (process.argv.find(a => a.startsWith('--base=')) || ('--base=' + (CNAME ? '' : '/Endfield-Site-DNA'))).slice(7).replace(/\/$/, '');
 // A static host has no directory listings, so links to folders go to the repository tree on GitHub.
 const REPO_URL = (process.argv.find(a => a.startsWith('--repo=')) || '--repo=https://github.com/Calyndrae/Endfield-Site-DNA').slice(7).replace(/\/$/, '');
 const pagesContent = CONTENT.replace(/href="\/([^"]*\/)"/g, (m, dir) => `href="${REPO_URL}/tree/main/${dir.replace(/\/$/, '')}"`).replace(/(src|href)="\/(?!\/)/g, (m, attr) => `${attr}="${PAGES_BASE}/`).replace(new RegExp(`href="${PAGES_BASE.replace(/[/.]/g, '\\$&')}/en-us`, 'g'), 'href="https://endfield.gryphline.com/en-us');
@@ -72,5 +74,5 @@ writeFileSync(join(root, 'handbook/handbook-bulletin.pages.json'), JSON.stringif
 mkdirSync(join(root, 'en-us/news/7013'), { recursive: true });
 writeFileSync(join(root, 'en-us/news/7013/index.html'), shell.replace('location.origin + "/handbook/handbook-bulletin.json"', `location.origin + "${PAGES_BASE}/handbook/handbook-bulletin.pages.json"`));
 writeFileSync(join(root, 'index.html'), `<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=en-us/news/7013/"><title>Endfield site DNA</title><a href="en-us/news/7013/">Endfield website DNA — technical handbook</a>`);
-console.log(`pages variant: en-us/news/7013/index.html (+ root redirect) + handbook/handbook-bulletin.pages.json (base ${PAGES_BASE})`);
+console.log(`pages variant: en-us/news/7013/index.html (+ root redirect) + handbook/handbook-bulletin.pages.json (base "${PAGES_BASE}"${CNAME ? ', custom domain ' + CNAME : ''})`);
 console.log(`built: ${chapters.length} chapters, ${CONTENT.length} chars of content, ${Object.keys(coverage).length}/${Object.keys(data.cssComponents).length} components embedded; original title was "${originalTitle}"`);

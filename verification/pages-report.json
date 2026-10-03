@@ -1,26 +1,26 @@
 {
- "base": "/Endfield-Site-DNA",
- "at": "2026-10-03T19:48:57.982Z",
+ "base": "",
+ "at": "2026-10-03T20:06:54.944Z",
  "results": [
   {
    "name": "root index.html redirects to the article path the shell needs",
    "ok": true,
-   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/en-us/news/7013/"
+   "detail": "http://127.0.0.1:8790/en-us/news/7013/"
   },
   {
    "name": "handbook data fetched from the base-prefixed static path",
    "ok": true,
-   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/handbook/handbook-bulletin.pages.json"
+   "detail": "http://127.0.0.1:8790/handbook/handbook-bulletin.pages.json"
   },
   {
    "name": "first-load screen finished and left on a static host",
    "ok": true,
-   "detail": "9195 ms"
+   "detail": "9520 ms"
   },
   {
    "name": "page URL kept the Pages base path (no client-side redirect)",
    "ok": true,
-   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/en-us/news/7013/"
+   "detail": "http://127.0.0.1:8790/en-us/news/7013/"
   },
   {
    "name": "handbook title rendered",
