@@ -1,0 +1,70 @@
+{
+ "base": "/Endfield-Site-DNA",
+ "at": "2026-10-03T19:48:57.982Z",
+ "results": [
+  {
+   "name": "root index.html redirects to the article path the shell needs",
+   "ok": true,
+   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/en-us/news/7013/"
+  },
+  {
+   "name": "handbook data fetched from the base-prefixed static path",
+   "ok": true,
+   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/handbook/handbook-bulletin.pages.json"
+  },
+  {
+   "name": "first-load screen finished and left on a static host",
+   "ok": true,
+   "detail": "9195 ms"
+  },
+  {
+   "name": "page URL kept the Pages base path (no client-side redirect)",
+   "ok": true,
+   "detail": "http://127.0.0.1:8790/Endfield-Site-DNA/en-us/news/7013/"
+  },
+  {
+   "name": "handbook title rendered",
+   "ok": true,
+   "detail": "Endfield website DNA — technical handbook (single page)"
+  },
+  {
+   "name": "every content image with a src resolves under the base path",
+   "ok": true,
+   "detail": {
+    "count": 41,
+    "withoutSrc": 0,
+    "broken": []
+   }
+  },
+  {
+   "name": "every root-relative content link carries the base path",
+   "ok": true,
+   "detail": {
+    "local": 126,
+    "stray": []
+   }
+  },
+  {
+   "name": "linked files exist on the static host (first 40 unique)",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "embedded specimens render with non-zero size",
+   "ok": true,
+   "detail": 13
+  },
+  {
+   "name": "no JavaScript errors other than the site's own React #418 hydration notice",
+   "ok": true,
+   "detail": [
+    "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+   ]
+  },
+  {
+   "name": "no failed same-origin requests other than the site's own API/SDK/Cloudflare-beacon calls (expected on a static host)",
+   "ok": true,
+   "detail": []
+  }
+ ]
+}
