@@ -1,0 +1,3 @@
+// module 65481 from 491-d00f740e9c6ed637.js
+// deps: 10020
+const module_65481 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"hasInterceptionRouteInCurrentTree",{enumerable:!0,get:function(){return function e(t){let[r,o]=t;if(Array.isArray(r)&&("di"===r[2]||"ci"===r[2])||"string"==typeof r&&(0,n.isInterceptionRouteAppPath)(r))return!0;if(o){for(let t in o)if(e(o[t]))return!0}return!1}}});let n=r(10020);("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

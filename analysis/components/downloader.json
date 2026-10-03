@@ -1,0 +1,1225 @@
+{
+ "component": "downloader",
+ "files": [
+  "79293df1a997d2da.css"
+ ],
+ "classes": {
+  "downloadContainer": "downloader_downloadContainer__z2AUJ",
+  "decoText": "downloader_decoText__RqIYu",
+  "decoRt": "downloader_decoRt__AQD8n",
+  "decoRb": "downloader_decoRb__Wl3Px",
+  "iconContainer": "downloader_iconContainer__oRDg0",
+  "icon": "downloader_icon__kcnSL",
+  "downloadTitle": "downloader_downloadTitle__cES4Y",
+  "contentContainer": "downloader_contentContainer__gSnGa",
+  "qrcode": "downloader_qrcode__i0rLm",
+  "platforms": "downloader_platforms__qTgeb",
+  "line": "downloader_line__YlNIA",
+  "row": "downloader_row__BPXTj",
+  "item": "downloader_item__ebxpq",
+  "disabled": "downloader_disabled__v_T3t",
+  "hidden": "downloader_hidden__idn8F",
+  "epic": "downloader_epic__OBzwu",
+  "ps5": "downloader_ps5__PbN32",
+  "galaxyStore": "downloader_galaxyStore__fM7NQ",
+  "appStore": "downloader_appStore___xAQu",
+  "android": "downloader_android__T0tmZ",
+  "pc": "downloader_pc__4MUKW",
+  "taptap": "downloader_taptap__rmSxk",
+  "googlePlay": "downloader_googlePlay__5dTJt",
+  "gpg": "downloader_gpg__K8c5G",
+  "windows": "downloader_windows__0lLI2",
+  "download": "downloader_download__3ijH_",
+  "text": "downloader_text__HLbmJ",
+  "label": "downloader_label__oShj8"
+ },
+ "ruleCount": 60,
+ "rules": [
+  {
+   "selector": ".downloader_downloadContainer__z2AUJ",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "max-content !important",
+    "height": "12.5rem",
+    "box-sizing": "border-box",
+    "border-radius": ".25rem",
+    "background-color": "rgba(0,0,0,.5)",
+    "border-left": ".9375rem solid rgba(0,0,0,.5)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_downloadContainer__z2AUJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "max-content",
+    "height": "max-content",
+    "border-left": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_downloadContainer__z2AUJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "28.5rem",
+    "height": "8rem",
+    "border-left": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoText__RqIYu",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "4.8125rem",
+    "height": "auto",
+    "left": ".9375rem",
+    "bottom": "1rem",
+    "color": "#7e7e7e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoText__RqIYu",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "1rem",
+    "bottom": "1rem",
+    "color": "#b8b8b8",
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_decoText__RqIYu",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoRt__AQD8n",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "2.625rem",
+    "height": "auto",
+    "top": "1.3125rem",
+    "right": "1.5625rem",
+    "color": "#7e7e7e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoRt__AQD8n",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "1.125rem",
+    "right": "1.5625rem",
+    "color": "#b8b8b8",
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_decoRt__AQD8n",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "1.5rem",
+    "right": "1.5625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoRb__Wl3Px",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": ".5625rem",
+    "height": "auto",
+    "bottom": "1rem",
+    "right": "12.75rem",
+    "color": "#7e7e7e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_decoRb__Wl3Px",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "bottom": "1rem",
+    "right": "14.8125rem",
+    "color": "#b8b8b8"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_decoRb__Wl3Px",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": ".4375rem",
+    "right": "14rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_iconContainer__oRDg0",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "1.6875rem",
+    "height": "1.6875rem",
+    "left": ".9375rem",
+    "top": "1.125rem",
+    "border-radius": ".1875rem",
+    "background-color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_iconContainer__oRDg0",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "2rem",
+    "height": "2rem",
+    "left": ".875rem",
+    "top": "1rem",
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_iconContainer__oRDg0 .downloader_icon__kcnSL",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": "50%",
+    "transform": "translate(-50%,-50%)",
+    "width": "1.125rem",
+    "height": "auto",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_iconContainer__oRDg0 .downloader_icon__kcnSL",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "1.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_downloadTitle__cES4Y",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": ".9375rem",
+    "left": "3.25rem",
+    "font-size": "1.375rem",
+    "line-height": "2.25rem",
+    "height": "2.25rem",
+    "font-family": "SansMedium",
+    "color": "#fff",
+    "border-left": "2px solid #4d4d4d",
+    "padding-left": ".625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_downloadTitle__cES4Y",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none",
+    "top": "1.0625rem",
+    "left": "3.5rem",
+    "font-size": "1.875rem",
+    "height": "1.875rem",
+    "line-height": "1",
+    "padding-left": ".4375rem",
+    "border-left": "1px solid #999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_downloadTitle__cES4Y",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "1rem",
+    "font-size": "1.5rem",
+    "padding-top": ".3125rem",
+    "height": "2rem",
+    "box-sizing": "border-box"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_contentContainer__gSnGa",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "padding-left": ".9375rem",
+    "padding-right": "1.125rem",
+    "padding-top": "3.6875rem",
+    "width": "max-content",
+    "display": "flex",
+    "gap": "1.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_contentContainer__gSnGa",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding": "1rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_contentContainer__gSnGa .downloader_qrcode__i0rLm",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "7.75rem",
+    "height": "7.75rem",
+    "-webkit-mask-size": "100% 100%",
+    "mask-size": "100% 100%",
+    "-webkit-mask-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png)",
+    "mask-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png)",
+    "-webkit-mask-repeat": "no-repeat",
+    "mask-repeat": "no-repeat",
+    "-webkit-mask-position": "center",
+    "mask-position": "center",
+    "background-color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_contentContainer__gSnGa .downloader_qrcode__i0rLm",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_contentContainer__gSnGa .downloader_qrcode__i0rLm",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_platforms__qTgeb",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "max-content",
+    "display": "flex",
+    "gap": ".625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_platforms__qTgeb .downloader_line__YlNIA",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "gap": ".625rem",
+    "flex-direction": "column"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_platforms__qTgeb .downloader_line__YlNIA",
+   "media": [],
+   "declarations": {
+    "flex-direction": "row"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_platforms__qTgeb .downloader_row__BPXTj",
+   "media": [],
+   "declarations": {
+    "width": "max-content",
+    "display": "flex",
+    "flex-direction": "column",
+    "gap": ".625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "min-width": "12.25rem",
+    "height": "3.625rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "gap": ".75rem",
+    "cursor": "pointer",
+    "background-color": "#000",
+    "border-radius": ".4375rem",
+    "box-sizing": "border-box",
+    "transition": "background-color .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq.downloader_disabled__v_T3t",
+   "media": [],
+   "declarations": {
+    "cursor": "not-allowed",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#222"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq:active",
+   "media": [],
+   "declarations": {
+    "background-color": "#333"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "min-width": "19.0625rem",
+    "height": "6rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq",
+   "media": [],
+   "declarations": {
+    "border": "1px solid #8f8f8f",
+    "transition": "background-color .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#222"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq:active",
+   "media": [],
+   "declarations": {
+    "background-color": "#333"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "min-width": "20rem",
+    "height": "6rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq.downloader_hidden__idn8F",
+   "media": [],
+   "declarations": {
+    "opacity": "0",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_epic__OBzwu",
+   "media": [],
+   "declarations": {
+    "width": "6.3125rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_ps5__PbN32",
+   "media": [],
+   "declarations": {
+    "width": "7.5rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_galaxyStore__fM7NQ",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": "2.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_galaxyStore__fM7NQ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "3.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": "3.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "5.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[lang=zh-cn] .downloader_item__ebxpq img.downloader_appStore___xAQu,html[lang=zh-tw] .downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [],
+   "declarations": {
+    "height": "3.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[lang=zh-cn] .downloader_item__ebxpq img.downloader_appStore___xAQu,html[lang=zh-tw] .downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "6.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[lang=es-mx] .downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [],
+   "declarations": {
+    "height": "3.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[lang=es-mx] .downloader_item__ebxpq img.downloader_appStore___xAQu",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "5.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_android__T0tmZ",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_pc__4MUKW",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": "2.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_taptap__rmSxk",
+   "media": [],
+   "declarations": {
+    "width": "8.5rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_taptap__rmSxk",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "12.1875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_googlePlay__5dTJt",
+   "media": [],
+   "declarations": {
+    "height": "100%",
+    "width": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_gpg__K8c5G",
+   "media": [],
+   "declarations": {
+    "padding": "0 .75rem",
+    "width": "auto",
+    "height": "1.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_windows__0lLI2",
+   "media": [],
+   "declarations": {
+    "width": "auto",
+    "height": "1.875rem",
+    "filter": "brightness(0) invert(1)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq img.downloader_download__3ijH_",
+   "media": [],
+   "declarations": {
+    "width": "5.1875rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_text__HLbmJ",
+   "media": [],
+   "declarations": {
+    "font-family": "SansRegular",
+    "color": "#fff",
+    "font-size": "1.375rem",
+    "line-height": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_text__HLbmJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "2.0625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_label__oShj8",
+   "media": [],
+   "declarations": {
+    "margin-top": "-.125rem",
+    "margin-bottom": "-.625rem",
+    "margin-right": "-50%",
+    "font-family": "SansRegular",
+    "color": "#fff",
+    "font-size": "1.625rem",
+    "line-height": "1",
+    "transform": "scale(.5)",
+    "transform-origin": "left center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq .downloader_label__oShj8",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  }
+ ],
+ "markup": "<div class=\"pc-oversea_downloadContainer__jrv9L downloader_downloadContainer__z2AUJ\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 10\" class=\"downloader_decoRt__AQD8n\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M23.663,3.332 L23.663,0.445 L31.361,0.445 L31.361,3.332 L23.663,3.332 ZM17.963,4.058 C16.941,4.058 16.113,3.250 16.113,2.252 C16.113,1.254 16.941,0.445 17.963,0.445 C18.985,0.445 19.813,1.254 19.813,2.252 C19.813,3.250 18.985,4.058 17.963,4.058 ZM12.782,9.117 C11.760,9.117 10.931,8.308 10.931,7.310 C10.931,6.313 11.760,5.504 12.782,5.504 C13.804,5.504 14.632,6.313 14.632,7.310 C14.632,8.308 13.804,9.117 12.782,9.117 ZM12.782,4.058 C11.760,4.058 10.931,3.250 10.931,2.252 C10.931,1.254 11.760,0.445 12.782,0.445 C13.804,0.445 14.632,1.254 14.632,2.252 C14.632,3.250 13.804,4.058 12.782,4.058 ZM7.601,9.117 C6.579,9.117 5.750,8.308 5.750,7.310 C5.750,6.313 6.579,5.504 7.601,5.504 C8.622,5.504 9.451,6.313 9.451,7.310 C9.451,8.308 8.622,9.117 7.601,9.117 ZM7.601,4.058 C6.579,4.058 5.750,3.250 5.750,2.252 C5.750,1.254 6.579,0.445 7.601,0.445 C8.622,0.445 9.451,1.254 9.451,2.252 C9.451,3.250 8.622,4.058 7.601,4.058 ZM2.419,9.117 C1.397,9.117 0.569,8.308 0.569,7.310 C0.569,6.313 1.397,5.504 2.419,5.504 C3.441,5.504 4.270,6.313 4.270,7.310 C4.270,8.308 3.441,9.117 2.419,9.117 ZM2.419,4.058 C1.397,4.058 0.569,3.250 0.569,2.252 C0.569,1.254 1.397,0.445 2.419,0.445 C3.441,0.445 4.270,1.254 4.270,2.252 C4.270,3.250 3.441,4.058 2.419,4.058 Z\"></path></svg><div class=\"downloader_iconContainer__oRDg0\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"downloader_icon__kcnSL\" viewBox=\"0 0 28 29\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M20.836,14.872 L20.836,0.013 L7.162,0.013 L7.162,7.976 L13.999,14.872 L-0.006,14.872 L13.999,28.999 L28.004,14.872 L20.836,14.872 Z\"></path></svg></div><div class=\"downloader_downloadTitle__cES4Y\">Download</div><div class=\"downloader_contentContainer__gSnGa\"><div class=\"downloader_qrcode__i0rLm\"></div><div class=\"downloader_platforms__qTgeb\"><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq\"><img class=\"downloader_appStore___xAQu\" alt=\"App Store\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/appStore.e038801b.png\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_ps5__PbN32\" alt=\"PS5\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ps5.ff9ebc6a.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq\"><img class=\"downloader_googlePlay__5dTJt\" alt=\"Google Play\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/googlePlay.769131d6.png\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_windows__0lLI2\" alt=\"Windows\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/windows.f03ec02f.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq downloader_hidden__idn8F\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_gpg__K8c5G\" alt=\"GPG\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gpg.37836d7a.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq downloader_hidden__idn8F\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_epic__OBzwu\" alt=\"Epic\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/epic.7b9f0f97.png\"></div></div></div></div></div>",
+ "markupPage": "en-us",
+ "markupClass": "downloader_downloadContainer__z2AUJ",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "downloader_appStore___xAQu": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 932.96875,
+    "y": 785.25,
+    "width": 90.921875,
+    "height": 30.375,
+    "top": 785.25,
+    "right": 1023.890625,
+    "bottom": 815.625,
+    "left": 932.96875
+   },
+   "text": "",
+   "display": "block",
+   "width": "90.9219px",
+   "height": "30.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_contentContainer__gSnGa": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 914.875,
+    "y": 750.9375,
+    "width": 497.5625,
+    "height": 104.0625,
+    "top": 750.9375,
+    "right": 1412.4375,
+    "bottom": 855,
+    "left": 914.875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "479px",
+   "height": "70.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "33.1875px 10.125px 0px 8.4375px",
+   "gap": "15.75px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_downloadContainer__z2AUJ": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 906.875,
+    "y": 750.9375,
+    "width": 505.5625,
+    "height": 112.5,
+    "top": 750.9375,
+    "right": 1412.4375,
+    "bottom": 863.4375,
+    "left": 906.875
+   },
+   "text": "Download",
+   "position": "relative",
+   "display": "block",
+   "width": "505.562px",
+   "height": "112.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border-radius": "2.25px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_downloadTitle__cES4Y": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 944.125,
+    "y": 759.375,
+    "width": 67.625,
+    "height": 20.25,
+    "top": 759.375,
+    "right": 1011.75,
+    "bottom": 779.625,
+    "left": 944.125
+   },
+   "text": "Download",
+   "position": "absolute",
+   "display": "block",
+   "width": "60px",
+   "height": "20.25px",
+   "top": "8.4375px",
+   "left": "29.25px",
+   "right": "400.688px",
+   "bottom": "83.8125px",
+   "font-family": "SansMedium",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "20.25px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "padding": "0px 0px 0px 5.625px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_epic__OBzwu": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 1318.78125,
+    "y": 828.53125,
+    "width": 56.8125,
+    "height": 20.3125,
+    "top": 828.53125,
+    "right": 1375.59375,
+    "bottom": 848.84375,
+    "left": 1318.78125
+   },
+   "text": "",
+   "display": "block",
+   "width": "56.8125px",
+   "height": "20.3125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_googlePlay__5dTJt": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 1042.65625,
+    "y": 785.125,
+    "width": 103.296875,
+    "height": 30.625,
+    "top": 785.125,
+    "right": 1145.953125,
+    "bottom": 815.75,
+    "left": 1042.65625
+   },
+   "text": "",
+   "display": "block",
+   "width": "103.297px",
+   "height": "30.625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_gpg__K8c5G": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 1156.0625,
+    "y": 830.8125,
+    "width": 129.375,
+    "height": 15.75,
+    "top": 830.8125,
+    "right": 1285.4375,
+    "bottom": 846.5625,
+    "left": 1156.0625
+   },
+   "text": "",
+   "display": "block",
+   "width": "115.875px",
+   "height": "15.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 6.75px",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_hidden__idn8F": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1155.0625,
+    "y": 784.125,
+    "width": 131.375,
+    "height": 32.625,
+    "top": 784.125,
+    "right": 1286.4375,
+    "bottom": 816.75,
+    "left": 1155.0625
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "131.375px",
+   "height": "32.625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "0",
+   "transition": "background-color 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(143, 143, 143)",
+   "border-radius": "3.9375px",
+   "gap": "6.75px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_iconContainer__oRDg0": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 923.3125,
+    "y": 761.0625,
+    "width": 15.1875,
+    "height": 15.1875,
+    "top": 761.0625,
+    "right": 938.5,
+    "bottom": 776.25,
+    "left": 923.3125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "15.1875px",
+   "height": "15.1875px",
+   "top": "10.125px",
+   "left": "8.4375px",
+   "right": "473.938px",
+   "bottom": "87.1875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 250, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "1.6875px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_item__ebxpq": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 923.3125,
+    "y": 784.125,
+    "width": 110.25,
+    "height": 32.625,
+    "top": 784.125,
+    "right": 1033.5625,
+    "bottom": 816.75,
+    "left": 923.3125
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "110.25px",
+   "height": "32.625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "background-color 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(143, 143, 143)",
+   "border-radius": "3.9375px",
+   "gap": "6.75px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_platforms__qTgeb": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 923.3125,
+    "y": 784.125,
+    "width": 479,
+    "height": 70.875,
+    "top": 784.125,
+    "right": 1402.3125,
+    "bottom": 855,
+    "left": 923.3125
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "479px",
+   "height": "70.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "gap": "5.625px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_ps5__PbN32": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 944.6875,
+    "y": 831.265625,
+    "width": 67.5,
+    "height": 14.84375,
+    "top": 831.265625,
+    "right": 1012.1875,
+    "bottom": 846.109375,
+    "left": 944.6875
+   },
+   "text": "",
+   "display": "block",
+   "width": "67.5px",
+   "height": "14.8438px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_qrcode__i0rLm": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "width": "69.75px",
+   "height": "69.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png\")",
+   "mask-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png\")",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_row__BPXTj": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 923.3125,
+    "y": 784.125,
+    "width": 110.25,
+    "height": 70.875,
+    "top": 784.125,
+    "right": 1033.5625,
+    "bottom": 855,
+    "left": 923.3125
+   },
+   "text": "",
+   "display": "flex",
+   "width": "110.25px",
+   "height": "70.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "gap": "5.625px",
+   "writing-mode": "horizontal-tb"
+  },
+  "downloader_windows__0lLI2": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 1054.453125,
+    "y": 830.25,
+    "width": 79.703125,
+    "height": 16.875,
+    "top": 830.25,
+    "right": 1134.15625,
+    "bottom": 847.125,
+    "left": 1054.453125
+   },
+   "text": "",
+   "display": "block",
+   "width": "79.7031px",
+   "height": "16.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "filter": "brightness(0) invert(1)",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [
+  {
+   "page": "en-us",
+   "cls": "downloader_item__ebxpq",
+   "diff": {
+    "downloader_item__ebxpq#0#0": {
+     "background-color": {
+      "before": "rgb(0, 0, 0)",
+      "after": "rgb(34, 34, 34)"
+     }
+    }
+   },
+   "transition": "background-color 0.2s"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.5)",
+   "#7e7e7e",
+   "#b8b8b8",
+   "#fffa00",
+   "#191919",
+   "#fff",
+   "#4d4d4d",
+   "#999",
+   "#000",
+   "#222",
+   "#333",
+   "#8f8f8f"
+  ],
+  "fonts": [
+   "SansMedium",
+   "SansRegular"
+  ],
+  "fontSizes": [
+   "1.375rem",
+   "1.875rem",
+   "1.5rem",
+   "2.0625rem",
+   "1.625rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "background-color .2s ease"
+  ]
+ }
+}

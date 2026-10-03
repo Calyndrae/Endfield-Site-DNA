@@ -1,0 +1,62 @@
+{
+ "component": "TransparentVideo",
+ "files": [
+  "6b6d9a58b4c43339.css"
+ ],
+ "classes": {
+  "container": "TransparentVideo_container__Inu2a",
+  "overlay": "TransparentVideo_overlay__oi9EU"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".TransparentVideo_container__Inu2a",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css"
+  },
+  {
+   "selector": ".TransparentVideo_container__Inu2a canvas",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "contain",
+    "object-position": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css"
+  },
+  {
+   "selector": ".TransparentVideo_container__Inu2a .TransparentVideo_overlay__oi9EU",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%",
+    "transform": "translateX(5rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,442 @@
+[
+ {
+  "id": "1162",
+  "name": "Tracking",
+  "file": "Tracking.1162.js",
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytesMinified": 3608,
+  "renames": 53,
+  "unresolvedLeft": 0,
+  "summary": "Static Tracking facade over the Gryphline web SDK. init(lang) builds an ETL config {domain:'endfield', sub_domain:'official', third_domain: 'psn_access_checker'|'access_checker'|'' by pathname, pageProperties:{language, source, share_type, share_by from SdkInit}, config:{appId: etl_app_id}} and obtains sdkReady via getSDKReadyFunc({src: SiteConfig.sdk, language, etl, cookiesReminder:{enabled:true, theme:'dark'}}). Every method awaits sdkReady() and throws 'Invalid SDK configuration.' unless SDK_TYPE === 'GL': insertFooter renders projects.endfield.renderFooter(el), checkAnswerStatus/survey, download, getToken, getUserInfo (user.checkSession -> formatUserInfo with hgId/email/phone or displayName/reservePlatforms), showLoginDialog (user.auth), logout, queryReserve/submitReserve (reservation API for 'endfield'), getProtocol('endfield/game/<name>'), collect (ETL.event), ADcollect (ETL instance for ad_app_code) and jumpURL which appends a 'ua' tracking-code query param and calls projects.endfield.download with ad_landing/mkt properties. SDKInitializer is a render-null component that calls init once with langProp or the context lang."
+ },
+ {
+  "id": "12914",
+  "name": "MediaModal",
+  "file": "MediaModal.12914.js",
+  "chunk": "226-d5292700ff68fd13",
+  "bytesMinified": 1280,
+  "renames": 19,
+  "unresolvedLeft": 0,
+  "summary": "MediaModalStore keeps a zustand store {visible, title, src, onClose} with an activate(title, src, onClose) action; export C is a hook returning that action and export A is the MediaModal component wrapped in the module 44990 `D` container. While visible it disables BackgroundMusic and sends a video_play_start tracking event (video_title, video_url), sending video_play_end on cleanup; when hidden it re-enables music if SoundControlStore is enabled and clears src after 300ms so the iframe unmounts after the close transition. The body renders a close button (SvgIcon29190) and a YouTube iframe with allow 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' and allowFullScreen."
+ },
+ {
+  "id": "14577",
+  "name": "applyRootFontSize",
+  "file": "applyRootFontSize.14577.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 948,
+  "renames": 10,
+  "unresolvedLeft": 0,
+  "summary": "RootFontSizeScaler (export Z) sets the <html> font-size so rem units map to a design canvas: base 16px scaled by height/1920 or width/1080 in portrait (threshold aspect 0.5625) and by height/1440 or width/2560 in landscape (threshold 2560/1440), picking the axis that keeps the canvas fully visible. It caches the last viewport size and skips when unchanged, or when only one dimension changed on a mobile UA (DeviceUtils.Fr) to ignore address-bar resizes. On HarmonyOS/OpenHarmony/bdhonorbrowser/HeyTap/Huawei user agents it rewrites the viewport meta to width=outerWidth*dpr with initial/maximum-scale of 1/dpr, user-scalable=0 and viewport-fit=cover."
+ },
+ {
+  "id": "15723",
+  "name": "isQuarkBrowser",
+  "file": "isQuarkBrowser.15723.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 474,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "DeviceUtils exports eight case-insensitive user-agent regex predicates: I7 MiuiBrowser, TN VivoBrowser, zZ HeyTapBrowser|OppoBrowser, Jc bdhonorbrowser (Honor), B$ Quark, un iPhone|iPad|iPod, Fr Mobi|Android|iPhone|Huawei (generic mobile) and Cb skland (the HyperGryph Skland app webview). OperatorSection uses TN/zZ/I7/B$ to disable the 3D video mode, and RootFontSizeScaler and BackgroundMusic use Fr."
+ },
+ {
+  "id": "21086",
+  "name": "getChargeInfo",
+  "file": "getChargeInfo.21086.js",
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytesMinified": 793,
+  "renames": 21,
+  "unresolvedLeft": 0,
+  "summary": "Axios client for the site's own account endpoints under '/api/account', using baseURL SiteConfig.serverPrefix (empty string), responseType json and a 5000 ms timeout, with the same request/response interceptors as the bulletin client (errors normalized to {statusCode, code, msg}, default msg '请求错误'). getChargeInfo() fetches the SDK token via Tracking.getToken() and POSTs /api/account/charge-info with {token}, returning {total:null, data:null} when no token; getOrigData(serverId, roleToken) POSTs /api/account/orig-data with {roleToken, serverId}."
+ },
+ {
+  "id": "2285",
+  "name": "useSoundControlStore",
+  "file": "useSoundControlStore.2285.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 212,
+  "renames": 3,
+  "unresolvedLeft": 0,
+  "summary": "SoundControlStore (export E) is a zustand store persisted under the localStorage key 'ef-official-sound-control' holding a single `enabled` flag that defaults to true. On the server it is replaced by a stub whose getState() returns {enabled: true} and whose setState() is a no-op. SoundEffects and MediaModal read it to decide whether to play SFX or re-enable background music."
+ },
+ {
+  "id": "25221",
+  "name": "TransVideo",
+  "file": "TransVideo.25221.js",
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytesMinified": 11912,
+  "renames": 185,
+  "unresolvedLeft": 0,
+  "summary": "Hypergryph's @hg-web/trans-video module: it exports a TransVideo class that takes a canvas plus options and plays an MP4 whose frame carries RGB colour in one region and a grayscale alpha mask in another, compositing them into a transparent canvas. Two renderer classes extend a tiny BaseRenderer (canvas, option): WebGLRenderer compiles a fullscreen-quad vertex shader and a mode-specific fragment shader where alpha = 0.3R + 0.59G + 0.11B (getBrightness in GLSL, mirrored by a JS getBrightness for the fallback), uploads each video frame as an RGB texture and draws a TRIANGLE_STRIP with SRC_ALPHA/DST_ALPHA blending; Canvas2DRenderer is the fallback and does the same with drawImage/getImageData/putImageData per pixel. Three modes are supported via mode-handler tables (webglModeHandlers / canvas2dModeHandlers): 'video' samples colour and mask sub-rectangles chosen by texturePlacement (left-right, right-left, top-bottom, bottom-top), 'image' uses a separate mask image (uploaded as TEXTURE1 or precomputed into a maskData array), and 'luminance' uses the frame's own brightness with an optional reverse flag. TransVideo normalises options into modeConfig, picks WebGL unless forceContext2d/context2d is set, computes the output size from the video metadata (halving width or height for side-by-side layouts unless an explicit size is given), waits for loadedmetadata/canplay, seeks to time 0 and waits for 'seeked', then either renders one frame (manualStart) or calls start(). The ticker re-renders whenever the video has current data and reschedules itself via requestVideoFrameCallback, falling back to requestAnimationFrame when that API is missing or on Android; activate/deactivate toggle the loop and dispose releases GL textures, buffers, shaders and programs. Also present are inlined tslib helpers (__extends twice, __read, __spreadArray)."
+ },
+ {
+  "id": "26097",
+  "name": "SOUND_EFFECT_SOURCES",
+  "file": "SOUND_EFFECT_SOURCES.26097.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 1626,
+  "renames": 22,
+  "unresolvedLeft": 0,
+  "summary": "SoundEffects defines the SFX key map (export d) of twelve mp3 files under static/media/sound/: arrow_click, char_click, char_detail_enter, char_list_enter, close_click, common_click, enter_click, home_enter, menu_click, model, news_cate_click and reserve_click. Export A is a SoundEffectPlayer singleton with a pool of 10 <audio> elements primed with a silent WAV data URI; play(src) returns early when SoundControlStore is disabled, pops an element, sets volume 1, loads the src and returns it to the pool on ended or on a play() rejection, and on the first call also plays every pooled element once to unlock audio on touch devices. Note the constructor primes a throwaway element but pushes a fresh document.createElement('audio') into the pool."
+ },
+ {
+  "id": "2682",
+  "name": "Pagination",
+  "file": "Pagination.2682.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 2163,
+  "renames": 40,
+  "unresolvedLeft": 0,
+  "summary": "Pagination (export Ay) renders prev/next arrow buttons (each plays arrow_click) around either a 'number' readout (current+1 / total) or a 'nav' carousel of zero-padded page blocks. The carousel keeps a sliding window of 4 visible blocks (CENTER_OFFSET = Math.ceil(2)-1 = 1), renders up to 4 extra blocks on each side for the slide animation, positions each block with translateX in multiples of blockWidth (default 4rem) and sets the container width to min(total,4)*blockWidth rem; clicking a block plays common_click and calls goToPage(index). The type prop (default 'light') maps to a CSS-module class and disablePrev/disableNext add the disabled class. Export MS is the 18x27 left-chevron SVG used by the arrow buttons and reused by OperatorSection."
+ },
+ {
+  "id": "26915",
+  "name": "GAMEPLAY_ITEMS",
+  "file": "GAMEPLAY_ITEMS.26915.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 472,
+  "renames": 1,
+  "unresolvedLeft": 0,
+  "summary": "GameplayItemsText exports (as g) the four-entry list for the gameplay section: keys '01' to '04', each with an i18n titleKey 'gameplay.items.N.title', descriptionKey 'gameplay.items.N.description' and an image required inline from modules 51282, 46301, 63376 and 20371."
+ },
+ {
+  "id": "29521",
+  "name": "TRACKING_GROUPS",
+  "file": "TRACKING_GROUPS.29521.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 270,
+  "renames": 1,
+  "unresolvedLeft": 0,
+  "summary": "TrackingGroups (export Z) maps homepage section ids to the analytics group names sent with Tracking.collect: home -> section_homepage, notice -> section_announcement, operator -> section_character, lore -> section_lore, information -> section_video, aic -> section_knowledge, gameplay -> section_gameplay and milestone -> section_reservation_reward."
+ },
+ {
+  "id": "30257",
+  "name": "BulletinListContextProvider",
+  "file": "BulletinListContextProvider.30257.js",
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytesMinified": 793,
+  "renames": 20,
+  "unresolvedLeft": 0,
+  "summary": "React context provider for the home-page bulletin (news) list. It seeds state from the SSR-provided value {bulletins, total}, then on mount calls getBulletinList(lang, 1, 10); when code === 0 it stores data.list filtered through SiteUtils' hidden-bulletin check (cid vs SiteConfig.hide_bulletin_dict for the current lang), stores data.total and sets frontBulletinReady = true, otherwise logs '拉取公告列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontBulletinReady, bulletins, total}; useBulletinList reads it."
+ },
+ {
+  "id": "3492",
+  "name": "OperatorSection",
+  "file": "OperatorSection.3492.js",
+  "chunk": "226-d5292700ff68fd13",
+  "bytesMinified": 20417,
+  "renames": 149,
+  "unresolvedLeft": 0,
+  "summary": "OperatorSection renders the homepage character stage: a wrap-around avatar rail (OperatorSwitcher, items spaced 13rem horizontally in portrait or 12.25rem vertically in landscape with a 1.875rem base offset, paging by 4), a 2D illustration that slides in from 18rem over 8000ms with cubicBezier(0,1,0,.97), and a 3D mode that swaps in a TransparentVideo playing the operator's `enter` clip then looping `idle` (loading badge fades in over 300ms easeOutQuad, out over 300ms easeInCubic). Once the section is 40% in view and the LoadingScreen store reports loaded, an anime.js entrance timeline runs: deco flag/text/tape/line slide in at 300ms (400ms easeOutQuad, 1ms in portrait), title/content/header slide from -100% at 600ms, illustration fades in and slides from 15rem over 5000ms cubicBezier(0,1,0,.95), buttons fade in at 1200ms (landscape) or 800ms (portrait). Clicks play char_click / arrow_click / close_click / char_detail_enter sounds; viewing an operator fires a content_view tracking event in group section_character; the 'All Operators' button opens /{lang}/operator in a new tab, and low-end browsers (Vivo/Oppo/MIUI/Quark) hide the 3D switch."
+ },
+ {
+  "id": "36979",
+  "name": "NoticeDetailSection",
+  "file": "NoticeDetailSection.36979.js",
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytesMinified": 2947,
+  "renames": 27,
+  "unresolvedLeft": 0,
+  "summary": "News article page section. Reads the bulletin from NoticeDetailContextProvider and renders a back-to-top button (SVG viewBox 0 0 17 14; becomes `active` when documentElement.scrollTop > 600, checked by a lodash-throttled 300ms handler on scroll/wheel; click scrolls to top smoothly, hides the button and plays arrow_click), a bottom background, a left-bottom deco icon, a subtitle with the tab label and dayjs(displayTime*1000) formatted as information.displayTimeFormat + ' HH:mm', the title with an optional close icon from useCloseButton, a divider, and the HTML content. decorateNoticeHtml runs on the client only: it parses the HTML with DOMParser, prepends to every <th> a deco wrapper containing bg/l/rt/b divs, and sets paddingLeft = calc(<data-indent> * 1.5em) on p[data-indent]. A ref ensures Tracking.collect('content_view', {group: notice, target: cid}) fires once per cid."
+ },
+ {
+  "id": "3787",
+  "name": "VideoListContextProvider",
+  "file": "VideoListContextProvider.3787.js",
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytesMinified": 705,
+  "renames": 20,
+  "unresolvedLeft": 0,
+  "summary": "React context provider for the home-page video list. It seeds state from the SSR value {videos, total}, then on mount calls getVideoList({lang}) (module 60108, /api/content/info_video); on success it stores list and total and sets frontVideoReady = true, and on any thrown error logs '拉取视频列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontVideoReady, videos, total}; useVideoList reads it."
+ },
+ {
+  "id": "40489",
+  "name": "TransparentVideo",
+  "file": "TransparentVideo.40489.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 758,
+  "renames": 9,
+  "unresolvedLeft": 0,
+  "summary": "TransparentVideo (export y) is a forwardRef React wrapper over the @hg-web/trans-video class from module 25221: it renders a <canvas> plus a hidden muted, playsInline, crossOrigin='anonymous' <video>, constructs the trans-video instance with manualStart:true on mount, exposes {video, trans, controller:{fadeOut}} through the forwarded ref (function or object ref) and disposes the instance on unmount. OperatorSection drives it by setting video.src to the operator's enter/idle clips and calling trans.activate()."
+ },
+ {
+  "id": "45965",
+  "name": "FontLoader",
+  "file": "FontLoader.45965.js",
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytesMinified": 476,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "Headless FontLoader component that renders null. On first render (run-once hook from module 9995) it reads the font map from useI18n().font and, for every [family, source] entry, creates a FontFace(family, source), adds it to document.fonts and awaits load(). If loading fails the FontFace is removed and it retries with only the comma-separated source part containing '.woff2' (falling back to the full source string); any remaining error is logged with console.error."
+ },
+ {
+  "id": "46173",
+  "name": "Footer",
+  "file": "Footer.46173.js",
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytesMinified": 7079,
+  "renames": 29,
+  "unresolvedLeft": 0,
+  "summary": "Site footer component. The top row shows the 'common.selectLanguage' label and a language picker (globe SVG, current language name from LANG_DISPLAY_NAMES, a chevron arrow SVG and a scrollable dropdown of availableLangs, defaulting to AVAILABLE_LANGS) that toggles an 'active' class and closes via a click-outside ref hook; picking a language rewrites window.location.pathname by replacing '/<currentLang>' with '/<newLang>' and preserves the hash. The bottom container is a ref passed to Tracking.insertFooter so the Gryphline SDK renders the legal/footer links into it. Two inline SVG components (31x31 globe, 25x65 arrow) use an Object.assign polyfill to spread props."
+ },
+ {
+  "id": "4948",
+  "name": "I18nProvider",
+  "file": "I18nProvider.4948.js",
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytesMinified": 13083,
+  "renames": 32,
+  "unresolvedLeft": 0,
+  "summary": "I18n context provider and hooks for the Endfield site. Holds a hard-coded JSON table of 33 operators (key, codename, camp, race, rarity, prof, elem) and three CDN image maps (avatar, illust, portrait) served from https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/<key>.<hash>.png; the available language list comes from SiteConfig.i18n (first entry is the default lang) and a display-name table maps codes such as en-us, zh-cn, ja-jp to native names. useI18n reads the context {lang, langs, images, text, font, data, components}; useText returns t(key) which first tries a flat key then walks dotted paths (e.g. 'operator.content.<key>.name'); useOperators memoizes operator records merging the table, images and localized name/intro/camp/race plus cv voice actors for zh-cn, ja-jp, ko-kr and en-us."
+ },
+ {
+  "id": "50999",
+  "name": "OperatorListSection",
+  "file": "OperatorListSection.50999.js",
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytesMinified": 5759,
+  "renames": 78,
+  "unresolvedLeft": 0,
+  "summary": "Operator catalogue page. FilterDropdown is an accessible listbox (role button/listbox/option, Enter/Space toggle, Escape closes, click-outside closes via module44705.W) with an 'all' option plus options for type 'prof' (guard, caster, support, shielder, vanguard, assault) or 'elem' (fire, ice, electric, nature, physic); labels come from operator.filter.<type> and operator.<type>.<key>, and the icon div is keyed so it re-mounts on change. OperatorCard shows portrait, name, '// codename', zero-padded index / total, and prof/elem icons; a layout effect fits the name into 11.1875rem by bisecting the font size 28 times between 0.5625rem and 1.6875rem using canvas measureText with font '\"SansBold\", sans-serif', re-running after document.fonts.ready/load and on ResizeObserver. OperatorListSection keeps isDetailMode/detailIndex, prof and elem filters, filters I18n operators (gL), and swaps between the list (background deco with hollow 'ENDFIELD' text, dropdowns, a vertical scroll container) and OperatorSection in detailMode inside AnimatePresence mode 'wait' with 0.3s easeOut opacity fades."
+ },
+ {
+  "id": "51967",
+  "name": "TextShrink",
+  "file": "TextShrink.51967.js",
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytesMinified": 643,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "TextShrink: a component (export A) that returns a string, truncating `text` with '...' so it fits options.length character widths. shrinkText measures with a 2D canvas context using font '16px <options.font>' and a width budget of 16 * options.length px: starting at length-3 characters it grows the candidate while candidate+'...' still fits, and returns candidate+'...' once the plain candidate also overflows; if no canvas is available it falls back to slice(0, length-3)+'...'. Returns the text unchanged when length is 0 or the text is already shorter. On the server it returns the raw text; on the client the result is recomputed in an effect whenever text or options change."
+ },
+ {
+  "id": "52652",
+  "name": "HollowText",
+  "file": "HollowText.52652.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 286,
+  "renames": 7,
+  "unresolvedLeft": 0,
+  "summary": "HollowText (export A) is a forwardRef div with the CSS-module `hollowText` class (outlined text) that renders the `text` prop, merging className and style. displayName is set to 'HollowText'. OperatorSection uses it for the large 'ENDFIELD' background decoration."
+ },
+ {
+  "id": "56006",
+  "name": "SITE_CONFIG",
+  "file": "SITE_CONFIG.56006.js",
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytesMinified": 1630,
+  "renames": 1,
+  "unresolvedLeft": 0,
+  "summary": "Runtime site configuration parsed from an inlined JSON string and extended with isOversea: true. It carries the launcher download URL (https://launcher.gryphline.com/s/zpEg5p), the Gryphline web SDK script (https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js), the ad/ETL app code v9k3ppfah0j2lm5u1js8tg42, the i18n list of 13 language codes (en-us, zh-tw, ja-jp, ko-kr, es-mx, pt-br, fr-fr, de-de, ru-ru, it-it, id-id, th-th, vi-vn), the CMS host https://web-news.gryphline.com with appCode arknights_endfield_official, a Sentry DSN and release official-v4-web@0.0.1, user-center/top-up/survey/creator links, hide_bulletin_dict (ko-kr hides bulletin 2664), accessChecker download URLs, deep links (gryphlinklauncher-TiaytKBUIEdoEwRT://open?ta=endfield, https://endfield.gryphline.com/u-link/) and api_server_host https://endfield.gryphline.com."
+ },
+ {
+  "id": "58572",
+  "name": "BgmPlayer",
+  "file": "BgmPlayer.58572.js",
+  "chunk": "4231-53da7c4de7468a06",
+  "bytesMinified": 11196,
+  "renames": 179,
+  "unresolvedLeft": 0,
+  "summary": "SoundPlayer is a compiled TypeScript audio library (tslib __extends/__awaiter/__generator helpers inlined). It defines an unexported SoundListManager (enable/disable broadcast to a sound list), a SoundBase class, a VolumeFader whose easing() ticks every 10ms with duration scaled by |end-start| (fadeIn uses easeInQuad, fadeOut uses easeOutQuad), an unexported SoundEffectsPool (default volume 0.5, 10 pooled <audio> elements primed with a silent WAV data URI), and the exported BgmPlayer class (export Mj) that wraps one <audio> with volume default 0.5, optional fade (default fadeDuration 1000ms), autoPlay retried on first window click, suspend/resume on document visibilitychange and on Skland SDK lifecycle events (pageDidAppear/appWillEnterForeground/pageDidDisappear/appDidEnterBackground), and PAUSE/RESUME control via the window event HG_MEDIA_BGM_EVENT. A trailing unexported VideoSourcePlayer plays mp4 directly or m3u8 through a lazily loaded hls.js chunk."
+ },
+ {
+  "id": "60108",
+  "name": "getVideoList",
+  "file": "getVideoList.60108.js",
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytesMinified": 420,
+  "renames": 9,
+  "unresolvedLeft": 0,
+  "summary": "Fetch-based video list API. getVideoList({lang='zh-cn', cate, page=1, pageSize=10}) builds '/api/content/info_video?lang=<lang>&page=<page>&pageSize=<pageSize>' (plus '&cate=<cate>' when given), requests it from SiteConfig.api_server_host (https://endfield.gryphline.com) with fetch, and returns body.data when the HTTP status is 2xx/3xx and body.code === 0; otherwise it throws Error('Failed to fetch video list')."
+ },
+ {
+  "id": "61127",
+  "name": "NoticeDetailContextProvider",
+  "file": "NoticeDetailContextProvider.61127.js",
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytesMinified": 602,
+  "renames": 17,
+  "unresolvedLeft": 0,
+  "summary": "React context for the news article page. NoticeDetailContextProvider seeds state with props.value.bulletin (server-provided), then on mount parses window.location.pathname with /\\/news\\/(\\d+)/ and, if a cid is found, refetches via BulletinApi.Jq(cid, lang); on code 0 with data it replaces the bulletin, otherwise shows Toast 'toast.networkError'. The memoized context value is { bulletin }. Export z is the useNoticeDetail hook returning the current bulletin."
+ },
+ {
+  "id": "67002",
+  "name": "useCloseButton",
+  "file": "useCloseButton.67002.js",
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytesMinified": 376,
+  "renames": 6,
+  "unresolvedLeft": 0,
+  "summary": "useCloseButton hook for the news detail page. On mount it checks DeviceUtils' Honor-browser user-agent test (/bdhonorbrowser/i, with an empty UA on the server) and whether window.opener exists on the same hostname; when the page was opened from the same site and not in that browser it sets showClose = true (any cross-origin access error resets it to false). It returns {showClose, handleClose} where handleClose calls window.close()."
+ },
+ {
+  "id": "68408",
+  "name": "OPERATOR_VIDEO_CLIPS",
+  "file": "OPERATOR_VIDEO_CLIPS.68408.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 3776,
+  "renames": 65,
+  "unresolvedLeft": 0,
+  "summary": "OperatorVideoClips builds a lookup (export p) from operator key to a pair of transparent-video URLs under static/media/video/: an `enter` clip played once when 3D mode activates and an `idle` clip looped afterwards. It covers 33 operators (akekuri, alesh, antal, arclight, ardelia, avywenna, camille, catcher, chen, dapan, ember, endministrator1, endministrator2, estella, fluorite, gilberta, laevatain, lastrite, lifeng, liino, lizhiyan, mifu, perlica, pogranichnik, purrche, rossi, snowshine, tangtang, typhoea, wulfgard, xaihi, yvonne, zhuangfy); zhuangfy's enter.418594.mp4 / idle.7168ff.mp4 are inlined rather than hoisted. Each URL is webpack public path + hashed file name (e.g. akekuri enter.a66d56.mp4 / idle.5c433b.mp4)."
+ },
+ {
+  "id": "71272",
+  "name": "LoadingScreen",
+  "file": "LoadingScreen.71272.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 2140,
+  "renames": 22,
+  "unresolvedLeft": 0,
+  "summary": "LoadingScreen (export E) runs every task function from the `tasks` prop on mount and counts completions; a framer-motion spring (stiffness 120, damping 20) and tween transitions of 0.5s drive a background blur from 8px to 0px, a progress bar (height in landscape, width in portrait) and a percent label that follows the bar (left 3.125rem in landscape), with the numeric text updated via onUpdate. When all tasks finish it calls onLeaving, adds the leaving class, sets the shared zustand store (export r) to loaded:true after 1500ms and calls onFinished after 2400ms. The layout shows the i18n SvgLogo component, the slogan 'OVER THE FRONTIER / INTO THE FRONT' and an 'Updating...' caption."
+ },
+ {
+  "id": "71985",
+  "name": "Toast",
+  "file": "Toast.71985.js",
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytesMinified": 910,
+  "renames": 16,
+  "unresolvedLeft": 0,
+  "summary": "Toast component with an imperative Toast.message(content, {duration=2000}) helper. The component animates its root div with anime.js (opacity [0,1] when visible, [1,0] when hidden, 300 ms, easing cubicBezier(0.25, 0.1, 0.25, 1)) and calls afterClose (default: a no-op from the anime.js 3.2.1 alias) once the hide animation completes. message() appends a div to document.body, creates a React root (createRoot), renders the toast visible inside a setTimeout, then after `duration` ms re-renders it hidden with an afterClose that unmounts the root and removes the container. CSS classes used: styles.toast and styles.content."
+ },
+ {
+  "id": "73560",
+  "name": "SectionTitle",
+  "file": "SectionTitle.73560.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 7808,
+  "renames": 36,
+  "unresolvedLeft": 0,
+  "summary": "SectionTitle renders a section heading made of an 'ARKNIGHTS ENDFIELD' wordmark SVG (viewBox 0 0 122 6), an arrow block (23x23 arrow icon plus the English title, which is hidden when lang is en-us) and a Chinese/localised title whose lines are split on newline unless keepTitlePC (landscape) or keepTitleH5 (portrait) asks to keep it whole. Once the element is in view (useInView once) and, when loadingEable is true, the LoadingScreen store reports loaded, it fires TextRevealAnimations.zI flicker reveals on the EN title after 400ms and on the CN title after 600ms. Props also accept theme (default 'light', mapped to a CSS-module class), className, style and titleClassName."
+ },
+ {
+  "id": "73992",
+  "name": "BackgroundVideo",
+  "file": "BackgroundVideo.73992.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 3401,
+  "renames": 61,
+  "unresolvedLeft": 0,
+  "summary": "VideoPlayers exports a single BackgroundVideo component (export Q) chosen at module load from the user agent: VideoCanvas when the UA is QQ Browser, or iOS with Quark/Baidu app; otherwise VideoBasic. VideoBasic renders a muted, looped, playsInline <video> with webm then mp4 <source>s, sets Tencent x5-video-player-type=h5 / x5-playsinline attributes, retries play on WeixinJSBridgeReady for iOS WeChat, falls back to a one-time window click when autoplay is rejected, and scales width/height by devicePixelRatio on loadedmetadata. VideoCanvas creates an offscreen <video> and draws it into a <canvas> via a requestAnimationFrame loop throttled to frameLimit fps (default 30) using an accumulator against 1000/fps ms. Both expose {videoElement, play, pause} through useImperativeHandle, and a UserAgentMatcher class tests UA regexes for baiduApp, quark, wechat, huawei, harmonyOS, oppo, vivo, android, ios, qq, qqBrowser and honor."
+ },
+ {
+  "id": "7725",
+  "name": "backgroundMusic",
+  "file": "backgroundMusic.7725.js",
+  "chunk": "226-d5292700ff68fd13",
+  "bytesMinified": 312,
+  "renames": 2,
+  "unresolvedLeft": 0,
+  "summary": "BackgroundMusic (export K) instantiates the BgmPlayer class from module 58572 (aliased GryphlineWebSDK) with static/media/sound/bgm.3ce37f.mp3, loop, autoPlay, fade, suspendWhenHidden and suspendWhenHiddenInSkland all enabled, and volume 0.1 on mobile user agents (DeviceUtils.Fr) or 1 otherwise. On the server it is a stub exposing no-op enable() and disable()."
+ },
+ {
+  "id": "83597",
+  "name": "HomeLayout",
+  "file": "HomeLayout.83597.js",
+  "chunk": "226-d5292700ff68fd13",
+  "bytesMinified": 114916,
+  "renames": 992,
+  "unresolvedLeft": 0,
+  "summary": "Webpack module 83597 is the Arknights: Endfield homepage layout (export Layout -> HomeLayout). HomeLayout mounts a SectionViewer with the HOME_SECTIONS list in this order: home (hero with OperatorSection-less hero module 17224 plus a portrait/landscape download overlay), operator (OperatorSection.W from module 3492), lore (three.js point-cloud PointCloudModelPlayer with scan-line fade in/out, laser rays, glitch effects and drag-to-rotate; models spaceship, anchor, factory, pile, trinity, enemy), information (background video, swiper of video thumbnails, title auto-fit, media modal), calendar (sticky title/timeline images with a horizontally draggable calendar on portrait), gameplay (GameplayAlbum carousel of videos + scroll-linked marquee), aic (GameplayAlbum of blueprint images, hidden from nav), and notice (NoticeCarousel of bulletins with pagination/detail button and a paged mobile list). Around the sections it renders the i18n footer, the loading screen (loadingScreen.E) with LOADER_TASKS = 33 image preloads through a 5-slot Image pool plus PointCloudModelPlayer.setup() (which benchmarks a 10k-point render to choose renderLevel 0/1/2 and normalizes every model binary), and a modal layer (ReserveModal, user text-links modal, media modal, account menu). SiteHeader provides the desktop navigation rail (NavRailItem per non-hidden section, overlay transform by active index, user/charge/creator/mute action buttons, Go-To-Game launcher that probes a custom URL scheme via hidden iframe before falling back to download, share dropdown, expand switcher) and the mobile header with hamburger menu; it also toggles BackgroundMusic/SoundControlStore. Section navigation: SectionViewer registers throttled window scroll and wheel listeners that pick the section whose vertical center is closest to the top (within 2x viewport height), stores it in a zustand store, mirrors it into the URL hash, and reads the hash on mount; setCurrentSection scrolls the target section into view smoothly and suppresses the scroll listener until it arrives; the lore canvas additionally handles mousedown/mousemove/mouseup and touchstart/touchmove/touchend for rotation, and the mobile calendar uses drag scrolling; there is no keyboard handling in this module. Sounds: common_click on header buttons, menu items, share links, notice items, video thumbnails, play/more buttons and mute; arrow_click on platform toggles in the reserve modal and information prev/next; menu_click on nav rail items; reserve_click on the reserve button; model when switching lore models. Tracking: book_success and gtag Registration-complete after a reservation, social_media_redirect for share links, click with targets recharge_center/reserve_button/official_community, web_page_swipe on first scroll, content_view per section/model/album item, and Tracking.download for store links."
+ },
+ {
+  "id": "84245",
+  "name": "clipRevealAnimation",
+  "file": "clipRevealAnimation.84245.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 2988,
+  "renames": 39,
+  "unresolvedLeft": 0,
+  "summary": "TextRevealAnimations holds anime.js helpers used across sections. zI (flickerReveal) runs three chained opacity 0->1 easeOutQuad steps of 100/85/70ms for an enter (70/85/100ms for an exit) and leaves the element at opacity 1 or 0. An internal uniform variant uses 3x100ms. iv (RevealPresence) is a div wrapper bound to framer-motion usePresence: on mount it runs the optional enter(el) callback (after enterDelay ms, preceded by a flicker), and on exit awaits exit(el) plus an exit flicker before calling safeToRemove. WO (clipRevealAnimation) returns an anime.js step config that animates clip-path polygons from a collapsed edge (left/right/top/bottom) with an ease-out-quart curve 1-(1-p)^4, in reveal or wipe-out mode, over the given duration. iI (addStaggeredReveal) appends elements (or {ele, portrait, options} entries) to a timeline as 300ms steps offset by -100ms, skipping display:none elements and portrait-mismatched entries by setting them straight to opacity 1."
+ },
+ {
+  "id": "86797",
+  "name": "SubpageHeader",
+  "file": "SubpageHeader.86797.js",
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytesMinified": 18446,
+  "renames": 27,
+  "unresolvedLeft": 0,
+  "summary": "Shared presentational pieces for the news subpage header. Exports SubpageHeader (export A), which renders a decorative header row: an icon slot, a small two-square 'colon' SVG (viewBox 0 0 6 14), the ENDFIELD wordmark SVG (viewBox 0 0 354 57, fill currentColor), an English subtitle (titleEn), and a dotted deco SVG (viewBox 0 0 112 55); below it the localized title with another colon glyph and a background image div whose variant class comes from the `type` prop (default \"pumper\"). The two createElement-based SVGs cache their <path> node in module-level variables and use an inlined Object.assign polyfill to spread props onto the <svg>."
+ },
+ {
+  "id": "89622",
+  "name": "AIC_ITEMS",
+  "file": "AIC_ITEMS.89622.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 562,
+  "renames": 1,
+  "unresolvedLeft": 0,
+  "summary": "AicItemsText exports (as j) the five-entry list for the AIC (knowledge) section: keys '01' to '05', each pairing an i18n titleKey 'aic.items.N.title' and descriptionKey 'aic.items.N.description' with an imported image module (m01Image to m05Image). Components resolve the keys through the i18n t() function at render time."
+ },
+ {
+  "id": "90286",
+  "name": "useOrientation",
+  "file": "useOrientation.90286.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 416,
+  "renames": 7,
+  "unresolvedLeft": 0,
+  "summary": "useOrientation (export M) returns 'landscape' or 'portrait' by comparing window.innerWidth >= window.innerHeight, defaulting to 'landscape' for SSR. It relies on an internal useResizeEffect hook that runs the callback immediately and again on window resize, debounced to 100ms through the helper imported from module 90145 (aliased framerMotion here, but used as a debounce function)."
+ },
+ {
+  "id": "91627",
+  "name": "getBulletinDetail",
+  "file": "getBulletinDetail.91627.js",
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytesMinified": 819,
+  "renames": 23,
+  "unresolvedLeft": 0,
+  "summary": "Axios client for the CMS bulletin (news) API. The instance uses baseURL SiteConfig.cms.host (https://web-news.gryphline.com), responseType json and a 5000 ms timeout; a request interceptor turns request errors into {code:-1, msg} (default '请求错误') and a response interceptor unwraps response.data on success or normalizes failures to {statusCode, code, msg} from the error body (falling back to statusText/message). getBulletinList(lang, page=1, pageSize=9, tab) GETs /api/bulletin with params {lang, code: cms.appCode, page, pageSize, tabs:[tab]}; getBulletinDetail(cid, lang) GETs /api/bulletin/<cid> with {lang, code}. The default page size 9 is also exported."
+ },
+ {
+  "id": "92610",
+  "name": "UserModalRoot",
+  "file": "UserModalRoot.92610.js",
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytesMinified": 1492,
+  "renames": 22,
+  "unresolvedLeft": 0,
+  "summary": "Account/user modal. A zustand store holds isActive and useActivateUserModal returns its activate action. The modal (SvgIcon80500 frame titled 'modal.user.title') shows the 'modal.user.currentUser' label and account.displayName from the SDK account hook, a 'modal.user.userCenter' button that opens SiteConfig.user_center_link (https://user.gryphline.com/) with an i18n_lang query param in a new tab, a 'modal.user.orig' button only for ja-jp that activates the Originium query modal from module 94150, and a 'modal.user.logout' button (hidden when a local flag is set) that closes the modal and calls the SDK logout action after 300 ms. The root export wraps it in module 44990's container."
+ },
+ {
+  "id": "92731",
+  "name": "NoticeListSection",
+  "file": "NoticeListSection.92731.js",
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytesMinified": 3405,
+  "renames": 35,
+  "unresolvedLeft": 0,
+  "summary": "News index section. Defines NEWS_TABS (latest/notices/events/news with i18n labels common.latest, notice.tab.*) and renders SubpageHeader (title subpage.news.title, titleEn \"News\", type \"pumper\"), the tab bar, a framer-motion fade (opacity 0->1->0, duration 0.3s, easeOut, AnimatePresence mode \"wait\", keyed by `<page>-<tab>`) around the bulletin cards, and pagination. Page size is 4 in portrait or BulletinApi.a in landscape; pageCount = ceil(total / pageSize). goToPage fetches BulletinApi.PZ(lang, page+1, pageSize, tab or undefined for 'latest') guarded by an in-flight ref and frontBulletinReady, filters hidden bulletins via SiteUtils.jx, and shows Toast 'toast.networkError' on failure; prev/next clamp the page index into [0, pageCount-1]. Cards open `/<lang>/news/<cid>` in a new tab with the common_click sound, show cover or images['bulletin.<tab>'], tab label, dayjs(displayTime*1000) formatted by information.displayTimeFormat, and in portrait the title goes through TextShrink (font HarmonySansRegular, length 20). Landscape uses 'nav' pagination with goToPage; portrait uses 'number' pagination plus an optional back button from useCloseButton."
+ },
+ {
+  "id": "94150",
+  "name": "OrigQueryModalRoot",
+  "file": "OrigQueryModalRoot.94150.js",
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytesMinified": 11549,
+  "renames": 87,
+  "unresolvedLeft": 0,
+  "summary": "Originium ('orig') balance query modal shown only when lang === 'ja-jp' (Japanese paid-currency disclosure). A zustand store holds isActive; useActivateOrigQueryModal returns its activate action. On activation it awaits Tracking.sdkReady(), calls Role.API.getActiveRoleV2('ef') and, with the role's serverId and token, posts AccountApi.getOrigData to load {paid, free, total}; the user can switch role via Role.UI.showSelectDialog('ef'). A status ref ('default'|'loading'|'success'|'error') plus loading/role-error/request-error flags drive the UI: a 12-spoke 100x100 spinner SVG, an error block with 'modal.origQuery.content.networkError' and a confirm button, a header with globe (server name) and swap-arrows (role nickname / switch) icons, and the orig list rendering origPaid/origFree/origTotal through SiteUtils' thousands-separator formatter, a plus-square divider icon and 'modal.origQuery.content.notice'. State resets when the account from the SDK hook becomes null; the root export wraps the modal in module 44990's container."
+ },
+ {
+  "id": "96664",
+  "name": "RollingText",
+  "file": "RollingText.96664.js",
+  "chunk": "8963-234f979bdd6b491c",
+  "bytesMinified": 1107,
+  "renames": 14,
+  "unresolvedLeft": 0,
+  "summary": "Despite the 'EasingFunctions' label, this module is a RollingText marquee component (export A): after a 0ms timeout it measures the inner content against its container and, when the content is wider, adds the `rolling` class and plays a looping anime.js timeline: 1000ms hold, linear scroll by the overflow width at 1000ms per 40px (duration 1000*ceil(overflow/40)), 1000ms hold, 300ms easeInCubic fade out, a 10ms reset of translateX to 0, then a 300ms easeOutCubic fade in. It is used in OperatorSection for the operator camp value, which may overflow in some locales. Named easings used here are linear, easeInCubic and easeOutCubic."
+ },
+ {
+  "id": "97521",
+  "name": "formatNumberWithCommas",
+  "file": "formatNumberWithCommas.97521.js",
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytesMinified": 468,
+  "renames": 14,
+  "unresolvedLeft": 0,
+  "summary": "SiteUtils exports isServer (a constant false in this client bundle), ZV formatNumberWithCommas (toFixed(0) then inserts a comma every three digits from the right, returning '0' for falsy input), aT pickRandom (returns a random element using the random-int helper from module 15790) and jx isBulletinVisible(bulletinId, regionKey), which hides a bulletin when SiteConfig.hide_bulletin_dict lists it under any region unless the given region's own list also contains it. The flattened list of all hidden bulletin ids is precomputed at module load."
+ }
+]

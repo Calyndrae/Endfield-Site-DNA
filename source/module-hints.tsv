@@ -1,0 +1,800 @@
+[lang]__(main)__(home)__layout-282874dd3834757d	15790	943	A			3	number | symbol | number | string | boolean | boolean
+[lang]__(main)__(home)__layout-282874dd3834757d	71985	910	A		anime.js (easing/timeline)	6	cubicBezier(0.25, 0.1, 0.25, 1)
+[lang]__(main)__(home)__layout-282874dd3834757d	91627	819	Jq,PZ,a			2	json | string | /api/bulletin | /api/bulletin/
+[lang]__(main)__(home)__layout-282874dd3834757d	30257	793	BulletinListContextProvider,b			6	toast.networkError
+[lang]__(main)__(home)__layout-282874dd3834757d	3787	705	VideoListContextProvider,X			5	toast.networkError
+[lang]__(main)__(home)__layout-282874dd3834757d	48695	610	A			3	number | symbol | [object Symbol] | function | string
+[lang]__(main)__(home)__layout-282874dd3834757d	38963	442	A			1	[object Undefined] | [object Null]
+[lang]__(main)__(home)__layout-282874dd3834757d	60108	420	A			1	/api/content/info_video?lang= | &page= | &pageSize= | &cate= | Failed to fetch video list
+[lang]__(main)__(home)__layout-282874dd3834757d	2080	238	A			2	[object Function] | [object GeneratorFunction] | [object AsyncFunction] | [object Proxy]
+[lang]__(main)__(home)__layout-282874dd3834757d	61789	153	A			1	object | return this
+[lang]__(main)__(home)__layout-282874dd3834757d	42750	131	A			2	
+[lang]__(main)__(home)__layout-282874dd3834757d	51392	119	A			0	number
+[lang]__(main)__(home)__layout-282874dd3834757d	76595	119	A			0	object | function
+[lang]__(main)__(home)__layout-282874dd3834757d	55492	110	A			0	object
+[lang]__(main)__(home)__layout-282874dd3834757d	9399	105		Toast_toast__ZnoVW Toast_visible__DnNU7 Toast_content__a8lPb		0	
+[lang]__(main)__(home)__layout-282874dd3834757d	34588	94	A			0	object
+[lang]__(main)__(home)__layout-282874dd3834757d	57138	89				0	
+[lang]__(main)__(home)__page-108678b3875e4637	69667	159	default			3	
+[lang]__(main)__(home)__page-108678b3875e4637	80900	50				0	
+[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac	36979	2947	NoticeDetailSection			15	http://www.w3.org/2000/svg | path | evenodd | currentColor | text/html | p[data-indent]
+[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac	831	799		__20-NoticeDetail_sectionContainer__06Hmx __20-NoticeDetail_contentContainer__irljr __20-NoticeDetail_subtitle__Eu01S __20-NoticeDetail_type__fRshy		0	
+[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac	61127	602	NoticeDetailContextProvider,z			5	toast.networkError
+[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac	67290	130				0	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	86797	18446	A			5	http://www.w3.org/2000/svg | path | evenodd | currentColor | http://www.w3.org/2000/svg | path
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	92731	3405	NoticeListSection			24	common.latest | latest | notice.tab.notices | notices | notice.tab.events | events
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	62534	805	A			8	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	83219	751		__10-NoticeList_sectionContainer__tmyCM __10-NoticeList_header__MICaH __10-NoticeList_tabs__fUKSq __10-NoticeList_empty__omDeT		0	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	51967	643	A			2	canvas
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	77906	439		SubpageHeader_subpageHeader__eGnaM SubpageHeader_decoHeader__9Vyiq SubpageHeader_icon__at3oV SubpageHeader_colonSvg__yULIW		0	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	67002	376	R			3	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	75762	292		SubpageTab_scroll___XPu9 SubpageTab_subpageTab__A3JdU SubpageTab_divider__Mj7nZ SubpageTab_tab__qSWqv		0	
+[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1	98353	130				0	
+[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a	50999	5759	OperatorListSection			13	none | string | number | __placeholder__ | button | aria-haspopup
+[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a	4721	596		__12-OperatorList_sectionContainer__KC5gP __12-OperatorList_totalContainer__86kgK __12-OperatorList_detail__l3dwR __12-OperatorList_dropdowns__xnSNd		0	
+[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a	61759	496		Dropdown_root__O4Qqi Dropdown_disabled__XU9e7 Dropdown_prof__WoV4u Dropdown_trigger__mA0mP		0	
+[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a	87001	398		OperatorItem_operatorItem__gPezu OperatorItem_image__fyd3C OperatorItem_contentBlock__I_0_3 OperatorItem_name__OvU8c		0	
+[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a	58272	90				0	
+[lang]__(main)__layout-493920d1b65733f5	86669	97068	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	26669	95715	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	6480	94989	default		zustand store	26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	52674	91750	default			33	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	59965	91335	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	33820	90952	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	45812	87069	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	79594	84259	default			36	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	3411	81476	default			32	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	47391	77106	default			26	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	62766	74429	default			29	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	11034	55336	default			35	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	92827	45425	default			35	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	22762	39069	default			35	
+        url(" | ") format("woff2"),
+        url(" | ") format("woff"),
+        url(" | ") format("truetype"),
+     | 
+        url(" | ") format("woff2"),
+     
+[lang]__(main)__layout-493920d1b65733f5	46173	7079	A			9	http://www.w3.org/2000/svg | currentColor | path | evenodd | http://www.w3.org/2000/svg | path
+[lang]__(main)__layout-493920d1b65733f5	81112	5697	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+[lang]__(main)__layout-493920d1b65733f5	14029	4220	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+[lang]__(main)__layout-493920d1b65733f5	75435	3910	A			1	http://www.w3.org/2000/svg | path | currentColor
+[lang]__(main)__layout-493920d1b65733f5	1162	3608	A,SDKInitializer			5	Invalid SDK configuration. | endfield | official | psn_access_checker | access_checker | dark
+[lang]__(main)__layout-493920d1b65733f5	41260	3608				8	__esModule | style | link | text/css | stylesheet | afterInteractive
+[lang]__(main)__layout-493920d1b65733f5	99808	2277	A			1	http://www.w3.org/2000/svg | path | currentColor
+[lang]__(main)__layout-493920d1b65733f5	34988	962	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+[lang]__(main)__layout-493920d1b65733f5	79507	950				0	__esModule | setAttributesFromProps | accept-charset | class | http-equiv | noModule
+[lang]__(main)__layout-493920d1b65733f5	93852	936				0	
+[lang]__(main)__layout-493920d1b65733f5	36951	828				0	__esModule | undefined | undefined | function | object | __esModule
+[lang]__(main)__layout-493920d1b65733f5	83593	744	A			1	http://www.w3.org/2000/svg | path | currentColor
+[lang]__(main)__layout-493920d1b65733f5	34527	732	default			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/share-oversea.6f430b84.jpg
+[lang]__(main)__layout-493920d1b65733f5	33579	724	default			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/share.dc935341.jpg
+[lang]__(main)__layout-493920d1b65733f5	9265	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.ca22aa8c.jpg
+[lang]__(main)__layout-493920d1b65733f5	32361	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.43875dc1.jpg
+[lang]__(main)__layout-493920d1b65733f5	33407	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.c4eaa913.jpg
+[lang]__(main)__layout-493920d1b65733f5	37981	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.270be30b.jpg
+[lang]__(main)__layout-493920d1b65733f5	38308	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.afd01fbb.jpg
+[lang]__(main)__layout-493920d1b65733f5	72749	711	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.95e3c10d.jpg
+[lang]__(main)__layout-493920d1b65733f5	8156	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.dc84e242.jpg
+[lang]__(main)__layout-493920d1b65733f5	20023	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.51ac3ae0.jpg
+[lang]__(main)__layout-493920d1b65733f5	22378	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.06e99fdc.jpg
+[lang]__(main)__layout-493920d1b65733f5	45546	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.a4a32256.jpg
+[lang]__(main)__layout-493920d1b65733f5	49918	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.27f9cf20.jpg
+[lang]__(main)__layout-493920d1b65733f5	55528	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.0a46fd08.jpg
+[lang]__(main)__layout-493920d1b65733f5	89354	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.177abeaf.jpg
+[lang]__(main)__layout-493920d1b65733f5	92687	707	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.7229aa33.jpg
+[lang]__(main)__layout-493920d1b65733f5	27214	695	A			1	http://www.w3.org/2000/svg | path | currentColor
+[lang]__(main)__layout-493920d1b65733f5	29979	675	A			1	http://www.w3.org/2000/svg | path | currentColor
+[lang]__(main)__layout-493920d1b65733f5	68824	664	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.6348899e.jpg
+[lang]__(main)__layout-493920d1b65733f5	78163	664	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.a3ad4354.jpg
+[lang]__(main)__layout-493920d1b65733f5	73204	643	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.4db26043.png
+[lang]__(main)__layout-493920d1b65733f5	58383	608	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.30cc32f5.png
+[lang]__(main)__layout-493920d1b65733f5	90478	594	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.3bb96617.png
+[lang]__(main)__layout-493920d1b65733f5	5144	587	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.e742ce48.png
+[lang]__(main)__layout-493920d1b65733f5	22520	587	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.4a159f02.png
+[lang]__(main)__layout-493920d1b65733f5	52425	583	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.1a33e9e3.png
+[lang]__(main)__layout-493920d1b65733f5	21225	579	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.662db710.png
+[lang]__(main)__layout-493920d1b65733f5	28457	575	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.2f1abd96.png
+[lang]__(main)__layout-493920d1b65733f5	20438	571	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.f0a13dd7.png
+[lang]__(main)__layout-493920d1b65733f5	62391	567	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.cfe222de.png
+[lang]__(main)__layout-493920d1b65733f5	95587	567	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.f603c99c.png
+[lang]__(main)__layout-493920d1b65733f5	10893	563	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.1dca7da7.png
+[lang]__(main)__layout-493920d1b65733f5	77422	563	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.5d47a1d7.png
+[lang]__(main)__layout-493920d1b65733f5	32732	532	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.551fd273.png
+[lang]__(main)__layout-493920d1b65733f5	52574	529	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.6f3122a9.png
+[lang]__(main)__layout-493920d1b65733f5	24632	518	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-tw.578217de.png
+[lang]__(main)__layout-493920d1b65733f5	32620	518	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-cn.106ce05d.png
+[lang]__(main)__layout-493920d1b65733f5	57726	510	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ja-jp.d20ac012.png
+[lang]__(main)__layout-493920d1b65733f5	71868	505	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.18d9cfdc.png
+[lang]__(main)__layout-493920d1b65733f5	18750	501	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.05ced03b.png
+[lang]__(main)__layout-493920d1b65733f5	2718	496		footer_footer__6jTqE footer_topContainer__sMUtI footer_label__Jml0k footer_languageItem__TXB_u		0	
+[lang]__(main)__layout-493920d1b65733f5	18640	481	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.11535059.png
+[lang]__(main)__layout-493920d1b65733f5	73598	477	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.6fa320c2.png
+[lang]__(main)__layout-493920d1b65733f5	45965	476	default			2	.woff2
+[lang]__(main)__layout-493920d1b65733f5	23631	475	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png
+[lang]__(main)__layout-493920d1b65733f5	68321	475	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png
+[lang]__(main)__layout-493920d1b65733f5	71515	475	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png
+[lang]__(main)__layout-493920d1b65733f5	91041	475	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png
+[lang]__(main)__layout-493920d1b65733f5	65071	471	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.2764a518.png
+[lang]__(main)__layout-493920d1b65733f5	97521	468	ZV,aT,isServer,jx			2	
+[lang]__(main)__layout-493920d1b65733f5	88351	466	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/de-de.ddb8fdfa.png
+[lang]__(main)__layout-493920d1b65733f5	52964	457	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.e33ccb55.png
+[lang]__(main)__layout-493920d1b65733f5	13344	454	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/vi-vn.723115d9.png
+[lang]__(main)__layout-493920d1b65733f5	49826	453	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.27f33643.png
+[lang]__(main)__layout-493920d1b65733f5	6584	449	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/appStore.4c92ebb1.png
+[lang]__(main)__layout-493920d1b65733f5	67204	449	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.21490542.png
+[lang]__(main)__layout-493920d1b65733f5	83274	447	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.1e7a8ca7.png
+[lang]__(main)__layout-493920d1b65733f5	83972	447	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.d8388e03.png
+[lang]__(main)__layout-493920d1b65733f5	42532	446	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.ecda570e.png
+[lang]__(main)__layout-493920d1b65733f5	92372	446	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ko-kr.4f19c563.png
+[lang]__(main)__layout-493920d1b65733f5	96625	446	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.72ab52e6.png
+[lang]__(main)__layout-493920d1b65733f5	62589	445	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.275c48a2.png
+[lang]__(main)__layout-493920d1b65733f5	88752	443	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.95e2d9eb.png
+[lang]__(main)__layout-493920d1b65733f5	27337	442	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.f9045faa.png
+[lang]__(main)__layout-493920d1b65733f5	66854	442	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.c67dfd0d.png
+[lang]__(main)__layout-493920d1b65733f5	92478	441	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.11e00407.png
+[lang]__(main)__layout-493920d1b65733f5	54232	439	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.cdddb864.png
+[lang]__(main)__layout-493920d1b65733f5	74097	439	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.6aa9ff46.png
+[lang]__(main)__layout-493920d1b65733f5	79221	439	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.a391751c.png
+[lang]__(main)__layout-493920d1b65733f5	82762	439	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.ed924365.png
+[lang]__(main)__layout-493920d1b65733f5	92038	439	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.035c43cb.png
+[lang]__(main)__layout-493920d1b65733f5	4060	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.38e5934f.png
+[lang]__(main)__layout-493920d1b65733f5	4463	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.42076b6e.png
+[lang]__(main)__layout-493920d1b65733f5	34270	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.33dd71a4.png
+[lang]__(main)__layout-493920d1b65733f5	48534	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.6550789b.png
+[lang]__(main)__layout-493920d1b65733f5	52431	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.8af58fd1.png
+[lang]__(main)__layout-493920d1b65733f5	56716	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.05c715d7.png
+[lang]__(main)__layout-493920d1b65733f5	61782	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.52c434fd.png
+[lang]__(main)__layout-493920d1b65733f5	77427	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.3d34a233.png
+[lang]__(main)__layout-493920d1b65733f5	82543	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.a8f2c585.png
+[lang]__(main)__layout-493920d1b65733f5	84539	435	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.ec105420.png
+[lang]__(main)__layout-493920d1b65733f5	7175	434	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/it-it.033b1679.png
+[lang]__(main)__layout-493920d1b65733f5	80750	434	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/es-mx.d62a8d79.png
+[lang]__(main)__layout-493920d1b65733f5	66863	432	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.bce7db16.png
+[lang]__(main)__layout-493920d1b65733f5	12297	431	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.29dc41bf.png
+[lang]__(main)__layout-493920d1b65733f5	61951	431	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.909c9786.png
+[lang]__(main)__layout-493920d1b65733f5	68393	431	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.94b0c599.png
+[lang]__(main)__layout-493920d1b65733f5	68575	431	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.f9da7291.png
+[lang]__(main)__layout-493920d1b65733f5	69377	430	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-th.ee8d85fa.png
+[lang]__(main)__layout-493920d1b65733f5	98293	430	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fr-fr.761d90e4.png
+[lang]__(main)__layout-493920d1b65733f5	73436	429	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.8072ce33.png
+[lang]__(main)__layout-493920d1b65733f5	60909	428	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.39db162e.png
+[lang]__(main)__layout-493920d1b65733f5	64443	427	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.e353557e.png
+[lang]__(main)__layout-493920d1b65733f5	66513	426	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.d2d3f7d8.png
+[lang]__(main)__layout-493920d1b65733f5	73167	426	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.b76eb7a9.png
+[lang]__(main)__layout-493920d1b65733f5	77563	426	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.871d9174.png
+[lang]__(main)__layout-493920d1b65733f5	79438	426	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/en-us.4b590ca9.png
+[lang]__(main)__layout-493920d1b65733f5	4431	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.9263c8fb.png
+[lang]__(main)__layout-493920d1b65733f5	23885	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.1d573768.png
+[lang]__(main)__layout-493920d1b65733f5	43503	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.a5b0fc17.png
+[lang]__(main)__layout-493920d1b65733f5	54825	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.455c2cf6.png
+[lang]__(main)__layout-493920d1b65733f5	78747	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.53af9f54.png
+[lang]__(main)__layout-493920d1b65733f5	88381	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.2ed5ebbe.png
+[lang]__(main)__layout-493920d1b65733f5	94621	424	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.0a467ffd.png
+[lang]__(main)__layout-493920d1b65733f5	25490	423	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.e0494e2e.png
+[lang]__(main)__layout-493920d1b65733f5	36970	422	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pt-br.84d5be5d.png
+[lang]__(main)__layout-493920d1b65733f5	78582	421	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.dbee8495.png
+[lang]__(main)__layout-493920d1b65733f5	33736	419	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.bf7d0b5f.png
+[lang]__(main)__layout-493920d1b65733f5	28231	418	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/id-id.b7df818e.png
+[lang]__(main)__layout-493920d1b65733f5	62727	418	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ru-ru.528c4d60.png
+[lang]__(main)__layout-493920d1b65733f5	35807	417	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.29198279.png
+[lang]__(main)__layout-493920d1b65733f5	81365	416	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.53612a04.png
+[lang]__(main)__layout-493920d1b65733f5	7094	414	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.cbed0022.png
+[lang]__(main)__layout-493920d1b65733f5	31042	412	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.e0726768.png
+[lang]__(main)__layout-493920d1b65733f5	82519	412	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.cbe42ec2.png
+[lang]__(main)__layout-493920d1b65733f5	4353	410	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.387de63c.png
+[lang]__(main)__layout-493920d1b65733f5	77144	408	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.0592b55c.png
+[lang]__(main)__layout-493920d1b65733f5	5268	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	9050	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png
+[lang]__(main)__layout-493920d1b65733f5	17526	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	24912	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	25873	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	37880	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	42585	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	49097	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png
+[lang]__(main)__layout-493920d1b65733f5	63395	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	66379	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.d6e33e18.png
+[lang]__(main)__layout-493920d1b65733f5	67055	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png
+[lang]__(main)__layout-493920d1b65733f5	74806	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	75766	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png
+[lang]__(main)__layout-493920d1b65733f5	84639	405	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png
+[lang]__(main)__layout-493920d1b65733f5	4133	391	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.8d2e583c.png
+[lang]__(main)__layout-493920d1b65733f5	45793	391	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.e03998c9.png
+[lang]__(main)__layout-493920d1b65733f5	95311	391	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.38a388a9.png
+[lang]__(main)__layout-493920d1b65733f5	44705	273	W			1	click | click
+[lang]__(main)__layout-493920d1b65733f5	35044	255	A			4	
+[lang]__(main)__layout-493920d1b65733f5	75640	188	OneAccountProvider			3	
+[lang]__(main)__layout-493920d1b65733f5	9995	172	i,p			1	
+[lang]__(main)__layout-493920d1b65733f5	77251	97				0	static/media/font/NotoSansThaiLooped-Regular.36529a.woff2
+[lang]__(main)__layout-493920d1b65733f5	32625	96				0	static/media/font/HarmonyOS_Sans_TC_Regular.97cc8c.woff2
+[lang]__(main)__layout-493920d1b65733f5	76488	96				0	static/media/font/HarmonyOS_Sans_SC_Regular.4e6868.woff2
+[lang]__(main)__layout-493920d1b65733f5	87066	96				0	static/media/font/NotoSansThaiLooped-Medium.d33f74.woff2
+[lang]__(main)__layout-493920d1b65733f5	91225	96				0	static/media/font/NotoSansThaiLooped-Regular.ae1fb3.woff
+[lang]__(main)__layout-493920d1b65733f5	16528	95				0	static/media/font/HarmonyOS_Sans_TC_Medium.6b4c3f.woff2
+[lang]__(main)__layout-493920d1b65733f5	27610	95				0	static/media/font/NotoSansThaiLooped-Medium.e2cd96.woff
+[lang]__(main)__layout-493920d1b65733f5	37929	95				0	static/media/font/NotoSansThaiLooped-Regular.52a09b.ttf
+[lang]__(main)__layout-493920d1b65733f5	42752	95				0	static/media/font/HarmonyOS_Sans_SC_Regular.7472f4.woff
+[lang]__(main)__layout-493920d1b65733f5	69801	95				0	static/media/font/NotoSansThaiLooped-Black.8ef854.woff2
+[lang]__(main)__layout-493920d1b65733f5	82503	95				0	static/media/font/HarmonyOS_Sans_SC_Medium.5bc901.woff2
+[lang]__(main)__layout-493920d1b65733f5	88095	95				0	static/media/font/HarmonyOS_Sans_TC_Regular.2701af.woff
+[lang]__(main)__layout-493920d1b65733f5	3919	94				0	static/media/font/HarmonyOS_Sans_TC_Regular.463da3.ttf
+[lang]__(main)__layout-493920d1b65733f5	15927	94				0	static/media/font/HarmonyOS_Sans_TC_Black.c4ffb8.woff2
+[lang]__(main)__layout-493920d1b65733f5	24782	94				0	static/media/font/NotoSansThaiLooped-Black.05eca9.woff
+[lang]__(main)__layout-493920d1b65733f5	28802	94				0	static/media/font/HarmonyOS_Sans_SC_Regular.459e41.ttf
+[lang]__(main)__layout-493920d1b65733f5	45176	94				0	static/media/font/HarmonyOS_Sans_TC_Medium.775e9b.woff
+[lang]__(main)__layout-493920d1b65733f5	70724	94				0	static/media/font/NotoSansThaiLooped-Medium.a00480.ttf
+[lang]__(main)__layout-493920d1b65733f5	86181	94				0	static/media/font/HarmonyOS_Sans_SC_Medium.0a0631.woff
+[lang]__(main)__layout-493920d1b65733f5	90110	94				0	static/media/font/NotoSansThaiLooped-Bold.b1fa9c.woff2
+[lang]__(main)__layout-493920d1b65733f5	93289	94				0	static/media/font/HarmonyOS_Sans_SC_Black.1d7dfb.woff2
+[lang]__(main)__layout-493920d1b65733f5	24487	93				0	static/media/font/HarmonyOS_Sans_SC_Black.69d404.woff
+[lang]__(main)__layout-493920d1b65733f5	46443	93				0	static/media/font/NotoSansThaiLooped-Black.44d837.ttf
+[lang]__(main)__layout-493920d1b65733f5	47109	93				0	static/media/font/HarmonyOS_Sans_SC_Medium.7c31a1.ttf
+[lang]__(main)__layout-493920d1b65733f5	47647	93				0	static/media/font/HarmonyOS_Sans_SC_Bold.06d3d0.woff2
+[lang]__(main)__layout-493920d1b65733f5	66374	93				0	static/media/font/NotoSansThaiLooped-Bold.91a570.woff
+[lang]__(main)__layout-493920d1b65733f5	71834	93				0	static/media/font/HarmonyOS_Sans_TC_Medium.490d34.ttf
+[lang]__(main)__layout-493920d1b65733f5	78324	93				0	static/media/font/HarmonyOS_Sans_TC_Black.553e77.woff
+[lang]__(main)__layout-493920d1b65733f5	83188	93				0	static/media/font/HarmonyOS_Sans_TC_Bold.77ee98.woff2
+[lang]__(main)__layout-493920d1b65733f5	89095	93				0	static/media/font/HarmonyOS_Sans_Regular.0cfc88.woff2
+[lang]__(main)__layout-493920d1b65733f5	7255	92				0	static/media/font/HarmonyOS_Sans_SC_Black.867f57.ttf
+[lang]__(main)__layout-493920d1b65733f5	10414	92				0	static/media/font/HarmonyOS_Sans_Medium.20006f.woff2
+[lang]__(main)__layout-493920d1b65733f5	19158	92				0	static/media/font/HarmonyOS_Sans_TC_Black.0aca7e.ttf
+[lang]__(main)__layout-493920d1b65733f5	22992	92				0	static/media/font/NotoSansThaiLooped-Bold.6076dd.ttf
+[lang]__(main)__layout-493920d1b65733f5	87757	92				0	static/media/font/HarmonyOS_Sans_SC_Bold.77dfff.woff
+[lang]__(main)__layout-493920d1b65733f5	90149	92				0	static/media/font/HarmonyOS_Sans_Regular.12ffa1.woff
+[lang]__(main)__layout-493920d1b65733f5	92036	92				0	static/media/font/HarmonyOS_Sans_TC_Bold.63a9cf.woff
+[lang]__(main)__layout-493920d1b65733f5	2085	91				0	static/media/font/HarmonyOS_Sans_Regular.cd23cd.ttf
+[lang]__(main)__layout-493920d1b65733f5	24678	91				0	static/media/font/HarmonyOS_Sans_TC_Bold.4c460d.ttf
+[lang]__(main)__layout-493920d1b65733f5	30610	91				0	static/media/font/HarmonyOS_Sans_Black.bb2f22.woff2
+[lang]__(main)__layout-493920d1b65733f5	80621	91				0	static/media/font/HarmonyOS_Sans_SC_Bold.e66042.ttf
+[lang]__(main)__layout-493920d1b65733f5	84726	91				0	static/media/font/HarmonyOS_Sans_Medium.0903f2.woff
+[lang]__(main)__layout-493920d1b65733f5	20544	90				0	static/media/font/HarmonyOS_Sans_Medium.203903.ttf
+[lang]__(main)__layout-493920d1b65733f5	33058	90				0	static/media/font/HarmonyOS_Sans_Black.6a12f8.woff
+[lang]__(main)__layout-493920d1b65733f5	74738	90				0	static/media/font/HarmonyOS_Sans_Bold.9717cf.woff2
+[lang]__(main)__layout-493920d1b65733f5	7404	89				0	static/media/font/HarmonyOS_Sans_Black.264c07.ttf
+[lang]__(main)__layout-493920d1b65733f5	33922	89				0	static/media/font/HarmonyOS_Sans_Bold.6aff6d.woff
+[lang]__(main)__layout-493920d1b65733f5	62307	89				0	static/media/font/NotoSansKR-Regular.99a2e0.woff2
+[lang]__(main)__layout-493920d1b65733f5	68526	89				0	static/media/font/NotoSansJP-Regular.699414.woff2
+[lang]__(main)__layout-493920d1b65733f5	73690	89	O			1	
+[lang]__(main)__layout-493920d1b65733f5	1645	88				0	static/media/font/NotoSansJP-Medium.cfe6b5.woff2
+[lang]__(main)__layout-493920d1b65733f5	14682	88				0	static/media/font/NotoSansKR-Medium.11415c.woff2
+[lang]__(main)__layout-493920d1b65733f5	19798	88				0	static/media/font/NotoSansJP-Regular.e039e2.woff
+[lang]__(main)__layout-493920d1b65733f5	27225	88				0	static/media/font/NotoSansKR-Regular.2431cb.woff
+[lang]__(main)__layout-493920d1b65733f5	29804	88				0	static/media/font/HarmonyOS_Sans_Bold.526d8a.ttf
+[lang]__(main)__layout-493920d1b65733f5	30163	87				0	static/media/font/NotoSansJP-Medium.b098a2.woff
+[lang]__(main)__layout-493920d1b65733f5	30391	87				0	static/media/font/NotoSansJP-Black.9a9ef4.woff2
+[lang]__(main)__layout-493920d1b65733f5	38857	87				0	static/media/font/NotoSansKR-Regular.126641.ttf
+[lang]__(main)__layout-493920d1b65733f5	45280	87				0	static/media/font/NotoSansJP-Regular.e8f768.ttf
+[lang]__(main)__layout-493920d1b65733f5	47350	87				0	static/media/font/NotoSansKR-Black.975e63.woff2
+[lang]__(main)__layout-493920d1b65733f5	97882	87				0	static/media/font/NotoSansKR-Medium.018f38.woff
+[lang]__(main)__layout-493920d1b65733f5	13397	86				0	static/media/font/NotoSansJP-Black.67f11f.woff
+[lang]__(main)__layout-493920d1b65733f5	15662	86				0	static/media/font/NotoSansKR-Black.a0b822.woff
+[lang]__(main)__layout-493920d1b65733f5	42429	86				0	static/media/font/NotoSansJP-Bold.ba914a.woff2
+[lang]__(main)__layout-493920d1b65733f5	46067	86				0	static/media/font/NotoSansJP-Medium.f68eff.ttf
+[lang]__(main)__layout-493920d1b65733f5	68958	86				0	static/media/font/NotoSansKR-Bold.30a3d7.woff2
+[lang]__(main)__layout-493920d1b65733f5	72868	86				0	static/media/font/NotoSansKR-Medium.e5b49d.ttf
+[lang]__(main)__layout-493920d1b65733f5	888	85				0	static/media/font/NotoSansKR-Black.fc3add.ttf
+[lang]__(main)__layout-493920d1b65733f5	4454	85				0	static/media/font/NotoSansKR-Bold.69fb43.woff
+[lang]__(main)__layout-493920d1b65733f5	34595	85				0	static/media/font/NotoSansJP-Bold.9572da.woff
+[lang]__(main)__layout-493920d1b65733f5	72469	85				0	static/media/font/NotoSansJP-Black.565a55.ttf
+[lang]__(main)__layout-493920d1b65733f5	30083	84				0	static/media/font/NotoSansJP-Bold.7b3e6d.ttf
+[lang]__(main)__layout-493920d1b65733f5	51024	84				0	static/media/font/NotoSansKR-Bold.30dd41.ttf
+[lang]__(main)__layout-493920d1b65733f5	2208	6				0	
+[lang]__(main)__layout-493920d1b65733f5	18382	6				0	
+[lang]__(main)__layout-493920d1b65733f5	38411	6				0	
+[lang]__(main)__layout-493920d1b65733f5	98838	6				0	
+1434-11a107e8f8cacac2	36349	1983			zustand store	1	react.transitional.element | react.portal | react.fragment | react.strict_mode | react.profiler | react.consumer
+1434-11a107e8f8cacac2	73235	616				0	string | number | object | [native code]
+1434-11a107e8f8cacac2	2142	42				1	
+1862-f64a25e5790c1ef5	11862	24402				2	function | function | nodejs.util.inspect.custom | The value " | " is invalid for option "size" | number
+1862-f64a25e5790c1ef5	85038	1327				0	undefined | ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ | Invalid string. Length must be a multiple of 4
+1862-f64a25e5790c1ef5	7487	863				0	
+18b16e15-9cd90f703163305b	8147	305618			framer-motion	0	undefined | http://www.w3.org/2000/svg | int16 | uint8c | float32 | int16
+2060-2fd4a05d6893f458	22060	36054	Me,F7,N4,lR		zustand store;classnames	15	function | constructor | __core-js_shared__ | Symbol(src)_1. | DataView | Promise
+2060-2fd4a05d6893f458	83970	11361	AH,cx			1	style | data-emotion | nonce | data-s | -moz- | -webkit-
+2060-2fd4a05d6893f458	23190	7282				3	input is invalid type | object | object | object | undefined | 0123456789abcdef
+2060-2fd4a05d6893f458	35178	3106	J			0	boolean | animation | animationName | string | number | boolean
+226-d5292700ff68fd13	83597	114916	Layout		anime.js (easing/timeline);swiper;zustand store;classnames	133	http://www.w3.org/2000/svg | path | evenodd | currentColor | event | Android
+226-d5292700ff68fd13	3492	20417	W		anime.js (easing/timeline)	31	http://www.w3.org/2000/svg | path | evenodd | currentColor | translateX( | rem)
+226-d5292700ff68fd13	9704	3492		__02-Operator_sectionDivider__PbN7_ __02-Operator_active__5YfL8 __02-Operator_dividerSubtitle__bTAer __02-Operator_dividerTitle__yHdrt		0	
+226-d5292700ff68fd13	54925	2118		Header_pcHeaderContainer__Sy_8l Header_showPreserveButton__Ksca8 Header_buttonFrameBg__2UVLH Header_buttonFrameContainer__Uvshp		0	
+226-d5292700ff68fd13	60687	1621		__03-Lore_sectionDivider__RVkKY __03-Lore_dividerSubtitle__HepaK __03-Lore_dividerTitle__MhUik __03-Lore_container__ZiS0O		0	
+226-d5292700ff68fd13	95308	1416		__04-Information_sectionContainer__OXMtV __04-Information_sectionTitle__FUx0p __04-Information_bgVideo__UjdV5 __04-Information_fadeOut__fhF1z		0	
+226-d5292700ff68fd13	12914	1280	A,C		zustand store	12	video_play_start | video_play_end | iframe | YouTube video player | accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture
+226-d5292700ff68fd13	13920	1197		__06-Notice_sectionContainer__2x0Mi __06-Notice_carouselContainer__2AoYR __06-Notice_carouselContentContainer__ZTu_O __06-Notice_carouselPagination__XTWO2		0	
+226-d5292700ff68fd13	27014	1072	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+226-d5292700ff68fd13	72535	1054		ReserveModal_reserveModal__xb3np ReserveModal_active__L5i1J ReserveModal_oversea__76D5K ReserveModal_modalContainer__qRKaz		0	
+226-d5292700ff68fd13	40226	1034		downloader_downloadContainer__z2AUJ downloader_decoText__RqIYu downloader_decoRt__AQD8n downloader_decoRb__Wl3Px		0	
+226-d5292700ff68fd13	51067	965		GameplayAlbum_gameplayAlbum__iz9mA GameplayAlbum_aic__COk_i GameplayAlbum_imageContainer__g5rE9 GameplayAlbum_rightDeco__Z0B_P		0	
+226-d5292700ff68fd13	47290	891	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+226-d5292700ff68fd13	36563	759		__09-Calendar_sectionContainer__MrVnT __09-Calendar_stickContainer__Ef8z3 __09-Calendar_stickFixed__PESTi __09-Calendar_stickBottom__MB7kM		0	
+226-d5292700ff68fd13	43837	722		__05-Gameplay_sectionContainer__LN64O __05-Gameplay_endfieldPre__LUcJv __05-Gameplay_icon__Yiqki __05-Gameplay_ef__xDMnp		0	
+226-d5292700ff68fd13	93297	693	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-pc.1d54f26f.jpg
+226-d5292700ff68fd13	84343	689	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-h5.6b03f2b9.jpg
+226-d5292700ff68fd13	1287	646		__08-AIC_sectionContainer__XPJyn __08-AIC_h5Icon__adHvF __08-AIC_pageTitle__6Qc_g __08-AIC_decoLeft__MF4oy		0	
+226-d5292700ff68fd13	56604	610		h5-cn_container__Ys2AK h5-cn_rbContainer__DdbbO h5-cn_downloadWrapper__oX4TL h5-cn_downloadContainer__zxl9m		0	
+226-d5292700ff68fd13	2878	510		h5-oversea_container__vZOQu h5-oversea_rbContainer__8qBIc h5-oversea_downloadWrapper__ST5Di h5-oversea_downloadContainer__k3lzm		0	
+226-d5292700ff68fd13	94534	474		pc-cn_container__CKshH pc-cn_rbContainer__osuNB pc-cn_downloadWrapper__RQsuR pc-cn_downloadContainer__tJKMi		0	
+226-d5292700ff68fd13	7725	312	K			3	static/media/sound/bgm.3ce37f.mp3
+226-d5292700ff68fd13	49876	296		pc-oversea_container__RaAtO pc-oversea_rbContainer__tVihR pc-oversea_downloadWrapper__s3301 pc-oversea_downloadContainer__jrv9L		0	
+226-d5292700ff68fd13	87346	286		sections_sectionViewer__326Rn sections_contentContainer__5cMPG sections_headerContainer__IQkt1 sections_header__8tVO2		0	
+226-d5292700ff68fd13	22104	271		Media_mediaModal__4NhcG Media_active__t0_Nv Media_modalContainer__IJFBx Media_mediaVideo__pYTuU		0	
+226-d5292700ff68fd13	21953	200		SectionViewer_sectionViewer__aALTd SectionViewer_header__G6fOm SectionViewer_contentContainer__5TWfV SectionViewer_section__ErA17		0	
+226-d5292700ff68fd13	98220	118		Carousel_carousel__FKamY Carousel_container__tAcTx Carousel_item__85leB		0	
+226-d5292700ff68fd13	6777	79				0	static/media/model/spaceship.752e25.bin
+226-d5292700ff68fd13	27663	77				0	static/media/model/factory.bd9a36.bin
+226-d5292700ff68fd13	90928	77				0	static/media/model/trinity.d6c060.bin
+226-d5292700ff68fd13	25576	76				0	static/media/model/anchor.0e6c6a.bin
+226-d5292700ff68fd13	96741	75				0	static/media/model/enemy.6a1a19.bin
+226-d5292700ff68fd13	54335	74				0	static/media/model/pile.251dc1.bin
+226-d5292700ff68fd13	83768	69		__01-Home_sectionContainer__nzBwa		0	
+226-d5292700ff68fd13	7919	58		BackButton_backButton__5Hmrb		0	
+226-d5292700ff68fd13	33811	6				0	
+3269-ebe4833ea03bce18	13269	34120	A,hasBrowserEnv,hasStandardBrowserEnv,hasStandardBrowserWebWorkerEnv,navigator,origin		axios	2	undefined | ArrayBuffer | string | function | number | object
+3407-efea5949cb1afee6	49095	22703		disabled___YJoH9 scroll___FG4DS content___fxCya contentWrapper___UanRy		1	string | number | object | [native code] | object | return this
+3407-efea5949cb1afee6	875	590				0	string | number | object | [native code]
+3407-efea5949cb1afee6	89748	59	A			0	
+3407-efea5949cb1afee6	370	37				0	
+3696-03b8256f1fece6bb	94150	11549	Ay,YV		zustand store	17	http://www.w3.org/2000/svg | path | evenodd | currentColor | http://www.w3.org/2000/svg | path
+3696-03b8256f1fece6bb	80500	8959	A			8	http://www.w3.org/2000/svg | path | evenodd | currentColor | http://www.w3.org/2000/svg | path
+3696-03b8256f1fece6bb	19460	1712	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+3696-03b8256f1fece6bb	92610	1492	Ay,GW		zustand store	13	i18n_lang | _blank | modal.user.title | modal.user.currentUser | modal.user.userCenter | modal.user.orig
+3696-03b8256f1fece6bb	18109	1357	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+3696-03b8256f1fece6bb	95141	884		OrigQuery_origQueryModal__yXuao OrigQuery_active__sfHQh OrigQuery_modalContainer__SeaVs OrigQuery_contentFrame__Aaey7		0	
+3696-03b8256f1fece6bb	21086	793	Ys,BV			3	json | string | /api/account | /charge-info | /orig-data
+3696-03b8256f1fece6bb	95823	789	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+3696-03b8256f1fece6bb	29190	752	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+3696-03b8256f1fece6bb	6921	587	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+3696-03b8256f1fece6bb	70246	339	A			5	dark | button
+3696-03b8256f1fece6bb	63334	304		ModalFrame_modalFrame__WKkW2 ModalFrame_smallTitle__aw46z ModalFrame_header__GAf1j ModalFrame_decoText__R_poJ		0	
+3696-03b8256f1fece6bb	66792	289		UserModal_userModal__DfHfK UserModal_active__fwvqF UserModal_modalContainer__yLLeK UserModal_contentFrame__gVx0W		0	
+3696-03b8256f1fece6bb	79549	163	w			1	
+3696-03b8256f1fece6bb	35038	144	$,V			1	
+3696-03b8256f1fece6bb	38338	134		Button_button__njqVS Button_text__FSrIs Button_disabled__FGmkD Button_light__kRD_6		0	
+3877-c91cc7d94c938183	56578	17276	A		anime.js (easing/timeline)	0	normal | easeOutElastic(1, .5) | translateX | translateY | translateZ | rotate
+3877-c91cc7d94c938183	14000	27				0	
+4231-53da7c4de7468a06	74517	81179	RC,qr		swiper;classnames	1	object | constructor | __proto__ | constructor | prototype | undefined
+4231-53da7c4de7468a06	36624	20252	Qp,PF		zustand store	7	undefined | undefined | function | Generator is already executing. | function | function
+4231-53da7c4de7468a06	58572	11196	Mj			0	isEnable | function | Class extends value  |  is not a constructor or null | function | number
+4231-53da7c4de7468a06	60891	6214	L			16	Size | getBBox | inline | width | offsetWidth | block
+4231-53da7c4de7468a06	10279	4509			zustand store;lodash-style utility	8	__esModule | value | function | Super expression must either be null or a function, not  | Cannot call a class as a function | this hasn't been initialised - su
+4231-53da7c4de7468a06	89102	2150				0	position: fixed; top: 0; height: 100vh; pointer-events: none; | string | vh-offset | passive | test | test
+4231-53da7c4de7468a06	87276	782				2	function
+4231-53da7c4de7468a06	36539	737				1	function | undefined
+4231-53da7c4de7468a06	95750	652				1	Invariant Violation
+4231-53da7c4de7468a06	48074	469				0	__esModule | padding-top | padding-bottom | padding-left | padding-right
+4231-53da7c4de7468a06	94167	427				3	boolean | boolean | boolean
+4231-53da7c4de7468a06	65544	378				3	number | function | string
+4231-53da7c4de7468a06	45628	333				1	__esModule
+4231-53da7c4de7468a06	30712	321				0	__esModule
+4231-53da7c4de7468a06	91809	300				0	__esModule
+4231-53da7c4de7468a06	33249	295				0	__esModule
+4231-53da7c4de7468a06	80187	279	A			1	
+4231-53da7c4de7468a06	74345	235				1	
+4231-53da7c4de7468a06	91618	223	_			1	attempted to set read only private field
+4231-53da7c4de7468a06	35524	200				2	[object Function] | [object GeneratorFunction] | [object AsyncFunction] | [object Proxy]
+4231-53da7c4de7468a06	11728	193				4	number | string
+4231-53da7c4de7468a06	58488	186				3	[object Undefined] | [object Null]
+4231-53da7c4de7468a06	77523	166				0	number | symbol
+4231-53da7c4de7468a06	21789	163	_			0	Cannot initialize the same private elements twice on an object
+4231-53da7c4de7468a06	28136	155	_			0	attempted to  |  private field on non-instance
+4231-53da7c4de7468a06	41582	136				1	
+4231-53da7c4de7468a06	59288	132	_			1	
+4231-53da7c4de7468a06	41409	126				1	
+4231-53da7c4de7468a06	19033	125				1	object | return this
+4231-53da7c4de7468a06	5649	115				2	number | [object Number]
+4231-53da7c4de7468a06	83344	115				2	symbol | [object Symbol]
+4231-53da7c4de7468a06	44175	111				0	__esModule
+4231-53da7c4de7468a06	9732	100				1	
+4231-53da7c4de7468a06	39322	94				2	
+4231-53da7c4de7468a06	35030	93				0	
+4231-53da7c4de7468a06	33708	87				0	number
+4231-53da7c4de7468a06	53327	87				0	object | function
+4231-53da7c4de7468a06	99343	84				0	
+4231-53da7c4de7468a06	97750	76				0	
+4231-53da7c4de7468a06	96489	74				0	SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED
+4231-53da7c4de7468a06	93056	72				0	object
+4231-53da7c4de7468a06	25477	66				1	
+4231-53da7c4de7468a06	67704	62				0	object
+4231-53da7c4de7468a06	63274	54				0	
+4231-53da7c4de7468a06	15252	42				1	
+4231-53da7c4de7468a06	84882	42				1	
+4231-53da7c4de7468a06	14357	36				1	
+4231-53da7c4de7468a06	96306	31				1	
+4231-53da7c4de7468a06	60658	6				0	
+44ba29dc-c3eeac94473a606d	15257	200499				0	function | Class extends value  |  is not a constructor or null | function | Generator is already executing. | function
+491-d00f740e9c6ed637	41505	20853				1	function | fulfilled | fulfilled | rejected | function | fulfilled
+491-d00f740e9c6ed637	15691	7383			zustand store	1	react.transitional.element | react.portal | react.fragment | react.strict_mode | react.profiler | react.consumer
+491-d00f740e9c6ed637	41451	6099				23	__esModule | Cannot prefetch ' | ' because it cannot be converted to a URL. | __NEXT_ERROR_CODE | pageshow | pageshow
+491-d00f740e9c6ed637	17267	5812				5	__esModule | pending | refetch | string | pending | pending
+491-d00f740e9c6ed637	704	5003				17	__esModule | default | bottom | height | left | right
+491-d00f740e9c6ed637	4950	4241				24	__esModule | serverActionReducer | use-cache | POST | x-action-redirect | push
+491-d00f740e9c6ed637	77517	3758			zustand store	10	__esModule | function | Internal Next.js Error: createMutableActionQueue was called more than once | __NEXT_ERROR_CODE | traverse | Internal Next.js error: Rout
+491-d00f740e9c6ed637	11852	3470			scheduler (React);framer-motion	0	object | function | function | function | undefined | function
+491-d00f740e9c6ed637	40081	3373				3	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	29639	3355				17	__esModule | push | __next-page-redirect | string | function | object
+491-d00f740e9c6ed637	9843	3288			react / react-dom runtime	1	https://react.dev/errors/ | ?args[]= | &args[]= | Minified React error # | ; visit  |  for the full message or use the non-minified dev environment for full err
+491-d00f740e9c6ed637	90988	3085				2	__esModule | https://react.dev/link/hydration-mismatch | https://nextjs.org/docs/messages/react-hydration-error | string | Warning:  | Warning: 
+491-d00f740e9c6ed637	84049	3056				5	__esModule | function | function | function | Cannot prefetch ' | ' because it cannot be converted to a URL.
+491-d00f740e9c6ed637	3	2963			next.js runtime	19	__esModule | hydrate | Unexpected server data: missing bootstrap script. | __NEXT_ERROR_CODE | Unexpected server data: missing bootstrap script. | __NEXT_ERROR_
+491-d00f740e9c6ed637	43711	2632				8	__esModule | high | auto | content-type | vary | Failed to fetch RSC payload for 
+491-d00f740e9c6ed637	54636	2596				1	__esModule | Warning: In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s | Warning: In HTML, %s cannot be a descendant of <%s>.
+This 
+491-d00f740e9c6ed637	38284	2562			zustand store	6	__esModule | system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji" | center | flex | column | center
+491-d00f740e9c6ed637	50182	2374			next.js runtime	7	__esModule | usePathname() | invariant expected app router to be mounted | __NEXT_ERROR_CODE | useParams() | children
+491-d00f740e9c6ed637	19964	2155				7	__esModule | string | function | object | __esModule
+491-d00f740e9c6ed637	72233	2068				10	__esModule | __NEXT_ERROR_CODE | __NEXT_ERROR_CODE | error | unhandledrejection | function
+491-d00f740e9c6ed637	63640	1823				2	__esModule | object | null | string | string | string
+491-d00f740e9c6ed637	87157	1763				12	__esModule | refreshReducer | refetch | string | REFRESH FAILED | function
+491-d00f740e9c6ed637	2724	1741				7	__esModule | HTTPAccessFallbackBoundary | meta | robots | noindex | function
+491-d00f740e9c6ed637	68398	1713				7	__esModule | createInitialRouterState | function | object | __esModule
+491-d00f740e9c6ed637	50080	1707				2	__esModule | __NEXT_ERROR_CODE | Not a redirect error | __NEXT_ERROR_CODE | Not a redirect error | __NEXT_ERROR_CODE
+491-d00f740e9c6ed637	20457	1705				3	__esModule | string | children | children | function | object
+491-d00f740e9c6ed637	53051	1686				2	__esModule | fillLazyItemsTillLeafWithHead | auto | function | object | __esModule
+491-d00f740e9c6ed637	10020	1638				1	__esModule | Invalid interception route:  | . Must be in the format /<intercepting route>/(..|...|..)(..)/<intercepted route> | __NEXT_ERROR_CODE | Invalid inte
+491-d00f740e9c6ed637	37811	1628				0	setTimeout has not been defined | clearTimeout has not been defined | function | function | browser | process.binding is not supported
+491-d00f740e9c6ed637	40657	1494				4	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	16412	1491				1	__esModule | handleMutable | function | object | __esModule
+491-d00f740e9c6ed637	16189	1476				2	__esModule | AppRouterAnnouncer | next-route-announcer | position:absolute | assertive | __next-route-announcer__
+491-d00f740e9c6ed637	10768	1433				0	__esModule | Next-Action | Next-Router-State-Tree | Next-Router-Prefetch | Next-Router-Segment-Prefetch | Next-HMR-Refresh
+491-d00f740e9c6ed637	44485	1382				0	trimStart | trimEnd | description | description | function | Cannot convert undefined or null to object
+491-d00f740e9c6ed637	93695	1362				3	__esModule | refresh | refresh | refresh | refetch | string
+491-d00f740e9c6ed637	42031	1301				2	__esModule | PromiseQueue | _maxConcurrency | _runningCount | _queue | _processNext
+491-d00f740e9c6ed637	53481	1286			zustand store;next.js runtime	6	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	73452	1226				1	__esModule | string | string | refresh | function | object
+491-d00f740e9c6ed637	74773	1226				2	__esModule | attachHydrationErrorState | function | object | __esModule
+491-d00f740e9c6ed637	3382	1196				0	__esModule | Segment Cache experiment is not enabled. This is a bug in Next.js. | __NEXT_ERROR_CODE | Success | NoOp | Async
+491-d00f740e9c6ed637	12911	1176				2	__esModule | clearCacheNodeDataForSegmentPath | function | object | __esModule
+491-d00f740e9c6ed637	60017	1131				4	__esModule | applyRouterStatePatchToTree | function | object | __esModule
+491-d00f740e9c6ed637	81473	1124				6	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	49484	1118				7	__esModule | serverPatchReducer | string | function | object | __esModule
+491-d00f740e9c6ed637	59657	1065				0	__esModule | NEXT_HTTP_ERROR_FALLBACK | object | digest | string | unauthorized
+491-d00f740e9c6ed637	63153	1022				8	__esModule | reducer | Unknown action | __NEXT_ERROR_CODE | function | object
+491-d00f740e9c6ed637	84790	1013				0	__esModule | refresh | navigate | restore | server-patch | prefetch
+491-d00f740e9c6ed637	75871	956				4	__esModule | getReactStitchedError | react-stack-bottom-frame | __NEXT_ERROR_CODE | function | object
+491-d00f740e9c6ed637	10234	891				7	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	85398	887				0	__esModule | next.console.error.digest | next.console.error.type | string | __NEXT_ERROR_CODE | NEXT_CONSOLE_ERROR
+491-d00f740e9c6ed637	84535	879				2	__esModule | invalidateCacheBelowFlightSegmentPath | function | object | __esModule
+491-d00f740e9c6ed637	25511	864				1	__esModule | NEXT_REDIRECT | push | replace | object | digest
+491-d00f740e9c6ed637	19374	821				3	__esModule | Internal Next.js error: Router action dispatched before initialization. | __NEXT_ERROR_CODE | function | object | __esModule
+491-d00f740e9c6ed637	45232	820				1	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	98861	817				0	script | children | __esModule | appBootstrap | function | object
+491-d00f740e9c6ed637	93163	803				2	__esModule | Error occurred during navigation, falling back to hard navigation | function | object | __esModule
+491-d00f740e9c6ed637	11875	766				0	__esModule | object | __NEXT_ERROR_CODE | object | __NEXT_ERROR_CODE | object
+491-d00f740e9c6ed637	73531	759				2	__esModule | applyFlightData | function | object | __esModule
+491-d00f740e9c6ed637	88116	749				3	__esModule | restoreReducer | function | object | __esModule
+491-d00f740e9c6ed637	23198	743				1	__esModule | findHeadInCache | children | children | children | function
+491-d00f740e9c6ed637	61286	732				2	__esModule | setCacheBustingSearchParam | function | object | __esModule
+491-d00f740e9c6ed637	4664	724				3	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	46600	719				0	__esModule | `Reflect.has( | `, or similar | hasOwnProperty | isPrototypeOf | propertyIsEnumerable
+491-d00f740e9c6ed637	87358	717				5	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	50443	711				2	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	40951	634	_			0	function | object | function | default
+491-d00f740e9c6ed637	59102	632				1	`unauthorized()` is experimental and only allowed to be used when `experimental.authInterrupts` is enabled. | __NEXT_ERROR_CODE | __esModule | unauthorized | fu
+491-d00f740e9c6ed637	8977	629				1	`forbidden()` is experimental and only allowed to be enabled when `experimental.authInterrupts` is enabled. | __NEXT_ERROR_CODE | __esModule | forbidden | funct
+491-d00f740e9c6ed637	51829	625				0	__esModule | isNavigatingToNewRootLayout | function | object | __esModule
+491-d00f740e9c6ed637	71782	618				1	__esModule | object | name | message | object | [Circular]
+491-d00f740e9c6ed637	14589	616				4	__esModule | ClientPageRoot | function | object | __esModule
+491-d00f740e9c6ed637	12383	613				1	__esModule | html
+491-d00f740e9c6ed637	16878	596				0	@children | __esModule | __PAGE__ | __DEFAULT__
+491-d00f740e9c6ed637	65481	592				1	__esModule | hasInterceptionRouteInCurrentTree | string | function | object | __esModule
+491-d00f740e9c6ed637	7359	587				3	__esModule | callServer | function | object | __esModule
+491-d00f740e9c6ed637	96559	585				5	__esModule | onRecoverableError | cause | function | object | __esModule
+491-d00f740e9c6ed637	50953	576				0	use-cache | server-action | __esModule
+491-d00f740e9c6ed637	59339	575				1	__esModule | makeUntrackedExoticSearchParams | function | object | __esModule
+491-d00f740e9c6ed637	74955	574				1	__esModule | invalidateCacheByRouterState | function | object | __esModule
+491-d00f740e9c6ed637	14432	569				1	__esModule | makeUntrackedExoticParams | function | object | __esModule
+491-d00f740e9c6ed637	64916	555				1	__esModule | notFound | __NEXT_ERROR_CODE | function | object | __esModule
+491-d00f740e9c6ed637	4662	553				2	__esModule
+491-d00f740e9c6ed637	7039	546				3	__esModule | ClientSegmentRoot | function | object | __esModule
+491-d00f740e9c6ed637	45056	541				2	__esModule | shouldHardNavigate | function | object | __esModule
+491-d00f740e9c6ed637	34697	538				2	__esModule | normalizePathTrailingSlash | function | object | __esModule
+491-d00f740e9c6ed637	74618	537				1	__esModule | assignLocation | function | object | __esModule
+491-d00f740e9c6ed637	57120	531				1	__esModule | createRouterCacheKey | function | object | __esModule
+491-d00f740e9c6ed637	45893	527				0	__esModule | RedirectStatusCode | SeeOther | TemporaryRedirect | PermanentRedirect | function
+491-d00f740e9c6ed637	42320	523				2	__esModule | unstable_rethrow | cause | function | object | __esModule
+491-d00f740e9c6ed637	22726	511				4	__esModule | default | function | object | __esModule
+491-d00f740e9c6ed637	30611	493				10	__esModule | hmrRefreshReducer | function | object | __esModule
+491-d00f740e9c6ed637	46027	492				0	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	89359	487				2	__esModule | page | route
+491-d00f740e9c6ed637	56487	480				2	__esModule | isNextRouterError | function | object | __esModule
+491-d00f740e9c6ed637	7177	475				1	__esModule | BrowserResolvedMetadata | function | object | __esModule
+491-d00f740e9c6ed637	66508	475				2	__esModule | addBasePath | function | object | __esModule
+491-d00f740e9c6ed637	30107	470				0	__esModule | BAILOUT_TO_CLIENT_SIDE_RENDERING | Bail out to client-side rendering:  | object | digest
+491-d00f740e9c6ed637	49510	469				0	__esModule | matchSegment | string | string | string | function
+491-d00f740e9c6ed637	98822	464				1	__esModule | handleSegmentMismatch | function | object | __esModule
+491-d00f740e9c6ed637	74800	457				2	__esModule | useUntrackedPathname | function | object | __esModule
+491-d00f740e9c6ed637	91773	453				0	__esModule | reportGlobalError | function | function | object | __esModule
+491-d00f740e9c6ed637	14141	452				0	__esModule | enqueueConsecutiveDedupedError | function | object | __esModule
+491-d00f740e9c6ed637	76144	447				0	__esModule | createHrefFromUrl | function | object | __esModule
+491-d00f740e9c6ed637	75680	441				2	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	2855	437				0	__esModule | HTML_LIMITED_BOT_UA_RE
+491-d00f740e9c6ed637	82676	437				1	__esModule | createRenderSearchParamsFromClient | function | object | __esModule
+491-d00f740e9c6ed637	39767	428				1	__esModule | hasBasePath | function | object | __esModule
+491-d00f740e9c6ed637	55649	425				1	__esModule | createRenderParamsFromClient | function | object | __esModule
+491-d00f740e9c6ed637	73136	422				0	[object Object] | isPrototypeOf | __esModule
+491-d00f740e9c6ed637	38211	414				0	__esModule | getSegmentValue | function | object | __esModule
+491-d00f740e9c6ed637	99718	404				1	__esModule | unstable_rethrow | function | object | __esModule
+491-d00f740e9c6ed637	53693	402				1	__esModule | removeBasePath | function | object | __esModule
+491-d00f740e9c6ed637	85861	392				0	__esModule | unresolvedThenable | function | object | __esModule
+491-d00f740e9c6ed637	92140	389				6	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	10327	383				0	__esModule | findSourceMapURL | function | object | __esModule
+491-d00f740e9c6ed637	51472	383				0	__esModule | __next_metadata_boundary__ | __next_viewport_boundary__ | __next_outlet_boundary__
+491-d00f740e9c6ed637	75820	381				0	auto | __esModule | handleSmoothScroll
+491-d00f740e9c6ed637	27795	376				1	__esModule
+491-d00f740e9c6ed637	99213	361				0	__esModule
+491-d00f740e9c6ed637	19042	360				0	__esModule | parsePath
+491-d00f740e9c6ed637	89137	358				2	__esModule
+491-d00f740e9c6ed637	9848	339				0	react.transitional.element | react.fragment
+491-d00f740e9c6ed637	30695	321				1	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	98105	320				1	__esModule | function | object | __esModule
+491-d00f740e9c6ed637	98488	299				0	__esModule | InvariantError | Invariant:  |  This is a bug in Next.js. | InvariantError
+491-d00f740e9c6ed637	88669	288				1	__esModule | addPathPrefix
+491-d00f740e9c6ed637	51724	286				1	__esModule | pathHasPrefix | string
+491-d00f740e9c6ed637	2268	247				1	undefined | function
+491-d00f740e9c6ed637	72613	246				1	undefined | function
+491-d00f740e9c6ed637	90231	238				0	object | then | function | __esModule | isThenable
+491-d00f740e9c6ed637	43096	226				0	__esModule | encodeURIPath
+491-d00f740e9c6ed637	51007	212				2	__esModule | HeadManagerContext
+491-d00f740e9c6ed637	18770	204				0	__esModule | removeTrailingSlash
+491-d00f740e9c6ed637	81678	204				0	__esModule | ensureLeadingSlash
+491-d00f740e9c6ed637	15903	194				0	__esModule | getDeploymentIdQueryOrEmptyString
+491-d00f740e9c6ed637	80929	184	_			0	attempted to use private field on non-instance
+491-d00f740e9c6ed637	99775	159				0	__esModule | warnOnce
+491-d00f740e9c6ed637	48639	99	_			0	__private_
+491-d00f740e9c6ed637	23582	98	_			0	
+491-d00f740e9c6ed637	44615	42				1	
+491-d00f740e9c6ed637	47470	42				1	
+491-d00f740e9c6ed637	78192	42				1	
+491-d00f740e9c6ed637	97028	42				1	
+491-d00f740e9c6ed637	83713	41				1	
+491-d00f740e9c6ed637	96424	41				1	
+4948-4c0b17ed78d1fd30	4948	13083	I18nProvider,lX,YZ,PO,gL,Bd			29	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.4431f348.png | https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media
+4948-4c0b17ed78d1fd30	56006	1630	a		sentry	0	
+4948-4c0b17ed78d1fd30	35300	681	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png
+4948-4c0b17ed78d1fd30	22519	680	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.0b402b3e.png
+4948-4c0b17ed78d1fd30	97916	665	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png
+4948-4c0b17ed78d1fd30	89808	662	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png
+4948-4c0b17ed78d1fd30	60459	659	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png
+4948-4c0b17ed78d1fd30	3147	652	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.b83d45cf.png
+4948-4c0b17ed78d1fd30	79755	652	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.5c7b5e46.png
+4948-4c0b17ed78d1fd30	37602	646	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.c93412e1.png
+4948-4c0b17ed78d1fd30	9184	640	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.36c72367.png
+4948-4c0b17ed78d1fd30	93577	636	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png
+4948-4c0b17ed78d1fd30	1841	635	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png
+4948-4c0b17ed78d1fd30	32343	633	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png
+4948-4c0b17ed78d1fd30	75583	631	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3df4a3dc.png
+4948-4c0b17ed78d1fd30	11502	625	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png
+4948-4c0b17ed78d1fd30	78074	623	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.f0bbf4fa.png
+4948-4c0b17ed78d1fd30	92880	621	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.235ca9f1.png
+4948-4c0b17ed78d1fd30	80689	617	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.78d45318.png
+4948-4c0b17ed78d1fd30	29269	613	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png
+4948-4c0b17ed78d1fd30	52151	604	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.b9d580b2.png
+4948-4c0b17ed78d1fd30	63875	601	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7b5afdec.png
+4948-4c0b17ed78d1fd30	57236	596	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png
+4948-4c0b17ed78d1fd30	49929	592	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.07ff3560.png
+4948-4c0b17ed78d1fd30	26673	591	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.3efd4769.png
+4948-4c0b17ed78d1fd30	73803	591	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.b761d517.png
+4948-4c0b17ed78d1fd30	90746	577	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9c949014.png
+4948-4c0b17ed78d1fd30	82405	555	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png
+5578-060085c254278034	60705	90383	P		scheduler (React);framer-motion;zustand store	46	transformPerspective | translateX | translateY | translateZ | scale | scaleX
+5578-060085c254278034	64612	4399	s			13	idle | idle | number | mirror | finished | reverse
+5578-060085c254278034	63733	3058	o			6	duration | bounce | stiffness | damping | mass | object
+5578-060085c254278034	36849	2610	OQ,bt			4	change | change
+5578-060085c254278034	30239	2440	j			9	color-not-animatable | none | hidden | number | string | object
+5578-060085c254278034	57168	1358	I			2	setup | read | resolveKeyframes | preUpdate | update | preRender
+5578-060085c254278034	14760	1291	V,f			3	number | color | var( | number | string
+5578-060085c254278034	57605	1000	i			9	number | string | Cubic bezier arrays must contain four numerical values. | cubic-bezier-length | invalid-easing-type | easeInOut
+5578-060085c254278034	90145	992	A			3	function | Expected a function | maxWait | trailing
+5578-060085c254278034	45359	847	z			7	number | string | spring | change | destroy
+5578-060085c254278034	87863	788	B			2	
+5578-060085c254278034	72396	760	G			7	Both input and output ranges must be the same length | range-length
+5578-060085c254278034	20944	741	G			6	change | function | function
+5578-060085c254278034	99880	576	v		zustand store	1	function | object
+5578-060085c254278034	57445	460	$,q			1	string | string
+5578-060085c254278034	13552	427	u			2	
+5578-060085c254278034	38105	402	v			1	
+5578-060085c254278034	13885	354	B			4	green | blue | rgba(
+5578-060085c254278034	68491	354	y			3	string
+5578-060085c254278034	53793	333	V			4	saturation | lightness | hsla(
+5578-060085c254278034	82106	311	A			1	
+5578-060085c254278034	46021	309	KN,gQ,px,uj,vh,vw			0	string
+5578-060085c254278034	29671	307	xQ			2	
+5578-060085c254278034	56133	248	q			0	
+5578-060085c254278034	13529	240	j,p			0	string | var(--
+5578-060085c254278034	6780	238	d			4	change
+5578-060085c254278034	54958	223	k			2	
+5578-060085c254278034	98731	222	K			0	string
+5578-060085c254278034	63257	203	Z			2	
+5578-060085c254278034	96464	198	Gt,PP,WG,uv			2	undefined
+5578-060085c254278034	85964	190	K			0	
+5578-060085c254278034	25947	188	E			3	string
+5578-060085c254278034	3381	185	X			0	loop | loop
+5578-060085c254278034	79516	184	X4,ai,hs			1	number
+5578-060085c254278034	7009	141	Sz,ZZ,dg			3	
+5578-060085c254278034	19981	137	Ai,Kq			0	
+5578-060085c254278034	25811	135	Y,t			0	
+5578-060085c254278034	61914	133	M			1	
+5578-060085c254278034	21829	132	po,tn,yT			2	
+5578-060085c254278034	53785	121	Q			1	never
+5578-060085c254278034	23962	109	Y			1	
+5578-060085c254278034	54132	103	b			1	
+5578-060085c254278034	60479	97	x			1	ownerSVGElement
+5578-060085c254278034	26408	94	s			1	offsetHeight
+5578-060085c254278034	28851	89	E			2	
+5578-060085c254278034	49421	84	J			1	
+5578-060085c254278034	79870	82	p			0	
+5578-060085c254278034	18925	77	q			0	
+5578-060085c254278034	51786	77	G			0	object
+5578-060085c254278034	78992	76	D			0	number
+5578-060085c254278034	58220	73	F			0	
+5578-060085c254278034	14785	72	Q			0	
+5578-060085c254278034	75744	71	V			0	
+5578-060085c254278034	14752	66	t			1	
+5578-060085c254278034	88991	65	q			0	
+5578-060085c254278034	5662	64	L			1	
+5578-060085c254278034	37721	63	S			0	
+5578-060085c254278034	85582	63	f			0	
+5578-060085c254278034	75406	61	X,f			0	
+5578-060085c254278034	43215	60	B			0	undefined
+5578-060085c254278034	89460	58	a			0	
+5578-060085c254278034	6816	57	S			0	
+5578-060085c254278034	89221	57	$,V			0	
+5578-060085c254278034	75795	56	q			0	
+5578-060085c254278034	71107	52	k			0	
+5578-060085c254278034	65739	48	G			0	
+5578-060085c254278034	10712	38	l			0	
+5578-060085c254278034	84854	36	W			0	
+7349-5fc72e5aa1e8149a	31563	166978	call,checkInSklandApp,default,native,navigation,alertModal,applyPermissions,canAutoImgShare,canIUse,canVersion,compareVersion,deInitList,downloadApp,emit,getCache,getCommonInfo,getGameAppInfo,getPageInfo,getStorage,getSystemInfo,getUserInfo,hasApp,hideLoading,off,offLifecycle,on,onLifecycle,openApp,openAuthPage,openGameApp,openGameCenter,openPhoto,openURL,pop,push,readText,ready,readyApp,removeStorage,schema,setCache,setNavbar,setScreen,setStatusBarStyle,setStorage,shareImage,shareImg,shareLink,shareQRCode,showErrorToast,showLoading,showToast,uploadPhoto,writeText			9	@skland/one-bridge | info | debug | info | warn | error
+7349-5fc72e5aa1e8149a	3301	12619	adapter,default			1	ui_header | boolean | ui_nav | boolean | ui_footer | boolean
+7349-5fc72e5aa1e8149a	53079	6973			dayjs	0	millisecond | second | minute | hour | week | month
+7349-5fc72e5aa1e8149a	68973	3367	C6,Cl,Ju,Tt,YH,fX,sH,zs			0	function | Class extends value  |  is not a constructor or null | function | function | function
+7349-5fc72e5aa1e8149a	1801	1124	getSDKReadyFunc			1	abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 | undefined | script | error
+7349-5fc72e5aa1e8149a	31489	72				0	
+8498-2c5f8c0351c886c2	25221	11912	A		framer-motion	0	function | Class extends value  |  is not a constructor or null | load | left-right | right-left
+8498-2c5f8c0351c886c2	30998	3307	N			9	style | 
+          [data-motion-pop-id=" | "] {
+            position: absolute !important;
+            width:  | px !important;
+            height:  | px !impor
+8498-2c5f8c0351c886c2	50144	1971	Zr		zustand store	0	number | State loaded from storage couldn't be migrated since no migrate function was provided
+8498-2c5f8c0351c886c2	19213	787	W			2	some | function | function | number
+8498-2c5f8c0351c886c2	17540	281	A			2	function | Expected a function | leading | trailing
+8544-0e2dc3d9c44e521e	51113	9293	Cp		sentry	0	undefined | debug | info | warn | error | assert
+8544-0e2dc3d9c44e521e	47929	2290				4	__esModule | default | Bad Request | This page could not be found | Method Not Allowed | Internal Server Error
+8544-0e2dc3d9c44e521e	93031	2221				10	__esModule | meta | utf-8 | charset | meta | viewport
+8544-0e2dc3d9c44e521e	40056	762				1	__esModule | default
+8544-0e2dc3d9c44e521e	73279	240				0	__esModule | isInAmpMode
+8544-0e2dc3d9c44e521e	85703	209				2	__esModule | AmpStateContext
+8544-0e2dc3d9c44e521e	58694	29				1	
+86478c97-2730e7cdddbaa41b	78827	168332			react / react-dom runtime;scheduler (React);framer-motion;zustand store	4	https://react.dev/errors/ | ?args[]= | &args[]= | Minified React error # | ; visit  |  for the full message or use the non-minified dev environment for full err
+8963-234f979bdd6b491c	22715	22175	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	92182	12752	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	52271	12397	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	15889	11935	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	73560	7808	A			10	http://www.w3.org/2000/svg | path | evenodd | currentColor | http://www.w3.org/2000/svg | path
+8963-234f979bdd6b491c	68408	3776	p			0	static/media/video/enter.a66d56.mp4 | static/media/video/idle.5c433b.mp4 | static/media/video/enter.bb0080.mp4 | static/media/video/idle.ce391f.mp4 | static/med
+8963-234f979bdd6b491c	73992	3401	Q		classnames	5	string | x5-video-player-type | x5-playsinline | [backgroundVideo] autoplay failed, waiting for user interaction, err: | click | wechat
+8963-234f979bdd6b491c	84245	2988	WO,iI,iv,zI		anime.js (easing/timeline)	4	easeOutQuad | easeOutQuad | easeOutQuad | easeOutQuad | easeOutQuad | easeOutQuad
+8963-234f979bdd6b491c	91251	2563	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	2682	2163	Ay,MS			5	translateX( | rem) | translateX( | rem) | http://www.w3.org/2000/svg | path
+8963-234f979bdd6b491c	71272	2140	E,r		zustand store	10	landscape | blur( | tween | OVER THE FRONTIER / INTO THE FRONT | tween | 3.125rem
+8963-234f979bdd6b491c	26097	1626	d,A		zustand store	2	static/media/sound/arrow_click.a72c10.mp3 | static/media/sound/char_click.beff5b.mp3 | static/media/sound/char_detail_enter.babc4e.mp3 | static/media/sound/char
+8963-234f979bdd6b491c	92418	1331	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	96664	1107	A			5	linear | easeInCubic | easeOutCubic
+8963-234f979bdd6b491c	14577	948	Z			1	html | HarmonyOS | OpenHarmony | bdhonorbrowser | HeyTap | Huawei
+8963-234f979bdd6b491c	81222	775	A			1	http://www.w3.org/2000/svg | path | evenodd | currentColor
+8963-234f979bdd6b491c	40489	758	y			5	function | canvas | video | webkit-playsinline | true | anonymous
+8963-234f979bdd6b491c	73422	695	A			1	http://www.w3.org/2000/svg | currentColor | rect | path
+8963-234f979bdd6b491c	11850	616		__00-Loading_container__aBijT __00-Loading_bg__mahvH __00-Loading_leaving__IKIPd __00-Loading_fadeIn__CDcQn		0	
+8963-234f979bdd6b491c	89622	562	j			5	aic.items.0.title | aic.items.0.description | aic.items.1.title | aic.items.1.description | aic.items.2.title | aic.items.2.description
+8963-234f979bdd6b491c	48056	524	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/04.924992fa.png
+8963-234f979bdd6b491c	96970	514		Pagination_pagination__3IDBu Pagination_number__LDm_X Pagination_nav__BS7X4 Pagination_dark__8bFUA		0	
+8963-234f979bdd6b491c	71494	508	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02.e58f9497.png
+8963-234f979bdd6b491c	17224	504	A			3	aria-hidden | true
+8963-234f979bdd6b491c	93247	504	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/03.722342c9.png
+8963-234f979bdd6b491c	34573	500	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/01.aae95e75.png
+8963-234f979bdd6b491c	80753	492	A			0	https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/05.bc9f3f37.png
+8963-234f979bdd6b491c	15723	474	B$,Cb,Fr,I7,Jc,TN,un,zZ			0	
+8963-234f979bdd6b491c	26915	472	g			4	gameplay.items.0.title | gameplay.items.0.description | gameplay.items.1.title | gameplay.items.1.description | gameplay.items.2.title | gameplay.items.2.descri
+8963-234f979bdd6b491c	45876	440		RollingContent_rollingContent__VbFgT RollingContent_overflowWrapper__7cCR9 RollingContent_contentContainer__U3urx RollingContent_rolling__WOKrN		0	
+8963-234f979bdd6b491c	90286	416	M			2	resize | resize | landscape | landscape | portrait
+8963-234f979bdd6b491c	58779	352		SectionTitle_sectionTitle__tAFPG SectionTitle_icon__YpILA SectionTitle_arrowBlock__6yIDQ SectionTitle_active__9ceng		0	
+8963-234f979bdd6b491c	52652	286	A			4	HollowText
+8963-234f979bdd6b491c	29521	270	Z			0	section_homepage | section_announcement | section_character | section_lore | section_video | section_knowledge
+8963-234f979bdd6b491c	45478	232		bg_bgContainer__8_h2E bg_bg__JeUZA bg_horizontalMask__A7Oa8 bg_verticalMask__k2knK		0	
+8963-234f979bdd6b491c	2285	212	E		zustand store	3	ef-official-sound-control
+8963-234f979bdd6b491c	44990	166	D			1	
+8963-234f979bdd6b491c	34169	104		TransparentVideo_container__Inu2a TransparentVideo_overlay__oi9EU		0	
+8963-234f979bdd6b491c	44752	102		players_videoContainer__Ahx_s players_videoInDom__dUdna		0	
+8963-234f979bdd6b491c	20371	72				0	static/media/video/04.7beddb.mp4
+8963-234f979bdd6b491c	46301	72				0	static/media/video/02.9ab299.mp4
+8963-234f979bdd6b491c	51282	72				0	static/media/video/01.1e0eb1.mp4
+8963-234f979bdd6b491c	63376	72				0	static/media/video/03.422a72.mp4
+8963-234f979bdd6b491c	71460	58		HallowText_hollowText__OJN57		0	
+89e1c093-3fe0f7dcc646fb37	61617	212756	$EB,$Yl,$_I,$ei,A$4,AQS,BH$,BKk,BXX,B_h,CSG,CVz,CWW,Cfg,CmU,DXC,Dmk,EZo,EdD,FFZ,FV,FXf,Fn,GJx,GWd,GYF,Gwm,H23,HIg,HO_,HXV,I9Y,IE4,IUQ,Iit,Jnc,K52,KDk,KLL,KRh,Kef,Kwu,LAk,LiQ,LlO,LoY,MW4,Mjd,Mmk,N5j,NTi,Nex,Nt7,Nz6,O9p,ONl,OUM,Om,OuU,PPD,Pq0,Q1f,QP0,Qev,Qrf,R3r,RQf,Riy,RrE,RyA,S$4,THS,TdN,TiK,TkQ,U3G,V3x,V9B,VCu,VT0,Vb5,VxR,W9U,WNZ,Wdf,Wew,Wk7,XG_,XIg,XrR,YJl,Yuy,Z58,ZQM,Zcv,Zr2,_QJ,_Ut,a55,a5J,aEY,aJ8,aVO,amv,b4q,bC7,bCz,bI3,bdM,bkx,brA,bw0,c90,cHt,caT,czI,dYF,dcC,dwI,e0p,eHc,eaF,eoi,er$,f4X,fBL,g7M,gJ2,gO9,gPd,gWB,ghU,hB5,hdd,hgQ,hsX,hxR,hy7,iNn,ie2,ix0,jR7,jej,jf0,jzd,k6Q,k6q,kO0,kRr,kTW,kTp,kn4,kyO,lGu,lPF,lxW,lyL,mcG,nNL,nST,nWS,nZQ,o6l,ojh,ojs,ov9,pBf,pHI,paN,ppV,psI,qUd,qa3,qad,qq$,qtW,rFo,rSH,sPf,tJf,uB5,uV5,uWO,ubm,vim,vyJ,wfO,wn6,wrO,xFO,xSv,xiE,y3Z,y_p,zdS,zgK,znC		three.js;anime.js (easing/timeline)	0	srgb | srgb-linear | linear | srgb | Invalid component type. | Invalid component type.
+a8f12803-a59e3d6978d239b3	24106	321251	JeP		three.js;zustand store	1	undefined | THREE.WebGLAttributes: Unsupported buffer data format:  | #ifdef USE_ALPHAHASH
+	if ( diffuseColor.a < getAlphaHashThreshold( vPosition ) ) discard;
+
+global-error-0b005263e0e74557	63959	274	default			4	html | body
+global-error-0b005263e0e74557	92854	50				0	
+main-app-aa0c052c2919e7bc	45105	365				0	
+main-app-aa0c052c2919e7bc	4014	6				0	

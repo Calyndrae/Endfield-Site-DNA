@@ -1,0 +1,11 @@
+{
+  "module": 7725,
+  "summary": "BackgroundMusic (export K) instantiates the BgmPlayer class from module 58572 (aliased GryphlineWebSDK) with static/media/sound/bgm.3ce37f.mp3, loop, autoPlay, fade, suspendWhenHidden and suspendWhenHiddenInSkland all enabled, and volume 0.1 on mobile user agents (DeviceUtils.Fr) or 1 otherwise. On the server it is a stub exposing no-op enable() and disable().",
+  "exports": {
+    "K": "backgroundMusic"
+  },
+  "renames": {
+    "s_1": "BGM_SOURCE",
+    "o_2": "backgroundMusic"
+  }
+}

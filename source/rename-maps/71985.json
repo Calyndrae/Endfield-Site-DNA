@@ -1,0 +1,25 @@
+{
+  "module": 71985,
+  "summary": "Toast component with an imperative Toast.message(content, {duration=2000}) helper. The component animates its root div with anime.js (opacity [0,1] when visible, [1,0] when hidden, 300 ms, easing cubicBezier(0.25, 0.1, 0.25, 1)) and calls afterClose (default: a no-op from the anime.js 3.2.1 alias) once the hide animation completes. message() appends a div to document.body, creates a React root (createRoot), renders the toast visible inside a setTimeout, then after `duration` ms re-renders it hidden with an afterClose that unmounts the root and removes the container. CSS classes used: styles.toast and styles.content.",
+  "exports": {
+    "A": "Toast"
+  },
+  "renames": {
+    "d_1": "Toast",
+    "f_2": "ToastAlias",
+    "e_3": "props",
+    "l_4": "children",
+    "t_5": "visible",
+    "n_6": "afterClose",
+    "a_7": "toastRef",
+    "e_8": "content",
+    "t_9": "options",
+    "n_10": "duration",
+    "o_11": "container",
+    "s_12": "root",
+    "a_13": "renderToast",
+    "e_14": "renderProps",
+    "t_15": "renderContent",
+    "n_16": "restProps"
+  }
+}

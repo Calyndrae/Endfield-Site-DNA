@@ -1,0 +1,31 @@
+{
+  "module": 21086,
+  "summary": "Axios client for the site's own account endpoints under '/api/account', using baseURL SiteConfig.serverPrefix (empty string), responseType json and a 5000 ms timeout, with the same request/response interceptors as the bulletin client (errors normalized to {statusCode, code, msg}, default msg '请求错误'). getChargeInfo() fetches the SDK token via Tracking.getToken() and POSTs /api/account/charge-info with {token}, returning {total:null, data:null} when no token; getOrigData(serverId, roleToken) POSTs /api/account/orig-data with {roleToken, serverId}.",
+  "exports": {
+    "Ys": "getChargeInfo",
+    "BV": "getOrigData"
+  },
+  "renames": {
+    "n_1": "clientConfig",
+    "s_2": "accountClient",
+    "L_3": "ACCOUNT_API_BASE",
+    "i_4": "getChargeInfo",
+    "o_5": "getOrigData",
+    "e_6": "requestConfig",
+    "e_7": "requestError",
+    "t_8": "requestErrorMessage",
+    "e_9": "response",
+    "e_10": "responseError",
+    "t_11": "errorResponseForData",
+    "r_12": "errorResponseForText",
+    "l_13": "errorResponseForStatus",
+    "a_14": "errorCode",
+    "n_15": "errorMsg",
+    "s_16": "statusText",
+    "L_17": "fallbackMsg",
+    "i_18": "errorData",
+    "e_19": "token",
+    "e_20": "serverId",
+    "t_21": "roleToken"
+  }
+}

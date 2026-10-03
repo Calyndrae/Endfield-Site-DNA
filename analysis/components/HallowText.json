@@ -1,0 +1,95 @@
+{
+ "component": "HallowText",
+ "files": [
+  "3bd8ebba7b8795c3.css"
+ ],
+ "classes": {
+  "hollowText": "HallowText_hollowText__OJN57"
+ },
+ "ruleCount": 1,
+ "rules": [
+  {
+   "selector": ".HallowText_hollowText__OJN57",
+   "media": [],
+   "declarations": {
+    "padding-right": "1rem",
+    "font-family": "Novecentosanswide-Bold",
+    "background-image": "linear-gradient(-45deg,transparent,transparent 20.5805011712%,black 0,black 29.4194988288%,transparent 0,transparent 70.5805011712%,black 0,black 79.4194988288%,transparent 0,transparent)",
+    "background-size": ".5rem .5rem",
+    "background-repeat": "repeat",
+    "background-position": "0 0",
+    "-webkit-background-clip": "text",
+    "background-clip": "text",
+    "color": "rgba(0,0,0,0)",
+    "height": "15.625rem",
+    "font-size": "15.625rem",
+    "line-height": "1",
+    "letter-spacing": "-.625rem",
+    "width": "fit-content",
+    "opacity": ".6"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  }
+ ],
+ "markup": "<div class=\"HallowText_hollowText__OJN57 Header_hallowText__ZR39f\">ENDFIELD</div>",
+ "markupPage": "en-us",
+ "markupClass": "HallowText_hollowText__OJN57",
+ "appearsOn": [
+  "en-us",
+  "en-us_news",
+  "en-us_news_7013",
+  "en-us_operator"
+ ],
+ "computed": {
+  "HallowText_hollowText__OJN57": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "ENDFIELD",
+   "position": "absolute",
+   "display": "block",
+   "width": "fit-content",
+   "height": "180px",
+   "left": "50%",
+   "bottom": "-49.5px",
+   "font-family": "Novecentosanswide-Bold",
+   "font-size": "180px",
+   "font-weight": "400",
+   "line-height": "180px",
+   "letter-spacing": "-18px",
+   "color": "rgba(0, 0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 20.5805%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 29.4195%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 70.5805%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 79.4195%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0))",
+   "opacity": "0.6",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgba(0, 0, 0, 0)",
+   "padding": "0px 9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,0)"
+  ],
+  "fonts": [
+   "Novecentosanswide-Bold"
+  ],
+  "fontSizes": [
+   "15.625rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

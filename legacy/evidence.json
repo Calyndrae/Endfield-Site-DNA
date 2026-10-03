@@ -1,0 +1,4922 @@
+{
+  "scope": "Homepage plus directly linked English operator and news routes; no deeper URLs fetched. All JS/CSS processed in memory; only compact metadata retained.",
+  "captured_at_local": "2026-10-03 Pacific/Auckland",
+  "pages": {
+    "home": {
+      "url": "https://endfield.gryphline.com/en-us",
+      "status": 200,
+      "bytes": 55715,
+      "sha256": "7c32bdcc4f14046f6673ecb8e897abff5a2ced7536a7824f4f8d5af8f87426eb",
+      "stylesheets": [
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+      ],
+      "scripts": [
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/layout-282874dd3834757d.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/page-108678b3875e4637.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js"
+      ],
+      "html_links": [],
+      "html_media": [],
+      "next_build_id": null
+    },
+    "operators": {
+      "url": "https://endfield.gryphline.com/en-us/operator",
+      "status": 200,
+      "bytes": 162476,
+      "sha256": "c023167e8057dfd6a688c62af3c43e242894deda8b92e6f153602ab344f93346",
+      "stylesheets": [
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+      ],
+      "scripts": [
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/operator/page-3a80441c18fd566a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js"
+      ],
+      "html_links": [],
+      "html_media": [],
+      "next_build_id": null
+    },
+    "news": {
+      "url": "https://endfield.gryphline.com/en-us/news",
+      "status": 200,
+      "bytes": 165238,
+      "sha256": "0a09635e77eccb2173bcd4e25e6c65d88a6be2929ea01de1afd5da4bfca0509e",
+      "stylesheets": [
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+      ],
+      "scripts": [
+        "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+        "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js"
+      ],
+      "html_links": [],
+      "html_media": [
+        "https://web-static.hg-cdn.com/upload/image/20260828/e83698dd203d70377ff6ec97ea359c06.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260831/9937940f4ed675d8a78f2c640f23819f.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260831/9ad5ba1516db578d6900bda6fc9aed0e.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260901/121e71a2c9ea6036f6d06be488f9bf68.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260901/882e9f228e9635399a69671a13cf272c.png",
+        "https://web-static.hg-cdn.com/upload/image/20260915/f5d748ab8f058ba69cc38a14593d09df.png",
+        "https://web-static.hg-cdn.com/upload/image/20260920/faf45ea862bee7e7e7b02bc2b1095482.png",
+        "https://web-static.hg-cdn.com/upload/image/20260922/8e90c45ea77f1a1f092e5e7a718ae493.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260923/b477b4aa5b1b132275fef5d5a69c690e.jpg",
+        "https://web-static.hg-cdn.com/upload/image/20260929/82eb128394df3c98ba50e01a12fc2e0e.png"
+      ],
+      "next_build_id": null
+    }
+  },
+  "stylesheets": [
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+      "bytes": 94054,
+      "sha256": "51b3b9401833fd307df0b58fddb87deaab4c7e33fbb46c8722c88fe72ef843e7"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+      "bytes": 8222,
+      "sha256": "1dd80b352375022a34bb5f8955148dd70aaa2aeab54b0c54ce552d7d75aae2e4"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css",
+      "bytes": 5911,
+      "sha256": "3d3635a7faaabba672da6bddd7cc6479d2ad4711d0f289079d2505d1289794d2"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+      "bytes": 100088,
+      "sha256": "00a43eb07493c2336d23d6bfa59fb57aa19989c8cb5c72eae21cd502692628de"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+      "bytes": 86430,
+      "sha256": "f14e2a0e9ce0777245f9c7595e294c9464ba27f6c180520db89c89018b243bb0"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+      "bytes": 7938,
+      "sha256": "fa3f43a7512082ba2a2158b65af26d85a44ff4a9672c1d59a4e7992607410a1d"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+      "bytes": 340,
+      "sha256": "e447933cc59c30aab1a56bd9b46fdf8931993f1898574ba2a7fc8c2f5079b68f"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+      "bytes": 16839,
+      "sha256": "68a907a5146186f0cb7400e09b3c7500f68e5e7343a5a0bc26ee804b7cef683c"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+      "bytes": 21722,
+      "sha256": "9a2959af26b809fa317f95675b6cc5fb21af4b503773df8d6f2457452be99bac"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+      "bytes": 19369,
+      "sha256": "98f3f85baa514f25bebd0dd451c414fb68f678c46773cac1d7dbe2154328217a"
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+      "bytes": 34886,
+      "sha256": "041d4ce4cc4e01cbee550fdfb9ec3f09e2c385cb961b30ae486ca6a36d4a0579"
+    }
+  ],
+  "scripts": [
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+      "bytes": 4298,
+      "sha256": "f181bb18d0a49a1e464a7322f91bacf69aec717616d9ab515c9e8e9ce52522b7",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+      "bytes": 26679,
+      "sha256": "74b5a944f3b829b217e1ca03615caad43247a6cea5af5484119d5f1d3b5eb88c",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+      "bytes": 305691,
+      "sha256": "bfb291397ee18cb13b83cead6fed2d49596001b74124232330ad6f02453f694a",
+      "module_count_estimate": 1,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "8147"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+      "bytes": 57898,
+      "sha256": "9ff1cb1c43d7005b882e43427c76fa8c1e7a90298c7f8462ba1e8b30e876d20a",
+      "module_count_estimate": 4,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "22060",
+        "23190",
+        "35178",
+        "83970"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+      "bytes": 160771,
+      "sha256": "50d4b51860a6033847bde05c983e52f25ea227bd70dea178f0e03c028593699a",
+      "module_count_estimate": 16,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": true,
+      "module_ids": [
+        "3492",
+        "6777",
+        "7725",
+        "12914",
+        "25576",
+        "27014",
+        "27663",
+        "30257",
+        "47290",
+        "54335",
+        "83597",
+        "84343",
+        "90928",
+        "91627",
+        "93297",
+        "96741"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+      "bytes": 34207,
+      "sha256": "9f9d3b4a6103c800a7b50b4d79d769d217794dae5816b301ed4a1fcb9c690d30",
+      "module_count_estimate": 1,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "13269"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+      "bytes": 24301,
+      "sha256": "110ae28932f14ae04292699a9272432bbde0f3d9b077387df5f50065b5d72ee8",
+      "module_count_estimate": 3,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "49095",
+        "875",
+        "370"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+      "bytes": 30467,
+      "sha256": "2ca53cb2d9a723904fffee710f78673fb0250b64d66e930b0a6b1cf223500cf9",
+      "module_count_estimate": 12,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "6921",
+        "18109",
+        "19460",
+        "21086",
+        "29190",
+        "35038",
+        "70246",
+        "79549",
+        "80500",
+        "92610",
+        "94150",
+        "95823"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+      "bytes": 17383,
+      "sha256": "033f2faeece0cbdc28170d2404e16663312d8d9fd44ee3f469d4748d5ff1f012",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+      "bytes": 134368,
+      "sha256": "33d21303f6149ba5a3be3ffab657bf9bb3530435b31f63041ca6bde5224bf7f6",
+      "module_count_estimate": 39,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "5649",
+        "9732",
+        "10279",
+        "11728",
+        "14357",
+        "15252",
+        "19033",
+        "21789",
+        "25477",
+        "28136",
+        "30712",
+        "33249",
+        "35524",
+        "36539",
+        "36624",
+        "39322",
+        "41409",
+        "41582",
+        "44175",
+        "45628",
+        "48074",
+        "58488",
+        "58572",
+        "59288",
+        "60891",
+        "65544",
+        "74345",
+        "74517",
+        "80187",
+        "83344",
+        "84882",
+        "87276",
+        "89102",
+        "91618",
+        "91809",
+        "93056",
+        "94167",
+        "95750",
+        "96306"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+      "bytes": 201447,
+      "sha256": "0ecec8e2f924cbf57867bbc23852f8af33546197a87fc7b174d4b704e9670271",
+      "module_count_estimate": 1,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "15257"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+      "bytes": 175576,
+      "sha256": "52c89a71f6053fde8880c4d2b6ce16d9fdc6cf989ed9426059926c7ac0aabe1d",
+      "module_count_estimate": 143,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "3",
+        "704",
+        "2268",
+        "2724",
+        "2855",
+        "3382",
+        "4662",
+        "4664",
+        "4950",
+        "7039",
+        "7177",
+        "7359",
+        "8977",
+        "9843",
+        "9848",
+        "10020",
+        "10234",
+        "10327",
+        "10768",
+        "11852",
+        "11875",
+        "12383",
+        "12911",
+        "14141",
+        "14432",
+        "14589",
+        "15691",
+        "15903",
+        "16189",
+        "16412",
+        "16878",
+        "17267",
+        "18770",
+        "19042",
+        "19374",
+        "19964",
+        "20457",
+        "22726",
+        "23198",
+        "23582",
+        "25511",
+        "27795",
+        "29639",
+        "30107",
+        "30611",
+        "30695",
+        "34697",
+        "38211",
+        "38284",
+        "39767",
+        "40081",
+        "40657",
+        "40951",
+        "41451",
+        "41505",
+        "42031",
+        "42320",
+        "43096",
+        "43711",
+        "44615",
+        "45056",
+        "45232",
+        "45893",
+        "46027",
+        "46600",
+        "47470",
+        "48639",
+        "49484",
+        "49510",
+        "50080",
+        "50182",
+        "50443",
+        "50953",
+        "51007",
+        "51472",
+        "51724",
+        "51829",
+        "53051",
+        "53481",
+        "53693"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+      "bytes": 31308,
+      "sha256": "b218e34ca4f7d0013f58e3c776168e900bcb9a40a74ec2ae36c955c73dce9190",
+      "module_count_estimate": 28,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "1841",
+        "3147",
+        "4948",
+        "9184",
+        "11502",
+        "22519",
+        "26673",
+        "29269",
+        "32343",
+        "35300",
+        "37602",
+        "49929",
+        "52151",
+        "56006",
+        "57236",
+        "60459",
+        "63875",
+        "73803",
+        "75583",
+        "78074",
+        "79755",
+        "80689",
+        "82405",
+        "89808",
+        "90746",
+        "92880",
+        "93577",
+        "97916"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+      "bytes": 120117,
+      "sha256": "69618947c6b286fc2f8d9a4105b6b0964232108f051b0272e1c060fdf2fe066f",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+      "bytes": 192708,
+      "sha256": "8d510919ac13b96521cd509eb0beed1019b93712a095d528d6ba571a05e4ce08",
+      "module_count_estimate": 6,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "1801",
+        "3301",
+        "31489",
+        "31563",
+        "53079",
+        "68973"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+      "bytes": 18373,
+      "sha256": "22649403ad2af7064671749dc34ba639917d8e9d1c9dcbcb28ad5df1505d3c89",
+      "module_count_estimate": 5,
+      "threejs": false,
+      "transparent_video": true,
+      "operator_logic": false,
+      "module_ids": [
+        "17540",
+        "19213",
+        "25221",
+        "30998",
+        "50144"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+      "bytes": 15160,
+      "sha256": "7897fbee312d6918d32e6c1d284a5cf94faecc9e1b2f00bd49a75baca605994b",
+      "module_count_estimate": 7,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "40056",
+        "47929",
+        "51113",
+        "58694",
+        "73279",
+        "85703",
+        "93031"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+      "bytes": 168419,
+      "sha256": "846864c584c5ff789a317f9e714a9749dce3fa9d87dbc6f403c1ba0cfca7fd6b",
+      "module_count_estimate": 1,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "78827"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+      "bytes": 107132,
+      "sha256": "a7007aea1c2cf3bd70adad3691b36ee95017d8334cc7853cd772eaf1a3f4818d",
+      "module_count_estimate": 44,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "1162",
+        "2285",
+        "2682",
+        "3787",
+        "9995",
+        "14577",
+        "15723",
+        "15889",
+        "17224",
+        "20371",
+        "22715",
+        "26097",
+        "26915",
+        "29521",
+        "34573",
+        "40489",
+        "44705",
+        "44990",
+        "46301",
+        "48056",
+        "51282",
+        "52271",
+        "52652",
+        "60108",
+        "63376",
+        "68408",
+        "71272",
+        "71494",
+        "71985",
+        "73422",
+        "73560",
+        "73690",
+        "73992",
+        "80753",
+        "81222",
+        "84245",
+        "89622",
+        "90286",
+        "91251",
+        "92182",
+        "92418",
+        "93247",
+        "96664",
+        "97521"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+      "bytes": 212843,
+      "sha256": "725e4603a601d592c613629b15c70b75bb8f625d0d9d86699b73933c91b8eff1",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+      "bytes": 321338,
+      "sha256": "bb1e1ba340093c59a6a339ef265c64bc3a0a0c4f640271b4ff003b3723bc5f9e",
+      "module_count_estimate": 1,
+      "threejs": true,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "24106"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/layout-282874dd3834757d.js",
+      "bytes": 7601,
+      "sha256": "21c989be67ca6674d50b4bb98ffc7bb0049b37a4dd2132f7e96f61c1b79e23e9",
+      "module_count_estimate": 17,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "2080",
+        "3787",
+        "15790",
+        "30257",
+        "34588",
+        "38963",
+        "42750",
+        "48695",
+        "51392",
+        "55492",
+        "57138",
+        "60108",
+        "61789",
+        "71985",
+        "76595",
+        "91627",
+        "97521"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/page-108678b3875e4637.js",
+      "bytes": 488,
+      "sha256": "55c6ff9a7685797f8c65ab6a1d2747a534cc81464d1ff38468fba85799260b55",
+      "module_count_estimate": 2,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "69667",
+        "80900"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js",
+      "bytes": 25621,
+      "sha256": "57927bfa013b11986dcb0efcf5543b67437dd5e0c76465c9ebf1757b8c9bd6ef",
+      "module_count_estimate": 6,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "51967",
+        "62534",
+        "67002",
+        "86797",
+        "92731",
+        "98353"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/operator/page-3a80441c18fd566a.js",
+      "bytes": 7650,
+      "sha256": "fd9650e046708a326bce4649f67105ed8e579571700dde866209870a669cbf82",
+      "module_count_estimate": 2,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "50999",
+        "58272"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+      "bytes": 1575940,
+      "sha256": "3dd3c09d9db196fc005d9efccd8698c85866701e4c311fe088a220010a07c26d",
+      "module_count_estimate": 236,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": true,
+      "module_ids": [
+        "888",
+        "1162",
+        "1645",
+        "2085",
+        "3411",
+        "3919",
+        "4060",
+        "4133",
+        "4353",
+        "4431",
+        "4454",
+        "4463",
+        "5144",
+        "5268",
+        "6480",
+        "6584",
+        "7094",
+        "7175",
+        "7255",
+        "7404",
+        "8156",
+        "9050",
+        "9265",
+        "9995",
+        "10414",
+        "10893",
+        "11034",
+        "12297",
+        "13344",
+        "13397",
+        "14029",
+        "14682",
+        "15662",
+        "15927",
+        "16528",
+        "17526",
+        "18640",
+        "18750",
+        "19158",
+        "19798",
+        "20023",
+        "20438",
+        "20544",
+        "21225",
+        "22378",
+        "22520",
+        "22762",
+        "22992",
+        "23631",
+        "23885",
+        "24487",
+        "24632",
+        "24678",
+        "24782",
+        "24912",
+        "25490",
+        "25873",
+        "26669",
+        "27214",
+        "27225",
+        "27337",
+        "27610",
+        "28231",
+        "28457",
+        "28802",
+        "29804",
+        "29979",
+        "30083",
+        "30163",
+        "30391",
+        "30610",
+        "31042",
+        "32361",
+        "32620",
+        "32625",
+        "32732",
+        "33058",
+        "33407",
+        "33579",
+        "33736"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+      "bytes": 480,
+      "sha256": "2fa2b27960e4ecbe97e7a8dbf41547c61e8c1a06eb8ee818ee70f2e597981654",
+      "module_count_estimate": 2,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "63959",
+        "92854"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+      "bytes": 527,
+      "sha256": "91dac30cfdf788a237219ef94bd8bdb4fe2a5a42cd0111b57e4b58d94c16e1a9",
+      "module_count_estimate": 1,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": [
+        "45105"
+      ]
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    },
+    {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js",
+      "bytes": 3778,
+      "sha256": "4d46accf25a2e672c0b67906fdcc59d350addd053e25d78a78ee24c5a92d395e",
+      "module_count_estimate": 0,
+      "threejs": false,
+      "transparent_video": false,
+      "operator_logic": false,
+      "module_ids": []
+    }
+  ],
+  "css": {
+    "colors": [
+      {
+        "value": "#191919",
+        "count": 88,
+        "properties": {
+          "color": 73,
+          "background-color": 15
+        }
+      },
+      {
+        "value": "#fff",
+        "count": 67,
+        "properties": {
+          "background-color": 28,
+          "color": 35,
+          "border": 3,
+          "background": 1
+        }
+      },
+      {
+        "value": "#fffa00",
+        "count": 43,
+        "properties": {
+          "color": 7,
+          "background-color": 34,
+          "border-color": 2
+        }
+      },
+      {
+        "value": "#d9d9d9",
+        "count": 21,
+        "properties": {
+          "background-color": 17,
+          "border": 1,
+          "border-color": 2,
+          "color": 1
+        }
+      },
+      {
+        "value": "#999",
+        "count": 18,
+        "properties": {
+          "color": 15,
+          "border-color": 1,
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#000",
+        "count": 14,
+        "properties": {
+          "background-color": 10,
+          "color": 4
+        }
+      },
+      {
+        "value": "rgba(0,0,0,0)",
+        "count": 14,
+        "properties": {
+          "border": 1,
+          "background": 10,
+          "color": 3
+        }
+      },
+      {
+        "value": "#e5e5e5",
+        "count": 13,
+        "properties": {
+          "background-color": 11,
+          "border": 2
+        }
+      },
+      {
+        "value": "#f2f2f2",
+        "count": 13,
+        "properties": {
+          "background-color": 11,
+          "color": 1,
+          "border": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.5)",
+        "count": 12,
+        "properties": {
+          "background-color": 11,
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "#e6e6e6",
+        "count": 10,
+        "properties": {
+          "border": 4,
+          "background-color": 6
+        }
+      },
+      {
+        "value": "#fafafa",
+        "count": 10,
+        "properties": {
+          "background-color": 7,
+          "background": 3
+        }
+      },
+      {
+        "value": "#888",
+        "count": 8,
+        "properties": {
+          "background-color": 3,
+          "color": 5
+        }
+      },
+      {
+        "value": "#b3b3b3",
+        "count": 8,
+        "properties": {
+          "color": 7,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#ccc",
+        "count": 8,
+        "properties": {
+          "color": 4,
+          "background-color": 4
+        }
+      },
+      {
+        "value": "#2e2e2e",
+        "count": 6,
+        "properties": {
+          "color": 5,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#666",
+        "count": 6,
+        "properties": {
+          "color": 4,
+          "background-color": 1,
+          "border": 1
+        }
+      },
+      {
+        "value": "#fff000",
+        "count": 6,
+        "properties": {
+          "color": 2,
+          "background-color": 2,
+          "box-shadow": 2
+        }
+      },
+      {
+        "value": "rgba(109,109,109,.5)",
+        "count": 6,
+        "properties": {
+          "background-color": 6
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.25)",
+        "count": 6,
+        "properties": {
+          "background-color": 1,
+          "box-shadow": 5
+        }
+      },
+      {
+        "value": "#333",
+        "count": 6,
+        "properties": {
+          "border": 3,
+          "background-color": 3
+        }
+      },
+      {
+        "value": "#f0f0f0",
+        "count": 5,
+        "properties": {
+          "background-color": 4,
+          "color": 1
+        }
+      },
+      {
+        "value": "#aaa",
+        "count": 5,
+        "properties": {
+          "color": 2,
+          "background-color": 2,
+          "border-color": 1
+        }
+      },
+      {
+        "value": "#a6a6a6",
+        "count": 5,
+        "properties": {
+          "color": 5
+        }
+      },
+      {
+        "value": "#141414",
+        "count": 4,
+        "properties": {
+          "color": 3,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(2,2,2,.3)",
+        "count": 4,
+        "properties": {
+          "box-shadow": 4
+        }
+      },
+      {
+        "value": "#7e7e7e",
+        "count": 4,
+        "properties": {
+          "color": 4
+        }
+      },
+      {
+        "value": "#7c7c7c",
+        "count": 4,
+        "properties": {
+          "color": 4
+        }
+      },
+      {
+        "value": "#fdfd1f",
+        "count": 4,
+        "properties": {
+          "background-color": 2,
+          "color": 2
+        }
+      },
+      {
+        "value": "#ffff21",
+        "count": 3,
+        "properties": {
+          "color": 1,
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#3c3c3c",
+        "count": 3,
+        "properties": {
+          "color": 3
+        }
+      },
+      {
+        "value": "#282828",
+        "count": 3,
+        "properties": {
+          "color": 1,
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#383838",
+        "count": 3,
+        "properties": {
+          "background-color": 3
+        }
+      },
+      {
+        "value": "#626262",
+        "count": 3,
+        "properties": {
+          "background-color": 3
+        }
+      },
+      {
+        "value": "#e7e7e7",
+        "count": 3,
+        "properties": {
+          "border": 3
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.7)",
+        "count": 3,
+        "properties": {
+          "background-color": 3
+        }
+      },
+      {
+        "value": "#b8b8b8",
+        "count": 3,
+        "properties": {
+          "color": 3
+        }
+      },
+      {
+        "value": "#222",
+        "count": 3,
+        "properties": {
+          "background-color": 3
+        }
+      },
+      {
+        "value": "#1f1f1f",
+        "count": 2,
+        "properties": {
+          "color": 1,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#eeea00",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#efe701",
+        "count": 2,
+        "properties": {
+          "border-color": 1,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#e6de01",
+        "count": 2,
+        "properties": {
+          "border-color": 1,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#ededed",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#131315",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#35373c",
+        "count": 2,
+        "properties": {
+          "border": 2
+        }
+      },
+      {
+        "value": "#414348",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.15)",
+        "count": 2,
+        "properties": {
+          "box-shadow": 1,
+          "background": 1
+        }
+      },
+      {
+        "value": "#4d4d4d",
+        "count": 2,
+        "properties": {
+          "color": 2
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.3)",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.5)",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "#bfbfbf",
+        "count": 2,
+        "properties": {
+          "color": 2
+        }
+      },
+      {
+        "value": "#ffcc1a",
+        "count": 2,
+        "properties": {
+          "background-color": 2
+        }
+      },
+      {
+        "value": "hsla(0,0%,40%,.7)",
+        "count": 2,
+        "properties": {
+          "border": 2
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.8)",
+        "count": 2,
+        "properties": {
+          "box-shadow": 2
+        }
+      },
+      {
+        "value": "#3d3d3d",
+        "count": 2,
+        "properties": {
+          "color": 2
+        }
+      },
+      {
+        "value": "#8f8f8f",
+        "count": 2,
+        "properties": {
+          "border": 1,
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#101010",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#6e6e6e",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#242424",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#252525",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#ffea00",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(30,30,30,.8)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#f3f3f3",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.4)",
+        "count": 1,
+        "properties": {
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "#fff500",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#231815",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#b2b2b2",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#4c4c4c",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.2)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#414349",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.8)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgb(255,252.25,114.75)",
+        "count": 1,
+        "properties": {
+          "background": 1
+        }
+      },
+      {
+        "value": "#f1f1f1",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#eee",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#484848",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#f8f8f8",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#cecece",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#767676",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(38,38,38,.5)",
+        "count": 1,
+        "properties": {
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.1)",
+        "count": 1,
+        "properties": {
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "#858585",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#424242",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "#b9b9b9",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.3)",
+        "count": 1,
+        "properties": {
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "#717171",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#777",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "rgba(20,20,20,.9)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#797979",
+        "count": 1,
+        "properties": {
+          "color": 1
+        }
+      },
+      {
+        "value": "rgba(2,2,2,.4)",
+        "count": 1,
+        "properties": {
+          "box-shadow": 1
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.1)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.2)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#38383a",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#262626",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#3a3a3a",
+        "count": 1,
+        "properties": {
+          "background": 1
+        }
+      },
+      {
+        "value": "hsla(0,0%,100%,.45)",
+        "count": 1,
+        "properties": {
+          "border-color": 1
+        }
+      },
+      {
+        "value": "#545454",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.06)",
+        "count": 1,
+        "properties": {
+          "background": 1
+        }
+      },
+      {
+        "value": "#b6b6b6",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "#fffa08",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.42)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      },
+      {
+        "value": "rgba(0,0,0,.62)",
+        "count": 1,
+        "properties": {
+          "background-color": 1
+        }
+      }
+    ],
+    "font_families": [
+      [
+        "SansMedium",
+        41
+      ],
+      [
+        "SansRegular",
+        25
+      ],
+      [
+        "Gilroy-Medium",
+        20
+      ],
+      [
+        "SansBold",
+        9
+      ],
+      [
+        "Novecentosanswide-Medium",
+        7
+      ],
+      [
+        "Novecentosanswide-DemiBold",
+        7
+      ],
+      [
+        "Novecentosanswide-Bold",
+        6
+      ],
+      [
+        "Gilroy-Light",
+        6
+      ],
+      [
+        "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif",
+        3
+      ],
+      [
+        "sans-serif",
+        3
+      ],
+      [
+        "SpaceGrotesk",
+        3
+      ],
+      [
+        "SansBlack",
+        2
+      ],
+      [
+        "HarmonyOS_Sans_SC_Bold",
+        1
+      ],
+      [
+        "unset",
+        1
+      ],
+      [
+        "ProtestStrike-Regular",
+        1
+      ],
+      [
+        "Roboto-Regular",
+        1
+      ],
+      [
+        "Roboto-Black",
+        1
+      ],
+      [
+        "Gilroy-ExtraBold",
+        1
+      ],
+      [
+        "swiper-icons",
+        1
+      ]
+    ],
+    "font_faces": [
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:ProtestStrike-Regular;font-style:normal;font-weight:400;font-display:swap;src:local(\"ProtestStrike-Regular\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.7d04dd.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.8cd908.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.13abe8.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Roboto-Regular;font-style:normal;font-weight:400;font-display:swap;src:local(\"Roboto-Regular\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.978751.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.47822e.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.6e6837.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Roboto-Black;font-style:normal;font-weight:400;font-display:swap;src:local(\"Roboto-Black\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6e4071.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6a179a.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.44fd4a.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Gilroy-Light;font-style:normal;font-weight:400;font-display:swap;src:local(\"Gilroy-Light\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.9981d6.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.d7cc70.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.dab230.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Novecentosanswide-Bold;font-style:normal;font-weight:400;font-display:swap;src:local(\"Novecentosanswide-Bold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fdbac.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fc194.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.2e0acc.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Novecentosanswide-DemiBold;font-style:normal;font-weight:400;font-display:swap;src:local(\"Novecentosanswide-DemiBold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.089c2d.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.9da0ec.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.be3c15.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Novecentosanswide-Medium;font-style:normal;font-weight:400;font-display:swap;src:local(\"Novecentosanswide-Medium\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.748604.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.ef16a8.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.b77880.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Gilroy-Medium;font-style:normal;font-weight:400;font-display:swap;src:local(\"Gilroy-Medium\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.376b06.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.543de8.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.4f7868.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:Gilroy-ExtraBold;font-style:normal;font-weight:400;font-display:swap;src:local(\"Gilroy-ExtraBold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.7b2f8c.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.b8f935.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.9856d3.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "declarations": "font-family:SpaceGrotesk;font-style:normal;font-weight:400;font-display:swap;src:local(\"SpaceGrotesk\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.edd157.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.912379.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.d83d94.ttf) format(\"truetype\")"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+        "declarations": "font-family:swiper-icons;src:url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA\");font-weight:400;font-style:normal"
+      }
+    ],
+    "font_size_lineheight_letterspacing": [
+      {
+        "property": "line-height",
+        "value": "1",
+        "count": 69
+      },
+      {
+        "property": "font-size",
+        "value": "1.5rem",
+        "count": 26
+      },
+      {
+        "property": "font-size",
+        "value": "1.25rem",
+        "count": 18
+      },
+      {
+        "property": "font-size",
+        "value": "1.875rem",
+        "count": 17
+      },
+      {
+        "property": "font-size",
+        "value": "2rem",
+        "count": 15
+      },
+      {
+        "property": "font-size",
+        "value": "1.375rem",
+        "count": 15
+      },
+      {
+        "property": "font-size",
+        "value": "2.25rem",
+        "count": 15
+      },
+      {
+        "property": "font-size",
+        "value": "2.5rem",
+        "count": 13
+      },
+      {
+        "property": "font-size",
+        "value": "3rem",
+        "count": 12
+      },
+      {
+        "property": "font-size",
+        "value": "1.125rem",
+        "count": 12
+      },
+      {
+        "property": "font-size",
+        "value": "1.75rem",
+        "count": 11
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.02em",
+        "count": 10
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.03em",
+        "count": 10
+      },
+      {
+        "property": "font-size",
+        "value": "1rem",
+        "count": 9
+      },
+      {
+        "property": "font-size",
+        "value": "1.625rem",
+        "count": 8
+      },
+      {
+        "property": "font-size",
+        "value": ".9em",
+        "count": 6
+      },
+      {
+        "property": "font-size",
+        "value": ".75em",
+        "count": 6
+      },
+      {
+        "property": "font-size",
+        "value": ".8em",
+        "count": 6
+      },
+      {
+        "property": "line-height",
+        "value": "1.25",
+        "count": 5
+      },
+      {
+        "property": "line-height",
+        "value": "2rem",
+        "count": 5
+      },
+      {
+        "property": "font-size",
+        "value": "4.5rem",
+        "count": 4
+      },
+      {
+        "property": "line-height",
+        "value": "1.5",
+        "count": 4
+      },
+      {
+        "property": "letter-spacing",
+        "value": "0",
+        "count": 4
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-1px",
+        "count": 3
+      },
+      {
+        "property": "font-size",
+        "value": "3.5rem",
+        "count": 3
+      },
+      {
+        "property": "font-size",
+        "value": "3.75rem",
+        "count": 3
+      },
+      {
+        "property": "font-size",
+        "value": "1.5625rem",
+        "count": 3
+      },
+      {
+        "property": "font-size",
+        "value": "4.875rem",
+        "count": 3
+      },
+      {
+        "property": "font-size",
+        "value": "2.125rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": ".625rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "4.375rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "3.25rem",
+        "count": 2
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.04em",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "5.625rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "8.125rem",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "1.6",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "6rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "2.875rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "16px",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "1.4",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "1.8125rem",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "3rem",
+        "count": 2
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.06em",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "4rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "2.625rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "1.3125rem",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "1.25rem",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "2.25rem",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": ".58",
+        "count": 2
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.08em",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "1.8",
+        "count": 2
+      },
+      {
+        "property": "line-height",
+        "value": "2.375rem",
+        "count": 2
+      },
+      {
+        "property": "font-size",
+        "value": "4.75rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "2.5125rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": ".875rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "1.375em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "1.75em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "6.8rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.58rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "2.5rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "1rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "2.58rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.083rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "5.125rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "3.625rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "4.1875rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "7.5rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "1.2",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "4.25rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "2.8125rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "4.375rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": ".08em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "2.4375em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "3.75em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "15.625rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.625rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "2.375rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "3.75rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "4.9375rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": ".9",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "1.125",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": ".05em",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": ".93",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "20rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.1em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "3.375rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "30.5rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "26rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "2.625rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "2.0625rem",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "5.25rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "inherit",
+        "count": 1
+      },
+      {
+        "property": "line-height",
+        "value": "1.3",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "1.25em",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "31rem",
+        "count": 1
+      },
+      {
+        "property": "font-size",
+        "value": "24rem",
+        "count": 1
+      },
+      {
+        "property": "letter-spacing",
+        "value": "-.05em",
+        "count": 1
+      }
+    ],
+    "space_declarations": [
+      {
+        "property": "gap",
+        "value": "2.5rem",
+        "count": 6
+      },
+      {
+        "property": "margin",
+        "value": "0",
+        "count": 5
+      },
+      {
+        "property": "padding",
+        "value": "0",
+        "count": 5
+      },
+      {
+        "property": "gap",
+        "value": ".625rem",
+        "count": 5
+      },
+      {
+        "property": "gap",
+        "value": ".5rem",
+        "count": 4
+      },
+      {
+        "property": "padding",
+        "value": "0 .75rem",
+        "count": 4
+      },
+      {
+        "property": "padding",
+        "value": "1rem",
+        "count": 4
+      },
+      {
+        "property": "padding",
+        "value": "0 2rem",
+        "count": 4
+      },
+      {
+        "property": "gap",
+        "value": "0",
+        "count": 3
+      },
+      {
+        "property": "gap",
+        "value": ".75rem",
+        "count": 3
+      },
+      {
+        "property": "padding",
+        "value": "0 1.25rem",
+        "count": 3
+      },
+      {
+        "property": "gap",
+        "value": "1.125rem",
+        "count": 3
+      },
+      {
+        "property": "gap",
+        "value": "3.75rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": "0 1.5rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": ".75rem 0",
+        "count": 2
+      },
+      {
+        "property": "margin",
+        "value": "0 .3125rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": ".07em 2.25rem 0",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": "1rem 2rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": ".25rem .5rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": "0 1rem 0 3rem",
+        "count": 2
+      },
+      {
+        "property": "padding",
+        "value": "0 calc(50% - 27.125rem)",
+        "count": 2
+      },
+      {
+        "property": "gap",
+        "value": ".875rem",
+        "count": 2
+      },
+      {
+        "property": "gap",
+        "value": "2.375rem",
+        "count": 2
+      },
+      {
+        "property": "margin",
+        "value": "3.75rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "2rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": ".75rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": ".375rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "5rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "2.5rem auto 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "0 .625rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "0 .5rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 3rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 2.25rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 2rem 0 4.3125rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "0 .3rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".75em 1.25em",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "5rem 1.5rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "3.5rem 5rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".09em 2rem 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "4.5rem auto 4.5rem calc(50% - 27.125rem)",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "3.125rem auto 16.25rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "7.5rem 9.75rem 13rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".07em 2rem 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "2.5rem 0 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "1rem 1.125rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "0 1.375rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "4.4375rem 22.3125rem 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "15.875rem 5.25rem 0",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1rem 2rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "2rem 1.5rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1.25rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 1.75rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1.5625rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "0 1.25rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 .75rem 0 1.75rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 .5rem 0 6.75rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1.1875rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 3.5rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "4rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 .5rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": ".25rem 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".5rem 1rem",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": ".125rem 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 1.25rem 0 3.5rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".0625rem .25rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": ".1875rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "2rem 0",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "3.25rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1.5rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".25rem .5rem 0",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "2px",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".5rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".3125rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 .75rem .25rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "4.875rem 0",
+        "count": 1
+      },
+      {
+        "property": "margin",
+        "value": "9.75rem 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": ".625rem 0",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "0 .625rem",
+        "count": 1
+      },
+      {
+        "property": "gap",
+        "value": "1.75rem",
+        "count": 1
+      },
+      {
+        "property": "padding",
+        "value": "1rem .8125rem",
+        "count": 1
+      }
+    ],
+    "media_queries": [
+      [
+        "orientation:portrait",
+        385
+      ],
+      [
+        "orientation:landscape",
+        113
+      ],
+      [
+        "any-hover:hover",
+        28
+      ]
+    ],
+    "asset_urls": [
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02Bg.21971ce1.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnPc.e0af4878.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnH5.9894d510.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tips.ca2b781c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5.d98af17e.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5_h5.0dccfb24.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-cn.e783425d.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/en-us.234e7bc4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ja-jp.546242ee.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ko-kr.678ad151.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-th.c9cbb94e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/vi-vn.dd621a3a.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/id-id.2eabc1bf.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fr-fr.587afb51.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/es-mx.30bfdd3e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/it-it.c83d684f.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ru-ru.f154ac12.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-tw.a41a1cc8.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/de-de.bec7cb34.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pt-br.5ef4c33f.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pcTopBtn.ed7e25a6.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/topBtn.1b50eaa4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/logo.fc8e2a3c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pre-gacha-b.82128529.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pre-gacha.caeae773.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font.42d2c0d4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtn.a6050c8e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/triangles.bcbd794a.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper.86938bc4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper-h5.fa5fcf19.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-bolt.0f4dd4e2.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-bolt-h5.f805e784.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.aac73492.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.269aa2f3.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mask.fd049a11.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css#red-green"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.2ac1c57d.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ring.5ce6e2bd.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.269aa2f3.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mask.fd049a11.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-rt.6fce5d04.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-lb.b881dcb3.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-rt.85ad2c16.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lt.d5331bdd.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lb.8b362c5f.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.63d91da2.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/orig.a0e255f1.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-default.c8aa9ae0.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-active.c8843bb5.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.9e174372.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.529c4e62.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/triangles.bcbd794a.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/operator.875a6fbd.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/star.c078a0a7.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wave-bg.8955885a.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/star.c078a0a7.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.02645cad.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.5f50680f.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.3efd4769.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.f0bbf4fa.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.5c7b5e46.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.c93412e1.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.07ff3560.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.235ca9f1.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.0b402b3e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.36c72367.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7b5afdec.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.b9d580b2.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9c949014.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3df4a3dc.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.78d45318.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.b761d517.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.b83d45cf.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.049b8a47.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.4431f348.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.4369b1a5.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f1730ac7.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.9b1b7f82.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c68596a8.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d14c39f4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.6710bc97.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.2a091fd4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.d0ca2837.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.a74396e6.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.92aa17d4.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.36d836c7.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.9364370e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.4a02d8bb.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.7253579c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.6983f122.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.bfe6a583.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e46ed671.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.3346feee.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.8a1d195a.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.1f6d3a0e.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.53a6686b.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.43d608d9.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.751608ae.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.5a3548af.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.d4e72ab0.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.0c009bcd.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.cf452cf1.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.b7ae95b5.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.c6750f9c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.7b3a74cf.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.81d81ef7.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.5e6e07c8.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f5676406.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c4a79f82.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.bdb051d3.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endfield.bcc6fe39.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.7d04dd.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.8cd908.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.13abe8.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.978751.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.47822e.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.6e6837.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6e4071.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6a179a.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.44fd4a.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.9981d6.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.d7cc70.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.dab230.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fdbac.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fc194.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.2e0acc.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.089c2d.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.9da0ec.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.be3c15.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.748604.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.ef16a8.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.b77880.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.376b06.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.543de8.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.4f7868.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.7b2f8c.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.b8f935.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.9856d3.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.edd157.woff2"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.912379.woff"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.d83d94.ttf"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-icon.e214f39f.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/skland.46bc0df3.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/age.6871a633.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/scroll_tip.351d44bc.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/scroll_tip.351d44bc.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/skland.46bc0df3.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/age.6871a633.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-base.a3c5eb0c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-active.6c5cfe38.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+        "asset": "data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sample.2c75e2dc.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/banner.7b4f80c9.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css#red-green"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tower-top.768f88af.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tower-bottom.eb021e6c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/left-deco-text.3ef6b598.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/test-notice-bg.9814ba3c.png"
+      },
+      {
+        "css": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png"
+      }
+    ]
+  },
+  "js": {
+    "routes": [
+      [
+        "/media/font",
+        72
+      ],
+      [
+        "/media/video",
+        70
+      ],
+      [
+        "/media/appStore",
+        27
+      ],
+      [
+        "/media/title",
+        14
+      ],
+      [
+        "/media/obt-title",
+        14
+      ],
+      [
+        "/media/timeline",
+        14
+      ],
+      [
+        "/media/content",
+        14
+      ],
+      [
+        "/media/sound",
+        13
+      ],
+      [
+        "/media/google",
+        13
+      ],
+      [
+        "/media/googlePlay",
+        13
+      ],
+      [
+        "/media/home_title",
+        7
+      ],
+      [
+        "/media/mobile_title",
+        7
+      ],
+      [
+        "/media/model",
+        6
+      ],
+      [
+        "/media/mobile_title_psn",
+        6
+      ],
+      [
+        "/media/home_title_psn",
+        6
+      ],
+      [
+        "/media/join_us_on_discord",
+        6
+      ],
+      [
+        "/news",
+        5
+      ],
+      [
+        "/media/TF04",
+        5
+      ],
+      [
+        "/media/TF03",
+        5
+      ],
+      [
+        "/media/news",
+        5
+      ],
+      [
+        "/media/events",
+        5
+      ],
+      [
+        "/media/notices",
+        5
+      ],
+      [
+        "/media/TF02",
+        5
+      ],
+      [
+        "/media/TF01",
+        5
+      ],
+      [
+        "/media/checker_title",
+        4
+      ],
+      [
+        "/media/catcher",
+        3
+      ],
+      [
+        "/media/fluorite",
+        3
+      ],
+      [
+        "/media/rossi",
+        3
+      ],
+      [
+        "/media/tangtang",
+        3
+      ],
+      [
+        "/media/zhuangfy",
+        3
+      ],
+      [
+        "/media/mifu",
+        3
+      ],
+      [
+        "/media/camille",
+        3
+      ],
+      [
+        "/media/lizhiyan",
+        3
+      ],
+      [
+        "/media/liino",
+        3
+      ],
+      [
+        "/media/typhoea",
+        3
+      ],
+      [
+        "/media/purrche",
+        3
+      ],
+      [
+        "/media/akekuri",
+        3
+      ],
+      [
+        "/media/alesh",
+        3
+      ],
+      [
+        "/media/antal",
+        3
+      ],
+      [
+        "/media/arclight",
+        3
+      ],
+      [
+        "/media/ardelia",
+        3
+      ],
+      [
+        "/media/avywenna",
+        3
+      ],
+      [
+        "/media/chen",
+        3
+      ],
+      [
+        "/media/dapan",
+        3
+      ],
+      [
+        "/media/ember",
+        3
+      ],
+      [
+        "/media/estella",
+        3
+      ],
+      [
+        "/media/gilberta",
+        3
+      ],
+      [
+        "/media/laevatain",
+        3
+      ],
+      [
+        "/media/lastrite",
+        3
+      ],
+      [
+        "/media/lifeng",
+        3
+      ],
+      [
+        "/media/pogranichnik",
+        3
+      ],
+      [
+        "/media/snowshine",
+        3
+      ],
+      [
+        "/media/wulfgard",
+        3
+      ],
+      [
+        "/media/xaihi",
+        3
+      ],
+      [
+        "/media/yvonne",
+        3
+      ],
+      [
+        "/media/endministrator1",
+        3
+      ],
+      [
+        "/media/endministrator2",
+        3
+      ],
+      [
+        "/news/8568",
+        2
+      ],
+      [
+        "/media/perlica",
+        2
+      ],
+      [
+        "/media/ru-ru",
+        2
+      ],
+      [
+        "/media/de-de",
+        2
+      ],
+      [
+        "/media/it-it",
+        2
+      ],
+      [
+        "/media/GalaxyStore",
+        2
+      ],
+      [
+        "/media/vi-vn",
+        2
+      ],
+      [
+        "/media/id-id",
+        2
+      ],
+      [
+        "/media/pt-br",
+        2
+      ],
+      [
+        "/media/th-th",
+        2
+      ],
+      [
+        "/media/es-mx",
+        2
+      ],
+      [
+        "/media/fr-fr",
+        2
+      ],
+      [
+        "/operator",
+        1
+      ],
+      [
+        "/media/android-icon",
+        1
+      ],
+      [
+        "/media/download-icon",
+        1
+      ],
+      [
+        "/media/epic",
+        1
+      ],
+      [
+        "/media/gpg",
+        1
+      ],
+      [
+        "/media/pc",
+        1
+      ],
+      [
+        "/media/ps5",
+        1
+      ],
+      [
+        "/media/taptap",
+        1
+      ],
+      [
+        "/media/taptap-h5",
+        1
+      ],
+      [
+        "/media/windows",
+        1
+      ],
+      [
+        "/media/rank-vi",
+        1
+      ],
+      [
+        "/media/blurred_logo",
+        1
+      ],
+      [
+        "/media/kv-obt-h5",
+        1
+      ],
+      [
+        "/media/kv-obt-pc",
+        1
+      ],
+      [
+        "/media/prelica",
+        1
+      ],
+      [
+        "/media/01",
+        1
+      ],
+      [
+        "/media/04",
+        1
+      ],
+      [
+        "/media/02",
+        1
+      ],
+      [
+        "/media/05",
+        1
+      ],
+      [
+        "/media/03",
+        1
+      ],
+      [
+        "/media/zh-tw",
+        1
+      ],
+      [
+        "/media/zh-cn",
+        1
+      ],
+      [
+        "/media/share",
+        1
+      ],
+      [
+        "/media/share-oversea",
+        1
+      ],
+      [
+        "/media/ja-jp",
+        1
+      ],
+      [
+        "/media/obt-title-2",
+        1
+      ],
+      [
+        "/media/obt-title-2-h5",
+        1
+      ],
+      [
+        "/media/en-us",
+        1
+      ],
+      [
+        "/media/ko-kr",
+        1
+      ]
+    ],
+    "external_origins": [
+      [
+        "www.w3.org",
+        110
+      ],
+      [
+        "play.google.com",
+        25
+      ],
+      [
+        "launcher.gryphline.com",
+        15
+      ],
+      [
+        "apps.apple.com",
+        14
+      ],
+      [
+        "discord.gg",
+        13
+      ],
+      [
+        "skport.com",
+        13
+      ],
+      [
+        "store.playstation.com",
+        13
+      ],
+      [
+        "store.epicgames.com",
+        12
+      ],
+      [
+        "www.youtube.com",
+        11
+      ],
+      [
+        "www.tiktok.com",
+        10
+      ],
+      [
+        "www.facebook.com",
+        10
+      ],
+      [
+        "x.com",
+        6
+      ],
+      [
+        "twitter.com",
+        6
+      ],
+      [
+        "launcher.hypergryph.com",
+        4
+      ],
+      [
+        "a",
+        4
+      ],
+      [
+        "github.com",
+        3
+      ],
+      [
+        "react.dev",
+        3
+      ],
+      [
+        "www.skland.com",
+        3
+      ],
+      [
+        "endfield.hhgame.vn",
+        2
+      ],
+      [
+        "endfield.hypergryph.com",
+        2
+      ],
+      [
+        "nextjs.org",
+        2
+      ],
+      [
+        "assets.skland.com",
+        2
+      ],
+      [
+        "l.taptap.cn",
+        2
+      ],
+      [
+        "localhost",
+        1
+      ],
+      [
+        "fb.me",
+        1
+      ],
+      [
+        "web-api.gryphline.com",
+        1
+      ],
+      [
+        "web-news.gryphline.com",
+        1
+      ],
+      [
+        "3c0d7ea5e51fecaa0a0ecaadee2e6bad",
+        1
+      ],
+      [
+        "user.gryphline.com",
+        1
+      ],
+      [
+        "topup.gryphline.com",
+        1
+      ],
+      [
+        "survey.gryphline.com",
+        1
+      ],
+      [
+        "assets-skland-",
+        1
+      ],
+      [
+        "bbs.hycdn.cn",
+        1
+      ],
+      [
+        "fonts.googleapis.com",
+        1
+      ],
+      [
+        "use.typekit.net",
+        1
+      ],
+      [
+        "vk.com",
+        1
+      ],
+      [
+        "t.me",
+        1
+      ],
+      [
+        "game.naver.com",
+        1
+      ],
+      [
+        "galaxystore.samsung.com",
+        1
+      ],
+      [
+        "weibo.com",
+        1
+      ]
+    ],
+    "asset_urls": [
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/spaceship.752e25.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/bgm.3ce37f.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/anchor.0e6c6a.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/factory.bd9a36.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/pile.251dc1.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/trinity.d6c060.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/model/enemy.6a1a19.bin"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/04.7beddb.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/arrow_click.a72c10.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/char_click.beff5b.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/char_detail_enter.babc4e.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/char_list_enter.d29f74.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/close_click.fe1dc4.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/common_click.52e9d4.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/enter_click.4f6fd3.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/home_enter.6aefd5.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/menu_click.d51e70.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/model.569c5b.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/news_cate_click.cb3c01.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/sound/reserve_click.782b06.mp3"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/02.9ab299.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/01.1e0eb1.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/03.422a72.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.a66d56.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.5c433b.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.bb0080.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.ce391f.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.7df9b2.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.4197d2.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.da7c54.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.4b776c.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.c84d04.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.2e6c26.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.940700.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.b4df19.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.378087.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.a0ab37.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.7dce7b.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.c9b4aa.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.ed8d5e.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.c3a71d.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.bc2b7b.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.d01501.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.949a3d.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.804e0a.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.13649e.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.12d14a.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.0a2d0e.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.810977.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.7100b5.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.77b33e.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.eef9fe.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.289409.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.1180d2.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.1f28ab.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.8c50d1.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.cb64d4.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.ed2da1.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.e6e3ed.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.3dc320.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.68bcf2.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.88cbb6.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.cd38eb.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.49352f.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.da7be7.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.8a5a49.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.5864d8.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.6546d3.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.f95544.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.4f53eb.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.0bdba0.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.5809fa.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.885f2f.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.b3fe92.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.a3c7a9.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.674f13.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.5460af.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.29f069.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.1688c4.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.f77ca5.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.b4f2dd.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.2e3172.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.24e819.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.d2a51a.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.7beb0c.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.7be713.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.befed4.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/enter.418594.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/static/media/video/idle.7168ff.mp4"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Black.fc3add.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Medium.cfe6b5.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Regular.cd23cd.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Regular.463da3.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Bold.69fb43.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Black.867f57.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Black.264c07.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Medium.20006f.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Black.67f11f.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Medium.11415c.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Black.a0b822.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Black.c4ffb8.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Medium.6b4c3f.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Black.0aca7e.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Regular.e039e2.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Medium.203903.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Bold.6076dd.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Black.69d404.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Bold.4c460d.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Black.05eca9.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Regular.2431cb.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Medium.e2cd96.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Regular.459e41.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Bold.526d8a.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Bold.7b3e6d.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Medium.b098a2.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Black.9a9ef4.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Black.bb2f22.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Regular.97cc8c.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Black.6a12f8.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Bold.6aff6d.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Bold.9572da.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Regular.52a09b.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Regular.126641.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Bold.ba914a.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Regular.7472f4.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Medium.775e9b.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Regular.e8f768.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Medium.f68eff.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Black.44d837.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Medium.7c31a1.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Black.975e63.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Bold.06d3d0.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Bold.30dd41.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Regular.99a2e0.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Bold.91a570.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Regular.699414.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Bold.30a3d7.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Black.8ef854.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Medium.a00480.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Medium.490d34.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansJP-Black.565a55.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Medium.e5b49d.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Bold.9717cf.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Regular.4e6868.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Regular.36529a.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Black.553e77.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Bold.e66042.ttf"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Medium.5bc901.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Bold.77ee98.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Medium.0903f2.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Medium.0a0631.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Medium.d33f74.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Bold.77dfff.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Regular.2701af.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Regular.0cfc88.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Bold.b1fa9c.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_Regular.12ffa1.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansThaiLooped-Regular.ae1fb3.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_TC_Bold.63a9cf.woff"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/HarmonyOS_Sans_SC_Black.1d7dfb.woff2"
+      },
+      {
+        "script": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+        "asset": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/static/media/font/NotoSansKR-Medium.018f38.woff"
+      }
+    ]
+  },
+  "external_first_depth": [
+    {
+      "url": "https://endfield.hypergryph.com/news/8568",
+      "status": 200,
+      "bytes": 192595,
+      "sha256": "fb2ab378e22e895286fd8eed77d3475b68fe9a5027eda189a74e0f17ec5ea174",
+      "method": "HTML response inspected in memory; no linked pages followed"
+    }
+  ]
+}

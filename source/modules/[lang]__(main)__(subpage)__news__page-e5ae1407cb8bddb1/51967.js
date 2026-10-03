@@ -1,0 +1,3 @@
+// module 51967 from [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js
+// deps: 97028, 97521
+const module_51967 = (e,L,t)=>{"use strict";t.d(L,{A:()=>n});var a=t(97028),s=t(97521);let i=(e,L)=>{var t;if(0===L.length||e.length<L.length)return e;let a=null==(t=document)?void 0:t.createElement("canvas").getContext("2d");if(!a)return e.slice(0,L.length-3>0?L.length-3:0)+"...";a.font="".concat(16,"px ").concat(L.font);let s=e.slice(0,L.length-3);for(let t=L.length-3;t<e.length;t++){let i=e.slice(0,t),{width:n}=a.measureText(i+"...");if(n<16*L.length)s=i;else{let{width:e}=a.measureText(i);if(e<16*L.length)continue;return s+"..."}}return e},n=e=>{let{text:L,options:t}=e,[n,l]=(0,a.useState)(L);return(0,a.useEffect)(()=>{l(s.isServer?L:i(L,t))},[L,t]),n}};

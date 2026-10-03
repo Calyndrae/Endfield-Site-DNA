@@ -1,0 +1,16 @@
+{
+  "module": 90286,
+  "summary": "useOrientation (export M) returns 'landscape' or 'portrait' by comparing window.innerWidth >= window.innerHeight, defaulting to 'landscape' for SSR. It relies on an internal useResizeEffect hook that runs the callback immediately and again on window resize, debounced to 100ms through the helper imported from module 90145 (aliased framerMotion here, but used as a debounce function).",
+  "exports": {
+    "M": "useOrientation"
+  },
+  "renames": {
+    "n_1": "useResizeEffect",
+    "e_3": "effectCallback",
+    "t_4": "effectDeps",
+    "t_5": "debouncedCallback",
+    "r_2": "useOrientation",
+    "e_6": "orientation",
+    "t_7": "setOrientation"
+  }
+}

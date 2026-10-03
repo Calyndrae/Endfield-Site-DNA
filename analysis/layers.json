@@ -1,0 +1,364 @@
+[
+ {
+  "selector": ".Toast_toast__ZnoVW",
+  "component": "Toast",
+  "media": [],
+  "zIndex": "2000",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+ },
+ {
+  "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_dropDown__SAbib",
+  "component": "footer",
+  "media": [],
+  "zIndex": "1000",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_backButton__c5SKD",
+  "component": "__21-ProtocolDetail",
+  "media": [],
+  "zIndex": "200",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_backButton__pWmC1",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "200",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Toast_toast__ZnoVW .Toast_content__a8lPb",
+  "component": "Toast",
+  "media": [],
+  "zIndex": "100",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+ },
+ {
+  "selector": ".__00-Loading_container__aBijT",
+  "component": "__00-Loading",
+  "media": [],
+  "zIndex": "100",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".sections_modalLayer__0Rqmm",
+  "component": "sections",
+  "media": [],
+  "zIndex": "100",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+ },
+ {
+  "selector": ".ReserveModal_reserveModal__xb3np",
+  "component": "ReserveModal",
+  "media": [],
+  "zIndex": "90",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Header_h5HeaderContainer__ctquk .Header_logo__s3lE_",
+  "component": "Header",
+  "media": [],
+  "zIndex": "70",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Header_h5HeaderContainer__ctquk .Header_menuIcon__X_Cn9",
+  "component": "Header",
+  "media": [],
+  "zIndex": "70",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Header_h5Menu__Tl_yj",
+  "component": "Header",
+  "media": [],
+  "zIndex": "60",
+  "position": "fixed",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Header_pcHeaderContainer__Sy_8l",
+  "component": "Header",
+  "media": [],
+  "zIndex": "50",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Header_h5HeaderContainer__ctquk",
+  "component": "Header",
+  "media": [],
+  "zIndex": "50",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".Dropdown_panel__ujBcP",
+  "component": "Dropdown",
+  "media": [],
+  "zIndex": "20",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+ },
+ {
+  "selector": ".swiper-3d .swiper-slide-shadow,.swiper-3d .swiper-slide-shadow-bottom,.swiper-3d .swiper-slide-shadow-left,.swiper-3d .swiper-slide-shadow-right,.swiper-3d .swiper-slide-shadow-top",
+  "component": null,
+  "media": [],
+  "zIndex": "10",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".swiper-lazy-preloader",
+  "component": null,
+  "media": [],
+  "zIndex": "10",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".sections_sectionViewer__326Rn .sections_contentContainer__5cMPG .sections_headerContainer__IQkt1",
+  "component": "sections",
+  "media": [],
+  "zIndex": "10",
+  "position": "sticky",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+ },
+ {
+  "selector": ".LandingBottom_container__BGiWo",
+  "component": "LandingBottom",
+  "media": [],
+  "zIndex": "2",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_b__aqWxI:before",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "2",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_navContainer__rqqK9",
+  "component": "__04-Information",
+  "media": [],
+  "zIndex": "2",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickFixed__PESTi",
+  "component": "__09-Calendar",
+  "media": [
+   "@media (orientation:landscape)"
+  ],
+  "zIndex": "2",
+  "position": "fixed !important",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+ },
+ {
+  "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI",
+  "component": "footer",
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".bg_bgContainer__8_h2E .bg_bg__JeUZA .bg_titleStage__38POn",
+  "component": "bg",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__00-landing_container__0qC45 .__00-landing_begin__wwvDQ",
+  "component": "__00-landing",
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__00-landing_container__0qC45 .__00-landing_fontTexture__y9ZJj",
+  "component": "__00-landing",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_arrow__zBR2O",
+  "component": "__03-gameplay",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__04-finalpage_sectionContainer__w2kZ2 .__04-finalpage_arrow__5BaVf",
+  "component": "__04-finalpage",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+ },
+ {
+  "selector": ".ScrollViewer_container__wn7Yp .ScrollViewer_footer__zem0G .ScrollViewer_scroll__tAflQ",
+  "component": "ScrollViewer",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_rt__2ruPz",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO",
+  "component": "__02-Operator",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+ },
+ {
+  "selector": ".scrollBar___MUDzO",
+  "component": null,
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+ },
+ {
+  "selector": ":host",
+  "component": null,
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".swiper",
+  "component": null,
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".swiper-wrapper",
+  "component": null,
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6 .__04-Information_titleTextVisible__lx05a",
+  "component": "__04-Information",
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6 .__04-Information_titleTextLandscape___DypD",
+  "component": "__04-Information",
+  "media": [],
+  "zIndex": "1",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickContainer__Ef8z3",
+  "component": "__09-Calendar",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+ },
+ {
+  "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_content__nTQyh .__09-Calendar_timelineScroll__5Xkis",
+  "component": "__09-Calendar",
+  "media": [],
+  "zIndex": "1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+ },
+ {
+  "selector": ".__00-landing_container__0qC45 .__00-landing_logo__lfVDM",
+  "component": "__00-landing",
+  "media": [],
+  "zIndex": "0",
+  "position": "relative",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_containBg__hUT2Y",
+  "component": "__03-gameplay",
+  "media": [],
+  "zIndex": "0",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+ },
+ {
+  "selector": ".__04-finalpage_sectionContainer__w2kZ2 .__04-finalpage_containBg__TDICn",
+  "component": "__04-finalpage",
+  "media": [],
+  "zIndex": "0",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_b__aqWxI:after",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "0",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ },
+ {
+  "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6 .__04-Information_titleFitProbe__9vJZe",
+  "component": "__04-Information",
+  "media": [],
+  "zIndex": "0",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+ },
+ {
+  "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf",
+  "component": "__20-NoticeDetail",
+  "media": [],
+  "zIndex": "-1",
+  "position": "absolute",
+  "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+ }
+]

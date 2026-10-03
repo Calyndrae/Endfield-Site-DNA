@@ -1,0 +1,32 @@
+{
+  "module": 26097,
+  "summary": "SoundEffects defines the SFX key map (export d) of twelve mp3 files under static/media/sound/: arrow_click, char_click, char_detail_enter, char_list_enter, close_click, common_click, enter_click, home_enter, menu_click, model, news_cate_click and reserve_click. Export A is a SoundEffectPlayer singleton with a pool of 10 <audio> elements primed with a silent WAV data URI; play(src) returns early when SoundControlStore is disabled, pops an element, sets volume 1, loads the src and returns it to the pool on ended or on a play() rejection, and on the first call also plays every pooled element once to unlock audio on touch devices. Note the constructor primes a throwaway element but pushes a fresh document.createElement('audio') into the pool.",
+  "exports": {
+    "d": "SOUND_EFFECT_SOURCES",
+    "A": "soundEffectsPlayer"
+  },
+  "renames": {
+    "n_1": "ARROW_CLICK_SOUND",
+    "r_2": "CHAR_CLICK_SOUND",
+    "l_3": "CHAR_DETAIL_ENTER_SOUND",
+    "o_4": "CHAR_LIST_ENTER_SOUND",
+    "s_5": "CLOSE_CLICK_SOUND",
+    "C_6": "COMMON_CLICK_SOUND",
+    "d_7": "ENTER_CLICK_SOUND",
+    "c_8": "HOME_ENTER_SOUND",
+    "u_9": "MENU_CLICK_SOUND",
+    "p_10": "MODEL_SOUND",
+    "m_11": "SOUND_EFFECT_SOURCES",
+    "g_12": "SILENT_WAV_DATA_URI",
+    "v_13": "SoundEffectPlayer",
+    "e_15": "soundSrc",
+    "t_16": "audioElement",
+    "e_17": "playError",
+    "e_18": "pooledAudio",
+    "e_19": "warmupError",
+    "e_20": "poolSize",
+    "t_21": "poolIndex",
+    "e_22": "primedAudio",
+    "M_14": "soundEffectsPlayer"
+  }
+}

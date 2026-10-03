@@ -1,0 +1,957 @@
+{
+ "component": "Dropdown",
+ "files": [
+  "cca0e7eae4809d1e.css"
+ ],
+ "classes": {
+  "root": "Dropdown_root__O4Qqi",
+  "disabled": "Dropdown_disabled__XU9e7",
+  "prof": "Dropdown_prof__WoV4u",
+  "trigger": "Dropdown_trigger__mA0mP",
+  "icon": "Dropdown_icon__yfwMq",
+  "elem": "Dropdown_elem__qJRg3",
+  "arrow": "Dropdown_arrow__gjWRH",
+  "divider": "Dropdown_divider__mwtOR",
+  "triggerLabel": "Dropdown_triggerLabel__Gsp_U",
+  "open": "Dropdown_open__c3u8K",
+  "panel": "Dropdown_panel__ujBcP",
+  "option": "Dropdown_option__fXjKe",
+  "bg": "Dropdown_bg__0iRXw",
+  "text": "Dropdown_text__FG9X4",
+  "optionSelected": "Dropdown_optionSelected__2OEOQ"
+ },
+ "ruleCount": 48,
+ "rules": [
+  {
+   "selector": ".Dropdown_root__O4Qqi",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "18.9375rem",
+    "font-family": "SansMedium",
+    "font-size": "1.5rem",
+    "-webkit-user-select": "none",
+    "-moz-user-select": "none",
+    "user-select": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_disabled__XU9e7",
+   "media": [],
+   "declarations": {
+    "opacity": ".45",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_prof__WoV4u .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq",
+   "media": [],
+   "declarations": {
+    "background-size": "100% 100%",
+    "background-color": "#262626"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_prof__WoV4u .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=none]",
+   "media": [],
+   "declarations": {
+    "background-size": "100% 100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_elem__qJRg3 .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=none],.Dropdown_root__O4Qqi.Dropdown_prof__WoV4u .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=none]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png)",
+    "filter": "brightness(1.4)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "flex-start",
+    "gap": ".5rem",
+    "width": "100%",
+    "height": "4rem",
+    "min-height": "4rem",
+    "padding": "0 1.25rem",
+    "box-sizing": "border-box",
+    "border-radius": ".25rem",
+    "background": "#3a3a3a",
+    "color": "#fff",
+    "font-size": "1.625rem",
+    "line-height": "1",
+    "cursor": "pointer",
+    "transition": "border-color .15s ease,background .15s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP:hover",
+   "media": [],
+   "declarations": {
+    "border-color": "hsla(0,0%,100%,.45)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP:focus-visible",
+   "media": [],
+   "declarations": {
+    "outline": "2px solid rgba(255,204,26,.85)",
+    "outline-offset": "2px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_arrow__gjWRH",
+   "media": [],
+   "declarations": {
+    "margin-left": "1rem",
+    "width": "1.6875rem",
+    "height": "1.6875rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "cover",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_divider__mwtOR",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "5.375rem",
+    "width": "2px",
+    "height": "2.25rem",
+    "background-color": "#545454"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "1.625rem",
+    "width": "2.25rem",
+    "height": "2.25rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=guard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=caster]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=support]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=shielder]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=vanguard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=assault]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=fire]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=ice]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=electric]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=nature]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=physic]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_triggerLabel__Gsp_U",
+   "media": [],
+   "declarations": {
+    "flex": "1 1",
+    "min-width": "0",
+    "overflow": "hidden",
+    "text-overflow": "ellipsis",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_arrow__gjWRH",
+   "media": [],
+   "declarations": {
+    "flex-shrink": "0",
+    "width": ".75rem",
+    "height": "auto",
+    "opacity": ".85",
+    "transition": "transform .2s ease",
+    "transform": "rotate(0deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_open__c3u8K .Dropdown_arrow__gjWRH",
+   "media": [],
+   "declarations": {
+    "transform": "rotate(180deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_panel__ujBcP",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "100%",
+    "left": "0",
+    "right": "0",
+    "z-index": "20",
+    "overflow-y": "auto",
+    "padding": ".25rem 0",
+    "box-sizing": "border-box",
+    "border-radius": ".25rem",
+    "background": "#fff",
+    "box-shadow": "0 0 1.25rem rgba(0,0,0,.25)",
+    "opacity": "0",
+    "visibility": "hidden",
+    "pointer-events": "none",
+    "transform": "translateY(-.25rem)",
+    "transition": "opacity .15s ease,visibility .15s ease,transform .15s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi.Dropdown_open__c3u8K .Dropdown_panel__ujBcP",
+   "media": [],
+   "declarations": {
+    "opacity": "1",
+    "visibility": "visible",
+    "pointer-events": "auto",
+    "transform": "translateY(0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "4.5rem",
+    "box-sizing": "border-box",
+    "font-size": "1.375rem",
+    "line-height": "1.3",
+    "color": "#000",
+    "cursor": "pointer",
+    "transition": "background .2s ease",
+    "padding-left": "2.5rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe:hover",
+   "media": [],
+   "declarations": {
+    "background": "rgba(0,0,0,.06)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_bg__0iRXw",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-color": "#8f8f8f",
+    "background-image": "linear-gradient(-45deg,transparent,transparent 11.7415035135%,#8b8b8b 0,#8b8b8b 38.2584964865%,transparent 0,transparent 61.7415035135%,#8b8b8b 0,#8b8b8b 88.2584964865%,transparent 0,transparent)",
+    "background-size": ".75rem .75rem",
+    "background-repeat": "repeat",
+    "opacity": "0",
+    "transition": "opacity .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_bg__0iRXw:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": ".25rem",
+    "height": "100%",
+    "background-image": "linear-gradient(180deg,#ff00f0 0,#ff00f0 50%,#00ffa2 0,#00ffa2)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "5.375rem",
+    "width": "2rem",
+    "height": "2rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=none]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=guard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=caster]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=support]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=shielder]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=vanguard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=assault]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=fire]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=ice]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=electric]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=nature]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_icon__yfwMq[data-key=physic]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .Dropdown_option__fXjKe .Dropdown_icon__yfwMq",
+   "media": [],
+   "declarations": {
+    "left": "3.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_text__FG9X4",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe.Dropdown_optionSelected__2OEOQ",
+   "media": [],
+   "declarations": {
+    "color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe.Dropdown_optionSelected__2OEOQ .Dropdown_bg__0iRXw",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  }
+ ],
+ "markup": "<div class=\"Dropdown_root__O4Qqi Dropdown_prof__WoV4u\"><div class=\"Dropdown_trigger__mA0mP\" role=\"button\" tabindex=\"0\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div>Class</div><div class=\"Dropdown_arrow__gjWRH\"></div><div class=\"Dropdown_divider__mwtOR\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div></div><div class=\"Dropdown_panel__ujBcP\" role=\"listbox\" aria-hidden=\"true\"><div role=\"option\" aria-selected=\"true\" class=\"Dropdown_option__fXjKe Dropdown_optionSelected__2OEOQ\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div><div class=\"Dropdown_text__FG9X4\">All</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"guard\"></div><div class=\"Dropdown_text__FG9X4\">Guard</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"caster\"></div><div class=\"Dropdown_text__FG9X4\">Caster</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"support\"></div><div class=\"Dropdown_text__FG9X4\">Supporter</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"shielder\"></div><div class=\"Dropdown_text__FG9X4\">Defender</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"vanguard\"></div><div class=\"Dropdown_text__FG9X4\">Vanguard</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"assault\"></div><div class=\"Dropdown_text__FG9X4\">Striker</div></div></div></div>",
+ "markupPage": "en-us_operator",
+ "markupClass": "Dropdown_root__O4Qqi",
+ "appearsOn": [
+  "en-us_operator"
+ ],
+ "computed": {
+  "Dropdown_arrow__gjWRH": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 246.25,
+    "y": 95.90625,
+    "width": 15.1875,
+    "height": 15.1875,
+    "top": 95.90625,
+    "right": 261.4375,
+    "bottom": 111.09375,
+    "left": 246.25
+   },
+   "text": "",
+   "display": "block",
+   "width": "15.1875px",
+   "height": "15.1875px",
+   "font-family": "SansMedium",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "14.625px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png\")",
+   "opacity": "0.85",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "transform 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "margin": "0px 0px 0px 9px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_bg__0iRXw": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 121.5,
+    "width": 170.4375,
+    "height": 40.5,
+    "top": 121.5,
+    "right": 354.9375,
+    "bottom": 162,
+    "left": 184.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "170.438px",
+   "height": "40.5px",
+   "font-family": "SansMedium",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "16.0875px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(143, 143, 143)",
+   "background-image": "linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 11.7415%, rgb(139, 139, 139) 0px, rgb(139, 139, 139) 38.2585%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 61.7415%, rgb(139, 139, 139) 0px, rgb(139, 139, 139) 88.2585%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0))",
+   "opacity": "1",
+   "transition": "opacity 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_divider__mwtOR": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 304.5625,
+    "y": 93.375,
+    "width": 2,
+    "height": 20.25,
+    "top": 93.375,
+    "right": 306.5625,
+    "bottom": 113.625,
+    "left": 304.5625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "2px",
+   "height": "20.25px",
+   "top": "7.875px",
+   "left": "120.062px",
+   "right": "48.375px",
+   "bottom": "7.875px",
+   "font-family": "SansMedium",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "14.625px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(84, 84, 84)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_elem__qJRg3": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 376.3125,
+    "y": 85.5,
+    "width": 170.4375,
+    "height": 36,
+    "top": 85.5,
+    "right": 546.75,
+    "bottom": 121.5,
+    "left": 376.3125
+   },
+   "text": "ElementAllHeatCryoElectricNaturePhysical",
+   "position": "relative",
+   "display": "block",
+   "width": "170.438px",
+   "height": "36px",
+   "font-family": "SansMedium",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_icon__yfwMq": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 320.0625,
+    "y": 93.375,
+    "width": 20.25,
+    "height": 20.25,
+    "top": 93.375,
+    "right": 340.3125,
+    "bottom": 113.625,
+    "left": 320.0625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "20.25px",
+   "height": "20.25px",
+   "top": "7.875px",
+   "left": "135.562px",
+   "right": "14.625px",
+   "bottom": "7.875px",
+   "font-family": "SansMedium",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "14.625px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(38, 38, 38)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png\")",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "filter": "brightness(1.4)",
+   "border": "0px none rgb(255, 255, 255)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_optionSelected__2OEOQ": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 121.5,
+    "width": 170.4375,
+    "height": 40.5,
+    "top": 121.5,
+    "right": 354.9375,
+    "bottom": 162,
+    "left": 184.5
+   },
+   "text": "All",
+   "position": "relative",
+   "display": "flex",
+   "width": "170.438px",
+   "height": "40.5px",
+   "font-family": "SansMedium",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "16.0875px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "background 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "padding": "0px 0px 0px 22.5px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_option__fXjKe": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 121.5,
+    "width": 170.4375,
+    "height": 40.5,
+    "top": 121.5,
+    "right": 354.9375,
+    "bottom": 162,
+    "left": 184.5
+   },
+   "text": "All",
+   "position": "relative",
+   "display": "flex",
+   "width": "170.438px",
+   "height": "40.5px",
+   "font-family": "SansMedium",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "16.0875px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "background 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "padding": "0px 0px 0px 22.5px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_panel__ujBcP": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 119.25,
+    "width": 170.4375,
+    "height": 288,
+    "top": 119.25,
+    "right": 354.9375,
+    "bottom": 407.25,
+    "left": 184.5
+   },
+   "text": "AllGuardCasterSupporterDefenderVanguardStriker",
+   "position": "absolute",
+   "display": "block",
+   "width": "170.438px",
+   "height": "288px",
+   "top": "36px",
+   "bottom": "-288px",
+   "z-index": "20",
+   "font-family": "SansMedium",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "0",
+   "transform": "matrix(1, 0, 0, 1, 0, -2.25)",
+   "transition": "opacity 0.15s, visibility 0.15s, transform 0.15s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "box-shadow": "rgba(0, 0, 0, 0.25) 0px 0px 11.25px 0px",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "2.25px",
+   "padding": "2.25px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_prof__WoV4u": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 85.5,
+    "width": 170.4375,
+    "height": 36,
+    "top": 85.5,
+    "right": 354.9375,
+    "bottom": 121.5,
+    "left": 184.5
+   },
+   "text": "ClassAllGuardCasterSupporterDefenderVanguardStriker",
+   "position": "relative",
+   "display": "block",
+   "width": "170.438px",
+   "height": "36px",
+   "font-family": "SansMedium",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_root__O4Qqi": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 85.5,
+    "width": 170.4375,
+    "height": 36,
+    "top": 85.5,
+    "right": 354.9375,
+    "bottom": 121.5,
+    "left": 184.5
+   },
+   "text": "ClassAllGuardCasterSupporterDefenderVanguardStriker",
+   "position": "relative",
+   "display": "block",
+   "width": "170.438px",
+   "height": "36px",
+   "font-family": "SansMedium",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_text__FG9X4": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 273.96875,
+    "y": 133.703125,
+    "width": 14,
+    "height": 16.078125,
+    "top": 133.703125,
+    "right": 287.96875,
+    "bottom": 149.78125,
+    "left": 273.96875
+   },
+   "text": "All",
+   "position": "relative",
+   "display": "block",
+   "width": "14px",
+   "height": "16.0781px",
+   "font-family": "SansMedium",
+   "font-size": "12.375px",
+   "font-weight": "400",
+   "line-height": "16.0875px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "Dropdown_trigger__mA0mP": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 85.5,
+    "width": 170.4375,
+    "height": 36,
+    "top": 85.5,
+    "right": 354.9375,
+    "bottom": 121.5,
+    "left": 184.5
+   },
+   "text": "Class",
+   "display": "flex",
+   "width": "170.438px",
+   "height": "36px",
+   "font-family": "SansMedium",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "14.625px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(58, 58, 58)",
+   "opacity": "1",
+   "transition": "border-color 0.15s, background 0.15s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "2.25px",
+   "padding": "0px 11.25px",
+   "gap": "4.5px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [
+  {
+   "page": "en-us_operator",
+   "cls": "Dropdown_trigger__mA0mP",
+   "diff": {
+    "Dropdown_trigger__mA0mP#0#0": {
+     "border-color": {
+      "before": "rgb(255, 255, 255)",
+      "after": "rgba(255, 255, 255, 0.45)"
+     }
+    }
+   },
+   "transition": "border-color 0.15s, background 0.15s"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#262626",
+   "#3a3a3a",
+   "#fff",
+   "rgba(255,204,26,.85)",
+   "#545454",
+   "rgba(0,0,0,.25)",
+   "#000",
+   "rgba(0,0,0,.06)",
+   "#8f8f8f",
+   "#8b8b8b",
+   "#ff00f0",
+   "#00ffa2"
+  ],
+  "fonts": [
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "1.5rem",
+   "1.625rem",
+   "1.375rem"
+  ],
+  "zIndex": [
+   "20"
+  ],
+  "transitions": [
+   "border-color .15s ease,background .15s ease",
+   "transform .2s ease",
+   "opacity .15s ease,visibility .15s ease,transform .15s ease",
+   "background .2s ease",
+   "opacity .2s ease"
+  ]
+ }
+}

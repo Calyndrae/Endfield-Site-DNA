@@ -1,0 +1,3 @@
+// module 74955 from 491-d00f740e9c6ed637.js
+// deps: 57120
+const module_74955 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"invalidateCacheByRouterState",{enumerable:!0,get:function(){return o}});let n=r(57120);function o(e,t,r){for(let o in r[1]){let u=r[1][o][0],l=(0,n.createRouterCacheKey)(u),a=t.parallelRoutes.get(o);if(a){let t=new Map(a);t.delete(l),e.parallelRoutes.set(o,t)}}}("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

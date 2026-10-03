@@ -1,0 +1,199 @@
+{
+ "startedAt": "2026-10-03T13:29:54.972Z",
+ "checks": [
+  {
+   "name": "body of handbook/index.html is byte-identical to the original SSR response",
+   "ok": true,
+   "detail": {
+    "originalBodyBytes": 116856
+   }
+  },
+  {
+   "name": "script src list identical",
+   "ok": true,
+   "detail": "28 scripts"
+  },
+  {
+   "name": "stylesheets = original + two original CSS-module files",
+   "ok": true,
+   "detail": [
+    "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+    "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+   ]
+  },
+  {
+   "name": "no authored <style> block in the shell",
+   "ok": true
+  },
+  {
+   "name": "bulletin record keeps original fields, replaces title + data",
+   "ok": true,
+   "detail": {
+    "cid": "7013",
+    "chars": 459379
+   }
+  },
+  {
+   "name": "handbook content uses only article vocabulary + captured component markup (no <style>, <script>, <link>)",
+   "ok": true
+  },
+  {
+   "name": "client refetch of /api/bulletin/7013 was answered by the local handbook record",
+   "ok": true,
+   "detail": "3019 ms"
+  },
+  {
+   "name": "first-load screen finished and left",
+   "ok": true,
+   "detail": "8176 ms"
+  },
+  {
+   "name": "article title replaced by the handbook title",
+   "ok": true,
+   "detail": "Endfield website DNA — technical handbook (single page)"
+  },
+  {
+   "name": "every chapter anchor exists in the rendered content",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "Pagination specimens present (notice + news)",
+   "ok": true,
+   "detail": 2
+  },
+  {
+   "name": "embedded specimens render with non-zero size",
+   "ok": true,
+   "detail": {
+    "count": 13,
+    "zero": []
+   }
+  },
+  {
+   "name": "specimens stay inside the document width (no horizontal overflow at 1440)",
+   "ok": true,
+   "detail": {
+    "scrollWidth": 1440,
+    "widest": [
+     {
+      "cls": "__20-NoticeDetail_backButton__pWmC1",
+      "w": 45,
+      "h": 45,
+      "x": 1377,
+      "right": 1422,
+      "visible": true
+     },
+     {
+      "cls": "__02-Operator_sectionDivider__PbN7_",
+      "w": 842,
+      "h": 82,
+      "x": 270,
+      "right": 1112,
+      "visible": true
+     },
+     {
+      "cls": "OperatorItem_operatorItem__gPezu",
+      "w": 171,
+      "h": 218,
+      "x": 856,
+      "right": 1027,
+      "visible": true
+     }
+    ]
+   }
+  },
+  {
+   "name": "hover parity OperatorItem_operatorItem__gPezu transform: live after=matrix(1, 0, 0, 1, 0, -4.5)",
+   "ok": true,
+   "detail": {
+    "before": "none",
+    "after": "matrix(1, 0, 0, 1, 0, -4.5)"
+   }
+  },
+  {
+   "name": "hover parity Button_button__njqVS background-color: live after=rgb(72, 72, 72)",
+   "ok": true,
+   "detail": {
+    "before": "rgb(56, 56, 56)",
+    "after": "rgb(72, 72, 72)"
+   }
+  },
+  {
+   "name": "hover parity Pagination_button__cVH8L background-color: live after=rgb(255, 250, 0)",
+   "ok": true,
+   "detail": {
+    "before": "rgb(250, 250, 250)",
+    "after": "rgb(255, 250, 0)"
+   }
+  },
+  {
+   "name": "hover parity Dropdown_trigger__mA0mP border-color: live after=rgba(255, 255, 255, 0.45)",
+   "ok": true,
+   "detail": {
+    "before": "rgb(255, 255, 255)",
+    "after": "rgba(255, 255, 255, 0.45)"
+   }
+  },
+  {
+   "name": "hover parity SubpageTab_tab__qSWqv background-color: live after=null",
+   "ok": true,
+   "detail": {
+    "before": "rgba(0, 0, 0, 0)",
+    "after": "rgb(243, 243, 243)"
+   }
+  },
+  {
+   "name": "live rail expands on hover (detailActive class)",
+   "ok": true
+  },
+  {
+   "name": "live back-to-top button appears after scrolling (opacity 1)",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "name": "live footer present at the end of the page",
+   "ok": true
+  },
+  {
+   "name": "live footer language picker opens (active class)",
+   "ok": true,
+   "detail": "footer_languageItem__TXB_u footer_active__txpDc"
+  },
+  {
+   "name": "no JavaScript errors other than the site's own React #418 hydration notice",
+   "ok": true,
+   "detail": [
+    "Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+   ]
+  },
+  {
+   "name": "no failed requests other than third-party SDK/analytics calls blocked by the local origin",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "no horizontal overflow at 390×844",
+   "ok": true,
+   "detail": {
+    "scrollWidth": 390,
+    "inner": 390,
+    "rem": "5.77778px"
+   }
+  }
+ ],
+ "pageErrors": [
+  "Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+ ],
+ "failedRequests": [],
+ "stats": {
+  "specimens": 13,
+  "chapters": 35,
+  "contentChars": 459379,
+  "loaderMs": 32685
+ },
+ "passed": 25,
+ "failed": 0,
+ "finishedAt": "2026-10-03T13:30:27.924Z"
+}

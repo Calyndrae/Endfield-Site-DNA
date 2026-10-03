@@ -1,0 +1,777 @@
+{
+  "operator_portraits": [
+    {
+      "index": 1,
+      "key": "typhoea",
+      "name": "Typhoeus",
+      "codename": "Typhoeus",
+      "rarity": 6,
+      "profession": "assault",
+      "element": "nature",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png"
+    },
+    {
+      "index": 2,
+      "key": "purrche",
+      "name": "Purrchena",
+      "codename": "Purrchena",
+      "rarity": 5,
+      "profession": "shielder",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png"
+    },
+    {
+      "index": 3,
+      "key": "endministrator2",
+      "name": "Endministrator",
+      "codename": "Endministrator",
+      "rarity": 6,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png"
+    },
+    {
+      "index": 4,
+      "key": "endministrator1",
+      "name": "Endministrator",
+      "codename": "Endministrator",
+      "rarity": 6,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.c391b13d.png"
+    },
+    {
+      "index": 5,
+      "key": "perlica",
+      "name": "Perlica",
+      "codename": "Perlica",
+      "rarity": 5,
+      "profession": "caster",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prelica.d0bbdb53.png"
+    },
+    {
+      "index": 6,
+      "key": "chen",
+      "name": "Chen Qianyu",
+      "codename": "Chen Qianyu",
+      "rarity": 5,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.b0afd1ba.png"
+    },
+    {
+      "index": 7,
+      "key": "lizhiyan",
+      "name": "Arcane",
+      "codename": "Arcane",
+      "rarity": 6,
+      "profession": "caster",
+      "element": "nature",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png"
+    },
+    {
+      "index": 8,
+      "key": "liino",
+      "name": "Liino",
+      "codename": "Liino",
+      "rarity": 6,
+      "profession": "support",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.8d027d2a.png"
+    },
+    {
+      "index": 9,
+      "key": "mifu",
+      "name": "Mi Fu",
+      "codename": "Mi Fu",
+      "rarity": 6,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.e1d79970.png"
+    },
+    {
+      "index": 10,
+      "key": "camille",
+      "name": "Camille",
+      "codename": "Camille",
+      "rarity": 6,
+      "profession": "vanguard",
+      "element": "fire",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.a26b2443.png"
+    },
+    {
+      "index": 11,
+      "key": "zhuangfy",
+      "name": "Zhuang Fangyi",
+      "codename": "Zhuang Fangyi",
+      "rarity": 6,
+      "profession": "assault",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.50a608b8.png"
+    },
+    {
+      "index": 12,
+      "key": "tangtang",
+      "name": "Tangtang",
+      "codename": "Tangtang",
+      "rarity": 6,
+      "profession": "caster",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png"
+    },
+    {
+      "index": 13,
+      "key": "rossi",
+      "name": "Rossi",
+      "codename": "Rossi",
+      "rarity": 6,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.c58b721b.png"
+    },
+    {
+      "index": 14,
+      "key": "laevatain",
+      "name": "Laevatain",
+      "codename": "Laevatain",
+      "rarity": 6,
+      "profession": "assault",
+      "element": "fire",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.edd103d4.png"
+    },
+    {
+      "index": 15,
+      "key": "yvonne",
+      "name": "Yvonne",
+      "codename": "Yvonne",
+      "rarity": 6,
+      "profession": "assault",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.9695c304.png"
+    },
+    {
+      "index": 16,
+      "key": "gilberta",
+      "name": "Gilberta",
+      "codename": "Gilberta",
+      "rarity": 6,
+      "profession": "support",
+      "element": "nature",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.724f3503.png"
+    },
+    {
+      "index": 17,
+      "key": "ardelia",
+      "name": "Ardelia",
+      "codename": "Ardelia",
+      "rarity": 6,
+      "profession": "support",
+      "element": "nature",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.565c75af.png"
+    },
+    {
+      "index": 18,
+      "key": "ember",
+      "name": "Ember",
+      "codename": "Ember",
+      "rarity": 6,
+      "profession": "shielder",
+      "element": "fire",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.6391acf9.png"
+    },
+    {
+      "index": 19,
+      "key": "lastrite",
+      "name": "Last Rite",
+      "codename": "Last Rite",
+      "rarity": 6,
+      "profession": "assault",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.3860f541.png"
+    },
+    {
+      "index": 20,
+      "key": "lifeng",
+      "name": "Lifeng",
+      "codename": "Lifeng",
+      "rarity": 6,
+      "profession": "guard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.ef41bc3a.png"
+    },
+    {
+      "index": 21,
+      "key": "pogranichnik",
+      "name": "Pogranichnik",
+      "codename": "Pogranichnik",
+      "rarity": 6,
+      "profession": "vanguard",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.80f2ddbb.png"
+    },
+    {
+      "index": 22,
+      "key": "alesh",
+      "name": "Alesh",
+      "codename": "Alesh",
+      "rarity": 5,
+      "profession": "vanguard",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.d7f457d2.png"
+    },
+    {
+      "index": 23,
+      "key": "arclight",
+      "name": "Arclight",
+      "codename": "Arclight",
+      "rarity": 5,
+      "profession": "vanguard",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e31580d7.png"
+    },
+    {
+      "index": 24,
+      "key": "avywenna",
+      "name": "Avywenna",
+      "codename": "Avywenna",
+      "rarity": 5,
+      "profession": "assault",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.2a592659.png"
+    },
+    {
+      "index": 25,
+      "key": "dapan",
+      "name": "Da Pan",
+      "codename": "Da Pan",
+      "rarity": 5,
+      "profession": "assault",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7cdb6a4e.png"
+    },
+    {
+      "index": 26,
+      "key": "snowshine",
+      "name": "Snowshine",
+      "codename": "Snowshine",
+      "rarity": 5,
+      "profession": "shielder",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.bb2c0bdc.png"
+    },
+    {
+      "index": 27,
+      "key": "wulfgard",
+      "name": "Wulfgard",
+      "codename": "Wulfgard",
+      "rarity": 5,
+      "profession": "caster",
+      "element": "fire",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.609a252f.png"
+    },
+    {
+      "index": 28,
+      "key": "xaihi",
+      "name": "Xaihi",
+      "codename": "Xaihi",
+      "rarity": 5,
+      "profession": "support",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9ba3eb36.png"
+    },
+    {
+      "index": 29,
+      "key": "akekuri",
+      "name": "Akekuri",
+      "codename": "Akekuri",
+      "rarity": 4,
+      "profession": "vanguard",
+      "element": "fire",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3603d013.png"
+    },
+    {
+      "index": 30,
+      "key": "antal",
+      "name": "Antal",
+      "codename": "Antal",
+      "rarity": 4,
+      "profession": "support",
+      "element": "electric",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.763c87e4.png"
+    },
+    {
+      "index": 31,
+      "key": "catcher",
+      "name": "Catcher",
+      "codename": "Catcher",
+      "rarity": 4,
+      "profession": "shielder",
+      "element": "physic",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.bc6bcfaa.png"
+    },
+    {
+      "index": 32,
+      "key": "estella",
+      "name": "Estella",
+      "codename": "Estella",
+      "rarity": 4,
+      "profession": "guard",
+      "element": "ice",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.38c423af.png"
+    },
+    {
+      "index": 33,
+      "key": "fluorite",
+      "name": "Fluorite",
+      "codename": "Fluorite",
+      "rarity": 4,
+      "profession": "caster",
+      "element": "nature",
+      "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.5a8add29.png"
+    }
+  ],
+  "hero_illustrations": {
+    "endministrator1": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png",
+    "endministrator2": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png",
+    "perlica": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.6710bc97.png",
+    "chen": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.2a091fd4.png",
+    "laevatain": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.d0ca2837.png",
+    "yvonne": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.a74396e6.png",
+    "gilberta": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.92aa17d4.png",
+    "ardelia": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.36d836c7.png",
+    "ember": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.9364370e.png",
+    "lastrite": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.4a02d8bb.png",
+    "lifeng": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.7253579c.png",
+    "pogranichnik": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.6983f122.png",
+    "alesh": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.bfe6a583.png",
+    "arclight": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e46ed671.png",
+    "avywenna": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.3346feee.png",
+    "dapan": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.8a1d195a.png",
+    "snowshine": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.1f6d3a0e.png",
+    "wulfgard": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.53a6686b.png",
+    "xaihi": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.43d608d9.png",
+    "akekuri": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.751608ae.png",
+    "antal": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.5a3548af.png",
+    "catcher": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.d4e72ab0.png",
+    "estella": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.0c009bcd.png",
+    "fluorite": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.cf452cf1.png",
+    "tangtang": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+    "rossi": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.b7ae95b5.png",
+    "zhuangfy": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.c6750f9c.png",
+    "mifu": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.7b3a74cf.png",
+    "camille": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.81d81ef7.png",
+    "lizhiyan": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.5e6e07c8.png",
+    "liino": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f5676406.png",
+    "typhoea": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c4a79f82.png",
+    "purrche": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.bdb051d3.png"
+  },
+  "taxonomy_icons": {
+    "none": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option"
+      ]
+    },
+    "guard": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "caster": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "support": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "shielder": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "vanguard": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "assault": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "fire": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "ice": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "electric": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "nature": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    },
+    "physic": {
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg",
+      "used_in": [
+        "dropdown trigger",
+        "dropdown option",
+        "operator card"
+      ]
+    }
+  },
+  "operator_motion_clips": {
+    "akekuri": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.a66d56.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.5c433b.mp4"
+    },
+    "antal": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.7df9b2.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.4197d2.mp4"
+    },
+    "chen": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.ed8d5e.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.c3a71d.mp4"
+    },
+    "catcher": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.7dce7b.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.c9b4aa.mp4"
+    },
+    "ember": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.949a3d.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.804e0a.mp4"
+    },
+    "estella": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.7100b5.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.77b33e.mp4"
+    },
+    "fluorite": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.eef9fe.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.289409.mp4"
+    },
+    "alesh": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.bb0080.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.ce391f.mp4"
+    },
+    "arclight": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.da7c54.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.4b776c.mp4"
+    },
+    "ardelia": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.c84d04.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.2e6c26.mp4"
+    },
+    "avywenna": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.940700.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.b4df19.mp4"
+    },
+    "camille": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.378087.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.a0ab37.mp4"
+    },
+    "dapan": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.bc2b7b.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.d01501.mp4"
+    },
+    "endministrator1": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.13649e.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.12d14a.mp4"
+    },
+    "endministrator2": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.0a2d0e.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.810977.mp4"
+    },
+    "gilberta": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.1180d2.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.1f28ab.mp4"
+    },
+    "laevatain": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.8c50d1.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.cb64d4.mp4"
+    },
+    "lastrite": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.ed2da1.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.e6e3ed.mp4"
+    },
+    "lifeng": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.3dc320.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.68bcf2.mp4"
+    },
+    "mifu": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.8a5a49.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.5864d8.mp4"
+    },
+    "perlica": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.6546d3.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.f95544.mp4"
+    },
+    "pogranichnik": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.4f53eb.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.0bdba0.mp4"
+    },
+    "snowshine": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.674f13.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.5460af.mp4"
+    },
+    "wulfgard": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.2e3172.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.24e819.mp4"
+    },
+    "xaihi": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.d2a51a.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.7beb0c.mp4"
+    },
+    "yvonne": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.7be713.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.befed4.mp4"
+    },
+    "tangtang": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.29f069.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.1688c4.mp4"
+    },
+    "rossi": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.b3fe92.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.a3c7a9.mp4"
+    },
+    "zhuangfy": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.418594.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.7168ff.mp4"
+    },
+    "lizhiyan": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.49352f.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.da7be7.mp4"
+    },
+    "liino": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.88cbb6.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.cd38eb.mp4"
+    },
+    "typhoea": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.f77ca5.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.b4f2dd.mp4"
+    },
+    "purrche": {
+      "enter": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.5809fa.mp4",
+      "idle": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.885f2f.mp4"
+    }
+  },
+  "interface_textures": [
+    {
+      "name": "02Bg.21971ce1.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02Bg.21971ce1.jpg",
+      "selector": ".LandingBottom_container__BGiWo"
+    },
+    {
+      "name": "deco.dbe18bea.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg",
+      "selector": ".__00-landing_container__0qC45 .__00-landing_moreDeco__rzxLT .__00-landing_deco__z8MPl"
+    },
+    {
+      "name": "pag-button-texture.e4e732ad.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png",
+      "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L:before"
+    },
+    {
+      "name": "button-texture.aac73492.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.aac73492.png",
+      "selector": ".HomeButton_button__a_6Gh"
+    },
+    {
+      "name": "bg.269aa2f3.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.269aa2f3.jpg",
+      "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_containBg__hUT2Y"
+    },
+    {
+      "name": "section_divider_icon_lore.6968c414.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png",
+      "selector": ".__03-Lore_sectionDivider__RVkKY:before"
+    },
+    {
+      "name": "bg.51f75595.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg",
+      "selector": ".__03-Lore_container__ZiS0O"
+    },
+    {
+      "name": "bg_m.2ac1c57d.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.2ac1c57d.jpg",
+      "selector": ".__03-Lore_container__ZiS0O"
+    },
+    {
+      "name": "bg.269aa2f3.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.269aa2f3.jpg",
+      "selector": ".__04-finalpage_sectionContainer__w2kZ2 .__04-finalpage_containBg__TDICn"
+    },
+    {
+      "name": "subpage-deco-rt.6fce5d04.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-rt.6fce5d04.png",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx:before"
+    },
+    {
+      "name": "subpage-deco-lb.b881dcb3.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-lb.b881dcb3.png",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx:after"
+    },
+    {
+      "name": "th-deco-rt.85ad2c16.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-rt.85ad2c16.svg",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_rt__2ruPz"
+    },
+    {
+      "name": "th-deco-lt.d5331bdd.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lt.d5331bdd.png",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_l__RQKaI:before"
+    },
+    {
+      "name": "th-deco-lb.8b362c5f.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lb.8b362c5f.png",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_l__RQKaI:after"
+    },
+    {
+      "name": "points-bg.f3b559e8.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png",
+      "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_bgBottom__LVKra"
+    },
+    {
+      "name": "button-texture.63d91da2.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.63d91da2.png",
+      "selector": ".Button_button__njqVS:before"
+    },
+    {
+      "name": "points-bg.f3b559e8.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png",
+      "selector": ".ModalFrame_modalFrame__WKkW2:before"
+    },
+    {
+      "name": "block-bg.f05eda37.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+      "selector": ".Header_h5Menu__Tl_yj:before"
+    },
+    {
+      "name": "bg.9e174372.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.9e174372.jpg",
+      "selector": ".__00-Loading_container__aBijT .__00-Loading_bg__mahvH"
+    },
+    {
+      "name": "bg_m.529c4e62.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.529c4e62.jpg",
+      "selector": ".__00-Loading_container__aBijT .__00-Loading_bg__mahvH"
+    },
+    {
+      "name": "deco.dbe18bea.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg",
+      "selector": ".__00-Loading_container__aBijT .__00-Loading_moreDeco__rmGYb .__00-Loading_deco__EFg6B"
+    },
+    {
+      "name": "section_divider_icon_lore.6968c414.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:after"
+    },
+    {
+      "name": "wave-bg.8955885a.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wave-bg.8955885a.png",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d:before"
+    },
+    {
+      "name": "block-bg.f05eda37.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_shallowBg__E2XaH:before"
+    },
+    {
+      "name": "block-bg.f05eda37.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoFlag__xm7_G:before"
+    },
+    {
+      "name": "tape-wave-bg.2bce9fc0.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoTape__9rSYk:before"
+    },
+    {
+      "name": "block-bg.f05eda37.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_backgroundDeco___Hj3d .__02-Operator_shallowBg__E2XaH"
+    },
+    {
+      "name": "tape-wave-bg.2bce9fc0.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck:before"
+    },
+    {
+      "name": "pag-button-texture.e4e732ad.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_detailButton__4n7SU .__02-Operator_inner__rzAAE"
+    },
+    {
+      "name": "pag-button-texture.e4e732ad.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png",
+      "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_:before"
+    },
+    {
+      "name": "card-bg.28c79684.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg",
+      "selector": ".OperatorItem_operatorItem__gPezu"
+    },
+    {
+      "name": "block-bg.f05eda37.svg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP:before"
+    },
+    {
+      "name": "deco-right.0602d8cc.jpg",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoRight__73_eX"
+    },
+    {
+      "name": "left-deco-text.3ef6b598.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/left-deco-text.3ef6b598.png",
+      "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_leftDeco__ML9u3 .__06-Notice_textWrapper__nvUA3:after"
+    },
+    {
+      "name": "test-notice-bg.9814ba3c.png",
+      "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/test-notice-bg.9814ba3c.png",
+      "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_noticeItem__7v58F .__06-Notice_image__3ztHF"
+    }
+  ]
+}

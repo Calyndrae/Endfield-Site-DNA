@@ -1,0 +1,32 @@
+{
+  "module": 15723,
+  "summary": "DeviceUtils exports eight case-insensitive user-agent regex predicates: I7 MiuiBrowser, TN VivoBrowser, zZ HeyTapBrowser|OppoBrowser, Jc bdhonorbrowser (Honor), B$ Quark, un iPhone|iPad|iPod, Fr Mobi|Android|iPhone|Huawei (generic mobile) and Cb skland (the HyperGryph Skland app webview). OperatorSection uses TN/zZ/I7/B$ to disable the 3D video mode, and RootFontSizeScaler and BackgroundMusic use Fr.",
+  "exports": {
+    "B$": "isQuarkBrowser",
+    "Cb": "isSklandApp",
+    "Fr": "isMobile",
+    "I7": "isMiuiBrowser",
+    "Jc": "isHonorBrowser",
+    "TN": "isVivoBrowser",
+    "un": "isIos",
+    "zZ": "isOppoBrowser"
+  },
+  "renames": {
+    "L_1": "isMiuiBrowser",
+    "e_9": "uaMiui",
+    "a_2": "isVivoBrowser",
+    "e_10": "uaVivo",
+    "n_3": "isOppoBrowser",
+    "e_11": "uaOppo",
+    "r_4": "isHonorBrowser",
+    "e_12": "uaHonor",
+    "l_5": "isQuarkBrowser",
+    "e_13": "uaQuark",
+    "o_6": "isIos",
+    "e_14": "uaIos",
+    "s_7": "isMobile",
+    "e_15": "uaMobile",
+    "C_8": "isSklandApp",
+    "e_16": "uaSkland"
+  }
+}

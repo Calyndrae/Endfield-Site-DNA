@@ -1,0 +1,3 @@
+// module 14589 from 491-d00f740e9c6ed637.js
+// deps: 96424, 82676, 55649, 98488
+const module_14589 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"ClientPageRoot",{enumerable:!0,get:function(){return o}});let n=r(96424);function o(e){let{Component:t,searchParams:o,params:u,promises:l}=e;{let{createRenderSearchParamsFromClient:e}=r(82676),l=e(o),{createRenderParamsFromClient:a}=r(55649),i=a(u);return(0,n.jsx)(t,{params:i,searchParams:l})}}r(98488),("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

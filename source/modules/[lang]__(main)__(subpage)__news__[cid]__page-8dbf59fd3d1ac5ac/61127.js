@@ -1,0 +1,3 @@
+// module 61127 from [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac.js
+// deps: 96424, 97028, 71985, 4948, 91627
+const module_61127 = (e,t,i)=>{"use strict";i.d(t,{NoticeDetailContextProvider:()=>s,z:()=>_});var l=i(96424),n=i(97028),a=i(71985),o=i(4948),c=i(91627);let r=(0,n.createContext)({}),s=e=>{let{value:t,children:i}=e,{t:s}=(0,o.Bd)(),{lang:_}=(0,o.PO)(),{bulletin:d}=t,[u,m]=(0,n.useState)(d);(0,n.useEffect)(()=>{(async()=>{let e=window.location.pathname,t=/\/news\/(\d+)/.exec(e);if(t){let e=t[1],{code:i,data:l}=await (0,c.Jq)(e,_);0===i&&l?m(l):a.A.message(s("toast.networkError"))}})()},[]);let v=(0,n.useMemo)(()=>({bulletin:u}),[u]);return(0,l.jsx)(r.Provider,{value:v,children:i})},_=()=>(0,n.useContext)(r).bulletin};

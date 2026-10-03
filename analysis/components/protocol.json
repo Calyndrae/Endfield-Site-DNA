@@ -1,0 +1,128 @@
+{
+ "component": "protocol",
+ "files": [
+  "637308dda4dd7f2d.css"
+ ],
+ "classes": {
+  "html": "protocol_html__0huJ4",
+  "body": "protocol_body__7Bxrw"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": "html.protocol_html__0huJ4",
+   "media": [],
+   "declarations": {
+    "text-size-adjust": "100%",
+    "font-family": "sans-serif",
+    "font-size": "16px",
+    "scrollbar-width": "thin",
+    "height": "auto",
+    "overflow": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": "html.protocol_html__0huJ4 *,html.protocol_html__0huJ4 :after,html.protocol_html__0huJ4 :before",
+   "media": [],
+   "declarations": {
+    "-webkit-tap-highlight-color": "rgba(0,0,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".protocol_body__7Bxrw",
+   "media": [],
+   "declarations": {
+    "padding": "0",
+    "margin": "0",
+    "line-height": "1.8",
+    "word-break": "normal",
+    "overflow-x": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  }
+ ],
+ "markup": "<html lang=\"en-us\" class=\"en-us protocol_html__0huJ4\" style=\"font-size: 9px;\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"stylesheet\" href=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css\" crossorigin=\"anonymous\" data-precedence=\"next\"><link rel=\"stylesheet\" href=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css\" crossorigin=\"anonymous\" data-precedence=\"next\"><link rel=\"preload\" as=\"script\" fetchpriority=\"low\" href=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js\" crossorigin=\"\"><script src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js\" async=\"\" crossorigin=\"\"></script><script src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js\" async=\"\" crossorigin=\"\"></script><script src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js\" async=\"\" crossorigin=\"\"></script><link rel=\"preload\" href=\"https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js\" as=\"script\"><script>\n\"use strict\";\nvar _innerWidth = 0;\nvar _innerHeight = 0;\nvar _fontSize = 16;\nvar _width = 0, _height = 0;\nfunction handleResize(baseFontSize) {\n    if (baseFontSize === void 0) { baseFontSize = 16; }\n    var innerWidth = window.innerWidth, innerHeight = window.innerHeight;\n    var width = Math.max(innerWidth, innerHeight);\n    var height = Math.min(innerWidth, innerHeight);\n    _width = width;\n    _height = height;\n    if (innerWidth === _innerWidth && innerHeight === _innerHeight) {\n        return;\n    }\n    else {\n        _innerWidth = innerWidth;\n        _innerHeight = innerHeight;\n    }\n    var fontSize = baseFontSize;\n    if (innerHeight >= innerWidth) {\n        var designWidth = 1080;\n        var designHeight = 1920;\n        if (innerWidth / innerHeight > designWidth / designHeight) {\n            fontSize *= innerHeight / designHeight;\n        }\n        else {\n            fontSize *= innerWidth / designWidth;\n        }\n    }\n    else {\n        var designWidth = 2560;\n        var designHeight = 1440;\n        if (innerWidth / innerHeight > designWidth / designHeight) {\n            fontSize *= innerHeight / designHeight;\n        }\n        else {\n            fontSize *= innerWidth / designWidth;\n        }\n    }\n    const html = document.querySelector(\"html\")\n    html.style.fontSize = fontSize + \"px\";\n\n    if (window.navigator.userAgent.includes(\"HarmonyOS\") ||\n        window.navigator.userAgent.includes(\"OpenHarmony\") ||\n        window.navigator.userAgent.includes(\"bdhonorbrowser\")) {\n        var viewportMeta = document.querySelector(\"meta[name=viewport]\");\n        var radio = window.devicePixelRatio;\n        viewportMeta === null || viewportMeta === void 0 ? void 0 : viewportMeta.setAttribute(\"content\", \"width=\" + window.outerWidth * radio + \"px, initial-scale=\" + (1 / radio).toFixed(3) + \", maximum-scale=\" + (1 / radio).toFixed(3) + \", user-scalable=0\" + \", viewport-fit=cover\");\n    }\n    \n}\nhandleResize();\n\n</script><title>Arknights: Endfield - Over the Frontier, Into the Front</title><meta name=\"description\" content=\"Arknights: Endfield is a real-time 3D RPG with strategic elements published by GRYPHLINE.\"><meta name=\"keywords\" content=\"Arknights,Endfield,Arknights Endfield,Hypergryph,GRYPHLINE,Free,Play Free,Free to play,in-app purchases,RPG,Role play games,Endfield Announcement ,Endfield Announce,Endfield release,Endfield PC,Endfield mobile,Endfield official site,Endfield Sign up,Endfield new game,Endfield game,Endfield play,Endfield facebook,Endfield twitter,Endfield instagram,Endfield youtube,Endfield gameplay,Endfield combat,Endfield trailer,Endfield teaser,Over the Frontier,Into the Front,Endfield Industries Creators,角色扮演,免費下載,Unity,終末地,明日方舟 終末地,鷹角,免費遊玩,內購,終末地 公告,終末地 宣布,終末地 發布,終末地 PC,終末地 手機,終末地 官方網站,終末地 註冊,終末地 新遊戲,終末地 遊戲,終末地 遊玩,終末地 facebook,終末地 twitter,終末地 instagram,終末地 youtube,終末地 fun,終末地 故事,終末地 角色,終末地 情節,終末地 社群,終末地 wiki,終末地 遊戲遊玩,終末地 預告片,終末地 概念預告,跨越邊境,直至前線,명일방주,명일방주2,엔드필드,명일방주 엔드필드,명일방주: 엔드필드,하이퍼그리프,요스타,아크나이츠,엔드필드 공식,명일방주 공식,롤플레잉,롤플레잉 게임,실시간 전략,모바일 게임,모바일,이차원 게임,2차원 게임,애니 게임,애니메이션 게임,신규 게임,새 게임,무료 게임,인앱 구매,인앱 결제,엔드필드 공개,엔드필드 발표,엔드필드 출시,엔드필드 출시일,엔드필드 퍼블리싱,엔드필드 게임,엔드필드 플레이,엔드필드 접속,엔드필드 모바일,엔드필드 다운로드,엔드필드 설치,엔드필드 apk,엔드필드 PC,엔드필드 공식,엔드필드 홈페이지,엔드필드 공식 홈페이지,엔드필드 공식 사이트,엔드필드 공식 발표,엔드필드 공식 티저,엔드필드 공식 트레일러,엔드필드 게임플레이,엔드필드 티저,엔드필드 트레일러,엔드필드 영상,엔드필드 게임 화면,엔드필드 그래픽,엔드필드 스토리,엔드필드 SNS,엔드필드 전투,엔드필드 컨텐츠,엔드필드 시스템,엔드필드 구글,엔드필드 애플,엔드필드 구글플레이,엔드필드 앱스토어,엔드필드 구글스토어,엔드필드 캐릭터,엔드필드 IOS,엔드필드 google,엔드필드 googleplay,엔드필드 appstore,엔드필드 위키,엔드필드 wiki,엔드필드 페이스북,엔드필드 공식 페이지북,엔드필드 팬페이지,엔드필드 트위터,엔드필드 공식 트위터,엔드필드 유튜브,엔드필드 공식 유튜브,엔드필드 공식 채널,엔드필드 유튜브 공식 채널,엔드필드 레딧,엔드필드 공식 레딧,엔드필드 디스코드,엔드필드 카페,엔드필드 네이버 카페,엔드필드 공식 카페,엔드필드 게임라운지,엔드필드 라운지,엔드필드 인스타,엔드필드 인스타그램,엔드필드 공식 인스타그램,변경을 넘어,최전방으로,アークナイツ,エンドフィールド,アークナイツ：エンドフィールド,アークナイツエンドフィールド,ハイパーグリフ,鷹角,RPG,アプリ内課金,フリーゲイム,ロールプレイングゲーム,アールピージー,エンドフィールド 情報,エンドフィールド 記事,エンドフィールド リリース,エンドフィールド PC,エンドフィールド スマホ,エンドフィールド 公式サイト,エンドフィールド 登録,エンドフィールド 新ゲー,エンドフィールド ゲーム,エンドフィールド プレー,エンドフィールド facebook,エンドフィールド twitter,エンドフィールド instagram,エンドフィールド youtube,エンドフィールド ツイッター,エンドフィールド ストーリー,エンドフィールド characters,エンドフィールド 物語,エンドフィールド 世界観,エンドフィールド メディア,エンドフィールド ゲームプレー,エンドフィールド 戦闘,エンドフィールド ティーザー,エンドフィールド 大陸,エンドフィールド 中国,辺境を越えて,前線に至る,Más allá de la frontera,hacia el frente,estratégicos,Operadores,Historia,Juego,Medios,Novedades,Fábrica del CAI,Complejo de Automatización Industrial,Pilar Tianshi,Aggelos,Rompesuelos,Producción automatizada,Núcleo de automatización de protocolos,Sistema de logística,Sistema de energía,Plan del CAI de Wuling,Endministrator,Perlica,Chen Qianyu,Wulfgard,Arclight,Ember,Xaihi,Avywenna,Gilberta,Snowshine,Lifeng,Laevatain,Yvonne,Da Pan,Akekuri,Catcher,Estella,Fluorite,Antal,Alesh,Ardelia,Last Rite,\n<!-- … truncated, 256874 chars total -->",
+ "markupPage": "en-us_protocol_privacy_policy",
+ "markupClass": "protocol_html__0huJ4",
+ "appearsOn": [
+  "en-us_protocol_privacy_policy",
+  "en-us_protocol_terms_of_service"
+ ],
+ "computed": {
+  "protocol_body__7Bxrw": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "BODY",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 22676.28125,
+    "top": 0,
+    "right": 1440,
+    "bottom": 22676.28125,
+    "left": 0
+   },
+   "text": "Game Privacy Policy\n            [Latest Updated: 01/19/2026]\n\n            \n     ",
+   "display": "block",
+   "width": "1440px",
+   "height": "22676.3px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden auto",
+   "writing-mode": "horizontal-tb"
+  },
+  "protocol_html__0huJ4": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "HTML",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 22676.28125,
+    "top": 0,
+    "right": 1440,
+    "bottom": 22676.28125,
+    "left": 0
+   },
+   "text": "\"use strict\";\nvar _innerWidth = 0;\nvar _innerHeight = 0;\nvar _fontSize = 16;\nvar",
+   "display": "block",
+   "width": "1440px",
+   "height": "22676.3px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,0)"
+  ],
+  "fonts": [
+   "sans-serif"
+  ],
+  "fontSizes": [
+   "16px"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

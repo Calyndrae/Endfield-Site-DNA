@@ -1,0 +1,30 @@
+{
+  "module": 3787,
+  "summary": "React context provider for the home-page video list. It seeds state from the SSR value {videos, total}, then on mount calls getVideoList({lang}) (module 60108, /api/content/info_video); on success it stores list and total and sets frontVideoReady = true, and on any thrown error logs '拉取视频列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontVideoReady, videos, total}; useVideoList reads it.",
+  "exports": {
+    "VideoListContextProvider": "VideoListContextProvider",
+    "X": "useVideoList"
+  },
+  "renames": {
+    "i_1": "VideoListContext",
+    "u_2": "VideoListContextProvider",
+    "c_3": "useVideoList",
+    "e_4": "props",
+    "t_5": "initialValue",
+    "n_6": "children",
+    "u_7": "lang",
+    "c_8": "t",
+    "d_9": "initialVideos",
+    "f_10": "initialTotal",
+    "v_11": "videos",
+    "b_12": "setVideos",
+    "p_13": "total",
+    "g_14": "setTotal",
+    "m_15": "frontVideoReady",
+    "h_16": "setFrontVideoReady",
+    "y_17": "contextValue",
+    "e_18": "list",
+    "t_19": "fetchedTotal",
+    "e_20": "error"
+  }
+}

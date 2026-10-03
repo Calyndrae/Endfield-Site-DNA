@@ -1,0 +1,900 @@
+[
+ {
+  "component": "BackButton",
+  "rules": 4,
+  "classes": 1,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 5,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "Button",
+  "rules": 15,
+  "classes": 4,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 108,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 1,
+  "keyframes": 0,
+  "colors": 10,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "Carousel",
+  "rules": 3,
+  "classes": 3,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 3117,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "Dropdown",
+  "rules": 48,
+  "classes": 15,
+  "markup": true,
+  "markupPage": "en-us_operator",
+  "markupChars": 1985,
+  "appearsOn": [
+   "en-us_operator"
+  ],
+  "hoverDiffs": 1,
+  "keyframes": 0,
+  "colors": 12,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "GameplayAlbum",
+  "rules": 46,
+  "classes": 23,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 4,
+  "fonts": [
+   "Novecentosanswide-DemiBold",
+   "Gilroy-Medium",
+   "Novecentosanswide-Medium",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "HallowText",
+  "rules": 1,
+  "classes": 1,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 81,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 1,
+  "fonts": [
+   "Novecentosanswide-Bold"
+  ]
+ },
+ {
+  "component": "Header",
+  "rules": 193,
+  "classes": 58,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 40,
+  "keyframes": 0,
+  "colors": 23,
+  "fonts": [
+   "SansMedium",
+   "sans-serif"
+  ]
+ },
+ {
+  "component": "HomeButton",
+  "rules": 25,
+  "classes": 9,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 14,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "LandingBottom",
+  "rules": 20,
+  "classes": 13,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 6,
+  "fonts": [
+   "Novecentosanswide-Medium",
+   "SansBlack",
+   "SansBold"
+  ]
+ },
+ {
+  "component": "LandingGameplay",
+  "rules": 46,
+  "classes": 23,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 4,
+  "fonts": [
+   "Novecentosanswide-DemiBold",
+   "Gilroy-Medium",
+   "Novecentosanswide-Medium",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "Media",
+  "rules": 12,
+  "classes": 7,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 579,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 3,
+  "fonts": []
+ },
+ {
+  "component": "ModalFrame",
+  "rules": 25,
+  "classes": 8,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6039,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 7,
+  "fonts": [
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "OperatorItem",
+  "rules": 27,
+  "classes": 10,
+  "markup": true,
+  "markupPage": "en-us_operator",
+  "markupChars": 782,
+  "appearsOn": [
+   "en-us_operator"
+  ],
+  "hoverDiffs": 1,
+  "keyframes": 0,
+  "colors": 11,
+  "fonts": [
+   "SansBold",
+   "SansMedium",
+   "Novecentosanswide-Medium"
+  ]
+ },
+ {
+  "component": "OrigQuery",
+  "rules": 52,
+  "classes": 23,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 9,
+  "fonts": [
+   "SansMedium",
+   "SansRegular",
+   "SansBold"
+  ]
+ },
+ {
+  "component": "Pagination",
+  "rules": 28,
+  "classes": 14,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 951,
+  "appearsOn": [
+   "en-us",
+   "en-us_news"
+  ],
+  "hoverDiffs": 2,
+  "keyframes": 0,
+  "colors": 11,
+  "fonts": [
+   "Novecentosanswide-Medium",
+   "Novecentosanswide-Bold"
+  ]
+ },
+ {
+  "component": "ReserveModal",
+  "rules": 72,
+  "classes": 25,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 14,
+  "fonts": [
+   "SansRegular",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "RollingContent",
+  "rules": 12,
+  "classes": 8,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 237,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "ScrollViewer",
+  "rules": 4,
+  "classes": 3,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 2,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "SectionTitle",
+  "rules": 11,
+  "classes": 9,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6039,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 4,
+  "fonts": [
+   "Gilroy-Medium",
+   "SansBold"
+  ]
+ },
+ {
+  "component": "SectionViewer",
+  "rules": 5,
+  "classes": 4,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "SubpageHeader",
+  "rules": 27,
+  "classes": 11,
+  "markup": true,
+  "markupPage": "en-us_news",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us_news"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 5,
+  "fonts": [
+   "Gilroy-Medium",
+   "Gilroy-Light",
+   "SansBold"
+  ]
+ },
+ {
+  "component": "SubpageTab",
+  "rules": 21,
+  "classes": 8,
+  "markup": true,
+  "markupPage": "en-us_news",
+  "markupChars": 2249,
+  "appearsOn": [
+   "en-us_news"
+  ],
+  "hoverDiffs": 1,
+  "keyframes": 0,
+  "colors": 6,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "TextShrink",
+  "rules": 2,
+  "classes": 2,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "Toast",
+  "rules": 3,
+  "classes": 3,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 2,
+  "fonts": [
+   "unset"
+  ]
+ },
+ {
+  "component": "TransparentVideo",
+  "rules": 3,
+  "classes": 2,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "UserModal",
+  "rules": 11,
+  "classes": 7,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 3,
+  "fonts": [
+   "SansRegular",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "__00-Loading",
+  "rules": 30,
+  "classes": 15,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 4747,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 6,
+  "fonts": [
+   "SansRegular",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "__00-landing",
+  "rules": 52,
+  "classes": 29,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 12,
+  "fonts": [
+   "Gilroy-Medium",
+   "SansMedium",
+   "HarmonyOS_Sans_SC_Bold",
+   "SansBlack",
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "__01-Home",
+  "rules": 2,
+  "classes": 1,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 4027,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ },
+ {
+  "component": "__02-Operator",
+  "rules": 324,
+  "classes": 78,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6041,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 2,
+  "keyframes": 0,
+  "colors": 30,
+  "fonts": [
+   "Gilroy-Light",
+   "Gilroy-Medium",
+   "SansMedium",
+   "Novecentosanswide-DemiBold",
+   "SansBold",
+   "SansRegular",
+   "Novecentosanswide-Bold",
+   "SpaceGrotesk"
+  ]
+ },
+ {
+  "component": "__03-Lore",
+  "rules": 134,
+  "classes": 43,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 21,
+  "fonts": [
+   "Gilroy-Light",
+   "Gilroy-Medium",
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "__03-gameplay",
+  "rules": 35,
+  "classes": 22,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 6,
+  "fonts": [
+   "Gilroy-Medium"
+  ]
+ },
+ {
+  "component": "__04-Information",
+  "rules": 73,
+  "classes": 30,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 2,
+  "keyframes": 0,
+  "colors": 14,
+  "fonts": [
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "__04-finalpage",
+  "rules": 40,
+  "classes": 21,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 6,
+  "fonts": [
+   "Gilroy-Medium"
+  ]
+ },
+ {
+  "component": "__05-Gameplay",
+  "rules": 28,
+  "classes": 17,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 6,
+  "fonts": [
+   "Gilroy-Medium"
+  ]
+ },
+ {
+  "component": "__06-Notice",
+  "rules": 52,
+  "classes": 27,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 11,
+  "fonts": [
+   "SansBold",
+   "SansMedium",
+   "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif"
+  ]
+ },
+ {
+  "component": "__08-AIC",
+  "rules": 35,
+  "classes": 17,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 6,
+  "fonts": [
+   "Gilroy-Medium"
+  ]
+ },
+ {
+  "component": "__09-Calendar",
+  "rules": 23,
+  "classes": 14,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 1480,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 2,
+  "fonts": []
+ },
+ {
+  "component": "__10-NoticeList",
+  "rules": 32,
+  "classes": 17,
+  "markup": true,
+  "markupPage": "en-us_news",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us_news"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 7,
+  "fonts": [
+   "SansRegular",
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "__12-OperatorList",
+  "rules": 20,
+  "classes": 12,
+  "markup": true,
+  "markupPage": "en-us_operator",
+  "markupChars": 6040,
+  "appearsOn": [
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 5,
+  "fonts": []
+ },
+ {
+  "component": "__20-NoticeDetail",
+  "rules": 64,
+  "classes": 19,
+  "markup": true,
+  "markupPage": "en-us_news_7013",
+  "markupChars": 3399,
+  "appearsOn": [
+   "en-us_news_7013"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 12,
+  "fonts": [
+   "SansMedium",
+   "SansRegular",
+   "Novecentosanswide-Bold"
+  ]
+ },
+ {
+  "component": "__21-ProtocolDetail",
+  "rules": 35,
+  "classes": 16,
+  "markup": true,
+  "markupPage": "en-us_protocol_privacy_policy",
+  "markupChars": 6041,
+  "appearsOn": [
+   "en-us_protocol_privacy_policy",
+   "en-us_protocol_terms_of_service"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 7,
+  "fonts": [
+   "SansMedium",
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "bg",
+  "rules": 56,
+  "classes": 7,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 288,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 1,
+  "fonts": []
+ },
+ {
+  "component": "downloader",
+  "rules": 60,
+  "classes": 28,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 3464,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 1,
+  "keyframes": 0,
+  "colors": 12,
+  "fonts": [
+   "SansMedium",
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "footer",
+  "rules": 32,
+  "classes": 14,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6039,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 7,
+  "fonts": [
+   "SansMedium",
+   "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif"
+  ]
+ },
+ {
+  "component": "h5-cn",
+  "rules": 18,
+  "classes": 15,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 5,
+  "fonts": [
+   "SansMedium"
+  ]
+ },
+ {
+  "component": "h5-oversea",
+  "rules": 15,
+  "classes": 10,
+  "markup": true,
+  "markupPage": "en-us@mobile",
+  "markupChars": 3970,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 1,
+  "colors": 4,
+  "fonts": []
+ },
+ {
+  "component": "pc-cn",
+  "rules": 22,
+  "classes": 12,
+  "markup": false,
+  "markupPage": null,
+  "markupChars": 0,
+  "appearsOn": [],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 7,
+  "fonts": [
+   "SansRegular"
+  ]
+ },
+ {
+  "component": "pc-oversea",
+  "rules": 8,
+  "classes": 6,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 3663,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 1,
+  "fonts": []
+ },
+ {
+  "component": "players",
+  "rules": 4,
+  "classes": 2,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 358,
+  "appearsOn": [
+   "en-us"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 1,
+  "fonts": []
+ },
+ {
+  "component": "protocol",
+  "rules": 3,
+  "classes": 2,
+  "markup": true,
+  "markupPage": "en-us_protocol_privacy_policy",
+  "markupChars": 6041,
+  "appearsOn": [
+   "en-us_protocol_privacy_policy",
+   "en-us_protocol_terms_of_service"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 1,
+  "fonts": [
+   "sans-serif"
+  ]
+ },
+ {
+  "component": "sections",
+  "rules": 6,
+  "classes": 6,
+  "markup": true,
+  "markupPage": "en-us",
+  "markupChars": 6000,
+  "appearsOn": [
+   "en-us",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_operator"
+  ],
+  "hoverDiffs": 0,
+  "keyframes": 0,
+  "colors": 0,
+  "fonts": []
+ }
+]

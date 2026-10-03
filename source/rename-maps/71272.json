@@ -1,0 +1,32 @@
+{
+  "module": 71272,
+  "summary": "LoadingScreen (export E) runs every task function from the `tasks` prop on mount and counts completions; a framer-motion spring (stiffness 120, damping 20) and tween transitions of 0.5s drive a background blur from 8px to 0px, a progress bar (height in landscape, width in portrait) and a percent label that follows the bar (left 3.125rem in landscape), with the numeric text updated via onUpdate. When all tasks finish it calls onLeaving, adds the leaving class, sets the shared zustand store (export r) to loaded:true after 1500ms and calls onFinished after 2400ms. The layout shows the i18n SvgLogo component, the slogan 'OVER THE FRONTIER / INTO THE FRONT' and an 'Updating...' caption.",
+  "exports": {
+    "E": "LoadingScreen",
+    "r": "useLoadedStore"
+  },
+  "renames": {
+    "m_1": "useLoadedStore",
+    "g_2": "LoadingScreen",
+    "e_3": "props",
+    "t_6": "tasks",
+    "i_4": "onLeaving",
+    "n_5": "onFinished",
+    "C_7": "taskList",
+    "u_8": "SvgLogo",
+    "g_9": "isLeaving",
+    "v_10": "setIsLeaving",
+    "M_11": "completedCount",
+    "Z_12": "setCompletedCount",
+    "h_13": "totalTasks",
+    "A_14": "runTasks",
+    "e_19": "task",
+    "e_20": "prevCompleted",
+    "f_15": "progressMotionValue",
+    "__16": "progressSpring",
+    "e_21": "finishTimer",
+    "w_17": "isLandscape",
+    "y_18": "percentTextRef",
+    "e_22": "latestAnimated"
+  }
+}

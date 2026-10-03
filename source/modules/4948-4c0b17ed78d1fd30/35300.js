@@ -1,0 +1,3 @@
+// module 35300 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_35300 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png",height:120,width:120,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAjVBMVEVMHChwKDg4Eh6hS0ncR0DBY1xvRk7t0svEQD1gJyuJODZiOT+LQ0Hn1dDpsKeub2y3cGyqn6bPcWuvm5+cVlafR0SVXl7EjI7fn4rPj47PoZrLra10JCSlLy22PTnPgnzYQTrsYVj+49fHUk7KLydaHyWJGRe4bmpzPT7djobfs6msfny+rreoXVvFSkVDUP+wAAAAHHRSTlP94+D+/rll/f7+o/H+9u7tyP79q676QeQY4GVFvMWkLAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEtJREFUeJwFwQUCgCAQBMA1ELA7T0Ww4//fcwbt0Hzk+Db6zigxjRaYcZfFFRKsyq9DTYS65HxeR0KRaj3vBLxJfIcbgCzijzwD7wfEzgVoa+W5ygAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}};

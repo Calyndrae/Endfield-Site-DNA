@@ -1,0 +1,316 @@
+{
+ "component": "h5-cn",
+ "files": [
+  "79293df1a997d2da.css"
+ ],
+ "classes": {
+  "container": "h5-cn_container__Ys2AK",
+  "rbContainer": "h5-cn_rbContainer__DdbbO",
+  "downloadContainer": "h5-cn_downloadContainer__zxl9m",
+  "downloadWrapper": "h5-cn_downloadWrapper__oX4TL",
+  "extraContainer": "h5-cn_extraContainer__bUudG",
+  "line": "h5-cn_line__6OmRh",
+  "lineButton": "h5-cn_lineButton__FyJOI",
+  "cloudGameIcon": "h5-cn_cloudGameIcon__Uqt8h",
+  "text": "h5-cn_text__FNvPT",
+  "button": "h5-cn_button__KgsOM",
+  "iconCharge": "h5-cn_iconCharge__V_9qR",
+  "iconSkland": "h5-cn_iconSkland__XX6yP",
+  "rtButtonGroup": "h5-cn_rtButtonGroup__wgX8_",
+  "age": "h5-cn_age__udWY6",
+  "scrollTip": "h5-cn_scrollTip__pTvfQ"
+ },
+ "ruleCount": 18,
+ "rules": [
+  {
+   "selector": ".h5-cn_container__Ys2AK",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "inset": "0",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_container__Ys2AK",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_container__Ys2AK [data-animation-element]",
+   "media": [],
+   "declarations": {
+    "opacity": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_rbContainer__DdbbO",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "bottom": "8.5rem",
+    "transform": "translateX(-50%)",
+    "width": "max-content",
+    "max-width": "100%",
+    "height": "8rem",
+    "display": "flex",
+    "align-items": "flex-end",
+    "gap": "1.125rem",
+    "pointer-events": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_downloadContainer__zxl9m,.h5-cn_downloadWrapper__oX4TL",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_extraContainer__bUudG",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "max-content",
+    "height": "max-content",
+    "display": "flex",
+    "justify-content": "center",
+    "flex-direction": "column",
+    "gap": ".625rem",
+    "padding": "1rem",
+    "border-radius": ".25rem",
+    "background-color": "rgba(0,0,0,.5)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_extraContainer__bUudG .h5-cn_line__6OmRh",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "min-width": "19.0625rem",
+    "height": "6rem",
+    "justify-content": "space-evenly"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_lineButton__FyJOI",
+   "media": [],
+   "declarations": {
+    "min-width": "19.0625rem",
+    "height": "6rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "gap": ".75rem",
+    "cursor": "pointer",
+    "background-color": "#000",
+    "border-radius": ".4375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_lineButton__FyJOI .h5-cn_cloudGameIcon__Uqt8h",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "4.6875rem",
+    "height": "3.25rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-icon.e214f39f.png)",
+    "margin-bottom": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_lineButton__FyJOI .h5-cn_text__FNvPT",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "font-size": "1.875rem",
+    "font-family": "SansMedium",
+    "line-height": "1",
+    "color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_button__KgsOM",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "6rem",
+    "height": "6rem",
+    "flex": "unset",
+    "border-radius": ".25rem",
+    "background-color": "rgba(0,0,0,.5)",
+    "color": "#fff",
+    "cursor": "pointer"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_iconCharge__V_9qR",
+   "media": [],
+   "declarations": {
+    "width": "4.6875rem",
+    "height": "auto",
+    "filter": "drop-shadow(0 0 .5rem rgba(0,0,0,.75))"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_iconCharge__V_9qR,.h5-cn_iconSkland__XX6yP",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": "50%",
+    "transform": "translate3d(-50%,-50%,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_iconSkland__XX6yP",
+   "media": [],
+   "declarations": {
+    "width": "5rem",
+    "height": "5rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/skland.46bc0df3.png)",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_rtButtonGroup__wgX8_",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "11rem",
+    "right": "1.5625rem",
+    "height": "9.6875rem",
+    "width": "auto",
+    "object-fit": "contain",
+    "filter": "drop-shadow(0 0 1rem rgb(0,0,0))"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_age__udWY6",
+   "media": [],
+   "declarations": {
+    "top": "1.875rem",
+    "right": "1.5625rem",
+    "width": "6.25rem",
+    "height": "7.8125rem",
+    "cursor": "pointer",
+    "pointer-events": "auto",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/age.6871a633.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_age__udWY6,.h5-cn_scrollTip__pTvfQ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_scrollTip__pTvfQ",
+   "media": [],
+   "declarations": {
+    "left": "50%",
+    "transform": "translateX(-50%)",
+    "bottom": "2.75rem",
+    "width": "5.9375rem",
+    "height": "4.625rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/scroll_tip.351d44bc.png)",
+    "animation": "h5-cn_scrollTipMove__uvZzG 1.6s infinite"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "h5-cn_scrollTipMove__uvZzG",
+   "file": "79293df1a997d2da.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+   "css": "@keyframes h5-cn_scrollTipMove__uvZzG{0%{transform:translateX(-50%) translateY(0);opacity:0}60%{opacity:1}80%{transform:translateX(-50%) translateY(1.5rem);opacity:0}to{transform:translateX(-50%) translateY(0);opacity:0}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "60%",
+     "declarations": {
+      "opacity": "1"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(1.5rem)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.5)",
+   "#000",
+   "#fff",
+   "rgba(0,0,0,.75)",
+   "rgb(0,0,0)"
+  ],
+  "fonts": [
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "1.875rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "h5-cn_scrollTipMove__uvZzG 1.6s infinite"
+  ]
+ }
+}

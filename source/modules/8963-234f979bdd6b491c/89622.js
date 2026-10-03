@@ -1,0 +1,3 @@
+// module 89622 from 8963-234f979bdd6b491c.js
+// deps: 34573, 71494, 93247, 48056, 80753
+const module_89622 = (e,t,i)=>{"use strict";i.d(t,{j:()=>o});var L=i(34573),a=i(71494),n=i(93247),r=i(48056),l=i(80753);let o=[{key:"01",titleKey:"aic.items.0.title",descriptionKey:"aic.items.0.description",image:L.A},{key:"02",titleKey:"aic.items.1.title",descriptionKey:"aic.items.1.description",image:a.A},{key:"03",titleKey:"aic.items.2.title",descriptionKey:"aic.items.2.description",image:n.A},{key:"04",titleKey:"aic.items.3.title",descriptionKey:"aic.items.3.description",image:r.A},{key:"05",titleKey:"aic.items.4.title",descriptionKey:"aic.items.4.description",image:l.A}]};

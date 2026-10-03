@@ -1,0 +1,3 @@
+// module 22726 from 491-d00f740e9c6ed637.js
+// deps: 40951, 96424, 97028, 4662
+const module_22726 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"default",{enumerable:!0,get:function(){return a}});let n=r(40951),o=r(96424),u=n._(r(97028)),l=r(4662);function a(){let e=(0,u.useContext)(l.TemplateContext);return(0,o.jsx)(o.Fragment,{children:e})}("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

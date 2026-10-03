@@ -1,0 +1,10024 @@
+{
+ "3": {
+  "id": 3,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2963,
+  "kind": "vendor",
+  "name": "next.js app-router hydrate",
+  "note": "",
+  "exports": [],
+  "deps": [
+   2268,
+   4662,
+   7359,
+   10234,
+   10327,
+   23582,
+   30695,
+   40951,
+   41451,
+   44485,
+   46027,
+   51007,
+   68398,
+   77517,
+   78192,
+   96424,
+   96559,
+   97028,
+   98105
+  ]
+ },
+ "370": {
+  "id": 370,
+  "chunk": "3407-efea5949cb1afee6",
+  "bytes": 37,
+  "kind": "vendor",
+  "name": "anime.js helpers / small vendor utils",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "704": {
+  "id": 704,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 5003,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   2724,
+   4662,
+   19374,
+   23582,
+   38284,
+   40951,
+   43711,
+   49510,
+   53481,
+   57120,
+   65481,
+   72613,
+   75820,
+   84790,
+   85861,
+   96424,
+   97028
+  ]
+ },
+ "831": {
+  "id": 831,
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytes": 799,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__20-NoticeDetail_sectionContainer__06Hmx",
+  "exports": [],
+  "deps": []
+ },
+ "875": {
+  "id": 875,
+  "chunk": "3407-efea5949cb1afee6",
+  "bytes": 590,
+  "kind": "vendor",
+  "name": "anime.js helpers / small vendor utils",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "888": {
+  "id": 888,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 85,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Black.fc3add.ttf",
+  "note": "static/media/font/NotoSansKR-Black.fc3add.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "1162": {
+  "id": 1162,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 3608,
+  "kind": "site",
+  "name": "Tracking (collect events, insertFooter)",
+  "note": "",
+  "exports": [
+   "A",
+   "SDKInitializer"
+  ],
+  "deps": [
+   1801,
+   4948,
+   56006,
+   73690,
+   97028
+  ]
+ },
+ "1287": {
+  "id": 1287,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 646,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__08-AIC_sectionContainer__XPJyn",
+  "exports": [],
+  "deps": []
+ },
+ "1645": {
+  "id": 1645,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 88,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Medium.cfe6b5.woff2",
+  "note": "static/media/font/NotoSansJP-Medium.cfe6b5.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "1801": {
+  "id": 1801,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 1124,
+  "kind": "site-vendor",
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "note": "",
+  "exports": [
+   "getSDKReadyFunc"
+  ],
+  "deps": [
+   68973
+  ]
+ },
+ "1841": {
+  "id": 1841,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 635,
+  "kind": "image-asset",
+  "name": "image:catcher.68b395f9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "2080": {
+  "id": 2080,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 238,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   38963,
+   76595
+  ]
+ },
+ "2085": {
+  "id": 2085,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Regular.cd23cd.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_Regular.cd23cd.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "2142": {
+  "id": 2142,
+  "chunk": "1434-11a107e8f8cacac2",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "react (createElement default import)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   36349
+  ]
+ },
+ "2208": {
+  "id": 2208,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 6,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "2268": {
+  "id": 2268,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 247,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   78827
+  ]
+ },
+ "2285": {
+  "id": 2285,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 212,
+  "kind": "site",
+  "name": "SoundControlStore (zustand persist 'ef-official-sound-control')",
+  "note": "",
+  "exports": [
+   "E"
+  ],
+  "deps": [
+   50144,
+   97521,
+   99880
+  ]
+ },
+ "2682": {
+  "id": 2682,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 2163,
+  "kind": "site",
+  "name": "Pagination (number/arrow pagination)",
+  "note": "viewBox 0 0 18 27",
+  "exports": [
+   "Ay",
+   "MS"
+  ],
+  "deps": [
+   26097,
+   73235,
+   96424,
+   96970,
+   97028
+  ]
+ },
+ "2718": {
+  "id": 2718,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 496,
+  "kind": "css-module",
+  "name": "styles:footer",
+  "note": "footer_footer__6jTqE",
+  "exports": [],
+  "deps": []
+ },
+ "2724": {
+  "id": 2724,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1741,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4662,
+   40951,
+   59657,
+   74800,
+   96424,
+   97028,
+   99775
+  ]
+ },
+ "2855": {
+  "id": 2855,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 437,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "2878": {
+  "id": 2878,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 510,
+  "kind": "css-module",
+  "name": "styles:h5-oversea",
+  "note": "h5-oversea_container__vZOQu",
+  "exports": [],
+  "deps": []
+ },
+ "3147": {
+  "id": 3147,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 652,
+  "kind": "image-asset",
+  "name": "image:fluorite.b83d45cf.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.b83d45cf.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "3301": {
+  "id": 3301,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 12619,
+  "kind": "site-vendor",
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "note": "",
+  "exports": [
+   "adapter",
+   "default"
+  ],
+  "deps": [
+   31563
+  ]
+ },
+ "3381": {
+  "id": 3381,
+  "chunk": "5578-060085c254278034",
+  "bytes": 185,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "X"
+  ],
+  "deps": []
+ },
+ "3382": {
+  "id": 3382,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1196,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "3411": {
+  "id": 3411,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 81476,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-ru-ru (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   2142,
+   4948,
+   7404,
+   9050,
+   10414,
+   10893,
+   14029,
+   20544,
+   29804,
+   30610,
+   31042,
+   33058,
+   33922,
+   35807,
+   46173,
+   49918,
+   62589,
+   62727,
+   66854,
+   68824,
+   74738,
+   75435,
+   77144,
+   78163,
+   82762,
+   84539,
+   84726,
+   89095,
+   90149,
+   91041,
+   99808
+  ]
+ },
+ "3492": {
+  "id": 3492,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 20417,
+  "kind": "site",
+  "name": "OperatorSection (homepage character stage)",
+  "note": "",
+  "exports": [
+   "W"
+  ],
+  "deps": [
+   1162,
+   2142,
+   2682,
+   4948,
+   7919,
+   9704,
+   15723,
+   19213,
+   22715,
+   26097,
+   29190,
+   29521,
+   29671,
+   30998,
+   40489,
+   49095,
+   52271,
+   52652,
+   56578,
+   60705,
+   68408,
+   71272,
+   73235,
+   73422,
+   84245,
+   89748,
+   90286,
+   96424,
+   96664,
+   97028,
+   97521
+  ]
+ },
+ "3787": {
+  "id": 3787,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 705,
+  "kind": "site",
+  "name": "VideoListContextProvider",
+  "note": "",
+  "exports": [
+   "VideoListContextProvider",
+   "X"
+  ],
+  "deps": [
+   4948,
+   60108,
+   71985,
+   96424,
+   97028
+  ]
+ },
+ "3919": {
+  "id": 3919,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Regular.463da3.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Regular.463da3.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "4014": {
+  "id": 4014,
+  "chunk": "main-app-aa0c052c2919e7bc",
+  "bytes": 6,
+  "kind": "vendor",
+  "name": "next.js main-app entry",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "4060": {
+  "id": 4060,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.38e5934f.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.38e5934f.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "4133": {
+  "id": 4133,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 391,
+  "kind": "image-asset",
+  "name": "image:TF04.8d2e583c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.8d2e583c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "4353": {
+  "id": 4353,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 410,
+  "kind": "image-asset",
+  "name": "image:TF04.387de63c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.387de63c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "4431": {
+  "id": 4431,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title.9263c8fb.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.9263c8fb.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "4454": {
+  "id": 4454,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 85,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Bold.69fb43.woff",
+  "note": "static/media/font/NotoSansKR-Bold.69fb43.woff",
+  "exports": [],
+  "deps": []
+ },
+ "4463": {
+  "id": 4463,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.42076b6e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.42076b6e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "4662": {
+  "id": 4662,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 553,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   97028
+  ]
+ },
+ "4664": {
+  "id": 4664,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 724,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   7177,
+   96424,
+   97028
+  ]
+ },
+ "4721": {
+  "id": 4721,
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytes": 596,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__12-OperatorList_sectionContainer__KC5gP",
+  "exports": [],
+  "deps": []
+ },
+ "4948": {
+  "id": 4948,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 13083,
+  "kind": "site",
+  "name": "I18nProvider + useI18n (lang, text, fonts, operator data)",
+  "note": "exports: I18nProvider, lX=languageNames, YZ=availableLangs, PO=useI18n, gL=useOperators, Bd=useText",
+  "exports": [
+   "I18nProvider",
+   "lX",
+   "YZ",
+   "PO",
+   "gL",
+   "Bd"
+  ],
+  "deps": [
+   1841,
+   3147,
+   9184,
+   11502,
+   22519,
+   26673,
+   29269,
+   32343,
+   35300,
+   37602,
+   49929,
+   52151,
+   56006,
+   57236,
+   60459,
+   63875,
+   73803,
+   75583,
+   78074,
+   79755,
+   80689,
+   82405,
+   89808,
+   90746,
+   92880,
+   93577,
+   96424,
+   97028,
+   97916
+  ]
+ },
+ "4950": {
+  "id": 4950,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 4241,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3382,
+   7359,
+   10327,
+   10768,
+   16412,
+   25511,
+   29639,
+   39767,
+   40081,
+   41451,
+   50080,
+   50953,
+   51829,
+   53051,
+   53693,
+   60017,
+   65481,
+   73452,
+   74618,
+   76144,
+   78192,
+   84790,
+   93695,
+   98822
+  ]
+ },
+ "5144": {
+  "id": 5144,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 587,
+  "kind": "image-asset",
+  "name": "image:obt-title.e742ce48.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.e742ce48.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "5268": {
+  "id": 5268,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "5649": {
+  "id": 5649,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 115,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   58488,
+   67704
+  ]
+ },
+ "5662": {
+  "id": 5662,
+  "chunk": "5578-060085c254278034",
+  "bytes": 64,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "L"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "6480": {
+  "id": 6480,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94989,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-de-de (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   7404,
+   10414,
+   14029,
+   17526,
+   20544,
+   27214,
+   28457,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   45546,
+   46173,
+   52431,
+   74738,
+   75435,
+   83593,
+   84726,
+   88351,
+   89095,
+   90149,
+   99808
+  ]
+ },
+ "6584": {
+  "id": 6584,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 449,
+  "kind": "image-asset",
+  "name": "image:appStore.4c92ebb1.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/appStore.4c92ebb1.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "6777": {
+  "id": 6777,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 79,
+  "kind": "asset-url",
+  "name": "asset:spaceship.752e25.bin",
+  "note": "static/media/model/spaceship.752e25.bin",
+  "exports": [],
+  "deps": []
+ },
+ "6780": {
+  "id": 6780,
+  "chunk": "5578-060085c254278034",
+  "bytes": 238,
+  "kind": "vendor",
+  "name": "framer-motion useMotionValue",
+  "note": "",
+  "exports": [
+   "d"
+  ],
+  "deps": [
+   36849,
+   53785,
+   61914,
+   97028
+  ]
+ },
+ "6816": {
+  "id": 6816,
+  "chunk": "5578-060085c254278034",
+  "bytes": 57,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "S"
+  ],
+  "deps": []
+ },
+ "6921": {
+  "id": 6921,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 587,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 13 21",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "7009": {
+  "id": 7009,
+  "chunk": "5578-060085c254278034",
+  "bytes": 141,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Sz",
+   "ZZ",
+   "dg"
+  ],
+  "deps": [
+   65739,
+   75744,
+   82106
+  ]
+ },
+ "7039": {
+  "id": 7039,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 546,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   55649,
+   96424,
+   98488
+  ]
+ },
+ "7094": {
+  "id": 7094,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 414,
+  "kind": "image-asset",
+  "name": "image:TF03.cbed0022.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.cbed0022.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "7175": {
+  "id": 7175,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 434,
+  "kind": "image-asset",
+  "name": "image:it-it.033b1679.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/it-it.033b1679.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "7177": {
+  "id": 7177,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 475,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "7255": {
+  "id": 7255,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Black.867f57.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Black.867f57.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "7359": {
+  "id": 7359,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 587,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   19374,
+   84790,
+   97028
+  ]
+ },
+ "7404": {
+  "id": 7404,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 89,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Black.264c07.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_Black.264c07.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "7487": {
+  "id": 7487,
+  "chunk": "1862-f64a25e5790c1ef5",
+  "bytes": 863,
+  "kind": "vendor",
+  "name": "ieee754",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "7725": {
+  "id": 7725,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 312,
+  "kind": "site",
+  "name": "BackgroundMusic (bgm.mp3 loop with fades)",
+  "note": "",
+  "exports": [
+   "K"
+  ],
+  "deps": [
+   15723,
+   58572,
+   97521
+  ]
+ },
+ "7919": {
+  "id": 7919,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 58,
+  "kind": "css-module",
+  "name": "styles:BackButton",
+  "note": "BackButton_backButton__5Hmrb",
+  "exports": [],
+  "deps": []
+ },
+ "8147": {
+  "id": 8147,
+  "chunk": "18b16e15-9cd90f703163305b",
+  "bytes": 305618,
+  "kind": "vendor",
+  "name": "framer-motion",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "8156": {
+  "id": 8156,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.dc84e242.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.dc84e242.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "8977": {
+  "id": 8977,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 629,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   59657
+  ]
+ },
+ "9050": {
+  "id": 9050,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.c5e12cc3.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "9184": {
+  "id": 9184,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 640,
+  "kind": "image-asset",
+  "name": "image:avywenna.36c72367.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.36c72367.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "9265": {
+  "id": 9265,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.ca22aa8c.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.ca22aa8c.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "9399": {
+  "id": 9399,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 105,
+  "kind": "css-module",
+  "name": "styles:Toast",
+  "note": "Toast_toast__ZnoVW",
+  "exports": [],
+  "deps": []
+ },
+ "9704": {
+  "id": 9704,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 3492,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__02-Operator_sectionDivider__PbN7_",
+  "exports": [],
+  "deps": []
+ },
+ "9732": {
+  "id": 9732,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 100,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   35030
+  ]
+ },
+ "9843": {
+  "id": 9843,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3288,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "9848": {
+  "id": 9848,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 339,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "9995": {
+  "id": 9995,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 172,
+  "kind": "site",
+  "name": "useRunOnce hook",
+  "note": "",
+  "exports": [
+   "i",
+   "p"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "10020": {
+  "id": 10020,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1638,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   89359
+  ]
+ },
+ "10234": {
+  "id": 10234,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 891,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   30107,
+   38284,
+   56487,
+   72233,
+   75871,
+   87358,
+   91773
+  ]
+ },
+ "10279": {
+  "id": 10279,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 4509,
+  "kind": "vendor",
+  "name": "@babel/runtime helpers (inherits/classCallCheck)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   30712,
+   33249,
+   44175,
+   45628,
+   48074,
+   91809,
+   96306,
+   97028
+  ]
+ },
+ "10327": {
+  "id": 10327,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 383,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "10414": {
+  "id": 10414,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Medium.20006f.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_Medium.20006f.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "10712": {
+  "id": 10712,
+  "chunk": "5578-060085c254278034",
+  "bytes": 38,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "l"
+  ],
+  "deps": []
+ },
+ "10768": {
+  "id": 10768,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1433,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "10893": {
+  "id": 10893,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 563,
+  "kind": "image-asset",
+  "name": "image:obt-title.1dca7da7.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.1dca7da7.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "11034": {
+  "id": 11034,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 55336,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-ko-kr (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   888,
+   2142,
+   4133,
+   4454,
+   4948,
+   14682,
+   15662,
+   18640,
+   25490,
+   27214,
+   27225,
+   29979,
+   32361,
+   38857,
+   46173,
+   47350,
+   49826,
+   51024,
+   54825,
+   62307,
+   64443,
+   66379,
+   68958,
+   71515,
+   72868,
+   73167,
+   73204,
+   75435,
+   77427,
+   78747,
+   83593,
+   88752,
+   92372,
+   97882,
+   99808
+  ]
+ },
+ "11502": {
+  "id": 11502,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 625,
+  "kind": "image-asset",
+  "name": "image:endministrator2.1ec20a16.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "11728": {
+  "id": 11728,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 193,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   39322,
+   53327,
+   63274,
+   77523
+  ]
+ },
+ "11850": {
+  "id": 11850,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 616,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__00-Loading_container__aBijT",
+  "exports": [],
+  "deps": []
+ },
+ "11852": {
+  "id": 11852,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3470,
+  "kind": "vendor",
+  "name": "scheduler",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "11862": {
+  "id": 11862,
+  "chunk": "1862-f64a25e5790c1ef5",
+  "bytes": 24402,
+  "kind": "vendor",
+  "name": "buffer polyfill",
+  "note": "",
+  "exports": [],
+  "deps": [
+   7487,
+   85038
+  ]
+ },
+ "11875": {
+  "id": 11875,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 766,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "12297": {
+  "id": 12297,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 431,
+  "kind": "image-asset",
+  "name": "image:title.29dc41bf.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.29dc41bf.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "12383": {
+  "id": 12383,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 613,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   2855
+  ]
+ },
+ "12911": {
+  "id": 12911,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1176,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   57120,
+   73452
+  ]
+ },
+ "12914": {
+  "id": 12914,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1280,
+  "kind": "site",
+  "name": "MediaModalStore (video modal state, YouTube iframe)",
+  "note": "",
+  "exports": [
+   "A",
+   "C"
+  ],
+  "deps": [
+   1162,
+   2285,
+   7725,
+   22104,
+   26097,
+   29190,
+   44990,
+   73235,
+   79549,
+   96424,
+   97028,
+   99880
+  ]
+ },
+ "13269": {
+  "id": 13269,
+  "chunk": "3269-ebe4833ea03bce18",
+  "bytes": 34120,
+  "kind": "vendor",
+  "name": "axios",
+  "note": "",
+  "exports": [
+   "A",
+   "hasBrowserEnv",
+   "hasStandardBrowserEnv",
+   "hasStandardBrowserWebWorkerEnv",
+   "navigator",
+   "origin"
+  ],
+  "deps": [
+   11862,
+   37811
+  ]
+ },
+ "13344": {
+  "id": 13344,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 454,
+  "kind": "image-asset",
+  "name": "image:vi-vn.723115d9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/vi-vn.723115d9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "13397": {
+  "id": 13397,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Black.67f11f.woff",
+  "note": "static/media/font/NotoSansJP-Black.67f11f.woff",
+  "exports": [],
+  "deps": []
+ },
+ "13529": {
+  "id": 13529,
+  "chunk": "5578-060085c254278034",
+  "bytes": 240,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "j",
+   "p"
+  ],
+  "deps": []
+ },
+ "13552": {
+  "id": 13552,
+  "chunk": "5578-060085c254278034",
+  "bytes": 427,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "u"
+  ],
+  "deps": [
+   13885,
+   57445
+  ]
+ },
+ "13885": {
+  "id": 13885,
+  "chunk": "5578-060085c254278034",
+  "bytes": 354,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "B"
+  ],
+  "deps": [
+   57445,
+   75795,
+   79516,
+   89460
+  ]
+ },
+ "13920": {
+  "id": 13920,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1197,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__06-Notice_sectionContainer__2x0Mi",
+  "exports": [],
+  "deps": []
+ },
+ "14000": {
+  "id": 14000,
+  "chunk": "3877-c91cc7d94c938183",
+  "bytes": 27,
+  "kind": "vendor",
+  "name": "anime.js 3.2.1",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "14029": {
+  "id": 14029,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 4220,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 74.14 36.99",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "14141": {
+  "id": 14141,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 452,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "14357": {
+  "id": 14357,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 36,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   19033
+  ]
+ },
+ "14432": {
+  "id": 14432,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 569,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   46600
+  ]
+ },
+ "14577": {
+  "id": 14577,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 948,
+  "kind": "site",
+  "name": "RootFontSizeScaler (2560x1440 / 1080x1920 design canvas)",
+  "note": "",
+  "exports": [
+   "Z"
+  ],
+  "deps": [
+   15723
+  ]
+ },
+ "14589": {
+  "id": 14589,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 616,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   55649,
+   82676,
+   96424,
+   98488
+  ]
+ },
+ "14682": {
+  "id": 14682,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 88,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Medium.11415c.woff2",
+  "note": "static/media/font/NotoSansKR-Medium.11415c.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "14752": {
+  "id": 14752,
+  "chunk": "5578-060085c254278034",
+  "bytes": 66,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "t"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "14760": {
+  "id": 14760,
+  "chunk": "5578-060085c254278034",
+  "bytes": 1291,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "V",
+   "f"
+  ],
+  "deps": [
+   37721,
+   68491,
+   89460
+  ]
+ },
+ "14785": {
+  "id": 14785,
+  "chunk": "5578-060085c254278034",
+  "bytes": 72,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Q"
+  ],
+  "deps": []
+ },
+ "15252": {
+  "id": 15252,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   36539
+  ]
+ },
+ "15257": {
+  "id": 15257,
+  "chunk": "44ba29dc-c3eeac94473a606d",
+  "bytes": 200499,
+  "kind": "vendor",
+  "name": "vendor bundle: crypto-js AES + html2canvas + idb (tracking SDK dependencies)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "15662": {
+  "id": 15662,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Black.a0b822.woff",
+  "note": "static/media/font/NotoSansKR-Black.a0b822.woff",
+  "exports": [],
+  "deps": []
+ },
+ "15691": {
+  "id": 15691,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 7383,
+  "kind": "vendor",
+  "name": "react",
+  "note": "",
+  "exports": [],
+  "deps": [
+   37811
+  ]
+ },
+ "15723": {
+  "id": 15723,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 474,
+  "kind": "site",
+  "name": "DeviceUtils (user-agent checks)",
+  "note": "",
+  "exports": [
+   "B$",
+   "Cb",
+   "Fr",
+   "I7",
+   "Jc",
+   "TN",
+   "un",
+   "zZ"
+  ],
+  "deps": []
+ },
+ "15790": {
+  "id": 15790,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 943,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   42750,
+   48695,
+   76595
+  ]
+ },
+ "15889": {
+  "id": 15889,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 11935,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 166 19",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "15903": {
+  "id": 15903,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 194,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "15927": {
+  "id": 15927,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Black.c4ffb8.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Black.c4ffb8.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "16189": {
+  "id": 16189,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1476,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   72613,
+   97028
+  ]
+ },
+ "16412": {
+  "id": 16412,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1491,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   20457
+  ]
+ },
+ "16528": {
+  "id": 16528,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Medium.6b4c3f.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Medium.6b4c3f.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "16878": {
+  "id": 16878,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 596,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "17224": {
+  "id": 17224,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 504,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   45478,
+   73235,
+   96424
+  ]
+ },
+ "17267": {
+  "id": 17267,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 5812,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878,
+   40081,
+   49510,
+   51829,
+   57120
+  ]
+ },
+ "17526": {
+  "id": 17526,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "17540": {
+  "id": 17540,
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytes": 281,
+  "kind": "vendor",
+  "name": "lodash throttle",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   76595,
+   90145
+  ]
+ },
+ "18109": {
+  "id": 18109,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 1357,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 40 40",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "18382": {
+  "id": 18382,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 6,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "18640": {
+  "id": 18640,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 481,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.11535059.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.11535059.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "18750": {
+  "id": 18750,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 501,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.05ced03b.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.05ced03b.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "18770": {
+  "id": 18770,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 204,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "18925": {
+  "id": 18925,
+  "chunk": "5578-060085c254278034",
+  "bytes": 77,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "q"
+  ],
+  "deps": []
+ },
+ "19033": {
+  "id": 19033,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 125,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   93056
+  ]
+ },
+ "19042": {
+  "id": 19042,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 360,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "19158": {
+  "id": 19158,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Black.0aca7e.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Black.0aca7e.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "19213": {
+  "id": 19213,
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytes": 787,
+  "kind": "vendor",
+  "name": "framer-motion useInView",
+  "note": "",
+  "exports": [
+   "W"
+  ],
+  "deps": [
+   97028,
+   98731
+  ]
+ },
+ "19374": {
+  "id": 19374,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 821,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   40951,
+   90231,
+   97028
+  ]
+ },
+ "19460": {
+  "id": 19460,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 1712,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 103 25",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "19798": {
+  "id": 19798,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 88,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Regular.e039e2.woff",
+  "note": "static/media/font/NotoSansJP-Regular.e039e2.woff",
+  "exports": [],
+  "deps": []
+ },
+ "19964": {
+  "id": 19964,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2155,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16412,
+   16878,
+   40657,
+   41451,
+   57120,
+   60017,
+   76144
+  ]
+ },
+ "19981": {
+  "id": 19981,
+  "chunk": "5578-060085c254278034",
+  "bytes": 137,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Ai",
+   "Kq"
+  ],
+  "deps": []
+ },
+ "20023": {
+  "id": 20023,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.51ac3ae0.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.51ac3ae0.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "20371": {
+  "id": 20371,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 72,
+  "kind": "asset-url",
+  "name": "asset:04.7beddb.mp4",
+  "note": "static/media/video/04.7beddb.mp4",
+  "exports": [],
+  "deps": []
+ },
+ "20438": {
+  "id": 20438,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 571,
+  "kind": "image-asset",
+  "name": "image:obt-title.f0a13dd7.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.f0a13dd7.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "20457": {
+  "id": 20457,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1705,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   10020,
+   16878,
+   49510
+  ]
+ },
+ "20544": {
+  "id": 20544,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 90,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Medium.203903.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_Medium.203903.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "20944": {
+  "id": 20944,
+  "chunk": "5578-060085c254278034",
+  "bytes": 741,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "G"
+  ],
+  "deps": [
+   6780,
+   28851,
+   36849,
+   61914,
+   72396,
+   96464
+  ]
+ },
+ "21086": {
+  "id": 21086,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 793,
+  "kind": "site",
+  "name": "AccountApi (/api/account, /charge-info, /orig-data)",
+  "note": "",
+  "exports": [
+   "Ys",
+   "BV"
+  ],
+  "deps": [
+   1162,
+   13269,
+   56006
+  ]
+ },
+ "21225": {
+  "id": 21225,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 579,
+  "kind": "image-asset",
+  "name": "image:obt-title.662db710.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.662db710.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "21789": {
+  "id": 21789,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 163,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "21829": {
+  "id": 21829,
+  "chunk": "5578-060085c254278034",
+  "bytes": 132,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "po",
+   "tn",
+   "yT"
+  ],
+  "deps": [
+   65739,
+   75744
+  ]
+ },
+ "21953": {
+  "id": 21953,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 200,
+  "kind": "css-module",
+  "name": "styles:SectionViewer",
+  "note": "SectionViewer_sectionViewer__aALTd",
+  "exports": [],
+  "deps": []
+ },
+ "22060": {
+  "id": 22060,
+  "chunk": "2060-2fd4a05d6893f458",
+  "bytes": 36054,
+  "kind": "vendor",
+  "name": "react-dom",
+  "note": "",
+  "exports": [
+   "Me",
+   "F7",
+   "N4",
+   "lR"
+  ],
+  "deps": [
+   2080,
+   2268,
+   23190,
+   34588,
+   38963,
+   42750,
+   51392,
+   55492,
+   61789,
+   72613,
+   76595,
+   83970,
+   89748,
+   96424,
+   97028
+  ]
+ },
+ "22104": {
+  "id": 22104,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 271,
+  "kind": "css-module",
+  "name": "styles:Media",
+  "note": "Media_mediaModal__4NhcG",
+  "exports": [],
+  "deps": []
+ },
+ "22378": {
+  "id": 22378,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.06e99fdc.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.06e99fdc.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "22519": {
+  "id": 22519,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 680,
+  "kind": "image-asset",
+  "name": "image:arclight.0b402b3e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.0b402b3e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "22520": {
+  "id": 22520,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 587,
+  "kind": "image-asset",
+  "name": "image:obt-title.4a159f02.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.4a159f02.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "22715": {
+  "id": 22715,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 22175,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 200 200",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "22726": {
+  "id": 22726,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 511,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4662,
+   40951,
+   96424,
+   97028
+  ]
+ },
+ "22762": {
+  "id": 22762,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 39069,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-zh-tw (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2142,
+   3919,
+   4353,
+   4948,
+   5144,
+   7094,
+   15927,
+   16528,
+   19158,
+   23631,
+   24632,
+   24678,
+   27214,
+   29979,
+   32625,
+   42532,
+   45176,
+   46173,
+   56716,
+   66863,
+   67055,
+   68575,
+   71834,
+   71868,
+   72749,
+   73598,
+   75435,
+   77563,
+   78324,
+   83188,
+   83593,
+   88095,
+   92036,
+   94621,
+   99808
+  ]
+ },
+ "22992": {
+  "id": 22992,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Bold.6076dd.ttf",
+  "note": "static/media/font/NotoSansThaiLooped-Bold.6076dd.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "23190": {
+  "id": 23190,
+  "chunk": "2060-2fd4a05d6893f458",
+  "bytes": 7282,
+  "kind": "vendor",
+  "name": "hash/encoding utility (vendor)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   37811,
+   38411,
+   98838
+  ]
+ },
+ "23198": {
+  "id": 23198,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 743,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   57120
+  ]
+ },
+ "23582": {
+  "id": 23582,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 98,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "23631": {
+  "id": 23631,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 475,
+  "kind": "image-asset",
+  "name": "image:TF02.363c2042.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "23885": {
+  "id": 23885,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.1d573768.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.1d573768.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "23962": {
+  "id": 23962,
+  "chunk": "5578-060085c254278034",
+  "bytes": 109,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Y"
+  ],
+  "deps": [
+   85582
+  ]
+ },
+ "24106": {
+  "id": 24106,
+  "chunk": "a8f12803-a59e3d6978d239b3",
+  "bytes": 321251,
+  "kind": "vendor",
+  "name": "three.js",
+  "note": "",
+  "exports": [
+   "JeP"
+  ],
+  "deps": [
+   61617
+  ]
+ },
+ "24487": {
+  "id": 24487,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Black.69d404.woff",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Black.69d404.woff",
+  "exports": [],
+  "deps": []
+ },
+ "24632": {
+  "id": 24632,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 518,
+  "kind": "image-asset",
+  "name": "image:zh-tw.578217de.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-tw.578217de.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "24678": {
+  "id": 24678,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Bold.4c460d.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Bold.4c460d.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "24782": {
+  "id": 24782,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Black.05eca9.woff",
+  "note": "static/media/font/NotoSansThaiLooped-Black.05eca9.woff",
+  "exports": [],
+  "deps": []
+ },
+ "24912": {
+  "id": 24912,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "25221": {
+  "id": 25221,
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytes": 11912,
+  "kind": "site-vendor",
+  "name": "@hg-web/trans-video (Hypergryph transparent video renderer: WebGL/Canvas2D)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "25477": {
+  "id": 25477,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 66,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   5649
+  ]
+ },
+ "25490": {
+  "id": 25490,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 423,
+  "kind": "image-asset",
+  "name": "image:TF03.e0494e2e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.e0494e2e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "25511": {
+  "id": 25511,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 864,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   45893
+  ]
+ },
+ "25576": {
+  "id": 25576,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 76,
+  "kind": "asset-url",
+  "name": "asset:anchor.0e6c6a.bin",
+  "note": "static/media/model/anchor.0e6c6a.bin",
+  "exports": [],
+  "deps": []
+ },
+ "25811": {
+  "id": 25811,
+  "chunk": "5578-060085c254278034",
+  "bytes": 135,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Y",
+   "t"
+  ],
+  "deps": []
+ },
+ "25873": {
+  "id": 25873,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "25947": {
+  "id": 25947,
+  "chunk": "5578-060085c254278034",
+  "bytes": 188,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "E"
+  ],
+  "deps": [
+   57605,
+   63733,
+   87863
+  ]
+ },
+ "26097": {
+  "id": 26097,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 1626,
+  "kind": "site",
+  "name": "SoundEffects (SFX manager: arrow_click, char_click, ...)",
+  "note": "d=sound keys map, A=player",
+  "exports": [
+   "d",
+   "A"
+  ],
+  "deps": [
+   2285,
+   97521
+  ]
+ },
+ "26408": {
+  "id": 26408,
+  "chunk": "5578-060085c254278034",
+  "bytes": 94,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "s"
+  ],
+  "deps": [
+   51786
+  ]
+ },
+ "26669": {
+  "id": 26669,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95715,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-vi-vn (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   7404,
+   9265,
+   10414,
+   13344,
+   14029,
+   20544,
+   27214,
+   29804,
+   29979,
+   30610,
+   32732,
+   33058,
+   33922,
+   34988,
+   46173,
+   54232,
+   63395,
+   74738,
+   75435,
+   83593,
+   84726,
+   89095,
+   90149,
+   99808
+  ]
+ },
+ "26673": {
+  "id": 26673,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 591,
+  "kind": "image-asset",
+  "name": "image:endministrator1.3efd4769.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.3efd4769.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "26915": {
+  "id": 26915,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 472,
+  "kind": "site",
+  "name": "GameplayItemsText (i18n keys for gameplay section)",
+  "note": "",
+  "exports": [
+   "g"
+  ],
+  "deps": [
+   20371,
+   46301,
+   51282,
+   63376
+  ]
+ },
+ "27014": {
+  "id": 27014,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1072,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 43 46",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "27214": {
+  "id": 27214,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 695,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 1024 1017.8",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "27225": {
+  "id": 27225,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 88,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Regular.2431cb.woff",
+  "note": "static/media/font/NotoSansKR-Regular.2431cb.woff",
+  "exports": [],
+  "deps": []
+ },
+ "27337": {
+  "id": 27337,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 442,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.f9045faa.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.f9045faa.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "27610": {
+  "id": 27610,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Medium.e2cd96.woff",
+  "note": "static/media/font/NotoSansThaiLooped-Medium.e2cd96.woff",
+  "exports": [],
+  "deps": []
+ },
+ "27663": {
+  "id": 27663,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 77,
+  "kind": "asset-url",
+  "name": "asset:factory.bd9a36.bin",
+  "note": "static/media/model/factory.bd9a36.bin",
+  "exports": [],
+  "deps": []
+ },
+ "27795": {
+  "id": 27795,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 376,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "28136": {
+  "id": 28136,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 155,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "28231": {
+  "id": 28231,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 418,
+  "kind": "image-asset",
+  "name": "image:id-id.b7df818e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/id-id.b7df818e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "28457": {
+  "id": 28457,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 575,
+  "kind": "image-asset",
+  "name": "image:obt-title.2f1abd96.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.2f1abd96.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "28802": {
+  "id": 28802,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Regular.459e41.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Regular.459e41.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "28851": {
+  "id": 28851,
+  "chunk": "5578-060085c254278034",
+  "bytes": 89,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "E"
+  ],
+  "deps": [
+   43215,
+   97028
+  ]
+ },
+ "29190": {
+  "id": 29190,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 752,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 57 57",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "29269": {
+  "id": 29269,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 613,
+  "kind": "image-asset",
+  "name": "image:endministrator1.ec409283.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "29521": {
+  "id": 29521,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 270,
+  "kind": "site",
+  "name": "TrackingGroups enum (section_homepage, section_character ...)",
+  "note": "",
+  "exports": [
+   "Z"
+  ],
+  "deps": []
+ },
+ "29639": {
+  "id": 29639,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3355,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3382,
+   12911,
+   16412,
+   16878,
+   17267,
+   19964,
+   40081,
+   41451,
+   43711,
+   45056,
+   50443,
+   51829,
+   60017,
+   73531,
+   76144,
+   84535,
+   84790
+  ]
+ },
+ "29671": {
+  "id": 29671,
+  "chunk": "5578-060085c254278034",
+  "bytes": 307,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "xQ"
+  ],
+  "deps": [
+   14752,
+   97028
+  ]
+ },
+ "29804": {
+  "id": 29804,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 88,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Bold.526d8a.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_Bold.526d8a.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "29979": {
+  "id": 29979,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 675,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 1200 1226.37",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "30083": {
+  "id": 30083,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 84,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Bold.7b3e6d.ttf",
+  "note": "static/media/font/NotoSansJP-Bold.7b3e6d.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "30107": {
+  "id": 30107,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 470,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "30163": {
+  "id": 30163,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Medium.b098a2.woff",
+  "note": "static/media/font/NotoSansJP-Medium.b098a2.woff",
+  "exports": [],
+  "deps": []
+ },
+ "30239": {
+  "id": 30239,
+  "chunk": "5578-060085c254278034",
+  "bytes": 2440,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "j"
+  ],
+  "deps": [
+   13529,
+   13552,
+   13885,
+   14760,
+   53793,
+   58220,
+   68491,
+   71107,
+   89221
+  ]
+ },
+ "30257": {
+  "id": 30257,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 793,
+  "kind": "site",
+  "name": "BulletinListContextProvider",
+  "note": "",
+  "exports": [
+   "BulletinListContextProvider",
+   "b"
+  ],
+  "deps": [
+   4948,
+   71985,
+   91627,
+   96424,
+   97028,
+   97521
+  ]
+ },
+ "30391": {
+  "id": 30391,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Black.9a9ef4.woff2",
+  "note": "static/media/font/NotoSansJP-Black.9a9ef4.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "30610": {
+  "id": 30610,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Black.bb2f22.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_Black.bb2f22.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "30611": {
+  "id": 30611,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 493,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16412,
+   29639,
+   41451,
+   43711,
+   51829,
+   60017,
+   65481,
+   73531,
+   76144,
+   98822
+  ]
+ },
+ "30695": {
+  "id": 30695,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 321,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   72233
+  ]
+ },
+ "30712": {
+  "id": 30712,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 321,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "30998": {
+  "id": 30998,
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytes": 3307,
+  "kind": "vendor",
+  "name": "framer-motion AnimatePresence pop-layout",
+  "note": "",
+  "exports": [
+   "N"
+  ],
+  "deps": [
+   5662,
+   14752,
+   26408,
+   28851,
+   29671,
+   53785,
+   61914,
+   96424,
+   97028
+  ]
+ },
+ "31042": {
+  "id": 31042,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 412,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.e0726768.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.e0726768.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "31489": {
+  "id": 31489,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 72,
+  "kind": "site-vendor",
+  "name": "Gryphline web SDK bundle v1.8.0",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "31563": {
+  "id": 31563,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 166978,
+  "kind": "site-vendor",
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "note": "",
+  "exports": [
+   "call",
+   "checkInSklandApp",
+   "default",
+   "native",
+   "navigation",
+   "alertModal",
+   "applyPermissions",
+   "canAutoImgShare",
+   "canIUse",
+   "canVersion",
+   "compareVersion",
+   "deInitList",
+   "downloadApp",
+   "emit",
+   "getCache",
+   "getCommonInfo",
+   "getGameAppInfo",
+   "getPageInfo",
+   "getStorage",
+   "getSystemInfo",
+   "getUserInfo",
+   "hasApp",
+   "hideLoading",
+   "off",
+   "offLifecycle",
+   "on",
+   "onLifecycle",
+   "openApp",
+   "openAuthPage",
+   "openGameApp",
+   "openGameCenter",
+   "openPhoto",
+   "openURL",
+   "pop",
+   "push",
+   "readText",
+   "ready",
+   "readyApp",
+   "removeStorage",
+   "schema",
+   "setCache",
+   "setNavbar",
+   "setScreen",
+   "setStatusBarStyle",
+   "setStorage",
+   "shareImage",
+   "shareImg",
+   "shareLink",
+   "shareQRCode",
+   "showErrorToast",
+   "showLoading",
+   "showToast",
+   "uploadPhoto",
+   "writeText"
+  ],
+  "deps": [
+   0,
+   2,
+   6,
+   8147,
+   11862,
+   15257,
+   31489,
+   53079,
+   68973
+  ]
+ },
+ "32343": {
+  "id": 32343,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 633,
+  "kind": "image-asset",
+  "name": "image:snowshine.844ed0a4.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "32361": {
+  "id": 32361,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.43875dc1.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.43875dc1.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "32620": {
+  "id": 32620,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 518,
+  "kind": "image-asset",
+  "name": "image:zh-cn.106ce05d.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-cn.106ce05d.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "32625": {
+  "id": 32625,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 96,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Regular.97cc8c.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Regular.97cc8c.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "32732": {
+  "id": 32732,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 532,
+  "kind": "image-asset",
+  "name": "image:obt-title.551fd273.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.551fd273.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "33058": {
+  "id": 33058,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 90,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Black.6a12f8.woff",
+  "note": "static/media/font/HarmonyOS_Sans_Black.6a12f8.woff",
+  "exports": [],
+  "deps": []
+ },
+ "33249": {
+  "id": 33249,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 295,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "33407": {
+  "id": 33407,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.c4eaa913.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.c4eaa913.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "33579": {
+  "id": 33579,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 724,
+  "kind": "image-asset",
+  "name": "image:share.dc935341.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/share.dc935341.jpg",
+  "exports": [
+   "default"
+  ],
+  "deps": []
+ },
+ "33708": {
+  "id": 33708,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 87,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "33736": {
+  "id": 33736,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 419,
+  "kind": "image-asset",
+  "name": "image:TF03.bf7d0b5f.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.bf7d0b5f.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "33811": {
+  "id": 33811,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 6,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "33820": {
+  "id": 33820,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 90952,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-it-it (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4463,
+   4948,
+   7175,
+   7404,
+   10414,
+   14029,
+   20544,
+   21225,
+   22378,
+   27214,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   46173,
+   74738,
+   75435,
+   75766,
+   83593,
+   84726,
+   89095,
+   90149,
+   99808
+  ]
+ },
+ "33922": {
+  "id": 33922,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 89,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Bold.6aff6d.woff",
+  "note": "static/media/font/HarmonyOS_Sans_Bold.6aff6d.woff",
+  "exports": [],
+  "deps": []
+ },
+ "34169": {
+  "id": 34169,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 104,
+  "kind": "css-module",
+  "name": "styles:TransparentVideo",
+  "note": "TransparentVideo_container__Inu2a",
+  "exports": [],
+  "deps": []
+ },
+ "34270": {
+  "id": 34270,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.33dd71a4.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.33dd71a4.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "34527": {
+  "id": 34527,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 732,
+  "kind": "image-asset",
+  "name": "image:share-oversea.6f430b84.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/share-oversea.6f430b84.jpg",
+  "exports": [
+   "default"
+  ],
+  "deps": []
+ },
+ "34573": {
+  "id": 34573,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 500,
+  "kind": "image-asset",
+  "name": "image:01.aae95e75.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/01.aae95e75.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "34588": {
+  "id": 34588,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 94,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "34595": {
+  "id": 34595,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 85,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Bold.9572da.woff",
+  "note": "static/media/font/NotoSansJP-Bold.9572da.woff",
+  "exports": [],
+  "deps": []
+ },
+ "34697": {
+  "id": 34697,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 538,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   18770,
+   19042
+  ]
+ },
+ "34988": {
+  "id": 34988,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 962,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 22 26",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "35030": {
+  "id": 35030,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 93,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "35038": {
+  "id": 35038,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 144,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "$",
+   "V"
+  ],
+  "deps": [
+   22060
+  ]
+ },
+ "35044": {
+  "id": 35044,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 255,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   1162,
+   2208,
+   96424,
+   97028
+  ]
+ },
+ "35178": {
+  "id": 35178,
+  "chunk": "2060-2fd4a05d6893f458",
+  "bytes": 3106,
+  "kind": "vendor",
+  "name": "@emotion/serialize",
+  "note": "",
+  "exports": [
+   "J"
+  ],
+  "deps": []
+ },
+ "35300": {
+  "id": 35300,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 681,
+  "kind": "image-asset",
+  "name": "image:laevatain.20075757.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "35524": {
+  "id": 35524,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 200,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   53327,
+   58488
+  ]
+ },
+ "35807": {
+  "id": 35807,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 417,
+  "kind": "image-asset",
+  "name": "image:mobile_title.29198279.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.29198279.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "36349": {
+  "id": 36349,
+  "chunk": "1434-11a107e8f8cacac2",
+  "bytes": 1983,
+  "kind": "vendor",
+  "name": "react core / classnames",
+  "note": "",
+  "exports": [],
+  "deps": [
+   37811
+  ]
+ },
+ "36539": {
+  "id": 36539,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 737,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "36563": {
+  "id": 36563,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 759,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__09-Calendar_sectionContainer__MrVnT",
+  "exports": [],
+  "deps": []
+ },
+ "36624": {
+  "id": 36624,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 20252,
+  "kind": "vendor",
+  "name": "zustand",
+  "note": "",
+  "exports": [
+   "Qp",
+   "PF"
+  ],
+  "deps": [
+   35178,
+   56578,
+   72613,
+   83970,
+   84882,
+   96424,
+   97028
+  ]
+ },
+ "36849": {
+  "id": 36849,
+  "chunk": "5578-060085c254278034",
+  "bytes": 2610,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "OQ",
+   "bt"
+  ],
+  "deps": [
+   38105,
+   54958,
+   85582,
+   96464
+  ]
+ },
+ "36951": {
+  "id": 36951,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 828,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "36970": {
+  "id": 36970,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 422,
+  "kind": "image-asset",
+  "name": "image:pt-br.84d5be5d.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pt-br.84d5be5d.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "36979": {
+  "id": 36979,
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytes": 2947,
+  "kind": "site",
+  "name": "NoticeDetailSection (article page)",
+  "note": "",
+  "exports": [
+   "NoticeDetailSection"
+  ],
+  "deps": [
+   831,
+   1162,
+   4948,
+   17540,
+   19460,
+   26097,
+   29190,
+   29521,
+   53079,
+   61127,
+   67002,
+   73235,
+   96424,
+   97028,
+   97521
+  ]
+ },
+ "37602": {
+  "id": 37602,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 646,
+  "kind": "image-asset",
+  "name": "image:yvonne.c93412e1.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.c93412e1.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "37721": {
+  "id": 37721,
+  "chunk": "5578-060085c254278034",
+  "bytes": 63,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "S"
+  ],
+  "deps": []
+ },
+ "37811": {
+  "id": 37811,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1628,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "37880": {
+  "id": 37880,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "37929": {
+  "id": 37929,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Regular.52a09b.ttf",
+  "note": "static/media/font/NotoSansThaiLooped-Regular.52a09b.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "37981": {
+  "id": 37981,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.270be30b.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.270be30b.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "38105": {
+  "id": 38105,
+  "chunk": "5578-060085c254278034",
+  "bytes": 402,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "v"
+  ],
+  "deps": [
+   19981
+  ]
+ },
+ "38211": {
+  "id": 38211,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 414,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "38284": {
+  "id": 38284,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2562,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   56487,
+   74800,
+   93163,
+   96424,
+   97028
+  ]
+ },
+ "38308": {
+  "id": 38308,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.afd01fbb.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.afd01fbb.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "38338": {
+  "id": 38338,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 134,
+  "kind": "css-module",
+  "name": "styles:Button",
+  "note": "Button_button__njqVS",
+  "exports": [],
+  "deps": []
+ },
+ "38411": {
+  "id": 38411,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 6,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "38857": {
+  "id": 38857,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Regular.126641.ttf",
+  "note": "static/media/font/NotoSansKR-Regular.126641.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "38963": {
+  "id": 38963,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 442,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   61789
+  ]
+ },
+ "39322": {
+  "id": 39322,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 94,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   33708,
+   35524
+  ]
+ },
+ "39767": {
+  "id": 39767,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 428,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   51724
+  ]
+ },
+ "40056": {
+  "id": 40056,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 762,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "40081": {
+  "id": 40081,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3373,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   43711,
+   50443,
+   84790
+  ]
+ },
+ "40226": {
+  "id": 40226,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1034,
+  "kind": "css-module",
+  "name": "styles:downloader",
+  "note": "downloader_downloadContainer__z2AUJ",
+  "exports": [],
+  "deps": []
+ },
+ "40489": {
+  "id": 40489,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 758,
+  "kind": "site",
+  "name": "TransparentVideo (React wrapper over @hg-web/trans-video)",
+  "note": "",
+  "exports": [
+   "y"
+  ],
+  "deps": [
+   25221,
+   34169,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "40657": {
+  "id": 40657,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1494,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878,
+   53051,
+   57120,
+   74955
+  ]
+ },
+ "40951": {
+  "id": 40951,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 634,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "41260": {
+  "id": 41260,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 3608,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   36951,
+   40951,
+   51007,
+   72613,
+   79507,
+   96424,
+   97028
+  ]
+ },
+ "41409": {
+  "id": 41409,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 126,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   10279
+  ]
+ },
+ "41451": {
+  "id": 41451,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 6099,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4662,
+   12383,
+   16189,
+   19374,
+   20457,
+   23198,
+   25511,
+   27795,
+   38284,
+   39767,
+   40951,
+   50080,
+   53481,
+   53693,
+   66508,
+   76144,
+   77517,
+   84049,
+   84790,
+   85861,
+   93163,
+   96424,
+   97028
+  ]
+ },
+ "41505": {
+  "id": 41505,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 20853,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   72613
+  ]
+ },
+ "41582": {
+  "id": 41582,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 136,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   65544
+  ]
+ },
+ "42031": {
+  "id": 42031,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1301,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   48639,
+   80929
+  ]
+ },
+ "42320": {
+  "id": 42320,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 523,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   30107,
+   56487
+  ]
+ },
+ "42429": {
+  "id": 42429,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Bold.ba914a.woff2",
+  "note": "static/media/font/NotoSansJP-Bold.ba914a.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "42532": {
+  "id": 42532,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 446,
+  "kind": "image-asset",
+  "name": "image:TF01.ecda570e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.ecda570e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "42585": {
+  "id": 42585,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "42750": {
+  "id": 42750,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 131,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2080,
+   51392
+  ]
+ },
+ "42752": {
+  "id": 42752,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Regular.7472f4.woff",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Regular.7472f4.woff",
+  "exports": [],
+  "deps": []
+ },
+ "43096": {
+  "id": 43096,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 226,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "43215": {
+  "id": 43215,
+  "chunk": "5578-060085c254278034",
+  "bytes": 60,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "B"
+  ],
+  "deps": []
+ },
+ "43503": {
+  "id": 43503,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title.a5b0fc17.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.a5b0fc17.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "43711": {
+  "id": 43711,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2632,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   7359,
+   10327,
+   10768,
+   46027,
+   61286,
+   73452,
+   78192,
+   84790
+  ]
+ },
+ "43837": {
+  "id": 43837,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 722,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__05-Gameplay_sectionContainer__LN64O",
+  "exports": [],
+  "deps": []
+ },
+ "44175": {
+  "id": 44175,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 111,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "44485": {
+  "id": 44485,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1382,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "44615": {
+  "id": 44615,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   11852
+  ]
+ },
+ "44705": {
+  "id": 44705,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 273,
+  "kind": "site",
+  "name": "useClickOutside hook",
+  "note": "",
+  "exports": [
+   "W"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "44752": {
+  "id": 44752,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 102,
+  "kind": "css-module",
+  "name": "styles:players",
+  "note": "players_videoContainer__Ahx_s",
+  "exports": [],
+  "deps": []
+ },
+ "44990": {
+  "id": 44990,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 166,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "D"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "45056": {
+  "id": 45056,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 541,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   49510,
+   73452
+  ]
+ },
+ "45105": {
+  "id": 45105,
+  "chunk": "main-app-aa0c052c2919e7bc",
+  "bytes": 365,
+  "kind": "vendor",
+  "name": "next.js main-app entry",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "45176": {
+  "id": 45176,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Medium.775e9b.woff",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Medium.775e9b.woff",
+  "exports": [],
+  "deps": []
+ },
+ "45232": {
+  "id": 45232,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 820,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   51472
+  ]
+ },
+ "45280": {
+  "id": 45280,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Regular.e8f768.ttf",
+  "note": "static/media/font/NotoSansJP-Regular.e8f768.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "45359": {
+  "id": 45359,
+  "chunk": "5578-060085c254278034",
+  "bytes": 847,
+  "kind": "vendor",
+  "name": "framer-motion useSpring",
+  "note": "",
+  "exports": [
+   "z"
+  ],
+  "deps": [
+   6780,
+   6816,
+   20944,
+   53785,
+   64612,
+   96464,
+   97028
+  ]
+ },
+ "45478": {
+  "id": 45478,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 232,
+  "kind": "css-module",
+  "name": "styles:bg",
+  "note": "bg_bgContainer__8_h2E",
+  "exports": [],
+  "deps": []
+ },
+ "45546": {
+  "id": 45546,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.a4a32256.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.a4a32256.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "45628": {
+  "id": 45628,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 333,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   37811
+  ]
+ },
+ "45793": {
+  "id": 45793,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 391,
+  "kind": "image-asset",
+  "name": "image:TF04.e03998c9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.e03998c9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "45812": {
+  "id": 45812,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87069,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-id-id (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   7404,
+   10414,
+   14029,
+   20544,
+   27214,
+   28231,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   46173,
+   52425,
+   74738,
+   74806,
+   75435,
+   82543,
+   83593,
+   84726,
+   89095,
+   89354,
+   90149,
+   99808
+  ]
+ },
+ "45876": {
+  "id": 45876,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 440,
+  "kind": "css-module",
+  "name": "styles:RollingContent",
+  "note": "RollingContent_rollingContent__VbFgT",
+  "exports": [],
+  "deps": []
+ },
+ "45893": {
+  "id": 45893,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 527,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "45965": {
+  "id": 45965,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 476,
+  "kind": "site",
+  "name": "FontLoader (new FontFace from i18n font bundle)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   4948,
+   9995
+  ]
+ },
+ "46021": {
+  "id": 46021,
+  "chunk": "5578-060085c254278034",
+  "bytes": 309,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "KN",
+   "gQ",
+   "px",
+   "uj",
+   "vh",
+   "vw"
+  ],
+  "deps": []
+ },
+ "46027": {
+  "id": 46027,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 492,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "46067": {
+  "id": 46067,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Medium.f68eff.ttf",
+  "note": "static/media/font/NotoSansJP-Medium.f68eff.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "46173": {
+  "id": 46173,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 7079,
+  "kind": "site",
+  "name": "Footer (language selector, legal links)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   1162,
+   2142,
+   2718,
+   4948,
+   44705,
+   49095,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "46301": {
+  "id": 46301,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 72,
+  "kind": "asset-url",
+  "name": "asset:02.9ab299.mp4",
+  "note": "static/media/video/02.9ab299.mp4",
+  "exports": [],
+  "deps": []
+ },
+ "46443": {
+  "id": 46443,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Black.44d837.ttf",
+  "note": "static/media/font/NotoSansThaiLooped-Black.44d837.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "46600": {
+  "id": 46600,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 719,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "47109": {
+  "id": 47109,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Medium.7c31a1.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Medium.7c31a1.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "47290": {
+  "id": 47290,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 891,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 44 49",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "47350": {
+  "id": 47350,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Black.975e63.woff2",
+  "note": "static/media/font/NotoSansKR-Black.975e63.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "47391": {
+  "id": 47391,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 77106,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-th-th (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   4948,
+   12297,
+   14029,
+   22992,
+   24782,
+   24912,
+   27214,
+   27610,
+   29979,
+   34988,
+   37929,
+   38308,
+   46173,
+   46443,
+   58383,
+   66374,
+   69377,
+   69801,
+   70724,
+   75435,
+   77251,
+   83593,
+   87066,
+   90110,
+   91225,
+   99808
+  ]
+ },
+ "47470": {
+  "id": 47470,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   41505
+  ]
+ },
+ "47647": {
+  "id": 47647,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Bold.06d3d0.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Bold.06d3d0.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "47929": {
+  "id": 47929,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 2290,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   93031,
+   96424,
+   97028
+  ]
+ },
+ "48056": {
+  "id": 48056,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 524,
+  "kind": "image-asset",
+  "name": "image:04.924992fa.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/04.924992fa.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "48074": {
+  "id": 48074,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 469,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "48534": {
+  "id": 48534,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:TF03.6550789b.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.6550789b.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "48639": {
+  "id": 48639,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 99,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "48695": {
+  "id": 48695,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 610,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   34588,
+   38963,
+   76595
+  ]
+ },
+ "49095": {
+  "id": 49095,
+  "chunk": "3407-efea5949cb1afee6",
+  "bytes": 22703,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   97028
+  ]
+ },
+ "49097": {
+  "id": 49097,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.c5e12cc3.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "49421": {
+  "id": 49421,
+  "chunk": "5578-060085c254278034",
+  "bytes": 84,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "J"
+  ],
+  "deps": [
+   79870
+  ]
+ },
+ "49484": {
+  "id": 49484,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1118,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16412,
+   29639,
+   41451,
+   51829,
+   60017,
+   73531,
+   76144
+  ]
+ },
+ "49510": {
+  "id": 49510,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 469,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "49826": {
+  "id": 49826,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 453,
+  "kind": "image-asset",
+  "name": "image:mobile_title.27f33643.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.27f33643.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "49876": {
+  "id": 49876,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 296,
+  "kind": "css-module",
+  "name": "styles:pc-oversea",
+  "note": "pc-oversea_container__RaAtO",
+  "exports": [],
+  "deps": []
+ },
+ "49918": {
+  "id": 49918,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.27f9cf20.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.27f9cf20.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "49929": {
+  "id": 49929,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 592,
+  "kind": "image-asset",
+  "name": "image:gilberta.07ff3560.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.07ff3560.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "50080": {
+  "id": 50080,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1707,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   25511,
+   45893
+  ]
+ },
+ "50144": {
+  "id": 50144,
+  "chunk": "8498-2c5f8c0351c886c2",
+  "bytes": 1971,
+  "kind": "vendor",
+  "name": "zustand persist middleware",
+  "note": "",
+  "exports": [
+   "Zr"
+  ],
+  "deps": []
+ },
+ "50182": {
+  "id": 50182,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2374,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4662,
+   16878,
+   27795,
+   38211,
+   81473,
+   89137,
+   97028
+  ]
+ },
+ "50443": {
+  "id": 50443,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 711,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   40081,
+   42031
+  ]
+ },
+ "50953": {
+  "id": 50953,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 576,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "50999": {
+  "id": 50999,
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytes": 5759,
+  "kind": "site",
+  "name": "OperatorListSection (catalogue: filters, cards, detail)",
+  "note": "",
+  "exports": [
+   "OperatorListSection"
+  ],
+  "deps": [
+   3492,
+   4721,
+   4948,
+   30998,
+   44705,
+   49095,
+   52652,
+   60705,
+   61759,
+   73235,
+   87001,
+   96424,
+   97028
+  ]
+ },
+ "51007": {
+  "id": 51007,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 212,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   97028
+  ]
+ },
+ "51024": {
+  "id": 51024,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 84,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Bold.30dd41.ttf",
+  "note": "static/media/font/NotoSansKR-Bold.30dd41.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "51067": {
+  "id": 51067,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 965,
+  "kind": "css-module",
+  "name": "styles:GameplayAlbum",
+  "note": "GameplayAlbum_gameplayAlbum__iz9mA",
+  "exports": [],
+  "deps": []
+ },
+ "51113": {
+  "id": 51113,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 9293,
+  "kind": "vendor",
+  "name": "sentry",
+  "note": "",
+  "exports": [
+   "Cp"
+  ],
+  "deps": []
+ },
+ "51282": {
+  "id": 51282,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 72,
+  "kind": "asset-url",
+  "name": "asset:01.1e0eb1.mp4",
+  "note": "static/media/video/01.1e0eb1.mp4",
+  "exports": [],
+  "deps": []
+ },
+ "51392": {
+  "id": 51392,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 119,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "51472": {
+  "id": 51472,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 383,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "51724": {
+  "id": 51724,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 286,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   19042
+  ]
+ },
+ "51786": {
+  "id": 51786,
+  "chunk": "5578-060085c254278034",
+  "bytes": 77,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "G"
+  ],
+  "deps": []
+ },
+ "51829": {
+  "id": 51829,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 625,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "51967": {
+  "id": 51967,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 643,
+  "kind": "site",
+  "name": "TextShrink (canvas text measuring)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   97028,
+   97521
+  ]
+ },
+ "52151": {
+  "id": 52151,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 604,
+  "kind": "image-asset",
+  "name": "image:wulfgard.b9d580b2.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.b9d580b2.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "52271": {
+  "id": 52271,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 12397,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 160 16",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "52425": {
+  "id": 52425,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 583,
+  "kind": "image-asset",
+  "name": "image:obt-title.1a33e9e3.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.1a33e9e3.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "52431": {
+  "id": 52431,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.8af58fd1.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.8af58fd1.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "52574": {
+  "id": 52574,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 529,
+  "kind": "image-asset",
+  "name": "image:mobile_title.6f3122a9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.6f3122a9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "52652": {
+  "id": 52652,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 286,
+  "kind": "site",
+  "name": "HollowText (outlined text)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   71460,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "52674": {
+  "id": 52674,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91750,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-es-mx (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   7404,
+   10414,
+   14029,
+   20023,
+   20438,
+   20544,
+   25873,
+   27337,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34270,
+   34988,
+   46173,
+   68824,
+   73436,
+   74738,
+   75435,
+   78163,
+   78582,
+   80750,
+   81365,
+   82519,
+   82762,
+   84726,
+   89095,
+   90149,
+   91041,
+   99808
+  ]
+ },
+ "52964": {
+  "id": 52964,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 457,
+  "kind": "image-asset",
+  "name": "image:mobile_title.e33ccb55.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.e33ccb55.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "53051": {
+  "id": 53051,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1686,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   57120,
+   84790
+  ]
+ },
+ "53079": {
+  "id": 53079,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 6973,
+  "kind": "vendor",
+  "name": "dayjs",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "53327": {
+  "id": 53327,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 87,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "53481": {
+  "id": 53481,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1286,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   25511,
+   40951,
+   50080,
+   50182,
+   96424,
+   97028
+  ]
+ },
+ "53693": {
+  "id": 53693,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 402,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   39767
+  ]
+ },
+ "53785": {
+  "id": 53785,
+  "chunk": "5578-060085c254278034",
+  "bytes": 121,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Q"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "53793": {
+  "id": 53793,
+  "chunk": "5578-060085c254278034",
+  "bytes": 333,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "V"
+  ],
+  "deps": [
+   46021,
+   57445,
+   79516,
+   89460
+  ]
+ },
+ "54132": {
+  "id": 54132,
+  "chunk": "5578-060085c254278034",
+  "bytes": 103,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "b"
+  ],
+  "deps": [
+   7009
+  ]
+ },
+ "54232": {
+  "id": 54232,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 439,
+  "kind": "image-asset",
+  "name": "image:title.cdddb864.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.cdddb864.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "54335": {
+  "id": 54335,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 74,
+  "kind": "asset-url",
+  "name": "asset:pile.251dc1.bin",
+  "note": "static/media/model/pile.251dc1.bin",
+  "exports": [],
+  "deps": []
+ },
+ "54636": {
+  "id": 54636,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2596,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   90988
+  ]
+ },
+ "54825": {
+  "id": 54825,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title.455c2cf6.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.455c2cf6.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "54925": {
+  "id": 54925,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 2118,
+  "kind": "css-module",
+  "name": "styles:Header",
+  "note": "Header_pcHeaderContainer__Sy_8l",
+  "exports": [],
+  "deps": []
+ },
+ "54958": {
+  "id": 54958,
+  "chunk": "5578-060085c254278034",
+  "bytes": 223,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "k"
+  ],
+  "deps": [
+   84854,
+   96464
+  ]
+ },
+ "55492": {
+  "id": 55492,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 110,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "55528": {
+  "id": 55528,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.0a46fd08.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.0a46fd08.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "55649": {
+  "id": 55649,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 425,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   14432
+  ]
+ },
+ "56006": {
+  "id": 56006,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 1630,
+  "kind": "site",
+  "name": "SiteConfig (runtime config JSON: cms host, links, i18n list)",
+  "note": "",
+  "exports": [
+   "a"
+  ],
+  "deps": []
+ },
+ "56133": {
+  "id": 56133,
+  "chunk": "5578-060085c254278034",
+  "bytes": 248,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "q"
+  ],
+  "deps": []
+ },
+ "56487": {
+  "id": 56487,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 480,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   25511,
+   59657
+  ]
+ },
+ "56578": {
+  "id": 56578,
+  "chunk": "3877-c91cc7d94c938183",
+  "bytes": 17276,
+  "kind": "vendor",
+  "name": "anime.js default (anime())",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "56604": {
+  "id": 56604,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 610,
+  "kind": "css-module",
+  "name": "styles:h5-cn",
+  "note": "h5-cn_container__Ys2AK",
+  "exports": [],
+  "deps": []
+ },
+ "56716": {
+  "id": 56716,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.05c715d7.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.05c715d7.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "57120": {
+  "id": 57120,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 531,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878
+  ]
+ },
+ "57138": {
+  "id": 57138,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 89,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "57168": {
+  "id": 57168,
+  "chunk": "5578-060085c254278034",
+  "bytes": 1358,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "I"
+  ],
+  "deps": [
+   14785,
+   84854
+  ]
+ },
+ "57236": {
+  "id": 57236,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 596,
+  "kind": "image-asset",
+  "name": "image:pogranichnik.73f7bcf6.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "57445": {
+  "id": 57445,
+  "chunk": "5578-060085c254278034",
+  "bytes": 460,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "$",
+   "q"
+  ],
+  "deps": [
+   37721
+  ]
+ },
+ "57605": {
+  "id": 57605,
+  "chunk": "5578-060085c254278034",
+  "bytes": 1000,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "i"
+  ],
+  "deps": [
+   7009,
+   10712,
+   21829,
+   54132,
+   63257,
+   72396,
+   78992,
+   82106,
+   89221
+  ]
+ },
+ "57726": {
+  "id": 57726,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 510,
+  "kind": "image-asset",
+  "name": "image:ja-jp.d20ac012.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ja-jp.d20ac012.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "58220": {
+  "id": 58220,
+  "chunk": "5578-060085c254278034",
+  "bytes": 73,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "F"
+  ],
+  "deps": []
+ },
+ "58272": {
+  "id": 58272,
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytes": 90,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "58383": {
+  "id": 58383,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 608,
+  "kind": "image-asset",
+  "name": "image:obt-title.30cc32f5.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.30cc32f5.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "58488": {
+  "id": 58488,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 186,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   14357,
+   74345,
+   97750
+  ]
+ },
+ "58572": {
+  "id": 58572,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 11196,
+  "kind": "site",
+  "name": "SoundPlayer (sound list manager: enable/disable, fade envelopes, visibility pause)",
+  "note": "",
+  "exports": [
+   "Mj"
+  ],
+  "deps": []
+ },
+ "58694": {
+  "id": 58694,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 29,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   47929
+  ]
+ },
+ "58779": {
+  "id": 58779,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 352,
+  "kind": "css-module",
+  "name": "styles:SectionTitle",
+  "note": "SectionTitle_sectionTitle__tAFPG",
+  "exports": [],
+  "deps": []
+ },
+ "59102": {
+  "id": 59102,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 632,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   59657
+  ]
+ },
+ "59288": {
+  "id": 59288,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 132,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": [
+   28136
+  ]
+ },
+ "59339": {
+  "id": 59339,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 575,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   46600
+  ]
+ },
+ "59657": {
+  "id": 59657,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1065,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "59965": {
+  "id": 59965,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91335,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-pt-br (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   7404,
+   8156,
+   10414,
+   14029,
+   20544,
+   27214,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   36970,
+   37880,
+   46173,
+   62391,
+   74097,
+   74738,
+   75435,
+   83593,
+   84726,
+   89095,
+   90149,
+   99808
+  ]
+ },
+ "60017": {
+  "id": 60017,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1131,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878,
+   49510,
+   73452,
+   93695
+  ]
+ },
+ "60108": {
+  "id": 60108,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 420,
+  "kind": "site",
+  "name": "VideoListApi (/api/content/info_video)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   56006
+  ]
+ },
+ "60459": {
+  "id": 60459,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 659,
+  "kind": "image-asset",
+  "name": "image:ardelia.b46cd31c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "60479": {
+  "id": 60479,
+  "chunk": "5578-060085c254278034",
+  "bytes": 97,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "x"
+  ],
+  "deps": [
+   51786
+  ]
+ },
+ "60658": {
+  "id": 60658,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 6,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "60687": {
+  "id": 60687,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1621,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__03-Lore_sectionDivider__RVkKY",
+  "exports": [],
+  "deps": []
+ },
+ "60705": {
+  "id": 60705,
+  "chunk": "5578-060085c254278034",
+  "bytes": 90383,
+  "kind": "vendor",
+  "name": "framer-motion (motion components)",
+  "note": "",
+  "exports": [
+   "P"
+  ],
+  "deps": [
+   3381,
+   5662,
+   6816,
+   7009,
+   10712,
+   13529,
+   14752,
+   14760,
+   14785,
+   18925,
+   19981,
+   21829,
+   25947,
+   26408,
+   28851,
+   29671,
+   36849,
+   37721,
+   38105,
+   43215,
+   46021,
+   49421,
+   53785,
+   54132,
+   54958,
+   56133,
+   57168,
+   58220,
+   60479,
+   61914,
+   64612,
+   68491,
+   71107,
+   75406,
+   75795,
+   78992,
+   79516,
+   79870,
+   84854,
+   85964,
+   88991,
+   89221,
+   96424,
+   96464,
+   97028,
+   98731
+  ]
+ },
+ "60891": {
+  "id": 60891,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 6214,
+  "kind": "vendor",
+  "name": "framer-motion useScroll / scroll timeline",
+  "note": "",
+  "exports": [
+   "L"
+  ],
+  "deps": [
+   10712,
+   18925,
+   26408,
+   28851,
+   36849,
+   49421,
+   60479,
+   61914,
+   63257,
+   72396,
+   75795,
+   85582,
+   89221,
+   96464,
+   97028,
+   98731
+  ]
+ },
+ "60909": {
+  "id": 60909,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 428,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.39db162e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.39db162e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "61127": {
+  "id": 61127,
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytes": 602,
+  "kind": "site",
+  "name": "NoticeDetailContextProvider (bulletin data + client refetch)",
+  "note": "",
+  "exports": [
+   "NoticeDetailContextProvider",
+   "z"
+  ],
+  "deps": [
+   4948,
+   71985,
+   91627,
+   96424,
+   97028
+  ]
+ },
+ "61286": {
+  "id": 61286,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 732,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   10768,
+   99213
+  ]
+ },
+ "61617": {
+  "id": 61617,
+  "chunk": "89e1c093-3fe0f7dcc646fb37",
+  "bytes": 212756,
+  "kind": "vendor",
+  "name": "three.js",
+  "note": "",
+  "exports": [
+   "$EB",
+   "$Yl",
+   "$_I",
+   "$ei",
+   "A$4",
+   "AQS",
+   "BH$",
+   "BKk",
+   "BXX",
+   "B_h",
+   "CSG",
+   "CVz",
+   "CWW",
+   "Cfg",
+   "CmU",
+   "DXC",
+   "Dmk",
+   "EZo",
+   "EdD",
+   "FFZ",
+   "FV",
+   "FXf",
+   "Fn",
+   "GJx",
+   "GWd",
+   "GYF",
+   "Gwm",
+   "H23",
+   "HIg",
+   "HO_",
+   "HXV",
+   "I9Y",
+   "IE4",
+   "IUQ",
+   "Iit",
+   "Jnc",
+   "K52",
+   "KDk",
+   "KLL",
+   "KRh",
+   "Kef",
+   "Kwu",
+   "LAk",
+   "LiQ",
+   "LlO",
+   "LoY",
+   "MW4",
+   "Mjd",
+   "Mmk",
+   "N5j",
+   "NTi",
+   "Nex",
+   "Nt7",
+   "Nz6",
+   "O9p",
+   "ONl",
+   "OUM",
+   "Om",
+   "OuU",
+   "PPD",
+   "Pq0",
+   "Q1f",
+   "QP0",
+   "Qev",
+   "Qrf",
+   "R3r",
+   "RQf",
+   "Riy",
+   "RrE",
+   "RyA",
+   "S$4",
+   "THS",
+   "TdN",
+   "TiK",
+   "TkQ",
+   "U3G",
+   "V3x",
+   "V9B",
+   "VCu",
+   "VT0",
+   "Vb5",
+   "VxR",
+   "W9U",
+   "WNZ",
+   "Wdf",
+   "Wew",
+   "Wk7",
+   "XG_",
+   "XIg",
+   "XrR",
+   "YJl",
+   "Yuy",
+   "Z58",
+   "ZQM",
+   "Zcv",
+   "Zr2",
+   "_QJ",
+   "_Ut",
+   "a55",
+   "a5J",
+   "aEY",
+   "aJ8",
+   "aVO",
+   "amv",
+   "b4q",
+   "bC7",
+   "bCz",
+   "bI3",
+   "bdM",
+   "bkx",
+   "brA",
+   "bw0",
+   "c90",
+   "cHt",
+   "caT",
+   "czI",
+   "dYF",
+   "dcC",
+   "dwI",
+   "e0p",
+   "eHc",
+   "eaF",
+   "eoi",
+   "er$",
+   "f4X",
+   "fBL",
+   "g7M",
+   "gJ2",
+   "gO9",
+   "gPd",
+   "gWB",
+   "ghU",
+   "hB5",
+   "hdd",
+   "hgQ",
+   "hsX",
+   "hxR",
+   "hy7",
+   "iNn",
+   "ie2",
+   "ix0",
+   "jR7",
+   "jej",
+   "jf0",
+   "jzd",
+   "k6Q",
+   "k6q",
+   "kO0",
+   "kRr",
+   "kTW",
+   "kTp",
+   "kn4",
+   "kyO",
+   "lGu",
+   "lPF",
+   "lxW",
+   "lyL",
+   "mcG",
+   "nNL",
+   "nST",
+   "nWS",
+   "nZQ",
+   "o6l",
+   "ojh",
+   "ojs",
+   "ov9",
+   "pBf",
+   "pHI",
+   "paN",
+   "ppV",
+   "psI",
+   "qUd",
+   "qa3",
+   "qad",
+   "qq$",
+   "qtW",
+   "rFo",
+   "rSH",
+   "sPf",
+   "tJf",
+   "uB5",
+   "uV5",
+   "uWO",
+   "ubm",
+   "vim",
+   "vyJ",
+   "wfO",
+   "wn6",
+   "wrO",
+   "xFO",
+   "xSv",
+   "xiE",
+   "y3Z",
+   "y_p",
+   "zdS",
+   "zgK",
+   "znC"
+  ],
+  "deps": []
+ },
+ "61759": {
+  "id": 61759,
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytes": 496,
+  "kind": "css-module",
+  "name": "styles:Dropdown",
+  "note": "Dropdown_root__O4Qqi",
+  "exports": [],
+  "deps": []
+ },
+ "61782": {
+  "id": 61782,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.52c434fd.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.52c434fd.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "61789": {
+  "id": 61789,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 153,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   55492
+  ]
+ },
+ "61914": {
+  "id": 61914,
+  "chunk": "5578-060085c254278034",
+  "bytes": 133,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "M"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "61951": {
+  "id": 61951,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 431,
+  "kind": "image-asset",
+  "name": "image:checker_title.909c9786.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.909c9786.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "62307": {
+  "id": 62307,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 89,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Regular.99a2e0.woff2",
+  "note": "static/media/font/NotoSansKR-Regular.99a2e0.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "62391": {
+  "id": 62391,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 567,
+  "kind": "image-asset",
+  "name": "image:obt-title.cfe222de.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.cfe222de.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "62534": {
+  "id": 62534,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 805,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   4948,
+   6921,
+   26097,
+   49095,
+   73235,
+   75762,
+   96424,
+   97028
+  ]
+ },
+ "62589": {
+  "id": 62589,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 445,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.275c48a2.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.275c48a2.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "62727": {
+  "id": 62727,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 418,
+  "kind": "image-asset",
+  "name": "image:ru-ru.528c4d60.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ru-ru.528c4d60.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "62766": {
+  "id": 62766,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 74429,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-zh-cn (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2142,
+   4060,
+   4948,
+   6584,
+   7255,
+   22520,
+   24487,
+   28802,
+   32620,
+   35044,
+   37981,
+   42752,
+   45793,
+   47109,
+   47647,
+   48534,
+   52574,
+   61951,
+   65071,
+   76488,
+   80621,
+   81112,
+   82503,
+   83972,
+   84639,
+   86181,
+   87757,
+   88381,
+   93289
+  ]
+ },
+ "63153": {
+  "id": 63153,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1022,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4950,
+   29639,
+   30611,
+   49484,
+   50443,
+   84790,
+   87157,
+   88116
+  ]
+ },
+ "63257": {
+  "id": 63257,
+  "chunk": "5578-060085c254278034",
+  "bytes": 203,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Z"
+  ],
+  "deps": [
+   18925,
+   71107
+  ]
+ },
+ "63274": {
+  "id": 63274,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 54,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "63334": {
+  "id": 63334,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 304,
+  "kind": "css-module",
+  "name": "styles:ModalFrame",
+  "note": "ModalFrame_modalFrame__WKkW2",
+  "exports": [],
+  "deps": []
+ },
+ "63376": {
+  "id": 63376,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 72,
+  "kind": "asset-url",
+  "name": "asset:03.422a72.mp4",
+  "note": "static/media/video/03.422a72.mp4",
+  "exports": [],
+  "deps": []
+ },
+ "63395": {
+  "id": 63395,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "63640": {
+  "id": 63640,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1823,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   71782
+  ]
+ },
+ "63733": {
+  "id": 63733,
+  "chunk": "5578-060085c254278034",
+  "bytes": 3058,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "o"
+  ],
+  "deps": [
+   23962,
+   25811,
+   75406,
+   75795,
+   85964,
+   89221
+  ]
+ },
+ "63875": {
+  "id": 63875,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 601,
+  "kind": "image-asset",
+  "name": "image:dapan.7b5afdec.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7b5afdec.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "63959": {
+  "id": 63959,
+  "chunk": "global-error-0b005263e0e74557",
+  "bytes": 274,
+  "kind": "vendor",
+  "name": "next.js global-error page",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   51113,
+   58694,
+   96424,
+   97028
+  ]
+ },
+ "64443": {
+  "id": 64443,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 427,
+  "kind": "image-asset",
+  "name": "image:checker_title.e353557e.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.e353557e.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "64612": {
+  "id": 64612,
+  "chunk": "5578-060085c254278034",
+  "bytes": 4399,
+  "kind": "vendor",
+  "name": "framer-motion",
+  "note": "",
+  "exports": [
+   "s"
+  ],
+  "deps": [
+   3381,
+   25811,
+   25947,
+   30239,
+   54958,
+   56133,
+   57605,
+   58220,
+   75406,
+   75795,
+   87863,
+   88991,
+   96464
+  ]
+ },
+ "64916": {
+  "id": 64916,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 555,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   59657
+  ]
+ },
+ "65071": {
+  "id": 65071,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 471,
+  "kind": "image-asset",
+  "name": "image:TF02.2764a518.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.2764a518.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "65481": {
+  "id": 65481,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 592,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   10020
+  ]
+ },
+ "65544": {
+  "id": 65544,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 378,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   9732,
+   53327,
+   83344
+  ]
+ },
+ "65739": {
+  "id": 65739,
+  "chunk": "5578-060085c254278034",
+  "bytes": 48,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "G"
+  ],
+  "deps": []
+ },
+ "66374": {
+  "id": 66374,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Bold.91a570.woff",
+  "note": "static/media/font/NotoSansThaiLooped-Bold.91a570.woff",
+  "exports": [],
+  "deps": []
+ },
+ "66379": {
+  "id": 66379,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.d6e33e18.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.d6e33e18.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "66508": {
+  "id": 66508,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 475,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   34697,
+   88669
+  ]
+ },
+ "66513": {
+  "id": 66513,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 426,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.d2d3f7d8.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.d2d3f7d8.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "66792": {
+  "id": 66792,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 289,
+  "kind": "css-module",
+  "name": "styles:UserModal",
+  "note": "UserModal_userModal__DfHfK",
+  "exports": [],
+  "deps": []
+ },
+ "66854": {
+  "id": 66854,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 442,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.c67dfd0d.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.c67dfd0d.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "66863": {
+  "id": 66863,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 432,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.bce7db16.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.bce7db16.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "67002": {
+  "id": 67002,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 376,
+  "kind": "site",
+  "name": "useCloseButton (window.opener aware close)",
+  "note": "",
+  "exports": [
+   "R"
+  ],
+  "deps": [
+   15723,
+   97028,
+   97521
+  ]
+ },
+ "67055": {
+  "id": 67055,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.c5e12cc3.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "67204": {
+  "id": 67204,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 449,
+  "kind": "image-asset",
+  "name": "image:mobile_title.21490542.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.21490542.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "67290": {
+  "id": 67290,
+  "chunk": "[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac",
+  "bytes": 130,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "67704": {
+  "id": 67704,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 62,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "68321": {
+  "id": 68321,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 475,
+  "kind": "image-asset",
+  "name": "image:TF02.363c2042.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "68393": {
+  "id": 68393,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 431,
+  "kind": "image-asset",
+  "name": "image:checker_title.94b0c599.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.94b0c599.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "68398": {
+  "id": 68398,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1713,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   20457,
+   40081,
+   53051,
+   73452,
+   76144,
+   84790,
+   93695
+  ]
+ },
+ "68408": {
+  "id": 68408,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 3776,
+  "kind": "site",
+  "name": "OperatorVideoClips (33 enter/idle mp4 pairs)",
+  "note": "",
+  "exports": [
+   "p"
+  ],
+  "deps": []
+ },
+ "68491": {
+  "id": 68491,
+  "chunk": "5578-060085c254278034",
+  "bytes": 354,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "y"
+  ],
+  "deps": [
+   13552,
+   13885,
+   53793
+  ]
+ },
+ "68526": {
+  "id": 68526,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 89,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Regular.699414.woff2",
+  "note": "static/media/font/NotoSansJP-Regular.699414.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "68575": {
+  "id": 68575,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 431,
+  "kind": "image-asset",
+  "name": "image:checker_title.f9da7291.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/checker_title.f9da7291.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "68824": {
+  "id": 68824,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 664,
+  "kind": "image-asset",
+  "name": "image:TF03.6348899e.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF03.6348899e.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "68958": {
+  "id": 68958,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Bold.30a3d7.woff2",
+  "note": "static/media/font/NotoSansKR-Bold.30a3d7.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "68973": {
+  "id": 68973,
+  "chunk": "7349-5fc72e5aa1e8149a",
+  "bytes": 3367,
+  "kind": "site-vendor",
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "note": "",
+  "exports": [
+   "C6",
+   "Cl",
+   "Ju",
+   "Tt",
+   "YH",
+   "fX",
+   "sH",
+   "zs"
+  ],
+  "deps": []
+ },
+ "69377": {
+  "id": 69377,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 430,
+  "kind": "image-asset",
+  "name": "image:th-th.ee8d85fa.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-th.ee8d85fa.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "69667": {
+  "id": 69667,
+  "chunk": "[lang]__(main)__(home)__page-108678b3875e4637",
+  "bytes": 159,
+  "kind": "site",
+  "name": "HomePage (route entry)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   44990,
+   83597,
+   96424
+  ]
+ },
+ "69801": {
+  "id": 69801,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Black.8ef854.woff2",
+  "note": "static/media/font/NotoSansThaiLooped-Black.8ef854.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "70246": {
+  "id": 70246,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 339,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   26097,
+   38338,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "70724": {
+  "id": 70724,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Medium.a00480.ttf",
+  "note": "static/media/font/NotoSansThaiLooped-Medium.a00480.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "71107": {
+  "id": 71107,
+  "chunk": "5578-060085c254278034",
+  "bytes": 52,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "k"
+  ],
+  "deps": []
+ },
+ "71272": {
+  "id": 71272,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 2140,
+  "kind": "site",
+  "name": "LoadingScreen (first-load progress) + loadedStore",
+  "note": "E=LoadingScreen component, r=useLoadedStore",
+  "exports": [
+   "E",
+   "r"
+  ],
+  "deps": [
+   4948,
+   6780,
+   11850,
+   45359,
+   60705,
+   73235,
+   90286,
+   96424,
+   97028,
+   99880
+  ]
+ },
+ "71460": {
+  "id": 71460,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 58,
+  "kind": "css-module",
+  "name": "styles:HallowText",
+  "note": "HallowText_hollowText__OJN57",
+  "exports": [],
+  "deps": []
+ },
+ "71494": {
+  "id": 71494,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 508,
+  "kind": "image-asset",
+  "name": "image:02.e58f9497.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02.e58f9497.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "71515": {
+  "id": 71515,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 475,
+  "kind": "image-asset",
+  "name": "image:TF02.363c2042.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "71782": {
+  "id": 71782,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 618,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   73136
+  ]
+ },
+ "71834": {
+  "id": 71834,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Medium.490d34.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Medium.490d34.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "71868": {
+  "id": 71868,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 505,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.18d9cfdc.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.18d9cfdc.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "71985": {
+  "id": 71985,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 910,
+  "kind": "site",
+  "name": "Toast (anime fade message)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2268,
+   9399,
+   14000,
+   56578,
+   96424,
+   97028
+  ]
+ },
+ "72233": {
+  "id": 72233,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 2068,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   14141,
+   23582,
+   54636,
+   56487,
+   63640,
+   71782,
+   74773,
+   75871,
+   85398,
+   97028
+  ]
+ },
+ "72396": {
+  "id": 72396,
+  "chunk": "5578-060085c254278034",
+  "bytes": 760,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "G"
+  ],
+  "deps": [
+   10712,
+   18925,
+   30239,
+   58220,
+   75795,
+   84854,
+   89221
+  ]
+ },
+ "72469": {
+  "id": 72469,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 85,
+  "kind": "asset-url",
+  "name": "asset:NotoSansJP-Black.565a55.ttf",
+  "note": "static/media/font/NotoSansJP-Black.565a55.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "72535": {
+  "id": 72535,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1054,
+  "kind": "css-module",
+  "name": "styles:ReserveModal",
+  "note": "ReserveModal_reserveModal__xb3np",
+  "exports": [],
+  "deps": []
+ },
+ "72613": {
+  "id": 72613,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 246,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   9843
+  ]
+ },
+ "72749": {
+  "id": 72749,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 711,
+  "kind": "image-asset",
+  "name": "image:content.95e3c10d.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.95e3c10d.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "72868": {
+  "id": 72868,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 86,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Medium.e5b49d.ttf",
+  "note": "static/media/font/NotoSansKR-Medium.e5b49d.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "73136": {
+  "id": 73136,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 422,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "73167": {
+  "id": 73167,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 426,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.b76eb7a9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.b76eb7a9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "73204": {
+  "id": 73204,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 643,
+  "kind": "image-asset",
+  "name": "image:obt-title.4db26043.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.4db26043.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "73235": {
+  "id": 73235,
+  "chunk": "1434-11a107e8f8cacac2",
+  "bytes": 616,
+  "kind": "vendor",
+  "name": "classnames",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "73279": {
+  "id": 73279,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 240,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "73422": {
+  "id": 73422,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 695,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 28.49 36.56",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "73436": {
+  "id": 73436,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 429,
+  "kind": "image-asset",
+  "name": "image:mobile_title.8072ce33.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.8072ce33.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "73452": {
+  "id": 73452,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1226,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878
+  ]
+ },
+ "73531": {
+  "id": 73531,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 759,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   40657,
+   53051
+  ]
+ },
+ "73560": {
+  "id": 73560,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 7808,
+  "kind": "site",
+  "name": "SectionTitle (icon + arrow block + EN/CN title)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142,
+   4948,
+   19213,
+   58779,
+   71272,
+   73235,
+   84245,
+   90286,
+   96424,
+   97028
+  ]
+ },
+ "73598": {
+  "id": 73598,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 477,
+  "kind": "image-asset",
+  "name": "image:mobile_title.6fa320c2.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title.6fa320c2.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "73690": {
+  "id": 73690,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 89,
+  "kind": "site",
+  "name": "SdkInit (adapter.init())",
+  "note": "",
+  "exports": [
+   "O"
+  ],
+  "deps": [
+   3301
+  ]
+ },
+ "73803": {
+  "id": 73803,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 591,
+  "kind": "image-asset",
+  "name": "image:estella.b761d517.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.b761d517.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "73992": {
+  "id": 73992,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 3401,
+  "kind": "site",
+  "name": "VideoPlayers (VideoBasic + canvas frame-limited video)",
+  "note": "",
+  "exports": [
+   "Q"
+  ],
+  "deps": [
+   44752,
+   73235,
+   96424,
+   97028,
+   97521
+  ]
+ },
+ "74097": {
+  "id": 74097,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 439,
+  "kind": "image-asset",
+  "name": "image:title.6aa9ff46.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.6aa9ff46.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "74345": {
+  "id": 74345,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 235,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   14357
+  ]
+ },
+ "74517": {
+  "id": 74517,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 81179,
+  "kind": "vendor",
+  "name": "swiper",
+  "note": "",
+  "exports": [
+   "RC",
+   "qr"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "74618": {
+  "id": 74618,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 537,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   66508
+  ]
+ },
+ "74738": {
+  "id": 74738,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 90,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Bold.9717cf.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_Bold.9717cf.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "74773": {
+  "id": 74773,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1226,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   54636,
+   90988
+  ]
+ },
+ "74800": {
+  "id": 74800,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 457,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   27795,
+   97028
+  ]
+ },
+ "74806": {
+  "id": 74806,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "74955": {
+  "id": 74955,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 574,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   57120
+  ]
+ },
+ "75406": {
+  "id": 75406,
+  "chunk": "5578-060085c254278034",
+  "bytes": 61,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "X",
+   "f"
+  ],
+  "deps": []
+ },
+ "75435": {
+  "id": 75435,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 3910,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 872 722",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "75583": {
+  "id": 75583,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 631,
+  "kind": "image-asset",
+  "name": "image:akekuri.3df4a3dc.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3df4a3dc.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "75640": {
+  "id": 75640,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 188,
+  "kind": "site",
+  "name": "OneAccountProvider",
+  "note": "",
+  "exports": [
+   "OneAccountProvider"
+  ],
+  "deps": [
+   1162,
+   22060,
+   96424
+  ]
+ },
+ "75680": {
+  "id": 75680,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 441,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   15903,
+   43096
+  ]
+ },
+ "75744": {
+  "id": 75744,
+  "chunk": "5578-060085c254278034",
+  "bytes": 71,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "V"
+  ],
+  "deps": []
+ },
+ "75762": {
+  "id": 75762,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 292,
+  "kind": "css-module",
+  "name": "styles:SubpageTab",
+  "note": "SubpageTab_scroll___XPu9",
+  "exports": [],
+  "deps": []
+ },
+ "75766": {
+  "id": 75766,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.e410e036.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "75795": {
+  "id": 75795,
+  "chunk": "5578-060085c254278034",
+  "bytes": 56,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "q"
+  ],
+  "deps": []
+ },
+ "75820": {
+  "id": 75820,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 381,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "75871": {
+  "id": 75871,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 956,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   11875,
+   23582,
+   71782,
+   97028
+  ]
+ },
+ "76144": {
+  "id": 76144,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 447,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "76488": {
+  "id": 76488,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 96,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Regular.4e6868.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Regular.4e6868.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "76595": {
+  "id": 76595,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 119,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "77144": {
+  "id": 77144,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 408,
+  "kind": "image-asset",
+  "name": "image:home_title.0592b55c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.0592b55c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "77251": {
+  "id": 77251,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 97,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Regular.36529a.woff2",
+  "note": "static/media/font/NotoSansThaiLooped-Regular.36529a.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "77422": {
+  "id": 77422,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 563,
+  "kind": "image-asset",
+  "name": "image:obt-title.5d47a1d7.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.5d47a1d7.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "77427": {
+  "id": 77427,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.3d34a233.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.3d34a233.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "77517": {
+  "id": 77517,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3758,
+  "kind": "vendor",
+  "name": "next.js runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3382,
+   19374,
+   41451,
+   50443,
+   63153,
+   66508,
+   84049,
+   84790,
+   90231,
+   97028
+  ]
+ },
+ "77523": {
+  "id": 77523,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 166,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "77563": {
+  "id": 77563,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 426,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.871d9174.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.871d9174.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "77906": {
+  "id": 77906,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 439,
+  "kind": "css-module",
+  "name": "styles:SubpageHeader",
+  "note": "SubpageHeader_subpageHeader__eGnaM",
+  "exports": [],
+  "deps": []
+ },
+ "78074": {
+  "id": 78074,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 623,
+  "kind": "image-asset",
+  "name": "image:endministrator2.f0bbf4fa.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.f0bbf4fa.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "78163": {
+  "id": 78163,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 664,
+  "kind": "image-asset",
+  "name": "image:TF04.a3ad4354.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.a3ad4354.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "78192": {
+  "id": 78192,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   47470
+  ]
+ },
+ "78324": {
+  "id": 78324,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Black.553e77.woff",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Black.553e77.woff",
+  "exports": [],
+  "deps": []
+ },
+ "78582": {
+  "id": 78582,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 421,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.dbee8495.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.dbee8495.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "78747": {
+  "id": 78747,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.53af9f54.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.53af9f54.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "78827": {
+  "id": 78827,
+  "chunk": "86478c97-2730e7cdddbaa41b",
+  "bytes": 168332,
+  "kind": "vendor",
+  "name": "react-dom",
+  "note": "",
+  "exports": [],
+  "deps": [
+   37811,
+   44615,
+   72613,
+   97028
+  ]
+ },
+ "78992": {
+  "id": 78992,
+  "chunk": "5578-060085c254278034",
+  "bytes": 76,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "D"
+  ],
+  "deps": []
+ },
+ "79221": {
+  "id": 79221,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 439,
+  "kind": "image-asset",
+  "name": "image:title.a391751c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.a391751c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "79438": {
+  "id": 79438,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 426,
+  "kind": "image-asset",
+  "name": "image:en-us.4b590ca9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/en-us.4b590ca9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "79507": {
+  "id": 79507,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 950,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "79516": {
+  "id": 79516,
+  "chunk": "5578-060085c254278034",
+  "bytes": 184,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "X4",
+   "ai",
+   "hs"
+  ],
+  "deps": [
+   75795
+  ]
+ },
+ "79549": {
+  "id": 79549,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 163,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [
+   "w"
+  ],
+  "deps": [
+   97028
+  ]
+ },
+ "79594": {
+  "id": 79594,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 84259,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-en-us (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   2142,
+   4431,
+   4948,
+   7404,
+   10414,
+   14029,
+   20544,
+   23885,
+   27214,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   42585,
+   46173,
+   67204,
+   68824,
+   74738,
+   75435,
+   77422,
+   78163,
+   79438,
+   82762,
+   83593,
+   84726,
+   89095,
+   90149,
+   91041,
+   92038,
+   92478,
+   92687,
+   96625,
+   99808
+  ]
+ },
+ "79755": {
+  "id": 79755,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 652,
+  "kind": "image-asset",
+  "name": "image:chen.5c7b5e46.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.5c7b5e46.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "79870": {
+  "id": 79870,
+  "chunk": "5578-060085c254278034",
+  "bytes": 82,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "p"
+  ],
+  "deps": []
+ },
+ "80187": {
+  "id": 80187,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 279,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   48695
+  ]
+ },
+ "80500": {
+  "id": 80500,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 8959,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 800 154",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142,
+   19460,
+   26097,
+   29190,
+   63334,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "80621": {
+  "id": 80621,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Bold.e66042.ttf",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Bold.e66042.ttf",
+  "exports": [],
+  "deps": []
+ },
+ "80689": {
+  "id": 80689,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 617,
+  "kind": "image-asset",
+  "name": "image:antal.78d45318.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.78d45318.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "80750": {
+  "id": 80750,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 434,
+  "kind": "image-asset",
+  "name": "image:es-mx.d62a8d79.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/es-mx.d62a8d79.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "80753": {
+  "id": 80753,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 492,
+  "kind": "image-asset",
+  "name": "image:05.bc9f3f37.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/05.bc9f3f37.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "80900": {
+  "id": 80900,
+  "chunk": "[lang]__(main)__(home)__page-108678b3875e4637",
+  "bytes": 50,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "80929": {
+  "id": 80929,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 184,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": []
+ },
+ "81112": {
+  "id": 81112,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 5697,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 214 233",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "81222": {
+  "id": 81222,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 775,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 41 48",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "81365": {
+  "id": 81365,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 416,
+  "kind": "image-asset",
+  "name": "image:home_title_psn.53612a04.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title_psn.53612a04.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "81473": {
+  "id": 81473,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1124,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   8977,
+   25511,
+   50080,
+   59102,
+   64916,
+   99718
+  ]
+ },
+ "81678": {
+  "id": 81678,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 204,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "82106": {
+  "id": 82106,
+  "chunk": "5578-060085c254278034",
+  "bytes": 311,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   10712
+  ]
+ },
+ "82405": {
+  "id": 82405,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 555,
+  "kind": "image-asset",
+  "name": "image:perlica.871dcf57.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "82503": {
+  "id": 82503,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Medium.5bc901.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Medium.5bc901.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "82519": {
+  "id": 82519,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 412,
+  "kind": "image-asset",
+  "name": "image:home_title.cbe42ec2.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.cbe42ec2.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "82543": {
+  "id": 82543,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.a8f2c585.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.a8f2c585.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "82676": {
+  "id": 82676,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 437,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   59339
+  ]
+ },
+ "82762": {
+  "id": 82762,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 439,
+  "kind": "image-asset",
+  "name": "image:TF01.ed924365.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.ed924365.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "83188": {
+  "id": 83188,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Bold.77ee98.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Bold.77ee98.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "83219": {
+  "id": 83219,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 751,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__10-NoticeList_sectionContainer__tmyCM",
+  "exports": [],
+  "deps": []
+ },
+ "83274": {
+  "id": 83274,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 447,
+  "kind": "image-asset",
+  "name": "image:TF01.1e7a8ca7.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.1e7a8ca7.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "83344": {
+  "id": 83344,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 115,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   58488,
+   67704
+  ]
+ },
+ "83593": {
+  "id": 83593,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 744,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 121.5 85",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "83597": {
+  "id": 83597,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 114916,
+  "kind": "site",
+  "name": "HomeLayout (all homepage sections, header, modals, loader tasks)",
+  "note": "",
+  "exports": [
+   "Layout"
+  ],
+  "deps": [
+   1162,
+   1287,
+   1841,
+   2142,
+   2285,
+   2682,
+   2878,
+   3147,
+   3492,
+   3787,
+   4948,
+   6777,
+   6921,
+   7725,
+   9184,
+   9995,
+   11502,
+   12914,
+   13920,
+   14000,
+   14577,
+   15723,
+   15889,
+   17224,
+   17540,
+   18109,
+   19213,
+   20944,
+   21789,
+   21953,
+   22060,
+   22519,
+   24106,
+   25477,
+   25576,
+   26097,
+   26673,
+   26915,
+   27014,
+   27663,
+   29190,
+   29269,
+   29521,
+   29671,
+   30257,
+   30998,
+   32343,
+   33811,
+   34573,
+   35038,
+   35300,
+   36563,
+   36624,
+   37602,
+   40226,
+   41409,
+   43837,
+   44705,
+   44990,
+   47290,
+   48056,
+   49095,
+   49876,
+   49929,
+   51067,
+   52151,
+   52652,
+   53079,
+   54335,
+   54925,
+   56006,
+   56578,
+   56604,
+   57236,
+   59288,
+   60459,
+   60658,
+   60687,
+   60705,
+   60891,
+   61617,
+   63875,
+   70246,
+   71272,
+   71494,
+   71985,
+   72535,
+   73235,
+   73560,
+   73803,
+   73992,
+   74517,
+   75583,
+   78074,
+   79549,
+   79755,
+   80187,
+   80500,
+   80689,
+   80753,
+   81222,
+   82405,
+   83768,
+   84245,
+   84343,
+   87346,
+   89102,
+   89622,
+   89808,
+   90286,
+   90746,
+   90928,
+   91251,
+   91618,
+   92182,
+   92418,
+   92610,
+   92880,
+   93247,
+   93297,
+   93577,
+   94150,
+   94167,
+   94534,
+   95308,
+   95823,
+   96424,
+   96741,
+   97028,
+   97521,
+   97916,
+   98220,
+   99880
+  ]
+ },
+ "83713": {
+  "id": 83713,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 41,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   4014
+  ]
+ },
+ "83768": {
+  "id": 83768,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 69,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__01-Home_sectionContainer__nzBwa",
+  "exports": [],
+  "deps": []
+ },
+ "83970": {
+  "id": 83970,
+  "chunk": "2060-2fd4a05d6893f458",
+  "bytes": 11361,
+  "kind": "vendor",
+  "name": "@emotion/cache + stylis",
+  "note": "",
+  "exports": [
+   "AH",
+   "cx"
+  ],
+  "deps": [
+   35178
+  ]
+ },
+ "83972": {
+  "id": 83972,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 447,
+  "kind": "image-asset",
+  "name": "image:TF01.d8388e03.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.d8388e03.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "84049": {
+  "id": 84049,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3056,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3382,
+   41451,
+   77517,
+   84790,
+   97028
+  ]
+ },
+ "84245": {
+  "id": 84245,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 2988,
+  "kind": "site",
+  "name": "TextRevealAnimations (anime helpers WO/iI/iv/zI)",
+  "note": "",
+  "exports": [
+   "WO",
+   "iI",
+   "iv",
+   "zI"
+  ],
+  "deps": [
+   29671,
+   56578,
+   96424,
+   97028
+  ]
+ },
+ "84343": {
+  "id": 84343,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 689,
+  "kind": "image-asset",
+  "name": "image:kv-obt-h5.6b03f2b9.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-h5.6b03f2b9.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "84535": {
+  "id": 84535,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 879,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   57120,
+   73452
+  ]
+ },
+ "84539": {
+  "id": 84539,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 435,
+  "kind": "image-asset",
+  "name": "image:title.ec105420.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.ec105420.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "84639": {
+  "id": 84639,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 405,
+  "kind": "image-asset",
+  "name": "image:timeline.c5e12cc3.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.c5e12cc3.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "84726": {
+  "id": 84726,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 91,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Medium.0903f2.woff",
+  "note": "static/media/font/HarmonyOS_Sans_Medium.0903f2.woff",
+  "exports": [],
+  "deps": []
+ },
+ "84790": {
+  "id": 84790,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1013,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "84854": {
+  "id": 84854,
+  "chunk": "5578-060085c254278034",
+  "bytes": 36,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "W"
+  ],
+  "deps": []
+ },
+ "84882": {
+  "id": 84882,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   87276
+  ]
+ },
+ "85038": {
+  "id": 85038,
+  "chunk": "1862-f64a25e5790c1ef5",
+  "bytes": 1327,
+  "kind": "vendor",
+  "name": "base64-js",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "85398": {
+  "id": 85398,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 887,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "85582": {
+  "id": 85582,
+  "chunk": "5578-060085c254278034",
+  "bytes": 63,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "f"
+  ],
+  "deps": []
+ },
+ "85703": {
+  "id": 85703,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 209,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   97028
+  ]
+ },
+ "85861": {
+  "id": 85861,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 392,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "85964": {
+  "id": 85964,
+  "chunk": "5578-060085c254278034",
+  "bytes": 190,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "K"
+  ],
+  "deps": []
+ },
+ "86181": {
+  "id": 86181,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Medium.0a0631.woff",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Medium.0a0631.woff",
+  "exports": [],
+  "deps": []
+ },
+ "86669": {
+  "id": 86669,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 97068,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-fr-fr (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   2085,
+   4948,
+   5268,
+   7404,
+   10414,
+   14029,
+   20544,
+   27214,
+   29804,
+   29979,
+   30610,
+   33058,
+   33922,
+   34988,
+   46173,
+   55528,
+   74738,
+   75435,
+   79221,
+   83593,
+   84726,
+   89095,
+   90149,
+   95587,
+   98293,
+   99808
+  ]
+ },
+ "86797": {
+  "id": 86797,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 18446,
+  "kind": "site",
+  "name": "NewsPageComponents (subpage header, tabs, list items, SVG icons)",
+  "note": "viewBox 0 0 354 57",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142,
+   73235,
+   77906,
+   96424,
+   97028
+  ]
+ },
+ "87001": {
+  "id": 87001,
+  "chunk": "[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a",
+  "bytes": 398,
+  "kind": "css-module",
+  "name": "styles:OperatorItem",
+  "note": "OperatorItem_operatorItem__gPezu",
+  "exports": [],
+  "deps": []
+ },
+ "87066": {
+  "id": 87066,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 96,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Medium.d33f74.woff2",
+  "note": "static/media/font/NotoSansThaiLooped-Medium.d33f74.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "87157": {
+  "id": 87157,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1763,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3382,
+   16412,
+   29639,
+   41451,
+   43711,
+   51829,
+   53051,
+   60017,
+   65481,
+   76144,
+   93695,
+   98822
+  ]
+ },
+ "87276": {
+  "id": 87276,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 782,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   15252,
+   97028
+  ]
+ },
+ "87346": {
+  "id": 87346,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 286,
+  "kind": "css-module",
+  "name": "styles:sections",
+  "note": "sections_sectionViewer__326Rn",
+  "exports": [],
+  "deps": []
+ },
+ "87358": {
+  "id": 87358,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 717,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   56487,
+   63640,
+   71782,
+   72233
+  ]
+ },
+ "87757": {
+  "id": 87757,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Bold.77dfff.woff",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Bold.77dfff.woff",
+  "exports": [],
+  "deps": []
+ },
+ "87863": {
+  "id": 87863,
+  "chunk": "5578-060085c254278034",
+  "bytes": 788,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "B"
+  ],
+  "deps": [
+   23962,
+   63733
+  ]
+ },
+ "88095": {
+  "id": 88095,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 95,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Regular.2701af.woff",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Regular.2701af.woff",
+  "exports": [],
+  "deps": []
+ },
+ "88116": {
+  "id": 88116,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 749,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   17267,
+   20457,
+   76144
+  ]
+ },
+ "88351": {
+  "id": 88351,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 466,
+  "kind": "image-asset",
+  "name": "image:de-de.ddb8fdfa.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/de-de.ddb8fdfa.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "88381": {
+  "id": 88381,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title.2ed5ebbe.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.2ed5ebbe.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "88669": {
+  "id": 88669,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 288,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   19042
+  ]
+ },
+ "88752": {
+  "id": 88752,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 443,
+  "kind": "image-asset",
+  "name": "image:TF01.95e2d9eb.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF01.95e2d9eb.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "88991": {
+  "id": 88991,
+  "chunk": "5578-060085c254278034",
+  "bytes": 65,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "q"
+  ],
+  "deps": []
+ },
+ "89095": {
+  "id": 89095,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 93,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Regular.0cfc88.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_Regular.0cfc88.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "89102": {
+  "id": 89102,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 2150,
+  "kind": "vendor",
+  "name": "vh-check (iOS 100vh offset)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "89137": {
+  "id": 89137,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 358,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   40951,
+   97028
+  ]
+ },
+ "89221": {
+  "id": 89221,
+  "chunk": "5578-060085c254278034",
+  "bytes": 57,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "$",
+   "V"
+  ],
+  "deps": []
+ },
+ "89354": {
+  "id": 89354,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.177abeaf.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.177abeaf.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "89359": {
+  "id": 89359,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 487,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878,
+   81678
+  ]
+ },
+ "89460": {
+  "id": 89460,
+  "chunk": "5578-060085c254278034",
+  "bytes": 58,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "a"
+  ],
+  "deps": []
+ },
+ "89622": {
+  "id": 89622,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 562,
+  "kind": "site",
+  "name": "AicItemsText (i18n keys for AIC section)",
+  "note": "",
+  "exports": [
+   "j"
+  ],
+  "deps": [
+   34573,
+   48056,
+   71494,
+   80753,
+   93247
+  ]
+ },
+ "89748": {
+  "id": 89748,
+  "chunk": "3407-efea5949cb1afee6",
+  "bytes": 59,
+  "kind": "vendor",
+  "name": "anime.js helpers / small vendor utils",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "89808": {
+  "id": 89808,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 662,
+  "kind": "image-asset",
+  "name": "image:lifeng.41ae5d06.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "90110": {
+  "id": 90110,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Bold.b1fa9c.woff2",
+  "note": "static/media/font/NotoSansThaiLooped-Bold.b1fa9c.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "90145": {
+  "id": 90145,
+  "chunk": "5578-060085c254278034",
+  "bytes": 992,
+  "kind": "vendor",
+  "name": "lodash debounce",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   48695,
+   61789,
+   76595
+  ]
+ },
+ "90149": {
+  "id": 90149,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_Regular.12ffa1.woff",
+  "note": "static/media/font/HarmonyOS_Sans_Regular.12ffa1.woff",
+  "exports": [],
+  "deps": []
+ },
+ "90231": {
+  "id": 90231,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 238,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "90286": {
+  "id": 90286,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 416,
+  "kind": "site",
+  "name": "useOrientation (landscape/portrait)",
+  "note": "",
+  "exports": [
+   "M"
+  ],
+  "deps": [
+   90145,
+   97028
+  ]
+ },
+ "90478": {
+  "id": 90478,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 594,
+  "kind": "image-asset",
+  "name": "image:obt-title.3bb96617.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.3bb96617.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "90746": {
+  "id": 90746,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 577,
+  "kind": "image-asset",
+  "name": "image:xaihi.9c949014.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9c949014.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "90928": {
+  "id": 90928,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 77,
+  "kind": "asset-url",
+  "name": "asset:trinity.d6c060.bin",
+  "note": "static/media/model/trinity.d6c060.bin",
+  "exports": [],
+  "deps": []
+ },
+ "90988": {
+  "id": 90988,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 3085,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   71782
+  ]
+ },
+ "91041": {
+  "id": 91041,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 475,
+  "kind": "image-asset",
+  "name": "image:TF02.363c2042.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF02.363c2042.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "91225": {
+  "id": 91225,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 96,
+  "kind": "asset-url",
+  "name": "asset:NotoSansThaiLooped-Regular.ae1fb3.woff",
+  "note": "static/media/font/NotoSansThaiLooped-Regular.ae1fb3.woff",
+  "exports": [],
+  "deps": []
+ },
+ "91251": {
+  "id": 91251,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 2563,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 1902 253",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "91618": {
+  "id": 91618,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 223,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [
+   "_"
+  ],
+  "deps": [
+   28136
+  ]
+ },
+ "91627": {
+  "id": 91627,
+  "chunk": "[lang]__(main)__(home)__layout-282874dd3834757d",
+  "bytes": 819,
+  "kind": "site",
+  "name": "BulletinApi (axios client for /api/bulletin)",
+  "note": "Jq=getBulletinDetail, PZ=getBulletinList, a=PAGE_SIZE 9",
+  "exports": [
+   "Jq",
+   "PZ",
+   "a"
+  ],
+  "deps": [
+   13269,
+   56006
+  ]
+ },
+ "91773": {
+  "id": 91773,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 453,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "91809": {
+  "id": 91809,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 300,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "92036": {
+  "id": 92036,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 92,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_TC_Bold.63a9cf.woff",
+  "note": "static/media/font/HarmonyOS_Sans_TC_Bold.63a9cf.woff",
+  "exports": [],
+  "deps": []
+ },
+ "92038": {
+  "id": 92038,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 439,
+  "kind": "image-asset",
+  "name": "image:title.035c43cb.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.035c43cb.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "92140": {
+  "id": 92140,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 389,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   3,
+   704,
+   41451,
+   75680,
+   83713,
+   98861
+  ]
+ },
+ "92182": {
+  "id": 92182,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 12752,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 141 38",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "92372": {
+  "id": 92372,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 446,
+  "kind": "image-asset",
+  "name": "image:ko-kr.4f19c563.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ko-kr.4f19c563.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "92418": {
+  "id": 92418,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 1331,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 63 19",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "92478": {
+  "id": 92478,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 441,
+  "kind": "image-asset",
+  "name": "image:mobile_title_psn.11e00407.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mobile_title_psn.11e00407.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "92610": {
+  "id": 92610,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 1492,
+  "kind": "site",
+  "name": "UserModal (account menu modal: user center, logout links)",
+  "note": "",
+  "exports": [
+   "Ay",
+   "GW"
+  ],
+  "deps": [
+   4948,
+   15723,
+   22060,
+   44990,
+   56006,
+   66792,
+   70246,
+   73235,
+   80500,
+   94150,
+   96424,
+   97028,
+   99880
+  ]
+ },
+ "92687": {
+  "id": 92687,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 707,
+  "kind": "image-asset",
+  "name": "image:content.7229aa33.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.7229aa33.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "92731": {
+  "id": 92731,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 3405,
+  "kind": "site",
+  "name": "NoticeListSection (news index)",
+  "note": "",
+  "exports": [
+   "NoticeListSection"
+  ],
+  "deps": [
+   2682,
+   4948,
+   26097,
+   30257,
+   30998,
+   44990,
+   47290,
+   51967,
+   53079,
+   60705,
+   62534,
+   67002,
+   70246,
+   71985,
+   73235,
+   79549,
+   80187,
+   83219,
+   86797,
+   90286,
+   91627,
+   96424,
+   97028,
+   97521
+  ]
+ },
+ "92827": {
+  "id": 92827,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 45425,
+  "kind": "i18n-bundle",
+  "name": "I18nBundle-ja-jp (text, images, fonts, components for one locale)",
+  "note": "",
+  "exports": [
+   "default"
+  ],
+  "deps": [
+   1645,
+   2142,
+   4948,
+   13397,
+   18750,
+   19798,
+   29979,
+   30083,
+   30163,
+   30391,
+   33407,
+   33736,
+   34595,
+   34988,
+   42429,
+   43503,
+   45280,
+   46067,
+   46173,
+   49097,
+   52964,
+   57726,
+   60909,
+   61782,
+   66513,
+   68321,
+   68393,
+   68526,
+   72469,
+   75435,
+   83274,
+   83593,
+   90478,
+   95311,
+   99808
+  ]
+ },
+ "92854": {
+  "id": 92854,
+  "chunk": "global-error-0b005263e0e74557",
+  "bytes": 50,
+  "kind": "vendor",
+  "name": "next.js global error",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "92880": {
+  "id": 92880,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 621,
+  "kind": "image-asset",
+  "name": "image:ember.235ca9f1.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.235ca9f1.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "93031": {
+  "id": 93031,
+  "chunk": "8544-0e2dc3d9c44e521e",
+  "bytes": 2221,
+  "kind": "vendor",
+  "name": "next.js runtime (error pages, head)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   37811,
+   40056,
+   40951,
+   51007,
+   73279,
+   85703,
+   96424,
+   97028,
+   99775
+  ]
+ },
+ "93056": {
+  "id": 93056,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 72,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "93163": {
+  "id": 93163,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 803,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   76144,
+   97028
+  ]
+ },
+ "93247": {
+  "id": 93247,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 504,
+  "kind": "image-asset",
+  "name": "image:03.722342c9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/03.722342c9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "93289": {
+  "id": 93289,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 94,
+  "kind": "asset-url",
+  "name": "asset:HarmonyOS_Sans_SC_Black.1d7dfb.woff2",
+  "note": "static/media/font/HarmonyOS_Sans_SC_Black.1d7dfb.woff2",
+  "exports": [],
+  "deps": []
+ },
+ "93297": {
+  "id": 93297,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 693,
+  "kind": "image-asset",
+  "name": "image:kv-obt-pc.1d54f26f.jpg",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-pc.1d54f26f.jpg",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "93577": {
+  "id": 93577,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 636,
+  "kind": "image-asset",
+  "name": "image:lastrite.8560c002.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "93695": {
+  "id": 93695,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 1362,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   16878,
+   43711,
+   73531
+  ]
+ },
+ "93852": {
+  "id": 93852,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 936,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "94150": {
+  "id": 94150,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 11549,
+  "kind": "site",
+  "name": "OrigQueryModal (ja-jp only Originium balance query modal: SDK role select, spinner)",
+  "note": "",
+  "exports": [
+   "Ay",
+   "YV"
+  ],
+  "deps": [
+   1162,
+   2142,
+   4948,
+   19460,
+   21086,
+   22060,
+   44990,
+   70246,
+   73235,
+   79549,
+   80500,
+   95141,
+   95823,
+   96424,
+   97028,
+   97521,
+   99880
+  ]
+ },
+ "94167": {
+  "id": 94167,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 427,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   11728,
+   41582,
+   99343
+  ]
+ },
+ "94534": {
+  "id": 94534,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 474,
+  "kind": "css-module",
+  "name": "styles:pc-cn",
+  "note": "pc-cn_container__CKshH",
+  "exports": [],
+  "deps": []
+ },
+ "94621": {
+  "id": 94621,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 424,
+  "kind": "image-asset",
+  "name": "image:home_title.0a467ffd.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/home_title.0a467ffd.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "95141": {
+  "id": 95141,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 884,
+  "kind": "css-module",
+  "name": "styles:OrigQuery",
+  "note": "OrigQuery_origQueryModal__yXuao",
+  "exports": [],
+  "deps": []
+ },
+ "95308": {
+  "id": 95308,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 1416,
+  "kind": "css-module",
+  "name": "styles:",
+  "note": "__04-Information_sectionContainer__OXMtV",
+  "exports": [],
+  "deps": []
+ },
+ "95311": {
+  "id": 95311,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 391,
+  "kind": "image-asset",
+  "name": "image:TF04.38a388a9.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/TF04.38a388a9.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "95587": {
+  "id": 95587,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 567,
+  "kind": "image-asset",
+  "name": "image:obt-title.f603c99c.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.f603c99c.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "95750": {
+  "id": 95750,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 652,
+  "kind": "vendor",
+  "name": "invariant",
+  "note": "",
+  "exports": [],
+  "deps": [
+   96489
+  ]
+ },
+ "95823": {
+  "id": 95823,
+  "chunk": "3696-03b8256f1fece6bb",
+  "bytes": 789,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 23 29",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "96306": {
+  "id": 96306,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 31,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": [
+   95750
+  ]
+ },
+ "96424": {
+  "id": 96424,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 41,
+  "kind": "vendor",
+  "name": "react/jsx-runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   9848
+  ]
+ },
+ "96464": {
+  "id": 96464,
+  "chunk": "5578-060085c254278034",
+  "bytes": 198,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "Gt",
+   "PP",
+   "WG",
+   "uv"
+  ],
+  "deps": [
+   10712,
+   57168
+  ]
+ },
+ "96489": {
+  "id": 96489,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 74,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "96559": {
+  "id": 96559,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 585,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   23582,
+   30107,
+   71782,
+   75871,
+   91773
+  ]
+ },
+ "96625": {
+  "id": 96625,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 446,
+  "kind": "image-asset",
+  "name": "image:join_us_on_discord.72ab52e6.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/join_us_on_discord.72ab52e6.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "96664": {
+  "id": 96664,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 1107,
+  "kind": "site",
+  "name": "RollingText (overflow marquee: 40px/s, 1s holds, 300ms fades)",
+  "note": "",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   45876,
+   56578,
+   73235,
+   96424,
+   97028
+  ]
+ },
+ "96741": {
+  "id": 96741,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 75,
+  "kind": "asset-url",
+  "name": "asset:enemy.6a1a19.bin",
+  "note": "static/media/model/enemy.6a1a19.bin",
+  "exports": [],
+  "deps": []
+ },
+ "96970": {
+  "id": 96970,
+  "chunk": "8963-234f979bdd6b491c",
+  "bytes": 514,
+  "kind": "css-module",
+  "name": "styles:Pagination",
+  "note": "Pagination_pagination__3IDBu",
+  "exports": [],
+  "deps": []
+ },
+ "97028": {
+  "id": 97028,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 42,
+  "kind": "vendor",
+  "name": "react",
+  "note": "",
+  "exports": [],
+  "deps": [
+   15691
+  ]
+ },
+ "97521": {
+  "id": 97521,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 468,
+  "kind": "site",
+  "name": "SiteUtils (isServer, formatNumber, hidden bulletin filter)",
+  "note": "",
+  "exports": [
+   "ZV",
+   "aT",
+   "isServer",
+   "jx"
+  ],
+  "deps": [
+   15790,
+   56006
+  ]
+ },
+ "97750": {
+  "id": 97750,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 76,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "97882": {
+  "id": 97882,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 87,
+  "kind": "asset-url",
+  "name": "asset:NotoSansKR-Medium.018f38.woff",
+  "note": "static/media/font/NotoSansKR-Medium.018f38.woff",
+  "exports": [],
+  "deps": []
+ },
+ "97916": {
+  "id": 97916,
+  "chunk": "4948-4c0b17ed78d1fd30",
+  "bytes": 665,
+  "kind": "image-asset",
+  "name": "image:alesh.ca99268b.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "98105": {
+  "id": 98105,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 320,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   87358
+  ]
+ },
+ "98220": {
+  "id": 98220,
+  "chunk": "226-d5292700ff68fd13",
+  "bytes": 118,
+  "kind": "css-module",
+  "name": "styles:Carousel",
+  "note": "Carousel_carousel__FKamY",
+  "exports": [],
+  "deps": []
+ },
+ "98293": {
+  "id": 98293,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 430,
+  "kind": "image-asset",
+  "name": "image:fr-fr.761d90e4.png",
+  "note": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fr-fr.761d90e4.png",
+  "exports": [
+   "A"
+  ],
+  "deps": []
+ },
+ "98353": {
+  "id": 98353,
+  "chunk": "[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1",
+  "bytes": 130,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "98488": {
+  "id": 98488,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 299,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "98731": {
+  "id": 98731,
+  "chunk": "5578-060085c254278034",
+  "bytes": 222,
+  "kind": "vendor",
+  "name": "framer-motion (motion-dom)",
+  "note": "",
+  "exports": [
+   "K"
+  ],
+  "deps": []
+ },
+ "98822": {
+  "id": 98822,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 464,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   29639
+  ]
+ },
+ "98838": {
+  "id": 98838,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 6,
+  "kind": "unresolved",
+  "name": "unresolved",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "98861": {
+  "id": 98861,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 817,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "99213": {
+  "id": 99213,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 361,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "99343": {
+  "id": 99343,
+  "chunk": "4231-53da7c4de7468a06",
+  "bytes": 84,
+  "kind": "vendor",
+  "name": "swiper (+ small vendor utils)",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "99718": {
+  "id": 99718,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 404,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": [
+   42320
+  ]
+ },
+ "99775": {
+  "id": 99775,
+  "chunk": "491-d00f740e9c6ed637",
+  "bytes": 159,
+  "kind": "vendor",
+  "name": "next.js app router runtime",
+  "note": "",
+  "exports": [],
+  "deps": []
+ },
+ "99808": {
+  "id": 99808,
+  "chunk": "[lang]__(main)__layout-493920d1b65733f5",
+  "bytes": 2277,
+  "kind": "svg-icon",
+  "name": "SvgIcon",
+  "note": "viewBox 0 0 71 55",
+  "exports": [
+   "A"
+  ],
+  "deps": [
+   2142
+  ]
+ },
+ "99880": {
+  "id": 99880,
+  "chunk": "5578-060085c254278034",
+  "bytes": 576,
+  "kind": "vendor",
+  "name": "zustand create",
+  "note": "",
+  "exports": [
+   "v"
+  ],
+  "deps": [
+   97028
+  ]
+ }
+}

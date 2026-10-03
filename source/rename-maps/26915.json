@@ -1,0 +1,10 @@
+{
+  "module": 26915,
+  "summary": "GameplayItemsText exports (as g) the four-entry list for the gameplay section: keys '01' to '04', each with an i18n titleKey 'gameplay.items.N.title', descriptionKey 'gameplay.items.N.description' and an image required inline from modules 51282, 46301, 63376 and 20371.",
+  "exports": {
+    "g": "GAMEPLAY_ITEMS"
+  },
+  "renames": {
+    "L_1": "GAMEPLAY_ITEMS"
+  }
+}

@@ -1,0 +1,3 @@
+// module 51829 from 491-d00f740e9c6ed637.js
+// deps: 
+const module_51829 = (e,t)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"isNavigatingToNewRootLayout",{enumerable:!0,get:function(){return function e(t,r){let n=t[0],o=r[0];if(Array.isArray(n)&&Array.isArray(o)){if(n[0]!==o[0]||n[2]!==o[2])return!0}else if(n!==o)return!0;if(t[4])return!r[4];if(r[4])return!0;let u=Object.values(t[1])[0],l=Object.values(r[1])[0];return!u||!l||e(u,l)}}}),("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

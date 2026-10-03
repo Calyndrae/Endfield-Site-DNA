@@ -1,0 +1,355 @@
+{
+  "scope": "Original English home, operators, news and directly linked article 7013; depth one.",
+  "handbook": {
+    "template_url": "https://endfield.gryphline.com/en-us/news/7013",
+    "sections": 29,
+    "authored_css_rules": 0,
+    "authored_component_classes": 0,
+    "authored_animations": 0,
+    "change": "Article content and title data only, through the original bulletin provider. Original SSR and Flight payloads are unchanged."
+  },
+  "runtime": "Unmodified original CDN scripts; React owns original controls and layout. A data-only XHR adapter routes bulletin 7013 to the local handbook JSON.",
+  "routes": {
+    "/en-us/news/7013": "handbook/index.html",
+    "/en-us": "original/home-response.html",
+    "/en-us/operator": "original/operators-response.html",
+    "/en-us/news": "original/news-response.html"
+  },
+  "used_source_rules": [
+    {
+      "chapter": "colour",
+      "selector": ".OperatorItem_operatorItem__gPezu",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "colour",
+      "selector": ".OperatorItem_operatorItem__gPezu:hover",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "colour",
+      "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "typography",
+      "selector": ".OperatorItem_operatorItem__gPezu",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "typography",
+      "selector": ".OperatorItem_operatorItem__gPezu:hover",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "typography",
+      "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "text-rhythm",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "text-rhythm",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "text-rhythm",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "alignment",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "alignment",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "alignment",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "responsive",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "responsive",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "responsive",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "layer-stack",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "layer-stack",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "layer-stack",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "navigation",
+      "selector": ".Header_pcHeaderContainer__Sy_8l:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "navigation",
+      "selector": ".Header_pcHeaderContainer__Sy_8l.Header_showPreserveButton__Ksca8.Header_detailActive__ngqkN .Header_buttonFrameBg__2UVLH,.Header_pcHeaderContainer__Sy_8l.Header_showPreserveButton__Ksca8.Header_detailActive__ngqkN .Header_buttonFrameContainer__Uvshp",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "navigation",
+      "selector": ".Header_pcHeaderContainer__Sy_8l.Header_showPreserveButton__Ksca8.Header_detailActive__ngqkN .Header_buttonFrameBg__2UVLH.Header_oversea__kRwH0,.Header_pcHeaderContainer__Sy_8l.Header_showPreserveButton__Ksca8.Header_detailActive__ngqkN .Header_buttonFrameContainer__Uvshp.Header_oversea__kRwH0",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "footer",
+      "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_arrow__kIJ1K",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "footer",
+      "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u.footer_active__txpDc .footer_dropDown__SAbib",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "footer",
+      "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u.footer_active__txpDc .footer_arrow__kIJ1K",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "icons",
+      "selector": ".OperatorItem_operatorItem__gPezu",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "icons",
+      "selector": ".OperatorItem_operatorItem__gPezu:hover",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "icons",
+      "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "imagery",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "imagery",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "imagery",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "textures",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "textures",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_shallowBg__E2XaH",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "textures",
+      "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_shallowBg__E2XaH:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "catalogue",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "catalogue",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "catalogue",
+      "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "cards",
+      "selector": ".OperatorItem_operatorItem__gPezu",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "cards",
+      "selector": ".OperatorItem_operatorItem__gPezu:hover",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "cards",
+      "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "filters",
+      "selector": ".Dropdown_root__O4Qqi.Dropdown_disabled__XU9e7",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "filters",
+      "selector": ".Dropdown_root__O4Qqi.Dropdown_elem__qJRg3 .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=none],.Dropdown_root__O4Qqi.Dropdown_prof__WoV4u .Dropdown_trigger__mA0mP .Dropdown_icon__yfwMq[data-key=none]",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "filters",
+      "selector": ".Dropdown_trigger__mA0mP",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "stage",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "stage",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "stage",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "video",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "video",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "video",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "loader",
+      "selector": ".__00-Loading_container__aBijT .__00-Loading_bg__mahvH",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "loader",
+      "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "loader",
+      "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "entrance",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "entrance",
+      "selector": ".__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerSubtitle__bTAer,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8 .__02-Operator_dividerTitle__yHdrt,.__02-Operator_sectionDivider__PbN7_.__02-Operator_active__5YfL8:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "entrance",
+      "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+    },
+    {
+      "chapter": "hover",
+      "selector": ".OperatorItem_operatorItem__gPezu",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "hover",
+      "selector": ".OperatorItem_operatorItem__gPezu:hover",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "hover",
+      "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+    },
+    {
+      "chapter": "scroll",
+      "selector": ".__03-Lore_sectionDivider__RVkKY:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "scroll",
+      "selector": ".__03-Lore_sectionDivider__RVkKY:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "scroll",
+      "selector": ".__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:after,.__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:before",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+    },
+    {
+      "chapter": "motion-system",
+      "selector": ".__00-Loading_container__aBijT .__00-Loading_bg__mahvH",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "motion-system",
+      "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    },
+    {
+      "chapter": "motion-system",
+      "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd:after",
+      "stylesheet": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+    }
+  ],
+  "materials": {
+    "portrait_records": 33,
+    "hero_illustrations": 33,
+    "video_pairs": 33,
+    "taxonomy_icons": 12,
+    "audio_references": 13,
+    "css_files": 11,
+    "js_chunks": 30
+  },
+  "limits": [
+    "All homepage and catalogue components are retained through the original page runtime; not every interaction has yet been browser-tested.",
+    "Account/payment actions and deeper linked routes are outside this local depth-one mirror.",
+    "Large images, video, fonts and audio remain remote original assets; no local media archive."
+  ],
+  "raw_response_hashes": {
+    "article-response.html": "1e16f2ffad88c14ce3e70d4fb3d38306b3fd04cf901de8fc5028f987bec6a4f5",
+    "home-response.html": "dfaa3d156c03417216b44311f8ec69c09149067c2091b32d40318e79f1087f38",
+    "news-response.html": "3afd41c00b2d49d1d68ece0e46493c71c9a5864ef1dfa295e1b7e71dd5d15f37",
+    "operators-response.html": "c023167e8057dfd6a688c62af3c43e242894deda8b92e6f153602ab344f93346"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "module": 12914,
+  "summary": "MediaModalStore keeps a zustand store {visible, title, src, onClose} with an activate(title, src, onClose) action; export C is a hook returning that action and export A is the MediaModal component wrapped in the module 44990 `D` container. While visible it disables BackgroundMusic and sends a video_play_start tracking event (video_title, video_url), sending video_play_end on cleanup; when hidden it re-enables music if SoundControlStore is enabled and clears src after 300ms so the iframe unmounts after the close transition. The body renders a close button (SvgIcon29190) and a YouTube iframe with allow 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' and allowFullScreen.",
+  "exports": {
+    "A": "MediaModal",
+    "C": "useActivateMediaModal"
+  },
+  "renames": {
+    "p_1": "useMediaModalStore",
+    "e_5": "set",
+    "t_6": "modalTitle",
+    "a_7": "modalSrc",
+    "n_8": "modalOnClose",
+    "v_2": "useActivateMediaModal",
+    "e_9": "modalState",
+    "L_3": "MediaModalInner",
+    "e_10": "innerProps",
+    "t_11": "innerClassName",
+    "a_12": "innerStyle",
+    "r_13": "visible",
+    "o_14": "title",
+    "c_15": "src",
+    "m_16": "onClose",
+    "f_4": "MediaModal",
+    "e_17": "props",
+    "t_18": "className",
+    "a_19": "style"
+  }
+}

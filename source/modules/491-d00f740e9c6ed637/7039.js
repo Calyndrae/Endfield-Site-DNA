@@ -1,0 +1,3 @@
+// module 7039 from 491-d00f740e9c6ed637.js
+// deps: 96424, 55649, 98488
+const module_7039 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"ClientSegmentRoot",{enumerable:!0,get:function(){return o}});let n=r(96424);function o(e){let{Component:t,slots:o,params:u,promise:l}=e;{let{createRenderParamsFromClient:e}=r(55649),l=e(u);return(0,n.jsx)(t,{...o,params:l})}}r(98488),("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

@@ -1,0 +1,332 @@
+[
+  {
+    "index": 1,
+    "key": "typhoea",
+    "name": "Typhoeus",
+    "codename": "Typhoeus",
+    "rarity": 6,
+    "profession": "assault",
+    "element": "nature",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png"
+  },
+  {
+    "index": 2,
+    "key": "purrche",
+    "name": "Purrchena",
+    "codename": "Purrchena",
+    "rarity": 5,
+    "profession": "shielder",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png"
+  },
+  {
+    "index": 3,
+    "key": "endministrator2",
+    "name": "Endministrator",
+    "codename": "Endministrator",
+    "rarity": 6,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png"
+  },
+  {
+    "index": 4,
+    "key": "endministrator1",
+    "name": "Endministrator",
+    "codename": "Endministrator",
+    "rarity": 6,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.c391b13d.png"
+  },
+  {
+    "index": 5,
+    "key": "perlica",
+    "name": "Perlica",
+    "codename": "Perlica",
+    "rarity": 5,
+    "profession": "caster",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prelica.d0bbdb53.png"
+  },
+  {
+    "index": 6,
+    "key": "chen",
+    "name": "Chen Qianyu",
+    "codename": "Chen Qianyu",
+    "rarity": 5,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.b0afd1ba.png"
+  },
+  {
+    "index": 7,
+    "key": "lizhiyan",
+    "name": "Arcane",
+    "codename": "Arcane",
+    "rarity": 6,
+    "profession": "caster",
+    "element": "nature",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png"
+  },
+  {
+    "index": 8,
+    "key": "liino",
+    "name": "Liino",
+    "codename": "Liino",
+    "rarity": 6,
+    "profession": "support",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.8d027d2a.png"
+  },
+  {
+    "index": 9,
+    "key": "mifu",
+    "name": "Mi Fu",
+    "codename": "Mi Fu",
+    "rarity": 6,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.e1d79970.png"
+  },
+  {
+    "index": 10,
+    "key": "camille",
+    "name": "Camille",
+    "codename": "Camille",
+    "rarity": 6,
+    "profession": "vanguard",
+    "element": "fire",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.a26b2443.png"
+  },
+  {
+    "index": 11,
+    "key": "zhuangfy",
+    "name": "Zhuang Fangyi",
+    "codename": "Zhuang Fangyi",
+    "rarity": 6,
+    "profession": "assault",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.50a608b8.png"
+  },
+  {
+    "index": 12,
+    "key": "tangtang",
+    "name": "Tangtang",
+    "codename": "Tangtang",
+    "rarity": 6,
+    "profession": "caster",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png"
+  },
+  {
+    "index": 13,
+    "key": "rossi",
+    "name": "Rossi",
+    "codename": "Rossi",
+    "rarity": 6,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.c58b721b.png"
+  },
+  {
+    "index": 14,
+    "key": "laevatain",
+    "name": "Laevatain",
+    "codename": "Laevatain",
+    "rarity": 6,
+    "profession": "assault",
+    "element": "fire",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.edd103d4.png"
+  },
+  {
+    "index": 15,
+    "key": "yvonne",
+    "name": "Yvonne",
+    "codename": "Yvonne",
+    "rarity": 6,
+    "profession": "assault",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.9695c304.png"
+  },
+  {
+    "index": 16,
+    "key": "gilberta",
+    "name": "Gilberta",
+    "codename": "Gilberta",
+    "rarity": 6,
+    "profession": "support",
+    "element": "nature",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.724f3503.png"
+  },
+  {
+    "index": 17,
+    "key": "ardelia",
+    "name": "Ardelia",
+    "codename": "Ardelia",
+    "rarity": 6,
+    "profession": "support",
+    "element": "nature",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.565c75af.png"
+  },
+  {
+    "index": 18,
+    "key": "ember",
+    "name": "Ember",
+    "codename": "Ember",
+    "rarity": 6,
+    "profession": "shielder",
+    "element": "fire",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.6391acf9.png"
+  },
+  {
+    "index": 19,
+    "key": "lastrite",
+    "name": "Last Rite",
+    "codename": "Last Rite",
+    "rarity": 6,
+    "profession": "assault",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.3860f541.png"
+  },
+  {
+    "index": 20,
+    "key": "lifeng",
+    "name": "Lifeng",
+    "codename": "Lifeng",
+    "rarity": 6,
+    "profession": "guard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.ef41bc3a.png"
+  },
+  {
+    "index": 21,
+    "key": "pogranichnik",
+    "name": "Pogranichnik",
+    "codename": "Pogranichnik",
+    "rarity": 6,
+    "profession": "vanguard",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.80f2ddbb.png"
+  },
+  {
+    "index": 22,
+    "key": "alesh",
+    "name": "Alesh",
+    "codename": "Alesh",
+    "rarity": 5,
+    "profession": "vanguard",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.d7f457d2.png"
+  },
+  {
+    "index": 23,
+    "key": "arclight",
+    "name": "Arclight",
+    "codename": "Arclight",
+    "rarity": 5,
+    "profession": "vanguard",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e31580d7.png"
+  },
+  {
+    "index": 24,
+    "key": "avywenna",
+    "name": "Avywenna",
+    "codename": "Avywenna",
+    "rarity": 5,
+    "profession": "assault",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.2a592659.png"
+  },
+  {
+    "index": 25,
+    "key": "dapan",
+    "name": "Da Pan",
+    "codename": "Da Pan",
+    "rarity": 5,
+    "profession": "assault",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7cdb6a4e.png"
+  },
+  {
+    "index": 26,
+    "key": "snowshine",
+    "name": "Snowshine",
+    "codename": "Snowshine",
+    "rarity": 5,
+    "profession": "shielder",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.bb2c0bdc.png"
+  },
+  {
+    "index": 27,
+    "key": "wulfgard",
+    "name": "Wulfgard",
+    "codename": "Wulfgard",
+    "rarity": 5,
+    "profession": "caster",
+    "element": "fire",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.609a252f.png"
+  },
+  {
+    "index": 28,
+    "key": "xaihi",
+    "name": "Xaihi",
+    "codename": "Xaihi",
+    "rarity": 5,
+    "profession": "support",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9ba3eb36.png"
+  },
+  {
+    "index": 29,
+    "key": "akekuri",
+    "name": "Akekuri",
+    "codename": "Akekuri",
+    "rarity": 4,
+    "profession": "vanguard",
+    "element": "fire",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3603d013.png"
+  },
+  {
+    "index": 30,
+    "key": "antal",
+    "name": "Antal",
+    "codename": "Antal",
+    "rarity": 4,
+    "profession": "support",
+    "element": "electric",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.763c87e4.png"
+  },
+  {
+    "index": 31,
+    "key": "catcher",
+    "name": "Catcher",
+    "codename": "Catcher",
+    "rarity": 4,
+    "profession": "shielder",
+    "element": "physic",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.bc6bcfaa.png"
+  },
+  {
+    "index": 32,
+    "key": "estella",
+    "name": "Estella",
+    "codename": "Estella",
+    "rarity": 4,
+    "profession": "guard",
+    "element": "ice",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.38c423af.png"
+  },
+  {
+    "index": 33,
+    "key": "fluorite",
+    "name": "Fluorite",
+    "codename": "Fluorite",
+    "rarity": 4,
+    "profession": "caster",
+    "element": "nature",
+    "portrait_url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.5a8add29.png"
+  }
+]

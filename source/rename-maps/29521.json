@@ -1,0 +1,10 @@
+{
+  "module": 29521,
+  "summary": "TrackingGroups (export Z) maps homepage section ids to the analytics group names sent with Tracking.collect: home -> section_homepage, notice -> section_announcement, operator -> section_character, lore -> section_lore, information -> section_video, aic -> section_knowledge, gameplay -> section_gameplay and milestone -> section_reservation_reward.",
+  "exports": {
+    "Z": "TRACKING_GROUPS"
+  },
+  "renames": {
+    "L_1": "TRACKING_GROUPS"
+  }
+}

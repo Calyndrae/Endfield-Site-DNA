@@ -1,0 +1,25 @@
+{
+  "module": 51967,
+  "summary": "TextShrink: a component (export A) that returns a string, truncating `text` with '...' so it fits options.length character widths. shrinkText measures with a 2D canvas context using font '16px <options.font>' and a width budget of 16 * options.length px: starting at length-3 characters it grows the candidate while candidate+'...' still fits, and returns candidate+'...' once the plain candidate also overflows; if no canvas is available it falls back to slice(0, length-3)+'...'. Returns the text unchanged when length is 0 or the text is already shorter. On the server it returns the raw text; on the client the result is recomputed in an effect whenever text or options change.",
+  "exports": {
+    "A": "TextShrink"
+  },
+  "renames": {
+    "i_1": "shrinkText",
+    "e_3": "sourceText",
+    "L_4": "shrinkOptions",
+    "t_5": "doc",
+    "a_6": "canvasContext",
+    "s_7": "truncated",
+    "t_8": "cutIndex",
+    "i_9": "candidate",
+    "n_10": "widthWithEllipsis",
+    "e_11": "widthPlain",
+    "n_2": "TextShrink",
+    "e_12": "props",
+    "L_13": "text",
+    "t_14": "options",
+    "n_15": "displayText",
+    "l_16": "setDisplayText"
+  }
+}

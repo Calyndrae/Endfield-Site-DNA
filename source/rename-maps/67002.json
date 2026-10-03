@@ -1,0 +1,15 @@
+{
+  "module": 67002,
+  "summary": "useCloseButton hook for the news detail page. On mount it checks DeviceUtils' Honor-browser user-agent test (/bdhonorbrowser/i, with an empty UA on the server) and whether window.opener exists on the same hostname; when the page was opened from the same site and not in that browser it sets showClose = true (any cross-origin access error resets it to false). It returns {showClose, handleClose} where handleClose calls window.close().",
+  "exports": {
+    "R": "useCloseButton"
+  },
+  "renames": {
+    "n_1": "useCloseButton",
+    "e_2": "showClose",
+    "L_3": "setShowClose",
+    "e_4": "isHonorBrowser",
+    "t_5": "openerWindow",
+    "e_6": "error"
+  }
+}

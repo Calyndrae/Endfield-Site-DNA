@@ -1,0 +1,18 @@
+{
+  "module": 60108,
+  "summary": "Fetch-based video list API. getVideoList({lang='zh-cn', cate, page=1, pageSize=10}) builds '/api/content/info_video?lang=<lang>&page=<page>&pageSize=<pageSize>' (plus '&cate=<cate>' when given), requests it from SiteConfig.api_server_host (https://endfield.gryphline.com) with fetch, and returns body.data when the HTTP status is 2xx/3xx and body.code === 0; otherwise it throws Error('Failed to fetch video list').",
+  "exports": {
+    "A": "getVideoList"
+  },
+  "renames": {
+    "o_1": "getVideoList",
+    "e_2": "params",
+    "n_3": "cate",
+    "t_4": "lang",
+    "o_5": "page",
+    "l_6": "pageSize",
+    "s_7": "path",
+    "a_8": "response",
+    "e_9": "body"
+  }
+}

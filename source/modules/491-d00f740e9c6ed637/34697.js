@@ -1,0 +1,3 @@
+// module 34697 from 491-d00f740e9c6ed637.js
+// deps: 18770, 19042
+const module_34697 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"normalizePathTrailingSlash",{enumerable:!0,get:function(){return u}});let n=r(18770),o=r(19042),u=e=>{if(!e.startsWith("/"))return e;let{pathname:t,query:r,hash:u}=(0,o.parsePath)(e);return""+(0,n.removeTrailingSlash)(t)+r+u};("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

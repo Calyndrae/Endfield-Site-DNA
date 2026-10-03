@@ -1,0 +1,3 @@
+// module 29979 from [lang]__(main)__layout-493920d1b65733f5.js
+// deps: 2142
+const module_29979 = (e,a,n)=>{"use strict";n.d(a,{A:()=>o});var i,t=n(2142);function r(){return(r=Object.assign?Object.assign.bind():function(e){for(var a=1;a<arguments.length;a++){var n=arguments[a];for(var i in n)({}).hasOwnProperty.call(n,i)&&(e[i]=n[i])}return e}).apply(null,arguments)}let o=function(e){return t.createElement("svg",r({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 1200 1226.37"},e),i||(i=t.createElement("path",{fill:"currentColor",d:"M714.16,519.28,1160.89,0H1055L667.14,450.89,357.33,0H0L468.49,681.82,0,1226.37H105.87L515.49,750.22l327.18,476.15H1200L714.14,519.28Zm-145,168.55-47.46-67.9L144,79.69h162.6l304.8,436,47.47,67.9,396.2,566.72H892.48L569.16,687.85Z"})))}};

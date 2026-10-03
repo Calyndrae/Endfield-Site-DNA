@@ -1,0 +1,97 @@
+{
+  "none": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option"
+    ]
+  },
+  "guard": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "caster": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "support": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "shielder": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "vanguard": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "assault": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "fire": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "ice": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "electric": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "nature": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  },
+  "physic": {
+    "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg",
+    "used_in": [
+      "dropdown trigger",
+      "dropdown option",
+      "operator card"
+    ]
+  }
+}

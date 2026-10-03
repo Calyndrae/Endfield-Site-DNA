@@ -1,0 +1,16 @@
+{
+  "module": 52652,
+  "summary": "HollowText (export A) is a forwardRef div with the CSS-module `hollowText` class (outlined text) that renders the `text` prop, merging className and style. displayName is set to 'HollowText'. OperatorSection uses it for the large 'ENDFIELD' background decoration.",
+  "exports": {
+    "A": "HollowText"
+  },
+  "renames": {
+    "s_1": "HollowTextForwardRef",
+    "e_3": "props",
+    "t_4": "ref",
+    "i_5": "text",
+    "a_6": "className",
+    "n_7": "style",
+    "C_2": "HollowText"
+  }
+}

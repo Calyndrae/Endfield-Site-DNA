@@ -1,0 +1,18 @@
+{
+  "module": 40489,
+  "summary": "TransparentVideo (export y) is a forwardRef React wrapper over the @hg-web/trans-video class from module 25221: it renders a <canvas> plus a hidden muted, playsInline, crossOrigin='anonymous' <video>, constructs the trans-video instance with manualStart:true on mount, exposes {video, trans, controller:{fadeOut}} through the forwarded ref (function or object ref) and disposes the instance on unmount. OperatorSection drives it by setting video.src to the operator's enter/idle clips and calling trans.activate().",
+  "exports": {
+    "y": "TransparentVideo"
+  },
+  "renames": {
+    "C_1": "TransparentVideo",
+    "e_2": "props",
+    "t_3": "forwardedRef",
+    "i_4": "className",
+    "n_5": "canvasRef",
+    "o_6": "videoRef",
+    "C_7": "transVideoRef",
+    "e_8": "handle",
+    "e_9": "transVideoInstance"
+  }
+}

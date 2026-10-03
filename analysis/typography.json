@@ -1,0 +1,3476 @@
+{
+ "fontFamilies": [
+  {
+   "family": "SansMedium",
+   "count": 42,
+   "components": {
+    "footer": 2,
+    "__00-landing": 3,
+    "SubpageTab": 1,
+    "HomeButton": 1,
+    "BackButton": 1,
+    "LandingGameplay": 2,
+    "__21-ProtocolDetail": 1,
+    "__10-NoticeList": 1,
+    "__20-NoticeDetail": 2,
+    "Button": 1,
+    "OrigQuery": 2,
+    "ReserveModal": 2,
+    "UserModal": 1,
+    "Header": 8,
+    "__00-Loading": 1,
+    "__02-Operator": 5,
+    "downloader": 1,
+    "h5-cn": 1,
+    "Dropdown": 1,
+    "OperatorItem": 1,
+    "GameplayAlbum": 2,
+    "__06-Notice": 2
+   },
+   "examples": [
+    {
+     "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_label__Jml0k",
+     "media": [],
+     "size": "1.25rem"
+    },
+    {
+     "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_links__rF_Sd .footer_link___h1wX span",
+     "media": [],
+     "size": "1.25rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J .__00-landing_inner__84DYj",
+     "media": [],
+     "size": "1.75em",
+     "lineHeight": "1.25"
+    },
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_downloadBtnSection__JwRf1 .__00-landing_downloadBtn__ht1hm",
+     "media": [],
+     "size": "2.58rem",
+     "letterSpacing": "-.083rem"
+    },
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_progress__cLF1E .__00-landing_progressText__nW5Xv .__00-landing_core__rtTPO .__00-landing_value___Ao7D",
+     "media": [],
+     "size": "4.375rem"
+    },
+    {
+     "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+     "media": [],
+     "size": "1.75rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4",
+     "media": [],
+     "size": "2.25rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".BackButton_backButton__5Hmrb",
+     "media": [],
+     "size": "1.25rem"
+    }
+   ]
+  },
+  {
+   "family": "SansRegular",
+   "count": 27,
+   "components": {
+    "__00-landing": 2,
+    "__03-Lore": 3,
+    "__21-ProtocolDetail": 2,
+    "__10-NoticeList": 2,
+    "__20-NoticeDetail": 2,
+    "ModalFrame": 1,
+    "OrigQuery": 2,
+    "ReserveModal": 4,
+    "UserModal": 1,
+    "__00-Loading": 2,
+    "__02-Operator": 1,
+    "downloader": 2,
+    "pc-cn": 1,
+    "__04-Information": 2
+   },
+   "examples": [
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_moreDeco__rzxLT .__00-landing_slogan__DK8U6",
+     "media": [],
+     "size": "1.5rem"
+    },
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_progress__cLF1E .__00-landing_progressText__nW5Xv .__00-landing_core__rtTPO .__00-landing_symbol__T7BTz",
+     "media": [],
+     "size": "3.25rem"
+    },
+    {
+     "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet",
+     "media": [],
+     "size": "2.25rem"
+    },
+    {
+     "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeIntro__ejmyT",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "1.6"
+    },
+    {
+     "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeIntro__ejmyT",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "1.6"
+    },
+    {
+     "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_type__aukHo",
+     "media": [
+      "@media (orientation:portrait)"
+     ],
+     "size": "2.25rem",
+     "lineHeight": "3rem"
+    },
+    {
+     "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_date__4P6Uo",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "2rem"
+    },
+    {
+     "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_empty__omDeT",
+     "media": [],
+     "size": "2rem",
+     "lineHeight": "1"
+    }
+   ]
+  },
+  {
+   "family": "Gilroy-Medium",
+   "count": 19,
+   "components": {
+    "__00-landing": 1,
+    "SubpageHeader": 2,
+    "SectionTitle": 1,
+    "__03-gameplay": 1,
+    "LandingGameplay": 2,
+    "__03-Lore": 3,
+    "__04-finalpage": 1,
+    "__02-Operator": 4,
+    "GameplayAlbum": 2,
+    "__05-Gameplay": 1,
+    "__08-AIC": 1
+   },
+   "examples": [
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J:before",
+     "media": [],
+     "size": "1.375em"
+    },
+    {
+     "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:before",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq .SubpageHeader_titleEn__lisEh",
+     "media": [],
+     "size": "1.25rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_arrowBlock__6yIDQ .SectionTitle_inner__gfAIX .SectionTitle_titleEn__dE__j",
+     "media": [],
+     "size": "2.25rem",
+     "lineHeight": "2rem"
+    },
+    {
+     "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_H5DecoLine__Ph_a_ .__03-gameplay_line__F8G6S .__03-gameplay_ak__YunnK",
+     "media": [],
+     "size": "1.125rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_H5DecoLine__pbNCF .LandingGameplay_line__zSgnu .LandingGameplay_ak__o4ZeQ",
+     "media": [],
+     "size": "1.125rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_imageContainer__Xl75Q .LandingGameplay_rightDeco__eSHXc .LandingGameplay_line__zSgnu .LandingGameplay_ak__o4ZeQ",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerTitle__MhUik",
+     "media": [],
+     "size": "3.75rem"
+    }
+   ]
+  },
+  {
+   "family": "SansBold",
+   "count": 9,
+   "components": {
+    "LandingBottom": 2,
+    "SubpageHeader": 1,
+    "SectionTitle": 1,
+    "OrigQuery": 1,
+    "__02-Operator": 2,
+    "OperatorItem": 1,
+    "__06-Notice": 1
+   },
+   "examples": [
+    {
+     "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_content__sxeQ_",
+     "media": [],
+     "size": "4.75rem",
+     "letterSpacing": "-1px"
+    },
+    {
+     "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_downloadBtn__E_1hx",
+     "media": [],
+     "size": "2.5125rem",
+     "letterSpacing": "-1px"
+    },
+    {
+     "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_title__Rf0BE",
+     "media": [],
+     "size": "4.5rem",
+     "lineHeight": "5.125rem"
+    },
+    {
+     "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_titleCn__J1sPh",
+     "media": [],
+     "size": "3rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_origList__J7K7L .OrigQuery_origItem__bJHQb .OrigQuery_cnt___K4d2",
+     "media": [],
+     "size": "3rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_titleContainer__6rOf9 .__02-Operator_nameContainer__yjlQE .__02-Operator_title__Qc2kT",
+     "media": [],
+     "size": "4.875rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_title__Qc2kT",
+     "media": [],
+     "size": "4.875rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_name__OvU8c",
+     "media": [],
+     "lineHeight": "1"
+    }
+   ]
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "count": 6,
+   "components": {
+    "LandingBottom": 1,
+    "Pagination": 2,
+    "LandingGameplay": 1,
+    "OperatorItem": 1,
+    "GameplayAlbum": 1
+   },
+   "examples": [
+    {
+     "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_ark__LpbVt",
+     "media": [],
+     "size": "1rem"
+    },
+    {
+     "selector": ".Pagination_pagination__3IDBu .Pagination_paginationNumber__zqV_V",
+     "media": [],
+     "size": "1.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".Pagination_carousel__A3MAp .Pagination_block__RqQAA",
+     "media": [],
+     "size": "1.25rem"
+    },
+    {
+     "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_detail__xuYPi .LandingGameplay_index__WryAn",
+     "media": [],
+     "size": "2rem"
+    },
+    {
+     "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD .OperatorItem_index__ivv9h",
+     "media": [],
+     "size": "1.25rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_index__GY_gZ",
+     "media": [],
+     "size": "2rem"
+    }
+   ]
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "count": 6,
+   "components": {
+    "LandingGameplay": 2,
+    "__02-Operator": 2,
+    "GameplayAlbum": 2
+   },
+   "examples": [
+    {
+     "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_H5DecoLine__pbNCF .LandingGameplay_line__zSgnu .LandingGameplay_title__Nb5MA",
+     "media": [],
+     "size": "3.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_imageContainer__Xl75Q .LandingGameplay_rightDeco__eSHXc .LandingGameplay_line__zSgnu .LandingGameplay_title__Nb5MA",
+     "media": [],
+     "size": "4.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN",
+     "media": []
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN",
+     "media": []
+    },
+    {
+     "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+     "media": [],
+     "size": "3.5rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+     "media": [],
+     "size": "4.5rem",
+     "lineHeight": "1"
+    }
+   ]
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "count": 5,
+   "components": {
+    "Pagination": 1,
+    "__20-NoticeDetail": 1,
+    "HallowText": 1,
+    "__02-Operator": 2
+   },
+   "examples": [
+    {
+     "selector": ".Pagination_carousel__A3MAp .Pagination_block__RqQAA.Pagination_active__jZfae",
+     "media": []
+    },
+    {
+     "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_b__aqWxI:after",
+     "media": [],
+     "size": "6rem",
+     "lineHeight": "1",
+     "letterSpacing": "-.06em"
+    },
+    {
+     "selector": ".HallowText_hollowText__OJN57",
+     "media": [],
+     "size": "15.625rem",
+     "lineHeight": "1",
+     "letterSpacing": "-.625rem"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoText__3RgCN",
+     "media": [],
+     "size": "30.5rem",
+     "lineHeight": ".58",
+     "letterSpacing": "-.08em"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoText__3RgCN",
+     "media": [],
+     "size": "26rem",
+     "lineHeight": ".58",
+     "letterSpacing": "-.08em"
+    }
+   ]
+  },
+  {
+   "family": "Gilroy-Light",
+   "count": 5,
+   "components": {
+    "SubpageHeader": 1,
+    "__03-Lore": 3,
+    "__02-Operator": 1
+   },
+   "examples": [
+    {
+     "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:after",
+     "media": [],
+     "size": "1rem",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerSubtitle__HepaK",
+     "media": [],
+     "size": "1.875rem"
+    },
+    {
+     "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeCodename__J0dsJ",
+     "media": [],
+     "size": "7.5rem",
+     "lineHeight": "5.625rem",
+     "letterSpacing": "0"
+    },
+    {
+     "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeCodename__J0dsJ",
+     "media": [],
+     "size": "6rem",
+     "lineHeight": "5.625rem",
+     "letterSpacing": "0"
+    },
+    {
+     "selector": ".__02-Operator_sectionDivider__PbN7_ .__02-Operator_dividerSubtitle__bTAer",
+     "media": [],
+     "size": "1.875rem"
+    }
+   ]
+  },
+  {
+   "family": "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif",
+   "count": 3,
+   "components": {
+    "footer": 2,
+    "__06-Notice": 1
+   },
+   "examples": [
+    {
+     "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_text__DmOwe",
+     "media": [],
+     "size": "1.25rem",
+     "weight": "500"
+    },
+    {
+     "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_dropDown__SAbib .footer_dropDownItem__PXJos",
+     "media": [],
+     "size": "1.25rem",
+     "weight": "500",
+     "lineHeight": "1"
+    },
+    {
+     "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_h5ContentContainer__QWOjo .__06-Notice_bulletinList__gTFKV .__06-Notice_bulletinItem__ckhFt .__06-Notice_title__YvY2R",
+     "media": [],
+     "size": "2.25rem",
+     "lineHeight": "1.25"
+    }
+   ]
+  },
+  {
+   "family": "sans-serif",
+   "count": 3,
+   "components": {
+    "Header": 1,
+    "protocol": 1
+   },
+   "examples": [
+    {
+     "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO",
+     "media": [],
+     "weight": "700"
+    },
+    {
+     "selector": "html.protocol_html__0huJ4",
+     "media": [],
+     "size": "16px"
+    },
+    {
+     "selector": "body,html",
+     "media": []
+    }
+   ]
+  },
+  {
+   "family": "SansBlack",
+   "count": 2,
+   "components": {
+    "LandingBottom": 1,
+    "__00-landing": 1
+   },
+   "examples": [
+    {
+     "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_gameDesc__sVnxi",
+     "media": [],
+     "size": "2rem",
+     "weight": "700",
+     "letterSpacing": "-1px"
+    },
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_gameFont__I4aKq",
+     "media": [],
+     "size": "2rem",
+     "lineHeight": "2.5rem",
+     "letterSpacing": "1rem"
+    }
+   ]
+  },
+  {
+   "family": "SpaceGrotesk",
+   "count": 2,
+   "components": {
+    "__02-Operator": 2
+   },
+   "examples": [
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_switchLayer__T81bw .__02-Operator_switcher3d__I_Eai:before",
+     "media": [],
+     "size": "1.25rem",
+     "weight": "400"
+    },
+    {
+     "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_switcher3d__I_Eai:before",
+     "media": [],
+     "size": "1.75rem",
+     "lineHeight": "1"
+    }
+   ]
+  },
+  {
+   "family": "HarmonyOS_Sans_SC_Bold",
+   "count": 1,
+   "components": {
+    "__00-landing": 1
+   },
+   "examples": [
+    {
+     "selector": ".__00-landing_container__0qC45 .__00-landing_begin__wwvDQ",
+     "media": [],
+     "size": "6.8rem",
+     "letterSpacing": "-.58rem"
+    }
+   ]
+  },
+  {
+   "family": "unset",
+   "count": 1,
+   "components": {
+    "Toast": 1
+   },
+   "examples": [
+    {
+     "selector": ".Toast_toast__ZnoVW .Toast_content__a8lPb",
+     "media": [],
+     "size": "16px",
+     "lineHeight": "1.4"
+    }
+   ]
+  }
+ ],
+ "fontFaces": [
+  {
+   "family": "ProtestStrike-Regular",
+   "src": "local(\"ProtestStrike-Regular\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.7d04dd.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.8cd908.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.13abe8.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Roboto-Regular",
+   "src": "local(\"Roboto-Regular\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.978751.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.47822e.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.6e6837.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Roboto-Black",
+   "src": "local(\"Roboto-Black\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6e4071.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6a179a.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.44fd4a.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Gilroy-Light",
+   "src": "local(\"Gilroy-Light\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.9981d6.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.d7cc70.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.dab230.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "src": "local(\"Novecentosanswide-Bold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fdbac.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fc194.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.2e0acc.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "src": "local(\"Novecentosanswide-DemiBold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.089c2d.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.9da0ec.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.be3c15.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "src": "local(\"Novecentosanswide-Medium\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.748604.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.ef16a8.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.b77880.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Gilroy-Medium",
+   "src": "local(\"Gilroy-Medium\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.376b06.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.543de8.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.4f7868.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "Gilroy-ExtraBold",
+   "src": "local(\"Gilroy-ExtraBold\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.7b2f8c.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.b8f935.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.9856d3.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "SpaceGrotesk",
+   "src": "local(\"SpaceGrotesk\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.edd157.woff2) format(\"woff2\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.912379.woff) format(\"woff\"),url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.d83d94.ttf) format(\"truetype\")",
+   "weight": "400",
+   "display": "swap",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "family": "swiper-icons",
+   "src": "url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA\")",
+   "weight": "400",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  }
+ ],
+ "rules": [
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_ark__LpbVt",
+   "component": "LandingBottom",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "1rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_gameDesc__sVnxi",
+   "component": "LandingBottom",
+   "media": [],
+   "family": "SansBlack",
+   "size": "2rem",
+   "weight": "700",
+   "letterSpacing": "-1px",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_content__sxeQ_",
+   "component": "LandingBottom",
+   "media": [],
+   "family": "SansBold",
+   "size": "4.75rem",
+   "letterSpacing": "-1px",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_content__sxeQ_",
+   "component": "LandingBottom",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_downloadBtn__E_1hx",
+   "component": "LandingBottom",
+   "media": [],
+   "family": "SansBold",
+   "size": "2.5125rem",
+   "letterSpacing": "-1px",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_downloadBtn__E_1hx",
+   "component": "LandingBottom",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_label__Jml0k",
+   "component": "footer",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_label__Jml0k",
+   "component": "footer",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_text__DmOwe",
+   "component": "footer",
+   "media": [],
+   "family": "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif",
+   "size": "1.25rem",
+   "weight": "500",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_text__DmOwe",
+   "component": "footer",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_dropDown__SAbib .footer_dropDownItem__PXJos",
+   "component": "footer",
+   "media": [],
+   "family": "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif",
+   "size": "1.25rem",
+   "weight": "500",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_dropDown__SAbib .footer_dropDownItem__PXJos",
+   "component": "footer",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_links__rF_Sd .footer_link___h1wX span",
+   "component": "footer",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_links__rF_Sd .footer_link___h1wX span",
+   "component": "footer",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J",
+   "component": "__00-landing",
+   "media": [],
+   "size": ".875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J:before",
+   "component": "__00-landing",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.375em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J .__00-landing_inner__84DYj",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.75em",
+   "lineHeight": "1.25",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J .__00-landing_inner__84DYj .__00-landing_text__UHuRO",
+   "component": "__00-landing",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_begin__wwvDQ",
+   "component": "__00-landing",
+   "media": [],
+   "family": "HarmonyOS_Sans_SC_Bold",
+   "size": "6.8rem",
+   "letterSpacing": "-.58rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_gameFont__I4aKq",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansBlack",
+   "size": "2rem",
+   "lineHeight": "2.5rem",
+   "letterSpacing": "1rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_downloadBtnSection__JwRf1 .__00-landing_downloadBtn__ht1hm",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2.58rem",
+   "letterSpacing": "-.083rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_moreDeco__rzxLT .__00-landing_slogan__DK8U6",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_progress__cLF1E .__00-landing_progressText__nW5Xv .__00-landing_core__rtTPO",
+   "component": "__00-landing",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_progress__cLF1E .__00-landing_progressText__nW5Xv .__00-landing_core__rtTPO .__00-landing_value___Ao7D",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansMedium",
+   "size": "4.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_progress__cLF1E .__00-landing_progressText__nW5Xv .__00-landing_core__rtTPO .__00-landing_symbol__T7BTz",
+   "component": "__00-landing",
+   "media": [],
+   "family": "SansRegular",
+   "size": "3.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_paginationNumber__zqV_V",
+   "component": "Pagination",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_carousel__A3MAp .Pagination_block__RqQAA",
+   "component": "Pagination",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_carousel__A3MAp .Pagination_block__RqQAA.Pagination_active__jZfae",
+   "component": "Pagination",
+   "media": [],
+   "family": "Novecentosanswide-Bold",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:before",
+   "component": "SubpageHeader",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:before",
+   "component": "SubpageHeader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:after",
+   "component": "SubpageHeader",
+   "media": [],
+   "family": "Gilroy-Light",
+   "size": "1rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq:after",
+   "component": "SubpageHeader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq .SubpageHeader_titleEn__lisEh",
+   "component": "SubpageHeader",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.25rem",
+   "lineHeight": "1",
+   "transform": "uppercase",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_decoHeader__9Vyiq .SubpageHeader_titleEn__lisEh",
+   "component": "SubpageHeader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_title__Rf0BE",
+   "component": "SubpageHeader",
+   "media": [],
+   "family": "SansBold",
+   "size": "4.5rem",
+   "lineHeight": "5.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageHeader_subpageHeader__eGnaM .SubpageHeader_title__Rf0BE",
+   "component": "SubpageHeader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3.625rem",
+   "lineHeight": "4.1875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+   "component": "SubpageTab",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.75rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+   "component": "SubpageTab",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4",
+   "component": "HomeButton",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2.25rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4",
+   "component": "HomeButton",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb",
+   "component": "BackButton",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_arrowBlock__6yIDQ .SectionTitle_inner__gfAIX .SectionTitle_titleEn__dE__j",
+   "component": "SectionTitle",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "2.25rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_titleCn__J1sPh",
+   "component": "SectionTitle",
+   "media": [],
+   "family": "SansBold",
+   "size": "3rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_H5DecoLine__Ph_a_ .__03-gameplay_line__F8G6S .__03-gameplay_ak__YunnK",
+   "component": "__03-gameplay",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_H5DecoLine__pbNCF .LandingGameplay_line__zSgnu .LandingGameplay_title__Nb5MA",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "size": "3.5rem",
+   "lineHeight": "1",
+   "transform": "uppercase",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_H5DecoLine__pbNCF .LandingGameplay_line__zSgnu .LandingGameplay_ak__o4ZeQ",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_imageContainer__Xl75Q .LandingGameplay_rightDeco__eSHXc .LandingGameplay_line__zSgnu .LandingGameplay_title__Nb5MA",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "size": "4.5rem",
+   "lineHeight": "1",
+   "transform": "uppercase",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_imageContainer__Xl75Q .LandingGameplay_rightDeco__eSHXc .LandingGameplay_line__zSgnu .LandingGameplay_ak__o4ZeQ",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_detail__xuYPi .LandingGameplay_index__WryAn",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_detail__xuYPi .LandingGameplay_title__Nb5MA",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "SansMedium",
+   "size": "3rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_detail__xuYPi .LandingGameplay_title__Nb5MA",
+   "component": "LandingGameplay",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "letterSpacing": "-.04em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingGameplay_gameplayAlbum__Xu9oc .LandingGameplay_detail__xuYPi .LandingGameplay_description__FoT0U",
+   "component": "LandingGameplay",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "lineHeight": "1.5",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY",
+   "component": "__03-Lore",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerSubtitle__HepaK",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Light",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerTitle__MhUik",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "3.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeCodename__J0dsJ",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Light",
+   "size": "7.5rem",
+   "lineHeight": "5.625rem",
+   "letterSpacing": "0",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeCodename__J0dsJ",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "8.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_gameCode__bOpmz",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.75rem",
+   "lineHeight": "1",
+   "letterSpacing": "0",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_gameCode__bOpmz",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "SansRegular",
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_paging__MWW6H",
+   "component": "__03-Lore",
+   "media": [],
+   "size": "1rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_paging__MWW6H",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "lineHeight": "1.2",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".de-de .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".es-mx .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".fr-fr .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".id-id .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".it-it .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".pt-br .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".ru-ru .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".th-th .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".vi-vn .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".de-de .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".es-mx .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".fr-fr .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".id-id .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".9em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".it-it .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".pt-br .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".ru-ru .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".75em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".th-th .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".vi-vn .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".8em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeIntro__ejmyT",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "1.6",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeIntro__ejmyT",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_gameCode__bOpmz",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.75rem",
+   "lineHeight": "1",
+   "letterSpacing": "0",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_gameCode__bOpmz",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeCodename__J0dsJ",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "Gilroy-Light",
+   "size": "6rem",
+   "lineHeight": "5.625rem",
+   "letterSpacing": "0",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeCodename__J0dsJ",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "8.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeIntro__ejmyT",
+   "component": "__03-Lore",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "1.6",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeIntro__ejmyT",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_paging__MWW6H",
+   "component": "__03-Lore",
+   "media": [],
+   "size": "1rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_paging__MWW6H",
+   "component": "__03-Lore",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY:after",
+   "component": "__03-Lore",
+   "media": [],
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_type__aukHo",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_type__aukHo",
+   "component": "__21-ProtocolDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "family": "SansRegular",
+   "size": "2.25rem",
+   "lineHeight": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_date__4P6Uo",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_date__4P6Uo",
+   "component": "__21-ProtocolDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "lineHeight": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "size": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe",
+   "component": "__21-ProtocolDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3rem",
+   "weight": "500",
+   "lineHeight": "4.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_content__gnmVJ",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "size": "1.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__04-finalpage_sectionContainer__w2kZ2 .__04-finalpage_H5DecoLine__6JDMm .__04-finalpage_line__MD98H .__04-finalpage_ak__6940y",
+   "component": "__04-finalpage",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [],
+   "size": "4.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=es-mx] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=de-de] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.875rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=it-it] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=it-it] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=id-id] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .__04-finalpage_aicTitle__h9vYe",
+   "component": "__04-finalpage",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".Toast_toast__ZnoVW .Toast_content__a8lPb",
+   "component": "Toast",
+   "media": [],
+   "family": "unset",
+   "size": "16px",
+   "lineHeight": "1.4",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_empty__omDeT",
+   "component": "__10-NoticeList",
+   "media": [],
+   "family": "SansRegular",
+   "size": "2rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_subtitle__dBFIV .__10-NoticeList_type__v9OVw",
+   "component": "__10-NoticeList",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_subtitle__dBFIV .__10-NoticeList_type__v9OVw",
+   "component": "__10-NoticeList",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.5rem",
+   "lineHeight": "1.8125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_subtitle__dBFIV .__10-NoticeList_date__oellB",
+   "component": "__10-NoticeList",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_subtitle__dBFIV .__10-NoticeList_date__oellB",
+   "component": "__10-NoticeList",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.5rem",
+   "lineHeight": "1.8125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_title__Z397h",
+   "component": "__10-NoticeList",
+   "media": [],
+   "size": "1.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_title__Z397h",
+   "component": "__10-NoticeList",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "lineHeight": "2.8125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_subtitle__Eu01S .__20-NoticeDetail_type__fRshy",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_subtitle__Eu01S .__20-NoticeDetail_type__fRshy",
+   "component": "__20-NoticeDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "family": "SansRegular",
+   "size": "2.25rem",
+   "lineHeight": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_subtitle__Eu01S .__20-NoticeDetail_date__A4MY4",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_subtitle__Eu01S .__20-NoticeDetail_date__A4MY4",
+   "component": "__20-NoticeDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "lineHeight": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_title__cALu9",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "size": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_title__cALu9",
+   "component": "__20-NoticeDetail",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3rem",
+   "weight": "500",
+   "lineHeight": "4.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "size": "1.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN .notice-detail-formula-table",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "size": "1.625rem",
+   "lineHeight": "1.5",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN .notice-detail-formula-table th",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "family": "SansMedium",
+   "weight": "500",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN .notice-detail-table-title",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "size": "1.75rem",
+   "weight": "700 !important",
+   "letterSpacing": ".08em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_content__wIAEN table th .__20-NoticeDetail_deco__Zftnf .__20-NoticeDetail_b__aqWxI:after",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "family": "Novecentosanswide-Bold",
+   "size": "6rem",
+   "lineHeight": "1",
+   "letterSpacing": "-.06em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS",
+   "component": "Button",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.75rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2",
+   "component": "ModalFrame",
+   "media": [],
+   "size": "1rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_title__Ozpn7",
+   "component": "ModalFrame",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.4375em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "component": "ModalFrame",
+   "media": [],
+   "family": "SansRegular",
+   "size": "3.75em",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "component": "ModalFrame",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "4.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "component": "ModalFrame",
+   "media": [
+    "@media (orientation:portrait)and (orientation:portrait)"
+   ],
+   "size": "4rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr",
+   "component": "OrigQuery",
+   "media": [],
+   "size": "1.375rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr",
+   "component": "OrigQuery",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr .OrigQuery_server__XejYj",
+   "component": "OrigQuery",
+   "media": [],
+   "family": "SansMedium",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_origList__J7K7L .OrigQuery_origItem__bJHQb .OrigQuery_label__JUfUn",
+   "component": "OrigQuery",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_origList__J7K7L .OrigQuery_origItem__bJHQb .OrigQuery_label__JUfUn",
+   "component": "OrigQuery",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_origList__J7K7L .OrigQuery_origItem__bJHQb .OrigQuery_cnt___K4d2",
+   "component": "OrigQuery",
+   "media": [],
+   "family": "SansBold",
+   "size": "3rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_origList__J7K7L .OrigQuery_origItem__bJHQb .OrigQuery_cnt___K4d2",
+   "component": "OrigQuery",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_notice__yVbTn",
+   "component": "OrigQuery",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "lineHeight": "1.5",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_contentContainer__pxVzl .OrigQuery_notice__yVbTn",
+   "component": "OrigQuery",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_error__5bRes .OrigQuery_text__F0tzY",
+   "component": "OrigQuery",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".HallowText_hollowText__OJN57",
+   "component": "HallowText",
+   "media": [],
+   "family": "Novecentosanswide-Bold",
+   "size": "15.625rem",
+   "lineHeight": "1",
+   "letterSpacing": "-.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_label__KbnpO",
+   "component": "ReserveModal",
+   "media": [],
+   "size": "1.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_label__KbnpO",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_number__5qi_C",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ja-jp] .ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_text__RQ_oF",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ja-jp] .ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_text__RQ_oF",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_text__RQ_oF",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_key__5TE_F",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .ReserveModal_reserveModal__xb3np.ReserveModal_oversea__76D5K .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_reservedText__Vj0Fp",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "1.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_label__KbnpO",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_label__KbnpO",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_number__5qi_C",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2.25rem",
+   "lineHeight": "3.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_number__5qi_C",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3rem",
+   "lineHeight": "4.9375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_text__RQ_oF",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.625rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_text__RQ_oF",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_key__5TE_F",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_key__5TE_F",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_reservedText__Vj0Fp",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_reservedText__Vj0Fp",
+   "component": "ReserveModal",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.3125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_cong__qvYwY",
+   "component": "ReserveModal",
+   "media": [],
+   "family": "SansRegular",
+   "size": "3rem",
+   "lineHeight": "1.25",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".UserModal_userModal__DfHfK .UserModal_modalContainer__yLLeK .UserModal_contentFrame__gVx0W .UserModal_label__IpsIV",
+   "component": "UserModal",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".UserModal_userModal__DfHfK .UserModal_modalContainer__yLLeK .UserModal_contentFrame__gVx0W .UserModal_currentUser__9nVX2",
+   "component": "UserModal",
+   "media": [],
+   "family": "SansMedium",
+   "size": "3rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB .Header_textWrapper__o9aHt",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.125rem",
+   "lineHeight": "1.25",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB .Header_textWrapper__o9aHt.Header_small__J1EYZ",
+   "component": "Header",
+   "media": [],
+   "size": "1rem",
+   "lineHeight": "1.25",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu .Header_textWrapper__o9aHt",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.125rem",
+   "lineHeight": ".9",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ja-jp] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=de-de] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=es-mx] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.5rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=th-th] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.75rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=en-us] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=id-id] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=it-it] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.375rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=ko-kr] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.25rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=fr-fr] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=pt-br] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh,html[lang=vi-vn] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "lineHeight": "1.125",
+   "letterSpacing": ".05em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_text2__cuV15",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=th-th] .Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_text2__cuV15",
+   "component": "Header",
+   "media": [],
+   "size": "1.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_menuButtons__IRjCZ .Header_button__b0gdu .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2rem",
+   "lineHeight": ".93",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_menuBottomButtons__XFDzp .Header_button__b0gdu .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=id-id] .Header_h5Menu__Tl_yj .Header_menuBottomButtons__XFDzp .Header_button__b0gdu:nth-child(2) .Header_text__52fEh,html[lang=it-it] .Header_h5Menu__Tl_yj .Header_menuBottomButtons__XFDzp .Header_button__b0gdu:nth-child(2) .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "family": "SansMedium",
+   "size": "2.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=it-it] .Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_text__52fEh[data-key=aic]",
+   "component": "Header",
+   "media": [],
+   "size": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_hallowText__ZR39f",
+   "component": "Header",
+   "media": [],
+   "size": "20rem",
+   "letterSpacing": "-.1em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO",
+   "component": "Header",
+   "media": [],
+   "family": "sans-serif",
+   "weight": "700",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO",
+   "component": "Header",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": ".625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT .__00-Loading_moreDeco__rmGYb .__00-Loading_slogan__54Pmd",
+   "component": "__00-Loading",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT .__00-Loading_progress__649iN .__00-Loading_progressText__EwQ1g .__00-Loading_core__K_Z5a",
+   "component": "__00-Loading",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT .__00-Loading_progress__649iN .__00-Loading_progressText__EwQ1g .__00-Loading_core__K_Z5a .__00-Loading_value__Zf_CS",
+   "component": "__00-Loading",
+   "media": [],
+   "family": "SansMedium",
+   "size": "4.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT .__00-Loading_progress__649iN .__00-Loading_progressText__EwQ1g .__00-Loading_core__K_Z5a .__00-Loading_symbol__2HzCd",
+   "component": "__00-Loading",
+   "media": [],
+   "family": "SansRegular",
+   "size": "3.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_",
+   "component": "__02-Operator",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_ .__02-Operator_dividerSubtitle__bTAer",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Gilroy-Light",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_ .__02-Operator_dividerTitle__yHdrt",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "3.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_backButton__XytXx",
+   "component": "__02-Operator",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN",
+   "component": "__02-Operator",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_leftBracket__MSSfG,.__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_rightBracket__YpY2O",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.375rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.5625rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_headerDeco__LZ5YX .__02-Operator_nameContainer__yjlQE",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1rem",
+   "lineHeight": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_titleContainer__6rOf9 .__02-Operator_nameContainer__yjlQE .__02-Operator_leftBracket__MSSfG,.__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_titleContainer__6rOf9 .__02-Operator_nameContainer__yjlQE .__02-Operator_rightBracket__YpY2O",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansMedium",
+   "size": "3.375rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_titleContainer__6rOf9 .__02-Operator_nameContainer__yjlQE .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansBold",
+   "size": "4.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_contentContainer__4GC_U .__02-Operator_tag__FQrt0",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.375rem",
+   "lineHeight": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_contentContainer__4GC_U .__02-Operator_detail__yB6fT",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.5625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoText__3RgCN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Novecentosanswide-Bold",
+   "size": "30.5rem",
+   "lineHeight": ".58",
+   "letterSpacing": "-.08em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_switchLayer__T81bw .__02-Operator_switcher3d__I_Eai:before",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SpaceGrotesk",
+   "size": "1.25rem",
+   "weight": "400",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_leftBracket__MSSfG,.__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_rightBracket__YpY2O",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.375rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_headerDeco__LZ5YX .__02-Operator_decoText__3RgCN .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.5625rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_backgroundDeco___Hj3d .__02-Operator_decoText__3RgCN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Novecentosanswide-Bold",
+   "size": "26rem",
+   "lineHeight": ".58",
+   "letterSpacing": "-.08em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE",
+   "component": "__02-Operator",
+   "media": [],
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_leftBracket__MSSfG,.__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_rightBracket__YpY2O",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansMedium",
+   "size": "4.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansBold",
+   "size": "4.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE.__02-Operator_small__PSfAP .__02-Operator_leftBracket__MSSfG,.__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE.__02-Operator_small__PSfAP .__02-Operator_rightBracket__YpY2O,.__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE.__02-Operator_small__PSfAP .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "4rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_leftBracket__MSSfG,html[lang=ru-ru] .__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_rightBracket__YpY2O,html[lang=ru-ru] .__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameContainer__yjlQE .__02-Operator_title__Qc2kT",
+   "component": "__02-Operator",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3.75rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_header__cBZck .__02-Operator_nameEnContainer___LIcI",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1rem",
+   "lineHeight": "1.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_switcher3d__I_Eai:before",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SpaceGrotesk",
+   "size": "1.75rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_detail__yB6fT .__02-Operator_tag__FQrt0",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "lineHeight": "2.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": "html[lang=th-th] .__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_detail__yB6fT .__02-Operator_tag__FQrt0",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_detail__yB6fT .__02-Operator_detail__yB6fT",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_index__2PakN",
+   "component": "__02-Operator",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.3125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_itemContainer__1m60G .__02-Operator_switchItem__GlihQ",
+   "component": "__02-Operator",
+   "media": [],
+   "size": "2.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": "html.protocol_html__0huJ4",
+   "component": "protocol",
+   "media": [],
+   "family": "sans-serif",
+   "size": "16px",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".protocol_body__7Bxrw",
+   "component": "protocol",
+   "media": [],
+   "lineHeight": "1.8",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": "body,html",
+   "component": null,
+   "media": [],
+   "family": "sans-serif",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".downloader_downloadTitle__cES4Y",
+   "component": "downloader",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.375rem",
+   "lineHeight": "2.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_downloadTitle__cES4Y",
+   "component": "downloader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_downloadTitle__cES4Y",
+   "component": "downloader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_text__HLbmJ",
+   "component": "downloader",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.375rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_text__HLbmJ",
+   "component": "downloader",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.0625rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq .downloader_label__oShj8",
+   "component": "downloader",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.625rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_lineButton__FyJOI .h5-cn_text__FNvPT",
+   "component": "h5-cn",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_text__c8Kv_",
+   "component": "pc-cn",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.375rem",
+   "lineHeight": "5.25rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_navContainer__rqqK9 .__04-Information_navInfo__iyDn2",
+   "component": "__04-Information",
+   "media": [],
+   "family": "SansRegular",
+   "size": "1.125rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_navContainer__rqqK9 .__04-Information_navInfo__iyDn2",
+   "component": "__04-Information",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_tagAndDate__T0klz",
+   "component": "__04-Information",
+   "media": [],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_tagAndDate__T0klz",
+   "component": "__04-Information",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_tagAndDate__T0klz .__04-Information_date__woGpE",
+   "component": "__04-Information",
+   "media": [],
+   "family": "SansRegular",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6",
+   "component": "__04-Information",
+   "media": [],
+   "size": "2rem",
+   "lineHeight": "1.8",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6",
+   "component": "__04-Information",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "3rem",
+   "lineHeight": "1.4",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6 .__04-Information_titleTextVisible__lx05a",
+   "component": "__04-Information",
+   "media": [],
+   "size": "3rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_title__nPfW6 .__04-Information_titleTextLandscape___DypD",
+   "component": "__04-Information",
+   "media": [],
+   "size": "inherit",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".Dropdown_root__O4Qqi",
+   "component": "Dropdown",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP",
+   "component": "Dropdown",
+   "media": [],
+   "size": "1.625rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe",
+   "component": "Dropdown",
+   "media": [],
+   "size": "1.375rem",
+   "lineHeight": "1.3",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_name__OvU8c",
+   "component": "OperatorItem",
+   "media": [],
+   "family": "SansBold",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD .OperatorItem_codename__U3_VI",
+   "component": "OperatorItem",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.25em",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD .OperatorItem_index__ivv9h",
+   "component": "OperatorItem",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "1.25rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoText__A14Ui",
+   "component": "__12-OperatorList",
+   "media": [],
+   "size": "31rem",
+   "letterSpacing": "-.06em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoText__A14Ui",
+   "component": "__12-OperatorList",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "24rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "size": "3.5rem",
+   "lineHeight": "1",
+   "transform": "uppercase",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_ak__S50eM",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "Novecentosanswide-DemiBold",
+   "size": "4.5rem",
+   "lineHeight": "1",
+   "transform": "uppercase",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_ak__S50eM",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_index__GY_gZ",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "Novecentosanswide-Medium",
+   "size": "2rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_title__OF3Ck",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "SansMedium",
+   "size": "3rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_title__OF3Ck",
+   "component": "GameplayAlbum",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "letterSpacing": "-.04em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_description__Q9cid",
+   "component": "GameplayAlbum",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "lineHeight": "1.5",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__05-Gameplay_sectionContainer__LN64O .__05-Gameplay_H5DecoLine__F59RG .__05-Gameplay_line__ONbLs .__05-Gameplay_ak__ICShZ",
+   "component": "__05-Gameplay",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_leftDeco__ML9u3 .__06-Notice_textWrapper__nvUA3 .__06-Notice_latest__ySg6h",
+   "component": "__06-Notice",
+   "media": [],
+   "family": "SansBold",
+   "size": "2.25rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .__06-Notice_sectionContainer__2x0Mi .__06-Notice_leftDeco__ML9u3 .__06-Notice_textWrapper__nvUA3 .__06-Notice_latest__ySg6h",
+   "component": "__06-Notice",
+   "media": [],
+   "letterSpacing": "-.05em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_titleContainer__xNob9 .__06-Notice_subtitle__T6dJ9",
+   "component": "__06-Notice",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.5rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_titleContainer__xNob9 .__06-Notice_title__YvY2R",
+   "component": "__06-Notice",
+   "media": [],
+   "size": "2.25rem",
+   "weight": "500",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=es-mx] .__06-Notice_sectionContainer__2x0Mi .__06-Notice_detailButton__1qReQ",
+   "component": "__06-Notice",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "1.5rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=it-it] .__06-Notice_sectionContainer__2x0Mi .__06-Notice_detailButton__1qReQ",
+   "component": "__06-Notice",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "1.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_h5ContentContainer__QWOjo .__06-Notice_bulletinList__gTFKV .__06-Notice_bulletinItem__ckhFt .__06-Notice_subtitle__T6dJ9",
+   "component": "__06-Notice",
+   "media": [],
+   "family": "SansMedium",
+   "size": "1.875rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_h5ContentContainer__QWOjo .__06-Notice_bulletinList__gTFKV .__06-Notice_bulletinItem__ckhFt .__06-Notice_subtitle__T6dJ9 .__06-Notice_type__2IeVk",
+   "component": "__06-Notice",
+   "media": [],
+   "lineHeight": "2.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_h5ContentContainer__QWOjo .__06-Notice_bulletinList__gTFKV .__06-Notice_bulletinItem__ckhFt .__06-Notice_subtitle__T6dJ9 .__06-Notice_date__pG4fQ",
+   "component": "__06-Notice",
+   "media": [],
+   "lineHeight": "2.375rem",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_h5ContentContainer__QWOjo .__06-Notice_bulletinList__gTFKV .__06-Notice_bulletinItem__ckhFt .__06-Notice_title__YvY2R",
+   "component": "__06-Notice",
+   "media": [],
+   "family": "Segoe UI,Roboto,Helvetica Neue,Arial,PingFang SC,PingFang TC,Microsoft YaHei,Microsoft JhengHei,Hiragino Sans GB,Hiragino Kaku Gothic Pro,Yu Gothic UI,Meiryo,Apple SD Gothic Neo,Malgun Gothic,Leelawadee UI,Thonburi,Noto Sans,sans-serif",
+   "size": "2.25rem",
+   "lineHeight": "1.25",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__08-AIC_sectionContainer__XPJyn .__08-AIC_H5DecoLine__yfqBS .__08-AIC_line__bHAKS .__08-AIC_ak__At8gA",
+   "component": "__08-AIC",
+   "media": [],
+   "family": "Gilroy-Medium",
+   "size": "1.125rem",
+   "lineHeight": "1",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=es-mx] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=de-de] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.875rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=it-it] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=it-it] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.02em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=id-id] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .__08-AIC_aicTitle__mWmiw",
+   "component": "__08-AIC",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "size": "2.5rem",
+   "letterSpacing": "-.03em",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  }
+ ],
+ "sizes": [
+  [
+   "1.5rem",
+   28
+  ],
+  [
+   "1.25rem",
+   18
+  ],
+  [
+   "2.25rem",
+   17
+  ],
+  [
+   "1.875rem",
+   17
+  ],
+  [
+   "2rem",
+   15
+  ],
+  [
+   "1.375rem",
+   15
+  ],
+  [
+   "3rem",
+   14
+  ],
+  [
+   "2.5rem",
+   13
+  ],
+  [
+   "1.125rem",
+   12
+  ],
+  [
+   "1.75rem",
+   11
+  ],
+  [
+   "1rem",
+   9
+  ],
+  [
+   "1.625rem",
+   9
+  ],
+  [
+   ".9em",
+   6
+  ],
+  [
+   ".75em",
+   6
+  ],
+  [
+   ".8em",
+   6
+  ],
+  [
+   "4.5rem",
+   4
+  ],
+  [
+   "3.5rem",
+   3
+  ],
+  [
+   "3.75rem",
+   3
+  ],
+  [
+   "1.5625rem",
+   3
+  ],
+  [
+   "4.875rem",
+   3
+  ],
+  [
+   "2.125rem",
+   2
+  ],
+  [
+   ".625rem",
+   2
+  ],
+  [
+   "4.375rem",
+   2
+  ],
+  [
+   "3.25rem",
+   2
+  ],
+  [
+   "8.125rem",
+   2
+  ],
+  [
+   "6rem",
+   2
+  ],
+  [
+   "2.875rem",
+   2
+  ],
+  [
+   "16px",
+   2
+  ],
+  [
+   "4rem",
+   2
+  ],
+  [
+   "2.625rem",
+   2
+  ],
+  [
+   "1.3125rem",
+   2
+  ],
+  [
+   "4.75rem",
+   1
+  ],
+  [
+   "2.5125rem",
+   1
+  ],
+  [
+   ".875rem",
+   1
+  ],
+  [
+   "1.375em",
+   1
+  ],
+  [
+   "1.75em",
+   1
+  ],
+  [
+   "6.8rem",
+   1
+  ],
+  [
+   "2.58rem",
+   1
+  ],
+  [
+   "3.625rem",
+   1
+  ],
+  [
+   "7.5rem",
+   1
+  ],
+  [
+   "4.25rem",
+   1
+  ],
+  [
+   "2.4375em",
+   1
+  ],
+  [
+   "3.75em",
+   1
+  ],
+  [
+   "15.625rem",
+   1
+  ],
+  [
+   "2.375rem",
+   1
+  ],
+  [
+   "20rem",
+   1
+  ],
+  [
+   "3.375rem",
+   1
+  ],
+  [
+   "30.5rem",
+   1
+  ],
+  [
+   "26rem",
+   1
+  ],
+  [
+   "2.0625rem",
+   1
+  ],
+  [
+   "inherit",
+   1
+  ],
+  [
+   "1.25em",
+   1
+  ],
+  [
+   "31rem",
+   1
+  ],
+  [
+   "24rem",
+   1
+  ]
+ ],
+ "lineHeights": [
+  [
+   "1",
+   69
+  ],
+  [
+   "2rem",
+   7
+  ],
+  [
+   "1.25",
+   5
+  ],
+  [
+   "1.5",
+   4
+  ],
+  [
+   "3rem",
+   4
+  ],
+  [
+   "5.625rem",
+   2
+  ],
+  [
+   "1.6",
+   2
+  ],
+  [
+   "4.375rem",
+   2
+  ],
+  [
+   "1.4",
+   2
+  ],
+  [
+   "1.8125rem",
+   2
+  ],
+  [
+   "1.25rem",
+   2
+  ],
+  [
+   "2.25rem",
+   2
+  ],
+  [
+   ".58",
+   2
+  ],
+  [
+   "1.8",
+   2
+  ],
+  [
+   "2.375rem",
+   2
+  ],
+  [
+   "2.5rem",
+   1
+  ],
+  [
+   "5.125rem",
+   1
+  ],
+  [
+   "4.1875rem",
+   1
+  ],
+  [
+   "1.2",
+   1
+  ],
+  [
+   "2.8125rem",
+   1
+  ],
+  [
+   "3.75rem",
+   1
+  ],
+  [
+   "4.9375rem",
+   1
+  ],
+  [
+   ".9",
+   1
+  ],
+  [
+   "1.125",
+   1
+  ],
+  [
+   ".93",
+   1
+  ],
+  [
+   "2.625rem",
+   1
+  ],
+  [
+   "5.25rem",
+   1
+  ],
+  [
+   "1.3",
+   1
+  ]
+ ],
+ "letterSpacings": [
+  [
+   "-.02em",
+   10
+  ],
+  [
+   "-.03em",
+   10
+  ],
+  [
+   "0",
+   4
+  ],
+  [
+   "-1px",
+   3
+  ],
+  [
+   "-.04em",
+   2
+  ],
+  [
+   "-.06em",
+   2
+  ],
+  [
+   "-.08em",
+   2
+  ],
+  [
+   "-.58rem",
+   1
+  ],
+  [
+   "1rem",
+   1
+  ],
+  [
+   "-.083rem",
+   1
+  ],
+  [
+   ".08em",
+   1
+  ],
+  [
+   "-.625rem",
+   1
+  ],
+  [
+   ".05em",
+   1
+  ],
+  [
+   "-.1em",
+   1
+  ],
+  [
+   "-.05em",
+   1
+  ]
+ ]
+}

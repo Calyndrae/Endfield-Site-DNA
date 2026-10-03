@@ -1,0 +1,3282 @@
+[
+ {
+  "url": "https://endfield.gryphline.com/en-us",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 55773,
+  "sha256": "80c5062955871efb9e1f6b101e45b10f85cf673f735df756a9dca4d597549444",
+  "stored": "capture/assets/fb4b514279c9.txt",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 94054,
+  "sha256": "51b3b9401833fd307df0b58fddb87deaab4c7e33fbb46c8722c88fe72ef843e7",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 8222,
+  "sha256": "1dd80b352375022a34bb5f8955148dd70aaa2aeab54b0c54ce552d7d75aae2e4",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 7938,
+  "sha256": "fa3f43a7512082ba2a2158b65af26d85a44ff4a9672c1d59a4e7992607410a1d",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+  "type": "text/javascript",
+  "status": 200,
+  "bytes": 30294,
+  "sha256": "08c4fd72f9d96a7aa554510dff2c293973b1b092dff1b9b282bce9111b50ef41",
+  "stored": "capture/assets/2f7c44dfc973.txt",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-V1KBM9EQ75",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 604751,
+  "sha256": "d3f77aa00fb91fc8ae0eea7aca4deafbfab0eec7383859d4a79d3f6eecff82a6",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 86430,
+  "sha256": "f14e2a0e9ce0777245f9c7595e294c9464ba27f6c180520db89c89018b243bb0",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 16839,
+  "sha256": "68a907a5146186f0cb7400e09b3c7500f68e5e7343a5a0bc26ee804b7cef683c",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 340,
+  "sha256": "e447933cc59c30aab1a56bd9b46fdf8931993f1898574ba2a7fc8c2f5079b68f",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 100088,
+  "sha256": "00a43eb07493c2336d23d6bfa59fb57aa19989c8cb5c72eae21cd502692628de",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 21722,
+  "sha256": "9a2959af26b809fa317f95675b6cc5fb21af4b503773df8d6f2457452be99bac",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 34886,
+  "sha256": "041d4ce4cc4e01cbee550fdfb9ec3f09e2c385cb961b30ae486ca6a36d4a0579",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 3778,
+  "sha256": "4d46accf25a2e672c0b67906fdcc59d350addd053e25d78a78ee24c5a92d395e",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 168419,
+  "sha256": "846864c584c5ff789a317f9e714a9749dce3fa9d87dbc6f403c1ba0cfca7fd6b",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 527,
+  "sha256": "91dac30cfdf788a237219ef94bd8bdb4fe2a5a42cd0111b57e4b58d94c16e1a9",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 175576,
+  "sha256": "52c89a71f6053fde8880c4d2b6ce16d9fdc6cf989ed9426059926c7ac0aabe1d",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 305691,
+  "sha256": "bfb291397ee18cb13b83cead6fed2d49596001b74124232330ad6f02453f694a",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 201447,
+  "sha256": "0ecec8e2f924cbf57867bbc23852f8af33546197a87fc7b174d4b704e9670271",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 212843,
+  "sha256": "725e4603a601d592c613629b15c70b75bb8f625d0d9d86699b73933c91b8eff1",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 26679,
+  "sha256": "74b5a944f3b829b217e1ca03615caad43247a6cea5af5484119d5f1d3b5eb88c",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 321338,
+  "sha256": "bb1e1ba340093c59a6a339ef265c64bc3a0a0c4f640271b4ff003b3723bc5f9e",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 192708,
+  "sha256": "8d510919ac13b96521cd509eb0beed1019b93712a095d528d6ba571a05e4ce08",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 9157,
+  "sha256": "c227ce42b7a1d886676ff25c0bfde278888ca1a66ebe68ae1e6f0037520624c3",
+  "stored": "capture/assets/4736625dae99.js",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 24301,
+  "sha256": "110ae28932f14ae04292699a9272432bbde0f3d9b077387df5f50065b5d72ee8",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 4298,
+  "sha256": "f181bb18d0a49a1e464a7322f91bacf69aec717616d9ab515c9e8e9ce52522b7",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 17383,
+  "sha256": "033f2faeece0cbdc28170d2404e16663312d8d9fd44ee3f469d4748d5ff1f012",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 57898,
+  "sha256": "9ff1cb1c43d7005b882e43427c76fa8c1e7a90298c7f8462ba1e8b30e876d20a",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 120117,
+  "sha256": "69618947c6b286fc2f8d9a4105b6b0964232108f051b0272e1c060fdf2fe066f",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 34207,
+  "sha256": "9f9d3b4a6103c800a7b50b4d79d769d217794dae5816b301ed4a1fcb9c690d30",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 18373,
+  "sha256": "22649403ad2af7064671749dc34ba639917d8e9d1c9dcbcb28ad5df1505d3c89",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 31308,
+  "sha256": "b218e34ca4f7d0013f58e3c776168e900bcb9a40a74ec2ae36c955c73dce9190",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 134368,
+  "sha256": "33d21303f6149ba5a3be3ffab657bf9bb3530435b31f63041ca6bde5224bf7f6",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 107132,
+  "sha256": "a7007aea1c2cf3bd70adad3691b36ee95017d8334cc7853cd772eaf1a3f4818d",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 30467,
+  "sha256": "2ca53cb2d9a723904fffee710f78673fb0250b64d66e930b0a6b1cf223500cf9",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/page-108678b3875e4637.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 488,
+  "sha256": "55c6ff9a7685797f8c65ab6a1d2747a534cc81464d1ff38468fba85799260b55",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 160771,
+  "sha256": "50d4b51860a6033847bde05c983e52f25ea227bd70dea178f0e03c028593699a",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 15160,
+  "sha256": "7897fbee312d6918d32e6c1d284a5cf94faecc9e1b2f00bd49a75baca605994b",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 480,
+  "sha256": "2fa2b27960e4ecbe97e7a8dbf41547c61e8c1a06eb8ee818ee70f2e597981654",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/layout-282874dd3834757d.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 7601,
+  "sha256": "21c989be67ca6674d50b4bb98ffc7bb0049b37a4dd2132f7e96f61c1b79e23e9",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 1575940,
+  "sha256": "3dd3c09d9db196fc005d9efccd8698c85866701e4c311fe088a220010a07c26d",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sound/bgm.3ce37f.mp3",
+  "type": "audio/mpeg",
+  "status": 206,
+  "bytes": 2897280,
+  "sha256": "772a838dd914906feb0d551bcf0c305cebe53d441ea15d1a63daac0f5a5c135a",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Medium.20006f.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 43584,
+  "sha256": "0a07b647ed1ab189975c04dd77d5a44af0018667731144b86e12ea987bb10b15",
+  "stored": "capture/assets/14c68e3ec0fe.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Bold.9717cf.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 43960,
+  "sha256": "ec41579967546cbbb294616cc24011cf993edbc5166d4a9102eb3ee4f1260af9",
+  "stored": "capture/assets/020fb414a6a9.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Black.bb2f22.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 43756,
+  "sha256": "822dbf345e98a61abd21b018bf2b418b56cc5a158de78f582169ab18b7ec8307",
+  "stored": "capture/assets/6505436a3f4a.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260902/b86326791c158172551177fd46018a53.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1226118,
+  "sha256": "ae437be94e9dfeef9d4b3f048d2897637d1139698f4f99ea180b7668eaee9515",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-active.c8843bb5.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 252,
+  "sha256": "3d2ece60ccca42b813f69c21d725a74bbedc25921881d3c71398776210124c3f",
+  "stored": "capture/assets/98d8284688d9.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5.d98af17e.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1221146,
+  "sha256": "69d779f4e850d7c5afbb872e9858de03711b49dd665401a8c1b30a3aa630b034",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/en-us.234e7bc4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 85755,
+  "sha256": "713b2d9229a4cab05be446b867499f54bad127d258b6560544e34df34149c188",
+  "stored": "capture/assets/9b552691dca3.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.9e174372.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 331663,
+  "sha256": "28c36eca5da88a1c7d223f2801c3aa999f2251b7b36b438070204aca2594e6f5",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/triangles.bcbd794a.svg",
+  "type": "image/svg+xml",
+  "status": 200,
+  "bytes": 261,
+  "sha256": "c903dc264b1b0d17ea582b8e578e643818f4aa61126f12b95482a9b43b549e83",
+  "stored": "capture/assets/8ab4db7ede7a.svg",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Regular.0cfc88.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 41136,
+  "sha256": "b16210d508a6bfb32ccdf3b04d213a490e0a1d57838b47f7421d7a54569d02d2",
+  "stored": "capture/assets/83ed58279785.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/appStore.e038801b.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 3437,
+  "sha256": "c3d3475f6505b2ae251a60d4fe74dabdf0a150dc3836a9d36f229904ef85d9e6",
+  "stored": "capture/assets/f2976191aee5.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 3007,
+  "sha256": "c1107bfb132444678e641fa283726a5553d6f997ece231bcb8c953f61da66f91",
+  "stored": "capture/assets/aaf866e46184.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.63d91da2.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 4530,
+  "sha256": "0a2fc215c49899a1ef0c1047dedbd4c9460e742e1c9ae0acd87a9e1db9a7fc5b",
+  "stored": "capture/assets/33e1334b8610.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg",
+  "type": "image/svg+xml",
+  "status": 200,
+  "bytes": 7845,
+  "sha256": "1c62cf003581db0e38604a778ef3f1e422c5e63c0a6693b18a5c7d38309eae6e",
+  "stored": "capture/assets/8f050a0a3869.svg",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fdbac.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 16932,
+  "sha256": "0f8211da5ae0352aa3d0f7f35b168d3150c54f7c4447ce7c02b65a2e6dd140fc",
+  "stored": "capture/assets/3e14cb91d101.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.089c2d.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 11356,
+  "sha256": "50c14166e36026098f400f32cdb4ec454939894f2f6aa8462b3d5130522d7f51",
+  "stored": "capture/assets/5f64b09e9078.woff2",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/cdn-cgi/rum?",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/5c209a3f1783.txt",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/googlePlay.769131d6.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 4222,
+  "sha256": "88aac26828519a06ec1943dda57dec6e812e5cc889efe9e61afaf15c75684c19",
+  "stored": "capture/assets/596f492a0c27.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/epic.7b9f0f97.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 2819,
+  "sha256": "449847589521779896d5564b882533208d11dab0f53a71855a17a4ad85ff2490",
+  "stored": "capture/assets/97ee75e9c9d9.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gpg.37836d7a.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 9188,
+  "sha256": "fd3b73e4b05525c4613f2dbe97fa172d9c8f43c3af883eced95066a267620280",
+  "stored": "capture/assets/5c8bfbc6965c.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/windows.f03ec02f.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 22012,
+  "sha256": "023385373ea47d4c84c361b2946065acde1434984ecb5f8fc52b1a08dfc934d9",
+  "stored": "capture/assets/fafd2557574a.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ps5.ff9ebc6a.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 2297,
+  "sha256": "4c7036c9a9ce177c0cb2b497d9a7e9c10c879ba0f644bd4848a4d8ac37ba1f6e",
+  "stored": "capture/assets/443be65aa889.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.376b06.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 7728,
+  "sha256": "52e469cf7b38813e559123084ef93ab84b40c16a2a161c3a8c96f887e8c4c101",
+  "stored": "capture/assets/93327fb09597.woff2",
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wave-bg.8955885a.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 17084,
+  "sha256": "5a9efdd3ede79f2e4a7cf033e25b1716847d210f636e950db0fc5c870f6dcdac",
+  "stored": "capture/assets/85bee77afe8d.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+  "type": "image/svg+xml",
+  "status": 200,
+  "bytes": 163,
+  "sha256": "16d0d6dcb24d1cdb2765a23d4db864dd7a5599a27d9b9f2ed34c72474b0f8675",
+  "stored": "capture/assets/bafc3fcbfe28.svg",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.edd157.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 17300,
+  "sha256": "76d8d2ae1117adcbe3a451532c28a10931202c1bf2345941a3cbd2bcdc284177",
+  "stored": "capture/assets/312385b0902b.woff2",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.9981d6.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 7976,
+  "sha256": "394e02861d84e41529db5bb4e9d501f4eb68b386f66c3f50c81c4cea68fc64f9",
+  "stored": "capture/assets/f48f9c6200c0.woff2",
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.748604.woff2",
+  "type": "font/woff2",
+  "status": 200,
+  "bytes": 16080,
+  "sha256": "21b79f2bd3f3a120bfd6b0838602cfd452df4f5456c551021c670fe461e843ec",
+  "stored": "capture/assets/c6fe68db2c54.woff2",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=1462148669.1791031040&gtm=45je6a10h2v9234685491za200zd9234685491xf1&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/dbe689a835b3.txt",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 37025,
+  "sha256": "66b0f225288d5c5b5b5415f64be56663500a51c24f093ab26c9da1a553c7a99e",
+  "stored": "capture/assets/e66308342fdf.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je6a10h2v9234685491za200zd9234685491xf1&_p=1791031039727&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=588479077&_eu=AAAAAGAC&are=1&cid=1462148669.1791031040&ec_mode=a&frm=0&pscdl=noapi&rcb=11&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1791031040&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3993",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/spaceship.752e25.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 692184,
+  "sha256": "789a9e1fd50f904cdbaeaf87566cea119169caee76f1b0f7dc016ae71f8d9e69",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/api/content/info_video?lang=en-us&page=1&pageSize=10",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 5894,
+  "sha256": "fc62be4e323f41dfecd6a2d9b0af6344118fbfc0171186b177c4b8b8b455e2db",
+  "stored": "capture/assets/b9794129c780.json",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c4a79f82.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12976706,
+  "sha256": "e22a87d29aea56c82077f362d72b8f01e715659922491f959bcdfb43b59c329f",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 10585,
+  "sha256": "9141508aaedfd82665165a85aa5aa2e8fedf85b632151b2daf976265c9a9c66b",
+  "stored": "capture/assets/a4236d4fc9ad.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.78d45318.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11354,
+  "sha256": "a4eab33fa3173fc618458a6cdc9626771f2807d324c62e833190d66bb2aeb9f9",
+  "stored": "capture/assets/68712bf12041.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.b761d517.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 10339,
+  "sha256": "dc46799a053f8f12c9639a63cdd5cfe05703008cea4e29d2d62ef319815d7d1a",
+  "stored": "capture/assets/60eb641ceed9.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.b83d45cf.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12333,
+  "sha256": "cbfaa5988094c8c467d01dec98fe36fe9d2c7958affa30e1f2e2de933ad62ff5",
+  "stored": "capture/assets/c37f9697aad1.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c68596a8.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 60859,
+  "sha256": "8d56b7cf65441dfe9ec9e0cb9ab32183100758e5ac0ae0c0ff7324e366c127d0",
+  "stored": "capture/assets/b5cd36289134.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.f0bbf4fa.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12490,
+  "sha256": "95dcbf90567ba0cfc7fe256dfda7c0e3a541c1b72364ac886e4cae680212e86b",
+  "stored": "capture/assets/8b64513433c4.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13097,
+  "sha256": "36b12d6a5984c860201b8cf1b6fb37a280bfb6b22ca6009bce7c83697a6045d6",
+  "stored": "capture/assets/ae7d21f17462.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d14c39f4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 61187,
+  "sha256": "dc2ae5beddd673901ac36b939f18a9ea386497bd6f8d8dd014faa6d3c054059a",
+  "stored": "capture/assets/74385121029b.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.3efd4769.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13011,
+  "sha256": "de49292de78013344184ca789a2a6061f650637b467fa46dde3fc35b73270072",
+  "stored": "capture/assets/1c0a1d67d668.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.5c7b5e46.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11686,
+  "sha256": "c67e2553644e275a82e5215acdefe3818259c0ce648d202544f1a6d627f36ebe",
+  "stored": "capture/assets/9ff40d3d9dae.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.9b1b7f82.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12815,
+  "sha256": "405aa6c8dd6f2d74683fb793764842db8f28619d6b0659c8d000251ded3b2281",
+  "stored": "capture/assets/464e02ca5aa1.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f1730ac7.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12722,
+  "sha256": "12c20343acfb92e5f2dfaa75cccd54a8908d03607f62896718bc73187cc5f017",
+  "stored": "capture/assets/7c62adf285e1.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/star.c078a0a7.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 972,
+  "sha256": "d7a2f65d69fbd32ff2be8c6d9aa6ddc75ee4701c739b9f1accc006c97bf072fa",
+  "stored": "capture/assets/3c61d1f6a6ff.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1871,
+  "sha256": "87df952dae4e1a85e95a00447889acca95cd237281e00b8a66107aa33ac89cee",
+  "stored": "capture/assets/63f8c647d41a.png",
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 5868,
+  "sha256": "4d152958f0232f495fbae389858e0db9764fa5dd9166dec408e35de98d6576d1",
+  "stored": "capture/assets/b1d68856714e.jpg",
+  "pages": [
+   "en-us",
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6889,
+  "sha256": "af50ac8a15ed2d23da9a4015eaf1b125f71bd50165d311ef387638635da84b1c",
+  "stored": "capture/assets/3e32776badbb.jpg",
+  "pages": [
+   "en-us",
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/operator.875a6fbd.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1144,
+  "sha256": "44c7320cde7c4b1f02d8d763663f2f63caa4dfc1319fedd1f72ab8ff6e78b964",
+  "stored": "capture/assets/afd3953dc23e.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 93226,
+  "sha256": "2776fb13a4067979fd8d8838748f7adf9d38f97f5c9a58482b852dc356124799",
+  "stored": "capture/assets/a4855a47a7a3.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 74262,
+  "sha256": "2d3a7f8173571195f7e6e66a9d9d2f6357c33ae828a8b11cd6252cd0433a7a53",
+  "stored": "capture/assets/2f7349b6a28a.jpg",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ring.5ce6e2bd.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 60259,
+  "sha256": "4c1bb38a4e3089aaa7fb08cbb2470606d2ad6a2ccaaf287c8b7c0f7002cc8d44",
+  "stored": "capture/assets/a60ab6ca5e80.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 381,
+  "sha256": "c3442edfbe3194b18d65d57d5eae45f54f849a25d46bfa34fc2812b5ffae6dda",
+  "stored": "capture/assets/41d32593525b.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260923/b477b4aa5b1b132275fef5d5a69c690e.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1097206,
+  "sha256": "b6e10a0e141d5e9bf0ab760b6430af33518eaf6c2824b891443f755a641fa5eb",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260929/82eb128394df3c98ba50e01a12fc2e0e.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 2723592,
+  "sha256": "eac25e2df24303e8fc60b1985e20753e2be2f2b6a4c71fa5f8dae8a6c54c075f",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260901/121e71a2c9ea6036f6d06be488f9bf68.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1324042,
+  "sha256": "44021f07bfa682ffa3f32cb0ed3ea3ff38e2797f87dc2a00d7cccb1d5668f8db",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260922/8e90c45ea77f1a1f092e5e7a718ae493.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1627261,
+  "sha256": "182b58eaa05584b27b9285800cc09a51342e4f34d678aca4fb63a6e13cfa9ca0",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/anchor.0e6c6a.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 89808,
+  "sha256": "037f0de359b43401c7f15038168f25daa992d6404de4d5307516ca1cdc997752",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=10",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 3757,
+  "sha256": "48bf3197a8132e1108dda889065910a560b0f283c27ae3d34999f8311c02643b",
+  "stored": "capture/assets/54639e46acb9.json",
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-api.gryphline.com/static/gl_account_web_sdk/grayscale.json",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 52,
+  "sha256": "0a58b1df3c487a8f2c2d54457b4dfac366e8e4cbb804decdc2b18b74326457cc",
+  "stored": "capture/assets/1eb667b8c61a.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260920/faf45ea862bee7e7e7b02bc2b1095482.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1098301,
+  "sha256": "fea9609bc0824e3624beb3795e594dab432c9439926bc0ef23be2ab9a4dfccd1",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/blurred_logo.eccbe4f3.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 101185,
+  "sha256": "e473766b3f33fd385e2b5390fb7453d7803e0226365a91796b9ef09698104479",
+  "stored": "capture/assets/22358f2ef934.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260821/15f5e9bd0679cbe1fe3f51b440470493.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 969000,
+  "sha256": "e831473db2a290ea1887bd52fca307146cd8b1228f873baf8534965e0aedd585",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/factory.bd9a36.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 543048,
+  "sha256": "1f9ff25837c021b479c469b4b2e58a52905332e5ec630f612af9d26f90fb1592",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260807/6e16ea162578fae87fe80a6eb12483e0.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1238094,
+  "sha256": "be220b187ac9968380c835fa7586c0eed615bf5171acba62d906c00d21a7a429",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260625/977a3b397c456bef29531bbd9e59222b.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1267462,
+  "sha256": "4fe4fd8315267cfb1bf530f66d507061abb9ec9b947388a0bbe7fe45b17abf9e",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260715/b15b6f01601d449faf342d0ca4b7d8de.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1181829,
+  "sha256": "b2cf92fa05b6e75ce4f91f105de1d041db20c425c5c65de5ed414f3b1feaee27",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260710/3e7ef5f35a199a9327a55d5a97c5bd1e.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 723354,
+  "sha256": "1f5001e80fa0ada3668b0e4b723afce573279445fc6f7b78a5f55ee6b697a6a8",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260603/fa6dd69e35fe88c1e8f13ba68311ec56.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 388733,
+  "sha256": "04aa64c8de2ec928008cb07a3ab598cca44208cd083aef8e56adfac9e86d3afc",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260525/f194b6be2946d429891988df86610fec.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1864613,
+  "sha256": "dc1c418d28efb3a38d1658f631e28b16b46868c9419e85a8f37612447c50e27c",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260411/681a4e54b3de3008e7c98297ac0bd9fa.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 445574,
+  "sha256": "57266723abd68b9abcd9f114576cbabd0309c8eeb618c5b91e18086188de2d5e",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 36806,
+  "sha256": "260c8a699009be62fc74bee29badb520a9b99dc5a9a9c1bdd576753b07d13379",
+  "stored": "capture/assets/b54df07b0355.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260416/641f0aa8ba13c941f71a36baaadc7f51.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1258662,
+  "sha256": "8aa1c3dde3ec38b458bedb3dc1663533d47ee131b7ce150b7439a5d50fcd018e",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.035c43cb.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 758410,
+  "sha256": "44f0d6ced26e05fddeea64f0c84fd508664ef1a45ddbd55844fd8bb642c8dfed",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/pile.251dc1.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 566292,
+  "sha256": "d1322ffcb1f2ac7f81dcb858682e7db8bf798040a8d746773680dae7fe738350",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/01.aae95e75.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 690429,
+  "sha256": "b5471e709c1592deaffa543830f1c2468fc9f7937bfed2b35fdba38c927b1938",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.7229aa33.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1784467,
+  "sha256": "87de0748e312b262d04085e429c0fe3e15af0b65a9f8f53dbf2c2922e5cf7679",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-pc.1d54f26f.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1133153,
+  "sha256": "63ddb5c31832fae870ee22ebc63639f3d218a0c3536e92d1b3f3634d9960e179",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv-obt-h5.6b03f2b9.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 729134,
+  "sha256": "6c5f129c3819a6afcd411584d63e34f24faa5d915bfa3c7e9f6ff1e144847758",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 777373,
+  "sha256": "48909c0e98405917915492304e4bc83c91ed965ce6096ce37cb8bcfe0c4ccc02",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 770802,
+  "sha256": "23432dc54b2f7e6533499ca8ad8a60fc1b9c77462320717397963167fbb9fe09",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3df4a3dc.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12577,
+  "sha256": "a29bbdf79a9d35874d52555d1d7e75bd955f3a9b49573cb47b017e01bd72f30b",
+  "stored": "capture/assets/5cc1b53b5b27.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/trinity.d6c060.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 327024,
+  "sha256": "f8637a8a2306ac86d7ecd8268f891462b515173edc4663ca97113e7c9e67fe03",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4",
+  "type": "video/mp4",
+  "status": 206,
+  "bytes": 53179236,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12109,
+  "sha256": "0402b93b9505918b0cc836030a3de2a5f1e55503ac2ea018814aea2fbd468e77",
+  "stored": "capture/assets/78df042c12b7.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031041625",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/23a0e8e6dce5.js",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/video/20260902/a92f49a53810d0a162584a10daa9de39.mp4",
+  "type": "video/mp4",
+  "status": 206,
+  "bytes": 52576966,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/video/20260821/f3b195d0491b0dd8e38cdfca476c7d62.mp4",
+  "type": "video/mp4",
+  "status": 206,
+  "bytes": 45678458,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11881,
+  "sha256": "bd03abe44d54f067123f4068506d94f62b144ae2d14441bc09ad91744c41f3b1",
+  "stored": "capture/assets/7cec920e3539.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.0b402b3e.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11581,
+  "sha256": "69e4117782950cfc8be05419a0378361ee42f056bf0320625b4976abc5d8165e",
+  "stored": "capture/assets/db9862b3a8ff.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7b5afdec.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 10517,
+  "sha256": "45d8e466c3b0fc973e2d595ee14912ca9675d32bd39db4aedf434e4c6dc9384e",
+  "stored": "capture/assets/3466f8d67bba.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.07ff3560.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13166,
+  "sha256": "ee54f501fed9ed2f355ca71abee62571e5aef9e6eb55a7d1528280abd2db4898",
+  "stored": "capture/assets/d9ed30a8f4ef.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.36c72367.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12732,
+  "sha256": "69eaa9de5b38e91a1aa39ced4893aa4f95eb473d717d4a31f1e4c4c1fd4ad50e",
+  "stored": "capture/assets/927cfaeee94c.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.235ca9f1.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13217,
+  "sha256": "b4b74cb813b7059e24422d3de22c4a26bb03ca4dd15bbba5fec115f2c3a5a38b",
+  "stored": "capture/assets/ad2d690f4364.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12354,
+  "sha256": "bd7930bb493762e88ed002003cbffab11b7465106a28afc4f787d871ad2bd1a1",
+  "stored": "capture/assets/05a59ea7afac.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9c949014.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13629,
+  "sha256": "c18ec3d63024482a3271cc84f4a0e293c11ff3c83ea7c491b7226442ab4750bb",
+  "stored": "capture/assets/ef0fd311805e.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12835,
+  "sha256": "6414d8c646def243f980d2c5e6cf61165a024d7fb9748810be4ad175743cda71",
+  "stored": "capture/assets/14e14831f043.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/model/enemy.6a1a19.bin",
+  "type": "application/octet-stream",
+  "status": 200,
+  "bytes": 402936,
+  "sha256": "3b801dcecb3b3879dc94c5117a4dee1d3f9efe9c802028c78e3cdb4335395666",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11947,
+  "sha256": "6475142970956a0c5a0dba0e826d2afa541571f0b7c6787eeb9e5a2c2b952c9d",
+  "stored": "capture/assets/a5103622dadc.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12429,
+  "sha256": "4f04bb1caccfd08a70ea78853440b9f32a7f090752a0cdc70f8c50cfeb5e9bfe",
+  "stored": "capture/assets/6dbc83e6fb69.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.c93412e1.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 13321,
+  "sha256": "5da23734f2f198f314d40cd35bd93114908b38247871d8e590db95b8787485ca",
+  "stored": "capture/assets/bd99d6f32a0f.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.b9d580b2.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12697,
+  "sha256": "055b112b11e7f1af811fa8d000105bdf5840ffed92665d28e8229dd18c10f39b",
+  "stored": "capture/assets/c6ae85d1cb2d.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12939,
+  "sha256": "fd20ec7cddb5c95ed76df331932ffb75884299c1ee8aa62a6c47cc696738bc89",
+  "stored": "capture/assets/fe1fb535541a.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/05.bc9f3f37.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 661122,
+  "sha256": "8e0081a258ba65c89f6e74cc0dc3c2398a626bf5da0870a15eae718a22d07e36",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02.e58f9497.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 525138,
+  "sha256": "145dc552bf6de42f9e6a9cfbf175a1125f6a1f90973b275457d153708f0687e7",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/03.722342c9.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 770682,
+  "sha256": "e8a886a0763c737fb5fd6b98a9f6a40e04572a64b6cf2823c3ac900c370be202",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/04.924992fa.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 596744,
+  "sha256": "2b9ceef998dcdaad9dcb8ae5fe61b144fbd233202b63ce53d860366741eb92b8",
+  "stored": null,
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-api.gryphline.com/static/gl_web_sdk/grayscale.json",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 52,
+  "sha256": "20be56475d1b9f3dea48c0795172d1287fadcc128c7e2546b7893dceb38d4024",
+  "stored": "capture/assets/ab86cb2b2a3e.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031044486",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/de8d6d700b6a.js",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5_h5.0dccfb24.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 739788,
+  "sha256": "8af4f8096f0ede215efccc0a363e46705892433817f261ddea5f872de83378fb",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.2ac1c57d.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 29277,
+  "sha256": "07bf9d160ffba75cf917aba84460c314510762420c7123c0996f0005663ca13c",
+  "stored": "capture/assets/180d0bad9de4.jpg",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.529c4e62.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 162169,
+  "sha256": "03a7dcd5eb647c2fd8fc2e66c86e946153de23eba3fac2c5e48dafff8b9d5d62",
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/863.99410ce190dd7eabae1b.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 53366,
+  "sha256": "8aca2201160ef5cb6a538af23e185b71a3bd7456e5169833012f42c2179fa68d",
+  "stored": "capture/assets/245f4315e7b7.js",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/assets/title.1457e7b3acf74f0a6213.svg",
+  "type": "image/svg+xml",
+  "status": 200,
+  "bytes": 3046,
+  "sha256": "c7d83ad59272b9641e8fc0f24bb2dbd9dbc719c4c359f5efdc654672874e7f99",
+  "stored": "capture/assets/e30e9db01f67.svg",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/assets/ESRB.5a6a455503a8b3568bf3.svg",
+  "type": "image/svg+xml",
+  "status": 200,
+  "bytes": 5001,
+  "sha256": "0f4591bbc4030a64932378cf10138447a9c02ba7864244eea5b2be951573305e",
+  "stored": "capture/assets/3e530dff4980.svg",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/assets/copyright.160113cbd1f4597b075d.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 15521,
+  "sha256": "3017ccbb23b4943411089208be01e309bdeb6a7b592cbfdbd57a5f028fb4609f",
+  "stored": "capture/assets/88c3f5ceafd6.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/assets/SourceHanSans-Regular.a3fa7030779f47fa5b5f.woff",
+  "type": "font/woff",
+  "status": 200,
+  "bytes": 82536,
+  "sha256": "2997ff2b9ef720f6f011aad673072c9ba767b80bc18eebac9c49904165a7141d",
+  "stored": "capture/assets/db1ccbf90397.woff",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-api.gryphline.com/regular/check",
+  "type": "application/json",
+  "status": 201,
+  "bytes": 43,
+  "sha256": "36aa5e9869d36e44adf812856ca2d6832963091f83959ab0e9765832377e6c42",
+  "stored": "capture/assets/dd189c530080.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-default.c8aa9ae0.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 263,
+  "sha256": "41983f146fb45b9efe228de7eaa9c8f570ec5aad0c25b45ab61389048db966da",
+  "stored": "capture/assets/1f5a29d03c8d.png",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-api.gryphline.com/cookie_store/account_token",
+  "type": "application/json",
+  "status": 401,
+  "bytes": 43,
+  "sha256": "32460949c58d8afc72c9d51a7b345c6d963249d5b1e49d14c5da4f796ab6696f",
+  "stored": "capture/assets/aea2adbe932d.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/168.095da2b06294ac7a8b4d.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 41746,
+  "sha256": "9038b8131b8ba0c7162bd036c1e5ce06dcf3e25e0e4ca92a54630bbaf0181dae",
+  "stored": "capture/assets/b817912e4578.js",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://event-log-api-data-platform-data-lake-prod.gryphline.com/webjs/sdk_init",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 580,
+  "sha256": "bf713480a2274c1ce7ed0b00d89d1290b86501efcb2a79a9aba44db1750741d9",
+  "stored": "capture/assets/290f8e685c48.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://event-log-api-data-platform-data-lake-prod.gryphline.com/batch_event",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 34,
+  "sha256": "211f4ede59cf34f5d32d6aa2243ea0ebca140c85d073c38a477cf1be7edde3d0",
+  "stored": "capture/assets/52c690092ea2.json",
+  "pages": [
+   "en-us",
+   "en-us_operator",
+   "en-us_news",
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je6a10h2v9234685491za200zd9234685491xf1&_p=1791031039727&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=588479077&_eu=AEAAAGQC&ae=a&are=1&cid=1462148669.1791031040&frm=0&pscdl=noapi&rcb=11&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1791031040&sct=1&seg=1&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=scroll&epn.percent_scrolled=90&_et=66154&tfd=70155",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/scroll_tip.351d44bc.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 4966,
+  "sha256": "154fb087a7504697767024a36bbcc06b68856aba9f98c211cb8a9e56a4dfd0a4",
+  "stored": "capture/assets/f97521da0d58.png",
+  "pages": [
+   "en-us"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/en-us/operator",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 162476,
+  "sha256": "c023167e8057dfd6a688c62af3c43e242894deda8b92e6f153602ab344f93346",
+  "stored": "capture/assets/3c37b3a72f38.txt",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 19369,
+  "sha256": "98f3f85baa514f25bebd0dd451c414fb68f678c46773cac1d7dbe2154328217a",
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 23932,
+  "sha256": "2aaaed595a9ea63f5be4b45c76f05e66e60470b1984d24f6944e6f94fe179d1c",
+  "stored": "capture/assets/5143374bcf35.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.6391acf9.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 70714,
+  "sha256": "176b4dd8affbb1d2079dac35df92df1e440b20ee7a1bfcc234fe87af3d4b56c9",
+  "stored": "capture/assets/542b0aa21dc0.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.50a608b8.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 64327,
+  "sha256": "623fb88ec2393f4b464598dfdebfa7c23a834342c8217d7cb0f7187df14900f1",
+  "stored": "capture/assets/86b8258ce620.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.c391b13d.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 68444,
+  "sha256": "9e6b884865eeb91b18093144e271272f80befad1fc4af4781ea8c7df8b6a958d",
+  "stored": "capture/assets/43533fbe5216.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.b5cd99e9.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 57103,
+  "sha256": "fd6b9269752be189b8150f3389a3d47ebfae49447606f93d10a02b423b4fe0d8",
+  "stored": "capture/assets/8371d0f0224e.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 8266,
+  "sha256": "a42ee3409c34c47902f1efbb264005bad0570c0bac85bdd1400c937ca7b08cb2",
+  "stored": "capture/assets/80d5e2a1beea.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 374,
+  "sha256": "2a829883a7516cd7109e25469ace83557153c2314476492464b1986a067f2087",
+  "stored": "capture/assets/cc877e54291e.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.e1d79970.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 63874,
+  "sha256": "5ac2b36daad3036f845587e43b66decbd7e785ace124265bea5ed4bbf1c539e2",
+  "stored": "capture/assets/781cf7f001b6.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.80f2ddbb.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 63445,
+  "sha256": "2e386d5a7075ed432f5b331dddcae01df226f0a8bdd3d3dea0fd79b55fbf45c2",
+  "stored": "capture/assets/1e60444d126a.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 31421,
+  "sha256": "0a0359f7de67c8aa1a7c8920ce28e7b10f509ccba16d4773759411de346f66e3",
+  "stored": "capture/assets/cbaea1b070f3.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.edd103d4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 60117,
+  "sha256": "d59a61eeb0774d24fca7a44abae41e66c5d54c442ab0b322b7897babcb3a2384",
+  "stored": "capture/assets/be8c2f76e540.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.565c75af.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 66656,
+  "sha256": "550dc6661c26b68ff25401a8dcc833abbd71b730ba9a7bab2554ef836f1e7d7e",
+  "stored": "capture/assets/cb24ece6cfd8.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 60264,
+  "sha256": "c13ec59b22c5f2c259750dceae19aa9d876119e7b44e3c5fd0ad3db4eaf771b5",
+  "stored": "capture/assets/9236cfa2da1c.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.724f3503.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 79688,
+  "sha256": "ee8c98d702a66da0f36cc9788b4dc4fbe55ec9861ce98eae33d9e14f553cc895",
+  "stored": "capture/assets/e350bcaa67a0.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.c58b721b.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 67063,
+  "sha256": "bb55c8070a4a20ecf583555d2182c19e24004e97873f46c902896176fde5373f",
+  "stored": "capture/assets/4706554c8052.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 469978,
+  "sha256": "dea6704fe5aa19bee2b23668aba70a59202a73c73539d2817cf8745b3563e3ba",
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 469978,
+  "sha256": "066d787e7f09a96fc194a82b737b228c360022d5841615f91cefa26886dfebd9",
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.9695c304.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 74905,
+  "sha256": "04cee6d603237d38907961d042a9694d31f4a212fd20cb3a40659e135d550589",
+  "stored": "capture/assets/f0c18ee6556a.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.b0afd1ba.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 58102,
+  "sha256": "d1914f15cf75ce6bc9715df5dcd299f37f742053bfbc5b5e8e259d46f9638407",
+  "stored": "capture/assets/d90349a79f8c.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.7ada7b83.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 70430,
+  "sha256": "c521633e520d3cc6cd53860fd3feff87c9bafa55a4054d6162321e2509b66212",
+  "stored": "capture/assets/92d462d83dc1.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.8d027d2a.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 70011,
+  "sha256": "e389e6b72ed71e759025d4c9d39416b6e9bec3d5f81e5391619bee20a8cde15b",
+  "stored": "capture/assets/e97c1db27179.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prelica.d0bbdb53.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 79284,
+  "sha256": "6e2a57d271f94ff96d6a7ee90cfd52345decac997c39a8962f388b8b37774a94",
+  "stored": "capture/assets/4698312eac48.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.a26b2443.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 52299,
+  "sha256": "1566061daf758aad31378bec576c90130a23963b79118c8ceaaa618bd13e17a4",
+  "stored": "capture/assets/4338275b7930.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/banner.7b4f80c9.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 8828,
+  "sha256": "985a013cfc190c1628badeed09a51211032f549151530f8b29335b8dd3e52eac",
+  "stored": "capture/assets/9c46f0ef3160.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 5523,
+  "sha256": "22cd3a267ec59fe79589be5f2dc16056161ee7939be32bd65860bc2f1e6a68a8",
+  "stored": "capture/assets/488315f76d6f.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6890,
+  "sha256": "6f6b58e02463861976b1047cf7b8f414c0aa5421a76c3b091476404748b6133d",
+  "stored": "capture/assets/02d3557ff1e8.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e31580d7.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 54295,
+  "sha256": "f2677a3d86a6255733e3567ebc7da5c481cedee35a320c2563bc7aabdce83718",
+  "stored": "capture/assets/6725cb89372f.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.3860f541.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 289865,
+  "sha256": "79035ce090712a4714c828d74d5754ef9b1f82b36027b837e8ec2aba8d3c4044",
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.2a592659.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 63329,
+  "sha256": "a7de74c08dc6dd978764eac6b9423c8c7e7f1cbd27509a067857458aab6ab755",
+  "stored": "capture/assets/0da63bbbf11c.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.d7f457d2.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 61545,
+  "sha256": "79eecd6cc25808979177af7a2b611dac71c3217e88a552c2336ee5110c266664",
+  "stored": "capture/assets/abef5d8619d1.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.ef41bc3a.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 53148,
+  "sha256": "07bc0f71ce5f0404ef03d9d4f130be80c6e4060d325ec7a0050278646fc4be6f",
+  "stored": "capture/assets/768fba1f181a.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6822,
+  "sha256": "f3b9e7809aa636afc35f63cfb11cb396b43a187d7f6137c3ade5de94561bcc9b",
+  "stored": "capture/assets/d05d382529c2.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6864,
+  "sha256": "93b153f43a08ace3b7f2b8171441b779c90a6efbc521421f258870177cfce16a",
+  "stored": "capture/assets/384ab768c866.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6898,
+  "sha256": "5731c5adfec02eeb7a00d2efc9eeb60d54121906cd7348f153c22d789e8c91ee",
+  "stored": "capture/assets/b50f490ca1ca.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 6428,
+  "sha256": "b3d97d92309b0e5f336aadb93e898751843998b46caa9c609e30fc86ed17087b",
+  "stored": "capture/assets/5b468920f1da.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 8100,
+  "sha256": "45e10b8f9e4f957e60e0b99da30e502e8669ecefa65f08d7bdc60fcc05d83693",
+  "stored": "capture/assets/ec4fc536847b.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 7791,
+  "sha256": "7c3f7ffbf7c8e3ba214c3dd9bab387c57834b57a8427934b20b2bc6c83624f08",
+  "stored": "capture/assets/1c85983e1dd3.jpg",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 874,
+  "sha256": "34b1690c75f0da184f93a8af0bd60144c842036918157ca0cf8fe4bd79cd1db2",
+  "stored": "capture/assets/0be9b1c9a28f.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7cdb6a4e.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 50759,
+  "sha256": "e4bd9f53db88876f9a85d6bf2aa7ddbe3a309963f71caf98daa48b11e2a964fa",
+  "stored": "capture/assets/447b72e41986.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.bb2c0bdc.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 66692,
+  "sha256": "3724508d3ae90dee172bc805cd88b69e6678b1cd18213db6d93d09c0ccd385a5",
+  "stored": "capture/assets/a9eadd725725.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.609a252f.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 63710,
+  "sha256": "7cd5fbabf90cef318d83281a84a3a612493c1e9bc190de5117117e723f3922e8",
+  "stored": "capture/assets/8512536e9cb2.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9ba3eb36.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 79438,
+  "sha256": "e31d8402427ddd85f8179dd15d3a63571486aa73221471ec73f261aad9e4ca3c",
+  "stored": "capture/assets/4e041f4430f0.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3603d013.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 61045,
+  "sha256": "64092544df135fe1587b645b2087c278c6dddbacc8671730b864875ac8f98499",
+  "stored": "capture/assets/0a2d45fe6d1d.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.763c87e4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 53751,
+  "sha256": "b85ced90f713e7c7a8990b6919e5caabc786414b70eca4373072ed555be98e2d",
+  "stored": "capture/assets/6eda4694ab18.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.bc6bcfaa.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 47925,
+  "sha256": "9e6d947b25a7865268cf311693c84b8b5fad5476296705f61c55c575ac942b9a",
+  "stored": "capture/assets/dffc4719d7dc.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.38c423af.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 50117,
+  "sha256": "b5d249f160f4a8bf5302cc6fb56f45697dbda465c529898aa728abe7173e587a",
+  "stored": "capture/assets/c25898dba061.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.5a8add29.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 60992,
+  "sha256": "5610b2d7049e1dfb1fcf52f8a4a2ae2b9269602bcbff031eac1f6336f664a967",
+  "stored": "capture/assets/a57a1fecf318.png",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/operator/page-3a80441c18fd566a.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 7650,
+  "sha256": "fd9650e046708a326bce4649f67105ed8e579571700dde866209870a669cbf82",
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je69u2h1v9234685491za200zd9234685491xf1&_p=1791031113826&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1250604814&_eu=AAAAAGAC&are=1&cid=1284160435.1791031114&ec_mode=a&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1791031113&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Foperator&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=4661",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=1284160435.1791031114&gtm=45je69u2h1v9234685491za200zd9234685491xf1&rcb=0&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/8328622f6d26.txt",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031114775",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/612773974857.js",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031115317",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/8d1dc1b09039.js",
+  "pages": [
+   "en-us_operator"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/en-us/news",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 165238,
+  "sha256": "0f59f1ca46ad9bf46b724e79005ab0e148f264a1b706a31e40dfe49b9ef22fcd",
+  "stored": "capture/assets/7a3d974f7655.txt",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 5911,
+  "sha256": "3d3635a7faaabba672da6bddd7cc6479d2ad4711d0f289079d2505d1289794d2",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper.86938bc4.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 32828,
+  "sha256": "6cae9e00f012a3f29786eecb9639e13aae4488e988b1b3a8d4a08a5c97e17b58",
+  "stored": "capture/assets/8d7baf6142e7.png",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260915/f5d748ab8f058ba69cc38a14593d09df.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 607289,
+  "sha256": "4a8e416c298f7e0898f82939b160198cee840e2361f76b6210ef6a3557792c15",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260831/9ad5ba1516db578d6900bda6fc9aed0e.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 997460,
+  "sha256": "085d5eef51abaf07564824ea68280d9b1d9ed71f734628933dde7fedcca0c813",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260831/9937940f4ed675d8a78f2c640f23819f.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1284618,
+  "sha256": "b5c4b78ebfa9286f3a32393b7f661f5eeac426e050fd565222b4716b54828c05",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260901/882e9f228e9635399a69671a13cf272c.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 1208304,
+  "sha256": "495eb7b6ed1c6350e56c250aa45e8213ad5a10f2f5cdf5db164ed3ae19b48afb",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260828/e83698dd203d70377ff6ec97ea359c06.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 1340034,
+  "sha256": "fe790a774ed7cd7649d9ddf412b1459dc794f78640ed677c4d6e2247b06cae2b",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 25621,
+  "sha256": "57927bfa013b11986dcb0efcf5543b67437dd5e0c76465c9ebf1757b8c9bd6ef",
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=1140443642.1791031175&gtm=45je69u2v9234685491za208zd9234685491xf1&rcb=0&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/3945964bb214.txt",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je69u2v9234685491za208zd9234685491xf1&_p=1791031174884&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=363047334&_eu=AAAAAGAC&are=1&cid=1140443642.1791031175&ec_mode=a&frm=0&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971&sid=1791031174&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Fnews&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=4420",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031176920",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/0ea76cbc82d6.js",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031178081",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/6b7d966a9e96.js",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper-h5.fa5fcf19.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 16528,
+  "sha256": "ebdce165b67a2c804a728706f245e846be40b36529c1751e3bc47ad29182636a",
+  "stored": "capture/assets/ffe758c5516b.png",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je69u2v9234685491za200zd9234685491xf1&_p=1791031174884&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=363047334&_eu=AEAAAGQC&ae=a&are=1&cid=1140443642.1791031175&frm=0&pscdl=noapi&rcb=0&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971&sid=1791031174&sct=1&seg=1&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Fnews&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=scroll&epn.percent_scrolled=90&_et=59024&tfd=63450",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=4",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 1574,
+  "sha256": "cd3599517a0c3f4efb002f172bd5253a5aaa37876c477e7398624dfeab867335",
+  "stored": "capture/assets/23bd87d19409.json",
+  "pages": [
+   "en-us_news"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/en-us/news/7013",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 138772,
+  "sha256": "db0b7d5f5b76a5fd656d34bc18739a9569d4b846cc033d190f14df3254f82594",
+  "stored": "capture/assets/5e88deb94401.txt",
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/upload/image/20260923/c97f4f208900fe7a9e5d11f26f002a71.jpg",
+  "type": "image/jpeg",
+  "status": 200,
+  "bytes": 468245,
+  "sha256": "984e22d61225710cab3fed84e9d8506348718dce4967d7b843ed05952efa814d",
+  "stored": null,
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-lb.b881dcb3.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 11674,
+  "sha256": "dc5b35ffa69cd181d7ebe040f31ec2005bdcdf258e3017b537b6a7d58723d119",
+  "stored": "capture/assets/a19d1e719469.png",
+  "pages": [
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-rt.6fce5d04.png",
+  "type": "image/png",
+  "status": 200,
+  "bytes": 12004,
+  "sha256": "bf19b15c8fe28c53fd0d8df1736785ac13286346c3fab99d43c097837907ed63",
+  "stored": "capture/assets/1ab1ead2a9cf.png",
+  "pages": [
+   "en-us_news_7013",
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/%5Bcid%5D/page-8dbf59fd3d1ac5ac.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 5153,
+  "sha256": "d9e8c0e4a83e5e8091ca91804d1394596699e23b1a8bcd1fc5c98d3908db5a6f",
+  "stored": null,
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je69u2v9234685491za200zd9234685491xf1&_p=1791031240078&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=703999552&_eu=AAAAAGAC&are=1&cid=445651384.1791031240&ec_mode=a&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1791031240&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Fnews%2F7013&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3432",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=445651384.1791031240&gtm=45je69u2v9234685491za200zd9234685491xf1&rcb=3&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/84e6f1957091.txt",
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031240998",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/45063df0e120.js",
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-news.gryphline.com/api/bulletin/7013?lang=en-us&code=arknights_endfield_official",
+  "type": "application/json",
+  "status": 200,
+  "bytes": 1470,
+  "sha256": "0f01724c081b5440e1fccabf86a314d05db8015b17e436e0345f36c2a0974a35",
+  "stored": "capture/assets/88f7ece5ae3f.json",
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031241955",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/902a1a1ab9ec.js",
+  "pages": [
+   "en-us_news_7013"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/en-us/protocol/terms_of_service",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 36951,
+  "sha256": "c71f1b6931c00b6b4c157cb49874f10c9c4fe012199b07ed0118283215c4b4a0",
+  "stored": "capture/assets/ae7bd5639109.txt",
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css",
+  "type": "text/css",
+  "status": 200,
+  "bytes": 8540,
+  "sha256": "b6e04031cc32f13142d7a57d95fa7e6703777e9496b8803a0849938ce18050ae",
+  "stored": null,
+  "pages": [
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/protocol/layout-9e9f67778798a408.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 5664,
+  "sha256": "20e0033102b6697e827bf8fbc510dd55fa0d1b683afb089ddb4f6d517ff6ad61",
+  "stored": null,
+  "pages": [
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/protocol/%5Btype%5D/page-5b4fa52c5050aa74.js",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 9595,
+  "sha256": "ce63cb2d6d73493497f6808ab185af193671d5fa50c590e181d10c760cb44738",
+  "stored": null,
+  "pages": [
+   "en-us_protocol_terms_of_service",
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031507463",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/d5e8cebea733.js",
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031507955",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/6019b746c10f.js",
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 130841,
+  "sha256": "fcafea211f5aed7beadb50fbf78371c51790cff5d312247a1f6a481d98302fda",
+  "stored": "capture/assets/bb18644cbeec.txt",
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je6a10h2v9234685491za200zd9234685491xf1&_p=1791031509379&em=tv.1~em.0fRutnD59o6AIvdXu29JwtYsSaNEeE2xQVfisucKyhY&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=710243727&_eu=AAAAAGAC&are=1&cid=752707078.1791031509&ec_mode=a&frm=0&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121280970&sid=1791031509&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Fprotocol%2Fterms_of_service&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=5812",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=752707078.1791031509&gtm=45je6a10h2v9234685491za200zd9234685491xf1&rcb=10&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121280970",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/0acc119883ee.txt",
+  "pages": [
+   "en-us_protocol_terms_of_service"
+  ]
+ },
+ {
+  "url": "https://endfield.gryphline.com/en-us/protocol/privacy_policy",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 36943,
+  "sha256": "5e28b30a51e372aeba2995ea7c2d7fe8032af2997418c7292833bb3f94af3c0d",
+  "stored": "capture/assets/895156794647.txt",
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031519404",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 143351,
+  "sha256": "cc84458b204b7b2b3a2089d6cf8cb4d9be7eeede8655073b724f6680370ab3e8",
+  "stored": "capture/assets/b67d6ac31482.js",
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031519978",
+  "type": "application/javascript",
+  "status": 200,
+  "bytes": 313988,
+  "sha256": "b4f4409d911a0558ecd748eb8271e9cc901a97e32ef42dd45dde9006c22b405a",
+  "stored": "capture/assets/b4e03c672aa9.js",
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://user.gryphline.com/en-us/protocol/plain/endfield/game/privacy_policy",
+  "type": "text/html",
+  "status": 200,
+  "bytes": 226289,
+  "sha256": "3c2dacbedce7dfeea147f57ad9b7858987244cff07b14b05dff08e8424196e02",
+  "stored": "capture/assets/d9b56897082b.txt",
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://analytics.google.com/g/collect?v=2&tid=G-V1KBM9EQ75&gtm=45je69u2v9234685491za208zd9234685491xf1&_p=1791031521274&em=tv.1~em.9ufS0b9OX8stKiogDCRtEZ4cePTgk0NwAwvOMMP7b2w&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1378969226&_eu=AAAAAGAC&are=1&cid=1991983626.1791031521&ec_mode=a&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Linux&uapv=6.18.44&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046262~121046270~121246026~121246034~121280971&sid=1791031521&sct=1&seg=0&dl=https%3A%2F%2Fendfield.gryphline.com%2Fen-us%2Fprotocol%2Fprivacy_policy&dt=Arknights%3A%20Endfield%20-%20Over%20the%20Frontier%2C%20Into%20the%20Front&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=5477",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": null,
+  "stored": null,
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ },
+ {
+  "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-V1KBM9EQ75&cid=1991983626.1791031521&gtm=45je69u2v9234685491za208zd9234685491xf1&rcb=15&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046262~121046270~121246026~121246034~121280971",
+  "type": "text/plain",
+  "status": 204,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stored": "capture/assets/58ef4302c090.txt",
+  "pages": [
+   "en-us_protocol_privacy_policy"
+  ]
+ }
+]

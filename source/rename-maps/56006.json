@@ -1,0 +1,10 @@
+{
+  "module": 56006,
+  "summary": "Runtime site configuration parsed from an inlined JSON string and extended with isOversea: true. It carries the launcher download URL (https://launcher.gryphline.com/s/zpEg5p), the Gryphline web SDK script (https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js), the ad/ETL app code v9k3ppfah0j2lm5u1js8tg42, the i18n list of 13 language codes (en-us, zh-tw, ja-jp, ko-kr, es-mx, pt-br, fr-fr, de-de, ru-ru, it-it, id-id, th-th, vi-vn), the CMS host https://web-news.gryphline.com with appCode arknights_endfield_official, a Sentry DSN and release official-v4-web@0.0.1, user-center/top-up/survey/creator links, hide_bulletin_dict (ko-kr hides bulletin 2664), accessChecker download URLs, deep links (gryphlinklauncher-TiaytKBUIEdoEwRT://open?ta=endfield, https://endfield.gryphline.com/u-link/) and api_server_host https://endfield.gryphline.com.",
+  "exports": {
+    "a": "SITE_CONFIG"
+  },
+  "renames": {
+    "a_1": "SITE_CONFIG"
+  }
+}

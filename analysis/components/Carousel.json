@@ -1,0 +1,163 @@
+{
+ "component": "Carousel",
+ "files": [
+  "dd1a1cedef0d47ea.css"
+ ],
+ "classes": {
+  "carousel": "Carousel_carousel__FKamY",
+  "container": "Carousel_container__tAcTx",
+  "item": "Carousel_item__85leB"
+ },
+ "ruleCount": 3,
+ "rules": [
+  {
+   "selector": ".Carousel_carousel__FKamY,.Carousel_container__tAcTx",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".Carousel_container__tAcTx",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".Carousel_item__85leB",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "transition": "transform .4s ease-in-out"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  }
+ ],
+ "markup": "<div class=\"Carousel_carousel__FKamY __06-Notice_carouselContainer__2AoYR\"><div class=\"Carousel_container__tAcTx __06-Notice_carouselContentContainer__ZTu_O\"><div class=\"Carousel_item__85leB\" style=\"transform: translateX(0%);\"><div class=\"__06-Notice_noticeItem__7v58F __06-Notice_active__SIJCS\"><div class=\"__06-Notice_image__3ztHF\" style=\"background-image: url(&quot;https://web-static.hg-cdn.com/upload/image/20260923/b477b4aa5b1b132275fef5d5a69c690e.jpg&quot;);\"></div></div></div><div class=\"Carousel_item__85leB\" style=\"transform: translateX(calc(100% - 2.755rem));\"><div class=\"__06-Notice_noticeItem__7v58F\"><div class=\"__06-Notice_image__3ztHF\" style=\"background-image: url(&quot;https://web-static.hg-cdn.com/upload/image/20260901/121e71a2c9ea6036f6d06be488f9bf68.jpg&quot;);\"></div></div></div><div class=\"Carousel_item__85leB\" style=\"transform: translateX(calc(200% - 10.515rem));\"><div class=\"__06-Notice_noticeItem__7v58F\"><div class=\"__06-Notice_image__3ztHF\" style=\"background-image: url(&quot;https://web-static.hg-cdn.com/upload/image/20260929/82eb128394df3c98ba50e01a12fc2e0e.png&quot;);\"></div></div></div><div class=\"Carousel_item__85leB\" style=\"transform: translateX(calc(300% - 18.275rem));\"><div class=\"__06-Notice_noticeItem__7v58F\"><div class=\"__06-Notice_image__3ztHF\" style=\"background-image: url(&quot;https://web-static.hg-cdn.com/upload/image/20260922/8e90c45ea77f1a1f092e5e7a718ae493.jpg&quot;);\"></div></div></div><div class=\"Carousel_item__85leB\" style=\"transform: translateX(calc(400% - 26.035rem));\"><div class=\"__06-Notice_noticeItem__7v58F\"><div class=\"__06-Notice_image__3ztHF\" style=\"background-image: url(&quot;https://web-static.hg-cdn.com/upload/image/20260920/faf45ea862bee7e7e7b02bc2b1095482.png&quot;);\"></div></div></div></div><div class=\"\"></div><div class=\"\"></div><div class=\"Pagination_pagination__3IDBu __06-Notice_carouselPagination__XTWO2\" style=\"opacity: 0;\"><div class=\"Pagination_button__cVH8L Pagination_disabled__WlgMt\"><div class=\"Pagination_border__Sfc_h\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18 27\" class=\"Pagination_arrow__xgX6n\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z\"></path></svg></div><div class=\"Pagination_button__cVH8L\"><div class=\"Pagination_border__Sfc_h\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 18 27\" class=\"Pagination_arrow__xgX6n Pagination_right__NDQb6\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z\"></path></svg></div></div><button class=\"Button_button__njqVS __06-Notice_detailButton__1qReQ\" style=\"opacity: 0;\"><span>More Intel</span></button><div class=\"__06-Notice_titleContainer__xNob9\" style=\"opacity: 0;\"><div class=\"__06-Notice_subtitle__T6dJ9\" style=\"opacity: 1;\"><span>// Notices</span><span class=\"__06-Notice_time__D8fRI\">2026-09-30</span></div><div class=\"__06-Notice_title__YvY2R\" style=\"opacity: 1;\">[OrbiPom! MERGE!] Fun &amp; Games Event Details</div></div></div>",
+ "markupPage": "en-us",
+ "markupClass": "Carousel_carousel__FKamY",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "Carousel_carousel__FKamY": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 260.4375,
+    "y": 7348,
+    "width": 1372.5,
+    "height": 543.9375,
+    "top": 7348,
+    "right": 1632.9375,
+    "bottom": 7891.9375,
+    "left": 260.4375
+   },
+   "text": "More Intel// Notices2026-09-30[OrbiPom! MERGE!] Fun & Games Event Details",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "543.938px",
+   "top": "169.875px",
+   "left": "192.938px",
+   "right": "-192.938px",
+   "bottom": "53.4375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 13.5px, rgb(0, 0, 0) 1359px, rgba(0, 0, 0, 0))",
+   "mask-image": "linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgb(0, 0, 0) 13.5px, rgb(0, 0, 0) 1359px, rgba(0, 0, 0, 0))",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "Carousel_container__tAcTx": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 273.9375,
+    "y": 7494.8125,
+    "width": 495,
+    "height": 278.4375,
+    "top": 7494.8125,
+    "right": 768.9375,
+    "bottom": 7773.25,
+    "left": 273.9375
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "495px",
+   "height": "278.438px",
+   "top": "146.812px",
+   "left": "13.5px",
+   "right": "864px",
+   "bottom": "118.688px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "Carousel_item__85leB": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 273.9375,
+    "y": 7494.8125,
+    "width": 495,
+    "height": 278.4375,
+    "top": 7494.8125,
+    "right": 768.9375,
+    "bottom": 7773.25,
+    "left": 273.9375
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "495px",
+   "height": "278.438px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "transform 0.4s ease-in-out",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": [
+   "transform .4s ease-in-out"
+  ]
+ }
+}

@@ -1,0 +1,761 @@
+{
+ "component": "__21-ProtocolDetail",
+ "files": [
+  "1a7ed5873254240b.css"
+ ],
+ "classes": {
+  "sectionContainer": "__21-ProtocolDetail_sectionContainer__XZ_gX",
+  "contentContainer": "__21-ProtocolDetail_contentContainer__VjiZj",
+  "innerContainer": "__21-ProtocolDetail_innerContainer__olPvO",
+  "subtitle": "__21-ProtocolDetail_subtitle__b_P3G",
+  "type": "__21-ProtocolDetail_type__aukHo",
+  "date": "__21-ProtocolDetail_date__4P6Uo",
+  "title": "__21-ProtocolDetail_title__8PgRe",
+  "close": "__21-ProtocolDetail_close__EjUMQ",
+  "divider": "__21-ProtocolDetail_divider__H8iOM",
+  "content": "__21-ProtocolDetail_content__gnmVJ",
+  "bgBottom": "__21-ProtocolDetail_bgBottom__IZxFA",
+  "decoLB": "__21-ProtocolDetail_decoLB__4pB8c",
+  "backButton": "__21-ProtocolDetail_backButton__c5SKD",
+  "active": "__21-ProtocolDetail_active__ACwDT",
+  "icon": "__21-ProtocolDetail_icon__46IDL",
+  "footer": "__21-ProtocolDetail_footer__Anffv"
+ },
+ "ruleCount": 35,
+ "rules": [
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "min-height": "100vh"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "0",
+    "right": "0",
+    "width": "39.25rem",
+    "height": "23.375rem",
+    "background-position": "100% 0",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-rt.6fce5d04.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "bottom": "0",
+    "left": "0",
+    "width": "43.0625rem",
+    "height": "43.125rem",
+    "background-position": "0 100%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-lb.b881dcb3.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "min-height": "calc(200vh - 9.625rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "padding-left": "calc(50% - 80rem + 20.4375rem)",
+    "padding-top": "13.75rem",
+    "padding-bottom": "13.75rem",
+    "width": "119.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding": "7.5rem 9.75rem 13rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-top": "2rem",
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-top": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_type__aukHo",
+   "media": [],
+   "declarations": {
+    "height": "2rem",
+    "font-size": "1.5rem",
+    "line-height": "2rem",
+    "box-sizing": "border-box",
+    "padding": ".07em 2.25rem 0",
+    "background-color": "#e6e6e6",
+    "color": "gray",
+    "font-family": "SansMedium"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_type__aukHo",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "3rem",
+    "font-size": "2.25rem",
+    "line-height": "3rem",
+    "font-family": "SansRegular",
+    "padding": ".07em 2rem 0",
+    "color": "gray",
+    "background-color": "#f2f2f2"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_date__4P6Uo",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-left": "2rem",
+    "font-size": "1.5rem",
+    "line-height": "2rem",
+    "top": ".07em",
+    "font-family": "SansRegular",
+    "color": "gray"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_subtitle__b_P3G .__21-ProtocolDetail_date__4P6Uo",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-left": "2rem",
+    "font-size": "2.25rem",
+    "line-height": "3rem",
+    "color": "gray"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin-top": "1rem",
+    "font-size": "3rem",
+    "min-height": "7.75rem",
+    "text-align": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-top": "1.25rem",
+    "font-size": "3rem",
+    "min-height": "7rem",
+    "line-height": "4.375rem",
+    "font-weight": "500"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "height": "auto",
+    "color": "#191919",
+    "cursor": "pointer",
+    "transition": "transform .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "right": ".75rem",
+    "top": "0",
+    "width": "4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "100%",
+    "top": "-8rem",
+    "width": "3.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_divider__H8iOM",
+   "media": [],
+   "declarations": {
+    "margin-top": "1rem",
+    "height": ".1875rem",
+    "background-color": "#d9d9d9"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_divider__H8iOM",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-top": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_content__gnmVJ",
+   "media": [],
+   "declarations": {
+    "margin-top": "1rem",
+    "font-size": "1.625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_content__gnmVJ img",
+   "media": [],
+   "declarations": {
+    "max-width": "100%",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_content__gnmVJ img:not(:first-child)",
+   "media": [],
+   "declarations": {
+    "margin-top": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_bgBottom__IZxFA",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "bottom": "0",
+    "width": "100%",
+    "height": "37.5rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png)",
+    "background-size": "1.5em 1.5em",
+    "background-position": "bottom",
+    "-webkit-mask-image": "linear-gradient(180deg,transparent 0,transparent 50%,black 90%,black)",
+    "mask-image": "linear-gradient(180deg,transparent 0,transparent 50%,black 90%,black)",
+    "opacity": ".08"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_bgBottom__IZxFA",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "37.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_decoLB__4pB8c",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "calc(50% - 80rem + 20.4375rem + .75rem)",
+    "bottom": "6.5625rem",
+    "width": "6.4375rem",
+    "height": "auto",
+    "color": "#b3b3b3",
+    "filter": "drop-shadow(0 0 .25rem #ffffff) drop-shadow(0 0 .5rem #ffffff) drop-shadow(0 0 .5rem #ffffff)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_decoLB__4pB8c",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "9.75rem",
+    "bottom": "8.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_backButton__c5SKD",
+   "media": [],
+   "declarations": {
+    "position": "fixed",
+    "bottom": "2rem",
+    "right": "2rem",
+    "width": "5rem",
+    "height": "5rem",
+    "border-radius": "50%",
+    "background-color": "#f1f1f1",
+    "z-index": "200",
+    "opacity": "0",
+    "pointer-events": "none",
+    "transition": "opacity .3s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_backButton__c5SKD.__21-ProtocolDetail_active__ACwDT",
+   "media": [],
+   "declarations": {
+    "opacity": "1",
+    "pointer-events": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_backButton__c5SKD .__21-ProtocolDetail_icon__46IDL",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "50%",
+    "left": "50%",
+    "transform": "translate(-50%,-50%)",
+    "width": "3rem",
+    "height": "3rem",
+    "color": "#b3b3b3"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_footer__Anffv",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  }
+ ],
+ "markup": "<div class=\"__21-ProtocolDetail_sectionContainer__XZ_gX\"><div class=\"__21-ProtocolDetail_contentContainer__VjiZj\"><div class=\"__21-ProtocolDetail_backButton__c5SKD\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 17 14\" class=\"__21-ProtocolDetail_icon__46IDL\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M1.311,0.541 L15.685,0.541 L15.685,3.021 L1.311,3.021 L1.311,0.541 ZM16.198,11.703 L14.446,13.457 L8.498,7.504 L2.551,13.457 L0.798,11.703 L8.498,3.996 L16.198,11.703 Z\"></path></svg></div><div class=\"__21-ProtocolDetail_bgBottom__IZxFA\"></div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 103 25\" class=\"__21-ProtocolDetail_decoLB__4pB8c\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M100.406,10.133 L100.406,7.433 L103.000,7.433 L103.000,10.133 L100.406,10.133 ZM71.886,7.433 L97.813,7.433 L97.813,10.133 L71.886,10.133 L71.886,7.433 ZM79.428,0.999 L87.445,0.999 L87.445,3.699 L79.428,3.699 L79.428,0.999 ZM71.886,0.999 L77.074,0.999 L77.074,3.699 L71.886,3.699 L71.886,0.999 ZM32.999,7.433 L69.296,7.433 L69.296,10.133 L32.999,10.133 L32.999,7.433 ZM45.960,0.999 L69.296,0.999 L69.296,3.699 L45.960,3.699 L45.960,0.999 ZM32.999,0.999 L43.370,0.999 L43.370,3.699 L32.999,3.699 L32.999,0.999 ZM0.975,0.479 L25.125,0.479 L25.125,24.629 L0.975,24.629 L0.975,0.479 ZM2.105,23.499 L23.994,23.499 L23.994,1.610 L2.105,1.610 L2.105,23.499 ZM7.240,7.544 L8.039,6.744 L18.860,17.565 L18.060,18.364 L7.240,7.544 ZM35.593,16.566 L32.999,16.566 L32.999,13.867 L35.593,13.867 L35.593,16.566 ZM35.593,23.000 L32.999,23.000 L32.999,20.301 L35.593,20.301 L35.593,23.000 ZM48.554,16.566 L38.183,16.566 L38.183,13.867 L48.554,13.867 L48.554,16.566 ZM74.480,13.867 L74.480,16.566 L51.148,16.566 L51.148,13.867 L74.480,13.867 ZM74.480,23.000 L38.183,23.000 L38.183,20.301 L74.480,20.301 L74.480,23.000 ZM82.258,16.566 L77.074,16.566 L77.074,13.867 L82.258,13.867 L82.258,16.566 ZM89.543,16.566 L84.359,16.566 L84.359,13.867 L89.543,13.867 L89.543,16.566 Z\"></path></svg><div class=\"__21-ProtocolDetail_innerContainer__olPvO\"><div class=\"__21-ProtocolDetail_title__8PgRe\">Game Privacy Policy</div><div class=\"__21-ProtocolDetail_divider__H8iOM\"></div><div class=\"__21-ProtocolDetail_content__gnmVJ\">\n            <h3 style=\"text-align: center\">[Latest Updated: 01/19/2026]</h3>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\">\n                <span style=\"line-height: 150%\">Welcome to <i>Arknights: Endfield</i></span><i><span style=\"line-height: 150%\">! </span></i><span style=\"line-height: 150%\">We take your privacy seriously!</span>\n            </p>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\"><span style=\"line-height: 150%\">The data controller under this Privacy Policy (this “Policy\") is Gryph Frontier Pte. Ltd. (“Gryph Frontier”, “we”, “us” or “our”).</span></p>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\"><span style=\"line-height: 150%\">This Policy applies to your interaction with our game or related services (collectively, the \"Services\") via our websites, mobile applications, or other third - party platforms authorized by us. This Policy describes the categories of personal data we collect, how we use it, how and when it may be shared, and how we store and protect it (collectively, “process”), as well as the rights and choices you have with respect to your data.</span></p>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\">\n                <span style=\"line-height: 150%\">Please read this Policy carefully before using the Services. If you have any questions regarding this Policy, you may contact us at privacy@gryphline.com.<b> If you do not agree with our policies and practices, please do not use our Services</b>.</span>\n            </p>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\">\n                <span style=\"line-height: 150%\">If you reside in the European Economic Area (EEA), the United States, or other specific jurisdictions, additional or different provisions may apply. Please refer to the \"<i>Appendix: Jurisdiction-Specific Supplements</i>\" for full details.</span>\n            </p>\n\n            <p style=\"margin-right: 0cm; margin-left: 0cm; margin-bottom: 10pt; line-height: 150%\">\n                <b><span style=\"line-height: 150%\">In the event of any conflict or inconsistency between the English version and any other language of this Policy, the English version shall prevail.</span></b>\n            </p>\n\n            <p class=\"mso-h3\" style=\"margin-right: 0cm; margin-left: 0cm; font-weight: bold\"><b>&nbsp;</b></p>\n\n            <p class=\"mso-h3\" style=\"margin-right: 0cm; margin-left: 0cm; font-weight: bold\"><b>Table of Contents</b></p>\n\n            <p style=\"margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 21.25pt; text-indent: -21.25pt; line-height: 150%\"><span style=\"line-height: 150%\">1.&nbsp;&nbsp;&nbsp; How We Collect and Use Your Personal Data</span></p>\n\n            <p style=\"margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 21.25pt; text-indent: -21.25pt; line-height: 150%\"><span style=\"line-height: 150%\">2.&nbsp;&nbsp;&nbsp; Sources of Your Personal Data</span></p>\n\n            <p style=\"margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 21.25pt; text-indent: -21.25pt; line-height: 150%\"><span style=\"line-height: 150%\">3.&nbsp;&nbsp;&nbsp; Cookies and Similar Technologies</span></p>\n\n            <p style=\"margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 21.25pt; text-indent: -21.25pt; line-height: 150%\"><span style=\"line-height: 150%\">4.&nbsp;&nbsp;&nbsp; How We Share Your Personal Data with Third Parties</span></p>\n\n            <p style=\"margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 21.25pt; text-indent: -21.25pt; line-height: 150%\"><span s\n<!-- … truncated, 214868 chars total -->",
+ "markupPage": "en-us_protocol_privacy_policy",
+ "markupClass": "__21-ProtocolDetail_sectionContainer__XZ_gX",
+ "appearsOn": [
+  "en-us_protocol_privacy_policy",
+  "en-us_protocol_terms_of_service"
+ ],
+ "computed": {
+  "__21-ProtocolDetail_backButton__c5SKD": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 1377,
+    "y": 837,
+    "width": 45,
+    "height": 45,
+    "top": 837,
+    "right": 1422,
+    "bottom": 882,
+    "left": 1377
+   },
+   "text": "",
+   "position": "fixed",
+   "display": "block",
+   "width": "45px",
+   "height": "45px",
+   "top": "837px",
+   "left": "1377px",
+   "right": "18px",
+   "bottom": "18px",
+   "z-index": "200",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(241, 241, 241)",
+   "opacity": "0",
+   "transition": "opacity 0.3s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "50%",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_bgBottom__IZxFA": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 21911.4375,
+    "width": 1440,
+    "height": 337.5,
+    "top": 21911.4375,
+    "right": 1440,
+    "bottom": 22248.9375,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1440px",
+   "height": "337.5px",
+   "top": "21911.4px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png\")",
+   "opacity": "0.08",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%, rgb(0, 0, 0))",
+   "mask-image": "linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%, rgb(0, 0, 0))",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_contentContainer__VjiZj": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 22248.9375,
+    "top": 0,
+    "right": 1440,
+    "bottom": 22248.9375,
+    "left": 0
+   },
+   "text": "Game Privacy Policy\n            [Latest Updated: 01/19/2026]\n\n            \n     ",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "22248.9px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_content__gnmVJ": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 230.296875,
+    "width": 1072.125,
+    "height": 21894.890625,
+    "top": 230.296875,
+    "right": 1256.0625,
+    "bottom": 22125.1875,
+    "left": 183.9375
+   },
+   "text": "[Latest Updated: 01/19/2026]\n\n            \n                Welcome to Arknights:",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "21894.9px",
+   "font-family": "sans-serif",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "26.325px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_divider__H8iOM": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 211.5,
+    "width": 1072.125,
+    "height": 1.6875,
+    "top": 211.5,
+    "right": 1256.0625,
+    "bottom": 213.1875,
+    "left": 183.9375
+   },
+   "text": "",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "1.6875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(217, 217, 217)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_footer__Anffv": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 22248.9375,
+    "width": 1440,
+    "height": 427.34375,
+    "top": 22248.9375,
+    "right": 1440,
+    "bottom": 22676.28125,
+    "left": 0
+   },
+   "text": "TERMS OF SERVICEPRIVACY POLICYCONTACT US\"PlayStation Family Mark\", \"PlayStation\"",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "427.344px",
+   "font-family": "SDK-Sans-Regular",
+   "font-size": "14px",
+   "font-weight": "400",
+   "line-height": "19.6px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(16, 16, 16)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "padding": "17.5px 0px 35px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_innerContainer__olPvO": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1256.0625,
+    "height": 22248.9375,
+    "top": 0,
+    "right": 1256.0625,
+    "bottom": 22248.9375,
+    "left": 0
+   },
+   "text": "Game Privacy Policy\n            [Latest Updated: 01/19/2026]\n\n            \n     ",
+   "position": "relative",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "22001.4px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "123.75px 0px 123.75px 183.938px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_sectionContainer__XZ_gX": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 22676.28125,
+    "top": 0,
+    "right": 1440,
+    "bottom": 22676.28125,
+    "left": 0
+   },
+   "text": "Game Privacy Policy\n            [Latest Updated: 01/19/2026]\n\n            \n     ",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "22676.3px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_title__8PgRe": {
+   "page": "en-us_protocol_privacy_policy",
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 132.75,
+    "width": 1072.125,
+    "height": 69.75,
+    "top": 132.75,
+    "right": 1256.0625,
+    "bottom": 202.5,
+    "left": 183.9375
+   },
+   "text": "Game Privacy Policy",
+   "position": "relative",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "69.75px",
+   "font-family": "sans-serif",
+   "font-size": "27px",
+   "font-weight": "400",
+   "line-height": "48.6px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#e6e6e6",
+   "#f2f2f2",
+   "#191919",
+   "#d9d9d9",
+   "#b3b3b3",
+   "#ffffff",
+   "#f1f1f1"
+  ],
+  "fonts": [
+   "SansMedium",
+   "SansRegular"
+  ],
+  "fontSizes": [
+   "1.5rem",
+   "2.25rem",
+   "3rem",
+   "1.625rem"
+  ],
+  "zIndex": [
+   "200"
+  ],
+  "transitions": [
+   "transform .2s ease",
+   "opacity .3s ease"
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "module": 92610,
+  "summary": "Account/user modal. A zustand store holds isActive and useActivateUserModal returns its activate action. The modal (SvgIcon80500 frame titled 'modal.user.title') shows the 'modal.user.currentUser' label and account.displayName from the SDK account hook, a 'modal.user.userCenter' button that opens SiteConfig.user_center_link (https://user.gryphline.com/) with an i18n_lang query param in a new tab, a 'modal.user.orig' button only for ja-jp that activates the Originium query modal from module 94150, and a 'modal.user.logout' button (hidden when a local flag is set) that closes the modal and calls the SDK logout action after 300 ms. The root export wraps it in module 44990's container.",
+  "exports": {
+    "Ay": "UserModalRoot",
+    "GW": "useActivateUserModal"
+  },
+  "renames": {
+    "g_1": "useUserModalStore",
+    "h_2": "useActivateUserModal",
+    "f_3": "UserModal",
+    "p_4": "UserModalRoot",
+    "e_5": "set",
+    "e_6": "state",
+    "e_7": "props",
+    "t_8": "className",
+    "r_9": "style",
+    "n_10": "t",
+    "L_11": "isActive",
+    "c_12": "account",
+    "m_13": "isAccountLoading",
+    "h_14": "lang",
+    "f_15": "logoutAccount",
+    "p_16": "handleLogout",
+    "w_17": "openUserCenter",
+    "M_18": "hideLogout",
+    "x_19": "setHideLogout",
+    "y_20": "activateOrigQueryModal",
+    "j_21": "handleOpenOrigQuery",
+    "e_22": "userCenterUrl"
+  }
+}
