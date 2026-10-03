@@ -5,12 +5,14 @@ import { readFileSync, existsSync, statSync, createReadStream, writeFileSync } f
 import { join, extname, resolve } from 'node:path';
 import { chromium } from 'playwright';
 const root = resolve(new URL('..', import.meta.url).pathname);
-const BASE = (process.argv.find(a => a.startsWith('--base=')) || '--base=/Endfield-Site-DNA').slice(7).replace(/\/$/, '');
+const CNAME = existsSync(join(root, 'CNAME')) ? readFileSync(join(root, 'CNAME'), 'utf8').trim() : '';
+const BASE = (process.argv.find(a => a.startsWith('--base=')) || ('--base=' + (CNAME ? '' : '/Endfield-Site-DNA'))).slice(7).replace(/\/$/, '');
+console.log(`static site base path "${BASE}"${CNAME ? ' (custom domain ' + CNAME + ')' : ''}`);
 const PORT = 8790;
 const types = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.md': 'text/markdown', '.woff2': 'font/woff2' };
 const server = http.createServer((req, res) => {
   let path = decodeURIComponent(new URL(req.url, 'http://x').pathname);
-  if (!path.startsWith(BASE + '/') && path !== BASE) { res.writeHead(404); return res.end('not found'); }
+  if (BASE && !path.startsWith(BASE + '/') && path !== BASE) { res.writeHead(404); return res.end('not found'); }
   path = path.slice(BASE.length) || '/';
   let file = join(root, path); if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
   if (!file.startsWith(root) || !existsSync(file) || !statSync(file).isFile()) { res.writeHead(404); return res.end('not found'); }
@@ -29,7 +31,7 @@ try {
   check('page URL kept the Pages base path (no client-side redirect)', page.url() === `http://127.0.0.1:${PORT}${BASE}/en-us/news/7013/`, page.url());
   const title = await page.$eval('.__20-NoticeDetail_title__cALu9', e => e.textContent).catch(() => ''); check('handbook title rendered', /handbook/i.test(title), title);
   const imgs = await page.$$eval('.__20-NoticeDetail_content__wIAEN img', es => es.map(e => ({ src: e.getAttribute('src'), ok: e.complete && e.naturalWidth > 0 }))); check('every content image with a src resolves under the base path', imgs.length > 20 && imgs.filter(i => i.src).every(i => i.ok), { count: imgs.length, withoutSrc: imgs.filter(i => !i.src).length, broken: imgs.filter(i => i.src && !i.ok).map(i => i.src).slice(0, 5) });
-  const links = await page.$$eval('.__20-NoticeDetail_content__wIAEN a[href]', es => es.map(e => e.getAttribute('href'))); const local = links.filter(h => h.startsWith('/')); check('every root-relative content link carries the base path', local.length > 50 && local.every(h => h.startsWith(BASE + '/')), { local: local.length, stray: local.filter(h => !h.startsWith(BASE + '/')).slice(0, 5) });
+  const links = await page.$$eval('.__20-NoticeDetail_content__wIAEN a[href]', es => es.map(e => e.getAttribute('href'))); const local = links.filter(h => h.startsWith('/')); check('every root-relative content link carries the base path', local.length > 50 && local.every(h => h.startsWith(BASE + '/') && !/^\/Endfield-Site-DNA\//.test(BASE ? '' : h)), { local: local.length, stray: local.filter(h => !h.startsWith(BASE + '/')).slice(0, 5) });
   const probe = await page.evaluate(async hrefs => { const out = []; for (const h of hrefs) { const r = await fetch(h, { method: 'HEAD' }).catch(() => null); out.push([h, r ? r.status : 0]); } return out; }, local.filter((h, i, a) => a.indexOf(h) === i).slice(0, 40)); check('linked files exist on the static host (first 40 unique)', probe.every(([, s]) => s === 200), probe.filter(([, s]) => s !== 200));
   const specimens = await page.$$eval('.__20-NoticeDetail_content__wIAEN td > [class*="__"]', es => es.map(e => e.getBoundingClientRect().width > 0)); check('embedded specimens render with non-zero size', specimens.length > 10 && specimens.every(Boolean), specimens.length);
   check('no JavaScript errors other than the site\'s own React #418 hydration notice', errors.every(e => /#418/.test(e)), errors);

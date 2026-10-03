@@ -4,7 +4,7 @@
   // That one GET is answered with the local handbook record; every other request is untouched.
   const originalOpen = XMLHttpRequest.prototype.open;
   XMLHttpRequest.prototype.open = function (method, url, ...rest) {
-    try { const target = new URL(url, location.href); if (String(method).toUpperCase() === "GET" && /\/api\/bulletin\/7013$/.test(target.pathname)) url = location.origin + "/Endfield-Site-DNA/handbook/handbook-bulletin.pages.json"; } catch (e) {}
+    try { const target = new URL(url, location.href); if (String(method).toUpperCase() === "GET" && /\/api\/bulletin\/7013$/.test(target.pathname)) url = location.origin + "/handbook/handbook-bulletin.pages.json"; } catch (e) {}
     return originalOpen.call(this, method, url, ...rest);
   };
 })();
