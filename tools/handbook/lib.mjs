@@ -79,3 +79,15 @@ export function soundSources() {
 export function imageAssetModules() { return Object.values(data.moduleMap).filter(m => m.kind === 'image-asset').map(m => ({ id: m.id, file: m.name.replace('image:', ''), url: m.note })); }
 export function svgIconCount() { return Object.values(data.moduleMap).filter(m => m.kind === 'svg-icon').length; }
 export function mediaLogs() { return Object.keys(data.pages).map(pg => { try { return [pg, JSON.parse(readFileSync(join(root, 'capture/pages', pg, 'media-log.json'), 'utf8'))]; } catch { return null; } }).filter(Boolean); }
+// Real code excerpt from a readable module: from the first line matching `start` for `lines` lines.
+export function excerpt(id, start, lines = 30, { skip = 0 } = {}) {
+  const r = readableFile(id); if (!r) return p('<strong>excerpt unavailable for module ' + esc(String(id)) + '</strong>');
+  const src = readFileSync(join(root, 'source/readable', r.file), 'utf8').split('\n');
+  const re = start instanceof RegExp ? start : new RegExp(start.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  let i = src.findIndex(l => re.test(l)); if (i < 0) return p('<strong>excerpt anchor not found in ' + esc(r.file) + ': ' + esc(String(start)) + '</strong>');
+  i += skip; const slice = src.slice(i, i + lines);
+  // drop a common leading indent so excerpts start at indent 0
+  const indent = Math.min(...slice.filter(l => l.trim()).map(l => l.match(/^ */)[0].length));
+  return p(`<strong>Code — ${esc(r.file)} lines ${i + 1}–${i + slice.length} (readable reconstruction of the shipped module; values and control flow unchanged):</strong>`) + code(slice.map(l => l.slice(indent)).join('\n'), { max: lines + 2 });
+}
+export const interactions = existsSync(join(root, 'capture/interactions.json')) ? J('capture/interactions.json') : null;

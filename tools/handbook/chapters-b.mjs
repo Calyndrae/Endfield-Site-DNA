@@ -1,5 +1,5 @@
 // Home-page chapters.
-import { data, p, t, sub, a, link, observed, measured, inferred, rule, table, code, cssBlock, specimen, esc, readableLink, rulesFor, extractAll, stateMarkup, shotIf, pageDom, operatorClips, CDN } from './lib.mjs';
+import { data, p, t, sub, a, link, observed, measured, inferred, rule, table, code, cssBlock, specimen, esc, readableLink, rulesFor, extractAll, stateMarkup, shotIf, pageDom, operatorClips, excerpt, CDN } from './lib.mjs';
 const tl = (page, re) => (data.timelines[page] || []).filter(e => re.test(e.element));
 const tlRows = (page, re, max = 14) => tl(page, re).slice(0, max).map(e => [esc(e.element.replace(/__[A-Za-z0-9_]{5}/g, '')), `${e.first}–${e.last} ms`, esc(Object.entries(e.props).map(([k, v]) => `${k}: ${String(v.from).slice(0, 30)} → ${String(v.to).slice(0, 30)}`).join(' · ')).slice(0, 220) || esc(e.classChanges.slice(0, 3).map(c => `${c.t}ms +${c.added.map(x => x.replace(/__[A-Za-z0-9_]{5}$/, '')).join(',')}`).join('; '))]);
 const hoverRows = cls => data.hover.filter(x => x.cls.startsWith(cls)).flatMap(x => x.changes.slice(0, 4).map(c => [esc(x.cls.replace(/__[A-Za-z0-9_]{5}$/, '')), esc(c.node.replace(/__[A-Za-z0-9_]{5}/g, '').split('#')[0]), esc(Object.entries(c.props).map(([k, v]) => `${k}: ${v.before} → ${v.after}`).join(' · ')).slice(0, 220), esc(x.transition || '')]));
@@ -15,6 +15,7 @@ export const chapters = [
       table(['Element', 'Node', 'Computed change', 'Transition'], hoverRows('Header_')),
       table(['Element', 'Window', 'Rail expansion recorded on the news page'], tlRows('en-us_news', /^Header_/, 8)),
       observed('When the rail expands, the action buttons translate down in 3.25rem steps (translate3d(0.6875rem, −3.25rem … 8rem)) and the frame grows to 19.5rem wide with .25rem radius. In portrait the mobile header (9.625rem tall, box-shadow 0 0 2rem rgba(0,0,0,.3)) replaces it, with a 15.5–17.5rem "go to game" button and a hamburger that opens a fixed white menu (translate3d(−105%) → 0 in .3s) listing sections as 6.75rem #f2f2f2 rows that turn #fffa00 when active.'),
+      excerpt(83597, '"ontouchstart" in window || setHeaderExpanded(!0)', 8, { skip: -3 }),
       cssBlock(rs, { max: 14 }),
       shotIf('capture/states/header-rail.png', 'rail at rest, 1440×900'), shotIf('capture/states/header-rail-hover.png', 'rail expanded on hover'), shotIf('capture/states/header-share-open.png', 'share list open'), shotIf('capture/states/mobile-home.png', 'mobile header, 390×844'), shotIf('capture/states/mobile-menu-open.png', 'mobile menu open'),
       inferred('The rail is a vertical tab bar that behaves like a dock: it only reveals labels on intent (hover), so the 160rem canvas is never obstructed. The yellow hover fill on the game block is the only saturated colour in the chrome, which makes "play" the single loudest call to action on every page.'),
@@ -30,6 +31,7 @@ export const chapters = [
       observed('Exit: when every task has settled the container gets the leaving class → opacity 0 with transition opacity 1s delayed 1.4s, while a yellow :after sheet scales from 0 with the fadeIn keyframe (.6s cubic-bezier(1,0,.7,1) delayed .5s); the shared loaded store flips after 1500 ms (sections start their entrances) and onFinished unmounts the screen after 2400 ms.'),
       measured(`Headless Chromium saw the bar go 0 → 100% between 2.9 s and 7.6 s on the home page (44 frames logged) and 3.5 → 5.8 s on the news page; the screen left at ${data.pages['en-us_news'] ? data.pages['en-us_news'].loaderMs : '—'} ms on the news page and ${data.pages['en-us_news_7013'] ? data.pages['en-us_news_7013'].loaderMs : '—'} ms on the article page. On the home page the percentage stays at 0 for the first seconds because every task is a multi-megabyte portrait.`),
       table(['Element', 'Window', 'Animated properties'], tlRows('en-us', /^__00-Loading/, 6)),
+      excerpt(71272, 'runTasks = () => {', 40),
       cssBlock(rs, { max: 12 }), kf ? code(kf.css) : '',
       shotIf('capture/states/loading-home-2200ms.png', 'home page loader at 2.2 s, 1440×900'), shotIf('capture/states/loading-article-4500ms.png', 'article page loader at 4.5 s (37 %)'), shotIf('capture/states/loading-mobile-2200ms.png', 'portrait loader at 390×844'),
       inferred('The loader is a progress curtain rather than a spinner: it is honest about asset weight and hands over with the brand colour sweeping across, which also hides the first paint of the sections.'),
@@ -40,7 +42,7 @@ export const chapters = [
   { slug: 'viewer', title: 'Section viewer: chapter navigation by wheel, scroll and hash', html() {
     return [
       observed('SectionViewer renders the rail (sticky) and a column of section wrappers. A lodash-throttled (100 ms) handler on window scroll and wheel picks the section whose vertical centre is the smallest positive distance from the viewport top (within 2× innerHeight), stores it in a zustand store and mirrors it to the URL hash with history.replaceState. Clicking a rail item calls setCurrentSection: it sets a programmatic flag, scrolls the section into view with behavior:"smooth" and ignores scroll events until that section is reached. On mount a matching hash (except #home) scrolls to the section. There is no keyboard handling.'),
-      code(`const handleScrollThrottled = throttle(() => {\n  let nearestKey = '', nearestDistance = 2 * window.innerHeight;\n  for (const [key, ref] of Object.entries(sectionRefs)) {\n    const rect = ref.current.getBoundingClientRect();\n    const centerY = rect.height / 2 + rect.top;\n    if (centerY < nearestDistance && centerY > 0) { nearestDistance = centerY; nearestKey = key; }\n  }\n  if (store.currentSection !== nearestKey && nearestKey) store.setState({ currentSection: nearestKey });\n}, 100);`),
+      excerpt(83597, 'handleScrollThrottled = (0, lodashThrottle.A)', 46),
       measured('Home section order and heights at 1440×900: home 900, operator 810, information 810, calendar 1990, gameplay 943, aic 695, notice 767 px. Each 600px wheel step in the capture advanced the active section by one.'),
       observed('Wrappers: .sections_sectionViewer / .SectionViewer_contentContainer (flex:1, overflow-x hidden) with scroll-margin-top 9.625rem in portrait. The hero (__01-Home) is exactly 100vh with overflow hidden; the other sections are fixed rem heights (operator stage, information 90rem #000, gameplay 104.75rem, aic 77.25rem, notice 85.25rem + 10rem margin).'),
       inferred('Native document scrolling with a smart highlighter rather than scroll-jacking: trackpads, touch and the back button behave normally while the rail still reads like a chapter index.'),
@@ -61,6 +63,7 @@ export const chapters = [
       sub('Live specimens (verbatim markup styled by the live stylesheets)'),
       p('<strong>Why some stage elements are shown as screenshots, not live specimens:</strong> every __02-Operator rule except the LORE divider is written as a descendant of .__02-Operator_sectionContainer, so the "All Operators" button, the avatar rail and the 2D/3D switch only receive their styles inside the 90rem stage. Reproducing the stage here would mean embedding the whole section; the exact markup of those elements is in the captured DOM (capture/states/states.json) and their CSS is listed below.'),
       divider ? specimen('__02-Operator_sectionDivider — the yellow LORE hand-off band (9.125rem tall; its :before slides from translateX(100%) in .4s ease .2s when the active class is set)', divider) : '',
+      excerpt(3492, '".".concat(styles2().pcContainer, " .").concat(styles2().decoFlag)', 70, { skip: -8 }),
       cssBlock(rs, { max: 24 }),
       shotIf('capture/states/operator-stage.png', 'operator stage after its entrance, 1440×900'), shotIf('screenshots/home-operator-verified.png', 'operator stage (installed Chrome capture from the earlier session)'),
       inferred('The stage is composed like a dossier: the character art is the only large colour event, the data column is small and left-aligned to the canvas edge, and the hollow ENDFIELD word plus tape and line decorations enter from the right to frame the art. The 5–8 s illustration drift is far longer than the UI motion, so the art keeps moving after the interface has settled.'),
@@ -72,7 +75,7 @@ export const chapters = [
     const clips = operatorClips(); const rs = rulesFor('TransparentVideo').concat(rulesFor('players'));
     return [
       observed('The "3D" view is not a mesh: it is a pre-rendered MP4 whose frame carries RGB in one half and a grayscale alpha mask in the other half. Hypergryph\'s @hg-web/trans-video class draws it into a canvas: WebGL path (fullscreen quad, fragment shader alpha = 0.3R + 0.59G + 0.11B, SRC_ALPHA/DST_ALPHA blending), Canvas2D fallback doing the same per pixel; layouts left-right / right-left / top-bottom / bottom-top, image-mask and luminance modes; frames scheduled with requestVideoFrameCallback (requestAnimationFrame on Android). The React wrapper renders a canvas plus a hidden muted playsInline crossOrigin video and exposes {video, trans, controller}.'),
-      code(`// fragment shader core (readable reconstruction of the GLSL string)\nfloat getBrightness(vec3 c) { return 0.3 * c.r + 0.59 * c.g + 0.11 * c.b; }\nvec4 color = texture2D(uFrame, vColorUv);   // RGB half\nvec4 mask  = texture2D(uFrame, vMaskUv);    // alpha half\ngl_FragColor = vec4(color.rgb, getBrightness(mask.rgb));`),
+      excerpt(25221, 'float getBrightness(vec3 color)', 10, { skip: -1 }), excerpt(25221, '? requestAnimationFrame(selfRef.ticker)', 14, { skip: -10 }),
       observed(`OPERATOR_VIDEO_CLIPS maps ${Object.keys(clips).length} operators to enter/idle pairs under /_next/static/media/video/. The stage sets video.src to enter, calls trans.activate(), and on ended switches to idle with loop. (This Chromium has no H.264 decoder, so the clips could not be rendered in the capture; the URLs below are the originals.)`),
       table(['Operator', 'enter clip', 'idle clip'], Object.entries(clips).map(([k, v]) => [esc(k), a(v.enter.split('/').pop(), v.enter), a(v.idle.split('/').pop(), v.idle)])),
       cssBlock(rs),
@@ -87,7 +90,7 @@ export const chapters = [
     return [
       observed('Below the operator stage, the LORE section renders a three.js r178 scene (data-engine="three.js r178" on the canvas, measured 1830×1080 at 1440×900) into .__03-Lore_canvasContainer with cursor:grab. PointCloudModelPlayer loads six binary point models (spaceship, anchor, factory, pile, trinity, enemy — .bin files under /_next/static/media/model/) and draws them as a point cloud with a scan-line reveal, laser rays, glitch effects and drag-to-rotate (mouse and touch). setup() runs during the loader: it benchmarks a 10 000-point render and picks renderLevel 2/1/0 (rays per batch 8/14/20, maximum rays 500/1000/2000, pixel ratio 0.75 at level 2), then normalises every model binary. Switching models plays the "model" sound and fires content_view tracking.'),
       observed('Model binaries referenced from chunk 226: spaceship.752e25.bin, factory.bd9a36.bin, trinity.d6c060.bin, anchor.0e6c6a.bin, enemy.6a1a19.bin, pile.251dc1.bin (plain Float32 position buffers; not encrypted).'),
-      code(`static get raysPerBatch() { return this.renderLevel === 2 ? 8 : this.renderLevel === 1 ? 14 : 20; }\nstatic get maxRays()      { return this.renderLevel === 2 ? 500 : this.renderLevel === 1 ? 1000 : 2000; }\n// level 2 additionally calls renderer.setPixelRatio(0.75)`),
+      excerpt(83597, '? (this.renderLevel = 2)', 12, { skip: -10 }), excerpt(83597, 'static get renderLevelValue()', 10),
       cssBlock(rs, { max: 18 }),
       shotIf('capture/states/section-information.png', 'scrolling past LORE into INFORMATION, 1440×900'),
       inferred('The point cloud is the site\'s "signal" motif made literal: objects are rendered as data rather than surfaces, which matches the dossier/telemetry language of the typography (REC, counters, hairlines). The quality tiers protect frame rate on weak GPUs instead of disabling the effect.'),
@@ -105,6 +108,7 @@ export const chapters = [
       measured('Swiper classes switched at 2.84 s and 3.49 s (swiper-slide-active / __04-Information_active); the section title arrow block translated from −58.5px to 0 and the title text flickered to opacity 1 (SectionTitle reveal, 400/600 ms after in-view).'),
       table(['Element', 'Window', 'Animated properties'], tlRows('en-us', /^__04-Information|swiper/, 8)),
       title ? specimen('SectionTitle — the section heading component (wordmark 0 0 122 6 at top −.875rem, a 6.5rem #d9d9d9 arrow block that slides in .5s ease-out with a rotating arrow, 3rem SansBold title)', title) : '',
+      excerpt(12914, '(0, React.useEffect)(() => {', 24),
       cssBlock(rs, { max: 22 }),
       shotIf('capture/states/section-information.png', 'INFORMATION at 1440×900'),
       inferred('The only dark section on the home page is the one that frames video: black makes the covers read like a cinema wall and lets the yellow date/line act as a cursor. The scale/brightness pair on inactive slides is a focus metaphor rather than a carousel border.'),
@@ -118,6 +122,7 @@ export const chapters = [
     return [
       observed('A max-content-height section padded 6rem 0 2rem. A 142.8rem-wide stick container (title + timeline images) starts absolute at left calc(50% − 66.5625rem) with opacity 0; in landscape it becomes position:fixed at top 0 (z-index 2) while the section scrolls and is parked absolute at the bottom at the end (stickFixed / stickBottom classes), with a white gradient fade under it. The calendar artwork (141.375rem wide, margin-top 25rem) fades in; in portrait a horizontally draggable 63.75rem calendar scroll replaces it. The download-button background breathes with the downloadBgBreath keyframe.'),
       kf ? code(kf.css) : '',
+      excerpt(83597, '[styles17().stickFixed]: "fixed" === stickMode', 6, { skip: -3 }),
       cssBlock(rs, { max: 12 }),
       shotIf('capture/states/section-calendar.png', 'CALENDAR at 1440×900'),
       inferred('The calendar is the one section that relies on scroll position as a timeline: fixing the title while the body scrolls turns the page into a long poster you read downward. It is also the only place using position:fixed inside content, which is why it needs the parked bottom state.'),
@@ -135,6 +140,7 @@ export const chapters = [
       measured('Chromium logged the album layers\' clip-path going from polygon(100% 0, 100% 0, 100% 100%, …) to polygon(0 0, 100% 0, 100% 100%, 0 100%) (bottom 2.84–3.49 s, middle to 3.57 s, top video to 4.34 s) and the index/title/description opacity 0 → 1 over 46 frames each.'),
       table(['Element', 'Window', 'Animated properties'], tlRows('en-us', /^GameplayAlbum|__05-Gameplay|__08-AIC/, 10)),
       kf.map(k => code(k.css)).join(''),
+      excerpt(84245, 'clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) =>', 30),
       cssBlock(rs, { max: 24 }),
       shotIf('capture/states/section-gameplay.png', 'GAMEPLAY at 1440×900'), shotIf('capture/states/section-aic.png', 'AIC at 1440×900'),
       inferred('The album is a wipe-reveal slideshow: each change redraws the picture from one edge, which reads as a shutter rather than a slide. The three-layer stack (plate, duotone still, live video) is why the transition never shows an empty frame.'),
@@ -155,6 +161,7 @@ export const chapters = [
       pagination ? `<table><tbody><tr><th colspan="3"><p>Pagination (number type) — prev/next 4.625rem #fafafa discs on a #e6e6e6 pill with a hatched :before at 5% opacity. Hover a disc: background → #fffa00, texture opacity .4 → 1 (.2s)</p></th></tr><tr><td><p>In the section it is absolutely positioned and shrink-wrapped; here the middle cell approximates that width.</p></td><td>${pagination}</td><td><p>Arrow buttons play arrow_click; the readout is current+1 / total in Novecentosanswide-Medium.</p></td></tr></tbody></table>` : '',
       button ? specimen('Button — 20rem × 4.5rem #383838 block with a textured :before and a yellow clip-path marker :after. Hover: background #484848, radius 6px, marker becomes an arrow and shifts .875rem (.2s)', button) : '',
       table(['Element', 'Node', 'Computed change', 'Transition'], hoverRows('Pagination_').concat(hoverRows('Button_'))),
+      excerpt(83597, 'carouselItemTransform = (slotIndex, activeSlot) => {', 16),
       cssBlock(rs, { max: 17 }),
       cssBlock(rulesFor('Button', r => !r.media.length), { max: 15 }),
       shotIf('capture/states/section-notice.png', 'NOTICE at 1440×900'),
@@ -184,6 +191,7 @@ export const chapters = [
     return [
       t('Scroll to the bottom of this page: the footer there is the live component.'),
       observed('A #101010 band. The top container (border-bottom 1px rgba(81,81,81,.5)) centres a 1.25rem SansMedium #6e6e6e label, a 23.25rem × 4.5rem #f0f0f0 language picker (globe SVG at left 1.375rem, text in the system stack, an arrow rotated 90° that turns 270° when active) whose dropdown (opacity .2s, z-index 1000, 17.25rem scroll area, 3.75rem rows separated by 90% #888 hairlines) lists the 13 languages; picking one rewrites the first path segment. The legal links (1.25rem SansMedium #f0f0f0, separated by 3rem gutters and rgba(240,240,240,.3) rules) are rendered into the bottom container by the Gryphline SDK (Tracking.insertFooter).'),
+      excerpt(46173, 'switchLanguage = (0, React.useCallback)', 8),
       cssBlock(rs, { max: 16 }),
       shotIf('capture/states/footer.png', 'footer at rest'), shotIf('capture/states/footer-language-open.png', 'language dropdown open'),
       inferred('The footer is deliberately utilitarian and near-black so the white canvas above ends with a hard stop; the only control is language, which is the one setting every visitor may need.'),

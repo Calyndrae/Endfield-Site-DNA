@@ -1,5 +1,5 @@
 // Subpages, controls, hover, motion, audio, imagery, responsive, textures, i18n.
-import { data, p, t, sub, br, a, link, img, observed, measured, inferred, rule, table, code, cssBlock, specimen, esc, readableLink, rulesFor, extractAll, stateMarkup, shotIf, pageDom, soundSources, imageAssetModules, svgIconCount, mediaLogs, CDN } from './lib.mjs';
+import { data, p, t, sub, br, a, link, img, observed, measured, inferred, rule, table, code, cssBlock, specimen, esc, readableLink, rulesFor, extractAll, stateMarkup, shotIf, pageDom, soundSources, imageAssetModules, svgIconCount, mediaLogs, excerpt, CDN } from './lib.mjs';
 const first = (html, cls, cap) => (html ? extractAll(html, cls, 1, cap)[0] : null);
 const hoverRows = cls => data.hover.filter(x => x.cls.startsWith(cls)).flatMap(x => x.changes.slice(0, 4).map(c => [esc(x.cls.replace(/__[A-Za-z0-9_]{5}$/, '')), esc(c.node.replace(/__[A-Za-z0-9_]{5}/g, '').split('#')[0]), esc(Object.entries(c.props).map(([k, v]) => `${k}: ${v.before} → ${v.after}`).join(' · ')).slice(0, 220), esc(x.transition || '')]));
 const count = arr => { const m = new Map(); for (const k of arr) m.set(k, (m.get(k) || 0) + 1); return [...m.entries()].sort((x, y) => y[1] - x[1]); };
@@ -20,7 +20,7 @@ export const chapters = [
       dropdownOpen ? specimen('Dropdown (open state as captured; static here because the listbox logic lives in React) — white panel, 4.5rem options, selected option on a hatched #8f8f8f plate with a magenta/mint left rule', dropdownOpen, 'The open panel is position:absolute and may overlap the next rows; that is the real behaviour of the component.') : '',
       table(['Element', 'Node', 'Computed change', 'Transition'], hoverRows('OperatorItem_').concat(hoverRows('Dropdown_'))),
       observed('Selecting a card switches the list for a detail panel: AnimatePresence (mode wait) fades the list out and the detail in with 0.3 s easeOut opacity; the detail reuses the homepage OperatorSection with a detail class (same avatar rail, same illustration/3D switch). The name-fit algorithm (28 bisection steps between .5625 and 1.6875rem against an 11.1875rem box) runs per card.'),
-      code(`function fitOperatorName(text, rootPx) {\n  const maxWidth = 11.1875 * rootPx; let low = 0.5625, high = 1.6875;\n  for (let i = 0; i < 28; i++) { const mid = (low + high) / 2; if (measure(text, mid * rootPx) <= maxWidth) low = mid; else high = mid; }\n  return low; // rem\n}`),
+      excerpt(50999, 'let fitName = () => {', 40),
       cssBlock(rs, { max: 24 }), cssBlock(drs, { max: 16 }),
       shotIf('capture/pages/en-us_operator/desktop-1440x900.png', 'catalogue at 1440×900'), shotIf('capture/states/dropdown-open.png', 'Class dropdown open'), shotIf('capture/states/operator-list-filtered.png', 'list filtered to one class'), shotIf('capture/states/operator-detail.png', 'detail panel after clicking a card'), shotIf('capture/pages/en-us_operator/mobile-390x844.png', 'catalogue at 390×844'),
       inferred('The catalogue is a denser restatement of the stage: same taxonomy icons, same rarity colours, same hollow word in the background, but as a grid with a stage-like backdrop rather than a neutral list. The custom scrollbar keeps the page itself from scrolling so the chrome stays fixed.'),
@@ -44,6 +44,7 @@ export const chapters = [
       p('<strong>The news card (__10-NoticeList_item) is styled only inside .__10-NoticeList_sectionContainer</strong>, so it is shown in the screenshots below and by its CSS; its captured markup is in capture/states/states.json (news_item).'),
       pag ? `<table><tbody><tr><th colspan="3"><p>Pagination (nav type) — zero-padded page blocks in Novecentosanswide-Medium with a sliding window of four and a horizontal mask</p></th></tr><tr><td><p>On the news index it sits in a 30rem wrapper centred under the grid.</p></td><td>${pag}</td><td><p>Clicking a block plays common_click and calls goToPage(index).</p></td></tr></tbody></table>` : '',
       table(['Element', 'Node', 'Computed change', 'Transition'], hoverRows('SubpageTab_')),
+      excerpt(92731, 'goToPage = (0, React.useCallback)', 28),
       cssBlock(rs, { max: 30 }),
       shotIf('capture/pages/en-us_news/desktop-1440x900.png', 'news index at 1440×900'), shotIf('capture/states/news-tab2.png', 'second tab selected'), shotIf('capture/pages/en-us_news/mobile-390x844.png', 'news index at 390×844'),
       inferred('The masthead\'s hard white-to-yellow split restates the LORE band of the home page at document scale: one colour event, then disciplined white cards. Tabs are segmented controls, not links, and the active tab physically makes room for an arrow — a small mechanical gesture typical of the whole site.'),
@@ -59,6 +60,7 @@ export const chapters = [
       observed('A fixed 5rem circular #f1f1f1 back-to-top button (bottom/right 2rem, z-index 200) becomes active when documentElement.scrollTop > 600 (throttled 300 ms on scroll and wheel); clicking scrolls to top smoothly and plays arrow_click. A close icon appears in the title when the page was opened from the site (window.opener on the same host) and rotates 90° on hover; it calls window.close().'),
       measured('Back-to-top opacity was 1 after scrolling the live article to 1200px. The title row is 3rem with min-height 7.75rem; the date is formatted as information.displayTimeFormat + " HH:mm" by dayjs.'),
       back ? specimen('__20-NoticeDetail_backButton — the back-to-top control as captured (on this page it is live at the bottom-right once you scroll)', back) : '',
+      excerpt(36979, 'decorateNoticeHtml = (html) => {', 30), excerpt(36979, 'handleScroll = (0, lodashThrottle.A)', 14),
       cssBlock(rs, { max: 16 }),
       shotIf('capture/states/article-back-to-top.png', 'live article scrolled, back-to-top visible'),
       inferred('The article template is the quietest surface on the site, which is exactly why its tables are so decorated: editorial tables are the only place the brand voice can appear inside CMS content.'),
@@ -127,6 +129,7 @@ export const chapters = [
         ['News list / catalogue detail', 'cross-fade', 'framer-motion 0.3 s easeOut, AnimatePresence mode wait'],
         ['Carousel item', 'slide', 'transform .4s ease-in-out (CSS)'],
       ].map(r => r.map(esc))),
+      excerpt(84245, 'let flickerReveal = (flickerElement, isExit) => {', 28), excerpt(96664, 'let createRollingTimeline = (rollingTarget, overflowWidth) => {', 36),
       sub('Measured entrance timeline on the home page (inline style mutations after the loader)'),
       table(['Element', 'Window', 'Frames', 'Properties'], tlRows),
       sub('CSS keyframes (all)'), table(['Keyframes', 'File', 'Steps'], kfRows),
@@ -154,6 +157,7 @@ export const chapters = [
         ['news_cate_click', 'news tabs', 'news_cate_click'],
         ['reserve_click', 'reservation button', 'reserve_click'],
       ].map(r => [esc(r[0]), esc(r[1]), r[2].split(', ').map(k => { const s = sfx.find(x => x.key === k); return s ? a(s.url.split('/').pop(), s.url) : esc(k); }).join(', ')])),
+      excerpt(26097, 'play(soundSrc) {', 24), excerpt(58572, 'var VolumeFader = (function () {', 46),
       measured('Media log from the capture: bgm.3ce37f.mp3 play() was called 1.3 s after navigation on the home page (loop true, muted false, volume 1) and 2.5–3.7 s on the subpages; the INFORMATION background video (01.1e0eb1.mp4, 53 MB) and the gameplay upload videos play muted and looped.'),
       table(['Page', 'Media play() calls (t, kind, src, loop, volume)'], logs.map(([pg, l]) => [esc(pg), esc(l.media.map(m => `${Math.round(m.t)}ms ${m.kind} ${m.src.split('/').pop()} loop=${m.loop} vol=${m.volume}`).join(' | ')).slice(0, 400)])),
       inferred('Sound is treated as part of the interface grammar: every click class has its own cue, and the music fades rather than cuts. The persisted mute flag respects the visitor across visits, and the mobile volume of 0.1 avoids startling users on phones.'),
@@ -198,6 +202,7 @@ export const chapters = [
     return [
       observed('Each of the 13 locales ships as its own module in the main layout chunk (26–97 KB): UI text keys (operator.content.<key>.name, notice.tab.*, modal.user.*, gameplay.items.N.title …), per-locale title images, the font map (SansRegular/Medium/Bold/Black → HarmonyOS Sans for en-us; HarmonyOS Sans SC/TC, Noto Sans JP/KR/Thai Looped for other scripts) and locale components (footer, SvgLogo). I18nProvider exposes {lang, langs, images, text, font, data, components}; useText resolves flat keys first, then dotted paths. FontLoader creates a FontFace per alias, falls back to the .woff2 entry alone, and logs failures.'),
       table(['Locale bundle', 'Minified bytes'], bundles),
+      excerpt(45965, 'let loadFontFace = async (family, source) => {', 20),
       observed('Language-specific CSS exists for widths that differ by script: html[lang=ja-jp] uses vertical-rl text in the rail\'s game button, de/es/ru/th get larger letter-spaced labels, zh-cn/zh-tw/ja-jp get taller button groups, ko-kr sets word-break keep-all, and portrait titles are capitalised on the overseas build (html[data-oversea=true]).'),
       inferred('Shipping fonts per locale through the i18n bundle (not CSS) lets the same alias names (SansMedium…) resolve to different families, so component CSS never changes per language.'),
       rule('Alias your body faces (SansRegular/Medium/Bold/Black) and bind the alias to a family per locale at runtime; keep per-locale overrides as html[lang] selectors.'),

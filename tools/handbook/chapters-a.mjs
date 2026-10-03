@@ -1,5 +1,5 @@
 // Foundation chapters: scope, routes, technical structure, scaling, layers, colour, typography, rhythm, grid.
-import { data, comp, p, t, h, sub, br, a, link, img, observed, measured, inferred, rule, table, code, cssBlock, esc, readableLink, chunkUrl, rem, shotIf, rulesFor, ORIGIN, CDN } from './lib.mjs';
+import { data, comp, p, t, h, sub, br, a, link, img, observed, measured, inferred, rule, table, code, cssBlock, esc, readableLink, chunkUrl, rem, shotIf, rulesFor, excerpt, ORIGIN, CDN } from './lib.mjs';
 const pg = n => data.pages[n];
 const fmtBytes = b => b > 1e6 ? (b / 1e6).toFixed(2) + ' MB' : b > 1e3 ? (b / 1e3).toFixed(1) + ' KB' : b + ' B';
 export const chapters = [
@@ -53,7 +53,7 @@ export const chapters = [
     const home = pg('en-us');
     return [
       observed('Every dimension in the stylesheets is written in rem, and the root font-size is computed by applyRootFontSize from a design canvas: landscape uses 2560×1440, portrait uses 1080×1920. The scale is 16px × min(viewportWidth/2560, viewportHeight/1440) in landscape (the branch that keeps the whole canvas visible), and 16px × min(width/1080, height/1920) in portrait. The function re-runs every second and on debounced resize (200 ms), ignores single-axis changes on mobile user agents (address bar) and rewrites the viewport meta on HarmonyOS/Honor/HeyTap/Huawei browsers.'),
-      code(`const portrait = innerHeight >= innerWidth;\nconst scale = portrait\n  ? (innerWidth / innerHeight > 1080 / 1920 ? innerHeight / 1920 : innerWidth / 1080)\n  : (innerWidth / innerHeight > 2560 / 1440 ? innerHeight / 1440 : innerWidth / 2560);\ndocument.documentElement.style.fontSize = 16 * scale + 'px';`),
+      excerpt(14577, 'function applyRootFontSize', 40),
       measured(`At 1440×900 the root font-size is ${home.rootFontSize} (16 × 1440/2560); at 390×844 it is ${home.mobile.rootFontSize} (16 × 390/1080). Therefore 1rem = 9px on the reference desktop and every rem value in this handbook is also given in px at that size.`),
       observed(`Orientation is the only layout axis: the CSS contains ${data.breakpoints.conditions.find(c => c[0] === '(orientation:portrait)')[1]} portrait conditions, ${data.breakpoints.conditions.find(c => c[0] === '(orientation:landscape)')[1]} landscape conditions and ${data.breakpoints.conditions.find(c => c[0] === '(any-hover:hover)')[1]} any-hover conditions. There are no width breakpoints. The desktop rail is display:none in portrait and the mobile header is display:none in landscape.`),
       observed('A --vh-offset custom property (vh-check library) stores the mobile browser-chrome offset; the home section height in portrait is calc(100vh - var(--vh-offset) - 9.625rem), i.e. the viewport minus the 9.625rem mobile header.'),
