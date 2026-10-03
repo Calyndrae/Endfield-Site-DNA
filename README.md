@@ -4,6 +4,10 @@ A technical "DNA" study of the Arknights: Endfield official website (`https://en
 
 Nothing in the handbook is invented: every wrapper, stylesheet, font, script, sound and animation is the original site's. Interactive behaviour is not inferred from images: each mechanism was driven live in headless Chromium and its effect recorded, and the reconstructed code that produces it is quoted next to the measurement. The handbook's text is tagged **OBSERVED** (read from shipped code/responses), **MEASURED** (reported by headless Chromium on 2026-10-03) or **INFERRED** (interpretation).
 
+## Downloadable editions
+
+`handbook/Endfield-Site-DNA-Handbook.pdf` is the printed edition: a title page, a Contents index with page numbers, a preface, the 36 chapters with live specimens rendered by the site's own stylesheets and their verbatim markup, an alphabetical index of components, files, fonts, colours and terms, and three appendices — the twelve stylesheets complete and beautified, the readable first-party JavaScript complete, and a list of the data archives (which are hosted, not reprinted). `handbook/Endfield-Site-DNA-Handbook.md` is the same document as Markdown. Both are built by `node tools/build-doc.mjs` from the same chapter sources as the live page (the helpers in `tools/handbook/lib.mjs` have a "doc" output mode), and both are served by the hosted site.
+
 ## Open the handbook
 
 ```bash
@@ -56,6 +60,7 @@ The Pages variant is built by `build-handbook.mjs` alongside the mirror variant:
 | `beautify.mjs`, `split-modules.mjs`, `hint-modules.mjs`, `name-modules.mjs` (+ `source/module-names.json`), `rename.mjs`, `stage2.mjs` (+ `source/rename-maps/*.json`), `write-module-map.mjs` | Deobfuscation pipeline |
 | `analyze-css.mjs`, `css-digest.mjs`, `analyze-hover.mjs`, `analyze-motion.mjs`, `extract-components.mjs` | Design-token and component evidence extraction |
 | `build-handbook.mjs` (+ `handbook/chapters-*.mjs`, `handbook/lib.mjs`) | Builds the single-page handbook from the data |
+| `build-doc.mjs` | Builds the downloadable PDF (two print passes for page numbers, cover merged with pdfunite) and the Markdown twin from the same chapters |
 | `serve.mjs [port] [--host=0.0.0.0] [--allow=ip,ip]` | Local mirror; optional LAN binding with a client-address allow list |
 | `verify-pages.mjs [--base=/Endfield-Site-DNA]` | Serves the repository as a static GitHub Pages project site and verifies the Pages variant in headless Chromium |
 | `verify.mjs` | Headless verification (shell untouched, loader finishes, anchors, specimen geometry, hover parity with live measurements, live rail/footer/back-to-top, mobile overflow, every code excerpt anchored in the readable source, interaction chapter and `capture/interactions.json` complete and self-consistent) |

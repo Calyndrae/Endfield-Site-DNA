@@ -20,6 +20,7 @@ const used = new Set();
 let body = '';
 body += p('<strong>Single-page technical handbook.</strong> Everything around this text is the original Endfield site runtime served by the local mirror: navigation rail, footer, fonts, stylesheets, scripts, sounds. Only this article\'s title and body data were replaced. Specimens inside the page are verbatim markup captured from the live site and are styled by the live stylesheets, so their hover states are the real ones. The only normalisation applied to specimens is the removal of inline opacity/transform/visibility values that the site\'s animation code writes during entrances, so each specimen is shown in its settled state.', { id: 'handbook-top' });
 body += p('How to read: <strong>OBSERVED</strong> = read from shipped code or responses · <strong>MEASURED</strong> = reported by headless Chromium on 2026-10-03 · <strong>INFERRED</strong> = interpretation, never a fact · <strong>RULE FOR A CHILD SITE</strong> = transferable instruction derived from the above.');
+body += p('<strong>Downloadable editions:</strong> ' + a('PDF (printed handbook with contents, index and the full code appendix)', '/handbook/Endfield-Site-DNA-Handbook.pdf') + ' · ' + a('Markdown', '/handbook/Endfield-Site-DNA-Handbook.md') + '. Both are generated from the same chapter sources as this page.');
 body += h('CONTENTS', 'contents');
 body += chapters.map((c, i) => link(`${String(i + 1).padStart(2, '0')} / ${c.title}`, '#' + c.slug)).join('');
 const rendered = {};

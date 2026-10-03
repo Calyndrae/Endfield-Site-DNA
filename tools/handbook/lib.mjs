@@ -19,28 +19,34 @@ export const data = {
 };
 data.pages = Object.fromEntries(readdirSync(join(root, 'capture/pages')).filter(p => existsSync(join(root, 'capture/pages', p, 'page.json'))).map(p => [p, J(`capture/pages/${p}/page.json`)]));
 export const comp = name => J('analysis/components/' + name.replace(/[^A-Za-z0-9_-]/g, '') + '.json');
+// --- output mode: 'site' = article vocabulary for the live handbook page; 'doc' = semantic HTML for the printed document
+export let mode = 'site'; export const setMode = m => { mode = m; };
+export const SITE_URL = 'https://sitedna.endfield.calyndrae.com';
+const docHref = href => { if (!href.startsWith('/')) return href; const m = href.match(/^\/source\/readable\/([^/#?]+)$/); if (m) return '#js-' + m[1].replace(/[^A-Za-z0-9]/g, '-'); const c = href.match(/^\/capture\/css\/([^/#?]+)$/); if (c) return '#css-' + c[1].replace(/[^A-Za-z0-9]/g, '-'); return SITE_URL + href; };
 export const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 // --- site-vocabulary builders
-export const p = (text, { strong = false, id = null, indent = 0 } = {}) => `<p${id ? ` id="${esc(id)}"` : ''}${indent ? ` data-indent="${indent}"` : ''}><span>${strong ? '<strong>' : ''}${text}${strong ? '</strong>' : ''}</span></p>`;
+export const p = (text, { strong = false, id = null, indent = 0 } = {}) => mode === 'doc' ? `<p${id ? ` id="${esc(id)}"` : ''}${indent ? ` class="ind${indent}"` : ''}>${strong ? '<strong>' : ''}${text}${strong ? '</strong>' : ''}</p>` : `<p${id ? ` id="${esc(id)}"` : ''}${indent ? ` data-indent="${indent}"` : ''}><span>${strong ? '<strong>' : ''}${text}${strong ? '</strong>' : ''}</span></p>`;
 export const t = s => p(esc(s));
-export const h = (text, id) => p(esc(text), { strong: true, id });
-export const sub = text => p('<strong>' + esc(text) + '</strong>');
-export const br = () => '<p><br></p>';
-export const a = (label, href) => `<a href="${esc(href)}">${esc(label)}</a>`;
+export const h = (text, id) => mode === 'doc' ? `<h2${id ? ` id="${esc(id)}"` : ''}>${esc(text)}</h2>` : p(esc(text), { strong: true, id });
+export const sub = text => mode === 'doc' ? `<h3>${esc(text)}</h3>` : p('<strong>' + esc(text) + '</strong>');
+export const br = () => mode === 'doc' ? '' : '<p><br></p>';
+export const a = (label, href) => `<a href="${esc(mode === 'doc' ? docHref(String(href)) : href)}">${esc(label)}</a>`;
 export const link = (label, href, note = '') => p(a(label, href) + (note ? ' ' + esc(note) : ''));
-export const img = (src, caption) => `<img src="${esc(src)}">` + (caption ? p('<strong>Capture:</strong> ' + esc(caption)) : '');
-export const observed = text => p('<strong>OBSERVED — </strong>' + esc(text));
-export const measured = text => p('<strong>MEASURED — </strong>' + esc(text));
-export const inferred = text => p('<strong>INFERRED — </strong>' + esc(text));
-export const rule = text => p('<strong>RULE FOR A CHILD SITE — </strong>' + esc(text));
-export const table = (headers, rows) => `<table><tbody><tr>${headers.map(x => `<th><p>${esc(x)}</p></th>`).join('')}</tr>${rows.map(r => `<tr>${r.map(c => `<td><p>${c}</p></td>`).join('')}</tr>`).join('')}</tbody></table>`;
-export const code = (text, { max = 60 } = {}) => { const lines = String(text).replace(/\t/g, '  ').split('\n'); const out = lines.slice(0, max).map(l => { const m = l.match(/^( *)/); const ind = Math.min(6, Math.floor(m[1].length / 2)); const body = l.trim() === '' ? '&nbsp;' : esc(l.trimStart()); return `<p${ind ? ` data-indent="${ind}"` : ''}><span>${body}</span></p>`; }); if (lines.length > max) out.push(p(`<strong>… ${lines.length - max} more lines in the linked file</strong>`)); return out.join(''); };
+export const img = (src, caption) => mode === 'doc' ? `<figure class="shot"><img src="${esc(src)}">${caption ? `<figcaption>Capture — ${esc(caption)}</figcaption>` : ''}</figure>` : `<img src="${esc(src)}">` + (caption ? p('<strong>Capture:</strong> ' + esc(caption)) : '');
+const tagged = (cls, label, text) => mode === 'doc' ? `<p class="tag ${cls}"><span class="lbl">${label}</span> ${esc(text)}</p>` : p('<strong>' + label + ' — </strong>' + esc(text));
+export const observed = text => tagged('observed', 'OBSERVED', text);
+export const measured = text => tagged('measured', 'MEASURED', text);
+export const inferred = text => tagged('inferred', 'INFERRED', text);
+export const rule = text => tagged('rule', 'RULE FOR A CHILD SITE', text);
+export const table = (headers, rows) => mode === 'doc' ? `<table class="data"><thead><tr>${headers.map(x => `<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>` : `<table><tbody><tr>${headers.map(x => `<th><p>${esc(x)}</p></th>`).join('')}</tr>${rows.map(r => `<tr>${r.map(c => `<td><p>${c}</p></td>`).join('')}</tr>`).join('')}</tbody></table>`;
+export const code = (text, { max = 60 } = {}) => { const lines = String(text).replace(/\t/g, '  ').split('\n'); if (mode === 'doc') { const shown = lines.slice(0, max).map(l => esc(l.replace(/\s+$/, ''))).join('\n'); return `<pre class="code"><code>${shown}</code></pre>` + (lines.length > max ? p(`<em>… ${lines.length - max} more lines; the complete file is in the code appendix.</em>`) : ''); } const out = lines.slice(0, max).map(l => { const m = l.match(/^( *)/); const ind = Math.min(6, Math.floor(m[1].length / 2)); const body = l.trim() === '' ? '&nbsp;' : esc(l.trimStart()); return `<p${ind ? ` data-indent="${ind}"` : ''}><span>${body}</span></p>`; }); if (lines.length > max) out.push(p(`<strong>… ${lines.length - max} more lines in the linked file</strong>`)); return out.join(''); };
 export const cssBlock = (rules, { max = 40 } = {}) => code(rules.slice(0, max).map(r => `${r.selector}${r.media && r.media.length ? '  /* ' + r.media.join(' & ').replace(/@media /g, '') + ' */' : ''} {\n` + Object.entries(r.declarations).map(([k, v]) => `  ${k}: ${v};`).join('\n') + '\n}').join('\n'), { max: 400 }) + (rules.length > max ? p(`<strong>… ${rules.length - max} more rules for this component in analysis/css-rules.json</strong>`) : '');
 // A specimen frame uses the site's own article table styling (th deco + td cell) to hold verbatim live markup.
 // Inline animation state (anime.js / framer-motion write opacity/transform/visibility inline during entrances)
 // is removed from specimens so they are shown in their settled state; all other attributes are verbatim.
 export const settle = html => String(html).replace(/ style="([^"]*)"/g, (m, v) => { const kept = v.split(';').map(x => x.trim()).filter(Boolean).filter(d => !/^(opacity|transform|visibility|transition)\s*:/i.test(d)); return kept.length ? ` style="${kept.join('; ')}"` : ''; });
-export const specimen = (label, markup, note) => `<table><tbody><tr><th><p>${esc(label)}</p></th></tr><tr><td>${settle(markup)}</td></tr>${note ? `<tr><td><p>${esc(note)}</p></td></tr>` : ''}</tbody></table>`;
+export const prettyMarkup = html => String(html).replace(/>\s*</g, '>\n<').split('\n').reduce((acc, line) => { const closes = /^<\//.test(line); if (closes) acc.depth = Math.max(0, acc.depth - 1); acc.out.push('  '.repeat(acc.depth) + line); const selfClosing = /^<(img|br|input|source|meta|link|hr|wbr|path|circle|rect|line|polygon|use)\b/.test(line) || /\/>$/.test(line); if (!closes && /^<[a-zA-Z]/.test(line) && !selfClosing && !/<\/[a-zA-Z0-9]+>$/.test(line)) acc.depth++; return acc; }, { depth: 0, out: [] }).out.join('\n');
+export const specimen = (label, markup, note) => mode === 'doc' ? `<figure class="specimen"><figcaption>Specimen — ${esc(label)}</figcaption><div class="frame">${settle(markup)}</div>${note ? `<p class="note">${esc(note)}</p>` : ''}<details open><summary>Markup of this specimen (verbatim from the live page; animation inline styles removed)</summary>${code(prettyMarkup(settle(markup)), { max: 120 })}</details></figure>` : `<table><tbody><tr><th><p>${esc(label)}</p></th></tr><tr><td>${settle(markup)}</td></tr>${note ? `<tr><td><p>${esc(note)}</p></td></tr>` : ''}</tbody></table>`;
 export const readableFile = id => data.readable.find(r => String(r.id) === String(id));
 export const readableLink = (id, label) => { const r = readableFile(id); return r ? a(label || r.file, '/source/readable/' + r.file) : esc(label || `module ${id}`); };
 export const chunkUrl = chunk => CDN + 'chunks/' + (chunk.includes('__') ? 'app/' + chunk.replace(/__/g, '/') : chunk) + '.js';
