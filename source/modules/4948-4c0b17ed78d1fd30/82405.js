@@ -1,0 +1,3 @@
+// module 82405 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_82405 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png",height:120,width:120,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAATlBMVEWroZx5dHDS0s7m5uSWlZOfmpbGxMHAs6x9eHPY0MvLyMOIgn+YkIvy5+Pg1dF7c3DTycbLv7m/ubmwrKqXk5HDv73j3tuKf3dnU05tZWPY/MufAAAACnRSTlP+7Ip8yP7Q/sv+qa6xyAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEFJREFUeJwFwQcCgCAMBLBT1EIn0/H/j5pgdWa+9gSw2+2FodRqI82QB3WqbJDoVhEZ83OzIgeGSqPBA91XvDHPH2q7Ay7acHhhAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8}};

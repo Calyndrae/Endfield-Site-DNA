@@ -1,0 +1,26 @@
+{
+  "module": 97521,
+  "summary": "SiteUtils exports isServer (a constant false in this client bundle), ZV formatNumberWithCommas (toFixed(0) then inserts a comma every three digits from the right, returning '0' for falsy input), aT pickRandom (returns a random element using the random-int helper from module 15790) and jx isBulletinVisible(bulletinId, regionKey), which hides a bulletin when SiteConfig.hide_bulletin_dict lists it under any region unless the given region's own list also contains it. The flattened list of all hidden bulletin ids is precomputed at module load.",
+  "exports": {
+    "ZV": "formatNumberWithCommas",
+    "aT": "pickRandom",
+    "isServer": "isServer",
+    "jx": "isBulletinVisible"
+  },
+  "renames": {
+    "r_1": "formatNumberWithCommas",
+    "e_6": "numberValue",
+    "a_7": "digitString",
+    "n_8": "formatted",
+    "e_9": "digitPosition",
+    "i_10": "digitChar",
+    "o_2": "pickRandom",
+    "e_11": "candidates",
+    "s_3": "isServer",
+    "l_4": "allHiddenBulletinIds",
+    "d_5": "isBulletinVisible",
+    "e_12": "bulletinId",
+    "a_13": "regionKey",
+    "n_14": "regionHiddenList"
+  }
+}

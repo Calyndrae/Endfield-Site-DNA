@@ -1,0 +1,13 @@
+{
+ "media": [
+  {
+   "t": 3738.899999999907,
+   "kind": "AUDIO",
+   "src": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sound/bgm.3ce37f.mp3",
+   "loop": true,
+   "muted": false,
+   "volume": 1
+  }
+ ],
+ "audio": []
+}

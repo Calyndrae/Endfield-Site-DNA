@@ -1,0 +1,36 @@
+{
+  "module": 36979,
+  "summary": "News article page section. Reads the bulletin from NoticeDetailContextProvider and renders a back-to-top button (SVG viewBox 0 0 17 14; becomes `active` when documentElement.scrollTop > 600, checked by a lodash-throttled 300ms handler on scroll/wheel; click scrolls to top smoothly, hides the button and plays arrow_click), a bottom background, a left-bottom deco icon, a subtitle with the tab label and dayjs(displayTime*1000) formatted as information.displayTimeFormat + ' HH:mm', the title with an optional close icon from useCloseButton, a divider, and the HTML content. decorateNoticeHtml runs on the client only: it parses the HTML with DOMParser, prepends to every <th> a deco wrapper containing bg/l/rt/b divs, and sets paddingLeft = calc(<data-indent> * 1.5em) on p[data-indent]. A ref ensures Tracking.collect('content_view', {group: notice, target: cid}) fires once per cid.",
+  "exports": {
+    "NoticeDetailSection": "NoticeDetailSection"
+  },
+  "renames": {
+    "f_1": "BackToTopIconSvg",
+    "e_4": "iconProps",
+    "t_5": "iconClassName",
+    "E_2": "decorateNoticeHtml",
+    "e_6": "html",
+    "t_7": "doc",
+    "e_8": "tableHeaderCell",
+    "i_9": "decoWrapper",
+    "l_10": "decoBg",
+    "n_11": "decoLeft",
+    "a_12": "decoRightTop",
+    "o_13": "decoBottom",
+    "e_14": "indentedParagraph",
+    "t_15": "paragraphStyle",
+    "D_3": "NoticeDetailSection",
+    "e_16": "bulletin",
+    "t_17": "translate",
+    "i_18": "contentHtml",
+    "t_25": "rawContent",
+    "a_19": "showClose",
+    "c_20": "handleClose",
+    "w_21": "isPastThresholdRef",
+    "b_22": "showBackToTop",
+    "D_23": "setShowBackToTop",
+    "e_26": "docElement",
+    "t_27": "handleScroll",
+    "L_24": "hasTrackedViewRef"
+  }
+}

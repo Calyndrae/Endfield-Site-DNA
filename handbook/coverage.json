@@ -1,0 +1,133 @@
+{
+ "components": [
+  "BackButton",
+  "Button",
+  "Carousel",
+  "Dropdown",
+  "GameplayAlbum",
+  "HallowText",
+  "Header",
+  "HomeButton",
+  "LandingBottom",
+  "LandingGameplay",
+  "Media",
+  "ModalFrame",
+  "OperatorItem",
+  "OrigQuery",
+  "Pagination",
+  "ReserveModal",
+  "RollingContent",
+  "ScrollViewer",
+  "SectionTitle",
+  "SectionViewer",
+  "SubpageHeader",
+  "SubpageTab",
+  "TextShrink",
+  "Toast",
+  "TransparentVideo",
+  "UserModal",
+  "__00-Loading",
+  "__00-landing",
+  "__01-Home",
+  "__02-Operator",
+  "__03-Lore",
+  "__03-gameplay",
+  "__04-Information",
+  "__04-finalpage",
+  "__05-Gameplay",
+  "__06-Notice",
+  "__08-AIC",
+  "__09-Calendar",
+  "__10-NoticeList",
+  "__12-OperatorList",
+  "__20-NoticeDetail",
+  "__21-ProtocolDetail",
+  "bg",
+  "downloader",
+  "footer",
+  "h5-cn",
+  "h5-oversea",
+  "pc-cn",
+  "pc-oversea",
+  "players",
+  "protocol",
+  "sections"
+ ],
+ "embedded": {
+  "__02-Operator": [
+   "operator-stage"
+  ],
+  "SectionTitle": [
+   "information"
+  ],
+  "__03-Lore": [
+   "information"
+  ],
+  "Pagination": [
+   "notice",
+   "news"
+  ],
+  "__06-Notice": [
+   "notice"
+  ],
+  "Button": [
+   "notice"
+  ],
+  "OperatorItem": [
+   "catalogue"
+  ],
+  "Dropdown": [
+   "catalogue"
+  ],
+  "SubpageHeader": [
+   "news"
+  ],
+  "__10-NoticeList": [
+   "news"
+  ],
+  "SubpageTab": [
+   "news"
+  ],
+  "__20-NoticeDetail": [
+   "article"
+  ]
+ },
+ "chapters": [
+  "scope",
+  "routes",
+  "structure",
+  "scaling",
+  "layers",
+  "colour",
+  "typography",
+  "rhythm",
+  "alignment",
+  "rail",
+  "loading",
+  "viewer",
+  "operator-stage",
+  "transparent-video",
+  "lore-3d",
+  "information",
+  "calendar",
+  "gameplay-aic",
+  "notice",
+  "download-modals",
+  "footer",
+  "catalogue",
+  "news",
+  "article",
+  "controls",
+  "hover",
+  "motion",
+  "audio",
+  "imagery",
+  "responsive",
+  "i18n",
+  "interactions",
+  "javascript",
+  "unrendered",
+  "coverage",
+  "blueprint"
+ ]
+}

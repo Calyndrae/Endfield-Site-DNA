@@ -1,0 +1,45 @@
+{
+ "component": "TextShrink",
+ "files": [
+  "3bd8ebba7b8795c3.css"
+ ],
+ "classes": {
+  "indentLeft": "TextShrink_indentLeft__aN70U",
+  "indentRight": "TextShrink_indentRight__erKrp"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".TextShrink_indentLeft__aN70U",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "margin-left": "calc(var(--textIndent-half, .5em)*-1)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".TextShrink_indentRight__erKrp",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "margin-right": "calc(var(--textIndent-half, .5em)*-1)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

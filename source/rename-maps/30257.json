@@ -1,0 +1,30 @@
+{
+  "module": 30257,
+  "summary": "React context provider for the home-page bulletin (news) list. It seeds state from the SSR-provided value {bulletins, total}, then on mount calls getBulletinList(lang, 1, 10); when code === 0 it stores data.list filtered through SiteUtils' hidden-bulletin check (cid vs SiteConfig.hide_bulletin_dict for the current lang), stores data.total and sets frontBulletinReady = true, otherwise logs '拉取公告列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontBulletinReady, bulletins, total}; useBulletinList reads it.",
+  "exports": {
+    "BulletinListContextProvider": "BulletinListContextProvider",
+    "b": "useBulletinList"
+  },
+  "renames": {
+    "u_1": "BulletinListContext",
+    "c_2": "BulletinListContextProvider",
+    "d_3": "useBulletinList",
+    "e_4": "props",
+    "t_5": "initialValue",
+    "n_6": "children",
+    "c_7": "lang",
+    "d_8": "t",
+    "f_9": "initialBulletins",
+    "v_10": "initialTotal",
+    "b_11": "bulletins",
+    "p_12": "setBulletins",
+    "g_13": "total",
+    "m_14": "setTotal",
+    "h_15": "frontBulletinReady",
+    "y_16": "setFrontBulletinReady",
+    "A_17": "contextValue",
+    "e_18": "code",
+    "t_19": "data",
+    "e_20": "bulletin"
+  }
+}

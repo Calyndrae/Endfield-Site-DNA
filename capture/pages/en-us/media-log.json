@@ -1,0 +1,45 @@
+{
+ "media": [
+  {
+   "t": 1310.1999999999534,
+   "kind": "AUDIO",
+   "src": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sound/bgm.3ce37f.mp3",
+   "loop": true,
+   "muted": false,
+   "volume": 1
+  },
+  {
+   "t": 10826.600000000093,
+   "kind": "VIDEO",
+   "src": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4",
+   "loop": true,
+   "muted": true,
+   "volume": 1
+  },
+  {
+   "t": 10864.600000000093,
+   "kind": "VIDEO",
+   "src": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4",
+   "loop": true,
+   "muted": true,
+   "volume": 1
+  },
+  {
+   "t": 16686.199999999953,
+   "kind": "VIDEO",
+   "src": "https://web-static.hg-cdn.com/upload/video/20260902/a92f49a53810d0a162584a10daa9de39.mp4",
+   "loop": true,
+   "muted": true,
+   "volume": 1
+  },
+  {
+   "t": 64365.10000000009,
+   "kind": "VIDEO",
+   "src": "https://web-static.hg-cdn.com/upload/video/20260902/a92f49a53810d0a162584a10daa9de39.mp4",
+   "loop": true,
+   "muted": true,
+   "volume": 1
+  }
+ ],
+ "audio": []
+}

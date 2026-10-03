@@ -1,0 +1,386 @@
+{
+ "96424": {
+  "name": "react/jsx-runtime",
+  "kind": "vendor"
+ },
+ "97028": {
+  "name": "react",
+  "kind": "vendor"
+ },
+ "2142": {
+  "name": "react (createElement default import)",
+  "kind": "vendor"
+ },
+ "73235": {
+  "name": "classnames",
+  "kind": "vendor"
+ },
+ "53079": {
+  "name": "dayjs",
+  "kind": "vendor"
+ },
+ "60705": {
+  "name": "framer-motion (motion components)",
+  "kind": "vendor"
+ },
+ "6780": {
+  "name": "framer-motion useMotionValue",
+  "kind": "vendor"
+ },
+ "45359": {
+  "name": "framer-motion useSpring",
+  "kind": "vendor"
+ },
+ "19213": {
+  "name": "framer-motion useInView",
+  "kind": "vendor"
+ },
+ "99880": {
+  "name": "zustand create",
+  "kind": "vendor"
+ },
+ "13269": {
+  "name": "axios",
+  "kind": "vendor"
+ },
+ "17540": {
+  "name": "lodash throttle",
+  "kind": "vendor"
+ },
+ "56578": {
+  "name": "anime.js default (anime())",
+  "kind": "vendor"
+ },
+ "4948": {
+  "name": "I18nProvider + useI18n (lang, text, fonts, operator data)",
+  "kind": "site",
+  "note": "exports: I18nProvider, lX=languageNames, YZ=availableLangs, PO=useI18n, gL=useOperators, Bd=useText"
+ },
+ "56006": {
+  "name": "SiteConfig (runtime config JSON: cms host, links, i18n list)",
+  "kind": "site"
+ },
+ "91627": {
+  "name": "BulletinApi (axios client for /api/bulletin)",
+  "kind": "site",
+  "note": "Jq=getBulletinDetail, PZ=getBulletinList, a=PAGE_SIZE 9"
+ },
+ "1162": {
+  "name": "Tracking (collect events, insertFooter)",
+  "kind": "site"
+ },
+ "29521": {
+  "name": "TrackingGroups enum (section_homepage, section_character ...)",
+  "kind": "site"
+ },
+ "26097": {
+  "name": "SoundEffects (SFX manager: arrow_click, char_click, ...)",
+  "kind": "site",
+  "note": "d=sound keys map, A=player"
+ },
+ "2285": {
+  "name": "SoundControlStore (zustand persist 'ef-official-sound-control')",
+  "kind": "site"
+ },
+ "7725": {
+  "name": "BackgroundMusic (bgm.mp3 loop with fades)",
+  "kind": "site"
+ },
+ "15723": {
+  "name": "DeviceUtils (user-agent checks)",
+  "kind": "site"
+ },
+ "97521": {
+  "name": "SiteUtils (isServer, formatNumber, hidden bulletin filter)",
+  "kind": "site"
+ },
+ "14577": {
+  "name": "RootFontSizeScaler (2560x1440 / 1080x1920 design canvas)",
+  "kind": "site"
+ },
+ "90286": {
+  "name": "useOrientation (landscape/portrait)",
+  "kind": "site"
+ },
+ "68408": {
+  "name": "OperatorVideoClips (33 enter/idle mp4 pairs)",
+  "kind": "site"
+ },
+ "71272": {
+  "name": "LoadingScreen (first-load progress) + loadedStore",
+  "kind": "site",
+  "note": "E=LoadingScreen component, r=useLoadedStore"
+ },
+ "73560": {
+  "name": "SectionTitle (icon + arrow block + EN/CN title)",
+  "kind": "site"
+ },
+ "84245": {
+  "name": "TextRevealAnimations (anime helpers WO/iI/iv/zI)",
+  "kind": "site"
+ },
+ "96664": {
+  "name": "RollingText (overflow marquee: 40px/s, 1s holds, 300ms fades)",
+  "kind": "site"
+ },
+ "2682": {
+  "name": "Pagination (number/arrow pagination)",
+  "kind": "site"
+ },
+ "40489": {
+  "name": "TransparentVideo (React wrapper over @hg-web/trans-video)",
+  "kind": "site"
+ },
+ "73992": {
+  "name": "VideoPlayers (VideoBasic + canvas frame-limited video)",
+  "kind": "site"
+ },
+ "25221": {
+  "name": "@hg-web/trans-video (Hypergryph transparent video renderer: WebGL/Canvas2D)",
+  "kind": "site-vendor"
+ },
+ "30998": {
+  "name": "framer-motion AnimatePresence pop-layout",
+  "kind": "vendor"
+ },
+ "50144": {
+  "name": "zustand persist middleware",
+  "kind": "vendor"
+ },
+ "52652": {
+  "name": "HollowText (outlined text)",
+  "kind": "site"
+ },
+ "89622": {
+  "name": "AicItemsText (i18n keys for AIC section)",
+  "kind": "site"
+ },
+ "26915": {
+  "name": "GameplayItemsText (i18n keys for gameplay section)",
+  "kind": "site"
+ },
+ "83597": {
+  "name": "HomeLayout (all homepage sections, header, modals, loader tasks)",
+  "kind": "site"
+ },
+ "3492": {
+  "name": "OperatorSection (homepage character stage)",
+  "kind": "site"
+ },
+ "12914": {
+  "name": "MediaModalStore (video modal state, YouTube iframe)",
+  "kind": "site"
+ },
+ "36979": {
+  "name": "NoticeDetailSection (article page)",
+  "kind": "site"
+ },
+ "61127": {
+  "name": "NoticeDetailContextProvider (bulletin data + client refetch)",
+  "kind": "site"
+ },
+ "67002": {
+  "name": "useCloseButton (window.opener aware close)",
+  "kind": "site"
+ },
+ "92731": {
+  "name": "NoticeListSection (news index)",
+  "kind": "site"
+ },
+ "86797": {
+  "name": "NewsPageComponents (subpage header, tabs, list items, SVG icons)",
+  "kind": "site"
+ },
+ "51967": {
+  "name": "TextShrink (canvas text measuring)",
+  "kind": "site"
+ },
+ "50999": {
+  "name": "OperatorListSection (catalogue: filters, cards, detail)",
+  "kind": "site"
+ },
+ "69667": {
+  "name": "HomePage (route entry)",
+  "kind": "site"
+ },
+ "71985": {
+  "name": "Toast (anime fade message)",
+  "kind": "site"
+ },
+ "30257": {
+  "name": "BulletinListContextProvider",
+  "kind": "site"
+ },
+ "3787": {
+  "name": "VideoListContextProvider",
+  "kind": "site"
+ },
+ "60108": {
+  "name": "VideoListApi (/api/content/info_video)",
+  "kind": "site"
+ },
+ "46173": {
+  "name": "Footer (language selector, legal links)",
+  "kind": "site"
+ },
+ "45965": {
+  "name": "FontLoader (new FontFace from i18n font bundle)",
+  "kind": "site"
+ },
+ "3301": {
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "kind": "site-vendor"
+ },
+ "73690": {
+  "name": "SdkInit (adapter.init())",
+  "kind": "site"
+ },
+ "60891": {
+  "name": "framer-motion useScroll / scroll timeline",
+  "kind": "vendor"
+ },
+ "89102": {
+  "name": "vh-check (iOS 100vh offset)",
+  "kind": "vendor"
+ },
+ "95750": {
+  "name": "invariant",
+  "kind": "vendor"
+ },
+ "10279": {
+  "name": "@babel/runtime helpers (inherits/classCallCheck)",
+  "kind": "vendor"
+ },
+ "11862": {
+  "name": "buffer polyfill",
+  "kind": "vendor"
+ },
+ "85038": {
+  "name": "base64-js",
+  "kind": "vendor"
+ },
+ "7487": {
+  "name": "ieee754",
+  "kind": "vendor"
+ },
+ "83970": {
+  "name": "@emotion/cache + stylis",
+  "kind": "vendor"
+ },
+ "35178": {
+  "name": "@emotion/serialize",
+  "kind": "vendor"
+ },
+ "23190": {
+  "name": "hash/encoding utility (vendor)",
+  "kind": "vendor"
+ },
+ "15257": {
+  "name": "vendor bundle: crypto-js AES + html2canvas + idb (tracking SDK dependencies)",
+  "kind": "vendor"
+ },
+ "68973": {
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "kind": "site-vendor"
+ },
+ "94150": {
+  "name": "OrigQueryModal (ja-jp only Originium balance query modal: SDK role select, spinner)",
+  "kind": "site"
+ },
+ "92610": {
+  "name": "UserModal (account menu modal: user center, logout links)",
+  "kind": "site"
+ },
+ "21086": {
+  "name": "AccountApi (/api/account, /charge-info, /orig-data)",
+  "kind": "site"
+ },
+ "3": {
+  "name": "next.js app-router hydrate",
+  "kind": "vendor"
+ },
+ "3411": {
+  "name": "I18nBundle-ru-ru (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "6480": {
+  "name": "I18nBundle-de-de (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "11034": {
+  "name": "I18nBundle-ko-kr (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "22762": {
+  "name": "I18nBundle-zh-tw (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "26669": {
+  "name": "I18nBundle-vi-vn (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "33820": {
+  "name": "I18nBundle-it-it (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "45812": {
+  "name": "I18nBundle-id-id (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "47391": {
+  "name": "I18nBundle-th-th (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "52674": {
+  "name": "I18nBundle-es-mx (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "59965": {
+  "name": "I18nBundle-pt-br (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "62766": {
+  "name": "I18nBundle-zh-cn (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "79594": {
+  "name": "I18nBundle-en-us (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "86669": {
+  "name": "I18nBundle-fr-fr (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "92827": {
+  "name": "I18nBundle-ja-jp (text, images, fonts, components for one locale)",
+  "kind": "i18n-bundle"
+ },
+ "58572": {
+  "name": "SoundPlayer (sound list manager: enable/disable, fade envelopes, visibility pause)",
+  "kind": "site"
+ },
+ "31563": {
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "kind": "site-vendor"
+ },
+ "1801": {
+  "name": "Gryphline account/web SDK v1.8.0 (call, native bridge, Skland app check)",
+  "kind": "site-vendor"
+ },
+ "63959": {
+  "name": "next.js global-error page",
+  "kind": "vendor"
+ },
+ "90145": {
+  "name": "lodash debounce",
+  "kind": "vendor"
+ },
+ "44705": {
+  "name": "useClickOutside hook",
+  "kind": "site"
+ },
+ "9995": {
+  "name": "useRunOnce hook",
+  "kind": "site"
+ }
+}

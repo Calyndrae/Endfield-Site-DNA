@@ -1,0 +1,36 @@
+{
+  "module": 86797,
+  "summary": "Shared presentational pieces for the news subpage header. Exports SubpageHeader (export A), which renders a decorative header row: an icon slot, a small two-square 'colon' SVG (viewBox 0 0 6 14), the ENDFIELD wordmark SVG (viewBox 0 0 354 57, fill currentColor), an English subtitle (titleEn), and a dotted deco SVG (viewBox 0 0 112 55); below it the localized title with another colon glyph and a background image div whose variant class comes from the `type` prop (default \"pumper\"). The two createElement-based SVGs cache their <path> node in module-level variables and use an inlined Object.assign polyfill to spread props onto the <svg>.",
+  "exports": {
+    "A": "SubpageHeader"
+  },
+  "renames": {
+    "a_1": "efWordmarkPathCache",
+    "s_2": "headerDecoPathCache",
+    "C_3": "objectAssignEf",
+    "e_9": "target",
+    "L_10": "argIndex",
+    "t_11": "source",
+    "a_12": "sourceKey",
+    "c_4": "EndfieldWordmarkSvg",
+    "e_13": "wordmarkProps",
+    "o_5": "objectAssignDeco",
+    "e_14": "target2",
+    "L_15": "argIndex2",
+    "t_16": "source2",
+    "a_17": "sourceKey2",
+    "__6": "HeaderDecoSvg",
+    "e_18": "decoProps",
+    "p_7": "ColonSvg",
+    "e_19": "colonProps",
+    "L_20": "colonClassName",
+    "M_8": "SubpageHeader",
+    "e_21": "headerProps",
+    "L_22": "className",
+    "t_23": "style",
+    "a_24": "title",
+    "s_25": "titleEn",
+    "n_26": "icon",
+    "r_27": "imageType"
+  }
+}

@@ -1,0 +1,1850 @@
+{
+ "fonts": [
+  {
+   "family": "ProtestStrike-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.7d04dd.woff2",
+   "path": "capture/fonts/ProtestStrike-Regular.7d04dd.woff2",
+   "bytes": 11452,
+   "sha256": "372d5269430b377447819300ee0bb808157884db998a2c5f2426fa779e0bb11b"
+  },
+  {
+   "family": "ProtestStrike-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.8cd908.woff",
+   "path": null,
+   "bytes": 14320,
+   "sha256": "6fcd779241156b7364fbb3b06af925daa528342356179619bbbbd35ecd4cab99",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "ProtestStrike-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/ProtestStrike-Regular.13abe8.ttf",
+   "path": null,
+   "bytes": 25128,
+   "sha256": "67180ed9ae810993a5fb772d10a53a0c126d2525f92db3e4a243269876380d31",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Roboto-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.978751.woff2",
+   "path": "capture/fonts/Roboto-Regular.978751.woff2",
+   "bytes": 15008,
+   "sha256": "a60fcc9a13eb7cca551cd6cfb957aca94989545878cc947576a3f4aa6f0ade60"
+  },
+  {
+   "family": "Roboto-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.47822e.woff",
+   "path": null,
+   "bytes": 19948,
+   "sha256": "0ccd2243a91cc4696abc27e69161f1eae393cbf8d30081294f992c99de4db3ab",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Roboto-Regular",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Regular.6e6837.ttf",
+   "path": null,
+   "bytes": 36568,
+   "sha256": "801d53c8f4ae1b18ae15b4007375a2a928bf4fc71a52e9d1b41b06399c965dbf",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Roboto-Black",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6e4071.woff2",
+   "path": "capture/fonts/Roboto-Black.6e4071.woff2",
+   "bytes": 15248,
+   "sha256": "fce31854d97f094a21dbe59f5ee42c91f4c270dc3cfccf9d08658fcb56ad04ec"
+  },
+  {
+   "family": "Roboto-Black",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.6a179a.woff",
+   "path": null,
+   "bytes": 20336,
+   "sha256": "e2f344a41851c4e85243f75c27556967060609d9d54b864a208db775436e8888",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Roboto-Black",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Roboto-Black.44fd4a.ttf",
+   "path": null,
+   "bytes": 36916,
+   "sha256": "59a600f3d7e36f5b921626f0d36feefcc1d146081b16293938645f3d8292e868",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-Light",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.9981d6.woff2",
+   "path": "capture/fonts/Gilroy-Light.9981d6.woff2",
+   "bytes": 7976,
+   "sha256": "394e02861d84e41529db5bb4e9d501f4eb68b386f66c3f50c81c4cea68fc64f9"
+  },
+  {
+   "family": "Gilroy-Light",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.d7cc70.woff",
+   "path": null,
+   "bytes": 10744,
+   "sha256": "a3cf366009fb60ab3feff6c6122464a8585bdd152630152779248eaff12296d8",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-Light",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Light.dab230.ttf",
+   "path": null,
+   "bytes": 21960,
+   "sha256": "293c3ea32ff1fd45c8bfe8a919d07300c97e4fdf9bf0b783f276c46fc076ea4f",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fdbac.woff2",
+   "path": "capture/fonts/Novecentosanswide-Bold.3fdbac.woff2",
+   "bytes": 16932,
+   "sha256": "0f8211da5ae0352aa3d0f7f35b168d3150c54f7c4447ce7c02b65a2e6dd140fc"
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.3fc194.woff",
+   "path": null,
+   "bytes": 19516,
+   "sha256": "aed3ddca1033d8f31ae9f2a27fa01f428044a2fa18d9df90e36776062ed2b487",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Bold.2e0acc.ttf",
+   "path": null,
+   "bytes": 33280,
+   "sha256": "e9b20d10752cfc7f8b6d7a4ed65231afdf71d53822bfacc98b93ed3dd12a726c",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.089c2d.woff2",
+   "path": "capture/fonts/Novecentosanswide-DemiBold.089c2d.woff2",
+   "bytes": 11356,
+   "sha256": "50c14166e36026098f400f32cdb4ec454939894f2f6aa8462b3d5130522d7f51"
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.9da0ec.woff",
+   "path": null,
+   "bytes": 15024,
+   "sha256": "b799ba69964ebec8ea47ec300ea929a75b3617188cd8c650e5dfc5842e5ae895",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-DemiBold.be3c15.ttf",
+   "path": null,
+   "bytes": 31864,
+   "sha256": "29f7af487bb6ff65c7fa788029df20daf2ec831f8e26b3cf42921b2d546b090a",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.748604.woff2",
+   "path": "capture/fonts/Novecentosanswide-Medium.748604.woff2",
+   "bytes": 16080,
+   "sha256": "21b79f2bd3f3a120bfd6b0838602cfd452df4f5456c551021c670fe461e843ec"
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.ef16a8.woff",
+   "path": null,
+   "bytes": 18308,
+   "sha256": "48b0b99d6e0ef43fcb898b57812bfb92f3b8a745141ff53ee575511cfaa961c2",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Novecentosanswide-Medium.b77880.ttf",
+   "path": null,
+   "bytes": 30764,
+   "sha256": "49b19fd1f0085aa615778c71a98c2d2d8367c9c876b11a6b42ba7030b7e4675c",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.376b06.woff2",
+   "path": "capture/fonts/Gilroy-Medium.376b06.woff2",
+   "bytes": 7728,
+   "sha256": "52e469cf7b38813e559123084ef93ab84b40c16a2a161c3a8c96f887e8c4c101"
+  },
+  {
+   "family": "Gilroy-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.543de8.woff",
+   "path": null,
+   "bytes": 10512,
+   "sha256": "6ca3e7b9ad21b1778901fdc8d04253b762900750635c60a8e88a4f465102b913",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-Medium",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-Medium.4f7868.ttf",
+   "path": null,
+   "bytes": 19600,
+   "sha256": "1fe06f7de68a3b7ce5719c3ca460e9c8e6beed9d3cf4036e5e22c9573010d7b3",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-ExtraBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.7b2f8c.woff2",
+   "path": "capture/fonts/Gilroy-ExtraBold.7b2f8c.woff2",
+   "bytes": 12420,
+   "sha256": "c19755edc027a87d3b394cf879234ef6d156f70eee09b3e7118193b619da9c0e"
+  },
+  {
+   "family": "Gilroy-ExtraBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.b8f935.woff",
+   "path": null,
+   "bytes": 16536,
+   "sha256": "c1517e23c9ce996a834786ada9f319123fe63591b34c77f1035f7f55cf139452",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "Gilroy-ExtraBold",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/Gilroy-ExtraBold.9856d3.ttf",
+   "path": null,
+   "bytes": 33804,
+   "sha256": "89110d140dbc76961a55203e86c9e6a08ff1b07454e6b087657dd2bce2c19dda",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "SpaceGrotesk",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.edd157.woff2",
+   "path": "capture/fonts/SpaceGrotesk.edd157.woff2",
+   "bytes": 17300,
+   "sha256": "76d8d2ae1117adcbe3a451532c28a10931202c1bf2345941a3cbd2bcdc284177"
+  },
+  {
+   "family": "SpaceGrotesk",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.912379.woff",
+   "path": null,
+   "bytes": 21296,
+   "sha256": "d81c984c58be6828b7a69b7452ff5c1df3eda3e01c8854191fb77afeecd6228c",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  },
+  {
+   "family": "SpaceGrotesk",
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/SpaceGrotesk.d83d94.ttf",
+   "path": null,
+   "bytes": 47348,
+   "sha256": "8880d02fc55e10fefa2c795231aaa904cc86ed95d7aa2659a3780542d40b0411",
+   "note": "not stored: woff/ttf fallback format of the same face (woff2 kept)"
+  }
+ ],
+ "css_assets": [
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02Bg.21971ce1.jpg",
+   "bytes": 15997,
+   "status": "200",
+   "path": "capture/assets/css/02Bg.21971ce1.jpg",
+   "sha256": "a2593750623aedf6eec934f592e17b6d72806431b10e297365b28cbbeb87fcb6"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/age.6871a633.png",
+   "bytes": 2773,
+   "status": "200",
+   "path": "capture/assets/css/age.6871a633.png",
+   "sha256": "d1d7262f22f2680b304f08a5e34f0a4bcce8aee58080d04522b6307b84c868b2"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.3df4a3dc.png",
+   "bytes": 12577,
+   "status": "200",
+   "path": "capture/assets/css/akekuri.3df4a3dc.png",
+   "sha256": "a29bbdf79a9d35874d52555d1d7e75bd955f3a9b49573cb47b017e01bd72f30b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/akekuri.751608ae.png",
+   "bytes": 207783,
+   "status": "200",
+   "path": "capture/assets/css/akekuri.751608ae.png",
+   "sha256": "7dbaf03a49c06f494863f22f25c850131aa4d6354820fcdb808676ca6f3c8849"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.bfe6a583.png",
+   "bytes": 863717,
+   "status": "200",
+   "sha256": "31cec2cd4bcdd16a72ecab6c17b3da2b1cf8b27a1d1b5df303834f97f64ef572",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png",
+   "bytes": 12109,
+   "status": "200",
+   "path": "capture/assets/css/alesh.ca99268b.png",
+   "sha256": "0402b93b9505918b0cc836030a3de2a5f1e55503ac2ea018814aea2fbd468e77"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.5a3548af.png",
+   "bytes": 236511,
+   "status": "200",
+   "path": "capture/assets/css/antal.5a3548af.png",
+   "sha256": "7e85ead463fc33bc2d89f83a35f646fa01f97b359c5488aabc6c1327bc4d94eb"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/antal.78d45318.png",
+   "bytes": 11354,
+   "status": "200",
+   "path": "capture/assets/css/antal.78d45318.png",
+   "sha256": "a4eab33fa3173fc618458a6cdc9626771f2807d324c62e833190d66bb2aeb9f9"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.0b402b3e.png",
+   "bytes": 11581,
+   "status": "200",
+   "path": "capture/assets/css/arclight.0b402b3e.png",
+   "sha256": "69e4117782950cfc8be05419a0378361ee42f056bf0320625b4976abc5d8165e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arclight.e46ed671.png",
+   "bytes": 641302,
+   "status": "200",
+   "sha256": "f54bfd838fbfaba609e3536b8469f0d99d013b490312d63a2c543c01e0c18b76",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.36d836c7.png",
+   "bytes": 748586,
+   "status": "200",
+   "sha256": "2bd42a3d4c8caa0c0b8f1b9f73ec7c16f6368e49549961b8fd87214932571639",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png",
+   "bytes": 11881,
+   "status": "200",
+   "path": "capture/assets/css/ardelia.b46cd31c.png",
+   "sha256": "bd03abe44d54f067123f4068506d94f62b144ae2d14441bc09ad91744c41f3b1"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png",
+   "bytes": 874,
+   "status": "200",
+   "path": "capture/assets/css/arrow.592963ed.png",
+   "sha256": "34b1690c75f0da184f93a8af0bd60144c842036918157ca0cf8fe4bd79cd1db2"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.3346feee.png",
+   "bytes": 692753,
+   "status": "200",
+   "sha256": "7d5e0a9ebcb937fd5b2dc28e584371742f00a2132948389af038f26e651c8f77",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/avywenna.36c72367.png",
+   "bytes": 12732,
+   "status": "200",
+   "path": "capture/assets/css/avywenna.36c72367.png",
+   "sha256": "69eaa9de5b38e91a1aa39ced4893aa4f95eb473d717d4a31f1e4c4c1fd4ad50e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/banner.7b4f80c9.jpg",
+   "bytes": 8828,
+   "status": "200",
+   "path": "capture/assets/css/banner.7b4f80c9.jpg",
+   "sha256": "985a013cfc190c1628badeed09a51211032f549151530f8b29335b8dd3e52eac"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.269aa2f3.jpg",
+   "bytes": 43653,
+   "status": "200",
+   "path": "capture/assets/css/bg.269aa2f3.jpg",
+   "sha256": "0f1194b1973fa7b4617641be16d834359b05395afe2095baec2bc0e7ea757fa8"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg",
+   "bytes": 74262,
+   "status": "200",
+   "path": "capture/assets/css/bg.51f75595.jpg",
+   "sha256": "2d3a7f8173571195f7e6e66a9d9d2f6357c33ae828a8b11cd6252cd0433a7a53"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.9e174372.jpg",
+   "bytes": 331663,
+   "status": "200",
+   "path": "capture/assets/css/bg.9e174372.jpg",
+   "sha256": "28c36eca5da88a1c7d223f2801c3aa999f2251b7b36b438070204aca2594e6f5"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.2ac1c57d.jpg",
+   "bytes": 29277,
+   "status": "200",
+   "path": "capture/assets/css/bg_m.2ac1c57d.jpg",
+   "sha256": "07bf9d160ffba75cf917aba84460c314510762420c7123c0996f0005663ca13c"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.529c4e62.jpg",
+   "bytes": 162169,
+   "status": "200",
+   "path": "capture/assets/css/bg_m.529c4e62.jpg",
+   "sha256": "03a7dcd5eb647c2fd8fc2e66c86e946153de23eba3fac2c5e48dafff8b9d5d62"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg",
+   "bytes": 163,
+   "status": "200",
+   "path": "capture/assets/css/block-bg.f05eda37.svg",
+   "sha256": "16d0d6dcb24d1cdb2765a23d4db864dd7a5599a27d9b9f2ed34c72474b0f8675"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.63d91da2.png",
+   "bytes": 4530,
+   "status": "200",
+   "path": "capture/assets/css/button-texture.63d91da2.png",
+   "sha256": "0a2fc215c49899a1ef0c1047dedbd4c9460e742e1c9ae0acd87a9e1db9a7fc5b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.aac73492.png",
+   "bytes": 4881,
+   "status": "200",
+   "path": "capture/assets/css/button-texture.aac73492.png",
+   "sha256": "c58babdb21658a03708f80d9683df36669a7afd5d0cf3b72bc9678c1f949ae69"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.5f50680f.png",
+   "bytes": 39962,
+   "status": "200",
+   "path": "capture/assets/css/camille.5f50680f.png",
+   "sha256": "7ea68677c7712480ccc1cd88e4db3aedbb7b10f64eb355d16e458a88c28a1f4e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/camille.81d81ef7.png",
+   "bytes": 4189579,
+   "status": "200",
+   "sha256": "dd6df9771b32c9f70dc7efdb4d1801f5c3c707ac243a9a70111050fa5b6888de",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg",
+   "bytes": 31421,
+   "status": "200",
+   "path": "capture/assets/css/card-bg.28c79684.jpg",
+   "sha256": "0a0359f7de67c8aa1a7c8920ce28e7b10f509ccba16d4773759411de346f66e3"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png",
+   "bytes": 10585,
+   "status": "200",
+   "path": "capture/assets/css/catcher.68b395f9.png",
+   "sha256": "9141508aaedfd82665165a85aa5aa2e8fedf85b632151b2daf976265c9a9c66b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.d4e72ab0.png",
+   "bytes": 255587,
+   "status": "200",
+   "path": "capture/assets/css/catcher.d4e72ab0.png",
+   "sha256": "eb19e37add2ebbacc7a58d2fb93dce1a9cbd082b982e55d8816f2ac7c6f0633f"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.2a091fd4.png",
+   "bytes": 643001,
+   "status": "200",
+   "sha256": "5eddc26bcea5d003991be7580a0d79ffa76875014f9355e4b67c71198a9a2c45",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/chen.5c7b5e46.png",
+   "bytes": 11686,
+   "status": "200",
+   "path": "capture/assets/css/chen.5c7b5e46.png",
+   "sha256": "c67e2553644e275a82e5215acdefe3818259c0ce648d202544f1a6d627f36ebe"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-active.6c5cfe38.png",
+   "bytes": 17438,
+   "status": "200",
+   "path": "capture/assets/css/cloud-game-active.6c5cfe38.png",
+   "sha256": "f2725fa4dcc2198d897ad6b7c6d9775d7a3707de7e85d3d743347f5752602f11"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-base.a3c5eb0c.png",
+   "bytes": 3608,
+   "status": "200",
+   "path": "capture/assets/css/cloud-game-base.a3c5eb0c.png",
+   "sha256": "eaa37b24030c26bcc3cfa0a2772bc679761bbcabf8e4028e6a1fb7fc21038d48"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/cloud-game-icon.e214f39f.png",
+   "bytes": 1872,
+   "status": "200",
+   "path": "capture/assets/css/cloud-game-icon.e214f39f.png",
+   "sha256": "b08dc9c354668e60aed9efa52cf562d7c0ac8e79b4779a9482d92d55156db5df"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/color-bar.1f0aa038.png",
+   "bytes": 381,
+   "status": "200",
+   "path": "capture/assets/css/color-bar.1f0aa038.png",
+   "sha256": "c3442edfbe3194b18d65d57d5eae45f54f849a25d46bfa34fc2812b5ffae6dda"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.7b5afdec.png",
+   "bytes": 10517,
+   "status": "200",
+   "path": "capture/assets/css/dapan.7b5afdec.png",
+   "sha256": "45d8e466c3b0fc973e2d595ee14912ca9675d32bd39db4aedf434e4c6dc9384e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/dapan.8a1d195a.png",
+   "bytes": 1001764,
+   "status": "200",
+   "sha256": "3d7d71bb63258f71d2832684f7a29431cdb3928b818758cd4fc3b22d6b760101",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/de-de.bec7cb34.png",
+   "bytes": 86656,
+   "status": "200",
+   "path": "capture/assets/css/de-de.bec7cb34.png",
+   "sha256": "e8b993ab593f6a0630cf88bd41f3f63b548b3598c33549351359f143e738cf55"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg",
+   "bytes": 23932,
+   "status": "200",
+   "path": "capture/assets/css/deco-right.0602d8cc.jpg",
+   "sha256": "2aaaed595a9ea63f5be4b45c76f05e66e60470b1984d24f6944e6f94fe179d1c"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco.dbe18bea.svg",
+   "bytes": 7845,
+   "status": "200",
+   "path": "capture/assets/css/deco.dbe18bea.svg",
+   "sha256": "1c62cf003581db0e38604a778ef3f1e422c5e63c0a6693b18a5c7d38309eae6e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtn.a6050c8e.png",
+   "bytes": 21027,
+   "status": "200",
+   "path": "capture/assets/css/downloadBtn.a6050c8e.png",
+   "sha256": "45593b82fa6cd8b0ea1369fb13bb1eb47c3be3e2595edfe87ecd036b899faa21"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnH5.9894d510.png",
+   "bytes": 15646,
+   "status": "200",
+   "path": "capture/assets/css/downloadBtnH5.9894d510.png",
+   "sha256": "5af7e476969fafa381876ffab705591fdb1c65775a25b12951b65ad9a3d77b91"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnPc.e0af4878.png",
+   "bytes": 21232,
+   "status": "200",
+   "path": "capture/assets/css/downloadBtnPc.e0af4878.png",
+   "sha256": "735669deaad6368d1827c90f17d8da3b18a0b31a5f63e2cbe60f782e76b297e7"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg",
+   "bytes": 6864,
+   "status": "200",
+   "path": "capture/assets/css/ele-electric.a3874677.jpg",
+   "sha256": "93b153f43a08ace3b7f2b8171441b779c90a6efbc521421f258870177cfce16a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg",
+   "bytes": 6822,
+   "status": "200",
+   "path": "capture/assets/css/ele-fire.97dcd67b.jpg",
+   "sha256": "f3b9e7809aa636afc35f63cfb11cb396b43a187d7f6137c3ade5de94561bcc9b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg",
+   "bytes": 8100,
+   "status": "200",
+   "path": "capture/assets/css/ele-ice.134e8d15.jpg",
+   "sha256": "45e10b8f9e4f957e60e0b99da30e502e8669ecefa65f08d7bdc60fcc05d83693"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg",
+   "bytes": 5868,
+   "status": "200",
+   "path": "capture/assets/css/ele-nature.0606ebde.jpg",
+   "sha256": "4d152958f0232f495fbae389858e0db9764fa5dd9166dec408e35de98d6576d1"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg",
+   "bytes": 5523,
+   "status": "200",
+   "path": "capture/assets/css/ele-physic.2c205b7a.jpg",
+   "sha256": "22cd3a267ec59fe79589be5f2dc16056161ee7939be32bd65860bc2f1e6a68a8"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.235ca9f1.png",
+   "bytes": 13217,
+   "status": "200",
+   "path": "capture/assets/css/ember.235ca9f1.png",
+   "sha256": "b4b74cb813b7059e24422d3de22c4a26bb03ca4dd15bbba5fec115f2c3a5a38b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ember.9364370e.png",
+   "bytes": 1009582,
+   "status": "200",
+   "sha256": "8c399b0cd97d551e36182e5a737c8eb16ef9b0c438db4474bf2c58366c861926",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/en-us.234e7bc4.png",
+   "bytes": 85755,
+   "status": "200",
+   "path": "capture/assets/css/en-us.234e7bc4.png",
+   "sha256": "713b2d9229a4cab05be446b867499f54bad127d258b6560544e34df34149c188"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endfield.bcc6fe39.png",
+   "bytes": 64868,
+   "status": "200",
+   "path": "capture/assets/css/endfield.bcc6fe39.png",
+   "sha256": "724fbf04a4a661c5c16688c49febb68b2be0bd8fbfe7c83895350876d115be04"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.3efd4769.png",
+   "bytes": 13011,
+   "status": "200",
+   "path": "capture/assets/css/endministrator1.3efd4769.png",
+   "sha256": "de49292de78013344184ca789a2a6061f650637b467fa46dde3fc35b73270072"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator1.ec409283.png",
+   "bytes": 777373,
+   "status": "200",
+   "sha256": "48909c0e98405917915492304e4bc83c91ed965ce6096ce37cb8bcfe0c4ccc02",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.1ec20a16.png",
+   "bytes": 770802,
+   "status": "200",
+   "sha256": "23432dc54b2f7e6533499ca8ad8a60fc1b9c77462320717397963167fbb9fe09",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.f0bbf4fa.png",
+   "bytes": 12490,
+   "status": "200",
+   "path": "capture/assets/css/endministrator2.f0bbf4fa.png",
+   "sha256": "95dcbf90567ba0cfc7fe256dfda7c0e3a541c1b72364ac886e4cae680212e86b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/es-mx.30bfdd3e.png",
+   "bytes": 87993,
+   "status": "200",
+   "path": "capture/assets/css/es-mx.30bfdd3e.png",
+   "sha256": "0a2fecc0acf02bc50ba50c5d678c46c7a54c64a4da33146b5aa5a49a50807f15"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.0c009bcd.png",
+   "bytes": 236187,
+   "status": "200",
+   "path": "capture/assets/css/estella.0c009bcd.png",
+   "sha256": "6700d8c109b52f89a322928d2af9034770ed03da0e1356da088f772e2d76a6c0"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/estella.b761d517.png",
+   "bytes": 10339,
+   "status": "200",
+   "path": "capture/assets/css/estella.b761d517.png",
+   "sha256": "dc46799a053f8f12c9639a63cdd5cfe05703008cea4e29d2d62ef319815d7d1a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.b83d45cf.png",
+   "bytes": 12333,
+   "status": "200",
+   "path": "capture/assets/css/fluorite.b83d45cf.png",
+   "sha256": "cbfaa5988094c8c467d01dec98fe36fe9d2c7958affa30e1f2e2de933ad62ff5"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fluorite.cf452cf1.png",
+   "bytes": 222469,
+   "status": "200",
+   "path": "capture/assets/css/fluorite.cf452cf1.png",
+   "sha256": "8b4b2bda9a5a41269301f10e4fecd5dc6a469157d3451a7bbc1b4d6b166e37ac"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font.42d2c0d4.png",
+   "bytes": 30096,
+   "status": "200",
+   "path": "capture/assets/css/font.42d2c0d4.png",
+   "sha256": "f7981d4a0e061f55fdaaae28ab65a330415548cfb4b5fff87e0b5605a140601f"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/fr-fr.587afb51.png",
+   "bytes": 87173,
+   "status": "200",
+   "path": "capture/assets/css/fr-fr.587afb51.png",
+   "sha256": "0d5eee4756cac7d80a09095fd65002143d27731d95a61fab16b0977460784dcb"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.07ff3560.png",
+   "bytes": 13166,
+   "status": "200",
+   "path": "capture/assets/css/gilberta.07ff3560.png",
+   "sha256": "ee54f501fed9ed2f355ca71abee62571e5aef9e6eb55a7d1528280abd2db4898"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gilberta.92aa17d4.png",
+   "bytes": 951084,
+   "status": "200",
+   "sha256": "154671373b0185bca8826fdc95caa374ab45d964de1e0e805275a4b45a07a8c0",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/id-id.2eabc1bf.png",
+   "bytes": 86094,
+   "status": "200",
+   "path": "capture/assets/css/id-id.2eabc1bf.png",
+   "sha256": "aaa8c92ef318e84498ae8766fd8db7c3d2182cc992f8e08e9f6e2b718795b35b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/it-it.c83d684f.png",
+   "bytes": 87334,
+   "status": "200",
+   "path": "capture/assets/css/it-it.c83d684f.png",
+   "sha256": "ad53913c379022ea4c6aafc367c9b2cfe8b40b02968874a3b37e4a5cc4be9962"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ja-jp.546242ee.png",
+   "bytes": 88500,
+   "status": "200",
+   "path": "capture/assets/css/ja-jp.546242ee.png",
+   "sha256": "b7bbb98ccfb880dd41454c9dd7edfd9b34f269ab41ed960770fa7106d4dfbc5b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ko-kr.678ad151.png",
+   "bytes": 86047,
+   "status": "200",
+   "path": "capture/assets/css/ko-kr.678ad151.png",
+   "sha256": "8247543c53b9e61344be4a71da19ee052b3e820c33e7858e90e2d224db187d58"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5.d98af17e.jpg",
+   "bytes": 1221146,
+   "status": "200",
+   "sha256": "69d779f4e850d7c5afbb872e9858de03711b49dd665401a8c1b30a3aa630b034",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/kv_v1d5_h5.0dccfb24.jpg",
+   "bytes": 739788,
+   "status": "200",
+   "sha256": "8af4f8096f0ede215efccc0a363e46705892433817f261ddea5f872de83378fb",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.20075757.png",
+   "bytes": 12429,
+   "status": "200",
+   "path": "capture/assets/css/laevatain.20075757.png",
+   "sha256": "4f04bb1caccfd08a70ea78853440b9f32a7f090752a0cdc70f8c50cfeb5e9bfe"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/laevatain.d0ca2837.png",
+   "bytes": 1180819,
+   "status": "200",
+   "sha256": "e4fe6f2d445836eecd4c2e11658b7040623fd7a9294642132b9b06e11fa52ec5",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.4a02d8bb.png",
+   "bytes": 1092682,
+   "status": "200",
+   "sha256": "5e965544d6e58166f3c505e78ca8ea15431277386ff473560da3a970c910b9f7",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png",
+   "bytes": 12835,
+   "status": "200",
+   "path": "capture/assets/css/lastrite.8560c002.png",
+   "sha256": "6414d8c646def243f980d2c5e6cf61165a024d7fb9748810be4ad175743cda71"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/left-deco-text.3ef6b598.png",
+   "bytes": 1692,
+   "status": "200",
+   "path": "capture/assets/css/left-deco-text.3ef6b598.png",
+   "sha256": "caecf7bb195f89b6148ea8845c7470e0a3221bb55c3378835c64dca655a554a6"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png",
+   "bytes": 11947,
+   "status": "200",
+   "path": "capture/assets/css/lifeng.41ae5d06.png",
+   "sha256": "6475142970956a0c5a0dba0e826d2afa541571f0b7c6787eeb9e5a2c2b952c9d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.7253579c.png",
+   "bytes": 1202121,
+   "status": "200",
+   "sha256": "ff576ec07e2caab73fa5970b4f484bbe797d045c47463f8adc05fb13236e7a7f",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f1730ac7.png",
+   "bytes": 12722,
+   "status": "200",
+   "path": "capture/assets/css/liino.f1730ac7.png",
+   "sha256": "12c20343acfb92e5f2dfaa75cccd54a8908d03607f62896718bc73187cc5f017"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/liino.f5676406.png",
+   "bytes": 888607,
+   "status": "200",
+   "sha256": "be5599e7b7023f65a55a1d86ab418a43544c6647b23959b8d2c4fcd8e3523faa",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.5e6e07c8.png",
+   "bytes": 930120,
+   "status": "200",
+   "sha256": "4f3bad8184379054bfd72b4ffc95244fe8fcf36ba1c5cb385ce57fa76aceebba",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lizhiyan.9b1b7f82.png",
+   "bytes": 12815,
+   "status": "200",
+   "path": "capture/assets/css/lizhiyan.9b1b7f82.png",
+   "sha256": "405aa6c8dd6f2d74683fb793764842db8f28619d6b0659c8d000251ded3b2281"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/logo.fc8e2a3c.png",
+   "bytes": 186566,
+   "status": "200",
+   "path": "capture/assets/css/logo.fc8e2a3c.png",
+   "sha256": "5499b138598c82353d381a816734a31b77b10fc23eacd12f5274349c35ea676b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mask.fd049a11.png",
+   "bytes": 241884,
+   "status": "200",
+   "path": "capture/assets/css/mask.fd049a11.png",
+   "sha256": "8ecd66947f56e2c16edcc07879def10ead6a9361d046fedb0e602eee54bb2488"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.02645cad.png",
+   "bytes": 42462,
+   "status": "200",
+   "path": "capture/assets/css/mifu.02645cad.png",
+   "sha256": "921cdfa940f3e4e520e3a3bd79958fea4a533e7419578571aee28bbbb6bd8b05"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/mifu.7b3a74cf.png",
+   "bytes": 2986871,
+   "status": "200",
+   "sha256": "5dce5940d63ac9c6f09e6c809ef1d8ec0990ff51c5240743b3ee710137b69b62",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/none.aa703403.png",
+   "bytes": 374,
+   "status": "200",
+   "path": "capture/assets/css/none.aa703403.png",
+   "sha256": "2a829883a7516cd7109e25469ace83557153c2314476492464b1986a067f2087"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/operator.875a6fbd.png",
+   "bytes": 1144,
+   "status": "200",
+   "path": "capture/assets/css/operator.875a6fbd.png",
+   "sha256": "44c7320cde7c4b1f02d8d763663f2f63caa4dfc1319fedd1f72ab8ff6e78b964"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/orig.a0e255f1.png",
+   "bytes": 5744,
+   "status": "200",
+   "path": "capture/assets/css/orig.a0e255f1.png",
+   "sha256": "c030754a3414bf21598ae7553bdf28de79a3cb729b1715bf917a54d278669a6d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pag-button-texture.e4e732ad.png",
+   "bytes": 1871,
+   "status": "200",
+   "path": "capture/assets/css/pag-button-texture.e4e732ad.png",
+   "sha256": "87df952dae4e1a85e95a00447889acca95cd237281e00b8a66107aa33ac89cee"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pcTopBtn.ed7e25a6.png",
+   "bytes": 18297,
+   "status": "200",
+   "path": "capture/assets/css/pcTopBtn.ed7e25a6.png",
+   "sha256": "723b5576d736e5862cb907e4fb668b94790ac775eed061aafc6457b8d3120c4a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.6710bc97.png",
+   "bytes": 732113,
+   "status": "200",
+   "sha256": "ff1b42ff3dda9cd679f1f2133ee7bca2e1b90fd94a07e5ad0b9649496af9a5b0",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/perlica.871dcf57.png",
+   "bytes": 13097,
+   "status": "200",
+   "path": "capture/assets/css/perlica.871dcf57.png",
+   "sha256": "36b12d6a5984c860201b8cf1b6fb37a280bfb6b22ca6009bce7c83697a6045d6"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.6983f122.png",
+   "bytes": 840767,
+   "status": "200",
+   "sha256": "500e7651c2afe47f0e31b9adcdae3ccd61f4e7b513d3c49d332381d61fc49331",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png",
+   "bytes": 12354,
+   "status": "200",
+   "path": "capture/assets/css/pogranichnik.73f7bcf6.png",
+   "sha256": "bd7930bb493762e88ed002003cbffab11b7465106a28afc4f787d871ad2bd1a1"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png",
+   "bytes": 3007,
+   "status": "200",
+   "path": "capture/assets/css/points-bg.f3b559e8.png",
+   "sha256": "c1107bfb132444678e641fa283726a5553d6f997ece231bcb8c953f61da66f91"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pre-gacha-b.82128529.png",
+   "bytes": 7603,
+   "status": "200",
+   "path": "capture/assets/css/pre-gacha-b.82128529.png",
+   "sha256": "2fc41c18edfb949ae8d4913e9333af22f117ebef88f63f019d305ccb7474de52"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pre-gacha.caeae773.png",
+   "bytes": 7544,
+   "status": "200",
+   "path": "capture/assets/css/pre-gacha.caeae773.png",
+   "sha256": "0c40e62caed6b6d979b8d90c9b3a61d60f5491e691c51c21748f4d2b99986a57"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg",
+   "bytes": 6889,
+   "status": "200",
+   "path": "capture/assets/css/prof-assault.2aeeaf48.jpg",
+   "sha256": "af50ac8a15ed2d23da9a4015eaf1b125f71bd50165d311ef387638635da84b1c"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg",
+   "bytes": 6428,
+   "status": "200",
+   "path": "capture/assets/css/prof-caster.d469c805.jpg",
+   "sha256": "b3d97d92309b0e5f336aadb93e898751843998b46caa9c609e30fc86ed17087b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg",
+   "bytes": 6890,
+   "status": "200",
+   "path": "capture/assets/css/prof-guard.78502de4.jpg",
+   "sha256": "6f6b58e02463861976b1047cf7b8f414c0aa5421a76c3b091476404748b6133d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg",
+   "bytes": 8266,
+   "status": "200",
+   "path": "capture/assets/css/prof-shielder.a3c6ffc9.jpg",
+   "sha256": "a42ee3409c34c47902f1efbb264005bad0570c0bac85bdd1400c937ca7b08cb2"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg",
+   "bytes": 6898,
+   "status": "200",
+   "path": "capture/assets/css/prof-support.532f02bd.jpg",
+   "sha256": "5731c5adfec02eeb7a00d2efc9eeb60d54121906cd7348f153c22d789e8c91ee"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg",
+   "bytes": 7791,
+   "status": "200",
+   "path": "capture/assets/css/prof-vanguard.b957cec2.jpg",
+   "sha256": "7c3f7ffbf7c8e3ba214c3dd9bab387c57834b57a8427934b20b2bc6c83624f08"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pt-br.5ef4c33f.png",
+   "bytes": 87748,
+   "status": "200",
+   "path": "capture/assets/css/pt-br.5ef4c33f.png",
+   "sha256": "1f7cf45c2e12aa6d5910d572b4c117c82b723148d94c264a1a0740056f39ae67"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.bdb051d3.png",
+   "bytes": 11343879,
+   "status": "200",
+   "sha256": "b6671a4989f5c2afa8f243ebc4451378f67087e706d1f01b06dfb3f97698f713",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d14c39f4.png",
+   "bytes": 61187,
+   "status": "200",
+   "path": "capture/assets/css/purrche.d14c39f4.png",
+   "sha256": "dc2ae5beddd673901ac36b939f18a9ea386497bd6f8d8dd014faa6d3c054059a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/qrcode.2680d634.png",
+   "bytes": 3587,
+   "status": "200",
+   "path": "capture/assets/css/qrcode.2680d634.png",
+   "sha256": "13aa999ce7d4a48c5937dfaff217a6d534852c1478d6fa24225b137578f0300f"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ring.5ce6e2bd.png",
+   "bytes": 60259,
+   "status": "200",
+   "path": "capture/assets/css/ring.5ce6e2bd.png",
+   "sha256": "4c1bb38a4e3089aaa7fb08cbb2470606d2ad6a2ccaaf287c8b7c0f7002cc8d44"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.4431f348.png",
+   "bytes": 12783,
+   "status": "200",
+   "path": "capture/assets/css/rossi.4431f348.png",
+   "sha256": "2a4318651302ece6b39003c9a26a7f78777205a8867eda6fdd246178ddaecb6e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/rossi.b7ae95b5.png",
+   "bytes": 908120,
+   "status": "200",
+   "sha256": "d4d14dad873319362b62170ae36475cfbd8d8ff16ccc50923f7a4e5e60e72f89",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ru-ru.f154ac12.png",
+   "bytes": 91680,
+   "status": "200",
+   "path": "capture/assets/css/ru-ru.f154ac12.png",
+   "sha256": "f94ed304055acfec836779413f96a95567ea1273c46845c4bad736d59655d023"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sample.2c75e2dc.png",
+   "bytes": 66188,
+   "status": "200",
+   "path": "capture/assets/css/sample.2c75e2dc.png",
+   "sha256": "698fc643b44f65b893d8a2742d8c56f1c5a36f93d6246988d7bf531cb94d671d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/scroll_tip.351d44bc.png",
+   "bytes": 4966,
+   "status": "200",
+   "path": "capture/assets/css/scroll_tip.351d44bc.png",
+   "sha256": "154fb087a7504697767024a36bbcc06b68856aba9f98c211cb8a9e56a4dfd0a4"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png",
+   "bytes": 93226,
+   "status": "200",
+   "path": "capture/assets/css/section_divider_icon_lore.6968c414.png",
+   "sha256": "2776fb13a4067979fd8d8838748f7adf9d38f97f5c9a58482b852dc356124799"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/skland.46bc0df3.png",
+   "bytes": 2383,
+   "status": "200",
+   "path": "capture/assets/css/skland.46bc0df3.png",
+   "sha256": "097f888c24baa608af72a5e9d982b1233c19ddd3046c34024977c025e45fdb78"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.1f6d3a0e.png",
+   "bytes": 709909,
+   "status": "200",
+   "sha256": "6c3232b656632112f283308fd03c5658013df9b3ffce4c195f053e32183fda54",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png",
+   "bytes": 12939,
+   "status": "200",
+   "path": "capture/assets/css/snowshine.844ed0a4.png",
+   "sha256": "fd20ec7cddb5c95ed76df331932ffb75884299c1ee8aa62a6c47cc696738bc89"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/star.c078a0a7.png",
+   "bytes": 972,
+   "status": "200",
+   "path": "capture/assets/css/star.c078a0a7.png",
+   "sha256": "d7a2f65d69fbd32ff2be8c6d9aa6ddc75ee4701c739b9f1accc006c97bf072fa"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-lb.b881dcb3.png",
+   "bytes": 11674,
+   "status": "200",
+   "path": "capture/assets/css/subpage-deco-lb.b881dcb3.png",
+   "sha256": "dc5b35ffa69cd181d7ebe040f31ec2005bdcdf258e3017b537b6a7d58723d119"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-deco-rt.6fce5d04.png",
+   "bytes": 12004,
+   "status": "200",
+   "path": "capture/assets/css/subpage-deco-rt.6fce5d04.png",
+   "sha256": "bf19b15c8fe28c53fd0d8df1736785ac13286346c3fab99d43c097837907ed63"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-bolt-h5.f805e784.png",
+   "bytes": 12288,
+   "status": "200",
+   "path": "capture/assets/css/subpage-title-bolt-h5.f805e784.png",
+   "sha256": "5e0c9846e5c5fed774ff4824447b2b6abc517c93f341e3ff85bb5107044a5157"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-bolt.0f4dd4e2.png",
+   "bytes": 27027,
+   "status": "200",
+   "path": "capture/assets/css/subpage-title-bolt.0f4dd4e2.png",
+   "sha256": "85f94dd6fa007398357b3461f52b83d751b5a129ff7ff6dc79f7dac70cb437d5"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper-h5.fa5fcf19.png",
+   "bytes": 16528,
+   "status": "200",
+   "path": "capture/assets/css/subpage-title-pumper-h5.fa5fcf19.png",
+   "sha256": "ebdce165b67a2c804a728706f245e846be40b36529c1751e3bc47ad29182636a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/subpage-title-pumper.86938bc4.png",
+   "bytes": 32828,
+   "status": "200",
+   "path": "capture/assets/css/subpage-title-pumper.86938bc4.png",
+   "sha256": "6cae9e00f012a3f29786eecb9639e13aae4488e988b1b3a8d4a08a5c97e17b58"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-active.c8843bb5.png",
+   "bytes": 252,
+   "status": "200",
+   "path": "capture/assets/css/switcher-active.c8843bb5.png",
+   "sha256": "3d2ece60ccca42b813f69c21d725a74bbedc25921881d3c71398776210124c3f"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/switcher-default.c8aa9ae0.png",
+   "bytes": 263,
+   "status": "200",
+   "path": "capture/assets/css/switcher-default.c8aa9ae0.png",
+   "sha256": "41983f146fb45b9efe228de7eaa9c8f570ec5aad0c25b45ab61389048db966da"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.049b8a47.png",
+   "bytes": 12393,
+   "status": "200",
+   "path": "capture/assets/css/tangtang.049b8a47.png",
+   "sha256": "8fffaa6fc726a4081a0359e92904d0255ca75c54aae72eab0fca7156b6823d9e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tangtang.2602b587.png",
+   "bytes": 855724,
+   "status": "200",
+   "sha256": "eaa02d0269d2b53d5137a163bad19c08eccd4d1a9f4ff6d0edbf190f1f18360c",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tape-wave-bg.2bce9fc0.png",
+   "bytes": 37025,
+   "status": "200",
+   "path": "capture/assets/css/tape-wave-bg.2bce9fc0.png",
+   "sha256": "66b0f225288d5c5b5b5415f64be56663500a51c24f093ab26c9da1a553c7a99e"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/test-notice-bg.9814ba3c.png",
+   "bytes": 320164,
+   "status": "200",
+   "path": "capture/assets/css/test-notice-bg.9814ba3c.png",
+   "sha256": "8ba69f3ef0d38966dd0acacce6281caf035fa092bacabed1ffdc915dea7d95cb"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lb.8b362c5f.png",
+   "bytes": 2816,
+   "status": "200",
+   "path": "capture/assets/css/th-deco-lb.8b362c5f.png",
+   "sha256": "b6779148c7239461ba32de8f67cb31884fc5854dff2a9127466b3cd4c648b44a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-lt.d5331bdd.png",
+   "bytes": 3192,
+   "status": "200",
+   "path": "capture/assets/css/th-deco-lt.d5331bdd.png",
+   "sha256": "24fa9cbba49a5b9264d7b0ac4944b604a49271c5e97944634198975ea1e3ab0d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-deco-rt.85ad2c16.svg",
+   "bytes": 579,
+   "status": "200",
+   "path": "capture/assets/css/th-deco-rt.85ad2c16.svg",
+   "sha256": "1416de662c3fc356e51bf149b217320be17350a905a6acd2d5c0415621d31c4f"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/th-th.c9cbb94e.png",
+   "bytes": 85717,
+   "status": "200",
+   "path": "capture/assets/css/th-th.c9cbb94e.png",
+   "sha256": "e8ab405ffafe7e63d0841e828f67086fd806f4309a13895829bff1cd20f12b58"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tips.ca2b781c.png",
+   "bytes": 3771,
+   "status": "200",
+   "path": "capture/assets/css/tips.ca2b781c.png",
+   "sha256": "0429f076568a25d864e1292a776eb9d9f224e67cb1e8ae13b82216400b4f37e6"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/topBtn.1b50eaa4.png",
+   "bytes": 18837,
+   "status": "200",
+   "path": "capture/assets/css/topBtn.1b50eaa4.png",
+   "sha256": "8a082b9b48bcdc76ddb4b15fdf92324cf9d4fe8d9ddbdf34f9873e7c462e0724"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tower-bottom.eb021e6c.png",
+   "bytes": 25017,
+   "status": "200",
+   "path": "capture/assets/css/tower-bottom.eb021e6c.png",
+   "sha256": "59ca16fa1a515a3eb9a2e0517082e58da98877cbb33e1917c2eab7959d89ff6a"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tower-top.768f88af.png",
+   "bytes": 8781,
+   "status": "200",
+   "path": "capture/assets/css/tower-top.768f88af.png",
+   "sha256": "ef57ea222e7573383c9bbf21df0564028559e8861b715da4db1181ba440e525c"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/triangles.bcbd794a.svg",
+   "bytes": 261,
+   "status": "200",
+   "path": "capture/assets/css/triangles.bcbd794a.svg",
+   "sha256": "c903dc264b1b0d17ea582b8e578e643818f4aa61126f12b95482a9b43b549e83"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c4a79f82.png",
+   "bytes": 12976706,
+   "status": "200",
+   "sha256": "e22a87d29aea56c82077f362d72b8f01e715659922491f959bcdfb43b59c329f",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.c68596a8.png",
+   "bytes": 60859,
+   "status": "200",
+   "path": "capture/assets/css/typhoea.c68596a8.png",
+   "sha256": "8d56b7cf65441dfe9ec9e0cb9ab32183100758e5ac0ae0c0ff7324e366c127d0"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/vi-vn.dd621a3a.png",
+   "bytes": 88968,
+   "status": "200",
+   "path": "capture/assets/css/vi-vn.dd621a3a.png",
+   "sha256": "4b3dd10c792e3d779e0cc531919d56b6e37b0b3fde0e14a216c5eabdad139658"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wave-bg.8955885a.png",
+   "bytes": 17084,
+   "status": "200",
+   "path": "capture/assets/css/wave-bg.8955885a.png",
+   "sha256": "5a9efdd3ede79f2e4a7cf033e25b1716847d210f636e950db0fc5c870f6dcdac"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.53a6686b.png",
+   "bytes": 916763,
+   "status": "200",
+   "sha256": "d352d5f6806f5c5efb49187d8f827a408c64feb7b8754e2642c8e97f949713ba",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wulfgard.b9d580b2.png",
+   "bytes": 12697,
+   "status": "200",
+   "path": "capture/assets/css/wulfgard.b9d580b2.png",
+   "sha256": "055b112b11e7f1af811fa8d000105bdf5840ffed92665d28e8229dd18c10f39b"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.43d608d9.png",
+   "bytes": 937660,
+   "status": "200",
+   "sha256": "6f93561e483e89a4ae464c9bb1b5d778d2b252520feb0523bffa781166a7ecfc",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/xaihi.9c949014.png",
+   "bytes": 13629,
+   "status": "200",
+   "path": "capture/assets/css/xaihi.9c949014.png",
+   "sha256": "c18ec3d63024482a3271cc84f4a0e293c11ff3c83ea7c491b7226442ab4750bb"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.a74396e6.png",
+   "bytes": 751442,
+   "status": "200",
+   "sha256": "7c8a3faaa278ce95732147a9785db165bb630680b7ebc52184f0d64c6b4a0eca",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/yvonne.c93412e1.png",
+   "bytes": 13321,
+   "status": "200",
+   "path": "capture/assets/css/yvonne.c93412e1.png",
+   "sha256": "5da23734f2f198f314d40cd35bd93114908b38247871d8e590db95b8787485ca"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-cn.e783425d.png",
+   "bytes": 140173,
+   "status": "200",
+   "path": "capture/assets/css/zh-cn.e783425d.png",
+   "sha256": "741c8e652b549f917025e5bd1eb35aa734f771d8335c0f964ee9cda9fa040b8d"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zh-tw.a41a1cc8.png",
+   "bytes": 89323,
+   "status": "200",
+   "path": "capture/assets/css/zh-tw.a41a1cc8.png",
+   "sha256": "d6d3457e7eebe74c73b436155f238f47267dbc3cbf1009cbd970789d707b571c"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.4369b1a5.png",
+   "bytes": 42315,
+   "status": "200",
+   "path": "capture/assets/css/zhuangfy.4369b1a5.png",
+   "sha256": "727d367bc1d20cc695c27042b9c4351c8649cd3603ce9775d8e549ab0a0248fb"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/zhuangfy.c6750f9c.png",
+   "bytes": 977837,
+   "status": "200",
+   "sha256": "be1db5d9a67158461c75c60339102a89523e8930c9b82d7b80402328134387dd",
+   "path": null,
+   "note": "not stored (>400KB or error)"
+  }
+ ],
+ "runtime_fonts": [
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Black.264c07.ttf",
+   "path": null,
+   "bytes": 145696,
+   "sha256": "ef643b37b20c21d01edb5722934cff45ae885f0b03ca1864386463e12fb03e22",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Black.6a12f8.woff",
+   "path": null,
+   "bytes": 61040,
+   "sha256": "263dfbd48c3351449d15d7d123a9f32e133d08e304a2f516bc5cc5fd54a1eea0",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Black.bb2f22.woff2",
+   "path": "capture/fonts/HarmonyOS_Sans_Black.bb2f22.woff2",
+   "bytes": 43756,
+   "sha256": "822dbf345e98a61abd21b018bf2b418b56cc5a158de78f582169ab18b7ec8307",
+   "alias": "SansBlack"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Bold.526d8a.ttf",
+   "path": null,
+   "bytes": 145860,
+   "sha256": "7f973862c42353c9cc372dc2ae891d12c9ea5fe2a01b449adaf1eade9b469b47",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Bold.6aff6d.woff",
+   "path": null,
+   "bytes": 61160,
+   "sha256": "83113234c46a545e4275b27bdb1789cb9313284a68d9bfb65db8b249ea5927a3",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Bold.9717cf.woff2",
+   "path": "capture/fonts/HarmonyOS_Sans_Bold.9717cf.woff2",
+   "bytes": 43960,
+   "sha256": "ec41579967546cbbb294616cc24011cf993edbc5166d4a9102eb3ee4f1260af9",
+   "alias": "SansBold"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Medium.0903f2.woff",
+   "path": null,
+   "bytes": 60896,
+   "sha256": "2c0bbeda3c3405eea6e495a72a0fee4916e08d66d04ab7537dc8aae5a0442c42",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Medium.20006f.woff2",
+   "path": "capture/fonts/HarmonyOS_Sans_Medium.20006f.woff2",
+   "bytes": 43584,
+   "sha256": "0a07b647ed1ab189975c04dd77d5a44af0018667731144b86e12ea987bb10b15",
+   "alias": "SansMedium"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Medium.203903.ttf",
+   "path": null,
+   "bytes": 146164,
+   "sha256": "f6b009d07d8d894d55eadeb7080b4916c3a2c83ff3ee60bbe851e6698d73bafd",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Regular.0cfc88.woff2",
+   "path": "capture/fonts/HarmonyOS_Sans_Regular.0cfc88.woff2",
+   "bytes": 41136,
+   "sha256": "b16210d508a6bfb32ccdf3b04d213a490e0a1d57838b47f7421d7a54569d02d2",
+   "alias": "SansRegular"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Regular.12ffa1.woff",
+   "path": null,
+   "bytes": 58952,
+   "sha256": "5e667375fe96be9c3e28c614c66e1bcb17a931cf23dd0744a9285a4b140af6f7",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_Regular.cd23cd.ttf",
+   "path": null,
+   "bytes": 146616,
+   "sha256": "4f00c7e80329238d0b6fc58e5c829c4086432ba9fa1a8c5ca3da9a0442ce0452",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Black.1d7dfb.woff2",
+   "path": null,
+   "bytes": 208884,
+   "sha256": "efb527401013a0f9cfe171a18dd3e44774d4b5509a8fa49528f375f324612852",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Black.69d404.woff",
+   "path": null,
+   "bytes": 260200,
+   "sha256": "501cca8ba1569315327054d0206a0f8c68b04b20b27cf5e9b7b1a51d863fff2f",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Black.867f57.ttf",
+   "path": null,
+   "bytes": 375216,
+   "sha256": "2da11d7a91d2cb4fe7dd5de9a27fa2b0d3982f84554c93da50b4bae1a4882225",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Bold.06d3d0.woff2",
+   "path": null,
+   "bytes": 207852,
+   "sha256": "5025f4ed60cf256fcf1c21032f033cfe990992b678e6365a31cc8df5cd7f254d",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Bold.77dfff.woff",
+   "path": null,
+   "bytes": 260036,
+   "sha256": "3720f33c4496aae5b90d8af7c262a358286a06b42e23dba3797c0ff20add3d62",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Bold.e66042.ttf",
+   "path": null,
+   "bytes": 377040,
+   "sha256": "7f51b3c7df963eaa44a5fc5bd3fc0eb2a7c8aa529f8d299687c8167cbf4885e6",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Medium.0a0631.woff",
+   "path": null,
+   "bytes": 260696,
+   "sha256": "973bcb4c92051f631f70984e4cdc0ebbf6d8f5dfeb130c87cdb3c7c06cf3b712",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Medium.5bc901.woff2",
+   "path": null,
+   "bytes": 207476,
+   "sha256": "54ef59beec534c5fe524f7c78f0d460d0743a01d425dc6679e5d54507e7c7142",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Medium.7c31a1.ttf",
+   "path": null,
+   "bytes": 380660,
+   "sha256": "26d2d26a4f82817ba57838ffc1d8949a0ab15e4ca7ce0b3fff82f22bebdc7025",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Regular.459e41.ttf",
+   "path": null,
+   "bytes": 381952,
+   "sha256": "a92a65dcb058c3ceb1fb8f946c43c2ec9ea2e54f08b171ffeeacfffbfa5d551b",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Regular.4e6868.woff2",
+   "path": null,
+   "bytes": 206276,
+   "sha256": "80b0445e19792ae9ffc36c9afd1ac4227ed6dde3059cbfee49feca0fd0e6265b",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_SC_Regular.7472f4.woff",
+   "path": null,
+   "bytes": 259428,
+   "sha256": "85956c976244acb5b624029454f6cf741745c1a70a19ae3f76e15c911849afba",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Black.0aca7e.ttf",
+   "path": null,
+   "bytes": 416180,
+   "sha256": "58feab75548d3bfcfdb76dc0dc2fb12e14c9fa95921be56512f4ad1c72401ab4",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Black.553e77.woff",
+   "path": null,
+   "bytes": 289844,
+   "sha256": "3c3b1622073bf1b23a4a10f356e3944a55f7d5db76470d2e3fc0aa8b8c4298b3",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Black.c4ffb8.woff2",
+   "path": null,
+   "bytes": 235484,
+   "sha256": "1494f3b69e03b2275e71296faadd46a0fd1261a59cea45d53c6f98e23cc4f086",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Bold.4c460d.ttf",
+   "path": null,
+   "bytes": 418464,
+   "sha256": "944d0f29347510c0d2243f04f8604e1559d92232ddb54f5c6478eaf0b4594b40",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Bold.63a9cf.woff",
+   "path": null,
+   "bytes": 289592,
+   "sha256": "e79426c6e23381bda1159e5b8db39b889fbb386f87732a56e33f5d573d305c84",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Bold.77ee98.woff2",
+   "path": null,
+   "bytes": 234968,
+   "sha256": "54034a94cefebfd5089ce8b3f556299319cdce0e3568836aa7adbcac6fc00302",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Medium.490d34.ttf",
+   "path": null,
+   "bytes": 424612,
+   "sha256": "ec85f2f737e84d9971ff19df64d34feb9c247810e7697c94f059dffff78c6176",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Medium.6b4c3f.woff2",
+   "path": null,
+   "bytes": 233608,
+   "sha256": "8b8611f9245ecaacdefe8a5f9fe77ab2a65626975559d9d8080a7c96166bd1ad",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Medium.775e9b.woff",
+   "path": null,
+   "bytes": 289472,
+   "sha256": "39b05b552d9cf61787c16d3f387f5276edc2ea0ffc3560ba9441933bdf3939e8",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Regular.2701af.woff",
+   "path": null,
+   "bytes": 287352,
+   "sha256": "e9a6a2be72ecc4f2de1489f7fae64791cea58ceb337c125e32fc8be28e01b4f7",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Regular.463da3.ttf",
+   "path": null,
+   "bytes": 425460,
+   "sha256": "4c3457f3e0d7b633d1c112a6122cc98212dd0bd264a263fe445e947b62894ded",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/HarmonyOS_Sans_TC_Regular.97cc8c.woff2",
+   "path": null,
+   "bytes": 231256,
+   "sha256": "a737c97e092961511396c35f9f93885ac6dd312daffdefc3608305cbcf02ff9b",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Black.565a55.ttf",
+   "path": null,
+   "bytes": 523112,
+   "sha256": "0cea11fb9e876da865f396641bef166c2fa394ebece9582090f43220b07d1003",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Black.67f11f.woff",
+   "path": null,
+   "bytes": 308248,
+   "sha256": "f63780f1fc5efb87575314156a8ec815c09d99c653b4ddf5385366f5f2a06f2a",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Black.9a9ef4.woff2",
+   "path": null,
+   "bytes": 231376,
+   "sha256": "181a941303f296b674e34c308610a7ac67e94ed23dbac460f3fd0aecbcf63014",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Bold.7b3e6d.ttf",
+   "path": null,
+   "bytes": 524376,
+   "sha256": "ffe58d9c367ddf460b87a30f9f129115fd47d9fa26d6c3f750b92a42277eb5f5",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Bold.9572da.woff",
+   "path": null,
+   "bytes": 319552,
+   "sha256": "aed73c16ad1248741fa20ca44aa2e6a38a0ea3948a4e387e70ce2cfa28ac7532",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Bold.ba914a.woff2",
+   "path": null,
+   "bytes": 242464,
+   "sha256": "8082114efaa10cc99751d63c6862568f8a6056cea2078d1848213cee804fd6ad",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Medium.b098a2.woff",
+   "path": null,
+   "bytes": 318864,
+   "sha256": "eddeb2a5dbea4cab152b5affbfd8582dba649cedfb5026c2f71e9945d8504f42",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Medium.cfe6b5.woff2",
+   "path": null,
+   "bytes": 241028,
+   "sha256": "8871af2457af59aea2f28bc2b63e1afedf25520474bd1fe32fe8bb43f2b92612",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Medium.f68eff.ttf",
+   "path": null,
+   "bytes": 525904,
+   "sha256": "1f52560f52eb950fe16d3366404dbb2f420e505a51ea9451e19fdf2f2b04cac2",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Regular.699414.woff2",
+   "path": null,
+   "bytes": 238972,
+   "sha256": "7a499af6b36d9fe28cb3c8316bef77abdaf996fc89d10b2fa43b98ab0c62d325",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Regular.e039e2.woff",
+   "path": null,
+   "bytes": 318884,
+   "sha256": "d0c17e2f3cb7c434f90270bad2a0d40a788d5cbd1823de478263487e0dac57b9",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansJP-Regular.e8f768.ttf",
+   "path": null,
+   "bytes": 527896,
+   "sha256": "a2c438fcea8d409d4863a29f6c64ba5a646f0ddba4094658ff8ff8a3324c3f5a",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Black.975e63.woff2",
+   "path": null,
+   "bytes": 50024,
+   "sha256": "794e610695cc7d1fd3daab46b01a9c7bd64127b6c237b040b6b882c33f35b6a5",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Black.a0b822.woff",
+   "path": null,
+   "bytes": 64420,
+   "sha256": "cd01898cb13c46d480a881303e14823924dd1d2e9b1d773e105150c2595b7e29",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Black.fc3add.ttf",
+   "path": null,
+   "bytes": 116920,
+   "sha256": "30bc892351feb44b47f3764ba3fc3ebe248d6aa05c247ee69b38787766b4e81e",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Bold.30a3d7.woff2",
+   "path": null,
+   "bytes": 50472,
+   "sha256": "816780644be610c4287699db41dce0911e40c620163339be7baa0707fb314fcd",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Bold.30dd41.ttf",
+   "path": null,
+   "bytes": 115960,
+   "sha256": "f8b77989569d952edf728e564fef762679e8f3319bb2859fab8efbac87b812cc",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Bold.69fb43.woff",
+   "path": null,
+   "bytes": 64832,
+   "sha256": "8a918cc8245e2f3ba92a27fd8226d3a1992d05ca8c71f96db1981c32538db95c",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Medium.018f38.woff",
+   "path": null,
+   "bytes": 64704,
+   "sha256": "20afee5e284555024c92b51fad44b98b749487d3f6143d22f3f05b497e220b22",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Medium.11415c.woff2",
+   "path": null,
+   "bytes": 50316,
+   "sha256": "06e90576724d70bbb3a2937997f7e657ab804384e16844db1000a7b52ec3e955",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Medium.e5b49d.ttf",
+   "path": null,
+   "bytes": 116428,
+   "sha256": "997892411d2d51e7019fd1c8b7db1fb8cd43a349244045b91319bf9d64304513",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Regular.126641.ttf",
+   "path": null,
+   "bytes": 117568,
+   "sha256": "e109ae67d4f86f9cd281a2f2b3cbfc6a60cacb2b7a15b9aa0fcaaca6d827a0f0",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Regular.2431cb.woff",
+   "path": null,
+   "bytes": 65448,
+   "sha256": "fec1061979aec01e4ef8cf4499612a9cb3c1cbf379957ca456893bea1f7a83df",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansKR-Regular.99a2e0.woff2",
+   "path": null,
+   "bytes": 50640,
+   "sha256": "8468f6690c9cd9379c942d14567ebb6b031580e32d23535ba17420c4b40b2cb8",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Black.05eca9.woff",
+   "path": null,
+   "bytes": 31868,
+   "sha256": "e7cf3732cc77640c7a62ad547f8f19dd5ddb8a19d65e05d4ad32e2b3e9f803cf",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Black.44d837.ttf",
+   "path": null,
+   "bytes": 60724,
+   "sha256": "8d3ae3b1efd41a6479d73059bad2ebebe35f7d67bd7ad321d912e9be02209c3c",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Black.8ef854.woff2",
+   "path": null,
+   "bytes": 24980,
+   "sha256": "39db5403c8650de386e3e8eaa99519ba214f119a97763f403c76c89f50a0d736",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Bold.6076dd.ttf",
+   "path": null,
+   "bytes": 60816,
+   "sha256": "f3b87d25a89da7b325a891acbacd937ed27267650d99a168eb2d68f38427a7db",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Bold.91a570.woff",
+   "path": null,
+   "bytes": 32528,
+   "sha256": "2c31737f21bed3db9e8f36b57d083da7bbe7cfc2bb9a31a76a8e572634e7136a",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Bold.b1fa9c.woff2",
+   "path": null,
+   "bytes": 25688,
+   "sha256": "a71a327d09b938b230b377b41dff5cbd34c287cb8a7fb5aac187987af64c0bfc",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Medium.a00480.ttf",
+   "path": null,
+   "bytes": 60904,
+   "sha256": "1764a39f62c83d96c66e495cbf5090f85675a31b853536846f2a6f48fd3d296f",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Medium.d33f74.woff2",
+   "path": null,
+   "bytes": 25496,
+   "sha256": "5962a8b543ee7cf70795776ab0da491eda1f521c36b4d99146df69f8501cb4f2",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Medium.e2cd96.woff",
+   "path": null,
+   "bytes": 32452,
+   "sha256": "c226817cbe93d68bef193303a72bf18f9371efd1a0cc449d2cca2f483d10f179",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Regular.36529a.woff2",
+   "path": null,
+   "bytes": 24656,
+   "sha256": "80b56431a96585786c55489e0d9a9266542a239eb089987fd055096aa684f901",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Regular.52a09b.ttf",
+   "path": null,
+   "bytes": 60824,
+   "sha256": "38b76a14124e1f4173c24223d6a21c813c818bd5b4c146ef09464875324768d4",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  },
+  {
+   "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/font/NotoSansThaiLooped-Regular.ae1fb3.woff",
+   "path": null,
+   "bytes": 31660,
+   "sha256": "1f281dc8eb473752dc6a3fce26f7fa9a0cdf26b2983d526cc9bad58c4aa6d403",
+   "note": "not stored: locale-specific or duplicate format (en-us runtime loads the four HarmonyOS Sans woff2 files)"
+  }
+ ]
+}

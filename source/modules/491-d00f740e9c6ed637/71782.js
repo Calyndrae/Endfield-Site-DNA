@@ -1,0 +1,3 @@
+// module 71782 from 491-d00f740e9c6ed637.js
+// deps: 73136
+const module_71782 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),!function(e,t){for(var r in t)Object.defineProperty(e,r,{enumerable:!0,get:t[r]})}(t,{default:function(){return o},getProperError:function(){return u}});let n=r(73136);function o(e){return"object"==typeof e&&null!==e&&"name"in e&&"message"in e}function u(e){return o(e)?e:Object.defineProperty(Error((0,n.isPlainObject)(e)?function(e){let t=new WeakSet;return JSON.stringify(e,(e,r)=>{if("object"==typeof r&&null!==r){if(t.has(r))return"[Circular]";t.add(r)}return r})}(e):e+""),"__NEXT_ERROR_CODE",{value:"E394",enumerable:!1,configurable:!0})}};

@@ -1,0 +1,3 @@
+// module 45056 from 491-d00f740e9c6ed637.js
+// deps: 73452, 49510
+const module_45056 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"shouldHardNavigate",{enumerable:!0,get:function(){return function e(t,r){let[u,l]=r,[a,i]=t;return(0,o.matchSegment)(a,u)?!(t.length<=2)&&e((0,n.getNextFlightSegmentPath)(t),l[i]):!!Array.isArray(a)}}});let n=r(73452),o=r(49510);("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

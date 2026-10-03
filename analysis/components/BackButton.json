@@ -1,0 +1,99 @@
+{
+ "component": "BackButton",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "backButton": "BackButton_backButton__5Hmrb"
+ },
+ "ruleCount": 4,
+ "rules": [
+  {
+   "selector": ".BackButton_backButton__5Hmrb",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "min-width": "14.875rem",
+    "width": "max-content",
+    "padding": "0 2rem 0 4.3125rem",
+    "height": "4.1875rem",
+    "border-radius": ".3125rem",
+    "background-color": "#383838",
+    "box-sizing": "border-box",
+    "cursor": "pointer",
+    "transition": "background-color .2s ease",
+    "background-image": "linear-gradient(-45deg,transparent,transparent 16.1610023423%,#424242 0,#424242 33.8389976577%,transparent 0,transparent 66.1610023423%,#424242 0,#424242 83.8389976577%,transparent 0,transparent)",
+    "background-size": ".5rem .5rem",
+    "background-repeat": "repeat",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "font-family": "SansMedium",
+    "font-size": "1.25rem",
+    "color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#626262"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb:active",
+   "media": [],
+   "declarations": {
+    "background-color": "#282828"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "1.1875rem",
+    "width": "2.0625rem",
+    "height": "2.0625rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/arrow.592963ed.png)",
+    "transform": "rotate(90deg)",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#383838",
+   "#424242",
+   "#fff",
+   "#626262",
+   "#282828"
+  ],
+  "fonts": [
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "1.25rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "background-color .2s ease"
+  ]
+ }
+}

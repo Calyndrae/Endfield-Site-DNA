@@ -1,0 +1,418 @@
+{
+ "LandingBottom": {
+  "rules": 20,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 5
+ },
+ "footer": {
+  "rules": 32,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 15
+ },
+ "bg": {
+  "rules": 56,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 35
+ },
+ "__00-landing": {
+  "rules": 52,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 13
+ },
+ "Pagination": {
+  "rules": 28,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 2,
+  "media": 7
+ },
+ "SubpageHeader": {
+  "rules": 27,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 13
+ },
+ "SubpageTab": {
+  "rules": 21,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 1,
+  "media": 9
+ },
+ "HomeButton": {
+  "rules": 25,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 4,
+  "media": 10
+ },
+ "BackButton": {
+  "rules": 4,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 1,
+  "media": 1
+ },
+ "RollingContent": {
+  "rules": 12,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "__01-Home": {
+  "rules": 2,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "SectionTitle": {
+  "rules": 11,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "__03-gameplay": {
+  "rules": 35,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 11
+ },
+ "LandingGameplay": {
+  "rules": 46,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 19
+ },
+ "__03-Lore": {
+  "rules": 134,
+  "files": [
+   "0ff6a898df0edefb.css"
+  ],
+  "hover": 0,
+  "media": 56
+ },
+ "__21-ProtocolDetail": {
+  "rules": 35,
+  "files": [
+   "1a7ed5873254240b.css"
+  ],
+  "hover": 1,
+  "media": 15
+ },
+ "__04-finalpage": {
+  "rules": 40,
+  "files": [
+   "1ef245f541070a31.css"
+  ],
+  "hover": 0,
+  "media": 18
+ },
+ "ScrollViewer": {
+  "rules": 4,
+  "files": [
+   "1ef245f541070a31.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "Toast": {
+  "rules": 3,
+  "files": [
+   "1ef245f541070a31.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "__10-NoticeList": {
+  "rules": 32,
+  "files": [
+   "2174f0c4d179760f.css"
+  ],
+  "hover": 1,
+  "media": 16
+ },
+ "__20-NoticeDetail": {
+  "rules": 64,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 1,
+  "media": 16
+ },
+ "Media": {
+  "rules": 12,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 1,
+  "media": 5
+ },
+ "Button": {
+  "rules": 15,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 4,
+  "media": 6
+ },
+ "ModalFrame": {
+  "rules": 25,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 1,
+  "media": 15
+ },
+ "OrigQuery": {
+  "rules": 52,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 1,
+  "media": 21
+ },
+ "HallowText": {
+  "rules": 1,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "ReserveModal": {
+  "rules": 72,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 3,
+  "media": 41
+ },
+ "UserModal": {
+  "rules": 11,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 4
+ },
+ "TextShrink": {
+  "rules": 2,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "Header": {
+  "rules": 193,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 17,
+  "media": 23
+ },
+ "__00-Loading": {
+  "rules": 30,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 10
+ },
+ "SectionViewer": {
+  "rules": 5,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 2
+ },
+ "players": {
+  "rules": 4,
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "__02-Operator": {
+  "rules": 324,
+  "files": [
+   "5db72e0ba5b54b39.css"
+  ],
+  "hover": 4,
+  "media": 92
+ },
+ "protocol": {
+  "rules": 3,
+  "files": [
+   "637308dda4dd7f2d.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "TransparentVideo": {
+  "rules": 3,
+  "files": [
+   "6b6d9a58b4c43339.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "downloader": {
+  "rules": 60,
+  "files": [
+   "79293df1a997d2da.css"
+  ],
+  "hover": 2,
+  "media": 24
+ },
+ "h5-cn": {
+  "rules": 18,
+  "files": [
+   "79293df1a997d2da.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "h5-oversea": {
+  "rules": 15,
+  "files": [
+   "79293df1a997d2da.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "pc-cn": {
+  "rules": 22,
+  "files": [
+   "79293df1a997d2da.css"
+  ],
+  "hover": 2,
+  "media": 3
+ },
+ "pc-oversea": {
+  "rules": 8,
+  "files": [
+   "79293df1a997d2da.css"
+  ],
+  "hover": 0,
+  "media": 1
+ },
+ "__04-Information": {
+  "rules": 73,
+  "files": [
+   "89618c72836110eb.css"
+  ],
+  "hover": 2,
+  "media": 26
+ },
+ "Dropdown": {
+  "rules": 48,
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ],
+  "hover": 2,
+  "media": 0
+ },
+ "OperatorItem": {
+  "rules": 27,
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ],
+  "hover": 1,
+  "media": 1
+ },
+ "__12-OperatorList": {
+  "rules": 20,
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ],
+  "hover": 0,
+  "media": 7
+ },
+ "GameplayAlbum": {
+  "rules": 46,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 18
+ },
+ "__05-Gameplay": {
+  "rules": 28,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 9
+ },
+ "Carousel": {
+  "rules": 3,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 0
+ },
+ "__06-Notice": {
+  "rules": 52,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 12
+ },
+ "__08-AIC": {
+  "rules": 35,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 18
+ },
+ "__09-Calendar": {
+  "rules": 23,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 11
+ },
+ "sections": {
+  "rules": 6,
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ],
+  "hover": 0,
+  "media": 0
+ }
+}

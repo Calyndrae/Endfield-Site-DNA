@@ -1,0 +1,3 @@
+// module 90478 from [lang]__(main)__layout-493920d1b65733f5.js
+// deps: 
+const module_90478 = (e,a,n)=>{"use strict";n.d(a,{A:()=>i});let i={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/obt-title.3bb96617.png",height:448,width:658,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAMAAABPT11nAAAAWlBMVEXBwXrY2KX//w9dXWfW1ttGRlDY2CbIyEWZmWDX17Da273Hx5NYWGCcnGOhoXfOzs7W1nLW1tbc3N9kZER9fUPDwxbT05q9vR2CgiKuriDIyDhvb3NQUFSamkDo7gyfAAAAHHRSTlMBdyLKbsI8eay8mEXvxYB5fzmS0PvXTCNvxZH+h77OTwAAAAlwSFlzAAALEwAACxMBAJqcGAAAADVJREFUeJxjYGBgY+dmERJkYGBg5GTh5xRjYGLn5BJglxJn4ODl4OOQFJVgYGXmkZEWkRUGACD/AehBgFrWAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:5}};

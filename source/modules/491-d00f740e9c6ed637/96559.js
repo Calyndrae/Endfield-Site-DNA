@@ -1,0 +1,3 @@
+// module 96559 from 491-d00f740e9c6ed637.js
+// deps: 23582, 30107, 91773, 75871, 71782
+const module_96559 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"onRecoverableError",{enumerable:!0,get:function(){return i}});let n=r(23582),o=r(30107),u=r(91773),l=r(75871),a=n._(r(71782)),i=(e,t)=>{let r=(0,a.default)(e)&&"cause"in e?e.cause:e,n=(0,l.getReactStitchedError)(r);(0,o.isBailoutToCSRError)(r)||(0,u.reportGlobalError)(n)};("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

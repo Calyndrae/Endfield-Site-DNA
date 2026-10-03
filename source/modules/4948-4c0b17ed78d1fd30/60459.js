@@ -1,0 +1,3 @@
+// module 60459 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_60459 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ardelia.b46cd31c.png",height:120,width:120,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAflBMVEViQjyIZFqAY2J4VEmtlZWLbGdzTUP45NxkTE+bcX+GcXPBkaL42Mv3zOTr08zJm5v55dmHVGZqTE+tjIdfPTiJYleTal6ug3fZsqdzTkPAqaqcbmnEmYq9jHunf3O9lI798uTBg4XJno/Op5nIi4CpjJvWvbLapK7Xp8T/6NrCns42AAAAIHRSTlP+lqvg/uXt+lwJlGv+8/f92OBD8tH////////////+/tfYWZEAAAAJcEhZcwAACxMAAAsTAQCanBgAAABHSURBVHicBcGFAYAwAAOwomO4zRWH/x8kgdZ+PwQvkHOxndYxMGYuaR1HqUyIUgCJCi0ZPJBmd/ykAurm6cdlrUC6d5orSn/MEgUn8FSD3wAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}};

@@ -1,0 +1,3 @@
+// module 32343 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_32343 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/snowshine.844ed0a4.png",height:120,width:120,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAe1BMVEW2v9JNYoRdYHafqruttcV/3O5vd5LXyMx8h5xWfJdaZoOFjqRJVnPv+P+cr8qOosCst8pyhZ2rpbJTXG9ZhaE6QU3s3duamqjg0tOCj6hOXn5SaI2NmK9ibIvO09uYqMKRqs5bfJifo7RkZnMfJS5JdJolKzQ7Rlb44dxGcrYYAAAADnRSTlP90kfggP7a/fH8p3HyUG9dvmoAAAAJcEhZcwAACxMAAAsTAQCanBgAAABHSURBVHicBcEFAoAgAASwMzFBpMuu/7/QDaVrd0YXoL4ryek6wQfJZ7pNCD7CzAeQJQarT4F8SOTTQmHsHLFGXSj6hjXxfX6l9wS519MKggAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}};

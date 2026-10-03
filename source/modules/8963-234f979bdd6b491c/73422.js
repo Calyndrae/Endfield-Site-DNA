@@ -1,0 +1,3 @@
+// module 73422 from 8963-234f979bdd6b491c.js
+// deps: 2142
+const module_73422 = (e,t,i)=>{"use strict";i.d(t,{A:()=>l});var L,a,n=i(2142);function r(){return(r=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var i=arguments[t];for(var L in i)({}).hasOwnProperty.call(i,L)&&(e[L]=i[L])}return e}).apply(null,arguments)}let l=function(e){return n.createElement("svg",r({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 28.49 36.56",fill:"currentColor"},e),L||(L=n.createElement("rect",{x:8.87,width:10.74,height:20.12,rx:5.37,ry:5.37})),a||(a=n.createElement("path",{d:"M28.49,15.1h-6c0,4.55-3.7,8.24-8.24,8.24s-8.24-3.7-8.24-8.24H0c0,6.78,4.76,12.46,11.12,13.89v1.32h-6.74v6.26h19.73v-6.26h-6.74v-1.32c6.35-1.43,11.12-7.11,11.12-13.89Z"})))}};

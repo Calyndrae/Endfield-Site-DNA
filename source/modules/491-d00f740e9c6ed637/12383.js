@@ -1,0 +1,3 @@
+// module 12383 from 491-d00f740e9c6ed637.js
+// deps: 2855
+const module_12383 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),!function(e,t){for(var r in t)Object.defineProperty(e,r,{enumerable:!0,get:t[r]})}(t,{HTML_LIMITED_BOT_UA_RE:function(){return n.HTML_LIMITED_BOT_UA_RE},HTML_LIMITED_BOT_UA_RE_STRING:function(){return u},getBotType:function(){return i},isBot:function(){return a}});let n=r(2855),o=/Googlebot|Google-PageRenderer|AdsBot-Google|googleweblight|Storebot-Google/i,u=n.HTML_LIMITED_BOT_UA_RE.source;function l(e){return n.HTML_LIMITED_BOT_UA_RE.test(e)}function a(e){return o.test(e)||l(e)}function i(e){return o.test(e)?"dom":l(e)?"html":void 0}};

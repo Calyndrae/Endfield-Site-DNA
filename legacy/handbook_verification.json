@@ -1,0 +1,26 @@
+{
+  "handbook_desktop": {
+    "sections": 29,
+    "images": 30,
+    "overflow": false,
+    "anchor": "text-rhythm",
+    "filter_and_replay": "pass"
+  },
+  "handbook_mobile": {
+    "viewport": "390x844",
+    "menu_anchor": "audio",
+    "anchor_top": 47.953125,
+    "overflow": false
+  },
+  "starter_1440": {
+    "filters": "8 -> 3 -> 1",
+    "detail": "Beacon / close pass",
+    "overflow": false
+  },
+  "starter_390": {
+    "filters": "8 -> 3 -> 1",
+    "detail": "Beacon / close pass",
+    "overflow": false
+  },
+  "javascript_errors": []
+}

@@ -1,0 +1,109 @@
+{
+ "component": "players",
+ "files": [
+  "3bd8ebba7b8795c3.css"
+ ],
+ "classes": {
+  "videoContainer": "players_videoContainer__Ahx_s",
+  "videoInDom": "players_videoInDom__dUdna"
+ },
+ "ruleCount": 4,
+ "rules": [
+  {
+   "selector": ".players_videoContainer__Ahx_s",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%",
+    "background-color": "#000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".players_videoContainer__Ahx_s video",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".players_videoContainer__Ahx_s video .players_videoInDom__dUdna",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "transform": "translate3d(-50%,-50%,0)",
+    "width": "1px",
+    "height": "1px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".players_videoContainer__Ahx_s canvas,.players_videoContainer__Ahx_s img",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  }
+ ],
+ "markup": "<div class=\"players_videoContainer__Ahx_s GameplayAlbum_top__WEabr\" style=\"clip-path: polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%);\"><video preload=\"auto\" loop=\"\" playsinline=\"\" x5-video-player-type=\"h5\" x5-playsinline=\"\"><source src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4\" type=\"video/mp4\"></video></div>",
+ "markupPage": "en-us",
+ "markupClass": "players_videoContainer__Ahx_s",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "players_videoContainer__Ahx_s": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "clip-path": "polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%)",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "module": 45965,
+  "summary": "Headless FontLoader component that renders null. On first render (run-once hook from module 9995) it reads the font map from useI18n().font and, for every [family, source] entry, creates a FontFace(family, source), adds it to document.fonts and awaits load(). If loading fails the FontFace is removed and it retries with only the comma-separated source part containing '.woff2' (falling back to the full source string); any remaining error is logged with console.error.",
+  "exports": {
+    "default": "FontLoader"
+  },
+  "renames": {
+    "t_1": "loadFontFace",
+    "o_2": "useLoadI18nFonts",
+    "s_3": "FontLoader",
+    "e_4": "family",
+    "a_5": "source",
+    "n_6": "woff2Source",
+    "i_7": "fontFace",
+    "o_8": "loadError",
+    "t_9": "fallbackSource",
+    "r_10": "fallbackFontFace",
+    "e_11": "sourcePart",
+    "e_12": "error",
+    "e_13": "fontMap",
+    "e_14": "fontEntry",
+    "a_15": "familyName",
+    "n_16": "fontSource"
+  }
+}

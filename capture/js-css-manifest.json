@@ -1,0 +1,260 @@
+[
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1434-11a107e8f8cacac2.js",
+  "path": "capture/js/1434-11a107e8f8cacac2.js",
+  "bytes": 4298,
+  "sha256": "f181bb18d0a49a1e464a7322f91bacf69aec717616d9ab515c9e8e9ce52522b7"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/1862-f64a25e5790c1ef5.js",
+  "path": "capture/js/1862-f64a25e5790c1ef5.js",
+  "bytes": 26679,
+  "sha256": "74b5a944f3b829b217e1ca03615caad43247a6cea5af5484119d5f1d3b5eb88c"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/18b16e15-9cd90f703163305b.js",
+  "path": "capture/js/18b16e15-9cd90f703163305b.js",
+  "bytes": 305691,
+  "sha256": "bfb291397ee18cb13b83cead6fed2d49596001b74124232330ad6f02453f694a"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/2060-2fd4a05d6893f458.js",
+  "path": "capture/js/2060-2fd4a05d6893f458.js",
+  "bytes": 57898,
+  "sha256": "9ff1cb1c43d7005b882e43427c76fa8c1e7a90298c7f8462ba1e8b30e876d20a"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js",
+  "path": "capture/js/226-d5292700ff68fd13.js",
+  "bytes": 160771,
+  "sha256": "50d4b51860a6033847bde05c983e52f25ea227bd70dea178f0e03c028593699a"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3269-ebe4833ea03bce18.js",
+  "path": "capture/js/3269-ebe4833ea03bce18.js",
+  "bytes": 34207,
+  "sha256": "9f9d3b4a6103c800a7b50b4d79d769d217794dae5816b301ed4a1fcb9c690d30"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3407-efea5949cb1afee6.js",
+  "path": "capture/js/3407-efea5949cb1afee6.js",
+  "bytes": 24301,
+  "sha256": "110ae28932f14ae04292699a9272432bbde0f3d9b077387df5f50065b5d72ee8"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js",
+  "path": "capture/js/3696-03b8256f1fece6bb.js",
+  "bytes": 30467,
+  "sha256": "2ca53cb2d9a723904fffee710f78673fb0250b64d66e930b0a6b1cf223500cf9"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3877-c91cc7d94c938183.js",
+  "path": "capture/js/3877-c91cc7d94c938183.js",
+  "bytes": 17383,
+  "sha256": "033f2faeece0cbdc28170d2404e16663312d8d9fd44ee3f469d4748d5ff1f012"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js",
+  "path": "capture/js/4231-53da7c4de7468a06.js",
+  "bytes": 134368,
+  "sha256": "33d21303f6149ba5a3be3ffab657bf9bb3530435b31f63041ca6bde5224bf7f6"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/44ba29dc-c3eeac94473a606d.js",
+  "path": "capture/js/44ba29dc-c3eeac94473a606d.js",
+  "bytes": 201447,
+  "sha256": "0ecec8e2f924cbf57867bbc23852f8af33546197a87fc7b174d4b704e9670271"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+  "path": "capture/js/491-d00f740e9c6ed637.js",
+  "bytes": 175576,
+  "sha256": "52c89a71f6053fde8880c4d2b6ce16d9fdc6cf989ed9426059926c7ac0aabe1d"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js",
+  "path": "capture/js/4948-4c0b17ed78d1fd30.js",
+  "bytes": 31308,
+  "sha256": "b218e34ca4f7d0013f58e3c776168e900bcb9a40a74ec2ae36c955c73dce9190"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/5578-060085c254278034.js",
+  "path": "capture/js/5578-060085c254278034.js",
+  "bytes": 120117,
+  "sha256": "69618947c6b286fc2f8d9a4105b6b0964232108f051b0272e1c060fdf2fe066f"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/7349-5fc72e5aa1e8149a.js",
+  "path": "capture/js/7349-5fc72e5aa1e8149a.js",
+  "bytes": 192708,
+  "sha256": "8d510919ac13b96521cd509eb0beed1019b93712a095d528d6ba571a05e4ce08"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js",
+  "path": "capture/js/8498-2c5f8c0351c886c2.js",
+  "bytes": 18373,
+  "sha256": "22649403ad2af7064671749dc34ba639917d8e9d1c9dcbcb28ad5df1505d3c89"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8544-0e2dc3d9c44e521e.js",
+  "path": "capture/js/8544-0e2dc3d9c44e521e.js",
+  "bytes": 15160,
+  "sha256": "7897fbee312d6918d32e6c1d284a5cf94faecc9e1b2f00bd49a75baca605994b"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+  "path": "capture/js/86478c97-2730e7cdddbaa41b.js",
+  "bytes": 168419,
+  "sha256": "846864c584c5ff789a317f9e714a9749dce3fa9d87dbc6f403c1ba0cfca7fd6b"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js",
+  "path": "capture/js/8963-234f979bdd6b491c.js",
+  "bytes": 107132,
+  "sha256": "a7007aea1c2cf3bd70adad3691b36ee95017d8334cc7853cd772eaf1a3f4818d"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/89e1c093-3fe0f7dcc646fb37.js",
+  "path": "capture/js/89e1c093-3fe0f7dcc646fb37.js",
+  "bytes": 212843,
+  "sha256": "725e4603a601d592c613629b15c70b75bb8f625d0d9d86699b73933c91b8eff1"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/a8f12803-a59e3d6978d239b3.js",
+  "path": "capture/js/a8f12803-a59e3d6978d239b3.js",
+  "bytes": 321338,
+  "sha256": "bb1e1ba340093c59a6a339ef265c64bc3a0a0c4f640271b4ff003b3723bc5f9e"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/layout-282874dd3834757d.js",
+  "path": "capture/js/[lang]__(main)__(home)__layout-282874dd3834757d.js",
+  "bytes": 7601,
+  "sha256": "21c989be67ca6674d50b4bb98ffc7bb0049b37a4dd2132f7e96f61c1b79e23e9"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(home)/page-108678b3875e4637.js",
+  "path": "capture/js/[lang]__(main)__(home)__page-108678b3875e4637.js",
+  "bytes": 488,
+  "sha256": "55c6ff9a7685797f8c65ab6a1d2747a534cc81464d1ff38468fba85799260b55"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js",
+  "path": "capture/js/[lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js",
+  "bytes": 25621,
+  "sha256": "57927bfa013b11986dcb0efcf5543b67437dd5e0c76465c9ebf1757b8c9bd6ef"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/operator/page-3a80441c18fd566a.js",
+  "path": "capture/js/[lang]__(main)__(subpage)__operator__page-3a80441c18fd566a.js",
+  "bytes": 7650,
+  "sha256": "fd9650e046708a326bce4649f67105ed8e579571700dde866209870a669cbf82"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/layout-493920d1b65733f5.js",
+  "path": "capture/js/[lang]__(main)__layout-493920d1b65733f5.js",
+  "bytes": 1575940,
+  "sha256": "3dd3c09d9db196fc005d9efccd8698c85866701e4c311fe088a220010a07c26d"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/global-error-0b005263e0e74557.js",
+  "path": "capture/js/global-error-0b005263e0e74557.js",
+  "bytes": 480,
+  "sha256": "2fa2b27960e4ecbe97e7a8dbf41547c61e8c1a06eb8ee818ee70f2e597981654"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+  "path": "capture/js/main-app-aa0c052c2919e7bc.js",
+  "bytes": 527,
+  "sha256": "91dac30cfdf788a237219ef94bd8bdb4fe2a5a42cd0111b57e4b58d94c16e1a9"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "path": "capture/js/polyfills-42372ed130431b0a.js",
+  "bytes": 112594,
+  "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js",
+  "path": "capture/js/webpack-d2640f1d35bf907f.js",
+  "bytes": 3778,
+  "sha256": "4d46accf25a2e672c0b67906fdcc59d350addd053e25d78a78ee24c5a92d395e"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+  "path": "capture/css/0ff6a898df0edefb.css",
+  "bytes": 94054,
+  "sha256": "51b3b9401833fd307df0b58fddb87deaab4c7e33fbb46c8722c88fe72ef843e7"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+  "path": "capture/css/1ef245f541070a31.css",
+  "bytes": 8222,
+  "sha256": "1dd80b352375022a34bb5f8955148dd70aaa2aeab54b0c54ce552d7d75aae2e4"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css",
+  "path": "capture/css/2174f0c4d179760f.css",
+  "bytes": 5911,
+  "sha256": "3d3635a7faaabba672da6bddd7cc6479d2ad4711d0f289079d2505d1289794d2"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+  "path": "capture/css/3bd8ebba7b8795c3.css",
+  "bytes": 100088,
+  "sha256": "00a43eb07493c2336d23d6bfa59fb57aa19989c8cb5c72eae21cd502692628de"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+  "path": "capture/css/5db72e0ba5b54b39.css",
+  "bytes": 86430,
+  "sha256": "f14e2a0e9ce0777245f9c7595e294c9464ba27f6c180520db89c89018b243bb0"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+  "path": "capture/css/637308dda4dd7f2d.css",
+  "bytes": 7938,
+  "sha256": "fa3f43a7512082ba2a2158b65af26d85a44ff4a9672c1d59a4e7992607410a1d"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+  "path": "capture/css/6b6d9a58b4c43339.css",
+  "bytes": 340,
+  "sha256": "e447933cc59c30aab1a56bd9b46fdf8931993f1898574ba2a7fc8c2f5079b68f"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+  "path": "capture/css/79293df1a997d2da.css",
+  "bytes": 16839,
+  "sha256": "68a907a5146186f0cb7400e09b3c7500f68e5e7343a5a0bc26ee804b7cef683c"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+  "path": "capture/css/89618c72836110eb.css",
+  "bytes": 21722,
+  "sha256": "9a2959af26b809fa317f95675b6cc5fb21af4b503773df8d6f2457452be99bac"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css",
+  "path": "capture/css/cca0e7eae4809d1e.css",
+  "bytes": 19369,
+  "sha256": "98f3f85baa514f25bebd0dd451c414fb68f678c46773cac1d7dbe2154328217a"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+  "path": "capture/css/dd1a1cedef0d47ea.css",
+  "bytes": 34886,
+  "sha256": "041d4ce4cc4e01cbee550fdfb9ec3f09e2c385cb961b30ae486ca6a36d4a0579"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/%5Blang%5D/(main)/(subpage)/news/%5Bcid%5D/page-8dbf59fd3d1ac5ac.js",
+  "path": "capture/js/[lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac.js",
+  "bytes": 5153,
+  "sha256": "d9e8c0e4a83e5e8091ca91804d1394596699e23b1a8bcd1fc5c98d3908db5a6f"
+ },
+ {
+  "url": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css",
+  "path": "capture/css/1a7ed5873254240b.css",
+  "bytes": 8540,
+  "sha256": "b6e04031cc32f13142d7a57d95fa7e6703777e9496b8803a0849938ce18050ae"
+ }
+]

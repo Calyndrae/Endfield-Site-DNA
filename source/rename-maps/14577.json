@@ -1,0 +1,19 @@
+{
+  "module": 14577,
+  "summary": "RootFontSizeScaler (export Z) sets the <html> font-size so rem units map to a design canvas: base 16px scaled by height/1920 or width/1080 in portrait (threshold aspect 0.5625) and by height/1440 or width/2560 in landscape (threshold 2560/1440), picking the axis that keeps the canvas fully visible. It caches the last viewport size and skips when unchanged, or when only one dimension changed on a mobile UA (DeviceUtils.Fr) to ignore address-bar resizes. On HarmonyOS/OpenHarmony/bdhonorbrowser/HeyTap/Huawei user agents it rewrites the viewport meta to width=outerWidth*dpr with initial/maximum-scale of 1/dpr, user-scalable=0 and viewport-fit=cover.",
+  "exports": {
+    "Z": "applyRootFontSize"
+  },
+  "renames": {
+    "a_1": "lastWidth",
+    "n_2": "lastHeight",
+    "r_3": "applyRootFontSize",
+    "e_4": "baseFontSize",
+    "t_5": "viewportWidth",
+    "i_6": "viewportHeight",
+    "r_7": "scaledFontSize",
+    "l_8": "htmlElement",
+    "e_9": "viewportMeta",
+    "t_10": "devicePixelRatio"
+  }
+}

@@ -1,0 +1,3 @@
+// module 64916 from 491-d00f740e9c6ed637.js
+// deps: 59657
+const module_64916 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"notFound",{enumerable:!0,get:function(){return o}});let n=""+r(59657).HTTP_ERROR_FALLBACK_ERROR_CODE+";404";function o(){let e=Object.defineProperty(Error(n),"__NEXT_ERROR_CODE",{value:"E394",enumerable:!1,configurable:!0});throw e.digest=n,e}("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

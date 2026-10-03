@@ -1,0 +1,23 @@
+{
+  "module": 96664,
+  "summary": "Despite the 'EasingFunctions' label, this module is a RollingText marquee component (export A): after a 0ms timeout it measures the inner content against its container and, when the content is wider, adds the `rolling` class and plays a looping anime.js timeline: 1000ms hold, linear scroll by the overflow width at 1000ms per 40px (duration 1000*ceil(overflow/40)), 1000ms hold, 300ms easeInCubic fade out, a 10ms reset of translateX to 0, then a 300ms easeOutCubic fade in. It is used in OperatorSection for the operator camp value, which may overflow in some locales. Named easings used here are linear, easeInCubic and easeOutCubic.",
+  "exports": {
+    "A": "RollingText"
+  },
+  "renames": {
+    "C_1": "createRollingTimeline",
+    "e_3": "rollingTarget",
+    "t_4": "overflowWidth",
+    "i_5": "rollingTimeline",
+    "d_2": "RollingText",
+    "e_6": "props",
+    "t_7": "className",
+    "i_8": "style",
+    "n_9": "children",
+    "r_10": "containerRef",
+    "o_11": "contentRef",
+    "e_12": "measureTimer",
+    "e_13": "containerWidth",
+    "t_14": "contentWidth"
+  }
+}

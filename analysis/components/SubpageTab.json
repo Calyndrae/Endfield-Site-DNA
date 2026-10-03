@@ -1,0 +1,513 @@
+{
+ "component": "SubpageTab",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "scroll": "SubpageTab_scroll___XPu9",
+  "subpageTab": "SubpageTab_subpageTab__A3JdU",
+  "divider": "SubpageTab_divider__Mj7nZ",
+  "tab": "SubpageTab_tab__qSWqv",
+  "active": "SubpageTab_active__fHDLL",
+  "text": "SubpageTab_text__x2QY7",
+  "arrow": "SubpageTab_arrow__vyyID",
+  "arrowIcon": "SubpageTab_arrowIcon__9MnL3"
+ },
+ "ruleCount": 21,
+ "rules": [
+  {
+   "selector": ".SubpageTab_scroll___XPu9",
+   "media": [],
+   "declarations": {
+    "height": "3.75rem",
+    "overflow": "hidden",
+    "width": "114.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_scroll___XPu9",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "54.375rem",
+    "height": "4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "3.75rem",
+    "display": "flex",
+    "align-items": "center",
+    "width": "max-content"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": ".1875rem",
+    "height": "2.5rem",
+    "background-color": "#d9d9d9",
+    "margin": "0 .625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ:first-child,.SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ:last-child",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ:first-child",
+   "media": [],
+   "declarations": {
+    "margin-left": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ:last-child",
+   "media": [],
+   "declarations": {
+    "margin-right": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_divider__Mj7nZ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin": "0 .5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "padding": "0 3rem",
+    "height": "100%",
+    "display": "flex",
+    "align-items": "center",
+    "border-radius": "4px",
+    "transition": "background-color .2s ease",
+    "cursor": "pointer"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding": "0 2.25rem",
+    "box-sizing": "border-box"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#f3f3f3"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv.SubpageTab_active__fHDLL",
+   "media": [],
+   "declarations": {
+    "background-color": "#e5e5e5"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv.SubpageTab_active__fHDLL .SubpageTab_text__x2QY7",
+   "media": [],
+   "declarations": {
+    "transform": "translate3d(-1.75rem,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv.SubpageTab_active__fHDLL .SubpageTab_text__x2QY7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "transform": "translate3d(-1.5rem,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv.SubpageTab_active__fHDLL .SubpageTab_arrow__vyyID",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "font-size": "1.75rem",
+    "font-family": "SansMedium",
+    "line-height": "1",
+    "color": "#191919",
+    "white-space": "nowrap",
+    "transition": "transform .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "max-content",
+    "font-size": "2rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_arrow__vyyID",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": ".625rem",
+    "width": "2.3125rem",
+    "height": "2.3125rem",
+    "border-radius": "50%",
+    "opacity": "0",
+    "background-color": "#fafafa",
+    "transition": "opacity .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_arrow__vyyID",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": ".625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_arrow__vyyID .SubpageTab_arrowIcon__9MnL3",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "50%",
+    "left": "50%",
+    "height": "1.3125rem",
+    "width": "auto",
+    "transform": "translate3d(-50%,-50%,0)",
+    "color": "#999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": "<div class=\"scroll___FG4DS SubpageTab_scroll___XPu9 __10-NoticeList_tabs__fUKSq\" data-direction=\"x\"><div class=\"content___fxCya\"><div class=\"contentWrapper___UanRy\" style=\"height: 100%; mask: none;\"><div class=\"inner___c_1NH\" style=\"height: 100%;\"><div class=\"SubpageTab_subpageTab__A3JdU\"><div class=\"SubpageTab_divider__Mj7nZ\"></div><div class=\"SubpageTab_tab__qSWqv SubpageTab_active__fHDLL\"><div class=\"SubpageTab_text__x2QY7\">Latest</div><div class=\"SubpageTab_arrow__vyyID\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 13 21\" class=\"SubpageTab_arrowIcon__9MnL3\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M12.424,10.557 L3.108,20.169 L0.713,17.697 L7.984,10.195 L0.713,2.693 L3.108,0.221 L12.424,9.833 L12.073,10.195 L12.424,10.557 Z\"></path></svg></div></div><div class=\"SubpageTab_divider__Mj7nZ\"></div><div class=\"SubpageTab_tab__qSWqv\"><div class=\"SubpageTab_text__x2QY7\">Notices</div><div class=\"SubpageTab_arrow__vyyID\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 13 21\" class=\"SubpageTab_arrowIcon__9MnL3\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M12.424,10.557 L3.108,20.169 L0.713,17.697 L7.984,10.195 L0.713,2.693 L3.108,0.221 L12.424,9.833 L12.073,10.195 L12.424,10.557 Z\"></path></svg></div></div><div class=\"SubpageTab_divider__Mj7nZ\"></div><div class=\"SubpageTab_tab__qSWqv\"><div class=\"SubpageTab_text__x2QY7\">Events</div><div class=\"SubpageTab_arrow__vyyID\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 13 21\" class=\"SubpageTab_arrowIcon__9MnL3\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M12.424,10.557 L3.108,20.169 L0.713,17.697 L7.984,10.195 L0.713,2.693 L3.108,0.221 L12.424,9.833 L12.073,10.195 L12.424,10.557 Z\"></path></svg></div></div><div class=\"SubpageTab_divider__Mj7nZ\"></div><div class=\"SubpageTab_tab__qSWqv\"><div class=\"SubpageTab_text__x2QY7\">News</div><div class=\"SubpageTab_arrow__vyyID\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 13 21\" class=\"SubpageTab_arrowIcon__9MnL3\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M12.424,10.557 L3.108,20.169 L0.713,17.697 L7.984,10.195 L0.713,2.693 L3.108,0.221 L12.424,9.833 L12.073,10.195 L12.424,10.557 Z\"></path></svg></div></div><div class=\"SubpageTab_divider__Mj7nZ\"></div></div></div></div></div></div>",
+ "markupPage": "en-us_news",
+ "markupClass": "SubpageTab_scroll___XPu9",
+ "appearsOn": [
+  "en-us_news"
+ ],
+ "computed": {
+  "SubpageTab_active__fHDLL": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 251.4375,
+    "y": 352.125,
+    "width": 103,
+    "height": 33.75,
+    "top": 352.125,
+    "right": 354.4375,
+    "bottom": 385.875,
+    "left": 251.4375
+   },
+   "text": "Latest",
+   "position": "relative",
+   "display": "flex",
+   "width": "49px",
+   "height": "33.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(229, 229, 229)",
+   "opacity": "1",
+   "transition": "background-color 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "4px",
+   "padding": "0px 27px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_arrow__vyyID": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 328,
+    "y": 358.59375,
+    "width": 20.8125,
+    "height": 20.8125,
+    "top": 358.59375,
+    "right": 348.8125,
+    "bottom": 379.40625,
+    "left": 328
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "20.8125px",
+   "height": "20.8125px",
+   "top": "6.46875px",
+   "left": "76.5625px",
+   "right": "5.625px",
+   "bottom": "6.46875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(250, 250, 250)",
+   "opacity": "1",
+   "transition": "opacity 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "50%",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_divider__Mj7nZ": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "width": "1.6875px",
+   "height": "22.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(217, 217, 217)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 5.625px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_scroll___XPu9": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 251.4375,
+    "y": 352.125,
+    "width": 1029.375,
+    "height": 33.75,
+    "top": 352.125,
+    "right": 1280.8125,
+    "bottom": 385.875,
+    "left": 251.4375
+   },
+   "text": "LatestNoticesEventsNews",
+   "position": "relative",
+   "display": "block",
+   "width": "1029.38px",
+   "height": "33.75px",
+   "left": "183.938px",
+   "right": "-183.938px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "67.5px 0px 0px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_subpageTab__A3JdU": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 251.4375,
+    "y": 352.125,
+    "width": 450.8125,
+    "height": 33.75,
+    "top": 352.125,
+    "right": 702.25,
+    "bottom": 385.875,
+    "left": 251.4375
+   },
+   "text": "LatestNoticesEventsNews",
+   "position": "relative",
+   "display": "flex",
+   "width": "450.812px",
+   "height": "33.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_tab__qSWqv": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 251.4375,
+    "y": 352.125,
+    "width": 103,
+    "height": 33.75,
+    "top": 352.125,
+    "right": 354.4375,
+    "bottom": 385.875,
+    "left": 251.4375
+   },
+   "text": "Latest",
+   "position": "relative",
+   "display": "flex",
+   "width": "49px",
+   "height": "33.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(229, 229, 229)",
+   "opacity": "1",
+   "transition": "background-color 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "4px",
+   "padding": "0px 27px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "SubpageTab_text__x2QY7": {
+   "page": "en-us_news",
+   "tag": "DIV",
+   "rect": {
+    "x": 262.6875,
+    "y": 361.125,
+    "width": 49,
+    "height": 15.75,
+    "top": 361.125,
+    "right": 311.6875,
+    "bottom": 376.875,
+    "left": 262.6875
+   },
+   "text": "Latest",
+   "position": "relative",
+   "display": "block",
+   "width": "49px",
+   "height": "15.75px",
+   "font-family": "SansMedium",
+   "font-size": "15.75px",
+   "font-weight": "400",
+   "line-height": "15.75px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, -15.75, 0)",
+   "transition": "transform 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [
+  {
+   "page": "en-us_news",
+   "cls": "SubpageTab_subpageTab__A3JdU",
+   "diff": {
+    "SubpageTab_tab__qSWqv#1#3": {
+     "background-color": {
+      "before": "rgba(0, 0, 0, 0)",
+      "after": "rgb(243, 243, 243)"
+     }
+    }
+   },
+   "transition": "all"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#d9d9d9",
+   "#f3f3f3",
+   "#e5e5e5",
+   "#191919",
+   "#fafafa",
+   "#999"
+  ],
+  "fonts": [
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "1.75rem",
+   "2rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "background-color .2s ease",
+   "transform .2s ease",
+   "opacity .2s ease"
+  ]
+ }
+}

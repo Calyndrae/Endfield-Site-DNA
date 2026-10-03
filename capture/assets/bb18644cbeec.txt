@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" />
+        <title>Game Terms of Service</title>
+        <style>
+            *,
+            *:before,
+            *:after {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            html {
+                -webkit-text-size-adjust: 100%;
+                -moz-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                text-size-adjust: 100%;
+                font-size: 16px;
+                width: 100vw;
+                overflow-x: hidden;
+                overflow-y: auto;
+            }
+
+            body {
+                padding: 2em;
+                margin: 0;
+                line-height: 1.8;
+                word-break: normal;
+                /* font-size: 1rem; */
+            }
+
+            @media screen and (max-width: 2559px) {
+                html {
+                    font-size: 16px;
+                }
+            }
+
+            @media screen and (max-width: 430px) {
+                html {
+                    font-size: 15px;
+                }
+
+                body {
+                    line-height: 1.6;
+                    padding: 1.5em;
+                }
+            }
+
+            @media screen and (min-width: 2560px) and (max-width: 3839px) {
+                html {
+                    font-size: 16px;
+                }
+            }
+
+            @media screen and (min-width: 2560px) and (max-width: 3839px) and (max-aspect-ratio: 2) {
+                html {
+                    font-size: 21.6px;
+                }
+            }
+
+            @media screen and (min-width: 2560px) and (max-width: 3839px) and (min-aspect-ratio: 2.36999) and (min-height: 1081px) {
+                html {
+                    font-size: 21.6px;
+                }
+            }
+
+            @media screen and (min-width: 3840px) {
+                html {
+                    font-size: 21.6px;
+                }
+            }
+
+            @media screen and (min-width: 3840px) and (max-aspect-ratio: 2) {
+                html {
+                    font-size: 29.16px;
+                }
+            }
+
+            @media screen and (min-width: 3840px) and (min-aspect-ratio: 2.36996) and (min-height: 1440px) {
+                html {
+                    font-size: 29.16px;
+                }
+            }
+        </style>
+        <style>
+            html {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            }
+        </style>
+        <style>
+            .lang-switcher {
+                position: fixed;
+                bottom: 16px;
+                right: 16px;
+                z-index: 1000;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            }
+
+            .lang-switcher-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px;
+                background: #282828;
+                border: 1px solid #5b5b5b;
+                border-radius: 100px;
+                cursor: pointer;
+                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+            }
+
+            .lang-switcher-btn:hover {
+                background: #050505;
+            }
+
+            .lang-switcher-icon {
+                width: 32px;
+                height: 32px;
+                fill: #fff;
+            }
+
+            .lang-dropdown {
+                display: none;
+                position: absolute;
+                bottom: calc(100% + 4px);
+                right: 0;
+                background: #282828;
+                border: 1px solid #5b5b5b;
+                border-radius: 12px;
+                padding: 4px;
+                box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+                max-height: min(400px, calc(100vh - 84px));
+                overflow-y: auto;
+            }
+
+            .lang-switcher.open .lang-dropdown {
+                display: block;
+            }
+
+            .lang-dropdown::-webkit-scrollbar {
+                width: 3px;
+            }
+
+            .lang-dropdown::-webkit-scrollbar-track {
+                background: transparent;
+            }
+
+            .lang-dropdown::-webkit-scrollbar-thumb {
+                background: rgba(212, 216, 221, 0.5);
+                border-radius: 100px;
+            }
+
+            .lang-option {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                padding: 10px;
+                border-radius: 4px;
+                cursor: pointer;
+                color: #d4d8dd;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1.57em;
+                white-space: nowrap;
+                text-decoration: none;
+            }
+
+            .lang-option:hover {
+                background: #161616;
+            }
+
+            .lang-option.active {
+                color: #cbff40;
+            }
+
+            .lang-option-check {
+                width: 10px;
+                height: 10px;
+                fill: #cbff40;
+                opacity: 0;
+            }
+
+            .lang-option.active .lang-option-check {
+                opacity: 1;
+            }
+        </style>
+        <style>
+            html {
+                background-color: #282828;
+                color: #d4d8dd;
+            }
+
+            body {
+                background-color: #282828;
+                color: #d4d8dd;
+            }
+
+            article a[href],
+            article a[href].item:hover,
+            article a[href].item:visited,
+            article a[href].item:active {
+                color: #cbff40;
+                word-break: break-all;
+            }
+
+            #title {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 id="title">Game Terms of Service</h1>
+        <article id="article">
+            <h3 style="text-align: center">Last Updated: September 2, 2026</h3>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Thank you for enjoying our game(s). The following are our Game Terms of Service (“<b>Terms</b>”). We’ve tried to be straightforward in these Terms. If you have any questions, feel free to contact us at support@gryphline.com (our “<b>Support Email Address</b>”).</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>TABLE OF CONTENTS</b></p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">1.&nbsp;&nbsp;&nbsp; Introduction</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">2.&nbsp;&nbsp;&nbsp; Age and Account</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">3.&nbsp;&nbsp;&nbsp; License</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">4.&nbsp;&nbsp;&nbsp; License Restrictions</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">5.&nbsp;&nbsp;&nbsp; Intellectual Property Rights</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">6.&nbsp;&nbsp;&nbsp; Virtual Goods and Game Currency</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">7.&nbsp;&nbsp;&nbsp; Refunds</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">8.&nbsp;&nbsp;&nbsp; Beta Version</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">9.&nbsp;&nbsp;&nbsp; Feedback</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">10.&nbsp;&nbsp;&nbsp; Marketing</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">11.&nbsp;&nbsp;&nbsp; Third Party Services</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">12.&nbsp;&nbsp;&nbsp; Modifications to the Services and These Terms</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">13.&nbsp;&nbsp;&nbsp; Warranty Disclaimers</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">14.&nbsp;&nbsp;&nbsp; Limitation of Liability</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">15.&nbsp;&nbsp;&nbsp; Indemnity</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">16.&nbsp;&nbsp;&nbsp; Termination</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">17.&nbsp;&nbsp;&nbsp; Governing Law</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">18.&nbsp;&nbsp;&nbsp; Dispute Resolutions</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">19.&nbsp;&nbsp;&nbsp; Miscellaneous</p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 35.45pt; text-indent: -35.45pt; line-height: 115%">20.&nbsp;&nbsp;&nbsp; Contact Information</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; line-height: 115%">SCHEDULE A: COUNTRY SPECIFIC TERMS</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; text-indent: 21.3pt; line-height: 115%">Schedule A-1: Addendum for Residents in the United States of America</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; text-indent: 21.3pt; line-height: 115%">Schedule A-2: Addendum for European Economic Area (EEA) and United Kingdom</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; text-indent: 21.3pt; line-height: 115%">Schedule A-3: Addendum for Residents in the Republic of Korea</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; text-indent: 21.3pt; line-height: 115%">Schedule A-4: Addendum for Residents in Japan</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; line-height: 115%">SCHEDULE B: DISTRIBUTION PLATFORM SPECIFIC TERMS</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; text-indent: 21.3pt; line-height: 115%">Schedule B-1: Accessing Services from Apple App Store</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 21.3pt; line-height: 115%">Schedule B-2: PlayStation Supplemental Terms</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%">
+                <b><span style="line-height: 115%">1.&nbsp;&nbsp;&nbsp; Introduction</span></b>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; line-height: 107%; font-weight: normal">
+                <strong><span style="line-height: 107%">IMPORTANT NOTICE: THESE TERMS CONTAIN PROVISIONS THAT MAY RESTRICT OR EXCLUDE LIABILITY AND MAY OTHERWISE AFFECT YOUR MATERIAL RIGHTS. PLEASE READ THESE TERMS CAREFULLY AND ENSURE THAT YOU FULLY UNDERSTAND THEM BEFORE USING THE SERVICES.</span></strong>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; line-height: 107%; font-weight: normal">
+                <strong><span style="line-height: 107%">THESE TERMS REQUIRE THAT ALL DISPUTES, CONTROVERSIES, AND CLAIMS BETWEEN YOU AND US BE SUBMITTED TO BINDING AND FINAL ARBITRATION, AND BE RESOLVED SOLELY ON AN INDIVIDUAL BASIS, NOT AS A CLASS ARBITRATION, CLASS ACTION, OR OTHER REPRESENTATIVE PROCEEDING. PLEASE SEE SECTION 18 (DISPUTE RESOLUTIONS) FOR DETAILS. </span></strong>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; line-height: 107%; font-weight: normal">
+                <b><span style="line-height: 107%">IF YOU DO NOT AGREE TO THESE TERMS, YOU MAY NOT ACCESS OR USE THE SERVICES EXCEPT AS OTHERWISE SPECIFIED HEREIN. </span></b>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; line-height: 107%; font-weight: normal">
+                If you reside in the United States, the European Economic Area, the United Kingdom, the Republic of Korea, or Japan, certain additional or different terms apply to you. These additional terms can be found in Schedule A: Country Specific Terms.<b><span style="line-height: 107%"> </span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you reside in the Taiwan Region, the following terms will not apply. Please refer to and confirm the applicable <a href="/zh-tw/protocol/plain/endfield/game/terms_of_service">Game Terms of Service</a> directly.</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(a)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">About This Document</span></u
+                ><span style="line-height: 115%">. These Terms constitute a legal agreement between you and </span>Gryph Frontier Pte. Ltd.<span style="line-height: 115%">, together with its affiliates (collectively referred to as </span><b>“Gryph Frontier</b><span style="line-height: 115%">” or “</span><b>we</b><span style="line-height: 115%">”, “</span><b>us</b><span style="line-height: 115%">”, or “</span><b>our</b><span style="line-height: 115%">”), governing your use of the Services. We may also publish, amend, supplement, or update our code of conduct and in-game policies, which are incorporated by reference into these Terms.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(b)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Key Definitions</span></u
+                ><span style="line-height: 115%">. As used in these Terms, the following terms shall have the meanings set forth below:</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">&nbsp;“</span><b>Services</b><span style="line-height: 115%">” means (i) our Game(s); and (ii) any related websites, software, or other services that we provide in connection with, or in support of, the Game(s).</span><u><span style="line-height: 115%"> </span></u>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 36pt; line-height: 115%"><span style="line-height: 115%">&nbsp;“</span><b>Game</b><span style="line-height: 115%">” means any game developed, published, or otherwise made available by us that you download or access through our official channels or other authorized platforms, including any related documentation, software, updates, patches, add-ons, or Content (as defined below).</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 36pt; line-height: 115%"><span style="line-height: 115%">&nbsp;“</span><b>Content</b><span style="line-height: 115%">” means all artwork, titles, themes, objects, characters, names, dialogue, catchphrases, stories, animations, concepts, sounds, audiovisual effects, methods of operation, musical compositions, Virtual Goods, or any other content provided by us and our licensors through the Services.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(c)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Distribution Platform</span></u
+                ><span style="line-height: 115%">. You may access the Services through third-party platform(s) such as the Apple App Store, Google Play Store, Epic Games Store, or other third-party platforms (each, a “</span><b>Distribution Platform</b><span style="line-height: 115%">”). The availability of the Services will depend on the features and functionalities supported by the respective Distribution Platforms. Your use of the Services is also governed by any applicable agreements you have with those Distribution Platforms.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(d)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Privacy Policy</span></u
+                ><span style="line-height: 115%"
+                    >. The collection and use of personal data through the Services (whether accessed through a Distribution Platform or not) are governed by our <a href="/en-us/protocol/plain/endfield/game/privacy_policy">Game <span style="line-height: 115%">Privacy Policy</span></a></span
+                ><span style="line-height: 115%">, which explains how we collect, use, and share your information.</span>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%">
+                <b><span style="line-height: 115%">2.&nbsp;&nbsp;&nbsp; Age and Account</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(a)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Age</span></u
+                ><span style="line-height: 115%">. You must be at least the minimum age to consent to the collection of personal data in your jurisdiction in order to access certain Services or features of the Services. Also, if you are under the age of majority in your country of residence, you and your parent or legal guardian must review these Terms together, and you must obtain their consent before creating an account or using the Services. Please note that if you are under the minimum age for personal data collection, your parent or legal guardian may need to verify your usage of the Services and provide consent on your behalf. Parents and legal guardians are responsible for their children’s actions. &nbsp;</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(b)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Game Account Creation</span></u
+                ><span style="line-height: 115%">. To access the Services, you will need to create an account (“<b>Game Account</b>” or “<b>Account</b>”). You may create a Game Account by logging into the Game using your Gryphline Account. Gryphline Account may be registered via your email address or a third-party account</span> (for<span style="line-height: 115%"> example, your account with Meta, Google, Apple, or Epic Games, which may be updated from time to time</span>;<span style="line-height: 115%"> each, a <b>“Third-Party Account</b>”). Your Game Account is separate from your Third-Party Account. Please note that we have no control over these Third-Party Accounts and are not responsible for their performance </span>or any failure to perform in any respect<span style="line-height: 115%">. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(c)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Account Security and Responsibilities</span></u
+                ><span style="line-height: 115%">. You must keep your Account information accurate and up to date. Failure to do so may result in the suspension or termination of your Account. You are responsible for all activities that occur under your Account. If you believe that your Account is no longer secure or has been accessed without authorization, you must immediately notify us through our Support Email Address. You may not: (i) sell, resell, rent, lease, share, or provide access to your Account to any other person; (ii) create an Account on behalf of another person or impersonate any individual; or (iii) create or use an Account, or access the Services on behalf of a legal entity or for any commercial purpose.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(d)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Account Termination</span></u
+                ><span style="line-height: 115%">. You may terminate your Account by using the account cancellation feature </span>in the Services.
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%">
+                <b><span style="line-height: 115%">3.&nbsp;&nbsp;&nbsp; License</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (a)&nbsp;&nbsp;&nbsp; <u><span style="line-height: 115%">License Grant</span></u
+                ><span style="line-height: 115%">. Subject to your compliance with these Terms and applicable laws, we grant you a personal, revocable, non-exclusive, non-transferable, non-sublicensable, and limited license to download, install, access, and use the Game and the Services for&nbsp;your personal entertainment purposes. We and our licensors reserve all rights not granted to you under these Terms. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (b)&nbsp;&nbsp;&nbsp; <u><span style="line-height: 115%">Cheat Detection Software</span></u
+                ><span style="line-height: 115%">. </span>We may use built-in mechanisms (such mechanisms and software, the “<b>Cheat Detection Software</b>”) designed to prevent any user from gaining an unfair advantage over other users (such actions, “<b>Cheating</b>”). We may add to or update our Cheat Detection Software periodically, as we deem necessary. The Services or Cheat Detection Software may collect and transmit details about your Account, gameplay, and unauthorized programs or processes associated with Cheating, subject to our Privacy Policy and applicable laws.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(c)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">User Content.</span></u
+                ><span style="line-height: 115%"> </span>
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 63.25pt; text-indent: 36pt; line-height: 115%">(i)&nbsp;&nbsp;&nbsp; “<b>User Content</b>” means any content that you or other users make available within the Services, including but not limited t<span style="line-height: 115%">o text, information, data, sound, photographs, graphics, video, tags, nicknames, usernames, or other materials that appear on or are linked to the Services, and that are created by you or other users independently, without reliance on or generation by the Services. </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 63.25pt; text-indent: 36pt; line-height: 115%">
+                (ii)&nbsp;&nbsp;&nbsp; <span style="line-height: 115%">When you upload or provide your User Content to the Services, you grant us (and our licensees, successors, assignees, and those acting with our authority) an unrestricted, royalty-free, perpetual, worldwide, sublicensable, irrevocable right and license to reproduce, copy, modify, publish, edit, translate, create derivative works from, in whole or in part, publicly display, publicly perform, or otherwise use your User Content, or any part thereof</span>, <span style="line-height: 115%">for</span> operating and providing the Services to you and other users<span style="line-height: 115%">. You also waive any claims and assertions of moral rights or attribution with respect to your User Content, to the extent permitted by applicable laws. The licenses granted under this section will survive the </span>termination of these Terms.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 63.25pt; text-indent: 36pt; line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; <span style="line-height: 115%">You are not entitled to any compensation, fees, charges, or other remuneration in connection with your User Content, including any rights granted to us under this section. We may, but are not obligated to, exercise any of the rights granted to us.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 63.25pt; text-indent: 36pt; line-height: 115%">(iv)&nbsp;&nbsp;&nbsp; <span style="line-height: 115%">You acknowledge that, subject to the functionalities provided in the Services, your User Content, chats, posts, and communications with other users or with us may be public and visible to others.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 63.25pt; text-indent: 36pt; line-height: 115%">(v)&nbsp;&nbsp;&nbsp; <span style="line-height: 115%">User Content does not necessarily reflect our views or opinions. We reserve the right, at our reasonable discretion, to remove, screen, modify, or restore any User Content, including content you have created, without notice to you, to the extent permitted by applicable laws. We may remove User Content if we reasonably determine that it is inappropriate, creates a conflict of interest, is promotional, irrelevant, violates another user's privacy or intellectual property rights, or otherwise violates these Terms or our other policies. We do not review any User Content and do not approve or endorse any User Content that may be available on the Services.</span></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>4.&nbsp;&nbsp;&nbsp; License Restrictions</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">To the extent permitted by applicable laws, we may terminate or suspend your Account or your right to access the specific Service associated with your Account, or take any other action to protect and preserve our rights, at our reasonable discretion, if you fall within any of the following license restrictions or other terms:</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(a)&nbsp;&nbsp;&nbsp; </span><b><span style="line-height: 115%">Fair Play and Game Operation, including:</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; using the Services and Games for commercial purposes; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; <span style="line-height: 115%">logging into one Game Account on more than one device at a time; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; using or providing any tools or programs not expressly authorized or provided through the Services, including but not limited to: (A) unauthorized matchmaking, “leveling” services, cheats, hacks, or other automated controls; (B) any third-party software that simulates user actions, modifies data, or alters the operating environment; (C) unauthorized collection of data from the Services; (D) mirroring, copying, or replication of the Services, in whole or in part; or (E) any other activity that disrupts the proper functioning of the Services or the player experience;</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iv)&nbsp;&nbsp;&nbsp; playing on another person’s Account to “boost” that person’s status, level, or rank associated with any Game; or</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(v)&nbsp;&nbsp;&nbsp; using the Services in any manner that could adversely affect us, reflect negatively on the Services, or discourage any person from using all or any part of the features of the Services.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(b)&nbsp;&nbsp;&nbsp; </span><b><span style="line-height: 115%">Intellectual Property and Technology Protection, including:</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; selling, renting, leasing, licensing, distributing, or otherwise transferring the Services, the Game, or any Content (including, without limitation, Virtual Goods or Game Currency);</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; decompiling, disassembling, reverse engineering, adapting, modifying, translating, or creating derivative works based on the Services or any Content, unless expressly authorized by us; or</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; removing, disabling, circumventing, or modifying any of our copyright or trademark notices, or interfering with any technological measures implemented to protect the Games, the Services, or any related intellectual property.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(c)&nbsp;&nbsp;&nbsp; </span><b><span style="line-height: 115%">Security and Network Integrity, including:</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; attempting to probe, scan, or test the Services’ network vulnerability, or to breach any security or authentication measures;</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; interfering with, or attempting to interfere with, the access of any user, host, or network, including, without limitation, by sending a virus, overloading, flooding, spamming, or mail-bombing the Services or any of its users; or</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; using IP proxying or other methods to disguise the place of your residence, whether to circumvent geographical restrictions on the Services or for any other purpose.</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (d)&nbsp;&nbsp;&nbsp; <b>User Conduct and User <span style="line-height: 115%">Content, including:</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 72pt; line-height: 115%"><span style="line-height: 115%">Uploading, publishing, submitting, or transmitting any User Content or engaging in any behavior that:</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; infringes upon, misappropriates, or violates a third party’s patent, copyright, trademark, trade secrets, contractual rights, moral rights, or other intellectual property rights, or rights of publicity or privacy; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; violates or encourages any conduct that would violate any applicable laws or regulations; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; is fraudulent, false, misleading, or deceptive, including “trolling”; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(iv)&nbsp;&nbsp;&nbsp; is defamatory, obscene, pornographic, vulgar, or offensive;</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(v)&nbsp;&nbsp;&nbsp; promotes discrimination, bigotry, racism, hatred, harassment, or harm against any individual or group; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(vi)&nbsp;&nbsp;&nbsp; is violent, bullying, or threatening, or promotes violence, terrorism, or actions that are threatening to any person or entity; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(vii)&nbsp;&nbsp;&nbsp; </span>causes <span style="line-height: 115%">us to be involved in any political or public events due to your use of the Services; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%">(viii)&nbsp;&nbsp;&nbsp; promotes<span style="line-height: 115%"> religious practices or content; or</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%">
+                (ix)&nbsp;&nbsp;&nbsp;
+                <span style="line-height: 115%">otherwise encourages</span>
+                illegal or harmful activities.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(e)&nbsp;&nbsp;&nbsp; </span><b>Privacy and <span style="line-height: 115%">Other</span> Restrictions<span style="line-height: 115%">, including:</span></b>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; collecting or storing any information from the Services, or from other users of the Services, that could be used to identify an individual, either on its own or when combined with other information, without their express permission;</span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 106.35pt; text-indent: -35.45pt; line-height: 115%"><span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; engaging in any activity that may result in injury, death, property damage, nuisance, or any other liability, or impersonating or misrepresenting your affiliation with any person or entity; </span></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(f)&nbsp;&nbsp;&nbsp; <b>encouraging or enabling anyone else to engage in any of the foregoing; or</b></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(g)&nbsp;&nbsp;&nbsp; <b>violating these Terms or any applicable laws or regulations.</b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>5.&nbsp;&nbsp;&nbsp; Intellectual Property Rights </b></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(a)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Ownership</span></u
+                ><span style="line-height: 115%">. The logos, names, and other branding elements of the Services are our trademarks and service marks. We, our affiliates, and our licensors retain all ownership, title, and intellectual property rights in the Services, including any Games, Content, or other materials provided therein. You have no ownership interest in the Services or any Games or Content contained within the Services.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(b)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Modification to Content</span></u
+                ><span style="line-height: 115%">. We may review, edit, or remove any Content for purposes including operating or publishing the Services, ensuring compliance with these Terms, protecting the health or safety of individuals, safeguarding our legal rights and remedies, reporting criminal or offensive behavior, or complying with applicable laws.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%"><span style="line-height: 115%">(c)&nbsp;&nbsp;&nbsp; </span><u>Notice of Infringement</u><span style="line-height: 115%">. We respect copyright law and expect our users to do the same. If you believe that your User Content has been copied in a manner that constitutes copyright or trademark infringement, or if you believe your content was removed in error, please contact us at our Support Email Address</span>.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>6.&nbsp;&nbsp;&nbsp; Virtual Goods and Game Currency </b></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (a)&nbsp;&nbsp;&nbsp; <u>Obtaining Virtual Goods and Game Currency</u><span style="line-height: 115%">.</span> We may offer items and upgrades that you can purchase with real-world currency, including in-game currency (“<b>Game Currency</b>”), character skins, digital cards, experience boosts, gear, and other digital items that enhance your gameplay experience (“<b>Virtual Goods</b>”). Before making any purchase (“<b>Transaction</b>”), you should carefully review all important details and terms, including any purchase notices or agreements provided. The prices assigned to Virtual Goods and Game Currency will be presented to you prior to initiating any payment process. The final payment amount may vary depending on your service provider or payment service provider. We may limit the quantity or number of purchases for any Transaction due to operational policies or as required by applicable laws. Additionally, we may update fees, billing methods, or terms related to Game
+                Currency or Virtual Goods by posting such changes on our game website, within the Game, or by providing notice to you through any other reasonable means. These changes take effect upon posting or as otherwise specified in the notice and are incorporated into these Terms. We reserve the right to implement varying pricing policies for any Services across different countries, regions, and platforms.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (b)&nbsp;&nbsp;&nbsp; <u>License and Use of Virtual Goods and Game Currency</u><span style="line-height: 115%">. You may not transfer or trade Virtual Goods or Game Currency. Virtual Goods and Game Currency are not intended for investment purposes. </span>Subject to your compliance with these Terms, we grant you a personal, non-exclusive, non-transferable, non-sublicensable, limited license to use any Virtual Goods or Game Currency you obtain within the Game. If we suspect you have engaged in unauthorized, fraudulent, or improper activity, we reserve the right to cancel or revoke any Transactions or otherwise prevent your use of Virtual Goods or Game Currency, or at our reasonable discretion, terminate, or suspend your Account. We may, at our <span style="line-height: 115%">reasonable</span> discretion, modify, replace, suspend, or cancel any Virtual Goods or Game Currency without notice or liability to you, based on reasonable evidence and where necessary for
+                compliance and security, unless otherwise required by applicable laws. SUBJECT TO APPLICABLE LAWS, YOU AGREE NOT TO MAKE ANY CLAIM AGAINST US, OUR AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, OR LICENSORS (COLLECTIVELY, THE “<b>GRYPH FRONTIER ENTITIES</b>”) RELATING TO: (A) THE OWNERSHIP OF ANY VIRTUAL GOODS OR GAME CURRENCY; OR (B) ANY ALLEGED MONETARY VALUE OF VIRTUAL GOODS OR GAME CURRENCY LOST DUE TO: (I) THE SUSPENSION OF YOUR ACCOUNT, OR (II) ADJUSTMENTS TO THE GAME THAT AFFECT THE VALUE OF VIRTUAL GOODS OR GAME CURRENCY. Nothing in these Terms affects your statutory rights.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (c)&nbsp;&nbsp;&nbsp; <u><span style="line-height: 115%">Retail Purchase</span></u
+                ><span style="line-height: 115%">. We may provide codes or in-app purchase options that can be activated in the Game. These codes or in-app purchases must be legally purchased or otherwise obtained from us, our authorized retailers, through the application store, or other third-party channels where the Game or in-app purchases are made available. If you purchase such a code or in-app item from a third-party channel, that third party is responsible for any issues related to the purchase, to the extent permitted by law.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (d)&nbsp;&nbsp;&nbsp; <u><span style="line-height: 115%">Third-Party Fees</span></u
+                ><span style="line-height: 115%">. You are responsible for any applicable third-party fees that may arise from accessing or using the Services. These third-party fees include, but are not limited to, mobile carrier fees, data plan fees, and text messaging or other data usage charges. Before using the Services, you should check with your service providers regarding any potential costs.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(e)&nbsp;&nbsp;&nbsp; <u>Taxes. </u>You are responsible for and will pay all fees and applicable taxes incurred by you. You agree to provide us with the necessary information to determine the applicable taxes and appropriate tax rates.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>7.&nbsp;&nbsp;&nbsp; Refunds </b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">SUBJECT TO APPLICABLE LAWS, ALL SERVICES (INCLUDING GAMES), VIRTUAL GOODS, AND GAME CURRENCY REMAIN OUR PROPERTY, HAVE NO MONETARY VALUE, AND CANNOT BE REDEEMED, REFUNDED, OR EXCHANGED FOR ANYTHING OF VALUE, INCLUDING, WITHOUT LIMITATION, REAL-WORLD CURRENCY. By purchasing any Services, Virtual Goods, or Game Currency, you hereby waive any statutory right to withdraw from the purchase of such digital content and agree that you are not eligible for a refund. Where applicable laws do not permit you to waive your right of withdrawal, you agree that such withdrawal right expires immediately upon purchase, delivery, or other provision, as applicable, of such Services, as permitted by applicable laws.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Furthermore, given the nature of digital content and services, if any game content or services are defective, unavailable, or fail to perform, we will use reasonable efforts to correct the issue. Please note that nothing in this section affects your statutory rights.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>8.&nbsp;&nbsp;&nbsp; Beta Version</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">
+                “<b>Beta Version</b>” is a pre-release version of the Game or Services that we may make available to you for testing purposes. The Beta Version may contain bugs, may not operate properly or perform all intended functions, may interfere with the functioning of other software applications, and may cause errors, data loss, or other problems. We may choose to update, modify, or terminate the Beta Version, in whole or in part, at any time, and the Beta Version may never be commercially released. We do not guarantee that any features, functionalities, or content made available in the Beta Version will be included in any commercial launch or future release of our Game or Services. If you receive a Beta Version test invitation, you agree to keep any non-public information related to the Beta Version in strict confidence and not to disclose, use, or exploit any such information, including any information that we have designated as confidential or have otherwise informed you
+                should not be disclosed. If you receive a Beta Version, you are encouraged to provide feedback to us so we can improve the Services.
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>9.&nbsp;&nbsp;&nbsp; Feedback</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">We appreciate and value any feedback, comments, or suggestions regarding the Services (“<b>Feedback</b>”). By submitting Feedback, you hereby grant us a worldwide, perpetual, irrevocable, non-exclusive, transferable, fully-paid, royalty-free license, including the right to sublicense, under all intellectual property rights you own or control, to use, reproduce, modify, adapt, create derivative works from, distribute, publicly perform, publicly display, and otherwise exploit such Feedback for any purpose and in any jurisdiction.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">You represent and warrant that you possess all rights necessary to submit the Feedback and to grant us the aforementioned license without infringing upon any third-party rights. We sincerely appreciate your Feedback and your contribution to improving our Services.&nbsp;</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>10.&nbsp;&nbsp;&nbsp; Marketing </b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; font-weight: normal; line-height: 115%"><span style="line-height: 115%">With your consent, we may send notifications to your device to provide game updates and other relevant messages. You may change your notification settings on your device </span>or by contacting us at <span style="line-height: 115%">our Support Email Address if you do not wish to receive such notifications</span>.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>11.&nbsp;&nbsp;&nbsp; Third Party Services</b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; font-weight: normal; line-height: 115%">
+                <span style="line-height: 115%">The Services may include links to other websites or applications (each, a “</span><b><span style="line-height: 115%">Third-Party Site</span></b
+                ><span style="line-height: 115%"
+                    >”). We have no control over the Third-Party Sites or the materials, information, goods or services available or contained on Third-Party Sites or how your data and/or personal information is used by such Third-Party Sites. We are not responsible for, and do not endorse, represent, or warrant in any way, the content, goods, or services of Third-Party Sites, and we are not liable for any claims you may have regarding any content, goods, or services of Third-Party Sites. We are also not responsible for the privacy or business practices of such Third-Party Sites, or for any materials, information, goods, or services made available through such Third-Party Sites. If you choose to access any Third-Party Sites, you do so entirely at your own risk and are solely responsible for conducting any investigation you deem appropriate and for evaluating associated risks. We reserve the right to terminate any link to any Third-Party Site at any time.
+                </span>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>12.&nbsp;&nbsp;&nbsp; Modifications to the Services and These Terms</b></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(a)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Modifications to the </span>Service<span style="line-height: 115%">s</span></u
+                ><span style="line-height: 115%">. We may make adjustments or enhancements to the Services, or suspend or permanently discontinue the operation of the Services, in whole or in part. We may deploy updates, patches, or upgrades remotely and automatically without notice. If you disable automatic updates, your access to the Services may be interrupted until you manually install the latest updates, patches, or upgrades. </span>Furthermore, we may make changes to the Services without notice or liability to you, except as otherwise required by applicable laws.
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(b)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Modifications to these Terms</span></u
+                ><span style="line-height: 115%">. We may update these Terms whenever we believe it is necessary. If we do so, you will be prompted to agree to the updated Terms upon your next access to the Services or when the updated Terms are otherwise communicated to you. Please note that declining to accept the updated Terms may result in your inability to continue using the Services. &nbsp;</span>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>13.&nbsp;&nbsp;&nbsp; Warranty Disclaimers </b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; line-height: 107%; font-weight: normal">
+                <span style="line-height: 107%">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAWS, THE SERVICES ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT ANY FORM OF WARRANTY, WHETHER EXPRESS OR IMPLIED. WE EXPRESSLY DISCLAIM ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AS WELL AS ANY WARRANTIES ARISING OUT OF THE COURSE OF DEALING, USAGE, OR TRADE PRACTICE. Without prejudice to the foregoing, we do not guarantee that the Services will satisfy your expectations or that their operation will be continuous, secure, or free from defects or interruptions. We likewise make no representation or warranty as to the accuracy, reliability, timeliness, truthfulness, completeness, or overall quality of any aspect of the Services. Nothing in these Terms excludes or limits any consumer protection or statutory rights to which you are entitled under the laws of your country of residence. </span>
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>14.&nbsp;&nbsp;&nbsp; Limitation of Liability</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAWS, WE SHALL NOT BE LIABLE FOR ANY OF THE FOLLOWING, WHETHER ARISING UNDER CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, INDEMNITY, PRODUCT LIABILITY, BREACH OF CONTRACT, BREACH OF WARRANTY, OR OTHERWISE:</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">(A) LOSS OF PROFITS;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">(B) LOST REVENUE;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">(C) LOST SAVINGS;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">(D) LOSS OF DATA; OR</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">(E) ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES, ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR THE SERVICES, OR ANY DELAY, INABILITY TO USE, OR LACK OF FUNCTIONALITY OF THE SERVICES, EVEN IF SUCH LOSS IS CAUSED BY OUR FAULT OR WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">FURTHER, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAWS, OUR AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THESE TERMS OR THE SERVICES WILL NOT EXCEED THE LOWER OF: (A) THE TOTAL AMOUNTS PAID OR PAYABLE BY YOU TO US FOR THE PARTICULAR SERVICES IN QUESTION DURING THE SIX (6) MONTHS IMMEDIATELY PRECEDING THE EVENTS GIVING RISE TO SUCH LIABILITY; OR (B) ONE HUNDRED U.S. DOLLARS (US$100).</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">THESE LIMITATIONS AND EXCLUSIONS APPLY EVEN IF THE REMEDIES PROVIDED UNDER THESE TERMS FAIL TO OFFER ADEQUATE COMPENSATION, AND THEY ARE KEY COMPONENTS OF THE AGREEMENT BETWEEN YOU AND US. For clarification, you may have additional legal rights in your jurisdiction, and nothing in these Terms will prejudice such rights that you may have as a consumer of the Services.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>15.&nbsp;&nbsp;&nbsp; Indemnity</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">You will indemnify and hold Gryph Frontier Entities harmless from any and all claims, demands, actions, losses, liabilities, costs, and expenses (including, without limitation, attorneys’ fees, court costs, and expert witness fees) arising out of or related to: (a) your access to or use of the Services; or (b) any claim that, if substantiated, would constitute a breach of these Terms by you.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">You will reimburse Gryph Frontier Entities for any payments or losses incurred, including those resulting from court judgments or settlements, in connection with any matter covered by these Terms.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>16.&nbsp;&nbsp;&nbsp; Termination</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">To the extent permitted by applicable laws, we may suspend, restrict, or permanently terminate your access to any or all of the Services, or any related products or features without incurring liability, under any of the following circumstances:</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 0cm; line-height: 115%">(a)&nbsp;&nbsp;&nbsp; we discontinue the Services for users in comparable situations generally;</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 0cm; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; you violate these Terms or any incorporated policy or rule;</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(c)&nbsp;&nbsp;&nbsp; your Third-Party Account (if applicable) is terminated by the relevant platform owner; or</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(d)&nbsp;&nbsp;&nbsp; we determine, at our reasonable discretion, that such termination or suspension is necessary or appropriate.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%">You may also terminate these Terms at any time by canceling your Account. Upon termination, whether by you or us, your rights to use the Services will automatically expire, and you must cease all use of the Services and remove them from your device.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">To the maximum extent permitted by applicable laws, in the event your Account is terminated voluntarily or due to your violation of these Terms, and unless otherwise agreed by us or required by applicable laws, no refunds will be issued, no online time or other credits will be credited to you, converted to cash, or provided in any other form of reimbursement, and you will no longer have access to your Account.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; font-weight: normal; line-height: 115%"><span style="line-height: 115%">The following sections will survive the termination of these Terms: Section 3(c) (User Content), Section 5 (Intellectual Property Rights), Section 9 (Feedback), Section 13 (Warranty Disclaimers), Section 14 (Limitation of Liability), Section 16 (Termination), Section 17 (</span>Governing Law<span style="line-height: 115%">), </span>Section 18 (Dispute Resolutions)<span style="line-height: 115%">, Section 19 (Miscellaneous), and Section 20 (Contact Information).</span></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>17.&nbsp;&nbsp;&nbsp; Governing Law</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Except as otherwise specified in the country-specific terms herein, any claims arising out of the Services or these Terms (including those related to interpretation, breach, consumer protection, unfair competition, tort, or any other claims) shall be subject to the laws of Singapore, without regard to its conflict of laws principles.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>18.&nbsp;&nbsp;&nbsp; Dispute Resolutions</b></p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (a)&nbsp;&nbsp;&nbsp;
+                <strong
+                    ><u><span style="font-weight: normal">Informal Dispute Resolution</span></u></strong
+                >.<strong> </strong>We are committed to customer satisfaction, and we aim to resolve all your concerns amicably and efficiently. As a first step, we always encourage you to contact us at our Support Email Address. If the problem persists, you and we agree to give each other an opportunity to resolve any disagreements first through the following informal dispute resolution process before resorting to more formal means of resolution (“<strong>Informal Dispute Resolution<span style="font-weight: normal">”</span></strong
+                >). To initiate Informal Dispute Resolution, a party must give notice (“<strong>Notice<span style="font-weight: normal">”</span></strong
+                >) in writing to the other party according to this section. Notice to us must be sent to&nbsp;our Support Email Address. The Notice must (i) include your full name, address, Account, and contact email address; (ii) explain what the disagreement is about; and (iii) explain what you want as a solution. Both you and we will endeavor to resolve the disagreement for a period of sixty (60) days after we receive the Notice, and during this period you agree that (i) neither party will submit the disagreement to arbitration or “small claims” or another court and (ii) all applicable statute of limitations and filing fee deadlines shall be tolled as of the day a compliant Notice was received by a party.
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; <u>Arbitration Terms</u></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Arbitration</span></u
+                ><span style="line-height: 115%">. The terms in Section 18(b) through Section 18(e) shall collectively be referred to as the&nbsp;“</span><b>Arbitration Agreement</b><span style="line-height: 115%">”. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Applicability of the Arbitration Agreement</span></u
+                ><span style="line-height: 115%">. Any dispute, controversy, or claim arising out of or related to these Terms, the Services, or your relationship with us that cannot be resolved through Informal Dispute Resolution (“</span><b>Dispute</b><span style="line-height: 115%">”), shall, to the fullest extent permitted by applicable laws, be resolved exclusively by final and binding arbitration. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Confidentiality</span></u
+                ><span style="line-height: 115%">.&nbsp;You must keep the existence of the arbitration, all materials and documents exchanged during the arbitration proceedings, and the arbitration award confidential. You may disclose them only to your attorney or other professional advisors. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(iv)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Arbitration Rules</span></u
+                ><span style="line-height: 115%">.&nbsp;The arbitration will be conducted in the English language before a single arbitrator. A party who wishes to initiate arbitration must provide the other party with a request for arbitration (the&nbsp;“</span><b>Request</b><span style="line-height: 115%">”). A Request to us should be sent by email to&nbsp;our Support Email Address. The Request must include: (1) the name, telephone number, mailing address, email address of the party seeking arbitration and the Account username (if applicable), as well as the email address associated with any applicable Account; (2) a statement of the legal claims being asserted and the factual bases of those claims; and (3) a description of the remedy sought.</span>
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                <strong
+                    ><span style="line-height: 115%; font-weight: normal">(c)&nbsp;&nbsp;&nbsp; </span><u><span style="font-weight: normal">Arbitration</span></u></strong
+                >.<strong><span style="font-weight: normal"> </span></strong>Except as otherwise specified in the country-specific terms herein<strong><span style="font-weight: normal">, a</span></strong
+                >ny Dispute or claim by you arising with respect to these Terms shall be referred to and finally resolved by arbitration administered by the Singapore International Arbitration Centre (“<b>SIAC</b>”) in accordance with its arbitration rules (“<b>SIAC Rules</b>”) in force at the time of delivery of the arbitration notice. The arbitrator’s decision will be final and binding upon both parties. If the above arbitration terms are not enforceable in any dispute, both parties agree that such dispute shall be brought in a court in Singapore. You hereby consent to and waive all defenses of lack of personal jurisdiction or <i>forum non conveniens</i> with respect to jurisdiction and/or venue, whether by arbitration or judicial judgment (if applicable).
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (d)&nbsp;&nbsp;&nbsp;
+                <strong
+                    ><u><span style="font-weight: normal">Costs of Arbitration</span></u></strong
+                >.<strong>&nbsp;</strong>Each party shall bear its own attorneys’ fees unless the arbitrator determines otherwise under applicable laws.
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (e)&nbsp;&nbsp;&nbsp;
+                <strong
+                    ><u><span style="font-weight: normal">Waiver of Class Actions and Class Arbitrations</span></u></strong
+                >.&nbsp;To the maximum extent permitted by applicable laws, for any case not subject to the mandatory arbitration (except as otherwise specified herein), you and we agree to only bring disputes in an individual capacity and shall not (a) seek to bring or participate in any class or representative action, collective or class-wide arbitration, or any other action where another individual or entity acts in a representative capacity, or (b) consolidate or combine individual proceedings or permit another to do so without the express consent of all parties to these Terms, or for any other actions or arbitrations.
+            </p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">
+                (f)&nbsp;&nbsp;&nbsp;
+                <strong
+                    ><u><span style="font-weight: normal">Exceptions</span></u></strong
+                >.<strong><span style="font-weight: normal">&nbsp;</span></strong
+                >Notwithstanding the foregoing, each party reserves the right to seek injunctive or other equitable relief in a court of competent jurisdiction with respect to any dispute related to the actual or threatened infringement, misappropriation, or violation of a party’s intellectual property or proprietary rights.
+            </p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>19.&nbsp;&nbsp;&nbsp; Miscellaneous</b></p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(a)&nbsp;&nbsp;&nbsp; <u>Entire Agreement</u>. These Terms, together with any documents referenced herein, constitute the complete and exclusive agreement between you and us regarding the Services and replace all prior understandings relating thereto.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; <u>No Assignment</u>. You are not permitted to transfer, allocate, or otherwise assign these Terms, whether by operation of law or otherwise, without our prior written consent. Any such attempt to assign or transfer these Terms without our approval shall be considered null and void. Notwithstanding the heading of this section, we may assign or transfer these Terms freely and without limitation in connection with the provision of the Services. Subject to these conditions, these Terms shall be binding upon and inure to the benefit of both parties, their respective successors, and any permitted assigns.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(c)&nbsp;&nbsp;&nbsp; <u>Language</u>. The English version of these Terms is the official and governing version. Any translation is provided solely for convenience, and in the event of any inconsistencies, the English version shall prevail to the maximum extent permitted by applicable laws.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(d)&nbsp;&nbsp;&nbsp; <u>Severability</u>. If any provision of these Terms is determined to be invalid or unenforceable, such provision shall be enforced to the maximum extent permitted by applicable laws, and the remaining provisions shall remain in full force and effect.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(e)&nbsp;&nbsp;&nbsp; <u>No Waiver</u>. Our decision not to enforce any right or provision in these Terms shall not be deemed a waiver of such right or provision.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(f)&nbsp;&nbsp;&nbsp; <u>Third-Party Rights</u>. No person other than the parties to these Terms shall have any right to enforce or rely upon any provision herein.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 36pt; line-height: 115%">(g)&nbsp;&nbsp;&nbsp; <u>Conflicts with the Law</u>. Nothing in these Terms excludes or limits any consumer protection or statutory rights to which you are entitled under the laws of your country of residence. In the event of any conflict between these Terms and such mandatory laws, those local laws shall prevail.</p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 0cm; text-indent: 0cm; line-height: 115%"><b>20.&nbsp;&nbsp;&nbsp; Contact Information</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you have any questions regarding these Terms or the Services, please contact us at our Support Email Address: support@gryphline.com.</p>
+
+            <span style="line-height: 115%"><br clear="all" /> </span>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%"><b>SCHEDULE A: COUNTRY SPECIFIC TERMS</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>Schedule A- 1: Addendum for Residents in the United States of America</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you reside in the United States of America, then the following additional provisions will apply to you:</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 22pt; text-indent: -22pt; line-height: 115%">1.&nbsp;&nbsp;&nbsp; <b>Governing Law</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Section 17 (Governing Law) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">Any claims arising out of the Services or these Terms (including those related to interpretation, breach, consumer protection, unfair competition, tort, or any other claims) will be subject to the laws of the State of California, without reference to conflict of laws principles. Except as otherwise expressly set forth in Section 18 (Dispute Resolutions), the exclusive jurisdiction for all Disputes that you and we are not required to arbitrate will be the state courts located in San Francisco County, California, or the federal courts located in the Northern District of California, and you and we each waive any objection to jurisdiction and venue in such courts.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 22pt; text-indent: -22pt; line-height: 115%">
+                2.&nbsp;&nbsp;&nbsp;
+                <b>Additional Arbitration Terms</b>
+            </p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Section 18(c) (Arbitration) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 15.5pt; line-height: 115%">&nbsp;&nbsp;&nbsp; (c)&nbsp;&nbsp;&nbsp; <u>Arbitration</u></p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(i)&nbsp;&nbsp;&nbsp; &nbsp;<u>Federal Arbitration Act</u>. These Terms affect interstate commerce, and the enforceability of this section will be substantively and procedurally governed by the U.S. Federal Arbitration Act (“</span><b>FAA</b><span style="line-height: 115%">”), 9 U.S.C. § 1, et seq., and federal arbitration law.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(ii)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Rules and Forums</span></u
+                ><span style="line-height: 115%">.&nbsp;The arbitration shall be administered by National Arbitration and Mediation (“</span><b>NAM</b><span style="line-height: 115%">”) in accordance with its Comprehensive Dispute Resolution Rules and Procedures (the&nbsp;“</span><b>NAM Rules</b><span style="line-height: 115%">”) in effect when the arbitration is commenced, as modified by these Terms. The NAM Mass Filing Supplemental Dispute Resolution Rules and Procedures (the&nbsp;“</span><b>NAM Mass Filing Rules</b><span style="line-height: 115%">”) will apply if twenty-five (25) or more similar claims are asserted against us by the same or coordinated counsel or are otherwise coordinated (“</span><b>Mass Filing</b><span style="line-height: 115%">”). The arbitrator’s decision is final and binding upon both parties. </span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(iii)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Batch Arbitration</span></u
+                ><span style="line-height: 115%"
+                    >.&nbsp;You agree that if there are twenty-five (25) or more individual arbitrations of a substantially similar nature filed against us by or with the assistance of the same law firm, group of law firms, or organizations, within a ninety (90) day period, NAM shall: (i) administer the arbitration demands in batches of 100 claims per batch (or, if between twenty-five (25) and ninety-nine (99) individual arbitrations are filed, in a single batch of all those arbitrations, and, to the extent there are fewer than 100 claims remaining after the batching described above, in a final batch consisting of the remaining arbitrations); (ii) appoint one arbitrator for each batch; and (iii) provide for the resolution of each batch as a single consolidated arbitration with one set of filing and administrative fees due per side per batch, one procedural calendar, one hearing (if any) in a place to be determined by the arbitrator, and one final award (“</span
+                ><b>Batch Arbitration</b><span style="line-height: 115%">”). Applicable statutes of limitations will be tolled for claims asserted in a Batch Arbitration from the time a compliant Notice has been received by a party until the Mass Filing is filed in NAM or in court. To the extent the parties disagree on any issue arising out of or relating to the Batch Arbitration, the disagreeing party shall advise NAM, and NAM shall appoint a sole standing arbitrator to determine the applicability of the Batch Arbitration process (“</span><b>Procedural Arbitrator</b
+                ><span style="line-height: 115%">”). This provision shall in no way be interpreted as authorizing a class, collective, or mass arbitration or action of any kind, or arbitration involving joint or consolidated claims under any circumstances, except as expressly set forth in this provision. All parties agree that arbitrations are of a “substantially similar nature” if they arise out of or relate to the same event or factual scenario, raise the same or similar legal issues, and seek the same or similar relief.</span>
+            </p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 36pt; text-indent: 36pt; line-height: 115%">
+                <span style="line-height: 115%">(iv)&nbsp;&nbsp;&nbsp; </span><u><span style="line-height: 115%">Opt-Out</span></u
+                ><span style="line-height: 115%">. You have the right to opt out of this Arbitration Agreement by sending written notice of your decision to opt out to Support Email Address, within thirty (30) days after first agreeing or becoming subject to this Arbitration Agreement. Your notice must include your name and address, your Account, your contact email address, and an unequivocal statement that you want to opt out of this Arbitration Agreement. If you opt out of this Arbitration Agreement, all other parts of these Terms will continue to apply to you. </span>
+            </p>
+
+            <p class="MsoListParagraph" style="margin-right: 0cm; margin-left: 36pt; margin-top: 0cm; margin-bottom: 12pt; text-indent: 36pt; line-height: 115%">
+                (v)&nbsp;&nbsp;&nbsp;
+                <strong
+                    ><u><span style="font-weight: normal">Modifications</span></u></strong
+                >.<strong>&nbsp;</strong>If we make any future, material change to this Arbitration Agreement, we will notify you through the contact information in your Account. Unless you opt out within thirty (30) days of such change becoming effective by informing us at Support Email Address, your continued use of the Services after the effective date of any changes to this Arbitration Agreement constitutes your acceptance of any such change. Changes to this Arbitration Agreement do not apply to any claim that was filed in a legal proceeding against us or you prior to the effective date of the modification. If you have previously agreed to these Terms and did not validly opt out of arbitration, changes to this Arbitration Agreement do not provide you with a new opportunity to opt out of the Arbitration Agreement. We will continue to honor any valid opt outs of the Arbitration Agreement that you made to a prior version of these Terms.
+            </p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 22pt; text-indent: -22pt; line-height: 115%"><b>3.&nbsp;&nbsp;&nbsp; California Consumer Rights Notice</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you reside in the State of California, then the following additional provisions will apply to you:</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 22pt; line-height: 115%">Under California Civil Code Section 1789.3, California users of the Game or Services receive the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at the contact information set forth at <a href="https://www.dca.ca.gov/about_us/contactus.shtml">https://www.dca.ca.gov/about_us/contactus.shtml</a>.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">&nbsp;</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%"><b>Schedule A-2: Addendum for European Economic Area (“EEA”) and United Kingdom</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">If you reside in EEA or the United Kingdom, then the following additional provisions will apply to you:</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>1.&nbsp;&nbsp;&nbsp; Cancellation</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 7 (Refunds) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: 0cm; line-height: 115%">You confirm that we will begin performing the purchase agreement for Virtual Goods, Game Currency, or any other digital content before the expiration of any statutory withdrawal period defined under applicable laws. You expressly agree that, by clicking the relevant purchase button on the purchase interface, the purchased digital content will be supplied and made available to you immediately, before the statutory withdrawal period ends. You understand and acknowledge that, once the digital content has been accessed, downloaded, or streamed, you will lose the right to withdraw your purchased content due to the nature of such digital content.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: 0cm; line-height: 115%">Furthermore, given the nature of digital content and services, if any game content or services are defective, unavailable, or fail to perform, we will use reasonable efforts to correct the issue. Please note that nothing in this section affects your statutory rights.</p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt"><b>&nbsp;</b></p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt; text-indent: -18pt"><b>2.&nbsp;&nbsp;&nbsp; Modifications to the Services and These Terms</b></p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt"><b>&nbsp;</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 12 (Modifications to the Services and These Terms) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">
+                We may make changes to the Services or these Terms at any time due to changes in laws or regulatory requirements or to implement technical adjustments or improvements. In the event of material changes to the Services or these Terms, we will notify you in advance through the websites or in-game message. If you continue using the Services or consent to the updated Terms, you shall be deemed to have read, understood and agreed to such amendment or change. If you object to such changes, you may stop using the Services without incurring additional charges. Nothing in these Terms affects your statutory rights. Further, if you disable automatic updates, your access to the Services may be interrupted until you manually install the latest updates, patches, or upgrades. Please also note that declining to accept the updated Terms may result in your inability to continue using the Services.
+            </p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">For adjustments required to address errors, patch updates, emergency handling, or other unavoidable circumstances, or for non-material changes, we may provide notice to you as soon as practicable after implementation.</p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt; text-indent: -18pt"><b>3.&nbsp;&nbsp;&nbsp; Warranty Disclaimers </b></p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt"><b>&nbsp;</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 13 (Warranty Disclaimers）of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoListParagraph" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt"><b>&nbsp;</b></p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.25pt; line-height: 115%">To the maximum extent permitted by applicable law, and subject to your statutory rights, the Services are provided on an “as is” and “as available” basis. We do not make any promises or representations about the Services other than those required by law. This means that, except as required by law, we do not guarantee that the Services will be uninterrupted, error-free, or meet your particular expectations. Nothing in these Terms excludes or limits any rights you have under UK or EU consumer law, including your right to receive services that are provided with reasonable care and skill and that conform to the description we have given.</p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt; text-indent: -18pt"><b>4.&nbsp;&nbsp;&nbsp; Limitation of Liability&nbsp;&nbsp; </b></p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 0cm; margin-left: 18pt"><b>&nbsp;</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 14 (Limitation of Liability) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.25pt; line-height: 115%">Provided we have acted with professional diligence, we do not take responsibility for loss or damage caused by us, unless it is: caused by our breach of these Terms; or reasonably foreseeable at the time of entering these Terms. Loss or damage is foreseeable if it is obvious that it will happen or if, at the time you accepted these terms, both you and us knew it might happen. We do not take responsibility for loss or damage caused by events beyond our reasonable control. Nothing in these Terms affects your statutory rights.</p>
+
+            <p class="mso-h2" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; line-height: 107%; font-weight: normal; margin-left: 21.25pt">Subject to the first paragraph, our aggregate liability for any loss or damage arising out of or relating to these Terms or the Services will not exceed the lower of: (A) the total amounts paid or payable by you to us for the particular services in question; OR (B) ONE HUNDRED U.S. DOLLARS (US$100), except that we do not exclude or limit our liability to you where it would be unlawful to do so, including liability for death or personal injury caused by our negligence.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>5.&nbsp;&nbsp;&nbsp; Indemnity</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 15 (Indemnity) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">Section 15 intentionally omitted.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>6.&nbsp;&nbsp;&nbsp; Governing Law</b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 17 (Governing Law) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">These Terms shall be governed by, and construed under, the laws of your country of residence without regard to conflict of laws rules.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>7.&nbsp;&nbsp;&nbsp; Dispute Resolutions </b></p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">Section 18 (Dispute Resolutions) of these Terms is hereby deleted in its entirety and replaced with the following:</p>
+
+            <p class="MsoNormal" style="margin: 0cm; margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 21.3pt; line-height: 115%">If you have any concerns or disputes regarding the Services, you may contact us directly through the customer support channels described in these Terms, and we will do our best to resolve your concern directly. Besides, any disputes can be brought to the competent courts of your country of residence. If you reside in EEA, you may also refer unresolved disputes to an alternative dispute resolution entity recognized in your country of residence. Additional information is available at: <a href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a>. This link is provided as required by local laws for information purposes only. Please note that we are not obligated to, and do not intend to, participate in online dispute resolution.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; font-weight: normal; text-indent: 0cm; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>Schedule A-3: Addendum for Residents in the Republic of Korea</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you reside in the Republic of Korea, then the following additional provisions will apply to you:</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>1.&nbsp;&nbsp;&nbsp; Amendment of Terms</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">In the event of material changes to game currency or pricing-related terms, we will notify you in advance through the Services or relevant pages. If you do not explicitly express consent or objection before the effective date of such changes, it will be deemed that you have agreed to the amendments. If you do not raise an objection before the effective date, we will presume your consent to the changes. If you object to such changes, you may terminate your use of the Services.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">For adjustments required to address errors, patch updates, emergency handling, or other unavoidable circumstances, or for non-material changes, we may provide notice to you as soon as practicable after implementation.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>2.&nbsp;&nbsp;&nbsp; Minors and Legal Representatives</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 35.4pt; line-height: 115%">(a)&nbsp;&nbsp;&nbsp; You may request cancellation of your purchase if you are a minor and you agreed to these Terms without the consent of your parent or legal representative. We will verify your cancellation request and, if necessary, may request supplementary evidence, including documents proving your identity or that of your parent or legal representative.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 35.4pt; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; However, if your parent or the legal representative has consented to your purchase of the Services, Virtual Goods, or Game Currency, or if you have misrepresented your age or claimed that you have obtained your parent’s or legal representative’s permission, you will not be entitled to cancel your purchase.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>3.&nbsp;&nbsp;&nbsp; Cancellation of Purchase</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Section 7 (Refunds) of these Terms is replaced by the following:</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 35.4pt; line-height: 115%">(a)&nbsp;&nbsp;&nbsp; You may cancel your purchase of any Services (including Games) or purchased item within seven (7) days from the purchase date or the date on which the purchased item becomes available, whichever is later. Notwithstanding the foregoing, if the Virtual Goods or Game Currency differ from the displayed or advertised content, or are not in accordance with the contractual terms, you may cancel the purchase within three (3) months from the date of receipt, or within thirty (30) days from the date you knew or should have known of such discrepancy.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 35.4pt; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; You may not cancel your purchase if: (i) you have used or activated the purchased item; (ii) the purchased item includes additional promotional or bundled content, and all or part of such content has been used; or (iii) the item is deemed used, or its utility has been confirmed upon opening.&nbsp;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; text-indent: 35.4pt; line-height: 115%">(c)&nbsp;&nbsp;&nbsp; If you cancel your purchase, or if the transaction is otherwise invalidated, we reserve the right to deduct the Game Currency associated with the terminated transaction from your Account and take any other necessary measures. If necessary, we may request supplementary evidence, including documents verifying your identity.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>4.&nbsp;&nbsp;&nbsp; Limitation of Liability</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Section 14 (Limitation of Liability) of these Terms is amended as follows:</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Each of the parties (the “<b>Indemnifying Party</b>”) shall indemnify the other party from all losses that arise out of any breach of these Terms by the Indemnifying Party; provided, however, that the foregoing shall not apply if such breach is not attributable to the Indemnifying Party’s intentional or negligent conduct.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Without limiting the foregoing, we are not liable in the following circumstance, except where caused by our intentional misconduct or gross negligence:</p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(a)&nbsp;&nbsp;&nbsp; Inability to provide the Services due to natural disasters or other force majeure events;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(b)&nbsp;&nbsp;&nbsp; Damages caused by maintenance, replacement, regular inspection, or construction of service facilities;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(c)&nbsp;&nbsp;&nbsp; Service interruptions resulting from your intentional or negligent actions;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(d)&nbsp;&nbsp;&nbsp; The reliability or accuracy of information or materials posted by you in the Services;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(e)&nbsp;&nbsp;&nbsp; Transactions or disputes between you and third parties;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(f)&nbsp;&nbsp;&nbsp; Damages arising from your use of any free Services we provide;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(g)&nbsp;&nbsp;&nbsp; Any expected benefits or indirect losses incurred during your use of the Services;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(h)&nbsp;&nbsp;&nbsp; Loss of in-game experience points, levels, items, or Game Currency;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(i)&nbsp;&nbsp;&nbsp; Unauthorized payments by third parties resulting from your failure to safeguard your mobile device passwords or passwords provided by open market operators;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(j)&nbsp;&nbsp;&nbsp; Inability to use all or part of the content due to changes in your mobile device, mobile number, operating system version, international roaming, or telecommunication provider;</p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; text-indent: 35.45pt; line-height: 115%">(k)&nbsp;&nbsp;&nbsp; Losses resulting from your deletion of content provided by us or personal account information.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">You may have additional legal rights in your jurisdiction, and nothing in these Terms will prejudice such rights that you may have as a consumer of the Services.</p>
+
+            <p class="mso-h3" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 72pt; font-weight: normal; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>Schedule A-4: Addendum for Residents in Japan</b></p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%">If you reside in Japan, then the following additional provisions will apply to you:</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>1.&nbsp;&nbsp;&nbsp; Regarding Minor Users</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">If you are a minor, the amount you may spend on paid services (e.g., Virtual Goods or Game Currency) will be subject to limits.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>2.&nbsp;&nbsp;&nbsp; Regarding Prepaid Payment Instruments</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">In the Services, Virtual Goods or Game Currency explicitly designated as prepaid payment instruments on the page titled “Disclosure Based on the Payment Services Act” will be treated as prepaid payment instruments in accordance with the Payment Services Act.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Other virtual items or content not classified as prepaid payment instruments (including paid content obtained using such instruments) shall be deemed services rendered upon acquisition and therefore fall outside the scope of prepaid payment instruments.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>3.&nbsp;&nbsp;&nbsp; Regarding Amendment and Update of Terms</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">We may amend or update these Terms as necessary. When we intend to make such amendments to these Terms, you will be able to review the updated Terms through in-app notifications, announcements on our official website, or other methods we determine. If you continue using the Services after the effective date of the amendment, you will be deemed to have agreed to the updated Terms.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>4.&nbsp;&nbsp;&nbsp; Damages</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">All provisions in Section 14 (Limitation of Liability) limiting our liability shall not apply to damages caused by our intentional misconduct or gross negligence.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%"><b>5.&nbsp;&nbsp;&nbsp; Regarding moral rights in User Content</b></p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">The provisions in these Terms regarding waiver of moral rights shall not apply to you.</p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%">However, you agree not to exercise moral rights (including the right to make a work public, rights of attribution, and integrity) against our company or any third party that succeeds or obtains licenses from us with respect to User Content you create.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>&nbsp;</b></p>
+
+            <p class="MsoListParagraph" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 0cm; line-height: 115%"><b>SCHEDULE B: DISTRIBUTION PLATFORM SPECIFIC TERMS</b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; font-weight: normal; line-height: 115%">
+                <b><span style="line-height: 115%">Schedule B-1: Accessing Services from Apple App Store </span></b>
+            </p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%">Where the Services are made available to you through the Apple App Store, you agree that:</p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">1.&nbsp;&nbsp;&nbsp; These Terms are between you and us, not the Apple App Store, and we (not the Apple App Store), are solely responsible for the Services.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">2.&nbsp;&nbsp;&nbsp; If the Services do not meet its warranties (if any), you may contact the Apple App Store, and they will refund you the purchase price of the Services (if applicable). To the maximum extent permitted by applicable laws, the Apple App Store will have no other warranty obligations whatsoever with respect to the Services. Any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any warranty will be our sole responsibility.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">3.&nbsp;&nbsp;&nbsp; The Apple App Store is not responsible for addressing any claims you have or any claims of any third party relating to the Services or to your possession and use of the Services, including, without limitation: (i)&nbsp;product liability claims; (ii) any claim that the Services fail to conform to any applicable legal or regulatory requirement; or (iii) claims arising under consumer protection or similar legislation.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">4.&nbsp;&nbsp;&nbsp; In the event of any third-party claim that the Services, or your possession and use of the Services, infringe that third party’s intellectual property rights, we will be solely responsible for the investigation, defense, settlement, and discharge of any such intellectual property infringement claim, to the extent required under these Terms.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">5.&nbsp;&nbsp;&nbsp; The Apple App Store, and its subsidiaries, are third party beneficiaries of these Terms. Upon your acceptance of these Terms, the Apple App Store will have the right to enforce these Terms against you as a third-party beneficiary thereof.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-right: 0cm; margin-left: 36pt; margin-top: 0cm; margin-bottom: 0cm">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">6.&nbsp;&nbsp;&nbsp; You must also comply with all applicable third-party terms of service when using the Services.</p>
+
+            <p class="MsoNormal" style="margin-right: 0cm; margin-left: 0cm; margin: 0cm; margin-bottom: 12pt; line-height: 115%"><b>&nbsp;</b></p>
+
+            <p class="mso-h1" style="margin-right: 0cm; margin-left: 0cm; margin-top: 0cm; margin-bottom: 12pt; text-indent: 0cm; font-weight: normal; line-height: 115%">
+                <b><span style="line-height: 115%">Schedule B-2: PlayStation Supplemental Terms</span></b>
+            </p>
+
+            <p class="MsoListParagraphCxSpFirst" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 18pt; text-indent: -18pt; line-height: 115%">1.&nbsp;&nbsp;&nbsp; <u>SIEA.</u> Purchase and use of items are subject to the Network Terms of Service and User Agreement. This online service has been sublicensed to you by Sony Interactive Entertainment America.</p>
+
+            <p class="MsoListParagraphCxSpMiddle" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; line-height: 115%">&nbsp;</p>
+
+            <p class="MsoListParagraphCxSpLast" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 12pt; margin-left: 17.85pt; text-indent: -17.85pt; line-height: 115%">2.&nbsp;&nbsp;&nbsp; <u>SIEE.</u> Any content purchased in an in-game store will be purchased from Sony Interactive Entertainment Network Europe Limited (“SIENE”) and be subject to PlayStation™Network Terms of Service and User Agreement which is available on the PlayStation™Store. Please check usage rights for each purchase as these may differ from item to item. Unless otherwise shown, content available in any in-game store has the same age rating as the game.</p>
+        </article>
+        <script>
+            document.documentElement.addEventListener(
+                "touchstart",
+                function (event) {
+                    if (event.touches.length > 1) {
+                        event.preventDefault();
+                    }
+                },
+                false,
+            );
+            var lastTouchEnd = 0;
+            document.documentElement.addEventListener(
+                "touchend",
+                function (event) {
+                    var now = Date.now();
+                    if (now - lastTouchEnd <= 300) {
+                        event.preventDefault();
+                    }
+                    lastTouchEnd = now;
+                },
+                false,
+            );
+            document.addEventListener("gesturestart", function (event) {
+                event.preventDefault();
+            });
+        </script>
+        <script>
+            (function () {
+                var languages = [
+                    { code: "zh-cn", name: "简体中文" },
+                    { code: "zh-tw", name: "繁体中文" },
+                    { code: "de-de", name: "Deutsch" },
+                    { code: "en-us", name: "English" },
+                    { code: "es-mx", name: "Español" },
+                    { code: "fr-fr", name: "Français" },
+                    { code: "id-id", name: "Bahasa Indonesia" },
+                    { code: "it-it", name: "Italiano" },
+                    { code: "ja-jp", name: "日本語" },
+                    { code: "ko-kr", name: "한국어" },
+                    { code: "pt-br", name: "Português (Brasil)" },
+                    { code: "ru-ru", name: "Русский" },
+                    { code: "th-th", name: "ภาษาไทย" },
+                    { code: "vi-vn", name: "Tiếng Việt" },
+                ];
+
+                var langPattern = /\/([a-z]{2}-[a-z]{2})\//;
+                var currentPath = window.location.pathname;
+                var match = currentPath.match(langPattern);
+                var currentLang = match ? match[1] : "en-us";
+                var currentLangObj =
+                    languages.find(function (l) {
+                        return l.code === currentLang;
+                    }) || languages[3];
+
+                var globeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <path d="M16.5234 21.7129C17.7855 21.7399 18.871 21.8673 19.7935 22.0463C19.6155 22.6142 19.4115 23.1495 19.1825 23.6444C18.4409 25.2466 17.494 26.269 16.5234 26.543V21.7129ZM15.4446 21.7145V26.5336C14.4852 26.2464 13.5511 25.229 12.8176 23.6444C12.5889 23.1504 12.3853 22.616 12.2075 22.0491C13.1201 21.8719 14.1945 21.7448 15.4446 21.7145ZM11.1508 22.293C11.6586 23.9424 12.3621 25.3014 13.1995 26.2442C11.355 25.7424 9.7076 24.7578 8.402 23.4347C8.88374 23.1308 9.77463 22.6646 11.1508 22.293ZM20.8502 22.29C22.2198 22.6595 23.1152 23.1234 23.6043 23.4284C22.2977 24.7547 20.648 25.7416 18.8006 26.2442C19.6384 25.3009 20.3423 23.9408 20.8502 22.29ZM10.2734 16.455C10.3083 18.1854 10.5172 19.808 10.8664 21.253C9.24105 21.6927 8.21012 22.264 7.6764 22.6206C6.30458 20.9153 5.4448 18.7817 5.33337 16.455H10.2734ZM26.6667 16.455C26.5555 18.7771 25.6989 20.9069 24.3318 22.6105C23.7926 22.2504 22.7607 21.6805 21.1359 21.2439C21.4837 19.8011 21.6919 18.1818 21.7267 16.455H26.6667ZM15.4446 16.455V20.6353C14.0849 20.6668 12.9148 20.8083 11.9189 21.0069C11.581 19.6135 11.3865 18.0674 11.3522 16.455H15.4446ZM20.6479 16.455C20.6137 18.0647 20.4197 19.6083 20.0829 20.9999C19.0787 20.8014 17.8974 20.6617 16.5234 20.634V16.455H20.6479ZM7.66333 9.2719C8.19265 9.62908 9.22417 10.2062 10.8603 10.6488C10.5178 12.0749 10.3115 13.6728 10.2742 15.3763H5.33545C5.45534 13.0743 6.30795 10.9635 7.66333 9.2719ZM24.3431 9.27972C25.6948 10.97 26.5449 13.0779 26.6646 15.3762H21.7258C21.6886 13.6734 21.4824 12.076 21.1402 10.6503C22.7725 10.2105 23.8074 9.63741 24.3431 9.27972ZM20.0874 10.8954C20.4183 12.269 20.6103 13.7901 20.6469 15.3762H16.5234V11.2651C17.8989 11.2363 19.0817 11.0951 20.0874 10.8954ZM11.9128 10.8947C12.9097 11.0932 14.0816 11.2342 15.4446 11.2646V15.3762H11.3531C11.3898 13.7898 11.5818 12.2685 11.9128 10.8947ZM16.5234 5.33333C17.494 5.60731 18.4409 6.62974 19.1825 8.23189C19.4146 8.73341 19.621 9.27632 19.8007 9.85277C18.8778 10.0312 17.7905 10.1586 16.5234 10.1863V5.33333ZM15.4446 5.34269V10.1854C14.193 10.1557 13.1162 10.0272 12.2008 9.84805C12.3802 9.27336 12.5861 8.73201 12.8176 8.23183C13.5511 6.64735 14.4852 5.62993 15.4446 5.34269ZM18.8006 5.63214C20.6554 6.13671 22.3109 7.12962 23.6199 8.46397C23.137 8.76881 22.2417 9.23739 20.8572 9.60988C20.3489 7.94856 19.6424 6.57989 18.8006 5.63214ZM13.1995 5.63214C12.3589 6.57852 11.6532 7.94457 11.145 9.60266C9.76433 9.22744 8.86942 8.75695 8.3896 8.45426C9.69717 7.1248 11.3491 6.1355 13.1995 5.63214Z" fill="#D4D8DD"/>
+</svg>`;
+                var arrowIcon = `<svg class="lang-switcher-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path d="M7.28626 11.767C7.60348 12.0777 8.39652 12.0777 8.71374 11.767L13.8884 6.69903C14.2056 6.38835 13.809 6 13.1746 6H2.82538C2.19095 6 1.79443 6.38835 2.11165 6.69903L7.28626 11.767Z" fill="#D9D9D9"/>
+</svg>`;
+                var checkIcon = `<svg class="lang-option-check" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+  <rect width="10" height="10" fill="#CBFF40"/>
+  <path d="M2 2L8 8" stroke="black"/>
+</svg>`;
+                var container = document.createElement("div");
+                container.className = "lang-switcher";
+
+                var btn = document.createElement("div");
+                btn.className = "lang-switcher-btn";
+                btn.innerHTML = globeIcon;
+
+                var dropdown = document.createElement("div");
+                dropdown.className = "lang-dropdown";
+
+                languages.forEach(function (lang) {
+                    var option = document.createElement("a");
+                    option.className = "lang-option" + (lang.code === currentLang ? " active" : "");
+                    var targetUrl = currentPath.replace(langPattern, "/" + lang.code + "/");
+                    option.href = targetUrl;
+                    option.innerHTML = "<span>" + lang.name + "</span>" + checkIcon;
+                    option.addEventListener("click", function (e) {
+                        e.preventDefault();
+                        container.classList.remove("open");
+                        if (lang.code !== currentLang) {
+                            location.replace(targetUrl);
+                        }
+                    });
+                    dropdown.appendChild(option);
+                });
+
+                container.appendChild(btn);
+                container.appendChild(dropdown);
+                document.body.appendChild(container);
+
+                btn.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    container.classList.toggle("open");
+                    if (container.classList.contains("open")) {
+                        var activeOption = dropdown.querySelector(".lang-option.active");
+                        if (activeOption) {
+                            activeOption.scrollIntoView({ block: "center" });
+                        }
+                    }
+                });
+
+                document.addEventListener("click", function (e) {
+                    if (!container.contains(e.target)) {
+                        container.classList.remove("open");
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>

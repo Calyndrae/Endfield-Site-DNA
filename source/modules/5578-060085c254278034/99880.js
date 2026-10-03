@@ -1,0 +1,3 @@
+// module 99880 from 5578-060085c254278034.js
+// deps: 97028
+const module_99880 = (t,e,i)=>{i.d(e,{v:()=>l});var n=i(97028);let s=t=>{let e,i=new Set,n=(t,n)=>{let s="function"==typeof t?t(e):t;if(!Object.is(s,e)){let t=e;e=(null!=n?n:"object"!=typeof s||null===s)?s:Object.assign({},e,s),i.forEach(i=>i(e,t))}},s=()=>e,r={setState:n,getState:s,getInitialState:()=>a,subscribe:t=>(i.add(t),()=>i.delete(t))},a=e=t(n,s,r);return r},r=t=>t?s(t):s,a=t=>t,o=t=>{let e=r(t),i=t=>(function(t,e=a){let i=n.useSyncExternalStore(t.subscribe,()=>e(t.getState()),()=>e(t.getInitialState()));return n.useDebugValue(i),i})(e,t);return Object.assign(i,e),i},l=t=>t?o(t):o};

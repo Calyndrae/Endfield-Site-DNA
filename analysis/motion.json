@@ -1,0 +1,2110 @@
+{
+ "keyframes": [
+  {
+   "name": "RollingContent_carousel__Yi3KP",
+   "file": "0ff6a898df0edefb.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+   "css": "@keyframes RollingContent_carousel__Yi3KP{0%{transform:translateX(0)}80%{transform:translateX(-50%)}to{transform:translateX(-50%)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(0)"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__03-gameplay_flashing__wp7NK",
+   "file": "0ff6a898df0edefb.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+   "css": "@keyframes __03-gameplay_flashing__wp7NK{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "10%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "11%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "20%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "21%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "40%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "41%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "opacity": "1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__04-finalpage_flashing__w5gJk",
+   "file": "1ef245f541070a31.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+   "css": "@keyframes __04-finalpage_flashing__w5gJk{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "10%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "11%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "20%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "21%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "40%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "41%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "opacity": "1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "ScrollViewer_scrollTipMove__4X_XG",
+   "file": "1ef245f541070a31.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+   "css": "@keyframes ScrollViewer_scrollTipMove__4X_XG{0%{transform:translateX(-50%) translateY(0);opacity:0}60%{opacity:1}80%{transform:translateX(-50%) translateY(1.5rem);opacity:0}to{transform:translateX(-50%) translateY(0);opacity:0}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "60%",
+     "declarations": {
+      "opacity": "1"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(1.5rem)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "ScrollViewer_scrollBreathing__ijjPq",
+   "file": "1ef245f541070a31.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+   "css": "@keyframes ScrollViewer_scrollBreathing__ijjPq{0%{transform:scale(1)}50%{transform:scale(1.2)}to{transform:scale(1)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "scale(1)"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "transform": "scale(1.2)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "scale(1)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "OrigQuery_rotate__o1MMK",
+   "file": "3bd8ebba7b8795c3.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+   "css": "@keyframes OrigQuery_rotate__o1MMK{0%{transform:translate3d(-50%,-50%,0) rotate(0deg)}to{transform:translate3d(-50%,-50%,0) rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translate3d(-50%,-50%,0) rotate(0deg)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translate3d(-50%,-50%,0) rotate(1turn)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__00-Loading_fadeIn__CDcQn",
+   "file": "3bd8ebba7b8795c3.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+   "css": "@keyframes __00-Loading_fadeIn__CDcQn{0%{transform:scaleX(0)}to{transform:scaleX(1)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "scaleX(0)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "scaleX(1)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "h5-cn_scrollTipMove__uvZzG",
+   "file": "79293df1a997d2da.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+   "css": "@keyframes h5-cn_scrollTipMove__uvZzG{0%{transform:translateX(-50%) translateY(0);opacity:0}60%{opacity:1}80%{transform:translateX(-50%) translateY(1.5rem);opacity:0}to{transform:translateX(-50%) translateY(0);opacity:0}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "60%",
+     "declarations": {
+      "opacity": "1"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(1.5rem)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "h5-oversea_scrollTipMove__ObqWD",
+   "file": "79293df1a997d2da.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+   "css": "@keyframes h5-oversea_scrollTipMove__ObqWD{0%{transform:translateX(-50%) translateY(0);opacity:0}60%{opacity:1}80%{transform:translateX(-50%) translateY(1.5rem);opacity:0}to{transform:translateX(-50%) translateY(0);opacity:0}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "60%",
+     "declarations": {
+      "opacity": "1"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(1.5rem)",
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%) translateY(0)",
+      "opacity": "0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "swiper-preloader-spin",
+   "file": "89618c72836110eb.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+   "css": "@keyframes swiper-preloader-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "rotate(0deg)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "rotate(1turn)"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__05-Gameplay_flashing__W8_Z1",
+   "file": "dd1a1cedef0d47ea.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+   "css": "@keyframes __05-Gameplay_flashing__W8_Z1{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "10%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "11%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "20%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "21%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "40%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "41%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "opacity": "1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__08-AIC_flashing__pEebW",
+   "file": "dd1a1cedef0d47ea.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+   "css": "@keyframes __08-AIC_flashing__pEebW{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "10%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "11%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "20%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "21%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "40%",
+     "declarations": {
+      "opacity": ".5"
+     }
+    },
+    {
+     "at": "41%",
+     "declarations": {
+      "opacity": "0"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "opacity": "1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "__09-Calendar_downloadBgBreath__9_Ko0",
+   "file": "dd1a1cedef0d47ea.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+   "css": "@keyframes __09-Calendar_downloadBgBreath__9_Ko0{0%,to{background-color:rgba(0,0,0,.42)}50%{background-color:rgba(0,0,0,.62)}}",
+   "steps": [
+    {
+     "at": "0%,to",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.42)"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.62)"
+     }
+    }
+   ]
+  }
+ ],
+ "transitions": [
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_arrow__kIJ1K",
+   "component": "footer",
+   "media": [],
+   "transition": "transform .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".footer_footer__6jTqE .footer_topContainer__sMUtI .footer_languageItem__TXB_u .footer_dropDown__SAbib",
+   "component": "footer",
+   "media": [],
+   "transition": "opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__00-landing_container__0qC45 .__00-landing_actButton__nKJ8J .__00-landing_inner__84DYj .__00-landing_icon__X7l3X",
+   "component": "__00-landing",
+   "media": [],
+   "animation": "__00-landing_activityShake__gr1Yi 2s ease-in-out infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L",
+   "component": "Pagination",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L:before",
+   "component": "Pagination",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L .Pagination_arrow__xgX6n",
+   "component": "Pagination",
+   "media": [],
+   "transition": "color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_carousel__A3MAp .Pagination_block__RqQAA",
+   "component": "Pagination",
+   "media": [],
+   "transition": "transform .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv",
+   "component": "SubpageTab",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_text__x2QY7",
+   "component": "SubpageTab",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv .SubpageTab_arrow__vyyID",
+   "component": "SubpageTab",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh",
+   "component": "HomeButton",
+   "media": [],
+   "transition": "border-color .2s ease,background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_divider__HuFEb",
+   "component": "HomeButton",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb",
+   "component": "BackButton",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_arrowBlock__6yIDQ .SectionTitle_inner__gfAIX",
+   "component": "SectionTitle",
+   "media": [],
+   "transition": "transform .5s ease-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SectionTitle_sectionTitle__tAFPG .SectionTitle_arrowBlock__6yIDQ .SectionTitle_inner__gfAIX .SectionTitle_arrow__qXHl7",
+   "component": "SectionTitle",
+   "media": [],
+   "transition": "transform .2s ease-out .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-gameplay_sectionContainer__Pq_YT .__03-gameplay_decoLeft__ChtBC.__03-gameplay_active__3tTB7",
+   "component": "__03-gameplay",
+   "media": [],
+   "animation": "__03-gameplay_flashing__wp7NK 1s ease-out forwards",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a",
+   "component": "__03-Lore",
+   "media": [],
+   "transition": "transform .3s,background-color .3s,box-shadow .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a",
+   "component": "__03-Lore",
+   "media": [],
+   "transition": "transform .3s,background-color .3s,box-shadow .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_backButton__c5SKD",
+   "component": "__21-ProtocolDetail",
+   "media": [],
+   "transition": "opacity .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__04-finalpage_sectionContainer__w2kZ2 .__04-finalpage_decoLeft__cC0X5.__04-finalpage_active__lB_h5",
+   "component": "__04-finalpage",
+   "media": [],
+   "animation": "__04-finalpage_flashing__w5gJk 1s ease-out forwards",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".ScrollViewer_container__wn7Yp .ScrollViewer_footer__zem0G .ScrollViewer_scroll__tAflQ",
+   "component": "ScrollViewer",
+   "media": [],
+   "animation": "ScrollViewer_scrollTipMove__4X_XG 1.6s infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".Toast_toast__ZnoVW",
+   "component": "Toast",
+   "media": [],
+   "transition": "opacity .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_imageWrapper__VQJjG:after",
+   "component": "__10-NoticeList",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_title__cALu9 .__20-NoticeDetail_close__SEu18",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_backButton__pWmC1",
+   "component": "__20-NoticeDetail",
+   "media": [],
+   "transition": "opacity .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Media_mediaModal__4NhcG",
+   "component": "Media",
+   "media": [],
+   "transition": "opacity .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Media_mediaModal__4NhcG .Media_modalContainer__IJFBx .Media_closeBtn__PlFHw .Media_closeIcon__4PSl6",
+   "component": "Media",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS",
+   "component": "Button",
+   "media": [],
+   "transition": "color .2s ease,background-color .2s ease,border-radius .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS:before",
+   "component": "Button",
+   "media": [],
+   "transition": "border-radius .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS:after",
+   "component": "Button",
+   "media": [],
+   "transition": "clip-path .2s ease,transform .2s ease,-webkit-clip-path .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9",
+   "component": "ModalFrame",
+   "media": [],
+   "transition": "transform .2s ease-in-out,color .2s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao",
+   "component": "OrigQuery",
+   "media": [],
+   "transition": "opacity .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr .OrigQuery_switch__SsQv5",
+   "component": "OrigQuery",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_loadingIcon__LRyX3",
+   "component": "OrigQuery",
+   "media": [],
+   "animation": "OrigQuery_rotate__o1MMK 1.5s linear infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np",
+   "component": "ReserveModal",
+   "media": [],
+   "transition": "opacity .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5",
+   "component": "ReserveModal",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5 .ReserveModal_switchButton__bvJDg .ReserveModal_switchIcon__rDoCl",
+   "component": "ReserveModal",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_ratio__V6W8W",
+   "component": "ReserveModal",
+   "media": [],
+   "transition": "background-color .2s ease,border-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_ratio__V6W8W:before",
+   "component": "ReserveModal",
+   "media": [],
+   "transition": "transform .2s ease,background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".UserModal_userModal__DfHfK",
+   "component": "UserModal",
+   "media": [],
+   "transition": "opacity .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l:before",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_logo__s3lE_",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_logo__s3lE_.Header_oversea__kRwH0",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s,width .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB:before",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s,transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB .Header_textWrapper__o9aHt",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s,transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_overlay__33Sha",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s,height .3s,width .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameBg__2UVLH",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s,width .3s,height .3s,border-radius .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu:before",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu .Header_textWrapper__o9aHt",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s,transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_divider__tUYjO",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT",
+   "component": "Header",
+   "media": [],
+   "transition": "width .3s,height .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT.Header_oversea__kRwH0 .Header_tri__KNP87",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_bg___kVDv",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:before",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s,background-color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s,opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_tri__KNP87",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_divider__tUYjO",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s,opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_divider2__mVfPt",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s,opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT .Header_text2__cuV15",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s,opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShareBg__Tabt5",
+   "component": "Header",
+   "media": [],
+   "transition": "width .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_shareListDetailActive__2PFIU",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_shareListDetailActive__2PFIU .Header_shareItem__KBnsC",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s,opacity .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_ .Header_shareIcon__dqsKL",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_ .Header_shareList__aQRkr",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .3s,transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_ .Header_shareList__aQRkr .Header_shareItem__KBnsC",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_switcher__JVzJX",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_logo__s3lE_",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF .Header_tri__KNP87",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF .Header_divider__tUYjO",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj",
+   "component": "Header",
+   "media": [],
+   "transition": "transform .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_menuButtons__IRjCZ .Header_mute__M03P_ .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [],
+   "transition": "color .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_divider__tUYjO",
+   "component": "Header",
+   "media": [],
+   "transition": "background-color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_text__52fEh",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5Menu__Tl_yj .Header_navList__r2BGN .Header_menuItem__14H7f .Header_arrow__LqT52",
+   "component": "Header",
+   "media": [],
+   "transition": "color .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_trigger__FIaPM",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .3s,visibility .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l:before",
+   "component": "Header",
+   "media": [],
+   "transition": "width .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO",
+   "component": "Header",
+   "media": [],
+   "transition": "opacity .3s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd",
+   "component": "__00-Loading",
+   "media": [],
+   "transition": "opacity 1s 1.4s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__00-Loading_container__aBijT.__00-Loading_leaving__IKIPd:after",
+   "component": "__00-Loading",
+   "media": [],
+   "animation": "__00-Loading_fadeIn__CDcQn .6s cubic-bezier(1,0,.7,1) .5s forwards",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_:before",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .4s ease .2s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_:after",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .3s ease .4s,opacity .3s ease .4s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_ .__02-Operator_dividerSubtitle__bTAer",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .3s ease .5s,opacity .3s ease .5s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionDivider__PbN7_ .__02-Operator_dividerTitle__yHdrt",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .3s ease .6s,opacity .3s ease .6s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_switchLayer__T81bw .__02-Operator_switcher3d__I_Eai",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "background-color .2s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_pcContainer___7vsU .__02-Operator_switchLayer__T81bw .__02-Operator_switcher3d__I_Eai:before",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .2s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "clip-path .3s ease,-webkit-clip-path .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .4s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_switcher3d__I_Eai",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_h5Container__KAmr7 .__02-Operator_drawerWrapper__gYsbO .__02-Operator_contentContainer__4GC_U .__02-Operator_switcher3d__I_Eai:before",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .2s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_:before",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_ .__02-Operator_arrow__CeR6Q",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_itemContainer__1m60G .__02-Operator_switchItem__GlihQ",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "transform .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_itemContainer__1m60G .__02-Operator_switchItem__GlihQ .__02-Operator_border__rjZXw",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "border-color .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_itemContainer__1m60G .__02-Operator_switchItem__GlihQ .__02-Operator_activeBg__f2spf",
+   "component": "__02-Operator",
+   "media": [],
+   "transition": "opacity .3s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".scrollBar___MUDzO",
+   "component": null,
+   "media": [],
+   "transition": "opacity .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".scrollBar___MUDzO .thumb___AIenX",
+   "component": null,
+   "media": [],
+   "transition": "height .3s ease .3s,width .3s ease .3s,opacity .3s linear,transform .05s linear",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".scrollBar___MUDzO.dragging___qTw89 .thumb___AIenX",
+   "component": null,
+   "media": [],
+   "transition": "height .3s ease .3s,width .3s ease .3s,opacity .3s linear",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq",
+   "component": "downloader",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq",
+   "component": "downloader",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-cn_scrollTip__pTvfQ",
+   "component": "h5-cn",
+   "media": [],
+   "animation": "h5-cn_scrollTipMove__uvZzG 1.6s infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".h5-oversea_scrollTip__EZxdL",
+   "component": "h5-oversea",
+   "media": [],
+   "animation": "h5-oversea_scrollTipMove__ObqWD 1.6s infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_button__iybS6",
+   "component": "pc-cn",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_cloudGameButton__iFD48:after",
+   "component": "pc-cn",
+   "media": [],
+   "transition": "clip-path .3s ease,-webkit-clip-path .3s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".swiper-watch-progress .swiper-slide-visible .swiper-lazy-preloader,.swiper:not(.swiper-watch-progress) .swiper-lazy-preloader",
+   "component": null,
+   "media": [],
+   "animation": "swiper-preloader-spin 1s linear infinite",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_bgVideo__UjdV5 video",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "opacity .6s",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_infoVideo__p2Hg9 .__04-Information_coverBox__Gfhd_",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "filter .3s ease-out,transform .3s ease-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_infoVideo__p2Hg9 .__04-Information_coverBox__Gfhd_ .__04-Information_mask__A6_HD",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "opacity .3s ease-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoVideos__iDIo3 .__04-Information_infoVideo__p2Hg9 .__04-Information_coverBox__Gfhd_:after",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "opacity .3s ease-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_buttons__Wh_5d .__04-Information_playBtn__pFvtR",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "background-color .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_buttons__Wh_5d .__04-Information_playBtn__pFvtR:after",
+   "component": "__04-Information",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP",
+   "component": "Dropdown",
+   "media": [],
+   "transition": "border-color .15s ease,background .15s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_arrow__gjWRH",
+   "component": "Dropdown",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_panel__ujBcP",
+   "component": "Dropdown",
+   "media": [],
+   "transition": "opacity .15s ease,visibility .15s ease,transform .15s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe",
+   "component": "Dropdown",
+   "media": [],
+   "transition": "background .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe .Dropdown_bg__0iRXw",
+   "component": "Dropdown",
+   "media": [],
+   "transition": "opacity .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu",
+   "component": "OperatorItem",
+   "media": [],
+   "transition": "transform .2s ease",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__05-Gameplay_sectionContainer__LN64O .__05-Gameplay_decoLeft__u4hlT.__05-Gameplay_active__Ers8s",
+   "component": "__05-Gameplay",
+   "media": [],
+   "animation": "__05-Gameplay_flashing__W8_Z1 1s ease-out forwards",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".Carousel_item__85leB",
+   "component": "Carousel",
+   "media": [],
+   "transition": "transform .4s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_noticeItem__7v58F",
+   "component": "__06-Notice",
+   "media": [],
+   "transition": "transform .4s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__06-Notice_sectionContainer__2x0Mi .__06-Notice_noticeItem__7v58F:after",
+   "component": "__06-Notice",
+   "media": [],
+   "transition": "opacity .4s ease-in-out",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__08-AIC_sectionContainer__XPJyn .__08-AIC_decoLeft__MF4oy.__08-AIC_active__DvdWI",
+   "component": "__08-AIC",
+   "media": [],
+   "animation": "__08-AIC_flashing__pEebW 1s ease-out forwards",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  }
+ ],
+ "hoverRules": [
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L:not(.Pagination_disabled__WlgMt):hover",
+   "component": "Pagination",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L:not(.Pagination_disabled__WlgMt):hover:before",
+   "component": "Pagination",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".Pagination_pagination__3IDBu .Pagination_button__cVH8L:not(.Pagination_disabled__WlgMt):active",
+   "component": "Pagination",
+   "media": [],
+   "declarations": {
+    "background-color": "#eeea00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".SubpageTab_subpageTab__A3JdU .SubpageTab_tab__qSWqv:hover",
+   "component": "SubpageTab",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#f3f3f3"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:hover",
+   "component": "HomeButton",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-color": "#efe701"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:hover .HomeButton_divider__HuFEb",
+   "component": "HomeButton",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#efe701"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:active",
+   "component": "HomeButton",
+   "media": [],
+   "declarations": {
+    "border-color": "#e6de01"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:active .HomeButton_divider__HuFEb",
+   "component": "HomeButton",
+   "media": [],
+   "declarations": {
+    "background-color": "#e6de01"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:hover",
+   "component": "HomeButton",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-color": "#aaa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:hover .HomeButton_divider__HuFEb",
+   "component": "HomeButton",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#aaa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:active",
+   "component": "HomeButton",
+   "media": [],
+   "declarations": {
+    "border-color": "#999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:active .HomeButton_divider__HuFEb",
+   "component": "HomeButton",
+   "media": [],
+   "declarations": {
+    "background-color": "#999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb:hover",
+   "component": "BackButton",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#626262"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".BackButton_backButton__5Hmrb:active",
+   "component": "BackButton",
+   "media": [],
+   "declarations": {
+    "background-color": "#282828"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__21-ProtocolDetail_sectionContainer__XZ_gX .__21-ProtocolDetail_contentContainer__VjiZj .__21-ProtocolDetail_innerContainer__olPvO .__21-ProtocolDetail_title__8PgRe .__21-ProtocolDetail_close__EjUMQ:hover",
+   "component": "__21-ProtocolDetail",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+  },
+  {
+   "selector": ".__10-NoticeList_sectionContainer__tmyCM .__10-NoticeList_items___hNGg .__10-NoticeList_item__W4sd2 .__10-NoticeList_imageWrapper__VQJjG:hover:after",
+   "component": "__10-NoticeList",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/2174f0c4d179760f.css"
+  },
+  {
+   "selector": ".__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_title__cALu9 .__20-NoticeDetail_close__SEu18:hover",
+   "component": "__20-NoticeDetail",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Media_mediaModal__4NhcG .Media_modalContainer__IJFBx .Media_closeBtn__PlFHw:hover .Media_closeIcon__4PSl6",
+   "component": "Media",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS.Button_light__kRD_6:hover",
+   "component": "Button",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#000",
+    "background-color": "#f0f0f0",
+    "border-radius": "6px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS:hover",
+   "component": "Button",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#fff",
+    "background-color": "#484848",
+    "border-radius": "6px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS:hover:before",
+   "component": "Button",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-radius": "6px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Button_button__njqVS:hover:after",
+   "component": "Button",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "-webkit-clip-path": "polygon(0 20%,100% 50%,0 80%,0 80%)",
+    "clip-path": "polygon(0 20%,100% 50%,0 80%,0 80%)",
+    "transform": "translateX(.875rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9:hover",
+   "component": "ModalFrame",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "translate3d(0,-50%,0) rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9:active",
+   "component": "ModalFrame",
+   "media": [],
+   "declarations": {
+    "color": "#ccc"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr .OrigQuery_switch__SsQv5:hover",
+   "component": "OrigQuery",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#f8f8f8"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".OrigQuery_origQueryModal__yXuao .OrigQuery_modalContainer__SeaVs .OrigQuery_contentFrame__Aaey7 .OrigQuery_header__fdXz_ .OrigQuery_userInfo__83Rwr .OrigQuery_switch__SsQv5:active",
+   "component": "OrigQuery",
+   "media": [],
+   "declarations": {
+    "background-color": "#e5e5e5"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5:hover",
+   "component": "ReserveModal",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#d9d9d9"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5:hover .ReserveModal_switchButton__bvJDg .ReserveModal_switchIcon__rDoCl",
+   "component": "ReserveModal",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "translate3d(-50%,-50%,0) rotate(180deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_currentAccount__ecR_Z .ReserveModal_switch__T84S5:active",
+   "component": "ReserveModal",
+   "media": [],
+   "declarations": {
+    "background-color": "#cecece"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ReserveModal_reserveModal__xb3np .ReserveModal_modalContainer__qRKaz .ReserveModal_contentContainer__PuFL0 .ReserveModal_platforms__3_Erb .ReserveModal_platform__MFmJ7 .ReserveModal_ratio__V6W8W:hover",
+   "component": "ReserveModal",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#d9d9d9"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l.Header_detailActive__ngqkN .Header_navItem__c_fLB:not(.Header_active__jzCyf):hover:before",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l.Header_detailActive__ngqkN .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu:hover:before",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_navItem__c_fLB:hover .Header_icon__3iDIG",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#858585"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonFrameContainer__Uvshp .Header_button__b0gdu .Header_icon__3iDIG:hover",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#424242"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_bg___kVDv",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_tri__KNP87",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_divider2__mVfPt,.Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_divider__tUYjO",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_text2__cuV15,.Header_pcHeaderContainer__Sy_8l .Header_buttonPreserveBg__rEZGT:hover .Header_text__52fEh",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_shareListDetailActive__2PFIU .Header_shareItem__KBnsC:hover",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_ .Header_shareList__aQRkr .Header_shareItem__KBnsC:hover",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_:hover",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_:hover .Header_shareIcon__dqsKL",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_pcHeaderContainer__Sy_8l .Header_buttonShare__ml1S_:hover .Header_shareList__aQRkr",
+   "component": "Header",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1",
+    "pointer-events": "auto",
+    "transform": "translate3d(0,-50%,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_h5HeaderContainer__ctquk .Header_buttonGroup___Z1Nk .Header_preserveButton__StJCF:active",
+   "component": "Header",
+   "media": [],
+   "declarations": {
+    "filter": "brightness(.95)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO.Header_active__jzCyf,.Header_langs__ERYvg .Header_dropDown__YJW7l .Header_langItem__JNQaO:hover,.Header_langs__ERYvg:hover .Header_trigger__FIaPM",
+   "component": "Header",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg:hover .Header_dropDown__YJW7l",
+   "component": "Header",
+   "media": [],
+   "declarations": {
+    "opacity": "1",
+    "visibility": "visible"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg:hover .Header_dropDown__YJW7l:before",
+   "component": "Header",
+   "media": [],
+   "declarations": {
+    "width": "50%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".Header_langs__ERYvg:hover .Header_dropDown__YJW7l:before",
+   "component": "Header",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "25%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN:hover",
+   "component": "__02-Operator",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#626262"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN:active",
+   "component": "__02-Operator",
+   "media": [],
+   "declarations": {
+    "background-color": "#282828"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_:not(.__02-Operator_disabled___VWxP):hover",
+   "component": "__02-Operator",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_:not(.__02-Operator_disabled___VWxP):hover:before",
+   "component": "__02-Operator",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_button__m3eA_:not(.__02-Operator_disabled___VWxP):active",
+   "component": "__02-Operator",
+   "media": [],
+   "declarations": {
+    "background-color": "#eeea00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".__02-Operator_operatorSwitcher__mVB3Y .__02-Operator_itemContainer__1m60G .__02-Operator_switchItem__GlihQ:hover .__02-Operator_border__rjZXw",
+   "component": "__02-Operator",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-color": "#fffa00",
+    "border-width": "2px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq:hover",
+   "component": "downloader",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#222"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".downloader_item__ebxpq:active",
+   "component": "downloader",
+   "media": [],
+   "declarations": {
+    "background-color": "#333"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq:hover",
+   "component": "downloader",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#222"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .downloader_item__ebxpq:active",
+   "component": "downloader",
+   "media": [],
+   "declarations": {
+    "background-color": "#333"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_button__iybS6:hover",
+   "component": "pc-cn",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#222"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_button__iybS6:active",
+   "component": "pc-cn",
+   "media": [],
+   "declarations": {
+    "background-color": "#333"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".pc-cn_cloudGameButton__iFD48:hover:after",
+   "component": "pc-cn",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "-webkit-clip-path": "polygon(0 0,100% 0,100% 100%,0 100%)",
+    "clip-path": "polygon(0 0,100% 0,100% 100%,0 100%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_buttons__Wh_5d .__04-Information_playBtn__pFvtR:hover",
+   "component": "__04-Information",
+   "media": [],
+   "declarations": {
+    "background-color": "#fafafa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".__04-Information_sectionContainer__OXMtV .__04-Information_infoCurrent__Hcu3q .__04-Information_buttons__Wh_5d .__04-Information_playBtn__pFvtR:hover:after",
+   "component": "__04-Information",
+   "media": [],
+   "declarations": {
+    "transform": "scale(1.25)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP:hover",
+   "component": "Dropdown",
+   "media": [],
+   "declarations": {
+    "border-color": "hsla(0,0%,100%,.45)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_trigger__mA0mP:focus-visible",
+   "component": "Dropdown",
+   "media": [],
+   "declarations": {
+    "outline": "2px solid rgba(255,204,26,.85)",
+    "outline-offset": "2px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".Dropdown_option__fXjKe:hover",
+   "component": "Dropdown",
+   "media": [],
+   "declarations": {
+    "background": "rgba(0,0,0,.06)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu:hover",
+   "component": "OperatorItem",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "translateY(-.5rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  }
+ ]
+}

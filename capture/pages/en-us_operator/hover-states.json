@@ -1,0 +1,283 @@
+[
+ {
+  "page": "en-us_operator",
+  "cls": "Media_modalContainer__IJFBx",
+  "error": "Error: elementHandle.hover: Element is outside of the viewport\nCall log:\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    - "
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_navItem__c_fLB",
+  "diff": {
+   "svg#2#0": {
+    "color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    },
+    "border-color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    }
+   },
+   "path#3#0": {
+    "color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    },
+    "border-color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    }
+   }
+  },
+  "transition": "transform 0.3s, width 0.3s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_icon__3iDIG",
+  "diff": {
+   "svg#0#0": {
+    "color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    },
+    "border-color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    }
+   },
+   "path#1#0": {
+    "color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    },
+    "border-color": {
+     "before": "rgb(217, 217, 217)",
+     "after": "rgb(133, 133, 133)"
+    }
+   }
+  },
+  "transition": "color 0.2s, transform 0.3s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_buttonPreserveBg__rEZGT",
+  "diff": {
+   "Header_bg___kVDv#1#0": {
+    "opacity": {
+     "before": "0",
+     "after": "1"
+    }
+   },
+   "svg#1#1": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "path#2#0": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "Header_divider__tUYjO#1#2": {
+    "background-color": {
+     "before": "rgba(255, 255, 255, 0.3)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "Header_divider2__mVfPt#1#3": {
+    "background-color": {
+     "before": "rgba(255, 255, 255, 0.3)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "Header_text__52fEh#1#4": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "Header_text2__cuV15#1#5": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "width 0.3s, height 0.3s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_bg___kVDv",
+  "diff": {
+   "Header_bg___kVDv#0#0": {
+    "opacity": {
+     "before": "0",
+     "after": "1"
+    }
+   }
+  },
+  "transition": "opacity 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_tri__KNP87",
+  "diff": {
+   "svg#0#1": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "path#1#0": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "transform 0.3s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_divider2__mVfPt",
+  "diff": {
+   "Header_divider2__mVfPt#0#3": {
+    "background-color": {
+     "before": "rgba(255, 255, 255, 0.3)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "background-color 0.3s, opacity 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_text2__cuV15",
+  "diff": {
+   "Header_text2__cuV15#0#5": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "color 0.3s, opacity 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_text__52fEh",
+  "diff": {
+   "Header_text__52fEh#0#4": {
+    "color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "color 0.3s, opacity 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_shareListDetailActive__2PFIU",
+  "diff": {
+   "svg#1#3": {
+    "color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "opacity 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Header_shareItem__KBnsC",
+  "diff": {
+   "svg#0#0": {
+    "color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    }
+   },
+   "path#1#0": {
+    "color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    },
+    "border-color": {
+     "before": "rgb(179, 179, 179)",
+     "after": "rgb(25, 25, 25)"
+    }
+   }
+  },
+  "transition": "color 0.2s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "Dropdown_trigger__mA0mP",
+  "diff": {
+   "Dropdown_trigger__mA0mP#0#0": {
+    "border-color": {
+     "before": "rgb(255, 255, 255)",
+     "after": "rgba(255, 255, 255, 0.45)"
+    }
+   }
+  },
+  "transition": "border-color 0.15s, background 0.15s"
+ },
+ {
+  "page": "en-us_operator",
+  "cls": "OperatorItem_operatorItem__gPezu",
+  "diff": {
+   "OperatorItem_operatorItem__gPezu#0#0": {
+    "transform": {
+     "before": "none",
+     "after": "matrix(1, 0, 0, 1, 0, -4.5)"
+    }
+   }
+  },
+  "transition": "transform 0.2s"
+ }
+]

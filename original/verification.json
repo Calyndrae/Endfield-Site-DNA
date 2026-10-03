@@ -1,0 +1,30 @@
+{
+  "desktop": {
+    "title": "Endfield website \u2014 technical handbook / 29 sections",
+    "content_nodes": 1057,
+    "styles": [
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1ef245f541070a31.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/79293df1a997d2da.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/6b6d9a58b4c43339.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/5db72e0ba5b54b39.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/89618c72836110eb.css",
+      "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+    ],
+    "body_style": {
+      "font": "sans-serif",
+      "size": "14.625px",
+      "margin": "9px"
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "horizontal_overflow": false
+  },
+  "errors": [
+    "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+  ],
+  "native_provider_refresh": "local handbook bulletin received"
+}

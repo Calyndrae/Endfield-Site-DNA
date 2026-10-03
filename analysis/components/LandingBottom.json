@@ -1,0 +1,306 @@
+{
+ "component": "LandingBottom",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "container": "LandingBottom_container__BGiWo",
+  "wrapper": "LandingBottom_wrapper__XOv33",
+  "top": "LandingBottom_top__d283b",
+  "iconBg": "LandingBottom_iconBg___1PmE",
+  "icon": "LandingBottom_icon__AtXNn",
+  "ad": "LandingBottom_ad__OEMCa",
+  "ark": "LandingBottom_ark__LpbVt",
+  "gameDesc": "LandingBottom_gameDesc__sVnxi",
+  "mid": "LandingBottom_mid__owTBW",
+  "content": "LandingBottom_content__sxeQ_",
+  "downloadBtn": "LandingBottom_downloadBtn__E_1hx",
+  "bottom": "LandingBottom_bottom__lql7R",
+  "tips": "LandingBottom_tips__dxjiW"
+ },
+ "ruleCount": 20,
+ "rules": [
+  {
+   "selector": ".LandingBottom_container__BGiWo",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "0",
+    "width": "100%",
+    "height": "9.56rem",
+    "padding-top": "2.625rem",
+    "z-index": "2",
+    "display": "flex",
+    "justify-content": "center",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/02Bg.21971ce1.jpg)",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "background-position": "50%",
+    "opacity": "1",
+    "transform": "translateZ(1px)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "10.5rem",
+    "display": "flex",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "width": "calc(100% - 26rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "end",
+    "position": "absolute",
+    "top": "-4.4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "-4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_iconBg___1PmE",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "width": "4.375rem",
+    "height": "4.375rem",
+    "background-color": "#000",
+    "margin-right": "1.56rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_iconBg___1PmE:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "bottom": ".5625rem",
+    "right": "-1rem",
+    "width": ".375rem",
+    "height": ".375rem",
+    "background-color": "#000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_iconBg___1PmE:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "bottom": "1.5625rem",
+    "right": "-1rem",
+    "width": ".375rem",
+    "height": ".375rem",
+    "background-color": "#000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_iconBg___1PmE .LandingBottom_icon__AtXNn",
+   "media": [],
+   "declarations": {
+    "width": "3.44rem",
+    "height": "3.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa",
+   "media": [],
+   "declarations": {
+    "transform": "translateY(.2rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_ark__LpbVt",
+   "media": [],
+   "declarations": {
+    "font-family": "Novecentosanswide-Medium",
+    "font-size": "1rem",
+    "color": "#1f1f1f"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_top__d283b .LandingBottom_ad__OEMCa .LandingBottom_gameDesc__sVnxi",
+   "media": [],
+   "declarations": {
+    "font-family": "SansBlack",
+    "font-size": "2rem",
+    "font-weight": "700",
+    "letter-spacing": "-1px",
+    "color": "#2e2e2e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_content__sxeQ_",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center",
+    "background-color": "#fff",
+    "flex": "1 1",
+    "height": "6.75rem",
+    "padding-left": "1.375rem",
+    "font-family": "SansBold",
+    "font-size": "4.75rem",
+    "letter-spacing": "-1px",
+    "color": "#141414"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_content__sxeQ_",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "31.25rem",
+    "height": "5.375rem",
+    "margin-right": "1.75rem",
+    "font-size": "2.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_downloadBtn__E_1hx",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "width": "38.125rem",
+    "height": "6.75rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnPc.e0af4878.png)",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "background-position": "50%",
+    "font-family": "SansBold",
+    "font-size": "2.5125rem",
+    "letter-spacing": "-1px",
+    "color": "#fffa00",
+    "cursor": "pointer"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_mid__owTBW .LandingBottom_downloadBtn__E_1hx",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/downloadBtnH5.9894d510.png)",
+    "width": "30.3125rem",
+    "height": "5.375rem",
+    "font-size": "2.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_bottom__lql7R",
+   "media": [],
+   "declarations": {
+    "padding-top": ".4375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".LandingBottom_container__BGiWo .LandingBottom_wrapper__XOv33 .LandingBottom_bottom__lql7R .LandingBottom_tips__dxjiW",
+   "media": [],
+   "declarations": {
+    "width": "7.81rem",
+    "height": "1.19rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/tips.ca2b781c.png)",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "background-position": "50%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#000",
+   "#1f1f1f",
+   "#2e2e2e",
+   "#fff",
+   "#141414",
+   "#fffa00"
+  ],
+  "fonts": [
+   "Novecentosanswide-Medium",
+   "SansBlack",
+   "SansBold"
+  ],
+  "fontSizes": [
+   "1rem",
+   "2rem",
+   "4.75rem",
+   "2.125rem",
+   "2.5125rem"
+  ],
+  "zIndex": [
+   "2"
+  ],
+  "transitions": []
+ }
+}

@@ -1,0 +1,702 @@
+{
+ "component": "__09-Calendar",
+ "files": [
+  "dd1a1cedef0d47ea.css"
+ ],
+ "classes": {
+  "sectionContainer": "__09-Calendar_sectionContainer__MrVnT",
+  "stickContainer": "__09-Calendar_stickContainer__Ef8z3",
+  "stickFixed": "__09-Calendar_stickFixed__PESTi",
+  "stickBottom": "__09-Calendar_stickBottom__MB7kM",
+  "title": "__09-Calendar_title__WtlTA",
+  "timeline": "__09-Calendar_timeline__LmxeL",
+  "calendar": "__09-Calendar_calendar__iWel6",
+  "calendarContainer": "__09-Calendar_calendarContainer___SWPw",
+  "calendarScroll": "__09-Calendar_calendarScroll__dPeKx",
+  "scrollContainer": "__09-Calendar_scrollContainer__fzRVm",
+  "content": "__09-Calendar_content__nTQyh",
+  "timeScrollContainer": "__09-Calendar_timeScrollContainer__VIpNe",
+  "timelineScroll": "__09-Calendar_timelineScroll__5Xkis",
+  "calendarH5": "__09-Calendar_calendarH5__un6It"
+ },
+ "ruleCount": 23,
+ "rules": [
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "max-content",
+    "padding": "6rem 0 2rem",
+    "box-sizing": "border-box"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickContainer__Ef8z3",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "calc(50% - 66.5625rem)",
+    "width": "142.8125rem",
+    "z-index": "1",
+    "opacity": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickContainer__Ef8z3",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "background-image": "linear-gradient(0deg,rgba(255,255,255,0) 0,rgb(255,255,255) 1.25rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickContainer__Ef8z3",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "position": "relative",
+    "left": "0",
+    "width": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickFixed__PESTi",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "position": "fixed !important",
+    "top": "0",
+    "z-index": "2"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_stickBottom__MB7kM",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "position": "absolute !important",
+    "top": "auto",
+    "left": "calc(50% - 66.5625rem)",
+    "bottom": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_title__WtlTA",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "141.375rem",
+    "height": "auto",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_title__WtlTA",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "10rem",
+    "width": "63.75rem",
+    "object-fit": "cover",
+    "object-position": "left center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .__09-Calendar_sectionContainer__MrVnT .__09-Calendar_title__WtlTA",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "auto",
+    "width": "63.75rem",
+    "object-fit": "unset",
+    "object-position": "unset"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_timeline__LmxeL",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "left": "-7rem",
+    "width": "148.5rem",
+    "height": "auto",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "100% 100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_timeline__LmxeL",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendar__iWel6",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "opacity": "0",
+    "width": "141.375rem",
+    "height": "auto",
+    "margin-top": "25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendar__iWel6",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarContainer___SWPw",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "padding-left": "calc(50% - 66.5625rem)",
+    "box-sizing": "border-box"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarContainer___SWPw",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding-left": "calc(50% - 31.25rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "margin": "0 0 4rem",
+    "height": "128rem",
+    "width": "63.75rem",
+    "opacity": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_scrollContainer__fzRVm",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "99.46rem",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_content__nTQyh",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "display": "flex",
+    "justify-content": "center",
+    "width": "99.46rem",
+    "min-width": "max-content"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_content__nTQyh .__09-Calendar_timeScrollContainer__VIpNe",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "99.46rem",
+    "height": "2.8rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_content__nTQyh .__09-Calendar_timelineScroll__5Xkis",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "-4.9rem",
+    "width": "104.45rem",
+    "height": "auto",
+    "z-index": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".__09-Calendar_sectionContainer__MrVnT .__09-Calendar_calendarScroll__dPeKx .__09-Calendar_calendarH5__un6It",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "width": "99.46rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  }
+ ],
+ "markup": "<div class=\"__09-Calendar_sectionContainer__MrVnT\"><div class=\"__09-Calendar_calendarContainer___SWPw\"><div class=\"__09-Calendar_stickContainer__Ef8z3\"><div style=\"position: relative;\"><img class=\"__09-Calendar_title__WtlTA\" alt=\"calendar.title\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/title.035c43cb.png\"></div><img class=\"__09-Calendar_timeline__LmxeL\" alt=\"calendar.timeline\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png\"></div><img class=\"__09-Calendar_calendar__iWel6\" alt=\"calendar.content\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.7229aa33.jpg\" style=\"margin-top: 319.141px;\"><div class=\"scroll___FG4DS __09-Calendar_calendarScroll__dPeKx\" data-direction=\"x\"><div class=\"content___fxCya\"><div class=\"contentWrapper___UanRy\" style=\"height: 100%; mask: none;\"><div class=\"inner___c_1NH\" style=\"height: 100%;\"><div class=\"__09-Calendar_content__nTQyh\"><div class=\"__09-Calendar_scrollContainer__fzRVm\"><div class=\"__09-Calendar_timeScrollContainer__VIpNe\"><img class=\"__09-Calendar_timelineScroll__5Xkis\" alt=\"calendar.timeline\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/timeline.e410e036.png\"> </div><img class=\"__09-Calendar_calendarH5__un6It\" alt=\"calendar.content\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/content.7229aa33.jpg\"></div></div></div></div></div></div></div></div>",
+ "markupPage": "en-us",
+ "markupClass": "__09-Calendar_sectionContainer__MrVnT",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "__09-Calendar_calendarContainer___SWPw": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 3604.5,
+    "width": 1372.5,
+    "height": 1917.625,
+    "top": 3604.5,
+    "right": 1440,
+    "bottom": 5522.125,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "1917.62px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "0px 0px 0px 87.1875px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_calendarH5__un6It": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "display": "inline",
+   "width": "895.14px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_calendarScroll__dPeKx": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "width": "573.75px",
+   "height": "1152px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "0",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "0px 0px 36px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_calendar__iWel6": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 154.6875,
+    "y": 3923.640625,
+    "width": 1272.375,
+    "height": 1596.484375,
+    "top": 3923.640625,
+    "right": 1427.0625,
+    "bottom": 5520.125,
+    "left": 154.6875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "inline",
+   "width": "1272.38px",
+   "height": "1596.48px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "0",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "319.141px 0px 0px",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_content__nTQyh": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "895.14px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_scrollContainer__fzRVm": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "895.14px",
+   "height": "100%",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_sectionContainer__MrVnT": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 3550.5,
+    "width": 1372.5,
+    "height": 1989.625,
+    "top": 3550.5,
+    "right": 1440,
+    "bottom": 5540.125,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "1989.62px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "54px 0px 18px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_stickContainer__Ef8z3": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 154.6875,
+    "y": 3604.5,
+    "width": 1285.3125,
+    "height": 313.140625,
+    "top": 3604.5,
+    "right": 1440,
+    "bottom": 3917.640625,
+    "left": 154.6875
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1285.31px",
+   "height": "313.141px",
+   "left": "87.1875px",
+   "bottom": "1604.48px",
+   "z-index": "1",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(0deg, rgba(255, 255, 255, 0) 0px, rgb(255, 255, 255) 11.25px)",
+   "opacity": "0",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_timeScrollContainer__VIpNe": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "895.14px",
+   "height": "25.2px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_timelineScroll__5Xkis": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "940.05px",
+   "left": "-44.1px",
+   "z-index": "1",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_timeline__LmxeL": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 91.6875,
+    "y": 3880.84375,
+    "width": 1336.5,
+    "height": 34.796875,
+    "top": 3880.84375,
+    "right": 1428.1875,
+    "bottom": 3915.640625,
+    "left": 91.6875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "inline",
+   "width": "1336.5px",
+   "height": "34.7969px",
+   "left": "-63px",
+   "right": "63px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb"
+  },
+  "__09-Calendar_title__WtlTA": {
+   "page": "en-us",
+   "tag": "IMG",
+   "rect": {
+    "x": 154.6875,
+    "y": 3604.5,
+    "width": 1272.375,
+    "height": 274.34375,
+    "top": 3604.5,
+    "right": 1427.0625,
+    "bottom": 3878.84375,
+    "left": 154.6875
+   },
+   "text": "",
+   "position": "relative",
+   "display": "inline",
+   "width": "1272.38px",
+   "height": "274.344px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "clip",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "__09-Calendar_downloadBgBreath__9_Ko0",
+   "file": "dd1a1cedef0d47ea.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css",
+   "css": "@keyframes __09-Calendar_downloadBgBreath__9_Ko0{0%,to{background-color:rgba(0,0,0,.42)}50%{background-color:rgba(0,0,0,.62)}}",
+   "steps": [
+    {
+     "at": "0%,to",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.42)"
+     }
+    },
+    {
+     "at": "50%",
+     "declarations": {
+      "background-color": "rgba(0,0,0,.62)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [
+   "rgba(255,255,255,0)",
+   "rgb(255,255,255)"
+  ],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [
+   "1",
+   "2"
+  ],
+  "transitions": []
+ }
+}

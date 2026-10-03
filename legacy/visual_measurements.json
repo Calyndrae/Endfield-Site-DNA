@@ -1,0 +1,105 @@
+{
+  "innerWidth": 1440,
+  "innerHeight": 900,
+  "rootRem": "9px",
+  "card": {
+    "rect": {
+      "x": 177,
+      "y": 165.375,
+      "width": 171,
+      "height": 218.25,
+      "top": 165.375,
+      "right": 348,
+      "bottom": 383.625,
+      "left": 177
+    },
+    "css": {
+      "fontFamily": "sans-serif",
+      "fontSize": "9px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "gap": "normal"
+    }
+  },
+  "grid": {
+    "rect": {
+      "x": 138.75,
+      "y": 147.375,
+      "width": 1210,
+      "height": 1452.375,
+      "top": 147.375,
+      "right": 1348.75,
+      "bottom": 1599.75,
+      "left": 138.75
+    },
+    "css": {
+      "fontFamily": "sans-serif",
+      "fontSize": "9px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "gap": "21.375px"
+    }
+  },
+  "filters": {
+    "rect": {
+      "x": 177,
+      "y": 85.5,
+      "width": 362.25,
+      "height": 36,
+      "top": 85.5,
+      "right": 539.25,
+      "bottom": 121.5,
+      "left": 177
+    },
+    "css": {
+      "fontFamily": "sans-serif",
+      "fontSize": "9px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "gap": "21.375px"
+    }
+  },
+  "cardCount": 33,
+  "pageTitle": "Arknights: Endfield - Over the Frontier, Into the Front",
+  "links": [
+    "https://endfield.gryphline.com/en-us/protocol/terms_of_service",
+    "https://endfield.gryphline.com/en-us/protocol/privacy_policy",
+    "https://gryphline.helpshift.com/hc/en/4-arknights-endfield/"
+  ],
+  "mobile": {
+    "innerWidth": 390,
+    "innerHeight": 844,
+    "scrollWidth": 375,
+    "rootRem": "5.77778px",
+    "cardRect": {
+      "x": 8.390625,
+      "y": 141.53125,
+      "width": 109.765625,
+      "height": 140.109375,
+      "top": 141.53125,
+      "right": 118.15625,
+      "bottom": 281.640625,
+      "left": 8.390625
+    }
+  },
+  "operator_section": {
+    "videos": [
+      {
+        "src": "https://web-static.hg-cdn.com/upload/video/20260902/a92f49a53810d0a162584a10daa9de39.mp4",
+        "paused": true,
+        "width": 4096,
+        "height": 1716
+      },
+      {
+        "src": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4",
+        "paused": true,
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "canvases": 1,
+    "allOperators": [
+      {
+        "tag": "DIV",
+        "className": "__02-Operator_listButton__jKExN"
+      }
+    ]
+  }
+}

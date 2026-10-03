@@ -1,0 +1,3 @@
+// module 1841 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_1841 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/catcher.68b395f9.png",height:120,width:119,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAdVBMVEUwMIEmOV6pl5FsiKAsRHIlPGYcKkvmz8E2UYLo18szNDqZkpRZV1nPu682O0Y2TXFfW2FZXWV0dINgX2hfaICllpNEYZCQqLwfP18mME48YJ1/d4FCYphLUGNsZG1tfZdZZXdcUlOTlHW6qaLUx8BZd5o+UnQQH7tjAAAAGnRSTlMBiP1Z/v7j+/79+ohpZsC71v7Mnv3dsJEQ/hv61iUAAAAJcEhZcwAACxMAAAsTAQCanBgAAABGSURBVHicBcEFAoAgAASwo8PAVsqW/z/RDez0QpQVcIcOiX8MsoSkuVggPY9xygRkp8q88wZUyphnBIBGUWsHoG67q8/3D5KMA+MFaWCRAAAAAElFTkSuQmCC",blurWidth:8,blurHeight:8}};

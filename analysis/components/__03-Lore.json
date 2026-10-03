@@ -1,0 +1,2685 @@
+{
+ "component": "__03-Lore",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "sectionDivider": "__03-Lore_sectionDivider__RVkKY",
+  "dividerSubtitle": "__03-Lore_dividerSubtitle__HepaK",
+  "dividerTitle": "__03-Lore_dividerTitle__MhUik",
+  "container": "__03-Lore_container__ZiS0O",
+  "title": "__03-Lore_title__CDpIH",
+  "lattice": "__03-Lore_lattice__whvWQ",
+  "colorBlock": "__03-Lore_colorBlock__cBhs6",
+  "codePrinter": "__03-Lore_codePrinter__dEVCl",
+  "a": "__03-Lore_a__HR99Y",
+  "b": "__03-Lore_b__NVqwk",
+  "c": "__03-Lore_c__U4AgZ",
+  "iconLoreWrapper": "__03-Lore_iconLoreWrapper__d0pt_",
+  "iconLore": "__03-Lore_iconLore__hqCg5",
+  "safeArea": "__03-Lore_safeArea__sJzHP",
+  "infoWrapper": "__03-Lore_infoWrapper__j7KFm",
+  "info": "__03-Lore_info__r42vx",
+  "activeCodename": "__03-Lore_activeCodename__J0dsJ",
+  "gameCode": "__03-Lore_gameCode__bOpmz",
+  "navigation": "__03-Lore_navigation__c4xxG",
+  "navigator": "__03-Lore_navigator__ZI3wY",
+  "activeName": "__03-Lore_activeName__BNCet",
+  "inner": "__03-Lore_inner__JMzst",
+  "paging": "__03-Lore_paging__MWW6H",
+  "name": "__03-Lore_name__BgJL7",
+  "navBtn": "__03-Lore_navBtn__jGhWB",
+  "prev": "__03-Lore_prev__tjYeT",
+  "next": "__03-Lore_next__lfnm7",
+  "naviDots": "__03-Lore_naviDots__woC_C",
+  "naviDot": "__03-Lore_naviDot__oyw7a",
+  "active": "__03-Lore_active__0wv3R",
+  "activeIntro": "__03-Lore_activeIntro__ejmyT",
+  "infoEn": "__03-Lore_infoEn__ThYtO",
+  "decoIcon": "__03-Lore_decoIcon__2dQOd",
+  "ringWrapper": "__03-Lore_ringWrapper__9TbBC",
+  "ring": "__03-Lore_ring__E4kwX",
+  "decoLine1": "__03-Lore_decoLine1__mzUNf",
+  "decoLine2": "__03-Lore_decoLine2__hmNpD",
+  "decoLine3": "__03-Lore_decoLine3__SU0mA",
+  "decoLine4": "__03-Lore_decoLine4__CB44A",
+  "decoLine5": "__03-Lore_decoLine5__sAIJF",
+  "decoLine6": "__03-Lore_decoLine6__GXe_h",
+  "colorLine": "__03-Lore_colorLine__jnJPV",
+  "canvasContainer": "__03-Lore_canvasContainer__Tk9KJ"
+ },
+ "ruleCount": 134,
+ "rules": [
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY",
+   "media": [],
+   "declarations": {
+    "margin-bottom": "2rem",
+    "height": "9.125rem",
+    "background-color": "#fffa00",
+    "box-sizing": "border-box",
+    "padding-left": "30.625rem",
+    "padding-top": "2.25rem",
+    "line-height": "1",
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding-right": "6.75rem",
+    "padding-top": "2.25rem",
+    "text-align": "right",
+    "margin-bottom": "2.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "1.5rem",
+    "bottom": "0",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/section_divider_icon_lore.6968c414.png)",
+    "background-size": "100% 100%",
+    "background-repeat": "no-repeat",
+    "background-position": "50%",
+    "width": "28.25rem",
+    "height": "14.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "57px",
+    "width": "25.425rem",
+    "height": "12.825rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerSubtitle__HepaK",
+   "media": [],
+   "declarations": {
+    "font-size": "1.875rem",
+    "font-family": "Gilroy-Light"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_sectionDivider__RVkKY .__03-Lore_dividerTitle__MhUik",
+   "media": [],
+   "declarations": {
+    "font-size": "3.75rem",
+    "font-family": "Gilroy-Medium"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O",
+   "media": [],
+   "declarations": {
+    "background-color": "#000",
+    "color": "#fff",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg)",
+    "background-size": "100% 100%",
+    "background-repeat": "no-repeat",
+    "background-position": "50%",
+    "position": "relative",
+    "overflow": "hidden",
+    "width": "100%",
+    "height": "103.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg_m.2ac1c57d.jpg)",
+    "height": "130rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_title__CDpIH",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "12.5rem",
+    "left": "9.875rem",
+    "text-transform": "uppercase"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_title__CDpIH",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "9.6296296296%",
+    "top": "5.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "9.875rem",
+    "top": "21.875rem",
+    "width": "4.35rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "6.875rem",
+    "right": "9.8148148148%",
+    "left": "auto",
+    "width": "3.2625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:after,.__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "block",
+    "height": ".5rem",
+    "margin-bottom": ".25rem",
+    "background-image": "repeating-linear-gradient(90deg,#b2b2b2 0,#b2b2b2 .5rem,transparent 0,transparent .75rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:after,.__03-Lore_container__ZiS0O .__03-Lore_lattice__whvWQ:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": ".375rem",
+    "margin-bottom": ".1875rem",
+    "background-image": "repeating-linear-gradient(90deg,#b2b2b2 0,#b2b2b2 .375rem,transparent 0,transparent .5625rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "9.875rem",
+    "top": "23.875rem",
+    "display": "flex"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "5.125rem",
+    "right": "9.8148148148%",
+    "left": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "block",
+    "width": ".5rem",
+    "height": "7rem",
+    "background-image": "linear-gradient(180deg,#ff1aac 0,#ff1aac 1.5rem,#00ffa2 0,#00ffa2 3rem,#fffa00 0,rgba(255,250,0,0) 7rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "9.125rem",
+    "height": ".5rem",
+    "background-image": "linear-gradient(270deg,#ff1aac 0,#ff1aac 2rem,#00ffa2 0,#00ffa2 4rem,#fffa00 0,rgba(255,250,0,0) 9.125rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "block",
+    "width": ".75rem",
+    "height": "3rem",
+    "background-color": "#b2b2b2"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_colorBlock__cBhs6:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "content": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_codePrinter__dEVCl",
+   "media": [],
+   "declarations": {
+    "position": "absolute"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_codePrinter__dEVCl.__03-Lore_a__HR99Y",
+   "media": [],
+   "declarations": {
+    "left": "9.75rem",
+    "top": "25rem",
+    "color": "#666"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_codePrinter__dEVCl.__03-Lore_b__NVqwk",
+   "media": [],
+   "declarations": {
+    "left": "9.75rem",
+    "top": "37.5rem",
+    "color": "#4c4c4c"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_codePrinter__dEVCl.__03-Lore_c__U4AgZ",
+   "media": [],
+   "declarations": {
+    "left": "14rem",
+    "top": "34rem",
+    "color": "#fff",
+    "opacity": ".13"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_iconLoreWrapper__d0pt_",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "12.625rem",
+    "top": "23.875rem",
+    "width": "9rem",
+    "height": "9rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "background-color": "hsla(0,0%,100%,.2)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_iconLoreWrapper__d0pt_",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "9.6296296296%",
+    "top": "15.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_iconLoreWrapper__d0pt_ .__03-Lore_iconLore__hqCg5",
+   "media": [],
+   "declarations": {
+    "width": "5.25rem",
+    "height": "5.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_safeArea__sJzHP",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "pointer-events": "none",
+    "top": "0",
+    "left": "50%",
+    "transform": "translateX(-50%)",
+    "max-width": "100%",
+    "width": "152.5rem",
+    "height": "90rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_safeArea__sJzHP",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoWrapper__j7KFm",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "4.6875rem",
+    "top": "27.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "auto",
+    "left": "50%",
+    "top": "68rem",
+    "transform": "translateX(-50%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeCodename__J0dsJ",
+   "media": [],
+   "declarations": {
+    "font-size": "7.5rem",
+    "line-height": "5.625rem",
+    "letter-spacing": "0",
+    "text-align": "right",
+    "font-family": "Gilroy-Light",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeCodename__J0dsJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "text-align": "center",
+    "font-size": "8.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_gameCode__bOpmz",
+   "media": [],
+   "declarations": {
+    "font-size": "1.75rem",
+    "line-height": "1",
+    "letter-spacing": "0",
+    "text-align": "right",
+    "margin-top": "1rem",
+    "font-family": "Gilroy-Medium",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_gameCode__bOpmz",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-left": "auto",
+    "margin-right": "auto",
+    "text-align": "center",
+    "font-size": "2rem",
+    "margin-top": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG",
+   "media": [],
+   "declarations": {
+    "pointer-events": "auto",
+    "margin-top": "5.25rem",
+    "margin-left": "auto",
+    "margin-right": "0",
+    "width": "38.625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-right": "auto",
+    "width": "54.625rem",
+    "margin-top": "5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY",
+   "media": [],
+   "declarations": {
+    "height": "5.625rem",
+    "border-radius": "2.8125rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "background-color": "#131315",
+    "border": ".1875rem solid #35373c",
+    "box-sizing": "border-box",
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "6.75rem",
+    "border-radius": "3.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet",
+   "media": [],
+   "declarations": {
+    "width": "32.625rem",
+    "height": "4.5rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "font-family": "SansRegular",
+    "font-size": "2.25rem",
+    "background-image": "repeating-linear-gradient(-45deg,#1f1f22,#1f1f22 3px,transparent 0,transparent 6px)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "3rem",
+    "width": "47.8125rem",
+    "height": "5.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_inner__JMzst",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_paging__MWW6H",
+   "media": [],
+   "declarations": {
+    "font-size": "1rem",
+    "line-height": "1",
+    "margin-right": "1rem",
+    "color": "#fff000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_paging__MWW6H",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "1.25rem",
+    "margin-right": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "line-height": "1.2",
+    "word-break": "keep-all"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".de-de .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "15.625rem",
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".es-mx .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "20rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".fr-fr .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "16rem",
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".id-id .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".it-it .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "18rem",
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".pt-br .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "20rem",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".ru-ru .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "21rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".th-th .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "16rem",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".vi-vn .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [],
+   "declarations": {
+    "max-width": "17rem",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".de-de .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "20rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".es-mx .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "28rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".fr-fr .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "25rem",
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".id-id .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": ".9em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".it-it .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "22rem",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".pt-br .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "26rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".ru-ru .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "28rem",
+    "font-size": ".75em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".th-th .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "unset",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".vi-vn .__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_activeName__BNCet .__03-Lore_name__BgJL7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "24rem",
+    "font-size": ".8em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer",
+    "width": "4.5rem",
+    "height": "4.5rem",
+    "border-radius": "50%",
+    "background": "#fafafa",
+    "position": "absolute",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "5.3125rem",
+    "height": "5.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB:before",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "content": "\"\"",
+    "display": "block",
+    "width": "4rem",
+    "height": "4rem",
+    "border-radius": "50%",
+    "border": "1px solid #e7e7e7"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "4.875rem",
+    "height": "4.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "1.75rem",
+    "top": "50%",
+    "width": "1rem",
+    "height": "1rem",
+    "border-top": ".375rem solid #35373c",
+    "border-left": ".375rem solid #35373c",
+    "transform": "translateY(-50%) rotate(-45deg)",
+    "background": "rgba(0,0,0,0)",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "right": "1.75rem",
+    "top": "50%",
+    "width": "1rem",
+    "height": "1rem",
+    "border-top": ".375rem solid #35373c",
+    "border-right": ".375rem solid #35373c",
+    "transform": "translateY(-50%) rotate(45deg)",
+    "background": "rgba(0,0,0,0)",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT",
+   "media": [],
+   "declarations": {
+    "left": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7",
+   "media": [],
+   "declarations": {
+    "right": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C",
+   "media": [],
+   "declarations": {
+    "margin-top": "1.25rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "padding": ".75rem 0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer",
+    "margin": "0 .3125rem",
+    "width": "3.75rem",
+    "height": ".3125rem",
+    "background-color": "#414348",
+    "transition": "transform .3s,background-color .3s,box-shadow .3s"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a.__03-Lore_active__0wv3R",
+   "media": [],
+   "declarations": {
+    "background-color": "#fff000",
+    "box-shadow": "0 0 10px #fff000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeIntro__ejmyT",
+   "media": [],
+   "declarations": {
+    "color": "#999",
+    "white-space": "pre-wrap",
+    "margin-top": "1.5rem",
+    "margin-left": "auto",
+    "margin-right": "0",
+    "font-family": "SansRegular",
+    "font-size": "1.5rem",
+    "line-height": "1.6",
+    "max-width": "37.5rem",
+    "text-align": "left",
+    "text-shadow": "0 0 4px #000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_info__r42vx .__03-Lore_activeIntro__ejmyT",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "54rem",
+    "margin-right": "auto",
+    "font-size": "1.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "4.6875rem",
+    "top": "23.875rem",
+    "width": "43rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "auto",
+    "left": "50%",
+    "top": "67.5rem",
+    "transform": "translateX(-50%)",
+    "width": "54.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_gameCode__bOpmz",
+   "media": [],
+   "declarations": {
+    "font-size": "1.75rem",
+    "line-height": "1",
+    "letter-spacing": "0",
+    "font-family": "Gilroy-Medium",
+    "white-space": "nowrap",
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_gameCode__bOpmz:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "block",
+    "width": ".75rem",
+    "height": ".75rem",
+    "background-color": "currentColor",
+    "margin-right": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_gameCode__bOpmz",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-left": "auto",
+    "margin-right": "auto",
+    "text-align": "center",
+    "font-size": "2rem",
+    "margin-top": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeCodename__J0dsJ",
+   "media": [],
+   "declarations": {
+    "font-size": "6rem",
+    "line-height": "5.625rem",
+    "margin-top": "1.5rem",
+    "letter-spacing": "0",
+    "font-family": "Gilroy-Light",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeCodename__J0dsJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "8.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeIntro__ejmyT",
+   "media": [],
+   "declarations": {
+    "color": "#999",
+    "white-space": "pre-wrap",
+    "margin-top": "1.5rem",
+    "height": "20rem",
+    "font-family": "SansRegular",
+    "font-size": "1.5rem",
+    "line-height": "1.6",
+    "text-align": "left",
+    "text-shadow": "0 0 4px #000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_activeIntro__ejmyT",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-top": "2.5rem",
+    "height": "22rem",
+    "font-size": "1.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG",
+   "media": [],
+   "declarations": {
+    "pointer-events": "auto",
+    "margin-top": "1.25rem",
+    "position": "relative",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "flex-end"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "margin-right": "auto",
+    "margin-top": "5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_decoIcon__2dQOd",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "display": "block",
+    "top": "1.25rem",
+    "right": "32.5rem",
+    "width": "auto",
+    "height": "1.0625rem",
+    "color": "#414349"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_decoIcon__2dQOd",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "41.875rem",
+    "height": "1.25rem",
+    "top": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_paging__MWW6H",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "1.5rem",
+    "right": "17rem",
+    "font-size": "1rem",
+    "line-height": "1",
+    "margin-right": ".5rem",
+    "color": "#fff000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_paging__MWW6H",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "1.25rem",
+    "right": "22.5rem",
+    "top": "1.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY",
+   "media": [],
+   "declarations": {
+    "flex": "none",
+    "margin-left": "3rem",
+    "margin-right": "0",
+    "width": "14rem",
+    "height": "5.625rem",
+    "border-radius": "2.8125rem",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "background-color": "#131315",
+    "border": ".1875rem solid #35373c",
+    "box-sizing": "border-box",
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "19rem",
+    "height": "6.75rem",
+    "border-radius": "3.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "flex",
+    "width": "12.75rem",
+    "height": "4.5rem",
+    "align-items": "center",
+    "justify-content": "center",
+    "font-size": "2.25rem",
+    "background-image": "repeating-linear-gradient(-45deg,#1f1f22,#1f1f22 3px,transparent 0,transparent 6px)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "47.8125rem",
+    "height": "5.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer",
+    "width": "4.5rem",
+    "height": "4.5rem",
+    "border-radius": "50%",
+    "background": "#fafafa",
+    "position": "absolute",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "5.3125rem",
+    "height": "5.3125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB:before",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "content": "\"\"",
+    "display": "block",
+    "width": "4rem",
+    "height": "4rem",
+    "border-radius": "50%",
+    "border": "1px solid #e7e7e7"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "4.875rem",
+    "height": "4.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "1.75rem",
+    "top": "50%",
+    "width": "1rem",
+    "height": "1rem",
+    "border-top": ".375rem solid #35373c",
+    "border-left": ".375rem solid #35373c",
+    "transform": "translateY(-50%) rotate(-45deg)",
+    "background": "rgba(0,0,0,0)",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "right": "1.75rem",
+    "top": "50%",
+    "width": "1rem",
+    "height": "1rem",
+    "border-top": ".375rem solid #35373c",
+    "border-right": ".375rem solid #35373c",
+    "transform": "translateY(-50%) rotate(45deg)",
+    "background": "rgba(0,0,0,0)",
+    "pointer-events": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_prev__tjYeT",
+   "media": [],
+   "declarations": {
+    "left": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_navigator__ZI3wY .__03-Lore_navBtn__jGhWB.__03-Lore_next__lfnm7",
+   "media": [],
+   "declarations": {
+    "right": ".5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C",
+   "media": [],
+   "declarations": {
+    "flex": "none",
+    "margin-top": "1.25rem",
+    "margin-left": "auto",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "padding": ".75rem 0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a",
+   "media": [],
+   "declarations": {
+    "cursor": "pointer",
+    "margin": "0 .3125rem",
+    "width": "3.75rem",
+    "height": ".3125rem",
+    "background-color": "#414348",
+    "transition": "transform .3s,background-color .3s,box-shadow .3s"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "4.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_infoEn__ThYtO .__03-Lore_navigation__c4xxG .__03-Lore_naviDots__woC_C .__03-Lore_naviDot__oyw7a.__03-Lore_active__0wv3R",
+   "media": [],
+   "declarations": {
+    "background-color": "#fff000",
+    "box-shadow": "0 0 10px #fff000"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_ringWrapper__9TbBC",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "9.5rem",
+    "left": "25.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_ringWrapper__9TbBC",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "11rem",
+    "left": "50%",
+    "transform": "translateX(-50%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_ring__E4kwX",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ring.5ce6e2bd.png)",
+    "background-size": "100% 100%",
+    "background-repeat": "no-repeat",
+    "background-position": "50%",
+    "width": "69.375rem",
+    "height": "69.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_container__ZiS0O .__03-Lore_ring__E4kwX",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "49.5rem",
+    "height": "49.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine1__mzUNf",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "top": "33.625rem",
+    "left": "0",
+    "width": "100%",
+    "height": "1px"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine1__mzUNf",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "2.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine2__hmNpD",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "right": "1.25rem",
+    "top": "0",
+    "width": "1px",
+    "height": "100%",
+    "-webkit-mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)",
+    "mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine2__hmNpD",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine3__SU0mA",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "right": "3.75rem",
+    "top": "0",
+    "width": "1px",
+    "height": "100%",
+    "-webkit-mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)",
+    "mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine3__SU0mA",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "5%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine4__CB44A",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "left": "1.375rem",
+    "top": "0",
+    "width": "1px",
+    "height": "100%",
+    "-webkit-mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)",
+    "mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine4__CB44A",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine5__sAIJF",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "left": "3.75rem",
+    "top": "0",
+    "width": "1px",
+    "height": "100%",
+    "-webkit-mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)",
+    "mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine5__sAIJF",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "5%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine6__GXe_h",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "background-color": "rgba(109,109,109,.5)",
+    "left": "29.375rem",
+    "top": "0",
+    "width": "1px",
+    "height": "100%",
+    "-webkit-mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)",
+    "mask": "linear-gradient(180deg,rgb(0,0,0) 0,rgb(0,0,0) 60%,rgba(0,0,0,0) 90%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_decoLine6__GXe_h",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "0",
+    "width": "100%",
+    "height": "1px",
+    "top": "79.5rem",
+    "-webkit-mask": "none",
+    "mask": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_colorLine__jnJPV",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "0",
+    "left": "50%",
+    "transform": "translateX(-50%)",
+    "max-width": "100%",
+    "width": "152.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_colorLine__jnJPV:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "display": "block",
+    "width": "24.5rem",
+    "height": ".25rem",
+    "margin-left": "auto",
+    "margin-right": "1.25rem",
+    "background-color": "#fffa00",
+    "background-image": "linear-gradient(90deg,#ff1aac 0,#ff1aac 5.25rem,#00ffa2 0,#00ffa2 10.5rem,#fffa00 0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_colorLine__jnJPV",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_canvasContainer__Tk9KJ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "90rem",
+    "touch-action": "pan-y"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_canvasContainer__Tk9KJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "67.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__03-Lore_canvasContainer__Tk9KJ canvas",
+   "media": [],
+   "declarations": {
+    "width": "100% !important",
+    "height": "100% !important",
+    "object-fit": "contain",
+    "object-position": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": "<div class=\"__03-Lore_container__ZiS0O\"><div class=\"__03-Lore_decoLine1__mzUNf\"></div><div class=\"__03-Lore_decoLine2__hmNpD\"></div><div class=\"__03-Lore_decoLine3__SU0mA\"></div><div class=\"__03-Lore_decoLine4__CB44A\"></div><div class=\"__03-Lore_decoLine5__sAIJF\"></div><div class=\"__03-Lore_decoLine6__GXe_h\"></div><div class=\"__03-Lore_safeArea__sJzHP\"><div class=\"__03-Lore_ringWrapper__9TbBC\"><div class=\"__03-Lore_ring__E4kwX\" style=\"transform: rotate(0rad);\"></div></div></div><div class=\"__03-Lore_lattice__whvWQ\"></div><div class=\"__03-Lore_colorBlock__cBhs6\"></div><div class=\"SectionTitle_sectionTitle__tAFPG __03-Lore_title__CDpIH SectionTitle_dark__GhLCz\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 122 6\" class=\"SectionTitle_icon__YpILA\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M120.696,5.504 C120.484,5.723 120.226,5.832 119.926,5.832 L115.408,5.832 L115.408,0.079 L119.926,0.079 C120.226,0.079 120.484,0.188 120.696,0.407 C120.909,0.620 121.016,0.881 121.016,1.190 L121.016,4.722 C121.016,5.030 120.909,5.291 120.696,5.504 ZM119.980,1.190 C119.980,1.152 119.962,1.134 119.926,1.134 L116.491,1.134 C116.454,1.134 116.436,1.152 116.436,1.190 L116.436,4.722 C116.436,4.759 116.454,4.777 116.491,4.777 L119.926,4.777 C119.962,4.777 119.980,4.759 119.980,4.722 L119.980,1.190 ZM109.161,0.071 L110.189,0.071 L110.189,4.777 L114.769,4.777 L114.769,5.832 L109.161,5.832 L109.161,0.071 ZM103.198,0.079 L108.355,0.079 L108.355,1.134 L104.234,1.134 L104.234,2.428 L107.552,2.428 L107.552,3.483 L104.234,3.483 L104.234,4.777 L108.355,4.777 L108.355,5.832 L103.198,5.832 L103.198,0.079 ZM101.401,0.079 L102.429,0.079 L102.429,5.832 L101.401,5.832 L101.401,0.079 ZM96.641,2.428 L99.959,2.428 L99.959,3.483 L96.641,3.483 L96.641,5.832 L95.605,5.832 L95.605,0.079 L100.762,0.079 L100.762,1.134 L96.641,1.134 L96.641,2.428 ZM93.652,5.832 L89.134,5.832 L89.134,0.079 L93.652,0.079 C93.952,0.079 94.210,0.188 94.422,0.407 C94.635,0.620 94.742,0.881 94.742,1.190 L94.742,4.722 C94.742,5.030 94.635,5.291 94.422,5.504 C94.210,5.723 93.952,5.832 93.652,5.832 ZM93.706,1.190 C93.706,1.152 93.688,1.134 93.652,1.134 L90.217,1.134 C90.180,1.134 90.162,1.152 90.162,1.190 L90.162,4.722 C90.162,4.759 90.180,4.777 90.217,4.777 L93.652,4.777 C93.688,4.777 93.706,4.759 93.706,4.722 L93.706,1.190 ZM83.691,1.613 L83.691,5.832 L82.663,5.832 L82.663,0.079 L83.785,0.079 L87.235,4.298 L87.235,0.079 L88.271,0.079 L88.271,5.832 L87.149,5.832 L83.691,1.613 ZM76.705,0.079 L81.861,0.079 L81.861,1.134 L77.741,1.134 L77.741,2.428 L81.059,2.428 L81.059,3.483 L77.741,3.483 L77.741,4.777 L81.861,4.777 L81.861,5.832 L76.705,5.832 L76.705,0.079 ZM72.608,4.785 L73.628,4.785 L73.628,5.832 L72.608,5.832 L72.608,4.785 ZM72.608,1.134 L73.628,1.134 L73.628,2.188 L72.608,2.188 L72.608,1.134 ZM70.711,5.832 L67.269,5.832 C66.968,5.832 66.713,5.723 66.505,5.504 C66.292,5.291 66.186,5.030 66.186,4.722 L66.186,4.282 L67.214,4.282 L67.214,4.722 C67.214,4.759 67.233,4.777 67.269,4.777 L70.711,4.777 C70.743,4.777 70.758,4.759 70.758,4.722 L70.758,3.539 C70.758,3.502 70.743,3.483 70.711,3.483 L67.269,3.483 C66.968,3.483 66.713,3.374 66.505,3.155 C66.292,2.942 66.186,2.681 66.186,2.372 L66.186,1.190 C66.186,0.881 66.292,0.620 66.505,0.407 C66.713,0.188 66.968,0.079 67.269,0.079 L70.711,0.079 C71.008,0.079 71.262,0.188 71.475,0.407 C71.688,0.620 71.794,0.881 71.794,1.190 L71.794,1.629 L70.758,1.629 L70.758,1.190 C70.758,1.152 70.743,1.134 70.711,1.134 L67.269,1.134 C67.233,1.134 67.214,1.152 67.214,1.190 L67.214,2.372 C67.214,2.410 67.233,2.428 67.269,2.428 L70.711,2.428 C71.008,2.428 71.262,2.537 71.475,2.756 C71.688,2.969 71.794,3.230 71.794,3.539 L71.794,4.722 C71.794,5.030 71.688,5.291 71.475,5.504 C71.262,5.723 71.008,5.832 70.711,5.832 ZM63.226,5.832 L62.190,5.832 L62.190,1.134 L59.900,1.134 L59.900,0.079 L65.508,0.079 L65.508,1.134 L63.226,1.134 L63.226,5.832 ZM58.158,3.483 L54.482,3.483 L54.482,5.832 L53.454,5.832 L53.454,0.079 L54.482,0.079 L54.482,2.428 L58.158,2.428 L58.158,0.079 L59.186,0.079 L59.186,5.832 L58.158,5.832 L58.158,3.483 ZM51.526,5.832 L48.091,5.832 C47.790,5.832 47.536,5.723 47.328,5.504 C47.115,5.291 47.008,5.030 47.008,4.722 L47.008,1.190 C47.008,0.881 47.115,0.620 47.328,0.407 C47.536,0.188 47.790,0.079 48.091,0.079 L51.526,0.079 C51.827,0.079 52.084,0.188 52.297,0.407 C52.510,0.620 52.616,0.881 52.616,1.190 L52.616,1.637 L51.581,1.637 L51.581,1.190 C51.581,1.152 51.562,1.134 51.526,1.134 L48.091,1.134 C48.055,1.134 48.037,1.152 48.037,1.190 L48.037,4.722 C48.037,4.759 48.055,4.777 48.091,4.777 L51.526,4.777 C51.562,4.777 51.581,4.759 51.581,4.722 L51.581,3.635 L50.311,3.635 L50.311,2.580 L52.616,2.580 L52.616,4.722 C52.616,5.030 52.510,5.291 52.297,5.504 C52.084,5.723 51.827,5.832 51.526,5.832 ZM45.223,0.079 L46.251,0.079 L46.251,5.832 L45.223,5.832 L45.223,0.079 ZM39.785,1.613 L39.785,5.832 L38.756,5.832 L38.756,0.079 L39.878,0.079 L43.329,4.298 L43.329,0.079 L44.365,0.079 L44.365,5.832 L43.243,5.832 L39.785,1.613 ZM34.905,3.483 L33.581,3.483 L33.581,5.832 L32.545,5.832 L32.545,0.079 L33.581,0.079 L33.581,2.428 L34.905,2.428 C35.034,2.263 35.193,2.069 35.380,1.845 L36.346,0.662 C36.522,0.449 36.680,0.255 36.821,0.079 L37.950,0.079 L37.950,0.359 L35.831,2.956 L37.950,5.552 L37.950,5.832 L36.821,5.832 L34.905,3.483 ZM28.977,3.859 L27.139,3.859 L27.139,5.832 L26.111,5.832 L26.111,0.087 L30.629,0.087 C30.930,0.087 31.187,0.196 31.400,0.415 C31.613,0.633 31.719,0.894 31.719,1.198 L31.719,2.748 C31.719,3.052 31.613,3.313 31.400,3.531 C31.187,3.749 30.930,3.859 30.629,3.859 L30.325,3.859 L31.719,5.561 L31.719,5.832 L30.598,5.832 L28.977,3.859 ZM30.629,2.804 C30.665,2.804 30.683,2.785 30.683,2.748 L30.683,1.198 C30.683,1.161 30.665,1.142 30.629,1.142 L27.194,1.142 C27.158,1.142 27.139,1.161 27.139,1.198 L27.139,2.748 C27.139,2.785 27.158,2.804 27.194,2.804 L30.629,2.804 ZM24.212,3.898 L20.668,3.898 L20.668,5.832 L19.640,5.832 L19.640,1.190 C19.640,0.881 19.747,0.620 19.959,0.407 C20.167,0.188 20.422,0.079 20.723,0.079 L24.158,0.079 C2\n<!-- … truncated, 11263 chars total -->",
+ "markupPage": "en-us",
+ "markupClass": "__03-Lore_container__ZiS0O",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "__03-Lore_activeCodename__J0dsJ": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1010.8125,
+    "y": 2054.25,
+    "width": 387,
+    "height": 50.625,
+    "top": 2054.25,
+    "right": 1397.8125,
+    "bottom": 2104.875,
+    "left": 1010.8125
+   },
+   "text": "DIJIANG",
+   "display": "block",
+   "width": "387px",
+   "height": "50.625px",
+   "font-family": "Gilroy-Light",
+   "font-size": "54px",
+   "font-weight": "400",
+   "line-height": "50.625px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "margin": "13.5px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_activeIntro__ejmyT": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1010.8125,
+    "y": 2118.375,
+    "width": 387,
+    "height": 180,
+    "top": 2118.375,
+    "right": 1397.8125,
+    "bottom": 2298.375,
+    "left": 1010.8125
+   },
+   "text": "OMV Dijiang is a spacecraft in the artificial geostationary orbit above Talos-II",
+   "display": "block",
+   "width": "387px",
+   "height": "180px",
+   "font-family": "SansRegular",
+   "font-size": "13.5px",
+   "font-weight": "400",
+   "line-height": "21.6px",
+   "color": "rgb(153, 153, 153)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(153, 153, 153)",
+   "margin": "13.5px 0px 0px",
+   "text-shadow": "rgb(0, 0, 0) 0px 0px 4px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_active__0wv3R": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1011.375,
+    "y": 2339.15625,
+    "width": 33.75,
+    "height": 2.8125,
+    "top": 2339.15625,
+    "right": 1045.125,
+    "bottom": 2341.96875,
+    "left": 1011.375
+   },
+   "text": "",
+   "display": "block",
+   "width": "33.75px",
+   "height": "2.8125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(255, 240, 0)",
+   "opacity": "1",
+   "transition": "transform 0.3s, background-color 0.3s, box-shadow 0.3s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "box-shadow": "rgb(255, 240, 0) 0px 0px 10px 0px",
+   "border": "0px none rgb(255, 255, 255)",
+   "margin": "0px 2.8125px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_canvasContainer__Tk9KJ": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 1810.125,
+    "width": 1372.5,
+    "height": 810,
+    "top": 1810.125,
+    "right": 1440,
+    "bottom": 2620.125,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "810px",
+   "bottom": "120.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "cursor": "grab",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_colorBlock__cBhs6": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 156.375,
+    "y": 2025,
+    "width": 11.25,
+    "height": 63,
+    "top": 2025,
+    "right": 167.625,
+    "bottom": 2088,
+    "left": 156.375
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "11.25px",
+   "height": "63px",
+   "top": "214.875px",
+   "left": "88.875px",
+   "right": "1272.38px",
+   "bottom": "652.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_colorLine__jnJPV": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 2738.25,
+    "width": 1372.5,
+    "height": 2.25,
+    "top": 2738.25,
+    "right": 1440,
+    "bottom": 2740.5,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "2.25px",
+   "top": "928.125px",
+   "left": "686.25px",
+   "right": "-686.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, -686.25, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_container__ZiS0O": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 1810.125,
+    "width": 1372.5,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 1440,
+    "bottom": 2740.5,
+    "left": 67.5
+   },
+   "text": "LoreARKNIGHTS: ENDFIELD-LOREDIJIANGOMV Dijiang is a spacecraft in the artificial",
+   "position": "relative",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "930.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/bg.51f75595.jpg\")",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine1__mzUNf": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 2112.75,
+    "width": 1372.5,
+    "height": 1,
+    "top": 2112.75,
+    "right": 1440,
+    "bottom": 2113.75,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "1px",
+   "top": "302.625px",
+   "bottom": "626.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine2__hmNpD": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1427.75,
+    "y": 1810.125,
+    "width": 1,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 1428.75,
+    "bottom": 2740.5,
+    "left": 1427.75
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1px",
+   "height": "930.375px",
+   "left": "1360.25px",
+   "right": "11.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine3__SU0mA": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1405.25,
+    "y": 1810.125,
+    "width": 1,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 1406.25,
+    "bottom": 2740.5,
+    "left": 1405.25
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1px",
+   "height": "930.375px",
+   "left": "1337.75px",
+   "right": "33.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine4__CB44A": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 79.875,
+    "y": 1810.125,
+    "width": 1,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 80.875,
+    "bottom": 2740.5,
+    "left": 79.875
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1px",
+   "height": "930.375px",
+   "left": "12.375px",
+   "right": "1359.12px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine5__sAIJF": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 101.25,
+    "y": 1810.125,
+    "width": 1,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 102.25,
+    "bottom": 2740.5,
+    "left": 101.25
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1px",
+   "height": "930.375px",
+   "left": "33.75px",
+   "right": "1337.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_decoLine6__GXe_h": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 331.875,
+    "y": 1810.125,
+    "width": 1,
+    "height": 930.375,
+    "top": 1810.125,
+    "right": 332.875,
+    "bottom": 2740.5,
+    "left": 331.875
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1px",
+   "height": "930.375px",
+   "left": "264.375px",
+   "right": "1107.12px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(109, 109, 109, 0.5)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 90%)",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_gameCode__bOpmz": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1010.8125,
+    "y": 2025,
+    "width": 387,
+    "height": 15.75,
+    "top": 2025,
+    "right": 1397.8125,
+    "bottom": 2040.75,
+    "left": 1010.8125
+   },
+   "text": "ARKNIGHTS: ENDFIELD-LORE",
+   "display": "flex",
+   "width": "387px",
+   "height": "15.75px",
+   "font-family": "Gilroy-Medium",
+   "font-size": "15.75px",
+   "font-weight": "400",
+   "line-height": "15.75px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_iconLoreWrapper__d0pt_": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 181.125,
+    "y": 2025,
+    "width": 81,
+    "height": 81,
+    "top": 2025,
+    "right": 262.125,
+    "bottom": 2106,
+    "left": 181.125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "81px",
+   "height": "81px",
+   "top": "214.875px",
+   "left": "113.625px",
+   "right": "1177.88px",
+   "bottom": "634.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(255, 255, 255, 0.2)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_infoEn__ThYtO": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1010.8125,
+    "y": 2025,
+    "width": 387,
+    "height": 335.25,
+    "top": 2025,
+    "right": 1397.8125,
+    "bottom": 2360.25,
+    "left": 1010.8125
+   },
+   "text": "ARKNIGHTS: ENDFIELD-LOREDIJIANGOMV Dijiang is a spacecraft in the artificial geo",
+   "position": "absolute",
+   "display": "block",
+   "width": "387px",
+   "height": "335.25px",
+   "top": "214.875px",
+   "left": "943.312px",
+   "right": "42.1875px",
+   "bottom": "259.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_infoWrapper__j7KFm": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 1810.125,
+    "width": 1372.5,
+    "height": 810,
+    "top": 1810.125,
+    "right": 1440,
+    "bottom": 2620.125,
+    "left": 67.5
+   },
+   "text": "ARKNIGHTS: ENDFIELD-LOREDIJIANGOMV Dijiang is a spacecraft in the artificial geo",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "810px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_lattice__whvWQ": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 156.375,
+    "y": 2007,
+    "width": 39.140625,
+    "height": 13.5,
+    "top": 2007,
+    "right": 195.515625,
+    "bottom": 2020.5,
+    "left": 156.375
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "39.1406px",
+   "height": "13.5px",
+   "top": "196.875px",
+   "left": "88.875px",
+   "right": "1244.48px",
+   "bottom": "720px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_navBtn__jGhWB": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1277.3125,
+    "y": 2314.6875,
+    "width": 40.5,
+    "height": 40.5,
+    "top": 2314.6875,
+    "right": 1317.8125,
+    "bottom": 2355.1875,
+    "left": 1277.3125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "40.5px",
+   "height": "40.5px",
+   "top": "4.0625px",
+   "left": "4.5px",
+   "right": "79px",
+   "bottom": "4.0625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(250, 250, 250)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "50%",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_naviDot__oyw7a": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1011.375,
+    "y": 2339.15625,
+    "width": 33.75,
+    "height": 2.8125,
+    "top": 2339.15625,
+    "right": 1045.125,
+    "bottom": 2341.96875,
+    "left": 1011.375
+   },
+   "text": "",
+   "display": "block",
+   "width": "33.75px",
+   "height": "2.8125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(255, 240, 0)",
+   "opacity": "1",
+   "transition": "transform 0.3s, background-color 0.3s, box-shadow 0.3s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "box-shadow": "rgb(255, 240, 0) 0px 0px 10px 0px",
+   "border": "0px none rgb(255, 255, 255)",
+   "margin": "0px 2.8125px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_naviDots__woC_C": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1008.5625,
+    "y": 2332.40625,
+    "width": 236.25,
+    "height": 16.3125,
+    "top": 2332.40625,
+    "right": 1244.8125,
+    "bottom": 2348.71875,
+    "left": 1008.5625
+   },
+   "text": "",
+   "display": "flex",
+   "width": "236.25px",
+   "height": "2.8125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "padding": "6.75px 0px",
+   "margin": "11.25px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_navigation__c4xxG": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1010.8125,
+    "y": 2309.625,
+    "width": 387,
+    "height": 50.625,
+    "top": 2309.625,
+    "right": 1397.8125,
+    "bottom": 2360.25,
+    "left": 1010.8125
+   },
+   "text": "1 / 6",
+   "position": "relative",
+   "display": "flex",
+   "width": "387px",
+   "height": "50.625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "margin": "11.25px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_navigator__ZI3wY": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1271.8125,
+    "y": 2309.625,
+    "width": 126,
+    "height": 50.625,
+    "top": 2309.625,
+    "right": 1397.8125,
+    "bottom": 2360.25,
+    "left": 1271.8125
+   },
+   "text": "",
+   "position": "relative",
+   "display": "flex",
+   "width": "126px",
+   "height": "50.625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(19, 19, 21)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "1px solid rgb(53, 55, 60)",
+   "border-radius": "25.3125px",
+   "margin": "0px 0px 0px 27px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_next__lfnm7": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1351.8125,
+    "y": 2314.6875,
+    "width": 40.5,
+    "height": 40.5,
+    "top": 2314.6875,
+    "right": 1392.3125,
+    "bottom": 2355.1875,
+    "left": 1351.8125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "40.5px",
+   "height": "40.5px",
+   "top": "4.0625px",
+   "left": "79px",
+   "right": "4.5px",
+   "bottom": "4.0625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(250, 250, 250)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "50%",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_paging__MWW6H": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1222.765625,
+    "y": 2323.125,
+    "width": 17.546875,
+    "height": 9,
+    "top": 2323.125,
+    "right": 1240.3125,
+    "bottom": 2332.125,
+    "left": 1222.765625
+   },
+   "text": "1 / 6",
+   "position": "absolute",
+   "display": "block",
+   "width": "17.5469px",
+   "height": "9px",
+   "top": "13.5px",
+   "left": "211.953px",
+   "right": "153px",
+   "bottom": "28.125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "9px",
+   "color": "rgb(255, 240, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 240, 0)",
+   "margin": "0px 4.5px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_prev__tjYeT": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1277.3125,
+    "y": 2314.6875,
+    "width": 40.5,
+    "height": 40.5,
+    "top": 2314.6875,
+    "right": 1317.8125,
+    "bottom": 2355.1875,
+    "left": 1277.3125
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "40.5px",
+   "height": "40.5px",
+   "top": "4.0625px",
+   "left": "4.5px",
+   "right": "79px",
+   "bottom": "4.0625px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(250, 250, 250)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "border-radius": "50%",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_ringWrapper__9TbBC": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 295.875,
+    "y": 1895.625,
+    "width": 624.375,
+    "height": 624.375,
+    "top": 1895.625,
+    "right": 920.25,
+    "bottom": 2520,
+    "left": 295.875
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "624.375px",
+   "height": "624.375px",
+   "top": "85.5px",
+   "left": "228.375px",
+   "right": "519.75px",
+   "bottom": "100.125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_ring__E4kwX": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 295.875,
+    "y": 1895.625,
+    "width": 624.375,
+    "height": 624.375,
+    "top": 1895.625,
+    "right": 920.25,
+    "bottom": 2520,
+    "left": 295.875
+   },
+   "text": "",
+   "display": "block",
+   "width": "624.375px",
+   "height": "624.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ring.5ce6e2bd.png\")",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_safeArea__sJzHP": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 1810.125,
+    "width": 1372.5,
+    "height": 810,
+    "top": 1810.125,
+    "right": 1440,
+    "bottom": 2620.125,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "810px",
+   "left": "686.25px",
+   "right": "-686.25px",
+   "bottom": "120.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, -686.25, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__03-Lore_title__CDpIH": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 156.375,
+    "y": 1922.625,
+    "width": 0,
+    "height": 0,
+    "top": 1922.625,
+    "right": 156.375,
+    "bottom": 1922.625,
+    "left": 156.375
+   },
+   "text": "Lore",
+   "position": "absolute",
+   "display": "block",
+   "top": "112.5px",
+   "left": "88.875px",
+   "right": "1283.62px",
+   "bottom": "817.875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "text-transform": "uppercase",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fffa00",
+   "#000",
+   "#fff",
+   "#b2b2b2",
+   "#ff1aac",
+   "#00ffa2",
+   "rgba(255,250,0,0)",
+   "#666",
+   "#4c4c4c",
+   "#131315",
+   "#35373c",
+   "#1f1f22",
+   "#fff000",
+   "#fafafa",
+   "#e7e7e7",
+   "rgba(0,0,0,0)",
+   "#414348",
+   "#999",
+   "#414349",
+   "rgba(109,109,109,.5)",
+   "rgb(0,0,0)"
+  ],
+  "fonts": [
+   "Gilroy-Light",
+   "Gilroy-Medium",
+   "SansRegular"
+  ],
+  "fontSizes": [
+   "1.875rem",
+   "3.75rem",
+   "7.5rem",
+   "8.125rem",
+   "1.75rem",
+   "2rem",
+   "2.25rem",
+   "3rem",
+   "1rem",
+   "1.25rem",
+   ".9em",
+   ".75em",
+   ".8em",
+   "1.5rem",
+   "6rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "transform .3s,background-color .3s,box-shadow .3s"
+  ]
+ }
+}

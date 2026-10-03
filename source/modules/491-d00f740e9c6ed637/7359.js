@@ -1,0 +1,3 @@
+// module 7359 from 491-d00f740e9c6ed637.js
+// deps: 97028, 84790, 19374
+const module_7359 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"callServer",{enumerable:!0,get:function(){return l}});let n=r(97028),o=r(84790),u=r(19374);async function l(e,t){return new Promise((r,l)=>{(0,n.startTransition)(()=>{(0,u.dispatchAppRouterAction)({type:o.ACTION_SERVER_ACTION,actionId:e,actionArgs:t,resolve:r,reject:l})})})}("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

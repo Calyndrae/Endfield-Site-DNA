@@ -1,0 +1,3 @@
+// module 89808 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_89808 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lifeng.41ae5d06.png",height:120,width:120,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAhFBMVEWipIqXlpBtd3ehop13eFHUx7alo5SUgnyIh4L4694yLyWDfl6wpZBua1GUj4rAwLRfX0vw1cyDhH5wb0u4tqPAvK8+PjSCfnvkz8aWmIB8goKwm5JobF+BgWqur4XExKLDtKD/6NxjYlSciXvdxsDZzLOppprq2Mm9t7Sko39OTkS8uqkVZIEyAAAAHXRSTlP+hQyU/vvc/lr+0cv+RdlV/vzv/eQ9/rDd/Cn+fWyNxa0AAAAJcEhZcwAACxMAAAsTAQCanBgAAABISURBVHicBcEFAoAgAASwAwmxuyk7/v8/N9Dg7Qq9Rmi5ZgY6hvhqY23yoAHb3MEBAbNfTo4Is1MpPy9Iw7v0Qz8hJ5WUhJIfsy0Eu9usBqYAAAAASUVORK5CYII=",blurWidth:8,blurHeight:8}};

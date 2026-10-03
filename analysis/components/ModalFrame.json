@@ -1,0 +1,450 @@
+{
+ "component": "ModalFrame",
+ "files": [
+  "3bd8ebba7b8795c3.css"
+ ],
+ "classes": {
+  "modalFrame": "ModalFrame_modalFrame__WKkW2",
+  "smallTitle": "ModalFrame_smallTitle__aw46z",
+  "header": "ModalFrame_header__GAf1j",
+  "decoText": "ModalFrame_decoText__R_poJ",
+  "title": "ModalFrame_title__Ozpn7",
+  "points": "ModalFrame_points__61vno",
+  "close": "ModalFrame_close__cgZq9",
+  "decoLB": "ModalFrame_decoLB__sfQIb"
+ },
+ "ruleCount": 25,
+ "rules": [
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "109rem",
+    "font-size": "1rem",
+    "background-color": "#fafafa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "60.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "width": "100%",
+    "height": "100%",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png)",
+    "background-size": "1.5em 1.5em",
+    "background-position": "bottom",
+    "-webkit-mask-image": "linear-gradient(180deg,transparent 0,transparent 50%,black 90%,black)",
+    "mask-image": "linear-gradient(180deg,transparent 0,transparent 50%,black 90%,black)",
+    "opacity": ".08"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_header__GAf1j",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "height": "5.625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_decoText__R_poJ",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "top": "1.6875em",
+    "width": "32.5em",
+    "color": "#2e2e2e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_title__Ozpn7",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "font-size": "2.4375em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_points__61vno",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "width": "3.25em",
+    "bottom": "1em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2.ModalFrame_smallTitle__aw46z .ModalFrame_close__cgZq9",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "width": "2.25em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_header__GAf1j",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "8.75rem",
+    "background-color": "#1f1f1f",
+    "overflow": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_header__GAf1j",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "10.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_header__GAf1j:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-image": "linear-gradient(-45deg,transparent,transparent 13.9512529279%,black 0,black 36.0487470721%,transparent 0,transparent 63.9512529279%,black 0,black 86.0487470721%,transparent 0,transparent)",
+    "background-size": ".5rem .5rem",
+    "background-repeat": "repeat"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_header__GAf1j:before",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "background-size": ".75rem .75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_decoText__R_poJ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": "2.6875em",
+    "width": "50rem",
+    "height": "auto",
+    "color": "#2e2e2e",
+    "transform": "translate3d(-50%,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_decoText__R_poJ",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "43rem",
+    "top": "5.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": ".5625em",
+    "font-size": "3.75em",
+    "line-height": "1",
+    "color": "#fff",
+    "transform": "translate3d(-50%,0,0)",
+    "font-family": "SansRegular",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "2.625rem",
+    "font-size": "4.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": "html[lang=vi-vn] .ModalFrame_modalFrame__WKkW2 .ModalFrame_title__Ozpn7",
+   "media": [
+    "@media (orientation:portrait)and (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "4rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_points__61vno",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "bottom": "1.375em",
+    "width": "5.6875em",
+    "height": "auto",
+    "color": "#fff",
+    "transform": "translate3d(-50%,0,0)",
+    "opacity": ".5"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_points__61vno",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "6.5rem",
+    "bottom": "1.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "2.125em",
+    "top": "50%",
+    "transform": "translate3d(0,-50%,0)",
+    "width": "2.625em",
+    "height": "auto",
+    "color": "#fff",
+    "cursor": "pointer",
+    "transition": "transform .2s ease-in-out,color .2s ease-in-out"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "translate3d(0,-50%,0) rotate(90deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9:active",
+   "media": [],
+   "declarations": {
+    "color": "#ccc"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_close__cgZq9",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "right": "3.125rem",
+    "width": "3.4375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_decoLB__sfQIb",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "2.5em",
+    "bottom": "2.125em",
+    "width": "6.4375em",
+    "height": "auto",
+    "color": "#b3b3b3",
+    "filter": "drop-shadow(0 0 .25rem #ffffff) drop-shadow(0 0 .5rem #ffffff) drop-shadow(0 0 .5rem #ffffff)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  },
+  {
+   "selector": ".ModalFrame_modalFrame__WKkW2 .ModalFrame_decoLB__sfQIb",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "3.125rem",
+    "bottom": "2.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/3bd8ebba7b8795c3.css"
+  }
+ ],
+ "markup": "<div class=\"ModalFrame_header__GAf1j\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 154\" class=\"ModalFrame_decoText__R_poJ\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M649.973,153.302 L629.297,153.302 L629.297,132.466 L629.297,52.655 L629.297,43.408 L629.297,31.819 L629.297,31.819 L629.297,31.818 L723.172,31.818 L723.172,29.713 L723.172,21.675 L629.297,21.675 L629.297,0.839 L629.297,0.839 L629.297,0.839 L723.173,0.839 L743.849,0.839 L743.849,29.712 L743.849,31.818 L799.373,31.818 L799.373,31.819 L799.373,43.407 L799.373,52.655 L799.373,52.655 L799.373,122.322 L778.697,122.322 L778.697,52.655 L743.849,52.655 L743.849,103.227 L743.849,121.627 L743.849,122.322 L743.848,122.322 L743.848,122.322 L685.988,122.322 L685.988,121.628 L685.988,103.228 L685.988,58.739 L685.988,54.515 L685.988,52.655 L649.973,52.655 L649.973,132.465 L799.373,132.465 L799.373,132.466 L799.373,153.302 L799.373,153.302 L649.973,153.302 ZM706.665,54.515 L706.665,58.738 L706.665,103.227 L723.172,103.227 L723.172,52.655 L706.665,52.655 L706.665,54.515 ZM540.590,132.466 L570.270,132.466 L570.270,52.655 L540.590,52.655 L540.590,31.819 L570.270,31.819 L570.270,0.838 L590.946,0.838 L590.946,31.819 L620.626,31.819 L620.626,52.655 L590.946,52.655 L590.946,132.466 L620.626,132.466 L620.626,153.302 L540.590,153.302 L540.590,132.466 ZM509.910,103.985 L411.532,103.985 L411.532,153.301 L390.857,153.301 L390.857,103.985 L292.479,103.985 L292.479,153.302 L271.803,153.302 L271.803,103.985 L271.803,85.528 L271.803,83.149 L390.857,83.149 L390.857,73.005 L271.803,73.005 L271.803,72.480 L271.803,52.169 L271.803,41.969 L292.479,41.969 L292.479,52.169 L390.857,52.169 L390.857,31.826 L271.632,31.826 L271.632,10.990 L390.857,10.990 L390.857,0.839 L411.532,0.839 L411.532,10.990 L530.415,10.990 L530.415,31.826 L411.532,31.826 L411.532,52.169 L509.910,52.169 L509.910,41.618 L530.586,41.618 L530.586,52.169 L530.586,72.480 L530.586,73.005 L411.532,73.005 L411.532,83.149 L530.586,83.149 L530.586,85.528 L530.586,103.985 L530.586,153.302 L509.910,153.302 L509.910,103.985 ZM89.388,132.465 L263.132,132.465 L263.132,153.302 L89.388,153.302 L89.388,132.465 ZM89.388,101.485 L263.132,101.485 L263.132,122.322 L89.388,122.322 L89.388,101.485 ZM164.377,91.342 L164.255,91.342 L164.255,81.523 L164.255,70.505 L164.255,56.508 L110.064,56.508 L110.064,91.342 L89.388,91.342 L89.388,56.508 L89.388,42.607 L89.388,35.672 L164.255,35.672 L164.255,21.675 L89.388,21.675 L89.388,0.839 L164.377,0.839 L185.053,0.839 L263.132,0.839 L263.132,4.084 L263.132,21.675 L263.132,35.672 L242.457,56.508 L185.053,56.508 L185.053,70.505 L263.132,70.505 L263.132,91.342 L185.053,91.342 L164.377,91.342 ZM242.457,35.672 L242.457,21.675 L185.053,21.675 L185.053,35.672 L242.457,35.672 ZM58.708,93.434 L50.354,93.434 L50.354,153.302 L29.678,153.302 L29.678,93.434 L21.357,93.434 L21.357,153.302 L0.681,153.302 L0.681,75.961 L0.681,75.110 L0.710,75.110 L0.710,72.598 L29.678,72.598 L29.678,62.454 L50.354,62.454 L50.354,72.598 L79.384,72.598 L79.384,75.110 L79.384,80.486 L79.384,93.434 L79.384,153.302 L58.708,153.302 L58.708,93.434 ZM29.678,53.546 L29.678,62.454 L0.710,62.454 L0.710,41.618 L14.395,41.618 L14.395,32.531 L15.210,32.531 L15.210,31.818 L0.710,31.818 L0.710,10.982 L14.395,10.982 L14.395,0.838 L65.670,0.838 L65.670,10.982 L79.323,10.982 L79.323,31.818 L64.854,31.818 L64.854,32.531 L65.670,32.531 L65.670,41.618 L79.323,41.618 L79.323,62.454 L50.354,62.454 L50.354,53.546 L29.678,53.546 ZM50.354,21.853 L29.678,21.853 L29.678,31.818 L50.354,31.818 L50.354,21.853 Z\"></path></svg><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 92 15\" class=\"ModalFrame_points__61vno\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M89.241,3.113 C88.381,3.113 87.684,2.416 87.684,1.557 C87.684,0.697 88.381,-0.000 89.241,-0.000 C90.101,-0.000 90.798,0.697 90.798,1.557 C90.798,2.416 90.101,3.113 89.241,3.113 ZM78.345,14.010 C77.485,14.010 76.788,13.313 76.788,12.453 C76.788,11.593 77.485,10.896 78.345,10.896 C79.204,10.896 79.901,11.593 79.901,12.453 C79.901,13.313 79.204,14.010 78.345,14.010 ZM78.345,3.113 C77.485,3.113 76.788,2.416 76.788,1.557 C76.788,0.697 77.485,-0.000 78.345,-0.000 C79.204,-0.000 79.901,0.697 79.901,1.557 C79.901,2.416 79.204,3.113 78.345,3.113 ZM67.448,14.010 C66.588,14.010 65.891,13.313 65.891,12.453 C65.891,11.593 66.588,10.896 67.448,10.896 C68.308,10.896 69.005,11.593 69.005,12.453 C69.005,13.313 68.308,14.010 67.448,14.010 ZM67.448,3.113 C66.588,3.113 65.891,2.416 65.891,1.557 C65.891,0.697 66.588,-0.000 67.448,-0.000 C68.308,-0.000 69.005,0.697 69.005,1.557 C69.005,2.416 68.308,3.113 67.448,3.113 ZM56.552,14.010 C56.498,14.010 56.448,13.999 56.396,13.994 C56.344,13.999 56.294,14.010 56.241,14.010 C55.381,14.010 54.684,13.313 54.684,12.453 C54.684,11.593 55.381,10.896 56.241,10.896 C56.294,10.896 56.344,10.907 56.396,10.912 C56.448,10.907 56.498,10.896 56.552,10.896 C57.411,10.896 58.108,11.593 58.108,12.453 C58.108,13.313 57.411,14.010 56.552,14.010 ZM56.552,3.113 C56.498,3.113 56.448,3.103 56.396,3.098 C56.344,3.103 56.294,3.113 56.241,3.113 C55.381,3.113 54.684,2.416 54.684,1.557 C54.684,0.697 55.381,-0.000 56.241,-0.000 C56.294,-0.000 56.344,0.010 56.396,0.016 C56.448,0.010 56.498,-0.000 56.552,-0.000 C57.411,-0.000 58.108,0.697 58.108,1.557 C58.108,2.416 57.411,3.113 56.552,3.113 ZM45.655,14.010 C45.602,14.010 45.552,13.999 45.500,13.994 C45.448,13.999 45.398,14.010 45.345,14.010 C44.485,14.010 43.788,13.313 43.788,12.453 C43.788,11.593 44.485,10.896 45.345,10.896 C45.398,10.896 45.448,10.907 45.500,10.912 C45.552,10.907 45.602,10.896 45.655,10.896 C46.515,10.896 47.212,11.593 47.212,12.453 C47.212,13.313 46.515,14.010 45.655,14.010 ZM45.655,3.113 C45.602,3.113 45.552,3.103 45.500,3.098 C45.448,3.103 45.398,3.113 45.345,3.113 C44.485,3.113 43.788,2.416 43.788,1.557 C43.788,0.697 44.485,-0.000 45.345,-0.000 C45.398,-0.000 45.448,0.010 45.500,0.016 C45.552,0.010 45.602,-0.000 45.655,-0.000 C46.515,-0.000 47.212,0.697 47.212,1.557 C47.212,2.416 46.515,3.113 45.655,\n<!-- … truncated, 8481 chars total -->",
+ "markupPage": "en-us",
+ "markupClass": "ModalFrame_header__GAf1j",
+ "appearsOn": [
+  "en-us",
+  "en-us_news",
+  "en-us_news_7013",
+  "en-us_operator"
+ ],
+ "computed": {
+  "ModalFrame_header__GAf1j": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 229.5,
+    "y": 241.875,
+    "width": 981,
+    "height": 78.75,
+    "top": 241.875,
+    "right": 1210.5,
+    "bottom": 320.625,
+    "left": 229.5
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "981px",
+   "height": "78.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(31, 31, 31)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "ModalFrame_modalFrame__WKkW2": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 229.5,
+    "y": 241.875,
+    "width": 981,
+    "height": 416.25,
+    "top": 241.875,
+    "right": 1210.5,
+    "bottom": 658.125,
+    "left": 229.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "981px",
+   "height": "416.25px",
+   "top": "450px",
+   "left": "720px",
+   "right": "-261px",
+   "bottom": "33.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(250, 250, 250)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, -490.5, -208.125)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "ModalFrame_title__Ozpn7": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 720,
+    "y": 260.859375,
+    "width": 0,
+    "height": 0,
+    "top": 260.859375,
+    "right": 720,
+    "bottom": 260.859375,
+    "left": 720
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "top": "18.9844px",
+   "left": "490.5px",
+   "right": "490.5px",
+   "bottom": "59.7656px",
+   "font-family": "SansRegular",
+   "font-size": "33.75px",
+   "font-weight": "400",
+   "line-height": "33.75px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fafafa",
+   "#2e2e2e",
+   "#1f1f1f",
+   "#fff",
+   "#ccc",
+   "#b3b3b3",
+   "#ffffff"
+  ],
+  "fonts": [
+   "SansRegular"
+  ],
+  "fontSizes": [
+   "1rem",
+   "2.4375em",
+   "3.75em",
+   "4.5rem",
+   "4rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "transform .2s ease-in-out,color .2s ease-in-out"
+  ]
+ }
+}

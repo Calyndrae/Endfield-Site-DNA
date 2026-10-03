@@ -1,0 +1,12 @@
+{
+  "module": 2285,
+  "summary": "SoundControlStore (export E) is a zustand store persisted under the localStorage key 'ef-official-sound-control' holding a single `enabled` flag that defaults to true. On the server it is replaced by a stub whose getState() returns {enabled: true} and whose setState() is a no-op. SoundEffects and MediaModal read it to decide whether to play SFX or re-enable background music.",
+  "exports": {
+    "E": "useSoundControlStore"
+  },
+  "renames": {
+    "n_1": "useSoundControlStore",
+    "e_2": "set",
+    "t_3": "get"
+  }
+}

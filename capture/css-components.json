@@ -1,0 +1,1140 @@
+{
+ "BackButton": {
+  "classes": {
+   "backButton": "BackButton_backButton__5Hmrb"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "Button": {
+  "classes": {
+   "button": "Button_button__njqVS",
+   "text": "Button_text__FSrIs",
+   "disabled": "Button_disabled__FGmkD",
+   "light": "Button_light__kRD_6"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "Carousel": {
+  "classes": {
+   "carousel": "Carousel_carousel__FKamY",
+   "container": "Carousel_container__tAcTx",
+   "item": "Carousel_item__85leB"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "Dropdown": {
+  "classes": {
+   "root": "Dropdown_root__O4Qqi",
+   "disabled": "Dropdown_disabled__XU9e7",
+   "prof": "Dropdown_prof__WoV4u",
+   "trigger": "Dropdown_trigger__mA0mP",
+   "icon": "Dropdown_icon__yfwMq",
+   "elem": "Dropdown_elem__qJRg3",
+   "arrow": "Dropdown_arrow__gjWRH",
+   "divider": "Dropdown_divider__mwtOR",
+   "triggerLabel": "Dropdown_triggerLabel__Gsp_U",
+   "open": "Dropdown_open__c3u8K",
+   "panel": "Dropdown_panel__ujBcP",
+   "option": "Dropdown_option__fXjKe",
+   "bg": "Dropdown_bg__0iRXw",
+   "text": "Dropdown_text__FG9X4",
+   "optionSelected": "Dropdown_optionSelected__2OEOQ"
+  },
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ]
+ },
+ "GameplayAlbum": {
+  "classes": {
+   "gameplayAlbum": "GameplayAlbum_gameplayAlbum__iz9mA",
+   "aic": "GameplayAlbum_aic__COk_i",
+   "imageContainer": "GameplayAlbum_imageContainer__g5rE9",
+   "rightDeco": "GameplayAlbum_rightDeco__Z0B_P",
+   "gameplay": "GameplayAlbum_gameplay__pWYWA",
+   "H5DecoLine": "GameplayAlbum_H5DecoLine__BB2MP",
+   "line": "GameplayAlbum_line__HU5C5",
+   "title": "GameplayAlbum_title__OF3Ck",
+   "endfield": "GameplayAlbum_endfield__EaJKQ",
+   "deco": "GameplayAlbum_deco__7IAcX",
+   "ak": "GameplayAlbum_ak__S50eM",
+   "image": "GameplayAlbum_image__HfiGl",
+   "wrapper": "GameplayAlbum_wrapper__txj_c",
+   "bottom": "GameplayAlbum_bottom__2HAo8",
+   "middle": "GameplayAlbum_middle__k5O96",
+   "top": "GameplayAlbum_top__WEabr",
+   "h5ImageContainer": "GameplayAlbum_h5ImageContainer__d_h_h",
+   "pagination": "GameplayAlbum_pagination__I3EXE",
+   "paginationH5": "GameplayAlbum_paginationH5__us0Uj",
+   "detail": "GameplayAlbum_detail__sLWiC",
+   "index": "GameplayAlbum_index__GY_gZ",
+   "descriptionContainer": "GameplayAlbum_descriptionContainer__iSXAy",
+   "description": "GameplayAlbum_description__Q9cid"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "HallowText": {
+  "classes": {
+   "hollowText": "HallowText_hollowText__OJN57"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "Header": {
+  "classes": {
+   "pcHeaderContainer": "Header_pcHeaderContainer__Sy_8l",
+   "showPreserveButton": "Header_showPreserveButton__Ksca8",
+   "buttonFrameBg": "Header_buttonFrameBg__2UVLH",
+   "buttonFrameContainer": "Header_buttonFrameContainer__Uvshp",
+   "oversea": "Header_oversea__kRwH0",
+   "detailActive": "Header_detailActive__ngqkN",
+   "overlay": "Header_overlay__33Sha",
+   "navItem": "Header_navItem__c_fLB",
+   "textWrapper": "Header_textWrapper__o9aHt",
+   "active": "Header_active__jzCyf",
+   "buttonPreserve": "Header_buttonPreserve___Dgfd",
+   "button": "Header_button__b0gdu",
+   "icon": "Header_icon__3iDIG",
+   "buttonPreserveBg": "Header_buttonPreserveBg__rEZGT",
+   "tri": "Header_tri__KNP87",
+   "text": "Header_text__52fEh",
+   "text2": "Header_text2__cuV15",
+   "divider": "Header_divider__tUYjO",
+   "divider2": "Header_divider2__mVfPt",
+   "buttonShare": "Header_buttonShare__ml1S_",
+   "buttonShareBg": "Header_buttonShareBg__Tabt5",
+   "shareListDetailActive": "Header_shareListDetailActive__2PFIU",
+   "logo": "Header_logo__s3lE_",
+   "innerContainer": "Header_innerContainer__cW_Dv",
+   "small": "Header_small__J1EYZ",
+   "ele2": "Header_ele2__0Xl_7",
+   "ele3": "Header_ele3__4MIIp",
+   "ele4": "Header_ele4__u3cfo",
+   "bg": "Header_bg___kVDv",
+   "shareItem": "Header_shareItem__KBnsC",
+   "shareIcon": "Header_shareIcon__dqsKL",
+   "shareList": "Header_shareList__aQRkr",
+   "wrapper": "Header_wrapper__ZkoJG",
+   "switcher": "Header_switcher__JVzJX",
+   "switcherImage": "Header_switcherImage__GWv1u",
+   "switcherDeco": "Header_switcherDeco__ghJ1t",
+   "h5HeaderContainer": "Header_h5HeaderContainer__ctquk",
+   "buttonGroup": "Header_buttonGroup___Z1Nk",
+   "iconButton": "Header_iconButton__KWPpn",
+   "preserveButton": "Header_preserveButton__StJCF",
+   "menuIcon": "Header_menuIcon__X_Cn9",
+   "h5Menu": "Header_h5Menu__Tl_yj",
+   "menuButtons": "Header_menuButtons__IRjCZ",
+   "creator": "Header_creator___SyYG",
+   "iconWrapper": "Header_iconWrapper__BvBAU",
+   "mute": "Header_mute__M03P_",
+   "menuBottomButtons": "Header_menuBottomButtons__XFDzp",
+   "navList": "Header_navList__r2BGN",
+   "menuItem": "Header_menuItem__14H7f",
+   "arrow": "Header_arrow__LqT52",
+   "mediaList": "Header_mediaList__gE3ct",
+   "mediaItem": "Header_mediaItem__mUuKL",
+   "hallowText": "Header_hallowText__ZR39f",
+   "langs": "Header_langs__ERYvg",
+   "trigger": "Header_trigger__FIaPM",
+   "img": "Header_img__BR0DK",
+   "dropDown": "Header_dropDown__YJW7l",
+   "langItem": "Header_langItem__JNQaO"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "HomeButton": {
+  "classes": {
+   "button": "HomeButton_button__a_6Gh",
+   "divider": "HomeButton_divider__HuFEb",
+   "white": "HomeButton_white__3FUU_",
+   "disabled": "HomeButton_disabled__eQr_r",
+   "text": "HomeButton_text__Ii9u4",
+   "arrow": "HomeButton_arrow__r_2Sj",
+   "points": "HomeButton_points__1_ktH",
+   "icon": "HomeButton_icon__o6Yuj",
+   "iconImage": "HomeButton_iconImage__tidPL"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "LandingBottom": {
+  "classes": {
+   "container": "LandingBottom_container__BGiWo",
+   "wrapper": "LandingBottom_wrapper__XOv33",
+   "top": "LandingBottom_top__d283b",
+   "iconBg": "LandingBottom_iconBg___1PmE",
+   "icon": "LandingBottom_icon__AtXNn",
+   "ad": "LandingBottom_ad__OEMCa",
+   "ark": "LandingBottom_ark__LpbVt",
+   "gameDesc": "LandingBottom_gameDesc__sVnxi",
+   "mid": "LandingBottom_mid__owTBW",
+   "content": "LandingBottom_content__sxeQ_",
+   "downloadBtn": "LandingBottom_downloadBtn__E_1hx",
+   "bottom": "LandingBottom_bottom__lql7R",
+   "tips": "LandingBottom_tips__dxjiW"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "LandingGameplay": {
+  "classes": {
+   "gameplayAlbum": "LandingGameplay_gameplayAlbum__Xu9oc",
+   "aic": "LandingGameplay_aic__bjiyS",
+   "imageContainer": "LandingGameplay_imageContainer__Xl75Q",
+   "rightDeco": "LandingGameplay_rightDeco__eSHXc",
+   "gameplay": "LandingGameplay_gameplay__fEZA7",
+   "H5DecoLine": "LandingGameplay_H5DecoLine__pbNCF",
+   "line": "LandingGameplay_line__zSgnu",
+   "title": "LandingGameplay_title__Nb5MA",
+   "endfield": "LandingGameplay_endfield__hixZw",
+   "deco": "LandingGameplay_deco__fnBwk",
+   "ak": "LandingGameplay_ak__o4ZeQ",
+   "image": "LandingGameplay_image__DiC_r",
+   "wrapper": "LandingGameplay_wrapper__VY_fU",
+   "bottom": "LandingGameplay_bottom__OoPq8",
+   "middle": "LandingGameplay_middle__c9q9e",
+   "top": "LandingGameplay_top__GoT7c",
+   "h5ImageContainer": "LandingGameplay_h5ImageContainer__K6xIT",
+   "pagination": "LandingGameplay_pagination__fUqPy",
+   "paginationH5": "LandingGameplay_paginationH5__wDPSI",
+   "detail": "LandingGameplay_detail__xuYPi",
+   "index": "LandingGameplay_index__WryAn",
+   "descriptionContainer": "LandingGameplay_descriptionContainer__cViHV",
+   "description": "LandingGameplay_description__FoT0U"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "Media": {
+  "classes": {
+   "mediaModal": "Media_mediaModal__4NhcG",
+   "active": "Media_active__t0_Nv",
+   "modalContainer": "Media_modalContainer__IJFBx",
+   "mediaVideo": "Media_mediaVideo__pYTuU",
+   "mediaIframe": "Media_mediaIframe__pbm15",
+   "closeBtn": "Media_closeBtn__PlFHw",
+   "closeIcon": "Media_closeIcon__4PSl6"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "ModalFrame": {
+  "classes": {
+   "modalFrame": "ModalFrame_modalFrame__WKkW2",
+   "smallTitle": "ModalFrame_smallTitle__aw46z",
+   "header": "ModalFrame_header__GAf1j",
+   "decoText": "ModalFrame_decoText__R_poJ",
+   "title": "ModalFrame_title__Ozpn7",
+   "points": "ModalFrame_points__61vno",
+   "close": "ModalFrame_close__cgZq9",
+   "decoLB": "ModalFrame_decoLB__sfQIb"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "OperatorItem": {
+  "classes": {
+   "operatorItem": "OperatorItem_operatorItem__gPezu",
+   "image": "OperatorItem_image__fyd3C",
+   "contentBlock": "OperatorItem_contentBlock__I_0_3",
+   "name": "OperatorItem_name__OvU8c",
+   "nameText": "OperatorItem_nameText__ibYGO",
+   "subTitle": "OperatorItem_subTitle___c7GD",
+   "codename": "OperatorItem_codename__U3_VI",
+   "index": "OperatorItem_index__ivv9h",
+   "icons": "OperatorItem_icons__x_ht1",
+   "icon": "OperatorItem_icon__jOzZV"
+  },
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ]
+ },
+ "OrigQuery": {
+  "classes": {
+   "origQueryModal": "OrigQuery_origQueryModal__yXuao",
+   "active": "OrigQuery_active__sfHQh",
+   "modalContainer": "OrigQuery_modalContainer__SeaVs",
+   "contentFrame": "OrigQuery_contentFrame__Aaey7",
+   "header": "OrigQuery_header__fdXz_",
+   "decoLB": "OrigQuery_decoLB__u_kWV",
+   "userInfo": "OrigQuery_userInfo__83Rwr",
+   "icon": "OrigQuery_icon__aJumg",
+   "server": "OrigQuery_server__XejYj",
+   "divider": "OrigQuery_divider__GeW7S",
+   "role": "OrigQuery_role__dgeYf",
+   "switch": "OrigQuery_switch__SsQv5",
+   "contentContainer": "OrigQuery_contentContainer__pxVzl",
+   "origList": "OrigQuery_origList__J7K7L",
+   "origItem": "OrigQuery_origItem__bJHQb",
+   "label": "OrigQuery_label__JUfUn",
+   "cnt": "OrigQuery_cnt___K4d2",
+   "dividerLine": "OrigQuery_dividerLine__9INct",
+   "notice": "OrigQuery_notice__yVbTn",
+   "button": "OrigQuery_button__S2DgL",
+   "error": "OrigQuery_error__5bRes",
+   "text": "OrigQuery_text__F0tzY",
+   "loadingIcon": "OrigQuery_loadingIcon__LRyX3"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "Pagination": {
+  "classes": {
+   "pagination": "Pagination_pagination__3IDBu",
+   "number": "Pagination_number__LDm_X",
+   "nav": "Pagination_nav__BS7X4",
+   "dark": "Pagination_dark__8bFUA",
+   "button": "Pagination_button__cVH8L",
+   "disabled": "Pagination_disabled__WlgMt",
+   "arrow": "Pagination_arrow__xgX6n",
+   "border": "Pagination_border__Sfc_h",
+   "right": "Pagination_right__NDQb6",
+   "paginationNumber": "Pagination_paginationNumber__zqV_V",
+   "divider": "Pagination_divider__6dcPw",
+   "carousel": "Pagination_carousel__A3MAp",
+   "block": "Pagination_block__RqQAA",
+   "active": "Pagination_active__jZfae"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "ReserveModal": {
+  "classes": {
+   "reserveModal": "ReserveModal_reserveModal__xb3np",
+   "active": "ReserveModal_active__L5i1J",
+   "oversea": "ReserveModal_oversea__76D5K",
+   "modalContainer": "ReserveModal_modalContainer__qRKaz",
+   "contentContainer": "ReserveModal_contentContainer__PuFL0",
+   "label": "ReserveModal_label__KbnpO",
+   "currentAccount": "ReserveModal_currentAccount__ecR_Z",
+   "number": "ReserveModal_number__5qi_C",
+   "switch": "ReserveModal_switch__T84S5",
+   "text": "ReserveModal_text__RQ_oF",
+   "platforms": "ReserveModal_platforms__3_Erb",
+   "platform": "ReserveModal_platform__MFmJ7",
+   "ratio": "ReserveModal_ratio__V6W8W",
+   "key": "ReserveModal_key__5TE_F",
+   "reservedText": "ReserveModal_reservedText__Vj0Fp",
+   "contentFrame": "ReserveModal_contentFrame__tGTUR",
+   "switchButton": "ReserveModal_switchButton__bvJDg",
+   "switchIcon": "ReserveModal_switchIcon__rDoCl",
+   "reserved": "ReserveModal_reserved__Nejcf",
+   "selected": "ReserveModal_selected__k9Ie_",
+   "cong": "ReserveModal_cong__qvYwY",
+   "line": "ReserveModal_line__RbDL_",
+   "successButton": "ReserveModal_successButton__ebAQs",
+   "buttonContainer": "ReserveModal_buttonContainer__0aiow",
+   "button": "ReserveModal_button__TeBIv"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "RollingContent": {
+  "classes": {
+   "rollingContent": "RollingContent_rollingContent__VbFgT",
+   "overflowWrapper": "RollingContent_overflowWrapper__7cCR9",
+   "contentContainer": "RollingContent_contentContainer__U3urx",
+   "rolling": "RollingContent_rolling__WOKrN",
+   "new": "RollingContent_new__6avsT",
+   "realContent": "RollingContent_realContent__voMS6",
+   "carouselContent": "RollingContent_carouselContent__BsTCo",
+   "repeat": "RollingContent_repeat__YLp8f"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "ScrollViewer": {
+  "classes": {
+   "container": "ScrollViewer_container__wn7Yp",
+   "footer": "ScrollViewer_footer__zem0G",
+   "scroll": "ScrollViewer_scroll__tAflQ"
+  },
+  "files": [
+   "1ef245f541070a31.css"
+  ]
+ },
+ "SectionTitle": {
+  "classes": {
+   "sectionTitle": "SectionTitle_sectionTitle__tAFPG",
+   "icon": "SectionTitle_icon__YpILA",
+   "arrowBlock": "SectionTitle_arrowBlock__6yIDQ",
+   "active": "SectionTitle_active__9ceng",
+   "inner": "SectionTitle_inner__gfAIX",
+   "arrow": "SectionTitle_arrow__qXHl7",
+   "titleEn": "SectionTitle_titleEn__dE__j",
+   "titleCn": "SectionTitle_titleCn__J1sPh",
+   "dark": "SectionTitle_dark__GhLCz"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "SectionViewer": {
+  "classes": {
+   "sectionViewer": "SectionViewer_sectionViewer__aALTd",
+   "header": "SectionViewer_header__G6fOm",
+   "contentContainer": "SectionViewer_contentContainer__5TWfV",
+   "section": "SectionViewer_section__ErA17"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "SubpageHeader": {
+  "classes": {
+   "subpageHeader": "SubpageHeader_subpageHeader__eGnaM",
+   "decoHeader": "SubpageHeader_decoHeader__9Vyiq",
+   "icon": "SubpageHeader_icon__at3oV",
+   "colonSvg": "SubpageHeader_colonSvg__yULIW",
+   "efSvg": "SubpageHeader_efSvg__pA4bE",
+   "titleEn": "SubpageHeader_titleEn__lisEh",
+   "decoSvg": "SubpageHeader_decoSvg__AQpX4",
+   "title": "SubpageHeader_title__Rf0BE",
+   "image": "SubpageHeader_image__DVTAW",
+   "pumper": "SubpageHeader_pumper__2VDbX",
+   "bolt": "SubpageHeader_bolt__knBZT"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "SubpageTab": {
+  "classes": {
+   "scroll": "SubpageTab_scroll___XPu9",
+   "subpageTab": "SubpageTab_subpageTab__A3JdU",
+   "divider": "SubpageTab_divider__Mj7nZ",
+   "tab": "SubpageTab_tab__qSWqv",
+   "active": "SubpageTab_active__fHDLL",
+   "text": "SubpageTab_text__x2QY7",
+   "arrow": "SubpageTab_arrow__vyyID",
+   "arrowIcon": "SubpageTab_arrowIcon__9MnL3"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "TextShrink": {
+  "classes": {
+   "indentLeft": "TextShrink_indentLeft__aN70U",
+   "indentRight": "TextShrink_indentRight__erKrp"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "Toast": {
+  "classes": {
+   "toast": "Toast_toast__ZnoVW",
+   "visible": "Toast_visible__DnNU7",
+   "content": "Toast_content__a8lPb"
+  },
+  "files": [
+   "1ef245f541070a31.css"
+  ]
+ },
+ "TransparentVideo": {
+  "classes": {
+   "container": "TransparentVideo_container__Inu2a",
+   "overlay": "TransparentVideo_overlay__oi9EU"
+  },
+  "files": [
+   "6b6d9a58b4c43339.css"
+  ]
+ },
+ "UserModal": {
+  "classes": {
+   "userModal": "UserModal_userModal__DfHfK",
+   "active": "UserModal_active__fwvqF",
+   "modalContainer": "UserModal_modalContainer__yLLeK",
+   "contentFrame": "UserModal_contentFrame__gVx0W",
+   "label": "UserModal_label__IpsIV",
+   "currentUser": "UserModal_currentUser__9nVX2",
+   "button": "UserModal_button__41zvw"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "__00-Loading": {
+  "classes": {
+   "container": "__00-Loading_container__aBijT",
+   "bg": "__00-Loading_bg__mahvH",
+   "leaving": "__00-Loading_leaving__IKIPd",
+   "logo": "__00-Loading_logo__IaIBj",
+   "moreDeco": "__00-Loading_moreDeco__rmGYb",
+   "triangles": "__00-Loading_triangles__y5flj",
+   "deco": "__00-Loading_deco__EFg6B",
+   "divider": "__00-Loading_divider__nnOZ0",
+   "slogan": "__00-Loading_slogan__54Pmd",
+   "progress": "__00-Loading_progress__649iN",
+   "progressBar": "__00-Loading_progressBar__eFmW1",
+   "progressText": "__00-Loading_progressText__EwQ1g",
+   "core": "__00-Loading_core__K_Z5a",
+   "value": "__00-Loading_value__Zf_CS",
+   "symbol": "__00-Loading_symbol__2HzCd"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "__00-landing": {
+  "classes": {
+   "container": "__00-landing_container__0qC45",
+   "official": "__00-landing_official__dyFpv",
+   "logo": "__00-landing_logo__lfVDM",
+   "actButton": "__00-landing_actButton__nKJ8J",
+   "inner": "__00-landing_inner__84DYj",
+   "icon": "__00-landing_icon__X7l3X",
+   "preGacha": "__00-landing_preGacha__tN0Af",
+   "text": "__00-landing_text__UHuRO",
+   "begin": "__00-landing_begin__wwvDQ",
+   "right": "__00-landing_right__ojry_",
+   "trangle": "__00-landing_trangle__BGt4p",
+   "fontTexture": "__00-landing_fontTexture__y9ZJj",
+   "gameFont": "__00-landing_gameFont__I4aKq",
+   "downloadBtnSection": "__00-landing_downloadBtnSection__JwRf1",
+   "downloadBtn": "__00-landing_downloadBtn__ht1hm",
+   "line": "__00-landing_line__kSdNc",
+   "next": "__00-landing_next__u1W_P",
+   "texture": "__00-landing_texture__SKlYQ",
+   "moreDeco": "__00-landing_moreDeco__rzxLT",
+   "triangles": "__00-landing_triangles__Bv5nN",
+   "deco": "__00-landing_deco__z8MPl",
+   "divider": "__00-landing_divider__tq1fu",
+   "slogan": "__00-landing_slogan__DK8U6",
+   "progress": "__00-landing_progress__cLF1E",
+   "progressBar": "__00-landing_progressBar__3ZBeS",
+   "progressText": "__00-landing_progressText__nW5Xv",
+   "core": "__00-landing_core__rtTPO",
+   "value": "__00-landing_value___Ao7D",
+   "symbol": "__00-landing_symbol__T7BTz"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "__01-Home": {
+  "classes": {
+   "sectionContainer": "__01-Home_sectionContainer__nzBwa"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "__02-Operator": {
+  "classes": {
+   "sectionDivider": "__02-Operator_sectionDivider__PbN7_",
+   "active": "__02-Operator_active__5YfL8",
+   "dividerSubtitle": "__02-Operator_dividerSubtitle__bTAer",
+   "dividerTitle": "__02-Operator_dividerTitle__yHdrt",
+   "sectionContainer": "__02-Operator_sectionContainer__D66c4",
+   "detail": "__02-Operator_detail__yB6fT",
+   "backButton": "__02-Operator_backButton__XytXx",
+   "listButton": "__02-Operator_listButton__jKExN",
+   "pcContainer": "__02-Operator_pcContainer___7vsU",
+   "headerDeco": "__02-Operator_headerDeco__LZ5YX",
+   "headerInnerContainer": "__02-Operator_headerInnerContainer__VBx3B",
+   "decoText": "__02-Operator_decoText__3RgCN",
+   "leftBracket": "__02-Operator_leftBracket__MSSfG",
+   "rightBracket": "__02-Operator_rightBracket__YpY2O",
+   "title": "__02-Operator_title__Qc2kT",
+   "decoTextIcon": "__02-Operator_decoTextIcon__KoX_N",
+   "nameContainer": "__02-Operator_nameContainer__yjlQE",
+   "stars": "__02-Operator_stars__ebGpw",
+   "star": "__02-Operator_star__2BUbj",
+   "titleContainer": "__02-Operator_titleContainer__6rOf9",
+   "titleInnerContainer": "__02-Operator_titleInnerContainer__1rOJW",
+   "icons": "__02-Operator_icons__Ntn1x",
+   "icon": "__02-Operator_icon__GnwPC",
+   "decoLine": "__02-Operator_decoLine___SBw8",
+   "contentContainer": "__02-Operator_contentContainer__4GC_U",
+   "contentInnerContainer": "__02-Operator_contentInnerContainer__G4CVt",
+   "tagContainer": "__02-Operator_tagContainer__dKENE",
+   "tag": "__02-Operator_tag__FQrt0",
+   "label": "__02-Operator_label__3koYX",
+   "cv": "__02-Operator_cv__33o4w",
+   "showText": "__02-Operator_showText__rfM_a",
+   "value": "__02-Operator_value__w_bbs",
+   "longer": "__02-Operator_longer__x_XyC",
+   "line": "__02-Operator_line__XUiut",
+   "backgroundDeco": "__02-Operator_backgroundDeco___Hj3d",
+   "shallowBg": "__02-Operator_shallowBg__E2XaH",
+   "decoFlag": "__02-Operator_decoFlag__xm7_G",
+   "decoTape": "__02-Operator_decoTape__9rSYk",
+   "decoLineTri": "__02-Operator_decoLineTri__NSSu_",
+   "decoLineIcon": "__02-Operator_decoLineIcon__C5C_n",
+   "decoPlus": "__02-Operator_decoPlus__QPwgU",
+   "switchLayer": "__02-Operator_switchLayer__T81bw",
+   "switcher3d": "__02-Operator_switcher3d__I_Eai",
+   "illustLayer": "__02-Operator_illustLayer__L4SHB",
+   "switcher": "__02-Operator_switcher__vxshb",
+   "h5Container": "__02-Operator_h5Container__KAmr7",
+   "whiteCover": "__02-Operator_whiteCover__KkTza",
+   "drawerWrapper": "__02-Operator_drawerWrapper__gYsbO",
+   "header": "__02-Operator_header__cBZck",
+   "small": "__02-Operator_small__PSfAP",
+   "nameEnContainer": "__02-Operator_nameEnContainer___LIcI",
+   "deco": "__02-Operator_deco___QyYC",
+   "detailButton": "__02-Operator_detailButton__4n7SU",
+   "inner": "__02-Operator_inner__rzAAE",
+   "closeIcon": "__02-Operator_closeIcon__h13_B",
+   "hidden": "__02-Operator_hidden__9OxMF",
+   "index": "__02-Operator_index__2PakN",
+   "operatorSwitcher": "__02-Operator_operatorSwitcher__mVB3Y",
+   "button": "__02-Operator_button__m3eA_",
+   "top": "__02-Operator_top__2CdWE",
+   "arrow": "__02-Operator_arrow__CeR6Q",
+   "bottom": "__02-Operator_bottom__R8cW0",
+   "disabled": "__02-Operator_disabled___VWxP",
+   "border": "__02-Operator_border__rjZXw",
+   "itemContainer": "__02-Operator_itemContainer__1m60G",
+   "switchItem": "__02-Operator_switchItem__GlihQ",
+   "activeBg": "__02-Operator_activeBg__f2spf",
+   "image": "__02-Operator_image__brh4e",
+   "h5illustrationContainer": "__02-Operator_h5illustrationContainer__4kSom",
+   "illustrationContainer": "__02-Operator_illustrationContainer__1Ubvh",
+   "illustration": "__02-Operator_illustration__aCtw3",
+   "detailMode": "__02-Operator_detailMode__VITNe",
+   "video": "__02-Operator_video__wMiK7",
+   "videoContainer": "__02-Operator_videoContainer__8Cx6H",
+   "videoEleContainer": "__02-Operator_videoEleContainer__o7Swk",
+   "loadingContainer": "__02-Operator_loadingContainer__XM2OO",
+   "animEle": "__02-Operator_animEle__16Ovp",
+   "noDisplay": "__02-Operator_noDisplay__lYJM1"
+  },
+  "files": [
+   "5db72e0ba5b54b39.css"
+  ]
+ },
+ "__03-Lore": {
+  "classes": {
+   "sectionDivider": "__03-Lore_sectionDivider__RVkKY",
+   "dividerSubtitle": "__03-Lore_dividerSubtitle__HepaK",
+   "dividerTitle": "__03-Lore_dividerTitle__MhUik",
+   "container": "__03-Lore_container__ZiS0O",
+   "title": "__03-Lore_title__CDpIH",
+   "lattice": "__03-Lore_lattice__whvWQ",
+   "colorBlock": "__03-Lore_colorBlock__cBhs6",
+   "codePrinter": "__03-Lore_codePrinter__dEVCl",
+   "a": "__03-Lore_a__HR99Y",
+   "b": "__03-Lore_b__NVqwk",
+   "c": "__03-Lore_c__U4AgZ",
+   "iconLoreWrapper": "__03-Lore_iconLoreWrapper__d0pt_",
+   "iconLore": "__03-Lore_iconLore__hqCg5",
+   "safeArea": "__03-Lore_safeArea__sJzHP",
+   "infoWrapper": "__03-Lore_infoWrapper__j7KFm",
+   "info": "__03-Lore_info__r42vx",
+   "activeCodename": "__03-Lore_activeCodename__J0dsJ",
+   "gameCode": "__03-Lore_gameCode__bOpmz",
+   "navigation": "__03-Lore_navigation__c4xxG",
+   "navigator": "__03-Lore_navigator__ZI3wY",
+   "activeName": "__03-Lore_activeName__BNCet",
+   "inner": "__03-Lore_inner__JMzst",
+   "paging": "__03-Lore_paging__MWW6H",
+   "name": "__03-Lore_name__BgJL7",
+   "navBtn": "__03-Lore_navBtn__jGhWB",
+   "prev": "__03-Lore_prev__tjYeT",
+   "next": "__03-Lore_next__lfnm7",
+   "naviDots": "__03-Lore_naviDots__woC_C",
+   "naviDot": "__03-Lore_naviDot__oyw7a",
+   "active": "__03-Lore_active__0wv3R",
+   "activeIntro": "__03-Lore_activeIntro__ejmyT",
+   "infoEn": "__03-Lore_infoEn__ThYtO",
+   "decoIcon": "__03-Lore_decoIcon__2dQOd",
+   "ringWrapper": "__03-Lore_ringWrapper__9TbBC",
+   "ring": "__03-Lore_ring__E4kwX",
+   "decoLine1": "__03-Lore_decoLine1__mzUNf",
+   "decoLine2": "__03-Lore_decoLine2__hmNpD",
+   "decoLine3": "__03-Lore_decoLine3__SU0mA",
+   "decoLine4": "__03-Lore_decoLine4__CB44A",
+   "decoLine5": "__03-Lore_decoLine5__sAIJF",
+   "decoLine6": "__03-Lore_decoLine6__GXe_h",
+   "colorLine": "__03-Lore_colorLine__jnJPV",
+   "canvasContainer": "__03-Lore_canvasContainer__Tk9KJ"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "__03-gameplay": {
+  "classes": {
+   "sectionContainer": "__03-gameplay_sectionContainer__Pq_YT",
+   "containBg": "__03-gameplay_containBg__hUT2Y",
+   "arrow": "__03-gameplay_arrow__zBR2O",
+   "left": "__03-gameplay_left__lvvsj",
+   "right": "__03-gameplay_right__1EFzc",
+   "sectionContent": "__03-gameplay_sectionContent__tNpfa",
+   "endfieldPre": "__03-gameplay_endfieldPre__s5say",
+   "icon": "__03-gameplay_icon__t6nWW",
+   "ef": "__03-gameplay_ef__B0XXU",
+   "pageTitle": "__03-gameplay_pageTitle__0L4NN",
+   "decoLeft": "__03-gameplay_decoLeft__ChtBC",
+   "title": "__03-gameplay_title__9axOG",
+   "blocks": "__03-gameplay_blocks__j00ed",
+   "codePrinter": "__03-gameplay_codePrinter__GAmuN",
+   "active": "__03-gameplay_active__3tTB7",
+   "itemIcon": "__03-gameplay_itemIcon__GAc9l",
+   "H5DecoLine": "__03-gameplay_H5DecoLine__Ph_a_",
+   "line": "__03-gameplay_line__F8G6S",
+   "endfield": "__03-gameplay_endfield__oMlTP",
+   "deco": "__03-gameplay_deco__bhNQ6",
+   "ak": "__03-gameplay_ak__YunnK",
+   "h5Icon": "__03-gameplay_h5Icon__qMKUy"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "__04-Information": {
+  "classes": {
+   "sectionContainer": "__04-Information_sectionContainer__OXMtV",
+   "sectionTitle": "__04-Information_sectionTitle__FUx0p",
+   "bgVideo": "__04-Information_bgVideo__UjdV5",
+   "fadeOut": "__04-Information_fadeOut__fhF1z",
+   "decoLine": "__04-Information_decoLine__QUesO",
+   "blurredLogo": "__04-Information_blurredLogo__Lt_Ek",
+   "infoVideos": "__04-Information_infoVideos__iDIo3",
+   "infoVideoListFallback": "__04-Information_infoVideoListFallback__DULfO",
+   "infoVideo": "__04-Information_infoVideo__p2Hg9",
+   "coverBox": "__04-Information_coverBox__Gfhd_",
+   "mask": "__04-Information_mask__A6_HD",
+   "active": "__04-Information_active__8CCkr",
+   "navContainer": "__04-Information_navContainer__rqqK9",
+   "navInfo": "__04-Information_navInfo__iyDn2",
+   "tag": "__04-Information_tag__xJ2hT",
+   "prev": "__04-Information_prev__8LyRZ",
+   "next": "__04-Information_next__o_q5o",
+   "navBtn": "__04-Information_navBtn__Fvvsd",
+   "infoCurrent": "__04-Information_infoCurrent__Hcu3q",
+   "tagAndDate": "__04-Information_tagAndDate__T0klz",
+   "date": "__04-Information_date__woGpE",
+   "title": "__04-Information_title__nPfW6",
+   "titleInner": "__04-Information_titleInner__ozuUJ",
+   "titleFitProbe": "__04-Information_titleFitProbe__9vJZe",
+   "titleFitProbeInner": "__04-Information_titleFitProbeInner__NALvt",
+   "titleTextVisible": "__04-Information_titleTextVisible__lx05a",
+   "titleTextLandscape": "__04-Information_titleTextLandscape___DypD",
+   "buttons": "__04-Information_buttons__Wh_5d",
+   "playBtn": "__04-Information_playBtn__pFvtR",
+   "button": "__04-Information_button__4GEKK"
+  },
+  "files": [
+   "89618c72836110eb.css"
+  ]
+ },
+ "__04-finalpage": {
+  "classes": {
+   "sectionContainer": "__04-finalpage_sectionContainer__w2kZ2",
+   "arrow": "__04-finalpage_arrow__5BaVf",
+   "left": "__04-finalpage_left__Am_jX",
+   "right": "__04-finalpage_right__UHWbJ",
+   "containBg": "__04-finalpage_containBg__TDICn",
+   "pageTitle": "__04-finalpage_pageTitle__Xfanu",
+   "decoLeft": "__04-finalpage_decoLeft__cC0X5",
+   "title": "__04-finalpage_title__1DgK1",
+   "blocks": "__04-finalpage_blocks__5iOZr",
+   "codePrinter": "__04-finalpage_codePrinter__yB9SU",
+   "active": "__04-finalpage_active__lB_h5",
+   "itemIcon": "__04-finalpage_itemIcon__b7xI3",
+   "icon": "__04-finalpage_icon__NaR6h",
+   "h5Icon": "__04-finalpage_h5Icon__xpyuq",
+   "H5DecoLine": "__04-finalpage_H5DecoLine__6JDMm",
+   "line": "__04-finalpage_line__MD98H",
+   "endfield": "__04-finalpage_endfield__Wc_Yz",
+   "deco": "__04-finalpage_deco__9S1qO",
+   "ak": "__04-finalpage_ak__6940y",
+   "detailButton": "__04-finalpage_detailButton__xnXLq",
+   "aicTitle": "__04-finalpage_aicTitle__h9vYe"
+  },
+  "files": [
+   "1ef245f541070a31.css"
+  ]
+ },
+ "__05-Gameplay": {
+  "classes": {
+   "sectionContainer": "__05-Gameplay_sectionContainer__LN64O",
+   "endfieldPre": "__05-Gameplay_endfieldPre__LUcJv",
+   "icon": "__05-Gameplay_icon__Yiqki",
+   "ef": "__05-Gameplay_ef__xDMnp",
+   "pageTitle": "__05-Gameplay_pageTitle__JHeDq",
+   "decoLeft": "__05-Gameplay_decoLeft__u4hlT",
+   "title": "__05-Gameplay_title__wtOJu",
+   "blocks": "__05-Gameplay_blocks__mdVoM",
+   "codePrinter": "__05-Gameplay_codePrinter__6LHyV",
+   "active": "__05-Gameplay_active__Ers8s",
+   "itemIcon": "__05-Gameplay_itemIcon__OsONf",
+   "H5DecoLine": "__05-Gameplay_H5DecoLine__F59RG",
+   "line": "__05-Gameplay_line__ONbLs",
+   "endfield": "__05-Gameplay_endfield__On6a0",
+   "deco": "__05-Gameplay_deco__U6KyP",
+   "ak": "__05-Gameplay_ak__ICShZ",
+   "h5Icon": "__05-Gameplay_h5Icon__CRlhV"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "__06-Notice": {
+  "classes": {
+   "sectionContainer": "__06-Notice_sectionContainer__2x0Mi",
+   "carouselContainer": "__06-Notice_carouselContainer__2AoYR",
+   "carouselContentContainer": "__06-Notice_carouselContentContainer__ZTu_O",
+   "carouselPagination": "__06-Notice_carouselPagination__XTWO2",
+   "pageTitle": "__06-Notice_pageTitle__XJGX0",
+   "leftDeco": "__06-Notice_leftDeco__ML9u3",
+   "topPart": "__06-Notice_topPart__HhZJm",
+   "wrapper": "__06-Notice_wrapper__g1OkM",
+   "bottomPart": "__06-Notice_bottomPart__xrJ5d",
+   "textWrapper": "__06-Notice_textWrapper__nvUA3",
+   "latest": "__06-Notice_latest__ySg6h",
+   "divider": "__06-Notice_divider__1U63x",
+   "noticeItem": "__06-Notice_noticeItem__7v58F",
+   "active": "__06-Notice_active__SIJCS",
+   "image": "__06-Notice_image__3ztHF",
+   "titleContainer": "__06-Notice_titleContainer__xNob9",
+   "subtitle": "__06-Notice_subtitle__T6dJ9",
+   "time": "__06-Notice_time__D8fRI",
+   "title": "__06-Notice_title__YvY2R",
+   "detailButton": "__06-Notice_detailButton__1qReQ",
+   "h5ContentWrapper": "__06-Notice_h5ContentWrapper__Eqjzg",
+   "h5ContentContainer": "__06-Notice_h5ContentContainer__QWOjo",
+   "bulletinList": "__06-Notice_bulletinList__gTFKV",
+   "bulletinItem": "__06-Notice_bulletinItem__ckhFt",
+   "type": "__06-Notice_type__2IeVk",
+   "date": "__06-Notice_date__pG4fQ",
+   "pagination": "__06-Notice_pagination__P2NOK"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "__08-AIC": {
+  "classes": {
+   "sectionContainer": "__08-AIC_sectionContainer__XPJyn",
+   "pageTitle": "__08-AIC_pageTitle__6Qc_g",
+   "decoLeft": "__08-AIC_decoLeft__MF4oy",
+   "title": "__08-AIC_title__Y_JE9",
+   "blocks": "__08-AIC_blocks__Wli2U",
+   "codePrinter": "__08-AIC_codePrinter__bTv7W",
+   "active": "__08-AIC_active__DvdWI",
+   "itemIcon": "__08-AIC_itemIcon__hwWhR",
+   "icon": "__08-AIC_icon__lIZuJ",
+   "h5Icon": "__08-AIC_h5Icon__adHvF",
+   "H5DecoLine": "__08-AIC_H5DecoLine__yfqBS",
+   "line": "__08-AIC_line__bHAKS",
+   "endfield": "__08-AIC_endfield__LuTte",
+   "deco": "__08-AIC_deco__56KkB",
+   "ak": "__08-AIC_ak__At8gA",
+   "detailButton": "__08-AIC_detailButton__1bigx",
+   "aicTitle": "__08-AIC_aicTitle__mWmiw"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "__09-Calendar": {
+  "classes": {
+   "sectionContainer": "__09-Calendar_sectionContainer__MrVnT",
+   "stickContainer": "__09-Calendar_stickContainer__Ef8z3",
+   "stickFixed": "__09-Calendar_stickFixed__PESTi",
+   "stickBottom": "__09-Calendar_stickBottom__MB7kM",
+   "title": "__09-Calendar_title__WtlTA",
+   "timeline": "__09-Calendar_timeline__LmxeL",
+   "calendar": "__09-Calendar_calendar__iWel6",
+   "calendarContainer": "__09-Calendar_calendarContainer___SWPw",
+   "calendarScroll": "__09-Calendar_calendarScroll__dPeKx",
+   "scrollContainer": "__09-Calendar_scrollContainer__fzRVm",
+   "content": "__09-Calendar_content__nTQyh",
+   "timeScrollContainer": "__09-Calendar_timeScrollContainer__VIpNe",
+   "timelineScroll": "__09-Calendar_timelineScroll__5Xkis",
+   "calendarH5": "__09-Calendar_calendarH5__un6It"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ },
+ "__10-NoticeList": {
+  "classes": {
+   "sectionContainer": "__10-NoticeList_sectionContainer__tmyCM",
+   "header": "__10-NoticeList_header__MICaH",
+   "tabs": "__10-NoticeList_tabs__fUKSq",
+   "empty": "__10-NoticeList_empty__omDeT",
+   "items": "__10-NoticeList_items___hNGg",
+   "item": "__10-NoticeList_item__W4sd2",
+   "imageWrapper": "__10-NoticeList_imageWrapper__VQJjG",
+   "image": "__10-NoticeList_image__2vMeD",
+   "subtitle": "__10-NoticeList_subtitle__dBFIV",
+   "type": "__10-NoticeList_type__v9OVw",
+   "date": "__10-NoticeList_date__oellB",
+   "title": "__10-NoticeList_title__Z397h",
+   "paginationWrapper": "__10-NoticeList_paginationWrapper__gvNTt",
+   "showBackButton": "__10-NoticeList_showBackButton__0naEe",
+   "pagination": "__10-NoticeList_pagination__goU3_",
+   "backButton": "__10-NoticeList_backButton__jEuBs",
+   "titleIcon": "__10-NoticeList_titleIcon__m0RrT"
+  },
+  "files": [
+   "2174f0c4d179760f.css"
+  ]
+ },
+ "__12-OperatorList": {
+  "classes": {
+   "sectionContainer": "__12-OperatorList_sectionContainer__KC5gP",
+   "totalContainer": "__12-OperatorList_totalContainer__86kgK",
+   "detail": "__12-OperatorList_detail__l3dwR",
+   "dropdowns": "__12-OperatorList_dropdowns__xnSNd",
+   "listContainer": "__12-OperatorList_listContainer__3RzVi",
+   "scrollBar": "__12-OperatorList_scrollBar__cociH",
+   "thumb": "__12-OperatorList_thumb__OQEKX",
+   "list": "__12-OperatorList_list__JDzsq",
+   "backgroundDeco": "__12-OperatorList_backgroundDeco__4RkDZ",
+   "shallowBg": "__12-OperatorList_shallowBg__lw6mP",
+   "decoText": "__12-OperatorList_decoText__A14Ui",
+   "decoRight": "__12-OperatorList_decoRight__73_eX"
+  },
+  "files": [
+   "cca0e7eae4809d1e.css"
+  ]
+ },
+ "__20-NoticeDetail": {
+  "classes": {
+   "sectionContainer": "__20-NoticeDetail_sectionContainer__06Hmx",
+   "contentContainer": "__20-NoticeDetail_contentContainer__irljr",
+   "subtitle": "__20-NoticeDetail_subtitle__Eu01S",
+   "type": "__20-NoticeDetail_type__fRshy",
+   "date": "__20-NoticeDetail_date__A4MY4",
+   "title": "__20-NoticeDetail_title__cALu9",
+   "close": "__20-NoticeDetail_close__SEu18",
+   "divider": "__20-NoticeDetail_divider__Kqd1D",
+   "content": "__20-NoticeDetail_content__wIAEN",
+   "deco": "__20-NoticeDetail_deco__Zftnf",
+   "bg": "__20-NoticeDetail_bg__jXon8",
+   "rt": "__20-NoticeDetail_rt__2ruPz",
+   "l": "__20-NoticeDetail_l__RQKaI",
+   "b": "__20-NoticeDetail_b__aqWxI",
+   "bgBottom": "__20-NoticeDetail_bgBottom__LVKra",
+   "decoLB": "__20-NoticeDetail_decoLB__WRrlN",
+   "backButton": "__20-NoticeDetail_backButton__pWmC1",
+   "active": "__20-NoticeDetail_active__mKxUQ",
+   "icon": "__20-NoticeDetail_icon___g46M"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "__21-ProtocolDetail": {
+  "classes": {
+   "sectionContainer": "__21-ProtocolDetail_sectionContainer__XZ_gX",
+   "contentContainer": "__21-ProtocolDetail_contentContainer__VjiZj",
+   "innerContainer": "__21-ProtocolDetail_innerContainer__olPvO",
+   "subtitle": "__21-ProtocolDetail_subtitle__b_P3G",
+   "type": "__21-ProtocolDetail_type__aukHo",
+   "date": "__21-ProtocolDetail_date__4P6Uo",
+   "title": "__21-ProtocolDetail_title__8PgRe",
+   "close": "__21-ProtocolDetail_close__EjUMQ",
+   "divider": "__21-ProtocolDetail_divider__H8iOM",
+   "content": "__21-ProtocolDetail_content__gnmVJ",
+   "bgBottom": "__21-ProtocolDetail_bgBottom__IZxFA",
+   "decoLB": "__21-ProtocolDetail_decoLB__4pB8c",
+   "backButton": "__21-ProtocolDetail_backButton__c5SKD",
+   "active": "__21-ProtocolDetail_active__ACwDT",
+   "icon": "__21-ProtocolDetail_icon__46IDL",
+   "footer": "__21-ProtocolDetail_footer__Anffv"
+  },
+  "files": [
+   "1a7ed5873254240b.css"
+  ]
+ },
+ "bg": {
+  "classes": {
+   "bgContainer": "bg_bgContainer__8_h2E",
+   "bg": "bg_bg__JeUZA",
+   "horizontalMask": "bg_horizontalMask__A7Oa8",
+   "inner": "bg_inner__2TAAb",
+   "verticalMask": "bg_verticalMask__k2knK",
+   "titleStage": "bg_titleStage__38POn",
+   "title": "bg_title__g7Ei1"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "downloader": {
+  "classes": {
+   "downloadContainer": "downloader_downloadContainer__z2AUJ",
+   "decoText": "downloader_decoText__RqIYu",
+   "decoRt": "downloader_decoRt__AQD8n",
+   "decoRb": "downloader_decoRb__Wl3Px",
+   "iconContainer": "downloader_iconContainer__oRDg0",
+   "icon": "downloader_icon__kcnSL",
+   "downloadTitle": "downloader_downloadTitle__cES4Y",
+   "contentContainer": "downloader_contentContainer__gSnGa",
+   "qrcode": "downloader_qrcode__i0rLm",
+   "platforms": "downloader_platforms__qTgeb",
+   "line": "downloader_line__YlNIA",
+   "row": "downloader_row__BPXTj",
+   "item": "downloader_item__ebxpq",
+   "disabled": "downloader_disabled__v_T3t",
+   "hidden": "downloader_hidden__idn8F",
+   "epic": "downloader_epic__OBzwu",
+   "ps5": "downloader_ps5__PbN32",
+   "galaxyStore": "downloader_galaxyStore__fM7NQ",
+   "appStore": "downloader_appStore___xAQu",
+   "android": "downloader_android__T0tmZ",
+   "pc": "downloader_pc__4MUKW",
+   "taptap": "downloader_taptap__rmSxk",
+   "googlePlay": "downloader_googlePlay__5dTJt",
+   "gpg": "downloader_gpg__K8c5G",
+   "windows": "downloader_windows__0lLI2",
+   "download": "downloader_download__3ijH_",
+   "text": "downloader_text__HLbmJ",
+   "label": "downloader_label__oShj8"
+  },
+  "files": [
+   "79293df1a997d2da.css"
+  ]
+ },
+ "footer": {
+  "classes": {
+   "footer": "footer_footer__6jTqE",
+   "topContainer": "footer_topContainer__sMUtI",
+   "label": "footer_label__Jml0k",
+   "languageItem": "footer_languageItem__TXB_u",
+   "globe": "footer_globe__565km",
+   "text": "footer_text__DmOwe",
+   "arrow": "footer_arrow__kIJ1K",
+   "active": "footer_active__txpDc",
+   "dropDown": "footer_dropDown__SAbib",
+   "dropDownScroll": "footer_dropDownScroll__2rPuJ",
+   "contentContainer": "footer_contentContainer__pbw_e",
+   "dropDownItem": "footer_dropDownItem__PXJos",
+   "links": "footer_links__rF_Sd",
+   "link": "footer_link___h1wX"
+  },
+  "files": [
+   "0ff6a898df0edefb.css"
+  ]
+ },
+ "h5-cn": {
+  "classes": {
+   "container": "h5-cn_container__Ys2AK",
+   "rbContainer": "h5-cn_rbContainer__DdbbO",
+   "downloadContainer": "h5-cn_downloadContainer__zxl9m",
+   "downloadWrapper": "h5-cn_downloadWrapper__oX4TL",
+   "extraContainer": "h5-cn_extraContainer__bUudG",
+   "line": "h5-cn_line__6OmRh",
+   "lineButton": "h5-cn_lineButton__FyJOI",
+   "cloudGameIcon": "h5-cn_cloudGameIcon__Uqt8h",
+   "text": "h5-cn_text__FNvPT",
+   "button": "h5-cn_button__KgsOM",
+   "iconCharge": "h5-cn_iconCharge__V_9qR",
+   "iconSkland": "h5-cn_iconSkland__XX6yP",
+   "rtButtonGroup": "h5-cn_rtButtonGroup__wgX8_",
+   "age": "h5-cn_age__udWY6",
+   "scrollTip": "h5-cn_scrollTip__pTvfQ"
+  },
+  "files": [
+   "79293df1a997d2da.css"
+  ]
+ },
+ "h5-oversea": {
+  "classes": {
+   "container": "h5-oversea_container__vZOQu",
+   "rbContainer": "h5-oversea_rbContainer__8qBIc",
+   "downloadContainer": "h5-oversea_downloadContainer__k3lzm",
+   "downloadWrapper": "h5-oversea_downloadWrapper__ST5Di",
+   "extraContainer": "h5-oversea_extraContainer__P97eS",
+   "button": "h5-oversea_button__8l67l",
+   "iconCharge": "h5-oversea_iconCharge__NhAVc",
+   "rankImage": "h5-oversea_rankImage__Lq9XJ",
+   "rtButtonGroup": "h5-oversea_rtButtonGroup__tJWLo",
+   "scrollTip": "h5-oversea_scrollTip__EZxdL"
+  },
+  "files": [
+   "79293df1a997d2da.css"
+  ]
+ },
+ "pc-cn": {
+  "classes": {
+   "container": "pc-cn_container__CKshH",
+   "rbContainer": "pc-cn_rbContainer__osuNB",
+   "downloadContainer": "pc-cn_downloadContainer__tJKMi",
+   "downloadWrapper": "pc-cn_downloadWrapper__RQsuR",
+   "extraContainer": "pc-cn_extraContainer___l0hc",
+   "button": "pc-cn_button__iybS6",
+   "iconCharge": "pc-cn_iconCharge___L5ub",
+   "iconSkland": "pc-cn_iconSkland__4qwNb",
+   "text": "pc-cn_text__c8Kv_",
+   "rtButtonGroup": "pc-cn_rtButtonGroup__D1WTj",
+   "age": "pc-cn_age__4jQcK",
+   "cloudGameButton": "pc-cn_cloudGameButton__iFD48"
+  },
+  "files": [
+   "79293df1a997d2da.css"
+  ]
+ },
+ "pc-oversea": {
+  "classes": {
+   "container": "pc-oversea_container__RaAtO",
+   "rbContainer": "pc-oversea_rbContainer__tVihR",
+   "downloadContainer": "pc-oversea_downloadContainer__jrv9L",
+   "downloadWrapper": "pc-oversea_downloadWrapper__s3301",
+   "rankImage": "pc-oversea_rankImage__GN74n",
+   "rtButtonGroup": "pc-oversea_rtButtonGroup__ymp3q"
+  },
+  "files": [
+   "79293df1a997d2da.css"
+  ]
+ },
+ "players": {
+  "classes": {
+   "videoContainer": "players_videoContainer__Ahx_s",
+   "videoInDom": "players_videoInDom__dUdna"
+  },
+  "files": [
+   "3bd8ebba7b8795c3.css"
+  ]
+ },
+ "protocol": {
+  "classes": {
+   "html": "protocol_html__0huJ4",
+   "body": "protocol_body__7Bxrw"
+  },
+  "files": [
+   "637308dda4dd7f2d.css"
+  ]
+ },
+ "sections": {
+  "classes": {
+   "sectionViewer": "sections_sectionViewer__326Rn",
+   "contentContainer": "sections_contentContainer__5cMPG",
+   "headerContainer": "sections_headerContainer__IQkt1",
+   "header": "sections_header__8tVO2",
+   "viewerContainer": "sections_viewerContainer__2Afuw",
+   "modalLayer": "sections_modalLayer__0Rqmm"
+  },
+  "files": [
+   "dd1a1cedef0d47ea.css"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "module": 46173,
+  "summary": "Site footer component. The top row shows the 'common.selectLanguage' label and a language picker (globe SVG, current language name from LANG_DISPLAY_NAMES, a chevron arrow SVG and a scrollable dropdown of availableLangs, defaulting to AVAILABLE_LANGS) that toggles an 'active' class and closes via a click-outside ref hook; picking a language rewrites window.location.pathname by replacing '/<currentLang>' with '/<newLang>' and preserves the hash. The bottom container is a ref passed to Tracking.insertFooter so the Gryphline SDK renders the legal/footer links into it. Two inline SVG components (31x31 globe, 25x65 arrow) use an Object.assign polyfill to spread props.",
+  "exports": {
+    "A": "Footer"
+  },
+  "renames": {
+    "i_1": "globeIconPaths",
+    "t_2": "arrowIconPath",
+    "g_3": "extendProps",
+    "A_4": "SvgGlobe",
+    "f_5": "extendProps2",
+    "v_6": "SvgArrow",
+    "y_7": "Footer",
+    "e_8": "target",
+    "a_9": "argIndex",
+    "n_10": "source",
+    "i_11": "key",
+    "e_12": "globeProps",
+    "e_13": "target2",
+    "a_14": "argIndex2",
+    "n_15": "source2",
+    "i_16": "key2",
+    "e_17": "arrowProps",
+    "e_18": "props",
+    "a_19": "availableLangs",
+    "n_20": "sdkFooterRef",
+    "i_21": "lang",
+    "t_22": "t",
+    "s_23": "isDropdownOpen",
+    "d_24": "setDropdownOpen",
+    "p_25": "switchLanguage",
+    "g_26": "clickOutsideRef",
+    "e_27": "targetLang",
+    "a_28": "newPathname",
+    "e_29": "langCode"
+  }
+}

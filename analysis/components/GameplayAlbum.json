@@ -1,0 +1,1194 @@
+{
+ "component": "GameplayAlbum",
+ "files": [
+  "dd1a1cedef0d47ea.css"
+ ],
+ "classes": {
+  "gameplayAlbum": "GameplayAlbum_gameplayAlbum__iz9mA",
+  "aic": "GameplayAlbum_aic__COk_i",
+  "imageContainer": "GameplayAlbum_imageContainer__g5rE9",
+  "rightDeco": "GameplayAlbum_rightDeco__Z0B_P",
+  "gameplay": "GameplayAlbum_gameplay__pWYWA",
+  "H5DecoLine": "GameplayAlbum_H5DecoLine__BB2MP",
+  "line": "GameplayAlbum_line__HU5C5",
+  "title": "GameplayAlbum_title__OF3Ck",
+  "endfield": "GameplayAlbum_endfield__EaJKQ",
+  "deco": "GameplayAlbum_deco__7IAcX",
+  "ak": "GameplayAlbum_ak__S50eM",
+  "image": "GameplayAlbum_image__HfiGl",
+  "wrapper": "GameplayAlbum_wrapper__txj_c",
+  "bottom": "GameplayAlbum_bottom__2HAo8",
+  "middle": "GameplayAlbum_middle__k5O96",
+  "top": "GameplayAlbum_top__WEabr",
+  "h5ImageContainer": "GameplayAlbum_h5ImageContainer__d_h_h",
+  "pagination": "GameplayAlbum_pagination__I3EXE",
+  "paginationH5": "GameplayAlbum_paginationH5__us0Uj",
+  "detail": "GameplayAlbum_detail__sLWiC",
+  "index": "GameplayAlbum_index__GY_gZ",
+  "descriptionContainer": "GameplayAlbum_descriptionContainer__iSXAy",
+  "description": "GameplayAlbum_description__Q9cid"
+ },
+ "ruleCount": 46,
+ "rules": [
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_aic__COk_i",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "position": "absolute",
+    "left": "calc(50% - 80rem + 3.75rem + 28.3125rem)",
+    "top": "5.75rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_aic__COk_i .GameplayAlbum_imageContainer__g5rE9",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_aic__COk_i .GameplayAlbum_imageContainer__g5rE9",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "left": "-19rem",
+    "flex-direction": "row-reverse"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_aic__COk_i .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "background-color": "#ededed"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_gameplay__pWYWA",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "position": "absolute",
+    "left": "calc(50% - 80rem + 3.75rem + 38rem)",
+    "top": "30.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "calc(50% - 31.25rem)",
+    "width": "8.25rem",
+    "height": "100%",
+    "background-color": "#fffa00",
+    "overflow": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "1rem",
+    "bottom": "calc(100% - 3.9375rem)",
+    "width": "calc(100vh - 9.625rem - 3.9375rem)",
+    "height": "2.25rem",
+    "transform-origin": "left bottom",
+    "transform": "rotate(90deg)",
+    "background-color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".875rem",
+    "bottom": ".375rem",
+    "font-size": "3.5rem",
+    "white-space": "nowrap",
+    "font-family": "Novecentosanswide-DemiBold",
+    "line-height": "1",
+    "text-transform": "uppercase",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_endfield__EaJKQ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".875rem",
+    "bottom": ".625rem",
+    "width": "15.3125rem",
+    "height": "auto",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_deco__7IAcX",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": ".5rem",
+    "right": "1.125rem",
+    "width": "10.375rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_H5DecoLine__BB2MP .GameplayAlbum_line__HU5C5 .GameplayAlbum_ak__S50eM",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".9375rem",
+    "bottom": "3.75rem",
+    "line-height": "1",
+    "font-family": "Gilroy-Medium",
+    "font-size": "1.125rem",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "111.5rem",
+    "height": "54.375rem",
+    "overflow": "hidden",
+    "display": "flex"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": "30.125rem",
+    "width": "80rem",
+    "height": "45rem",
+    "transform": "translate3d(-50%,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "position": "relative",
+    "top": "0",
+    "right": "0",
+    "width": "19rem",
+    "height": "100%",
+    "background-color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "1.875rem",
+    "bottom": "calc(100% - 1.5rem)",
+    "width": "51.5rem",
+    "height": "2.25rem",
+    "transform-origin": "left bottom",
+    "transform": "rotate(90deg)",
+    "background-color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_endfield__EaJKQ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".625rem",
+    "bottom": ".75rem",
+    "width": "22.125rem",
+    "height": "auto",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_title__OF3Ck",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".625rem",
+    "bottom": ".5rem",
+    "white-space": "nowrap",
+    "font-family": "Novecentosanswide-DemiBold",
+    "font-size": "4.5rem",
+    "text-transform": "uppercase",
+    "line-height": "1",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_deco__7IAcX",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": ".5rem",
+    "right": "1.125rem",
+    "width": "10.375rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_imageContainer__g5rE9 .GameplayAlbum_rightDeco__Z0B_P .GameplayAlbum_line__HU5C5 .GameplayAlbum_ak__S50eM",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".75rem",
+    "bottom": "5rem",
+    "line-height": "1",
+    "font-family": "Gilroy-Medium",
+    "font-size": "1.5rem",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "92.4375rem",
+    "height": "54.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_wrapper__txj_c",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_bottom__2HAo8,.GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_middle__k5O96,.GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_top__WEabr",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "display": "block",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_middle__k5O96",
+   "media": [],
+   "declarations": {
+    "filter": "grayscale(1) brightness(.76) contrast(200) url(#red-green)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl .GameplayAlbum_bottom__2HAo8",
+   "media": [],
+   "declarations": {
+    "background-color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_image__HfiGl div.GameplayAlbum_middle__k5O96",
+   "media": [],
+   "declarations": {
+    "background-color": "#fffa00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_h5ImageContainer__d_h_h",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "50%",
+    "top": "30.125rem",
+    "width": "80rem",
+    "height": "45rem",
+    "transform": "translate3d(-50%,0,0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_h5ImageContainer__d_h_h",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_h5ImageContainer__d_h_h img",
+   "media": [],
+   "declarations": {
+    "width": "100%",
+    "height": "100%",
+    "object-fit": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_pagination__I3EXE",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "2.25rem",
+    "bottom": "-1.3125rem",
+    "opacity": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_pagination__I3EXE",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_paginationH5__us0Uj",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "18.1875rem",
+    "left": "calc(50% - 18.1875rem)",
+    "top": "95.0625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_paginationH5__us0Uj",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_paginationH5__us0Uj",
+   "media": [],
+   "declarations": {
+    "top": "98.625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "2.4375rem",
+    "top": "58rem",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_index__GY_gZ",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "-.25rem",
+    "left": "-2.5rem",
+    "font-family": "Novecentosanswide-Medium",
+    "font-size": "2rem",
+    "transform": "scale(.5)",
+    "transform-origin": "left top",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "calc(50% - 18.1875rem)",
+    "top": "77.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_title__OF3Ck",
+   "media": [],
+   "declarations": {
+    "font-family": "SansMedium",
+    "font-size": "3rem",
+    "line-height": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[lang=ru-ru] .GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_title__OF3Ck",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "letter-spacing": "-.04em"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_descriptionContainer__iSXAy",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "width": "90.125rem",
+    "height": "11.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_descriptionContainer__iSXAy",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "57.5rem",
+    "height": "16.5rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_description__Q9cid",
+   "media": [],
+   "declarations": {
+    "margin-top": ".75rem",
+    "max-width": "57.5rem",
+    "font-family": "SansMedium",
+    "font-size": "1.875rem",
+    "line-height": "1.5"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": ".GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_description__Q9cid",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "max-width": "45.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  },
+  {
+   "selector": "html[data-oversea=true] .GameplayAlbum_gameplayAlbum__iz9mA .GameplayAlbum_detail__sLWiC .GameplayAlbum_description__Q9cid",
+   "media": [
+    "@media (orientation:landscape)"
+   ],
+   "declarations": {
+    "max-width": "90.125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/dd1a1cedef0d47ea.css"
+  }
+ ],
+ "markup": "<div class=\"GameplayAlbum_imageContainer__g5rE9\"><div class=\"GameplayAlbum_image__HfiGl\"><div class=\"GameplayAlbum_wrapper__txj_c\"><div class=\"GameplayAlbum_bottom__2HAo8\" style=\"clip-path: polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%);\"></div><div class=\"GameplayAlbum_middle__k5O96\" style=\"clip-path: polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%);\"></div><div class=\"players_videoContainer__Ahx_s GameplayAlbum_top__WEabr\" style=\"clip-path: polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%);\"><video preload=\"auto\" loop=\"\" playsinline=\"\" x5-video-player-type=\"h5\" x5-playsinline=\"\"><source src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/01.1e0eb1.mp4\" type=\"video/mp4\"></video></div></div></div><div class=\"GameplayAlbum_rightDeco__Z0B_P\"><div class=\"GameplayAlbum_line__HU5C5\"><div class=\"GameplayAlbum_title__OF3Ck\">gameplay</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 166 19\" class=\"GameplayAlbum_deco__7IAcX\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M162.446,12.190 L162.446,13.298 L164.771,13.299 L164.771,14.591 L162.446,14.591 L162.446,15.773 L165.647,15.774 L165.647,17.214 L160.896,17.214 L160.896,10.749 L165.602,10.749 L165.602,12.190 L162.446,12.190 ZM158.434,17.213 L157.226,15.080 L156.903,15.080 L156.534,15.080 L156.534,17.213 L154.983,17.213 L154.984,10.748 L157.439,10.748 C159.062,10.749 160.013,11.598 160.012,12.937 C160.012,13.824 159.579,14.480 158.795,14.775 L160.270,17.213 L158.434,17.213 ZM157.531,12.152 L156.534,12.152 L156.534,13.842 L157.540,13.842 C158.112,13.843 158.426,13.556 158.426,13.011 C158.426,12.476 158.130,12.152 157.531,12.152 ZM151.147,17.342 C149.450,17.341 148.333,16.279 148.334,14.330 L148.334,10.747 L149.903,10.747 L149.902,14.285 C149.902,15.393 150.326,15.873 151.166,15.873 C151.996,15.874 152.430,15.393 152.430,14.285 L152.431,10.748 L153.962,10.748 L153.962,14.331 C153.961,16.280 152.835,17.342 151.147,17.342 ZM144.443,8.636 C142.468,8.636 141.038,7.250 141.039,5.274 C141.039,3.297 142.469,1.912 144.444,1.912 C146.418,1.913 147.848,3.298 147.848,5.275 C147.848,7.251 146.417,8.636 144.443,8.636 ZM144.443,3.372 C143.373,3.371 142.598,4.110 142.598,5.274 C142.598,6.428 143.372,7.167 144.443,7.167 C145.513,7.168 146.288,6.429 146.288,5.274 C146.289,4.111 145.514,3.372 144.443,3.372 ZM137.913,12.076 C136.861,12.076 136.196,12.851 136.196,13.978 C136.196,15.123 136.906,15.872 137.903,15.872 C138.752,15.872 139.278,15.428 139.536,14.893 L141.059,15.299 C140.578,16.555 139.388,17.340 137.986,17.340 C136.058,17.340 134.637,15.982 134.637,13.959 C134.637,11.992 136.059,10.617 137.987,10.617 C139.472,10.617 140.561,11.439 140.994,12.483 L139.463,12.898 C139.131,12.381 138.605,12.076 137.913,12.076 ZM138.720,8.506 L138.720,6.927 C138.720,5.393 138.738,4.636 138.738,4.627 L138.720,4.627 C138.711,4.636 138.397,5.218 138.083,5.772 L137.456,6.908 L136.589,6.908 L135.961,5.790 C135.638,5.217 135.334,4.636 135.325,4.626 L135.297,4.626 C135.297,4.636 135.315,5.393 135.315,6.926 L135.315,8.505 L133.765,8.505 L133.766,2.040 L135.408,2.041 L137.032,4.932 L137.059,4.932 L138.693,2.041 L140.271,2.041 L140.270,8.506 L138.720,8.506 ZM132.856,8.505 L128.104,8.504 L128.105,2.040 L132.810,2.040 L132.810,3.481 L129.654,3.481 L129.654,4.589 L131.979,4.589 L131.979,5.882 L129.654,5.882 L129.654,7.064 L132.856,7.064 L132.856,8.505 ZM130.773,10.616 C132.747,10.616 134.177,12.001 134.177,13.978 C134.177,15.954 132.746,17.339 130.772,17.339 C128.797,17.339 127.367,15.953 127.368,13.977 C127.368,12.001 128.798,10.616 130.773,10.616 ZM130.772,15.871 C131.842,15.871 132.618,15.132 132.618,13.977 C132.618,12.814 131.843,12.075 130.772,12.075 C129.702,12.075 128.927,12.813 128.927,13.977 C128.927,15.132 129.702,15.871 130.772,15.871 ZM123.960,8.504 L121.202,8.504 L121.202,2.039 L123.952,2.039 C125.880,2.039 127.356,3.351 127.356,5.300 C127.356,7.257 125.870,8.504 123.960,8.504 ZM123.869,3.480 L122.752,3.480 L122.752,7.063 L123.868,7.063 C124.828,7.063 125.797,6.574 125.797,5.299 C125.797,4.034 124.828,3.480 123.869,3.480 ZM118.745,17.208 L115.968,17.208 L115.969,10.743 L118.755,10.743 C119.918,10.743 120.720,11.529 120.720,12.424 C120.720,13.145 120.240,13.597 119.889,13.726 L119.889,13.763 C120.517,13.948 121.061,14.466 121.061,15.324 C121.061,16.322 120.350,17.208 118.745,17.208 ZM118.450,12.027 L117.518,12.027 L117.518,13.301 L118.459,13.302 C118.884,13.302 119.160,13.043 119.160,12.664 C119.160,12.304 118.893,12.027 118.450,12.027 ZM118.607,14.447 L117.518,14.447 L117.518,15.924 L118.607,15.924 C119.142,15.924 119.428,15.620 119.428,15.186 C119.428,14.724 119.114,14.447 118.607,14.447 ZM116.283,8.503 L113.534,4.642 L113.506,4.642 C113.506,4.651 113.524,5.446 113.524,6.286 L113.524,8.502 L111.974,8.502 L111.975,2.037 L113.543,2.038 L116.292,5.825 L116.320,5.825 C116.320,5.815 116.311,4.984 116.311,4.282 L116.311,2.038 L117.861,2.038 L117.860,8.503 L116.283,8.503 ZM107.801,8.631 C105.826,8.631 104.397,7.245 104.397,5.269 C104.397,3.293 105.827,1.907 107.802,1.908 C109.777,1.908 111.206,3.293 111.206,5.270 C111.206,7.246 109.776,8.631 107.801,8.631 ZM107.802,3.367 C106.731,3.367 105.956,4.105 105.956,5.269 C105.956,6.424 106.731,7.162 107.801,7.163 C108.871,7.163 109.647,6.424 109.647,5.270 C109.647,4.106 108.872,3.367 107.802,3.367 ZM102.442,17.206 L99.693,13.345 L99.666,13.345 C99.666,13.354 99.684,14.149 99.684,14.989 L99.684,17.206 L98.134,17.205 L98.134,10.741 L99.703,10.741 L102.452,14.528 L102.480,14.528 C102.480,14.518 102.470,13.687 102.471,12.985 L102.471,10.741 L104.021,10.741 L104.020,17.206 L102.442,17.206 ZM102.084,8.501 L102.085,2.036 L103.635,2.036 L103.634,8.501 L102.084,8.501 ZM99.518,3.477 L99.517,8.501 L97.967,8.500 L97.968,3.476 L95.994,3.476 L95.994,2.035 L101.493,2.036 L101.493,3.477 L99.518,3.477 ZM93.865,8.500 L93.866,2.035 L95.416,2.035 L95.415,8.500 L93.865,8.500 ZM90.789,8.499 L88.012,8.499 L88.013,2.034 L90.799,2.035 C91.962,2.035 92.764,2.820 92.764,3.716 C92.764,4.436 92.284,4.889 91.934,5.018 L91.934,5.055 C92.561,\n<!-- … truncated, 12516 chars total -->",
+ "markupPage": "en-us",
+ "markupClass": "GameplayAlbum_imageContainer__g5rE9",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "GameplayAlbum_H5DecoLine__BB2MP": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "gameplay",
+   "position": "absolute",
+   "width": "74.25px",
+   "height": "100%",
+   "left": "calc(50% - 281.25px)",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 250, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_aic__COk_i": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 322.3125,
+    "y": 6534.625,
+    "width": 1003.5,
+    "height": 489.375,
+    "top": 6534.625,
+    "right": 1325.8125,
+    "bottom": 7024,
+    "left": 322.3125
+   },
+   "text": "aicaic1/51 / 5Automated ProductionThe powerful Automated Industry Complex (AIC) ",
+   "position": "absolute",
+   "display": "block",
+   "width": "1003.5px",
+   "height": "489.375px",
+   "top": "51.75px",
+   "left": "254.812px",
+   "right": "114.188px",
+   "bottom": "154.125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_bottom__2HAo8": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(25, 25, 25)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "clip-path": "polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%)",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_descriptionContainer__iSXAy": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 431.4375,
+    "y": 6362.5,
+    "width": 811.125,
+    "height": 103.5,
+    "top": 6362.5,
+    "right": 1242.5625,
+    "bottom": 6466,
+    "left": 431.4375
+   },
+   "text": "Venture into the towering ranges and winding rivers of Talos-II. Eliminate the B",
+   "position": "relative",
+   "display": "block",
+   "width": "811.125px",
+   "height": "103.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_description__Q9cid": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 431.4375,
+    "y": 6369.25,
+    "width": 811.125,
+    "height": 75.9375,
+    "top": 6369.25,
+    "right": 1242.5625,
+    "bottom": 6445.1875,
+    "left": 431.4375
+   },
+   "text": "Venture into the towering ranges and winding rivers of Talos-II. Eliminate the B",
+   "display": "block",
+   "width": "811.125px",
+   "height": "75.9375px",
+   "font-family": "SansMedium",
+   "font-size": "16.875px",
+   "font-weight": "400",
+   "line-height": "25.3125px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "0",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "margin": "6.75px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_detail__sLWiC": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 431.4375,
+    "y": 6335.5,
+    "width": 811.125,
+    "height": 130.5,
+    "top": 6335.5,
+    "right": 1242.5625,
+    "bottom": 6466,
+    "left": 431.4375
+   },
+   "text": "1 / 4Explore Talos-IIVenture into the towering ranges and winding rivers of Talo",
+   "position": "absolute",
+   "display": "block",
+   "width": "811.125px",
+   "height": "130.5px",
+   "top": "522px",
+   "left": "21.9375px",
+   "right": "170.438px",
+   "bottom": "-163.125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_gameplayAlbum__iz9mA": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 1003.5,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1413,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "gameplaygameplay1/41 / 4Explore Talos-IIVenture into the towering ranges and win",
+   "position": "absolute",
+   "display": "block",
+   "width": "1003.5px",
+   "height": "489.375px",
+   "top": "273.375px",
+   "left": "342px",
+   "right": "27px",
+   "bottom": "180px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_gameplay__pWYWA": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 1003.5,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1413,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "gameplaygameplay1/41 / 4Explore Talos-IIVenture into the towering ranges and win",
+   "position": "absolute",
+   "display": "block",
+   "width": "1003.5px",
+   "height": "489.375px",
+   "top": "273.375px",
+   "left": "342px",
+   "right": "27px",
+   "bottom": "180px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_imageContainer__g5rE9": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 1003.5,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1413,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "gameplay",
+   "position": "relative",
+   "display": "flex",
+   "width": "1003.5px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_image__HfiGl": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_index__GY_gZ": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 408.9375,
+    "y": 6333.25,
+    "width": 16.5,
+    "height": 10.5,
+    "top": 6333.25,
+    "right": 425.4375,
+    "bottom": 6343.75,
+    "left": 408.9375
+   },
+   "text": "1 / 4",
+   "position": "absolute",
+   "display": "block",
+   "width": "33px",
+   "height": "21px",
+   "top": "-2.25px",
+   "left": "-22.5px",
+   "right": "800.625px",
+   "bottom": "111.75px",
+   "font-family": "Novecentosanswide-Medium",
+   "font-size": "18px",
+   "font-weight": "400",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "0",
+   "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_line__HU5C5": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "gameplay",
+   "position": "absolute",
+   "display": "block",
+   "width": "777.938px",
+   "height": "20.25px",
+   "left": "9px",
+   "bottom": "calc(100% - 35.4375px)",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_middle__k5O96": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 250, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "clip-path": "polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%)",
+   "filter": "grayscale(1) brightness(0.76) contrast(200) url(\"#red-green\")",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_paginationH5__us0Uj": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "1/4",
+   "position": "absolute",
+   "width": "163.688px",
+   "height": "47.25px",
+   "top": "887.625px",
+   "left": "calc(50% - 163.688px)",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(230, 230, 230)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "3px solid rgb(230, 230, 230)",
+   "border-radius": "23.625px",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_pagination__I3EXE": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 429.75,
+    "y": 6267.4375,
+    "width": 123,
+    "height": 47.25,
+    "top": 6267.4375,
+    "right": 552.75,
+    "bottom": 6314.6875,
+    "left": 429.75
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "123px",
+   "height": "47.25px",
+   "top": "453.938px",
+   "left": "20.25px",
+   "right": "860.25px",
+   "bottom": "-11.8125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(30, 30, 30, 0.8)",
+   "opacity": "0",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "3px solid rgba(0, 0, 0, 0)",
+   "border-radius": "23.625px",
+   "gap": "33.75px",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_rightDeco__Z0B_P": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 1241.4375,
+    "y": 5813.5,
+    "width": 171,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1412.4375,
+    "bottom": 6302.875,
+    "left": 1241.4375
+   },
+   "text": "gameplay",
+   "position": "relative",
+   "display": "block",
+   "width": "171px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 250, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_title__OF3Ck": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "gameplay",
+   "position": "absolute",
+   "display": "block",
+   "left": "7.875px",
+   "bottom": "3.375px",
+   "font-family": "Novecentosanswide-DemiBold",
+   "font-size": "31.5px",
+   "font-weight": "400",
+   "line-height": "31.5px",
+   "text-transform": "uppercase",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_top__WEabr": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "clip-path": "polygon(0% 0px, 100% 0px, 100% 100%, 0% 100%)",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "GameplayAlbum_wrapper__txj_c": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 409.5,
+    "y": 5813.5,
+    "width": 831.9375,
+    "height": 489.375,
+    "top": 5813.5,
+    "right": 1241.4375,
+    "bottom": 6302.875,
+    "left": 409.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "831.938px",
+   "height": "489.375px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#ededed",
+   "#fffa00",
+   "#fff",
+   "#191919"
+  ],
+  "fonts": [
+   "Novecentosanswide-DemiBold",
+   "Gilroy-Medium",
+   "Novecentosanswide-Medium",
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "3.5rem",
+   "1.125rem",
+   "4.5rem",
+   "1.5rem",
+   "2rem",
+   "3rem",
+   "1.875rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

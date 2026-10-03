@@ -1,0 +1,691 @@
+{
+ "component": "OperatorItem",
+ "files": [
+  "cca0e7eae4809d1e.css"
+ ],
+ "classes": {
+  "operatorItem": "OperatorItem_operatorItem__gPezu",
+  "image": "OperatorItem_image__fyd3C",
+  "contentBlock": "OperatorItem_contentBlock__I_0_3",
+  "name": "OperatorItem_name__OvU8c",
+  "nameText": "OperatorItem_nameText__ibYGO",
+  "subTitle": "OperatorItem_subTitle___c7GD",
+  "codename": "OperatorItem_codename__U3_VI",
+  "index": "OperatorItem_index__ivv9h",
+  "icons": "OperatorItem_icons__x_ht1",
+  "icon": "OperatorItem_icon__jOzZV"
+ },
+ "ruleCount": 27,
+ "rules": [
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "19rem",
+    "height": "24.25rem",
+    "border-radius": ".1875rem",
+    "overflow": "hidden",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg)",
+    "filter": "drop-shadow(0 .5rem .5rem rgba(0,0,0,.15))",
+    "cursor": "pointer",
+    "transition": "transform .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "transform": "translateY(-.5rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_image__fyd3C",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "cover",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/sample.2c75e2dc.png)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "height": "5.125rem",
+    "width": "100%",
+    "left": "0",
+    "bottom": "0",
+    "background-color": "#fff",
+    "box-sizing": "border-box",
+    "border-bottom": ".5625rem solid #f8bb24"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3[data-rarity=\"6\"]",
+   "media": [],
+   "declarations": {
+    "border-bottom-color": "#fe5a00"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3[data-rarity=\"5\"]",
+   "media": [],
+   "declarations": {
+    "border-bottom-color": "#ffbb03"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3[data-rarity=\"4\"]",
+   "media": [],
+   "declarations": {
+    "border-bottom-color": "#9452fa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "0",
+    "top": "0",
+    "width": "9.875rem",
+    "height": ".3125rem",
+    "background-image": "linear-gradient(90deg,#fffa00 0,#fffa00 30%,#00ffa2 0,#00ffa2 70%,#ff00f0 0,#ff00f0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_name__OvU8c",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "1rem",
+    "left": ".5rem",
+    "width": "11.1875rem",
+    "font-family": "SansBold",
+    "color": "#191919",
+    "line-height": "1",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": "html[lang=th-th] .OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_name__OvU8c",
+   "media": [],
+   "declarations": {
+    "top": ".875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_nameText__ibYGO",
+   "media": [],
+   "declarations": {
+    "display": "inline-block",
+    "vertical-align": "top"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".5rem",
+    "top": "3.0625rem",
+    "width": "11.1875rem",
+    "height": ".8125rem",
+    "background-color": "#d9d9d9",
+    "display": "flex",
+    "align-items": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD .OperatorItem_codename__U3_VI",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": ".1875rem",
+    "transform": "scale(.5)",
+    "transform-origin": "left center",
+    "font-family": "SansMedium",
+    "font-size": "1.25em",
+    "line-height": "1",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_subTitle___c7GD .OperatorItem_index__ivv9h",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": ".4375rem",
+    "transform": "scale(.5)",
+    "transform-origin": "right center",
+    "font-family": "Novecentosanswide-Medium",
+    "font-size": "1.25rem",
+    "line-height": "1",
+    "color": "#191919"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "1.0625rem",
+    "right": ".8125rem",
+    "display": "flex"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "2.8125rem",
+    "height": "2.8125rem",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "cover"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=guard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-guard.78502de4.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=caster]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-caster.d469c805.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=support]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-support.532f02bd.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=shielder]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-shielder.a3c6ffc9.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=vanguard]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-vanguard.b957cec2.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=assault]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=fire]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-fire.97dcd67b.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=ice]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-ice.134e8d15.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=electric]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-electric.a3874677.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=nature]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-nature.0606ebde.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I_0_3 .OperatorItem_icons__x_ht1 .OperatorItem_icon__jOzZV[data-key=physic]",
+   "media": [],
+   "declarations": {
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ele-physic.2c205b7a.jpg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  }
+ ],
+ "markup": "<div class=\"OperatorItem_operatorItem__gPezu\"><div class=\"OperatorItem_image__fyd3C\" data-key=\"typhoea\" style=\"background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png)\"></div><div class=\"OperatorItem_contentBlock__I_0_3\" data-rarity=\"6\"><div class=\"OperatorItem_name__OvU8c\"><span class=\"OperatorItem_nameText__ibYGO\" style=\"font-size: 1.6875rem;\">Typhoeus</span></div><div class=\"OperatorItem_subTitle___c7GD\"><div class=\"OperatorItem_codename__U3_VI\">// Typhoeus</div><div class=\"OperatorItem_index__ivv9h\">01<!-- --> / <!-- -->33</div></div><div class=\"OperatorItem_icons__x_ht1\"><div class=\"OperatorItem_icon__jOzZV\" data-key=\"assault\"></div><div class=\"OperatorItem_icon__jOzZV\" data-key=\"nature\"></div></div></div></div>",
+ "markupPage": "en-us_operator",
+ "markupClass": "OperatorItem_operatorItem__gPezu",
+ "appearsOn": [
+  "en-us_operator"
+ ],
+ "computed": {
+  "OperatorItem_codename__U3_VI": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 190.6875,
+    "y": 365.90625,
+    "width": 33.5,
+    "height": 5.625,
+    "top": 365.90625,
+    "right": 224.1875,
+    "bottom": 371.53125,
+    "left": 190.6875
+   },
+   "text": "// Typhoeus",
+   "position": "absolute",
+   "display": "block",
+   "width": "67px",
+   "height": "11.25px",
+   "top": "-1.96875px",
+   "left": "1.6875px",
+   "right": "32px",
+   "bottom": "-1.96875px",
+   "font-family": "SansMedium",
+   "font-size": "11.25px",
+   "font-weight": "400",
+   "line-height": "11.25px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_contentBlock__I_0_3": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 337.5,
+    "width": 171,
+    "height": 46.125,
+    "top": 337.5,
+    "right": 355.5,
+    "bottom": 383.625,
+    "left": 184.5
+   },
+   "text": "Typhoeus// Typhoeus01 / 33",
+   "position": "absolute",
+   "display": "block",
+   "width": "171px",
+   "height": "46.125px",
+   "top": "172.125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_icon__jOzZV": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 297.5625,
+    "y": 347.0625,
+    "width": 25.3125,
+    "height": 25.3125,
+    "top": 347.0625,
+    "right": 322.875,
+    "bottom": 372.375,
+    "left": 297.5625
+   },
+   "text": "",
+   "position": "relative",
+   "display": "block",
+   "width": "25.3125px",
+   "height": "25.3125px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/prof-assault.2aeeaf48.jpg\")",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_icons__x_ht1": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 297.5625,
+    "y": 347.0625,
+    "width": 50.625,
+    "height": 25.3125,
+    "top": 347.0625,
+    "right": 348.1875,
+    "bottom": 372.375,
+    "left": 297.5625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "flex",
+   "width": "50.625px",
+   "height": "25.3125px",
+   "top": "9.5625px",
+   "left": "113.062px",
+   "right": "7.3125px",
+   "bottom": "6.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_image__fyd3C": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 165.375,
+    "width": 171,
+    "height": 218.25,
+    "top": 165.375,
+    "right": 355.5,
+    "bottom": 383.625,
+    "left": 184.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "171px",
+   "height": "218.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png\")",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_index__ivv9h": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 268.75,
+    "y": 365.90625,
+    "width": 17,
+    "height": 5.625,
+    "top": 365.90625,
+    "right": 285.75,
+    "bottom": 371.53125,
+    "left": 268.75
+   },
+   "text": "01 / 33",
+   "position": "absolute",
+   "display": "block",
+   "width": "34px",
+   "height": "11.25px",
+   "top": "-1.96875px",
+   "left": "62.75px",
+   "right": "3.9375px",
+   "bottom": "-1.96875px",
+   "font-family": "Novecentosanswide-Medium",
+   "font-size": "11.25px",
+   "font-weight": "400",
+   "line-height": "11.25px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transform": "matrix(0.5, 0, 0, 0.5, 0, 0)",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_nameText__ibYGO": {
+   "page": "en-us_operator",
+   "tag": "SPAN",
+   "rect": {
+    "x": 189,
+    "y": 346.5,
+    "width": 74,
+    "height": 15.1875,
+    "top": 346.5,
+    "right": 263,
+    "bottom": 361.6875,
+    "left": 189
+   },
+   "text": "Typhoeus",
+   "display": "inline-block",
+   "width": "74px",
+   "height": "15.1875px",
+   "font-family": "SansBold",
+   "font-size": "15.1875px",
+   "font-weight": "400",
+   "line-height": "15.1875px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_name__OvU8c": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 189,
+    "y": 346.5,
+    "width": 100.6875,
+    "height": 15.1875,
+    "top": 346.5,
+    "right": 289.6875,
+    "bottom": 361.6875,
+    "left": 189
+   },
+   "text": "Typhoeus",
+   "position": "absolute",
+   "display": "block",
+   "width": "100.688px",
+   "height": "15.1875px",
+   "top": "9px",
+   "left": "4.5px",
+   "right": "65.8125px",
+   "bottom": "16.9375px",
+   "font-family": "SansBold",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "9px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_operatorItem__gPezu": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 165.375,
+    "width": 171,
+    "height": 218.25,
+    "top": 165.375,
+    "right": 355.5,
+    "bottom": 383.625,
+    "left": 184.5
+   },
+   "text": "Typhoeus// Typhoeus01 / 33",
+   "position": "relative",
+   "display": "block",
+   "width": "171px",
+   "height": "218.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/card-bg.28c79684.jpg\")",
+   "opacity": "1",
+   "transition": "transform 0.2s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "filter": "drop-shadow(rgba(0, 0, 0, 0.15) 0px 4.5px 4.5px)",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "1.6875px",
+   "overflow": "hidden",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "OperatorItem_subTitle___c7GD": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 189,
+    "y": 365.0625,
+    "width": 100.6875,
+    "height": 7.3125,
+    "top": 365.0625,
+    "right": 289.6875,
+    "bottom": 372.375,
+    "left": 189
+   },
+   "text": "// Typhoeus01 / 33",
+   "position": "absolute",
+   "display": "flex",
+   "width": "100.688px",
+   "height": "7.3125px",
+   "top": "27.5625px",
+   "left": "4.5px",
+   "right": "65.8125px",
+   "bottom": "6.25px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(217, 217, 217)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [
+  {
+   "page": "en-us_operator",
+   "cls": "OperatorItem_operatorItem__gPezu",
+   "diff": {
+    "OperatorItem_operatorItem__gPezu#0#0": {
+     "transform": {
+      "before": "none",
+      "after": "matrix(1, 0, 0, 1, 0, -4.5)"
+     }
+    }
+   },
+   "transition": "transform 0.2s"
+  }
+ ],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "rgba(0,0,0,.15)",
+   "#fff",
+   "#f8bb24",
+   "#fe5a00",
+   "#ffbb03",
+   "#9452fa",
+   "#fffa00",
+   "#00ffa2",
+   "#ff00f0",
+   "#191919",
+   "#d9d9d9"
+  ],
+  "fonts": [
+   "SansBold",
+   "SansMedium",
+   "Novecentosanswide-Medium"
+  ],
+  "fontSizes": [
+   "1.25em",
+   "1.25rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "transform .2s ease"
+  ]
+ }
+}

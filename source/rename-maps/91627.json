@@ -1,0 +1,34 @@
+{
+  "module": 91627,
+  "summary": "Axios client for the CMS bulletin (news) API. The instance uses baseURL SiteConfig.cms.host (https://web-news.gryphline.com), responseType json and a 5000 ms timeout; a request interceptor turns request errors into {code:-1, msg} (default '请求错误') and a response interceptor unwraps response.data on success or normalizes failures to {statusCode, code, msg} from the error body (falling back to statusText/message). getBulletinList(lang, page=1, pageSize=9, tab) GETs /api/bulletin with params {lang, code: cms.appCode, page, pageSize, tabs:[tab]}; getBulletinDetail(cid, lang) GETs /api/bulletin/<cid> with {lang, code}. The default page size 9 is also exported.",
+  "exports": {
+    "Jq": "getBulletinDetail",
+    "PZ": "getBulletinList",
+    "a": "DEFAULT_PAGE_SIZE"
+  },
+  "renames": {
+    "l_1": "cmsClient",
+    "s_2": "DEFAULT_PAGE_SIZE",
+    "a_3": "getBulletinList",
+    "i_4": "getBulletinDetail",
+    "e_5": "requestConfig",
+    "e_6": "requestError",
+    "t_7": "requestErrorMessage",
+    "e_8": "response",
+    "e_9": "responseError",
+    "t_10": "errorResponseForData",
+    "n_11": "errorResponseForText",
+    "r_12": "errorResponseForStatus",
+    "o_13": "errorCode",
+    "l_14": "errorMsg",
+    "s_15": "statusText",
+    "a_16": "fallbackMsg",
+    "i_17": "errorData",
+    "e_18": "lang",
+    "t_19": "page",
+    "n_20": "pageSize",
+    "r_21": "tab",
+    "e_22": "cid",
+    "t_23": "detailLang"
+  }
+}

@@ -1,0 +1,3 @@
+// module 17224 from 8963-234f979bdd6b491c.js
+// deps: 96424, 73235, 45478
+const module_17224 = (e,t,i)=>{"use strict";i.d(t,{A:()=>o});var L=i(96424),a=i(73235),n=i.n(a),r=i(45478),l=i.n(r);let o=e=>{let{className:t}=e;return(0,L.jsx)("div",{className:n()(l().bgContainer,t),children:(0,L.jsxs)("div",{className:l().bg,children:[(0,L.jsx)("div",{className:l().horizontalMask,children:(0,L.jsx)("div",{className:l().verticalMask,children:(0,L.jsx)("div",{className:l().inner})})}),(0,L.jsx)("div",{className:l().titleStage,children:(0,L.jsx)("div",{className:l().title,"aria-hidden":"true"})})]})})}};

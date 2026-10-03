@@ -1,0 +1,10 @@
+{
+  "module": 89622,
+  "summary": "AicItemsText exports (as j) the five-entry list for the AIC (knowledge) section: keys '01' to '05', each pairing an i18n titleKey 'aic.items.N.title' and descriptionKey 'aic.items.N.description' with an imported image module (m01Image to m05Image). Components resolve the keys through the i18n t() function at render time.",
+  "exports": {
+    "j": "AIC_ITEMS"
+  },
+  "renames": {
+    "o_1": "AIC_ITEMS"
+  }
+}

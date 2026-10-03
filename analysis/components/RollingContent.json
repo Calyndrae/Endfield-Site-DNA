@@ -1,0 +1,299 @@
+{
+ "component": "RollingContent",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "rollingContent": "RollingContent_rollingContent__VbFgT",
+  "overflowWrapper": "RollingContent_overflowWrapper__7cCR9",
+  "contentContainer": "RollingContent_contentContainer__U3urx",
+  "rolling": "RollingContent_rolling__WOKrN",
+  "new": "RollingContent_new__6avsT",
+  "realContent": "RollingContent_realContent__voMS6",
+  "carouselContent": "RollingContent_carouselContent__BsTCo",
+  "repeat": "RollingContent_repeat__YLp8f"
+ },
+ "ruleCount": 12,
+ "rules": [
+  {
+   "selector": ".RollingContent_rollingContent__VbFgT,.RollingContent_rollingContent__VbFgT .RollingContent_overflowWrapper__7cCR9",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_rollingContent__VbFgT .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "min-width": "100%",
+    "height": "100%",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "white-space": "nowrap",
+    "left": "0",
+    "transform": "translateX(0)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_rollingContent__VbFgT.RollingContent_rolling__WOKrN .RollingContent_overflowWrapper__7cCR9",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_rollingContent__VbFgT.RollingContent_new__6avsT .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx .RollingContent_realContent__voMS6:before,.RollingContent_rollingContent__VbFgT.RollingContent_new__6avsT.RollingContent_rolling__WOKrN:before",
+   "media": [],
+   "declarations": {
+    "opacity": "1"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_rollingContent__VbFgT.RollingContent_new__6avsT.RollingContent_rolling__WOKrN .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx .RollingContent_realContent__voMS6:before",
+   "media": [],
+   "declarations": {
+    "opacity": "0"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo,.RollingContent_carouselContent__BsTCo .RollingContent_overflowWrapper__7cCR9",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "min-width": "100%",
+    "height": "100%",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "white-space": "nowrap",
+    "animation-name": "RollingContent_carousel__Yi3KP",
+    "animation-timing-function": "linear",
+    "animation-iteration-count": "infinite",
+    "animation-play-state": "paused",
+    "animation-direction": "normal"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx .RollingContent_realContent__voMS6",
+   "media": [],
+   "declarations": {
+    "position": "relative"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx .RollingContent_repeat__YLp8f",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo.RollingContent_rolling__WOKrN .RollingContent_overflowWrapper__7cCR9",
+   "media": [],
+   "declarations": {
+    "overflow": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo.RollingContent_rolling__WOKrN .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx",
+   "media": [],
+   "declarations": {
+    "animation-play-state": "running"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".RollingContent_carouselContent__BsTCo.RollingContent_rolling__WOKrN .RollingContent_overflowWrapper__7cCR9 .RollingContent_contentContainer__U3urx .RollingContent_repeat__YLp8f",
+   "media": [],
+   "declarations": {
+    "display": "block",
+    "margin": "0 .3rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": "<div class=\"RollingContent_rollingContent__VbFgT\"><div class=\"RollingContent_overflowWrapper__7cCR9\"><div class=\"RollingContent_contentContainer__U3urx\"><div class=\"RollingContent_realContent__voMS6\">Rhodes Island</div></div></div></div>",
+ "markupPage": "en-us",
+ "markupClass": "RollingContent_rollingContent__VbFgT",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "RollingContent_contentContainer__U3urx": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "Rhodes Island",
+   "position": "absolute",
+   "display": "flex",
+   "height": "100%",
+   "font-family": "SansMedium",
+   "font-size": "16.875px",
+   "font-weight": "400",
+   "line-height": "23.625px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "RollingContent_overflowWrapper__7cCR9": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "Rhodes Island",
+   "position": "relative",
+   "display": "block",
+   "width": "100%",
+   "height": "100%",
+   "font-family": "SansMedium",
+   "font-size": "16.875px",
+   "font-weight": "400",
+   "line-height": "23.625px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "RollingContent_realContent__voMS6": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "Rhodes Island",
+   "display": "block",
+   "font-family": "SansMedium",
+   "font-size": "16.875px",
+   "font-weight": "400",
+   "line-height": "23.625px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  },
+  "RollingContent_rollingContent__VbFgT": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 0,
+    "height": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0,
+    "left": 0
+   },
+   "text": "Rhodes Island",
+   "position": "relative",
+   "display": "block",
+   "width": "100%",
+   "height": "100%",
+   "font-family": "SansMedium",
+   "font-size": "16.875px",
+   "font-weight": "400",
+   "line-height": "23.625px",
+   "color": "rgb(25, 25, 25)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(25, 25, 25)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [
+  {
+   "name": "RollingContent_carousel__Yi3KP",
+   "file": "0ff6a898df0edefb.css",
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css",
+   "css": "@keyframes RollingContent_carousel__Yi3KP{0%{transform:translateX(0)}80%{transform:translateX(-50%)}to{transform:translateX(-50%)}}",
+   "steps": [
+    {
+     "at": "0%",
+     "declarations": {
+      "transform": "translateX(0)"
+     }
+    },
+    {
+     "at": "80%",
+     "declarations": {
+      "transform": "translateX(-50%)"
+     }
+    },
+    {
+     "at": "to",
+     "declarations": {
+      "transform": "translateX(-50%)"
+     }
+    }
+   ]
+  }
+ ],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "mediaQueries": [
+  [
+   "@media (orientation:portrait)",
+   429
+  ],
+  [
+   "@media (orientation:landscape)",
+   138
+  ],
+  [
+   "@media (any-hover:hover)",
+   43
+  ],
+  [
+   "@media (orientation:portrait)and (orientation:portrait)",
+   3
+  ]
+ ],
+ "conditions": [
+  [
+   "(orientation:portrait)",
+   435
+  ],
+  [
+   "(orientation:landscape)",
+   138
+  ],
+  [
+   "(any-hover:hover)",
+   43
+  ]
+ ]
+}

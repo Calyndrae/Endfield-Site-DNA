@@ -1,0 +1,335 @@
+{
+ "component": "HomeButton",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "button": "HomeButton_button__a_6Gh",
+  "divider": "HomeButton_divider__HuFEb",
+  "white": "HomeButton_white__3FUU_",
+  "disabled": "HomeButton_disabled__eQr_r",
+  "text": "HomeButton_text__Ii9u4",
+  "arrow": "HomeButton_arrow__r_2Sj",
+  "points": "HomeButton_points__1_ktH",
+  "icon": "HomeButton_icon__o6Yuj",
+  "iconImage": "HomeButton_iconImage__tidPL"
+ },
+ "ruleCount": 25,
+ "rules": [
+  {
+   "selector": ".HomeButton_button__a_6Gh",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "min-width": "25rem",
+    "width": "max-content",
+    "height": "6.25rem",
+    "padding-left": "8.75rem",
+    "padding-right": "1.5rem",
+    "box-sizing": "border-box",
+    "border-radius": ".25rem",
+    "border-left": ".75rem solid #fff500",
+    "background-color": "#fffa00",
+    "box-shadow": "0 0 .75rem rgba(0,0,0,.4)",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/button-texture.aac73492.png)",
+    "background-position": "100%",
+    "background-repeat": "no-repeat",
+    "background-size": "cover",
+    "cursor": "pointer",
+    "color": "#191919",
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "center",
+    "transition": "border-color .2s ease,background-color .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-color": "#efe701"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:hover .HomeButton_divider__HuFEb",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#efe701"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:active",
+   "media": [],
+   "declarations": {
+    "border-color": "#e6de01"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh:active .HomeButton_divider__HuFEb",
+   "media": [],
+   "declarations": {
+    "background-color": "#e6de01"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_",
+   "media": [],
+   "declarations": {
+    "border-left": ".75rem solid #ccc",
+    "background-color": "#f2f2f2"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_ .HomeButton_divider__HuFEb",
+   "media": [],
+   "declarations": {
+    "background-color": "#d9d9d9"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_.HomeButton_disabled__eQr_r",
+   "media": [],
+   "declarations": {
+    "cursor": "not-allowed",
+    "pointer-events": "none",
+    "background-color": "#aaa",
+    "color": "#888"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_.HomeButton_disabled__eQr_r .HomeButton_text__Ii9u4 .HomeButton_arrow__r_2Sj",
+   "media": [],
+   "declarations": {
+    "display": "none"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:hover",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "border-color": "#aaa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:hover .HomeButton_divider__HuFEb",
+   "media": [
+    "@media (any-hover:hover)"
+   ],
+   "declarations": {
+    "background-color": "#aaa"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:active",
+   "media": [],
+   "declarations": {
+    "border-color": "#999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh.HomeButton_white__3FUU_:active .HomeButton_divider__HuFEb",
+   "media": [],
+   "declarations": {
+    "background-color": "#999"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "26.4375rem",
+    "height": "6.5625rem",
+    "padding-left": "9rem",
+    "padding-right": "2rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_points__1_ktH",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": ".4375rem",
+    "left": ".5625rem",
+    "width": "1.1875rem",
+    "height": "auto",
+    "color": "#7e7e7e"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_points__1_ktH",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": ".625rem",
+    "left": ".5rem",
+    "width": "1.0625rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_icon__o6Yuj",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "3.5625rem",
+    "transform": "translateX(-50%)",
+    "width": "2.25rem",
+    "height": "auto"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_icon__o6Yuj",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "3.5625rem",
+    "width": "2.8125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_icon__o6Yuj.HomeButton_iconImage__tidPL",
+   "media": [],
+   "declarations": {
+    "height": "2.5rem",
+    "background-size": "contain",
+    "background-position": "50%",
+    "background-repeat": "no-repeat"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_divider__HuFEb",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "7.125rem",
+    "width": ".25rem",
+    "height": "4.375rem",
+    "background-color": "#fff500",
+    "transition": "background-color .2s ease"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_divider__HuFEb",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "7.125rem",
+    "width": ".3125rem",
+    "height": "5.1875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "font-size": "2.25rem",
+    "line-height": "1",
+    "font-family": "SansMedium",
+    "display": "flex",
+    "align-items": "center",
+    "white-space": "nowrap"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "font-size": "2.25rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4 .HomeButton_arrow__r_2Sj",
+   "media": [],
+   "declarations": {
+    "margin-left": ".75rem",
+    "width": ".6875rem",
+    "height": "auto",
+    "color": "#a6a6a6",
+    "transform": "rotate(180deg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".HomeButton_button__a_6Gh .HomeButton_text__Ii9u4 .HomeButton_arrow__r_2Sj",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": ".8125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": null,
+ "markupPage": null,
+ "markupClass": null,
+ "appearsOn": [],
+ "computed": {},
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff500",
+   "#fffa00",
+   "rgba(0,0,0,.4)",
+   "#191919",
+   "#efe701",
+   "#e6de01",
+   "#ccc",
+   "#f2f2f2",
+   "#d9d9d9",
+   "#aaa",
+   "#888",
+   "#999",
+   "#7e7e7e",
+   "#a6a6a6"
+  ],
+  "fonts": [
+   "SansMedium"
+  ],
+  "fontSizes": [
+   "2.25rem"
+  ],
+  "zIndex": [],
+  "transitions": [
+   "border-color .2s ease,background-color .2s ease",
+   "background-color .2s ease"
+  ]
+ }
+}

@@ -1,0 +1,659 @@
+{
+ "component": "__12-OperatorList",
+ "files": [
+  "cca0e7eae4809d1e.css"
+ ],
+ "classes": {
+  "sectionContainer": "__12-OperatorList_sectionContainer__KC5gP",
+  "totalContainer": "__12-OperatorList_totalContainer__86kgK",
+  "detail": "__12-OperatorList_detail__l3dwR",
+  "dropdowns": "__12-OperatorList_dropdowns__xnSNd",
+  "listContainer": "__12-OperatorList_listContainer__3RzVi",
+  "scrollBar": "__12-OperatorList_scrollBar__cociH",
+  "thumb": "__12-OperatorList_thumb__OQEKX",
+  "list": "__12-OperatorList_list__JDzsq",
+  "backgroundDeco": "__12-OperatorList_backgroundDeco__4RkDZ",
+  "shallowBg": "__12-OperatorList_shallowBg__lw6mP",
+  "decoText": "__12-OperatorList_decoText__A14Ui",
+  "decoRight": "__12-OperatorList_decoRight__73_eX"
+ },
+ "ruleCount": 20,
+ "rules": [
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "height": "100vh"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "calc(100vh - 9.625rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_totalContainer__86kgK",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "top": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_totalContainer__86kgK.__12-OperatorList_detail__l3dwR",
+   "media": [],
+   "declarations": {
+    "display": "flex",
+    "flex-direction": "column",
+    "align-items": "center",
+    "justify-content": "center"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_dropdowns__xnSNd",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "calc(50% - 80rem + 3.75rem + 13rem)",
+    "top": "9.5rem",
+    "display": "flex",
+    "gap": "2.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_dropdowns__xnSNd",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "calc(50% - 31rem)",
+    "top": "7.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "left": "calc(50% - 80rem + 3.75rem + 13rem - 4.25rem)",
+    "top": "16.375rem",
+    "width": "134.4375rem",
+    "height": "calc(100vh - 18.125rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "left": "calc(50% - 31rem - 1.875rem)",
+    "top": "12.875rem",
+    "width": "67.5rem",
+    "height": "calc(100% - 15.875rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi .__12-OperatorList_scrollBar__cociH",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "right": "0",
+    "top": "2rem",
+    "height": "calc(100% - 4rem)",
+    "width": ".625rem",
+    "background-color": "#fff"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi .__12-OperatorList_thumb__OQEKX",
+   "media": [],
+   "declarations": {
+    "background-color": "#b6b6b6"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi .__12-OperatorList_list__JDzsq",
+   "media": [],
+   "declarations": {
+    "padding": "2rem 4.25rem",
+    "display": "flex",
+    "flex-wrap": "wrap",
+    "gap": "2.375rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_listContainer__3RzVi .__12-OperatorList_list__JDzsq",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "padding": "2rem 1.875rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "top": "8.625rem",
+    "left": "calc(50% - 80rem + 3.75rem + 13rem + 102.125rem)",
+    "width": "25rem",
+    "height": "5.6875rem",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/banner.7b4f80c9.jpg)",
+    "background-position": "50%",
+    "background-repeat": "no-repeat",
+    "background-size": "contain"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ:after",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "7.9375rem",
+    "left": "calc(50% - 31rem + 45.625rem)",
+    "width": "16.6875rem",
+    "height": "3.8125rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "bottom": "0",
+    "left": "0",
+    "width": "100%",
+    "height": "32.8125rem",
+    "background-image": "linear-gradient(-45deg,transparent,transparent 13.9512529279%,black 0,black 36.0487470721%,transparent 0,transparent 63.9512529279%,black 0,black 86.0487470721%,transparent 0,transparent)",
+    "background-size": ".75rem .75rem",
+    "background-repeat": "repeat",
+    "-webkit-mask-image": "linear-gradient(0deg,rgb(0,0,0) 0,rgb(0,0,0) 50%,rgba(0,0,0,0))",
+    "mask-image": "linear-gradient(0deg,rgb(0,0,0) 0,rgb(0,0,0) 50%,rgba(0,0,0,0))",
+    "opacity": ".05"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_shallowBg__lw6mP:before",
+   "media": [],
+   "declarations": {
+    "content": "\"\"",
+    "position": "absolute",
+    "left": "4.125rem",
+    "bottom": "3.0625rem",
+    "width": "calc(100% - 4.125rem)",
+    "height": "calc(100% - 3.0625rem)",
+    "background-size": "12.8125rem 12.8125rem",
+    "background-position": "left bottom 3px",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/block-bg.f05eda37.svg)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoText__A14Ui",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "top": "-7rem",
+    "left": "-3rem",
+    "font-size": "31rem",
+    "opacity": ".35",
+    "height": "31rem",
+    "letter-spacing": "-.06em",
+    "-webkit-mask-image": "linear-gradient(180deg,rgb(0,0,0) 30%,rgba(0,0,0,0) 70%)",
+    "mask-image": "linear-gradient(180deg,rgb(0,0,0) 30%,rgba(0,0,0,0) 70%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoText__A14Ui",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "top": "-4.5rem",
+    "left": "-1.5rem",
+    "font-size": "24rem",
+    "height": "24rem"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoRight__73_eX",
+   "media": [],
+   "declarations": {
+    "position": "absolute",
+    "width": "23rem",
+    "height": "100%",
+    "top": "0",
+    "right": "0",
+    "background-image": "url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg)",
+    "background-position": "100% 0",
+    "background-repeat": "no-repeat",
+    "background-size": "contain",
+    "background-color": "#fffa08",
+    "-webkit-mask-image": "linear-gradient(0deg,rgba(0,0,0,0) 10%,rgb(0,0,0) 45%)",
+    "mask-image": "linear-gradient(0deg,rgba(0,0,0,0) 10%,rgb(0,0,0) 45%)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  },
+  {
+   "selector": ".__12-OperatorList_sectionContainer__KC5gP .__12-OperatorList_backgroundDeco__4RkDZ .__12-OperatorList_decoRight__73_eX",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "width": "7.875rem",
+    "background-position": "0 0",
+    "height": "100%"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/cca0e7eae4809d1e.css"
+  }
+ ],
+ "markup": "<div class=\"__12-OperatorList_sectionContainer__KC5gP\"><div class=\"__12-OperatorList_totalContainer__86kgK\" style=\"opacity: 1;\"><div class=\"__12-OperatorList_backgroundDeco__4RkDZ\"><div class=\"__12-OperatorList_shallowBg__lw6mP\"></div><div class=\"HallowText_hollowText__OJN57 __12-OperatorList_decoText__A14Ui\">ENDFIELD</div><div class=\"__12-OperatorList_decoRight__73_eX\"></div></div><div></div><div class=\"__12-OperatorList_dropdowns__xnSNd\"><div class=\"Dropdown_root__O4Qqi Dropdown_prof__WoV4u\"><div class=\"Dropdown_trigger__mA0mP\" role=\"button\" tabindex=\"0\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div>Class</div><div class=\"Dropdown_arrow__gjWRH\"></div><div class=\"Dropdown_divider__mwtOR\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div></div><div class=\"Dropdown_panel__ujBcP\" role=\"listbox\" aria-hidden=\"true\"><div role=\"option\" aria-selected=\"true\" class=\"Dropdown_option__fXjKe Dropdown_optionSelected__2OEOQ\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div><div class=\"Dropdown_text__FG9X4\">All</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"guard\"></div><div class=\"Dropdown_text__FG9X4\">Guard</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"caster\"></div><div class=\"Dropdown_text__FG9X4\">Caster</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"support\"></div><div class=\"Dropdown_text__FG9X4\">Supporter</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"shielder\"></div><div class=\"Dropdown_text__FG9X4\">Defender</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"vanguard\"></div><div class=\"Dropdown_text__FG9X4\">Vanguard</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"assault\"></div><div class=\"Dropdown_text__FG9X4\">Striker</div></div></div></div><div class=\"Dropdown_root__O4Qqi Dropdown_elem__qJRg3\"><div class=\"Dropdown_trigger__mA0mP\" role=\"button\" tabindex=\"0\" aria-haspopup=\"listbox\" aria-expanded=\"false\"><div>Element</div><div class=\"Dropdown_arrow__gjWRH\"></div><div class=\"Dropdown_divider__mwtOR\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div></div><div class=\"Dropdown_panel__ujBcP\" role=\"listbox\" aria-hidden=\"true\"><div role=\"option\" aria-selected=\"true\" class=\"Dropdown_option__fXjKe Dropdown_optionSelected__2OEOQ\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"none\"></div><div class=\"Dropdown_text__FG9X4\">All</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"fire\"></div><div class=\"Dropdown_text__FG9X4\">Heat</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"ice\"></div><div class=\"Dropdown_text__FG9X4\">Cryo</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"electric\"></div><div class=\"Dropdown_text__FG9X4\">Electric</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"nature\"></div><div class=\"Dropdown_text__FG9X4\">Nature</div></div><div role=\"option\" aria-selected=\"false\" class=\"Dropdown_option__fXjKe\"><div class=\"Dropdown_bg__0iRXw\"></div><div class=\"Dropdown_icon__yfwMq\" data-key=\"physic\"></div><div class=\"Dropdown_text__FG9X4\">Physical</div></div></div></div></div><div class=\"scroll___FG4DS __12-OperatorList_listContainer__3RzVi\" data-direction=\"y\"><div class=\"content___fxCya\"><div class=\"contentWrapper___UanRy\" style=\"width: 100%; mask: linear-gradient(rgb(255, 255, 255) calc(90%), transparent 100%);\"><div class=\"inner___c_1NH\" style=\"width: 100%;\"><div class=\"__12-OperatorList_list__JDzsq\"><div class=\"OperatorItem_operatorItem__gPezu\"><div class=\"OperatorItem_image__fyd3C\" data-key=\"typhoea\" style=\"background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png)\"></div><div class=\"OperatorItem_contentBlock__I_0_3\" data-rarity=\"6\"><div class=\"OperatorItem_name__OvU8c\"><span class=\"OperatorItem_nameText__ibYGO\" style=\"font-size: 1.6875rem;\">Typhoeus</span></div><div class=\"OperatorItem_subTitle___c7GD\"><div class=\"OperatorItem_codename__U3_VI\">// Typhoeus</div><div class=\"OperatorItem_index__ivv9h\">01<!-- --> / <!-- -->33</div></div><div class=\"OperatorItem_icons__x_ht1\"><div class=\"OperatorItem_icon__jOzZV\" data-key=\"assault\"></div><div class=\"OperatorItem_icon__jOzZV\" data-key=\"nature\"></div></div></div></div><div class=\"OperatorItem_operatorItem__gPezu\"><div class=\"OperatorItem_image__fyd3C\" data-key=\"purrche\" style=\"background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png)\"></div><div class=\"OperatorItem_contentBlock__I_0_3\" data-rarity=\"5\"><div class=\"OperatorItem_name__OvU8c\"><span class=\"OperatorItem_nameText__ibYGO\" style=\"font-size: 1.6875rem;\">Purrchena</span></div><div class=\"OperatorItem_subTitle___c7GD\"><div class=\"OperatorItem_codename__U3_VI\">// Purrchena</div><div class=\"OperatorItem_index__ivv9h\">02<!-- --> / <!-- -->33</div></div><div class=\"OperatorItem_icons__x_ht1\"><div class=\"OperatorItem_icon__jOzZV\" data-key=\"shielder\n<!-- … truncated, 30540 chars total -->",
+ "markupPage": "en-us_operator",
+ "markupClass": "__12-OperatorList_sectionContainer__KC5gP",
+ "appearsOn": [
+  "en-us_operator"
+ ],
+ "computed": {
+  "__12-OperatorList_backgroundDeco__4RkDZ": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 0,
+    "width": 1372.5,
+    "height": 279,
+    "top": 0,
+    "right": 1440,
+    "bottom": 279,
+    "left": 67.5
+   },
+   "text": "ENDFIELD",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "279px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_decoRight__73_eX": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 1233,
+    "y": 0,
+    "width": 207,
+    "height": 900,
+    "top": 0,
+    "right": 1440,
+    "bottom": 900,
+    "left": 1233
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "207px",
+   "height": "900px",
+   "left": "1165.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 250, 8)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/deco-right.0602d8cc.jpg\")",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(0deg, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0) 45%)",
+   "mask-image": "linear-gradient(0deg, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0) 45%)",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_decoText__A14Ui": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 40.5,
+    "y": -63,
+    "width": 1248.09375,
+    "height": 279,
+    "top": -63,
+    "right": 1288.59375,
+    "bottom": 216,
+    "left": 40.5
+   },
+   "text": "ENDFIELD",
+   "position": "relative",
+   "display": "block",
+   "width": "1239.09px",
+   "height": "279px",
+   "top": "-63px",
+   "left": "-27px",
+   "right": "27px",
+   "bottom": "63px",
+   "font-family": "Novecentosanswide-Bold",
+   "font-size": "279px",
+   "font-weight": "400",
+   "line-height": "279px",
+   "letter-spacing": "-16.74px",
+   "color": "rgba(0, 0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 20.5805%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 29.4195%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 70.5805%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 79.4195%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0))",
+   "opacity": "0.35",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%)",
+   "mask-image": "linear-gradient(rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%)",
+   "border": "0px none rgba(0, 0, 0, 0)",
+   "padding": "0px 9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_dropdowns__xnSNd": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 184.5,
+    "y": 85.5,
+    "width": 362.25,
+    "height": 36,
+    "top": 85.5,
+    "right": 546.75,
+    "bottom": 121.5,
+    "left": 184.5
+   },
+   "text": "ClassAllGuardCasterSupporterDefenderVanguardStrikerElementAllHeatCryoElectricNat",
+   "position": "absolute",
+   "display": "flex",
+   "width": "362.25px",
+   "height": "36px",
+   "top": "85.5px",
+   "left": "117px",
+   "right": "893.25px",
+   "bottom": "778.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "gap": "21.375px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_listContainer__3RzVi": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 146.25,
+    "y": 147.375,
+    "width": 1209.9375,
+    "height": 736.875,
+    "top": 147.375,
+    "right": 1356.1875,
+    "bottom": 884.25,
+    "left": 146.25
+   },
+   "text": "Typhoeus// Typhoeus01 / 33Purrchena// Purrchena02 / 33Endministrator// Endminist",
+   "position": "absolute",
+   "display": "block",
+   "width": "1209.94px",
+   "height": "736.875px",
+   "top": "147.375px",
+   "left": "78.75px",
+   "right": "83.8125px",
+   "bottom": "15.75px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_list__JDzsq": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 146.25,
+    "y": 147.375,
+    "width": 1209.9375,
+    "height": 1452.375,
+    "top": 147.375,
+    "right": 1356.1875,
+    "bottom": 1599.75,
+    "left": 146.25
+   },
+   "text": "Typhoeus// Typhoeus01 / 33Purrchena// Purrchena02 / 33Endministrator// Endminist",
+   "display": "flex",
+   "width": "1133.44px",
+   "height": "1416.38px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "18px 38.25px",
+   "gap": "21.375px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_scrollBar__cociH": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 1350.5625,
+    "y": 165.375,
+    "width": 5.625,
+    "height": 700.875,
+    "top": 165.375,
+    "right": 1356.1875,
+    "bottom": 866.25,
+    "left": 1350.5625
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "5.625px",
+   "height": "700.875px",
+   "top": "18px",
+   "left": "1204.31px",
+   "bottom": "18px",
+   "z-index": "1",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(255, 255, 255)",
+   "opacity": "1",
+   "transition": "opacity 0.3s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "1.6875px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_sectionContainer__KC5gP": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 0,
+    "width": 1372.5,
+    "height": 900,
+    "top": 0,
+    "right": 1440,
+    "bottom": 900,
+    "left": 67.5
+   },
+   "text": "ENDFIELDClassAllGuardCasterSupporterDefenderVanguardStrikerElementAllHeatCryoEle",
+   "position": "relative",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "900px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_shallowBg__lw6mP": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 604.6875,
+    "width": 1372.5,
+    "height": 295.3125,
+    "top": 604.6875,
+    "right": 1440,
+    "bottom": 900,
+    "left": 67.5
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "295.312px",
+   "top": "604.688px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13.9513%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 36.0487%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 63.9513%, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 86.0487%, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0))",
+   "opacity": "0.05",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(0deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0))",
+   "mask-image": "linear-gradient(0deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0))",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_thumb__OQEKX": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 1350.5625,
+    "y": 165.375,
+    "width": 5.625,
+    "height": 356,
+    "top": 165.375,
+    "right": 1356.1875,
+    "bottom": 521.375,
+    "left": 1350.5625
+   },
+   "text": "",
+   "display": "block",
+   "width": "5.625px",
+   "height": "356px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(182, 182, 182)",
+   "opacity": "1",
+   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+   "transition": "height 0.3s 0.3s, width 0.3s 0.3s, opacity 0.3s linear, transform 0.05s linear",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "1.6875px",
+   "cursor": "pointer",
+   "writing-mode": "horizontal-tb"
+  },
+  "__12-OperatorList_totalContainer__86kgK": {
+   "page": "en-us_operator",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 0,
+    "width": 1372.5,
+    "height": 900,
+    "top": 0,
+    "right": 1440,
+    "bottom": 900,
+    "left": 67.5
+   },
+   "text": "ENDFIELDClassAllGuardCasterSupporterDefenderVanguardStrikerElementAllHeatCryoEle",
+   "position": "absolute",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "900px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [
+   "#fff",
+   "#b6b6b6",
+   "rgb(0,0,0)",
+   "rgba(0,0,0,0)",
+   "#fffa08"
+  ],
+  "fonts": [],
+  "fontSizes": [
+   "31rem",
+   "24rem"
+  ],
+  "zIndex": [],
+  "transitions": []
+ }
+}

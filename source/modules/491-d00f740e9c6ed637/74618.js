@@ -1,0 +1,3 @@
+// module 74618 from 491-d00f740e9c6ed637.js
+// deps: 66508
+const module_74618 = (e,t,r)=>{"use strict";Object.defineProperty(t,"__esModule",{value:!0}),Object.defineProperty(t,"assignLocation",{enumerable:!0,get:function(){return o}});let n=r(66508);function o(e,t){if(e.startsWith(".")){let r=t.origin+t.pathname;return new URL((r.endsWith("/")?r:r+"/")+e)}return new URL((0,n.addBasePath)(e),t.href)}("function"==typeof t.default||"object"==typeof t.default&&null!==t.default)&&void 0===t.default.__esModule&&(Object.defineProperty(t.default,"__esModule",{value:!0}),Object.assign(t.default,t),e.exports=t.default)};

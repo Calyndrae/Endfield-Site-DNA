@@ -1,0 +1,3 @@
+// module 6921 from 3696-03b8256f1fece6bb.js
+// deps: 2142
+const module_6921 = (e,t,r)=>{"use strict";r.d(t,{A:()=>s});var l,a=r(2142);function n(){return(n=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var l in r)({}).hasOwnProperty.call(r,l)&&(e[l]=r[l])}return e}).apply(null,arguments)}let s=function(e){return a.createElement("svg",n({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 13 21"},e),l||(l=a.createElement("path",{fillRule:"evenodd",fill:"currentColor",d:"M12.424,10.557 L3.108,20.169 L0.713,17.697 L7.984,10.195 L0.713,2.693 L3.108,0.221 L12.424,9.833 L12.073,10.195 L12.424,10.557 Z"})))}};

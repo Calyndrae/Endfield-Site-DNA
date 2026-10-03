@@ -1,0 +1,81 @@
+{
+ "component": "__01-Home",
+ "files": [
+  "0ff6a898df0edefb.css"
+ ],
+ "classes": {
+  "sectionContainer": "__01-Home_sectionContainer__nzBwa"
+ },
+ "ruleCount": 2,
+ "rules": [
+  {
+   "selector": ".__01-Home_sectionContainer__nzBwa",
+   "media": [],
+   "declarations": {
+    "position": "relative",
+    "width": "100%",
+    "height": "100vh",
+    "box-sizing": "border-box",
+    "overflow": "hidden"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  },
+  {
+   "selector": ".__01-Home_sectionContainer__nzBwa",
+   "media": [
+    "@media (orientation:portrait)"
+   ],
+   "declarations": {
+    "height": "calc(100vh - var(--vh-offset) - 9.625rem)"
+   },
+   "source": "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/0ff6a898df0edefb.css"
+  }
+ ],
+ "markup": "<div class=\"__01-Home_sectionContainer__nzBwa\" style=\"height: 900px;\"><div class=\"bg_bgContainer__8_h2E\"><div class=\"bg_bg__JeUZA\"><div class=\"bg_horizontalMask__A7Oa8\"><div class=\"bg_verticalMask__k2knK\"><div class=\"bg_inner__2TAAb\"></div></div></div><div class=\"bg_titleStage__38POn\"><div class=\"bg_title__g7Ei1\" aria-hidden=\"true\"></div></div></div></div><div class=\"pc-oversea_container__RaAtO\"><div class=\"pc-oversea_rbContainer__tVihR\"><div class=\"pc-oversea_downloadWrapper__s3301\" data-animation-element=\"true\" style=\"opacity: 0;\"><div class=\"pc-oversea_downloadContainer__jrv9L downloader_downloadContainer__z2AUJ\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 10\" class=\"downloader_decoRt__AQD8n\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M23.663,3.332 L23.663,0.445 L31.361,0.445 L31.361,3.332 L23.663,3.332 ZM17.963,4.058 C16.941,4.058 16.113,3.250 16.113,2.252 C16.113,1.254 16.941,0.445 17.963,0.445 C18.985,0.445 19.813,1.254 19.813,2.252 C19.813,3.250 18.985,4.058 17.963,4.058 ZM12.782,9.117 C11.760,9.117 10.931,8.308 10.931,7.310 C10.931,6.313 11.760,5.504 12.782,5.504 C13.804,5.504 14.632,6.313 14.632,7.310 C14.632,8.308 13.804,9.117 12.782,9.117 ZM12.782,4.058 C11.760,4.058 10.931,3.250 10.931,2.252 C10.931,1.254 11.760,0.445 12.782,0.445 C13.804,0.445 14.632,1.254 14.632,2.252 C14.632,3.250 13.804,4.058 12.782,4.058 ZM7.601,9.117 C6.579,9.117 5.750,8.308 5.750,7.310 C5.750,6.313 6.579,5.504 7.601,5.504 C8.622,5.504 9.451,6.313 9.451,7.310 C9.451,8.308 8.622,9.117 7.601,9.117 ZM7.601,4.058 C6.579,4.058 5.750,3.250 5.750,2.252 C5.750,1.254 6.579,0.445 7.601,0.445 C8.622,0.445 9.451,1.254 9.451,2.252 C9.451,3.250 8.622,4.058 7.601,4.058 ZM2.419,9.117 C1.397,9.117 0.569,8.308 0.569,7.310 C0.569,6.313 1.397,5.504 2.419,5.504 C3.441,5.504 4.270,6.313 4.270,7.310 C4.270,8.308 3.441,9.117 2.419,9.117 ZM2.419,4.058 C1.397,4.058 0.569,3.250 0.569,2.252 C0.569,1.254 1.397,0.445 2.419,0.445 C3.441,0.445 4.270,1.254 4.270,2.252 C4.270,3.250 3.441,4.058 2.419,4.058 Z\"></path></svg><div class=\"downloader_iconContainer__oRDg0\"><svg xmlns=\"http://www.w3.org/2000/svg\" class=\"downloader_icon__kcnSL\" viewBox=\"0 0 28 29\"><path fill-rule=\"evenodd\" fill=\"currentColor\" d=\"M20.836,14.872 L20.836,0.013 L7.162,0.013 L7.162,7.976 L13.999,14.872 L-0.006,14.872 L13.999,28.999 L28.004,14.872 L20.836,14.872 Z\"></path></svg></div><div class=\"downloader_downloadTitle__cES4Y\">Download</div><div class=\"downloader_contentContainer__gSnGa\"><div class=\"downloader_qrcode__i0rLm\"></div><div class=\"downloader_platforms__qTgeb\"><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq\"><img class=\"downloader_appStore___xAQu\" alt=\"App Store\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/appStore.e038801b.png\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_ps5__PbN32\" alt=\"PS5\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/ps5.ff9ebc6a.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq\"><img class=\"downloader_googlePlay__5dTJt\" alt=\"Google Play\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/googlePlay.769131d6.png\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_windows__0lLI2\" alt=\"Windows\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/windows.f03ec02f.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq downloader_hidden__idn8F\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_gpg__K8c5G\" alt=\"GPG\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/gpg.37836d7a.png\"></div></div><div class=\"downloader_row__BPXTj\"><div class=\"downloader_item__ebxpq downloader_hidden__idn8F\"></div><div class=\"downloader_item__ebxpq\"><img class=\"downloader_epic__OBzwu\" alt=\"Epic\" src=\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/epic.7b9f0f97.png\"></div></div></div></div></div></div></div></div></div>",
+ "markupPage": "en-us",
+ "markupClass": "__01-Home_sectionContainer__nzBwa",
+ "appearsOn": [
+  "en-us"
+ ],
+ "computed": {
+  "__01-Home_sectionContainer__nzBwa": {
+   "page": "en-us",
+   "tag": "DIV",
+   "rect": {
+    "x": 67.5,
+    "y": 0,
+    "width": 1372.5,
+    "height": 900,
+    "top": 0,
+    "right": 1440,
+    "bottom": 900,
+    "left": 67.5
+   },
+   "text": "Download",
+   "position": "relative",
+   "display": "block",
+   "width": "1372.5px",
+   "height": "900px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  }
+ },
+ "hover": [],
+ "keyframes": [],
+ "tokens": {
+  "colors": [],
+  "fonts": [],
+  "fontSizes": [],
+  "zIndex": [],
+  "transitions": []
+ }
+}

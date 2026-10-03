@@ -1,0 +1,3 @@
+// module 16878 from 491-d00f740e9c6ed637.js
+// deps: 
+const module_16878 = (e,t)=>{"use strict";function r(e){return"("===e[0]&&e.endsWith(")")}function n(e){return e.startsWith("@")&&"@children"!==e}function o(e,t){if(e.includes(u)){let e=JSON.stringify(t);return"{}"!==e?u+"?"+e:u}return e}Object.defineProperty(t,"__esModule",{value:!0}),!function(e,t){for(var r in t)Object.defineProperty(e,r,{enumerable:!0,get:t[r]})}(t,{DEFAULT_SEGMENT_KEY:function(){return l},PAGE_SEGMENT_KEY:function(){return u},addSearchParamsIfPageSegment:function(){return o},isGroupSegment:function(){return r},isParallelRouteSegment:function(){return n}});let u="__PAGE__",l="__DEFAULT__"};

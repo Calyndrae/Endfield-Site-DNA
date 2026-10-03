@@ -1,0 +1,544 @@
+{
+ "url": "https://endfield.gryphline.com/en-us/protocol/terms_of_service",
+ "capturedAt": "2026-10-03T12:45:15.798Z",
+ "loaderGone": true,
+ "loaderMs": 2348,
+ "errors": [],
+ "console": [],
+ "title": "Arknights: Endfield - Over the Frontier, Into the Front",
+ "lang": "en-us",
+ "htmlClass": "en-us protocol_html__0huJ4",
+ "rootFontSize": "9px",
+ "bodyFont": "sans-serif",
+ "links": [
+  {
+   "text": "Game Terms of Service",
+   "href": "https://endfield.gryphline.com/zh-tw/protocol/terms_of_service",
+   "target": ""
+  },
+  {
+   "text": "Game Privacy Policy",
+   "href": "https://endfield.gryphline.com/en-us/protocol/privacy_policy",
+   "target": ""
+  },
+  {
+   "text": "https://www.dca.ca.gov/about_us/contactus.shtml",
+   "href": "https://www.dca.ca.gov/about_us/contactus.shtml",
+   "target": ""
+  },
+  {
+   "text": "https://ec.europa.eu/consumers/odr/",
+   "href": "https://ec.europa.eu/consumers/odr/",
+   "target": ""
+  },
+  {
+   "text": "TERMS OF SERVICE",
+   "href": "https://endfield.gryphline.com/en-us/protocol/terms_of_service",
+   "target": "_blank"
+  },
+  {
+   "text": "PRIVACY POLICY",
+   "href": "https://endfield.gryphline.com/en-us/protocol/privacy_policy",
+   "target": "_blank"
+  },
+  {
+   "text": "CONTACT US",
+   "href": "https://gryphline.helpshift.com/hc/en/4-arknights-endfield/",
+   "target": "_blank"
+  }
+ ],
+ "fonts": [
+  {
+   "family": "ProtestStrike-Regular",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Roboto-Regular",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Roboto-Black",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Gilroy-Light",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Novecentosanswide-Bold",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Novecentosanswide-DemiBold",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Novecentosanswide-Medium",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Gilroy-Medium",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "Gilroy-ExtraBold",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "SpaceGrotesk",
+   "status": "unloaded",
+   "weight": "400"
+  },
+  {
+   "family": "SDK-Sans-Regular",
+   "status": "loaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansK-Regular",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansTC-Regular",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-Sans-Medium",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansK-Medium",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansTC-Medium",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-Sans-Bold",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansK-Bold",
+   "status": "unloaded",
+   "weight": "normal"
+  },
+  {
+   "family": "SDK-SansTC-Bold",
+   "status": "unloaded",
+   "weight": "normal"
+  }
+ ],
+ "stylesheets": [
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/637308dda4dd7f2d.css",
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/css/1a7ed5873254240b.css"
+ ],
+ "scripts": [
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/86478c97-2730e7cdddbaa41b.js",
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/491-d00f740e9c6ed637.js",
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/main-app-aa0c052c2919e7bc.js",
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js",
+  "https://web-static.hg-cdn.com/gl_account_web_sdk/2.0.0/gl-account-web-sdk.min.js?ts=1791031507463",
+  "https://web-static.hg-cdn.com/gl_web_sdk/2.1.4/gl-web-sdk.min.js?ts=1791031507955",
+  "https://www.googletagmanager.com/gtag/js?id=G-V1KBM9EQ75",
+  "https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/webpack-d2640f1d35bf907f.js",
+  "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495"
+ ],
+ "sections": [
+  {
+   "cls": "__21-ProtocolDetail_sectionContainer__XZ_gX",
+   "id": "",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 13586.859375,
+    "top": 0,
+    "right": 1440,
+    "bottom": 13586.859375,
+    "left": 0
+   }
+  }
+ ],
+ "components": [
+  "__21-ProtocolDetail_backButton__c5SKD",
+  "__21-ProtocolDetail_bgBottom__IZxFA",
+  "__21-ProtocolDetail_contentContainer__VjiZj",
+  "__21-ProtocolDetail_content__gnmVJ",
+  "__21-ProtocolDetail_divider__H8iOM",
+  "__21-ProtocolDetail_footer__Anffv",
+  "__21-ProtocolDetail_innerContainer__olPvO",
+  "__21-ProtocolDetail_sectionContainer__XZ_gX",
+  "__21-ProtocolDetail_title__8PgRe",
+  "protocol_body__7Bxrw",
+  "protocol_html__0huJ4"
+ ],
+ "mobile": {
+  "rootFontSize": "9px",
+  "overflow": false,
+  "sections": [
+   {
+    "cls": "__21-ProtocolDetail_sectionContainer__XZ_gX",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "width": 390,
+     "height": 45809.65625,
+     "top": 0,
+     "right": 390,
+     "bottom": 45809.65625,
+     "left": 0
+    }
+   }
+  ]
+ },
+ "computed": {
+  "__21-ProtocolDetail_backButton__c5SKD": {
+   "tag": "DIV",
+   "rect": {
+    "x": 1377,
+    "y": 837,
+    "width": 45,
+    "height": 45,
+    "top": 837,
+    "right": 1422,
+    "bottom": 882,
+    "left": 1377
+   },
+   "text": "",
+   "position": "fixed",
+   "display": "block",
+   "width": "45px",
+   "height": "45px",
+   "top": "837px",
+   "left": "1377px",
+   "right": "18px",
+   "bottom": "18px",
+   "z-index": "200",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(241, 241, 241)",
+   "opacity": "0",
+   "transition": "opacity 0.3s",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "border-radius": "50%",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_bgBottom__IZxFA": {
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 12822.015625,
+    "width": 1440,
+    "height": 337.5,
+    "top": 12822.015625,
+    "right": 1440,
+    "bottom": 13159.515625,
+    "left": 0
+   },
+   "text": "",
+   "position": "absolute",
+   "display": "block",
+   "width": "1440px",
+   "height": "337.5px",
+   "top": "12822px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "background-image": "url(\"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/points-bg.f3b559e8.png\")",
+   "opacity": "0.08",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "-webkit-mask-image": "linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%, rgb(0, 0, 0))",
+   "mask-image": "linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 90%, rgb(0, 0, 0))",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_contentContainer__VjiZj": {
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 13159.515625,
+    "top": 0,
+    "right": 1440,
+    "bottom": 13159.515625,
+    "left": 0
+   },
+   "text": "Game Terms of Service\n            Last Updated: September 2, 2026\n\n            T",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "13159.5px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_content__gnmVJ": {
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 230.296875,
+    "width": 1072.125,
+    "height": 12789.46875,
+    "top": 230.296875,
+    "right": 1256.0625,
+    "bottom": 13019.765625,
+    "left": 183.9375
+   },
+   "text": "Last Updated: September 2, 2026\n\n            Thank you for enjoying our game(s).",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "12789.5px",
+   "font-family": "sans-serif",
+   "font-size": "14.625px",
+   "font-weight": "400",
+   "line-height": "26.325px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_divider__H8iOM": {
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 211.5,
+    "width": 1072.125,
+    "height": 1.6875,
+    "top": 211.5,
+    "right": 1256.0625,
+    "bottom": 213.1875,
+    "left": 183.9375
+   },
+   "text": "",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "1.6875px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgb(217, 217, 217)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_footer__Anffv": {
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 13159.515625,
+    "width": 1440,
+    "height": 427.34375,
+    "top": 13159.515625,
+    "right": 1440,
+    "bottom": 13586.859375,
+    "left": 0
+   },
+   "text": "TERMS OF SERVICEPRIVACY POLICYCONTACT US\"PlayStation Family Mark\", \"PlayStation\"",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "427.344px",
+   "font-family": "SDK-Sans-Regular",
+   "font-size": "14px",
+   "font-weight": "400",
+   "line-height": "19.6px",
+   "color": "rgb(255, 255, 255)",
+   "background-color": "rgb(16, 16, 16)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(255, 255, 255)",
+   "padding": "17.5px 0px 35px",
+   "overflow": "hidden",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_innerContainer__olPvO": {
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1256.0625,
+    "height": 13159.515625,
+    "top": 0,
+    "right": 1256.0625,
+    "bottom": 13159.515625,
+    "left": 0
+   },
+   "text": "Game Terms of Service\n            Last Updated: September 2, 2026\n\n            T",
+   "position": "relative",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "12912px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "padding": "123.75px 0px 123.75px 183.938px",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_sectionContainer__XZ_gX": {
+   "tag": "DIV",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 13586.859375,
+    "top": 0,
+    "right": 1440,
+    "bottom": 13586.859375,
+    "left": 0
+   },
+   "text": "Game Terms of Service\n            Last Updated: September 2, 2026\n\n            T",
+   "position": "relative",
+   "display": "block",
+   "width": "1440px",
+   "height": "13586.9px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  },
+  "__21-ProtocolDetail_title__8PgRe": {
+   "tag": "DIV",
+   "rect": {
+    "x": 183.9375,
+    "y": 132.75,
+    "width": 1072.125,
+    "height": 69.75,
+    "top": 132.75,
+    "right": 1256.0625,
+    "bottom": 202.5,
+    "left": 183.9375
+   },
+   "text": "Game Terms of Service",
+   "position": "relative",
+   "display": "block",
+   "width": "1072.12px",
+   "height": "69.75px",
+   "font-family": "sans-serif",
+   "font-size": "27px",
+   "font-weight": "400",
+   "line-height": "48.6px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "margin": "9px 0px 0px",
+   "writing-mode": "horizontal-tb"
+  },
+  "protocol_body__7Bxrw": {
+   "tag": "BODY",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 13586.859375,
+    "top": 0,
+    "right": 1440,
+    "bottom": 13586.859375,
+    "left": 0
+   },
+   "text": "Game Terms of Service\n            Last Updated: September 2, 2026\n\n            T",
+   "display": "block",
+   "width": "1440px",
+   "height": "13586.9px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "line-height": "16.2px",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "overflow": "hidden auto",
+   "writing-mode": "horizontal-tb"
+  },
+  "protocol_html__0huJ4": {
+   "tag": "HTML",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 13586.859375,
+    "top": 0,
+    "right": 1440,
+    "bottom": 13586.859375,
+    "left": 0
+   },
+   "text": "\"use strict\";\nvar _innerWidth = 0;\nvar _innerHeight = 0;\nvar _fontSize = 16;\nvar",
+   "display": "block",
+   "width": "1440px",
+   "height": "13586.9px",
+   "font-family": "sans-serif",
+   "font-size": "9px",
+   "font-weight": "400",
+   "color": "rgb(0, 0, 0)",
+   "background-color": "rgba(0, 0, 0, 0)",
+   "opacity": "1",
+   "transition": "all",
+   "animation": "none 0s ease 0s 1 normal none running",
+   "border": "0px none rgb(0, 0, 0)",
+   "writing-mode": "horizontal-tb"
+  }
+ }
+}

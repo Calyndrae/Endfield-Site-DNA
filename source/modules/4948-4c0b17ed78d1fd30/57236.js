@@ -1,0 +1,3 @@
+// module 57236 from 4948-4c0b17ed78d1fd30.js
+// deps: 
+const module_57236 = (e,t,A)=>{A.d(t,{A:()=>a});let a={src:"https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/pogranichnik.73f7bcf6.png",height:120,width:118,blurDataURL:"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAWlBMVEXYzMdwCgpPJSRbUU62p6F8dW+MhoGhkYuAeHRvaGWPfHesoZyhmZSAX1z/+PRfQD5zamV6bmlkXFlTV1iajISYkYqNgHq3q6aQhoLGurTQxL7f1NDq3tnCtK9mJGIIAAAAFnRSTlP+S+z++GJN/vg3h/jJ/v38xtXv8vBt07OxogAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEJJREFUeJwFwQcCgCAMALFTwRb3hDL8/zdNCGopW4yMKo6UDS+tAcYrpX6kAf+0mvPcE86ykZaO8XCISODWa181Tj+GhAOBhuBgFgAAAABJRU5ErkJggg==",blurWidth:8,blurHeight:8}};
