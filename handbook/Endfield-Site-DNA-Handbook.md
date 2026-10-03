@@ -1,122 +1,98 @@
-# Endfield Website DNA
+# Endfield Website DNA — Technical Handbook
 
-A technical handbook of the Arknights: Endfield official site — colours, type, layout, components, motion, sound and code — written so that a child site can be built from it
+Published 3 October 2026 · Author: Calyndrae · Live edition: https://sitedna.endfield.calyndrae.com/en-us/news/7013/ · Repository: https://github.com/Calyndrae/Endfield-Site-DNA
 
-Published October 2026 · Author: Calyndrae · Live edition: https://sitedna.endfield.calyndrae.com/en-us/news/7013/ · Repository: https://github.com/Calyndrae/Endfield-Site-DNA
+## Preface
 
-# Contents
+### Goal
 
-- [Preface — what this handbook is and how to read it](#preface) · p. 3
-- [01  Scope, evidence rules and how to read this page](#scope) · p. 4
-- [02  Page graph, routes and data flow](#routes) · p. 5
-- [03  Technical structure: Next.js, chunks, CSS modules, SDK](#structure) · p. 6
-- [04  Rendering scale: the rem canvas and orientation axis](#scaling) · p. 8
-- [05  Layer stack and hit testing](#layers) · p. 9
-- [06  Colour tokens and where each one is used](#colour) · p. 11
-- [07  Typography: faces, roles, sizes](#typography) · p. 13
-- [08  Text rhythm, spacing scale and why](#rhythm) · p. 15
-- [09  Alignment, the 160rem desktop canvas and the rail](#alignment) · p. 18
-- [10  Navigation rail (Header): live, hover and expanded states](#rail) · p. 20
-- [11  First-load screen](#loading) · p. 28
-- [12  Section viewer: chapter navigation by wheel, scroll and hash](#viewer) · p. 32
-- [13  Homepage character stage (__02-Operator)](#operator-stage) · p. 34
-- [14  Transparent video renderer (the "3D" mode)](#transparent-video) · p. 40
-- [15  LORE: three.js point-cloud scene and particles](#lore-3d) · p. 43
-- [16  INFORMATION section: background video, swiper and media modal](#information) · p. 46
-- [17  CALENDAR section: sticky title and timeline images](#calendar) · p. 51
-- [18  GAMEPLAY and AIC: the GameplayAlbum carousel](#gameplay-aic) · p. 54
-- [19  NOTICE section: bulletin carousel, Pagination and Button](#notice) · p. 60
-- [20  Download panel, reservation and account modals](#download-modals) · p. 65
-- [21  Footer and language picker (live below)](#footer) · p. 70
-- [22  Operator catalogue (/en-us/operator): cards, filters, detail](#catalogue) · p. 73
-- [23  News index (/en-us/news): subpage header, tabs, cards](#news) · p. 82
-- [24  Article page (this page): template, tables, back-to-top](#article) · p. 91
-- [25  Buttons and controls inventory](#controls) · p. 96
-- [26  Hover and focus states: complete inventory](#hover) · p. 99
-- [27  Entrance, scroll and transition motion: keyframes, transitions, timelines](#motion) · p. 104
-- [28  Audio: background music, sound effects, mute state](#audio) · p. 109
-- [29  Icons, imagery and textures](#imagery) · p. 111
-- [30  Responsive behaviour: portrait rules and measured mobile layout](#responsive) · p. 114
-- [31  Internationalisation and runtime fonts](#i18n) · p. 118
-- [32  Interactions measured live: clicks, hovers, drags, keyboard, resize, real-time calculations](#interactions) · p. 119
-- [33  JavaScript map: chunks, modules, readable reconstructions](#javascript) · p. 142
-- [34  Components declared in CSS but not rendered on the captured pages](#unrendered) · p. 146
-- [35  Coverage matrix: every component and where it is used here](#coverage) · p. 159
-- [36  Build a child site: the transferable rules](#blueprint) · p. 161
-- [Index](#index) · p. 162
-- [Appendix A — The twelve stylesheets, complete and beautified](#appendix-a) · p. 163
-- [A.1  0ff6a898df0edefb.css](#css-0ff6a898df0edefb-css) · p. 164
-- [A.2  1ef245f541070a31.css](#css-1ef245f541070a31-css) · p. 206
-- [A.3  2174f0c4d179760f.css](#css-2174f0c4d179760f-css) · p. 211
-- [A.4  3bd8ebba7b8795c3.css](#css-3bd8ebba7b8795c3-css) · p. 214
-- [A.5  5db72e0ba5b54b39.css](#css-5db72e0ba5b54b39-css) · p. 258
-- [A.6  637308dda4dd7f2d.css](#css-637308dda4dd7f2d-css) · p. 288
-- [A.7  6b6d9a58b4c43339.css](#css-6b6d9a58b4c43339-css) · p. 291
-- [A.8  79293df1a997d2da.css](#css-79293df1a997d2da-css) · p. 292
-- [A.9  89618c72836110eb.css](#css-89618c72836110eb-css) · p. 301
-- [A.10  cca0e7eae4809d1e.css](#css-cca0e7eae4809d1e-css) · p. 310
-- [A.11  dd1a1cedef0d47ea.css](#css-dd1a1cedef0d47ea-css) · p. 317
-- [Appendix B — The readable first-party JavaScript, complete](#appendix-b) · p. 333
-- [B.1  AIC_ITEMS.89622.js](#js-AIC-ITEMS-89622-js) · p. 335
-- [B.2  applyRootFontSize.14577.js](#js-applyRootFontSize-14577-js) · p. 336
-- [B.3  backgroundMusic.7725.js](#js-backgroundMusic-7725-js) · p. 337
-- [B.4  BackgroundVideo.73992.js](#js-BackgroundVideo-73992-js) · p. 338
-- [B.5  BgmPlayer.58572.js](#js-BgmPlayer-58572-js) · p. 342
-- [B.6  BulletinListContextProvider.30257.js](#js-BulletinListContextProvider-30257-js) · p. 351
-- [B.7  clipRevealAnimation.84245.js](#js-clipRevealAnimation-84245-js) · p. 352
-- [B.8  FontLoader.45965.js](#js-FontLoader-45965-js) · p. 355
-- [B.9  Footer.46173.js](#js-Footer-46173-js) · p. 356
-- [B.10  formatNumberWithCommas.97521.js](#js-formatNumberWithCommas-97521-js) · p. 359
-- [B.11  GAMEPLAY_ITEMS.26915.js](#js-GAMEPLAY-ITEMS-26915-js) · p. 360
-- [B.12  getBulletinDetail.91627.js](#js-getBulletinDetail-91627-js) · p. 361
-- [B.13  getChargeInfo.21086.js](#js-getChargeInfo-21086-js) · p. 363
-- [B.14  getVideoList.60108.js](#js-getVideoList-60108-js) · p. 365
-- [B.15  HollowText.52652.js](#js-HollowText-52652-js) · p. 366
-- [B.16  HomeLayout.83597.js](#js-HomeLayout-83597-js) · p. 367
-- [B.17  I18nProvider.4948.js](#js-I18nProvider-4948-js) · p. 431
-- [B.18  isQuarkBrowser.15723.js](#js-isQuarkBrowser-15723-js) · p. 435
-- [B.19  LoadingScreen.71272.js](#js-LoadingScreen-71272-js) · p. 436
-- [B.20  MediaModal.12914.js](#js-MediaModal-12914-js) · p. 439
-- [B.21  NoticeDetailContextProvider.61127.js](#js-NoticeDetailContextProvider-61127-js) · p. 441
-- [B.22  NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js) · p. 442
-- [B.23  NoticeListSection.92731.js](#js-NoticeListSection-92731-js) · p. 445
-- [B.24  OPERATOR_VIDEO_CLIPS.68408.js](#js-OPERATOR-VIDEO-CLIPS-68408-js) · p. 449
-- [B.25  OperatorListSection.50999.js](#js-OperatorListSection-50999-js) · p. 452
-- [B.26  OperatorSection.3492.js](#js-OperatorSection-3492-js) · p. 458
-- [B.27  OrigQueryModalRoot.94150.js](#js-OrigQueryModalRoot-94150-js) · p. 472
-- [B.28  Pagination.2682.js](#js-Pagination-2682-js) · p. 479
-- [B.29  RollingText.96664.js](#js-RollingText-96664-js) · p. 482
-- [B.30  SectionTitle.73560.js](#js-SectionTitle-73560-js) · p. 484
-- [B.31  SITE_CONFIG.56006.js](#js-SITE-CONFIG-56006-js) · p. 487
-- [B.32  SOUND_EFFECT_SOURCES.26097.js](#js-SOUND-EFFECT-SOURCES-26097-js) · p. 488
-- [B.33  SubpageHeader.86797.js](#js-SubpageHeader-86797-js) · p. 490
-- [B.34  TextShrink.51967.js](#js-TextShrink-51967-js) · p. 493
-- [B.35  Toast.71985.js](#js-Toast-71985-js) · p. 494
-- [B.36  TRACKING_GROUPS.29521.js](#js-TRACKING-GROUPS-29521-js) · p. 496
-- [B.37  Tracking.1162.js](#js-Tracking-1162-js) · p. 497
-- [B.38  TransparentVideo.40489.js](#js-TransparentVideo-40489-js) · p. 500
-- [B.39  TransVideo.25221.js](#js-TransVideo-25221-js) · p. 502
-- [B.40  useCloseButton.67002.js](#js-useCloseButton-67002-js) · p. 511
-- [B.41  useOrientation.90286.js](#js-useOrientation-90286-js) · p. 512
-- [B.42  UserModalRoot.92610.js](#js-UserModalRoot-92610-js) · p. 513
-- [B.43  useSoundControlStore.2285.js](#js-useSoundControlStore-2285-js) · p. 515
-- [B.44  VideoListContextProvider.3787.js](#js-VideoListContextProvider-3787-js) · p. 516
-- [Appendix C — Data archives and captures (hosted, not reprinted)](#appendix-c) · p. 517
-## Preface — What this handbook is and how to read it
+Describe one website, the official **Arknights: Endfield** site at https://endfield.gryphline.com/en-us, at the depth of its public pages — the home page, the operator catalogue, the news index and a news article — so completely that a reader can build a **child site of the same family**: the same colours, type, rhythm, components, motion, sound and rendering behaviour, from the navigation rail to the loader curtain.
 
-This handbook describes one website, the official Arknights: Endfield site (https://endfield.gryphline.com/en-us), at the depth of its public pages: the home page, the operator catalogue, the news index and a news article. It is written so that a reader can build a "child" site of the same family: same colours, type, rhythm, components, motion, sound and rendering behaviour. Nothing in it is invented. Every value was read from the shipped code, measured in a headless browser on the live site, or is marked as an interpretation.
+The purpose is to see clearly how the site is constructed, not to copy its content.
 
-**Evidence tags.** Every claim carries one of four labels. **OBSERVED** means read directly from shipped code, stylesheets or server responses. **MEASURED** means reported by headless Chromium driving the live site on 2026-10-03: clicks, hovers, drags, keyboard, resizes and the real-time calculations re-run in the page. **INFERRED** is interpretation and never a fact. **RULE FOR A CHILD SITE** is a transferable instruction derived from the three above.
+### Explicitly out of scope
 
-**Specimens.** Where a component could be captured verbatim from the live page it is shown rendered with the site's own stylesheets (the same twelve files printed in Appendix A), followed by its exact markup. The only normalisation applied is the removal of inline opacity, transform, visibility and transition values that the site's animation code writes during entrances, so each specimen is in its settled state. Specimens are rendered at the 1440×900 scale (root font-size 9px), so measurements quoted "at 1440×900" match what is printed.
+• Pages beyond depth 1: the pre-launch landing routes, other locales and account flows (their CSS is still inventoried)  
+• The game, its lore and its artwork as subjects in themselves  
+• Any claim about server-side code: only shipped responses and client code are evidence  
+• Invented values of any kind: nothing in this handbook is estimated, rounded or assumed
 
-**Code.** Short excerpts of the reconstructed, readable JavaScript sit next to the behaviour they produce; the complete modules are in Appendix B and the complete stylesheets in Appendix A. Minified identifiers were renamed scope-aware; values, strings and control flow are unchanged. Vendor libraries (React 19, Next.js, framer-motion, anime.js 3.2.1, swiper, three.js r178, lottie-web 5.12.2, axios, dayjs, zustand, @emotion, the Gryphline web SDK) are identified, not reprinted.
+If a statement is not read from shipped code, measured in a browser on the live site, or marked as interpretation, it does not belong in this handbook.
 
-**Where the files are.** The live single-page edition of this handbook, with the real runtime around it, is at [https://sitedna.endfield.calyndrae.com/en-us/news/7013/](https://sitedna.endfield.calyndrae.com/en-us/news/7013/). Every archive this document links to (data, captures, chunks, module maps) is hosted at the same site and listed with sizes in Appendix C; large data files are deliberately not reprinted here. The source repository is [https://github.com/Calyndrae/Endfield-Site-DNA](https://github.com/Calyndrae/Endfield-Site-DNA).
+### Asset source
 
-**Order of chapters.** Chapters 01–09 establish the frame: scope, routes, technical structure, the rem canvas, the layer stack, colour, typography, rhythm and alignment. Chapters 10–21 go through the home page section by section. Chapters 22–31 cover the catalogue, the news pages, controls, hover, motion, audio, imagery, responsive behaviour and localisation. Chapter 32 is the live-interaction record. Chapters 33–36 cover the JavaScript, the unrendered components, the coverage proof and the blueprint for a child site. An index of components, files, fonts, colours and terms follows the chapters.
+The markup, stylesheets, scripts, fonts, images and sounds reproduced here were loaded from the live site and its CDN on 2026-10-03 and belong to **Hypergryph / Gryphline**. They are reproduced solely for the study of the site's construction. Nothing in this handbook is a release of those assets.
 
-## Chapter 01 — Scope, evidence rules and how to read this page
+### Explanation
+
+The handbook is intentionally narrower than a design system. By fixing the subject to one site at one date and admitting only three kinds of evidence, it creates a controlled record in which every colour, size, easing and timing can be traced to a file or a measurement. "Nearly the same looking site" is a statement about that record: build from the rules, specimens and code printed here and the result shares the site's DNA; it does not become the site.
+
+## Reading this edition
+
+This is a technical handbook, not a status report. The evidence cutoff is **2026-10-03**, the day the live site was captured and measured; the site may change after that date. Four labels mark every claim. **OBSERVED** means read directly from shipped code, stylesheets or server responses. **MEASURED** means reported by headless Chromium driving the live site: clicks, hovers, drags, keyboard, resizes and the real-time calculations re-run in the page. **INFERRED** is interpretation and never a fact. **RULE FOR A CHILD SITE** is a transferable instruction derived from the three above.
+
+Where a component could be captured verbatim from the live page it is shown rendered with the site's own stylesheets (the twelve files printed in Appendix A) at the 1440×900 scale, followed by its exact markup. The only normalisation is the removal of inline opacity, transform, visibility and transition values that the site's animation code writes during entrances, so each specimen is in its settled state.
+
+Short excerpts of the reconstructed, readable JavaScript sit next to the behaviour they produce; the complete modules are in Appendix B. Minified identifiers were renamed scope-aware; values, strings and control flow are unchanged. Vendor libraries (React 19, Next.js, framer-motion, anime.js 3.2.1, swiper, three.js r178, lottie-web 5.12.2, axios, dayjs, zustand, @emotion, the Gryphline web SDK) are identified, not reprinted.
+
+Large machine-readable archives — the CSS rule database, colour and typography tables, captures, network manifest, module maps — are not reprinted. They are hosted with the live edition of this handbook at https://sitedna.endfield.calyndrae.com and listed with sizes in Appendix C; every link in the chapters resolves there. The source repository is https://github.com/Calyndrae/Endfield-Site-DNA. The supplied template provides the page layout: its cover, front-matter, body and acknowledgements roles and colours are kept; its wordmark is not.
+
+**Author:** Calyndrae.
+
+Use the linked contents pages to open any section directly; the word Contents in every footer returns to them.
+
+## Contents
+
+- [Scope, evidence rules and how to read this page](#scope)
+- [Page graph, routes and data flow](#routes)
+- [Technical structure: Next.js, chunks, CSS modules, SDK](#structure)
+- [Rendering scale: the rem canvas and orientation axis](#scaling)
+- [Layer stack and hit testing](#layers)
+- [Colour tokens and where each one is used](#colour)
+- [Typography: faces, roles, sizes](#typography)
+- [Text rhythm, spacing scale and why](#rhythm)
+- [Alignment, the 160rem desktop canvas and the rail](#alignment)
+- [Navigation rail (Header): live, hover and expanded states](#rail)
+- [First-load screen](#loading)
+- [Section viewer: chapter navigation by wheel, scroll and hash](#viewer)
+- [Homepage character stage (__02-Operator)](#operator-stage)
+- [Transparent video renderer (the "3D" mode)](#transparent-video)
+- [LORE: three.js point-cloud scene and particles](#lore-3d)
+- [INFORMATION section: background video, swiper and media modal](#information)
+- [CALENDAR section: sticky title and timeline images](#calendar)
+- [GAMEPLAY and AIC: the GameplayAlbum carousel](#gameplay-aic)
+- [NOTICE section: bulletin carousel, Pagination and Button](#notice)
+- [Download panel, reservation and account modals](#download-modals)
+- [Footer and language picker (live below)](#footer)
+- [Operator catalogue (/en-us/operator): cards, filters, detail](#catalogue)
+- [News index (/en-us/news): subpage header, tabs, cards](#news)
+- [Article page (this page): template, tables, back-to-top](#article)
+- [Buttons and controls inventory](#controls)
+- [Hover and focus states: complete inventory](#hover)
+- [Entrance, scroll and transition motion: keyframes, transitions, timelines](#motion)
+- [Audio: background music, sound effects, mute state](#audio)
+- [Icons, imagery and textures](#imagery)
+- [Responsive behaviour: portrait rules and measured mobile layout](#responsive)
+- [Internationalisation and runtime fonts](#i18n)
+- [Interactions measured live: clicks, hovers, drags, keyboard, resize, real-time calculations](#interactions)
+- [JavaScript map: chunks, modules, readable reconstructions](#javascript)
+- [Components declared in CSS but not rendered on the captured pages](#unrendered)
+- [Coverage matrix: every component and where it is used here](#coverage)
+- [Build a child site: the transferable rules](#blueprint)
+
+## Notice
+
+The website studied here, its name, characters, artwork, music, fonts, code and all other material belong to Hypergryph / Gryphline and their licensors. This handbook reproduces parts of that material for the purpose of describing how the site is built. It is not endorsed by, affiliated with or published on behalf of the site's owners.
+
+The readable JavaScript in Appendix B is a reconstruction: the shipped minified modules with their identifiers renamed for reading. It is not the site's source code and must not be presented as such. The stylesheets in Appendix A are the shipped files reformatted.
+
+The page layout, beige front matter, body pages and acknowledgements treatment are adapted from the supplied template. The template's publisher did not author, publish or endorse this handbook, and no mark of theirs appears in it.
+
+Measurements describe the site as it answered on 2026-10-03 to one headless Chromium build in one container (no H.264 decoder, no GPU). Where that environment limited a measurement — the transparent-video clips could be requested but not decoded — the limit is stated in place.
+
+## 01 Scope, evidence rules and how to read this page
+
+_Chapter 01 · 2 observed · 0 measured · 1 inferred · 0 rules_
 
 This handbook is one article page of the Arknights: Endfield official site served from a local mirror. Every wrapper, stylesheet, font, script and interaction around this text is the original site runtime: the navigation rail on the left, the footer below, the first-load screen you just saw, the background music and the sound effects are not re-implementations. Only the article data (title and body) was replaced through the site's own bulletin data path.
 
@@ -133,11 +109,11 @@ Three labels are used throughout. OBSERVED means the statement is read directly 
 | [/en-us/protocol/privacy_policy](https://endfield.gryphline.com/en-us/protocol/privacy_policy) | 2438 ms | 9px / mobile 9px | 2 | 1 | 0 |
 | [/en-us/protocol/terms_of_service](https://endfield.gryphline.com/en-us/protocol/terms_of_service) | 2348 ms | 9px / mobile 9px | 2 | 1 | 0 |
 
-**OBSERVED** The home page has no <a> links at all: every navigation target is produced by JavaScript (window.open or location changes), so the depth-1 set was built from the routes the code opens (/en-us/operator, /en-us/news, /en-us/news/<cid>) plus the footer's two legal links. External destinations (helpshift, launcher, user center, store badges, social links) are inventoried but not crawled.
+**OBSERVED** — The home page has no  links at all: every navigation target is produced by JavaScript (window.open or location changes), so the depth-1 set was built from the routes the code opens (/en-us/operator, /en-us/news, /en-us/news/) plus the footer's two legal links. External destinations (helpshift, launcher, user center, store badges, social links) are inventoried but not crawled.
 
-**OBSERVED** 263 distinct network responses were recorded across the crawl: 160 small text/asset bodies are archived in capture/assets, the 61 scripts/stylesheets in capture/js and capture/css, and large media (three MP4 files of 45–53 MB, portrait PNGs up to 13 MB, the 2.9 MB BGM) are listed with URL, size and SHA-256 only.
+**OBSERVED** — 263 distinct network responses were recorded across the crawl: 160 small text/asset bodies are archived in capture/assets, the 61 scripts/stylesheets in capture/js and capture/css, and large media (three MP4 files of 45–53 MB, portrait PNGs up to 13 MB, the 2.9 MB BGM) are listed with URL, size and SHA-256 only.
 
-**INFERRED** The site treats the article template as a neutral, white, single-column reading surface. That is why this handbook can live inside it: the template already styles paragraphs, bold runs, images and tables, and nothing else.
+**INFERRED** — The site treats the article template as a neutral, white, single-column reading surface. That is why this handbook can live inside it: the template already styles paragraphs, bold runs, images and tables, and nothing else.
 
 [Archive manifest (every URL, type, bytes, hash)](https://sitedna.endfield.calyndrae.com/capture/network-manifest.json)
 
@@ -147,15 +123,17 @@ Three labels are used throughout. OBSERVED means the statement is read directly 
 
 [Original news index](https://sitedna.endfield.calyndrae.com/en-us/news)
 
-## Chapter 02 — Page graph, routes and data flow
+## 02 Page graph, routes and data flow
 
-**OBSERVED** Routes under /{lang}/ are a Next.js App Router tree: (main)/(home) for the homepage, (main)/(subpage)/operator, (main)/(subpage)/news and (main)/(subpage)/news/[cid]. The protocol pages /{lang}/protocol/terms_of_service and privacy_policy use a separate __21-ProtocolDetail layout. Thirteen languages are configured (en-us, zh-tw, ja-jp, ko-kr, es-mx, pt-br, fr-fr, de-de, ru-ru, it-it, id-id, th-th, vi-vn); the footer language picker rewrites the first path segment and keeps the hash.
+_Chapter 02 · 4 observed · 0 measured · 1 inferred · 0 rules_
 
-**OBSERVED** Client navigation inside the home page never changes the URL except the hash: the section viewer tracks which section is centred and the rail highlights it. The "All Operators" control opens /{lang}/operator in a new tab; news cards open /{lang}/news/<cid> in a new tab (both play the common_click sound first).
+**OBSERVED** — Routes under /{lang}/ are a Next.js App Router tree: (main)/(home) for the homepage, (main)/(subpage)/operator, (main)/(subpage)/news and (main)/(subpage)/news/[cid]. The protocol pages /{lang}/protocol/terms_of_service and privacy_policy use a separate __21-ProtocolDetail layout. Thirteen languages are configured (en-us, zh-tw, ja-jp, ko-kr, es-mx, pt-br, fr-fr, de-de, ru-ru, it-it, id-id, th-th, vi-vn); the footer language picker rewrites the first path segment and keeps the hash.
 
-**OBSERVED** Content data comes from two origins. Bulletins (news) are fetched from https://web-news.gryphline.com/api/bulletin and /api/bulletin/<cid> with axios (5 s timeout, params lang + code=arknights_endfield_official). The video list comes from https://endfield.gryphline.com/api/content/info_video with fetch. Account calls (/api/account/charge-info, /orig-data) go to the site origin. The server render already contains the first page of each list; the client refetches on mount and shows a Toast on error.
+**OBSERVED** — Client navigation inside the home page never changes the URL except the hash: the section viewer tracks which section is centred and the rail highlights it. The "All Operators" control opens /{lang}/operator in a new tab; news cards open /{lang}/news/ in a new tab (both play the common_click sound first).
 
-**OBSERVED** This very page is the proof of that data path: the server HTML still carried the original article, the client refetched /api/bulletin/7013, and the mirror answered with the handbook data instead. The React warning #418 in the console exists on the live article too (server/client text mismatch in the date formatting); it is not introduced here.
+**OBSERVED** — Content data comes from two origins. Bulletins (news) are fetched from https://web-news.gryphline.com/api/bulletin and /api/bulletin/ with axios (5 s timeout, params lang + code=arknights_endfield_official). The video list comes from https://endfield.gryphline.com/api/content/info_video with fetch. Account calls (/api/account/charge-info, /orig-data) go to the site origin. The server render already contains the first page of each list; the client refetches on mount and shows a Toast on error.
+
+**OBSERVED** — This very page is the proof of that data path: the server HTML still carried the original article, the client refetched /api/bulletin/7013, and the mirror answered with the handbook data instead. The React warning #418 in the console exists on the live article too (server/client text mismatch in the date formatting); it is not introduced here.
 
 | Route | Layout chunk | Page chunk | Section component |
 | --- | --- | --- | --- |
@@ -165,15 +143,17 @@ Three labels are used throughout. OBSERVED means the statement is read directly 
 | /en-us/news/7013 | app/[lang]/(main)/layout | app/[lang]/(main)/(subpage)/news/[cid]/page | NoticeDetailSection (this page) |
 | /en-us/protocol/* | — | — | __21-ProtocolDetail |
 
-**INFERRED** Opening catalogue and article pages in new tabs keeps the heavy homepage (videos, three.js scene, 33 preloaded portraits) alive instead of reloading it; the home page is treated as an application shell, the subpages as documents.
+**INFERRED** — Opening catalogue and article pages in new tabs keeps the heavy homepage (videos, three.js scene, 33 preloaded portraits) alive instead of reloading it; the home page is treated as an application shell, the subpages as documents.
 
 Readable code: [HomeLayout](#js-HomeLayout-83597-js), [bulletin API client](#js-getBulletinDetail-91627-js), [NoticeDetailContextProvider](#js-NoticeDetailContextProvider-61127-js), [video list API](#js-getVideoList-60108-js).
 
-## Chapter 03 — Technical structure: Next.js, chunks, CSS modules, SDK
+## 03 Technical structure: Next.js, chunks, CSS modules, SDK
 
-**OBSERVED** The site is a Next.js App Router build (React 19 client runtime, build id q1Rl9fbC1l2OSKA2BXhEw) emitted as hashed webpack chunks under /_next/static/chunks/ and CSS Modules under /_next/static/css/. Styles use CSS-module class names of the form Component_local__hash; the numeric prefixes (__00-Loading, __02-Operator, __20-NoticeDetail) are the authors' own section ordering kept by the bundler. 708 webpack modules were split out of 31 chunks; 52 CSS-module components exist in 12 stylesheets.
+_Chapter 03 · 4 observed · 0 measured · 1 inferred · 0 rules_
 
-**OBSERVED** Third-party libraries identified by signature: React 19 + react-dom, Next.js app-router runtime, framer-motion (motion-dom), anime.js 3.2.1, swiper, three.js r178 (two chunks), lottie-web 5.12.2, axios, dayjs, zustand (+persist), classnames, lodash helpers, @emotion/react + stylis, buffer/base64-js/ieee754 polyfills, core-js polyfills, and the Gryphline/Hypergryph web SDK v1.8.0 (account, tracking, cookie banner, footer rendering). Hypergryph's own @hg-web/trans-video renderer ships inside chunk 8498.
+**OBSERVED** — The site is a Next.js App Router build (React 19 client runtime, build id q1Rl9fbC1l2OSKA2BXhEw) emitted as hashed webpack chunks under /_next/static/chunks/ and CSS Modules under /_next/static/css/. Styles use CSS-module class names of the form Component_local__hash; the numeric prefixes (__00-Loading, __02-Operator, __20-NoticeDetail) are the authors' own section ordering kept by the bundler. 708 webpack modules were split out of 31 chunks; 52 CSS-module components exist in 12 stylesheets.
+
+**OBSERVED** — Third-party libraries identified by signature: React 19 + react-dom, Next.js app-router runtime, framer-motion (motion-dom), anime.js 3.2.1, swiper, three.js r178 (two chunks), lottie-web 5.12.2, axios, dayjs, zustand (+persist), classnames, lodash helpers, @emotion/react + stylis, buffer/base64-js/ieee754 polyfills, core-js polyfills, and the Gryphline/Hypergryph web SDK v1.8.0 (account, tracking, cookie banner, footer rendering). Hypergryph's own @hg-web/trans-video renderer ships inside chunk 8498.
 
 | Chunk | Modules | Bytes | Kinds | Notable contents |
 | --- | --- | --- | --- | --- |
@@ -209,19 +189,21 @@ Readable code: [HomeLayout](#js-HomeLayout-83597-js), [bulletin API client](#js-
 
 Complete module map with roles and readable reconstructions: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/MODULE-MAP.md). Beautified chunks: [source/beautified/](https://sitedna.endfield.calyndrae.com/source/beautified/). Per-module split: [source/modules/](https://sitedna.endfield.calyndrae.com/source/modules/).
 
-**OBSERVED** Fonts are declared in two places: ten Latin display faces via @font-face in 637308dda4dd7f2d.css, and four body faces (SansRegular, SansMedium, SansBold, SansBlack) created at runtime with new FontFace() from the per-language bundle; for en-us those resolve to HarmonyOS Sans Regular/Medium/Bold/Black woff2 (woff/ttf fallbacks). The runtime loader retries with the .woff2 source alone if the full source list fails.
+**OBSERVED** — Fonts are declared in two places: ten Latin display faces via @font-face in 637308dda4dd7f2d.css, and four body faces (SansRegular, SansMedium, SansBold, SansBlack) created at runtime with new FontFace() from the per-language bundle; for en-us those resolve to HarmonyOS Sans Regular/Medium/Bold/Black woff2 (woff/ttf fallbacks). The runtime loader retries with the .woff2 source alone if the full source list fails.
 
-**OBSERVED** No encrypted assets were encountered. Videos, images, fonts, three.js point-cloud binaries (.bin) and audio are plain files on the CDN; the only "secrets" in the bundle are public configuration (CDN host, CMS host, analytics ids, Sentry DSN).
+**OBSERVED** — No encrypted assets were encountered. Videos, images, fonts, three.js point-cloud binaries (.bin) and audio are plain files on the CDN; the only "secrets" in the bundle are public configuration (CDN host, CMS host, analytics ids, Sentry DSN).
 
-**INFERRED** Splitting the home page into one large section chunk (226) plus shared chunks lets the catalogue and article pages stay light while the home carries the heavy three.js and video code; a child site should keep the same split: shell layout, per-section code, per-route page code.
+**INFERRED** — Splitting the home page into one large section chunk (226) plus shared chunks lets the catalogue and article pages stay light while the home carries the heavy three.js and video code; a child site should keep the same split: shell layout, per-section code, per-route page code.
 
-## Chapter 04 — Rendering scale: the rem canvas and orientation axis
+## 04 Rendering scale: the rem canvas and orientation axis
 
-**OBSERVED** Every dimension in the stylesheets is written in rem, and the root font-size is computed by applyRootFontSize from a design canvas: landscape uses 2560×1440, portrait uses 1080×1920. The scale is 16px × min(viewportWidth/2560, viewportHeight/1440) in landscape (the branch that keeps the whole canvas visible), and 16px × min(width/1080, height/1920) in portrait. The function re-runs every second and on debounced resize (200 ms), ignores single-axis changes on mobile user agents (address bar) and rewrites the viewport meta on HarmonyOS/Honor/HeyTap/Huawei browsers.
+_Chapter 04 · 3 observed · 1 measured · 1 inferred · 1 rules · code: applyRootFontSize.14577.js_
+
+**OBSERVED** — Every dimension in the stylesheets is written in rem, and the root font-size is computed by applyRootFontSize from a design canvas: landscape uses 2560×1440, portrait uses 1080×1920. The scale is 16px × min(viewportWidth/2560, viewportHeight/1440) in landscape (the branch that keeps the whole canvas visible), and 16px × min(width/1080, height/1920) in portrait. The function re-runs every second and on debounced resize (200 ms), ignores single-axis changes on mobile user agents (address bar) and rewrites the viewport meta on HarmonyOS/Honor/HeyTap/Huawei browsers.
 
 **Code — applyRootFontSize.14577.js lines 24–63 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 function applyRootFontSize() {
   let baseFontSize = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 16;
   void 0 === baseFontSize && (baseFontSize = 16);
@@ -264,21 +246,23 @@ function applyRootFontSize() {
           ", maximum-scale=" +
 ```
 
-**MEASURED** At 1440×900 the root font-size is 9px (16 × 1440/2560); at 390×844 it is 5.77778px (16 × 390/1080). Therefore 1rem = 9px on the reference desktop and every rem value in this handbook is also given in px at that size.
+**MEASURED** — At 1440×900 the root font-size is 9px (16 × 1440/2560); at 390×844 it is 5.77778px (16 × 390/1080). Therefore 1rem = 9px on the reference desktop and every rem value in this handbook is also given in px at that size.
 
-**OBSERVED** Orientation is the only layout axis: the CSS contains 435 portrait conditions, 138 landscape conditions and 43 any-hover conditions. There are no width breakpoints. The desktop rail is display:none in portrait and the mobile header is display:none in landscape.
+**OBSERVED** — Orientation is the only layout axis: the CSS contains 435 portrait conditions, 138 landscape conditions and 43 any-hover conditions. There are no width breakpoints. The desktop rail is display:none in portrait and the mobile header is display:none in landscape.
 
-**OBSERVED** A --vh-offset custom property (vh-check library) stores the mobile browser-chrome offset; the home section height in portrait is calc(100vh - var(--vh-offset) - 9.625rem), i.e. the viewport minus the 9.625rem mobile header.
+**OBSERVED** — A --vh-offset custom property (vh-check library) stores the mobile browser-chrome offset; the home section height in portrait is calc(100vh - var(--vh-offset) - 9.625rem), i.e. the viewport minus the 9.625rem mobile header.
 
-**INFERRED** Using a canvas-relative rem instead of px breakpoints keeps proportions identical on any desktop size; the authors design once at 2560×1440 and once at 1080×1920. A child site that wants the same feel must adopt the same two canvases, otherwise card sizes, letter sizes and paddings drift apart.
+**INFERRED** — Using a canvas-relative rem instead of px breakpoints keeps proportions identical on any desktop size; the authors design once at 2560×1440 and once at 1080×1920. A child site that wants the same feel must adopt the same two canvases, otherwise card sizes, letter sizes and paddings drift apart.
 
-**RULE FOR A CHILD SITE** Write every size in rem, set html font-size from the two canvases, and branch layout only on orientation and any-hover.
+**RULE FOR A CHILD SITE** — Write every size in rem, set html font-size from the two canvases, and branch layout only on orientation and any-hover.
 
 Readable code: [applyRootFontSize.14577.js](#js-applyRootFontSize-14577-js), [useOrientation.90286.js](#js-useOrientation-90286-js).
 
-## Chapter 05 — Layer stack and hit testing
+## 05 Layer stack and hit testing
 
-**OBSERVED** Forty-four z-index declarations define the stacking order. The Toast sits at 2000, the footer language dropdown at 1000, the article back-to-top button at 200, the loading screen, the modal layer and the Toast content at 100, the reservation modal at 90, the mobile menu at 60, both headers at 50, the catalogue dropdown panel at 20, the sticky section header at 10. Everything else lives at 0–2 inside its section.
+_Chapter 05 · 2 observed · 0 measured · 1 inferred · 0 rules_
+
+**OBSERVED** — Forty-four z-index declarations define the stacking order. The Toast sits at 2000, the footer language dropdown at 1000, the article back-to-top button at 200, the loading screen, the modal layer and the Toast content at 100, the reservation modal at 90, the mobile menu at 60, both headers at 50, the catalogue dropdown panel at 20, the sticky section header at 10. Everything else lives at 0–2 inside its section.
 
 | z-index | position | selector | media |
 | --- | --- | --- | --- |
@@ -328,13 +312,15 @@ Readable code: [applyRootFontSize.14577.js](#js-applyRootFontSize-14577-js), [us
 | 0 | absolute | .__04-Information_sectionContainer .__04-Information_infoCurrent .__04-Information_title .__04-Information_titleFitProbe |  |
 | -1 | absolute | .__20-NoticeDetail_sectionContainer .__20-NoticeDetail_contentContainer .__20-NoticeDetail_content table th .__20-NoticeDetail_deco |  |
 
-**OBSERVED** Decorative layers are removed from hit testing: pointer-events:none is set on the rail overlay, the nav item backgrounds (:before), the operator illustration/video layers, the hidden share list and the inactive back-to-top button; interactive layers re-enable pointer-events:auto only in their active state.
+**OBSERVED** — Decorative layers are removed from hit testing: pointer-events:none is set on the rail overlay, the nav item backgrounds (:before), the operator illustration/video layers, the hidden share list and the inactive back-to-top button; interactive layers re-enable pointer-events:auto only in their active state.
 
-**INFERRED** The order is pragmatic rather than token-based (100/90/60/50): system feedback (toast) beats everything, then blocking screens, then modals, then chrome, then in-page popovers. A child site can reuse these exact numbers.
+**INFERRED** — The order is pragmatic rather than token-based (100/90/60/50): system feedback (toast) beats everything, then blocking screens, then modals, then chrome, then in-page popovers. A child site can reuse these exact numbers.
 
-## Chapter 06 — Colour tokens and where each one is used
+## 06 Colour tokens and where each one is used
 
-**OBSERVED** 124 distinct colour literals appear in the stylesheets. Counting declarations (not pixels): #191919 ink ×90, #fff paper ×81, #fffa00 signal yellow ×59, #d9d9d9 rule grey ×23, #999 muted label ×19, #000 ×17, rgba(0,0,0,.5) scrims ×17, #35373c dark panel borders ×15, #e5e5e5 and #f2f2f2 light fields ×13 each, #00ffa2 mint ×13 (always in background-image gradients), #ff00f0 magenta ×7 (same), rarity accents #fe5a00 / #ffbb03 / #9452fa on operator cards, and #ffcc1a as the language-picker active colour. The pure black rgb(0,0,0) entries are mask-image gradients, not paint.
+_Chapter 06 · 3 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — 124 distinct colour literals appear in the stylesheets. Counting declarations (not pixels): #191919 ink ×90, #fff paper ×81, #fffa00 signal yellow ×59, #d9d9d9 rule grey ×23, #999 muted label ×19, #000 ×17, rgba(0,0,0,.5) scrims ×17, #35373c dark panel borders ×15, #e5e5e5 and #f2f2f2 light fields ×13 each, #00ffa2 mint ×13 (always in background-image gradients), #ff00f0 magenta ×7 (same), rarity accents #fe5a00 / #ffbb03 / #9452fa on operator cards, and #ffcc1a as the language-picker active colour. The pure black rgb(0,0,0) entries are mask-image gradients, not paint.
 
 | Value | Declarations | Properties | Components |
 | --- | --- | --- | --- |
@@ -387,19 +373,21 @@ Readable code: [applyRootFontSize.14577.js](#js-applyRootFontSize-14577-js), [us
 | #e7e7e7 | 3 | border 3 | __03-Lore, __04-Information |
 | rgba(0,0,0,.15) | 3 | box-shadow 1, background 1, filter 1 | __10-NoticeList, OperatorItem |
 
-**OBSERVED** The three-part rule (yellow #fffa00, mint #00ffa2, magenta #ff00f0) exists only as linear-gradient stripes in __02-Operator, Dropdown and OperatorItem. Yellow is also the loading progress bar, the LORE band, the hover fill of pagination buttons, the th decoration bar in article tables and the mobile menu active item.
+**OBSERVED** — The three-part rule (yellow #fffa00, mint #00ffa2, magenta #ff00f0) exists only as linear-gradient stripes in __02-Operator, Dropdown and OperatorItem. Yellow is also the loading progress bar, the LORE band, the hover fill of pagination buttons, the th decoration bar in article tables and the mobile menu active item.
 
-**OBSERVED** Greys form a ladder used for depth without shadows: #fafafa (pagination button), #f3f3f3 (tab hover), #f2f2f2 (rail button frame, light fields), #f0f0f0, #e6e6e6 (pagination ring, article type badge), #e5e5e5 (nav item hover, table borders), #d9d9d9 (dividers, section-title block), #ccc, #b3b3b3 (inactive share icons), #999, #858585 (rail icon hover), #7c7c7c (rail action icons), #666, #4d4d4d, #424242, #383838 (dark button), #35373c, #2e2e2e, #222, #191919 (ink), #141414 (loader background), #000.
+**OBSERVED** — Greys form a ladder used for depth without shadows: #fafafa (pagination button), #f3f3f3 (tab hover), #f2f2f2 (rail button frame, light fields), #f0f0f0, #e6e6e6 (pagination ring, article type badge), #e5e5e5 (nav item hover, table borders), #d9d9d9 (dividers, section-title block), #ccc, #b3b3b3 (inactive share icons), #999, #858585 (rail icon hover), #7c7c7c (rail action icons), #666, #4d4d4d, #424242, #383838 (dark button), #35373c, #2e2e2e, #222, #191919 (ink), #141414 (loader background), #000.
 
-**INFERRED** Colour is annotation, not decoration: the page field stays white or #191919, and the saturated colours are reserved for state (progress, hover, active, rarity) and for the thin three-colour rule that marks "character data". Spreading yellow across large areas would break the family resemblance.
+**INFERRED** — Colour is annotation, not decoration: the page field stays white or #191919, and the saturated colours are reserved for state (progress, hover, active, rarity) and for the thin three-colour rule that marks "character data". Spreading yellow across large areas would break the family resemblance.
 
-**RULE FOR A CHILD SITE** Ink #191919 (never #000 for text), paper #fff, one signal colour #fffa00 for progress/active/hover, a 20-step grey ladder for depth, mint/magenta only as thin gradient rules.
+**RULE FOR A CHILD SITE** — Ink #191919 (never #000 for text), paper #fff, one signal colour #fffa00 for progress/active/hover, a 20-step grey ladder for depth, mint/magenta only as thin gradient rules.
 
 Full table with example selectors: [analysis/colors.json](https://sitedna.endfield.calyndrae.com/analysis/colors.json)
 
-## Chapter 07 — Typography: faces, roles, sizes
+## 07 Typography: faces, roles, sizes
 
-**OBSERVED** Fourteen families are referenced. Body and UI text is HarmonyOS Sans under the aliases SansRegular/SansMedium/SansBold/SansBlack (41 + 25 + 9 + 2 declarations). Gilroy-Medium (19) and Gilroy-Light (5) carry English subtitles and small labels. Novecentosanswide Medium/DemiBold/Bold (6/6/5) is the wide uppercase display face for counters, pagination digits, the hollow ENDFIELD word and the table decoration. SpaceGrotesk (2) appears only in the operator stage annotations. Roboto and ProtestStrike are declared but unused by the captured pages. The footer and notice carousel fall back to a long system stack starting with Segoe UI.
+_Chapter 07 · 3 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — Fourteen families are referenced. Body and UI text is HarmonyOS Sans under the aliases SansRegular/SansMedium/SansBold/SansBlack (41 + 25 + 9 + 2 declarations). Gilroy-Medium (19) and Gilroy-Light (5) carry English subtitles and small labels. Novecentosanswide Medium/DemiBold/Bold (6/6/5) is the wide uppercase display face for counters, pagination digits, the hollow ENDFIELD word and the table decoration. SpaceGrotesk (2) appears only in the operator stage annotations. Roboto and ProtestStrike are declared but unused by the captured pages. The footer and notice carousel fall back to a long system stack starting with Segoe UI.
 
 | Family | Declarations | Components |
 | --- | --- | --- |
@@ -441,7 +429,7 @@ Full table with example selectors: [analysis/colors.json](https://sitedna.endfie
 | SansMedium → HarmonyOS Sans Medium | [HarmonyOS_Sans_Medium.20006f.woff2](https://sitedna.endfield.calyndrae.com/capture/fonts/HarmonyOS_Sans_Medium.20006f.woff2) | 43.6 KB |
 | SansRegular → HarmonyOS Sans Regular | [HarmonyOS_Sans_Regular.0cfc88.woff2](https://sitedna.endfield.calyndrae.com/capture/fonts/HarmonyOS_Sans_Regular.0cfc88.woff2) | 41.1 KB |
 
-**OBSERVED** Size scale (rem → px at 1440×900). The most frequent sizes are 1.5rem (13.5px) ×26, 1.25rem ×18, 1.875rem ×17, 2rem ×15, 1.375rem ×15, 2.25rem ×15, 2.5rem ×13, 3rem (27px) ×12, 1.125rem ×12, 1.75rem ×11. Display sizes: 4.375rem loader percentage, 4.875rem operator name, 6rem table ENDFIELD ghost, 8.125rem and 20rem hollow text. Line-height is 1 in 69 declarations; letter-spacing is negative (-.02em to -.1em) on display text and +.05/.08em on small caps labels.
+**OBSERVED** — Size scale (rem → px at 1440×900). The most frequent sizes are 1.5rem (13.5px) ×26, 1.25rem ×18, 1.875rem ×17, 2rem ×15, 1.375rem ×15, 2.25rem ×15, 2.5rem ×13, 3rem (27px) ×12, 1.125rem ×12, 1.75rem ×11. Display sizes: 4.375rem loader percentage, 4.875rem operator name, 6rem table ENDFIELD ghost, 8.125rem and 20rem hollow text. Line-height is 1 in 69 declarations; letter-spacing is negative (-.02em to -.1em) on display text and +.05/.08em on small caps labels.
 
 | font-size | px @1440 | declarations |
 | --- | --- | --- |
@@ -470,11 +458,11 @@ Full table with example selectors: [analysis/colors.json](https://sitedna.endfie
 | 4.375rem | 39.38 px | 2 |
 | 3.25rem | 29.25 px | 2 |
 
-**OBSERVED** The operator card name is not a fixed size: a layout effect bisects the font size 28 times between 0.5625rem and 1.6875rem with canvas measureText in "SansBold" until the name fits 11.1875rem, re-running after document.fonts.ready and on resize. The portrait news list truncates titles with TextShrink (canvas-measured ellipsis at a 20-character budget).
+**OBSERVED** — The operator card name is not a fixed size: a layout effect bisects the font size 28 times between 0.5625rem and 1.6875rem with canvas measureText in "SansBold" until the name fits 11.1875rem, re-running after document.fonts.ready and on resize. The portrait news list truncates titles with TextShrink (canvas-measured ellipsis at a 20-character budget).
 
-**INFERRED** Three voices: a neutral humanist sans for reading (HarmonyOS Sans), a geometric sans for English captions (Gilroy), and a wide grotesque for numerals and signage (Novecento). Their contrast, not their size alone, builds hierarchy.
+**INFERRED** — Three voices: a neutral humanist sans for reading (HarmonyOS Sans), a geometric sans for English captions (Gilroy), and a wide grotesque for numerals and signage (Novecento). Their contrast, not their size alone, builds hierarchy.
 
-**RULE FOR A CHILD SITE** Use one reading face in four weights for all UI text, one caption face for English sub-labels, and one wide display face only for digits, counters and ghost words. Keep line-height 1 on display text.
+**RULE FOR A CHILD SITE** — Use one reading face in four weights for all UI text, one caption face for English sub-labels, and one wide display face only for digits, counters and ghost words. Keep line-height 1 on display text.
 
 Full rule list: [analysis/typography.json](https://sitedna.endfield.calyndrae.com/analysis/typography.json). Specimens below use the live faces loaded by this page.
 
@@ -484,9 +472,11 @@ Full rule list: [analysis/typography.json](https://sitedna.endfield.calyndrae.co
 | SansMedium (labels, buttons) | **OVER THE FRONTIER / INTO THE FRONT** |
 | Novecentosanswide-Bold (th decoration) | See the yellow ENDFIELD ghost word in every table header on this page: that is Novecentosanswide-Bold at 6rem, letter-spacing -.06em. |
 
-## Chapter 08 — Text rhythm, spacing scale and why
+## 08 Text rhythm, spacing scale and why
 
-**OBSERVED** The spacing scale is a rem ladder with a 0.25rem base: .25 .5 .75 1 1.125 1.25 1.5 1.875 2 2.25 2.5 2.625 3 3.75 5rem. The most frequent vertical rhythm is margin-top 1.25rem (×10), 1rem (×9), 1.5rem (×8), 2rem (×6), 2.5rem (×4); the most frequent gaps are 2.5rem, .625rem, .5rem.
+_Chapter 08 · 2 observed · 1 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — The spacing scale is a rem ladder with a 0.25rem base: .25 .5 .75 1 1.125 1.25 1.5 1.875 2 2.25 2.5 2.625 3 3.75 5rem. The most frequent vertical rhythm is margin-top 1.25rem (×10), 1rem (×9), 1.5rem (×8), 2rem (×6), 2.5rem (×4); the most frequent gaps are 2.5rem, .625rem, .5rem.
 
 | Declaration | Count |
 | --- | --- |
@@ -531,9 +521,9 @@ Full rule list: [analysis/typography.json](https://sitedna.endfield.calyndrae.co
 | margin-top: -20rem | 2 |
 | margin-left: -.5rem | 2 |
 
-**OBSERVED** This article template (the page you are reading): the type badge is 2rem tall with 1.5rem text; the date sits 2rem to its right; the title is 3rem with a 7.75rem minimum height and 1rem margin; a .1875rem #d9d9d9 divider follows after 1rem; the body starts 1rem later at 1.625rem (14.6px) with the browser default line-height; images are max-width 100% with .5rem gaps; tables use 5.625rem cells with 1rem 2rem padding.
+**OBSERVED** — This article template (the page you are reading): the type badge is 2rem tall with 1.5rem text; the date sits 2rem to its right; the title is 3rem with a 7.75rem minimum height and 1rem margin; a .1875rem #d9d9d9 divider follows after 1rem; the body starts 1rem later at 1.625rem (14.6px) with the browser default line-height; images are max-width 100% with .5rem gaps; tables use 5.625rem cells with 1rem 2rem padding.
 
-```css
+```
 .__20-NoticeDetail_sectionContainer__06Hmx .__20-NoticeDetail_contentContainer__irljr .__20-NoticeDetail_subtitle__Eu01S {
   position: relative;
   margin-top: 2rem;
@@ -614,17 +604,19 @@ Full rule list: [analysis/typography.json](https://sitedna.endfield.calyndrae.co
 }
 ```
 
-**MEASURED** On the live article the body text is 14.625px HarmonyOS Sans with 9px root margin; the content column is 97.75rem = 879.75px wide, left-padded by calc(50% − 80rem + 3.75rem + 20.4375rem), which places it at the same x as the home sections' text (see Alignment).
+**MEASURED** — On the live article the body text is 14.625px HarmonyOS Sans with 9px root margin; the content column is 97.75rem = 879.75px wide, left-padded by calc(50% − 80rem + 3.75rem + 20.4375rem), which places it at the same x as the home sections' text (see Alignment).
 
-**INFERRED** The rhythm is built from multiples of the 1.25rem label height: badges 2rem, rows 2.5rem, blocks 5rem. Paragraph spacing in articles is left to empty <p><br></p> lines written by editors, which is why this handbook also uses them. The site relies on white space and thin #d9d9d9 rules instead of boxes to separate text groups.
+**INFERRED** — The rhythm is built from multiples of the 1.25rem label height: badges 2rem, rows 2.5rem, blocks 5rem. Paragraph spacing in articles is left to empty  lines written by editors, which is why this handbook also uses them. The site relies on white space and thin #d9d9d9 rules instead of boxes to separate text groups.
 
-**RULE FOR A CHILD SITE** Adopt a 0.25rem ladder, a 1.25rem label height, 2rem badge height, and separate text groups with 1rem–2.5rem margins and 0.1875rem hairlines rather than borders around groups.
+**RULE FOR A CHILD SITE** — Adopt a 0.25rem ladder, a 1.25rem label height, 2rem badge height, and separate text groups with 1rem–2.5rem margins and 0.1875rem hairlines rather than borders around groups.
 
-## Chapter 09 — Alignment, the 160rem desktop canvas and the rail
+## 09 Alignment, the 160rem desktop canvas and the rail
 
-**OBSERVED** Desktop content is positioned against a 160rem-wide canvas centred in the viewport: the article column starts at calc(50% − 80rem + 3.75rem + 20.4375rem), i.e. the canvas left edge plus a 3.75rem gutter plus a 20.4375rem left block. The same calc(50% − 80rem …) expression appears across sections (operator stage, lore, information, calendar, notice) so that all text columns share one left edge regardless of viewport width. At 1440px the canvas (160rem = 1440px) exactly fills the viewport.
+_Chapter 09 · 2 observed · 1 measured · 1 inferred · 1 rules_
 
-**MEASURED** The navigation rail is 7.5rem = 67.5px wide and 100vh tall (rect 0,0,67.5,900 measured); its white :before panel extends 16rem to the right under the page when expanded. Home section heights at 1440×900: __01-Home_sectionContainer 900 px; __02-Operator_sectionContainer 810 px; __04-Information_sectionContainer 810 px; __09-Calendar_sectionContainer 1990 px; __05-Gameplay_sectionContainer 943 px; __08-AIC_sectionContainer 695 px; __06-Notice_sectionContainer 767 px.
+**OBSERVED** — Desktop content is positioned against a 160rem-wide canvas centred in the viewport: the article column starts at calc(50% − 80rem + 3.75rem + 20.4375rem), i.e. the canvas left edge plus a 3.75rem gutter plus a 20.4375rem left block. The same calc(50% − 80rem …) expression appears across sections (operator stage, lore, information, calendar, notice) so that all text columns share one left edge regardless of viewport width. At 1440px the canvas (160rem = 1440px) exactly fills the viewport.
+
+**MEASURED** — The navigation rail is 7.5rem = 67.5px wide and 100vh tall (rect 0,0,67.5,900 measured); its white :before panel extends 16rem to the right under the page when expanded. Home section heights at 1440×900: __01-Home_sectionContainer 900 px; __02-Operator_sectionContainer 810 px; __04-Information_sectionContainer 810 px; __09-Calendar_sectionContainer 1990 px; __05-Gameplay_sectionContainer 943 px; __08-AIC_sectionContainer 695 px; __06-Notice_sectionContainer 767 px.
 
 | Home section (DOM order) | Height at 1440×900 |
 | --- | --- |
@@ -636,23 +628,25 @@ Full rule list: [analysis/typography.json](https://sitedna.endfield.calyndrae.co
 | __08-AIC_sectionContainer | 695 px |
 | __06-Notice_sectionContainer | 767 px |
 
-**OBSERVED** Sections are 100vh (home hero) or 90vh-ish stages (810px measured for operator and information) stacked in a flex column; the SectionViewer header (rail) is position:sticky at top 0, and in portrait every section gets scroll-margin-top 9.625rem for the mobile header.
+**OBSERVED** — Sections are 100vh (home hero) or 90vh-ish stages (810px measured for operator and information) stacked in a flex column; the SectionViewer header (rail) is position:sticky at top 0, and in portrait every section gets scroll-margin-top 9.625rem for the mobile header.
 
-**INFERRED** Anchoring to a fixed-width canvas rather than to fluid percentages is what keeps the composition identical on 1440, 1920 and 2560 wide screens: only the empty margin outside the 160rem canvas grows. The rail is deliberately narrow (7.5rem) so the canvas, not the chrome, owns the width.
+**INFERRED** — Anchoring to a fixed-width canvas rather than to fluid percentages is what keeps the composition identical on 1440, 1920 and 2560 wide screens: only the empty margin outside the 160rem canvas grows. The rail is deliberately narrow (7.5rem) so the canvas, not the chrome, owns the width.
 
-**RULE FOR A CHILD SITE** Place all desktop columns with calc(50% − 80rem + gutter) offsets on a 160rem canvas; keep chrome outside the canvas narrow and fixed.
+**RULE FOR A CHILD SITE** — Place all desktop columns with calc(50% − 80rem + gutter) offsets on a 160rem canvas; keep chrome outside the canvas narrow and fixed.
 
-![Capture — home page at 1440×900, hero section, after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/desktop-1440x900.png)
+![home page at 1440×900, hero section, after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/desktop-1440x900.png)
 
-![Capture — the original article page at 1440×900 whose template hosts this handbook](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/desktop-1440x900.png)
+![the original article page at 1440×900 whose template hosts this handbook](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/desktop-1440x900.png)
 
-## Chapter 10 — Navigation rail (Header): live, hover and expanded states
+## 10 Navigation rail (Header): live, hover and expanded states
+
+_Chapter 10 · 2 observed · 1 measured · 1 inferred · 1 rules · code: HomeLayout.83597.js_
 
 The rail on the left of this page is the live Header component. Hover it: it expands from 7.5rem to show section labels; the dark "go to game" block, the share button and the mute toggle are the same elements the home page uses.
 
-**OBSERVED** Structure: a 7.5rem × 100vh white column (z-index 50) whose :before panel is calc(100% + 16rem) wide and slides 15rem to the right when the rail gets the detailActive class (expanded); nav items are 4.5rem tall absolute rows whose icon sits at left 3.75rem / top 2.25rem in #d9d9d9 (active #191919, hover #858585); a 13.25rem label at left 6.9375rem fades in (opacity .2s, transform .3s) when expanded; a #e6e6e6 overlay bar with a .75rem #191919 left border slides to the active item (transform .3s). The action group (user, top-up, creator, mute) lives in a 3.75rem-wide #f2f2f2 rounded frame 9.5625rem from the bottom; the dark #191919 "go to game" block (4.5rem × 9.75rem, hatched :before, yellow hover fill) and the share button (4.5rem × 2.75rem) complete the column.
+**OBSERVED** — Structure: a 7.5rem × 100vh white column (z-index 50) whose :before panel is calc(100% + 16rem) wide and slides 15rem to the right when the rail gets the detailActive class (expanded); nav items are 4.5rem tall absolute rows whose icon sits at left 3.75rem / top 2.25rem in #d9d9d9 (active #191919, hover #858585); a 13.25rem label at left 6.9375rem fades in (opacity .2s, transform .3s) when expanded; a #e6e6e6 overlay bar with a .75rem #191919 left border slides to the active item (transform .3s). The action group (user, top-up, creator, mute) lives in a 3.75rem-wide #f2f2f2 rounded frame 9.5625rem from the bottom; the dark #191919 "go to game" block (4.5rem × 9.75rem, hatched :before, yellow hover fill) and the share button (4.5rem × 2.75rem) complete the column.
 
-**MEASURED** Hover diffs recorded on four pages: nav icon colour #d9d9d9 → #858585 (transition color .2s, transform .3s); go-to-game block background opacity 0 → 1 (yellow #fffa00) with text, triangle and dividers turning from #fff to #191919 (.3s); share button background → #191919 with icon → #fffa00 and the share list sliding in (opacity .3s, transform .3s, translate3d(-1rem) → 0).
+**MEASURED** — Hover diffs recorded on four pages: nav icon colour #d9d9d9 → #858585 (transition color .2s, transform .3s); go-to-game block background opacity 0 → 1 (yellow #fffa00) with text, triangle and dividers turning from #fff to #191919 (.3s); share button background → #191919 with icon → #fffa00 and the share list sliding in (opacity .3s, transform .3s, translate3d(-1rem) → 0).
 
 | Element | Node | Computed change | Transition |
 | --- | --- | --- | --- |
@@ -686,11 +680,11 @@ The rail on the left of this page is the live Header component. Hover it: it exp
 | Header_navItem | 10952–39685 ms | 10952ms +; 10952ms +; 10952ms + |
 | Header_switcher | 10952–39685 ms | 10952ms +; 13498ms +; 14628ms + |
 
-**OBSERVED** When the rail expands, the action buttons translate down in 3.25rem steps (translate3d(0.6875rem, −3.25rem … 8rem)) and the frame grows to 19.5rem wide with .25rem radius. In portrait the mobile header (9.625rem tall, box-shadow 0 0 2rem rgba(0,0,0,.3)) replaces it, with a 15.5–17.5rem "go to game" button and a hamburger that opens a fixed white menu (translate3d(−105%) → 0 in .3s) listing sections as 6.75rem #f2f2f2 rows that turn #fffa00 when active.
+**OBSERVED** — When the rail expands, the action buttons translate down in 3.25rem steps (translate3d(0.6875rem, −3.25rem … 8rem)) and the frame grows to 19.5rem wide with .25rem radius. In portrait the mobile header (9.625rem tall, box-shadow 0 0 2rem rgba(0,0,0,.3)) replaces it, with a 15.5–17.5rem "go to game" button and a hamburger that opens a fixed white menu (translate3d(−105%) → 0 in .3s) listing sections as 6.75rem #f2f2f2 rows that turn #fffa00 when active.
 
 **Code — HomeLayout.83597.js lines 1322–1329 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   headerClassName,
 ),
 onMouseEnter: () => {
@@ -701,7 +695,7 @@ onMouseLeave: () => {
 },
 ```
 
-```css
+```
 .Header_pcHeaderContainer__Sy_8l {
   position: relative;
   height: 100vh;
@@ -755,29 +749,31 @@ onMouseLeave: () => {
 }
 ```
 
-![Capture — rail at rest, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/header-rail.png)
+![rail at rest, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/header-rail.png)
 
-![Capture — rail expanded on hover](https://sitedna.endfield.calyndrae.com/capture/states/header-rail-hover.png)
+![rail expanded on hover](https://sitedna.endfield.calyndrae.com/capture/states/header-rail-hover.png)
 
-![Capture — share list open](https://sitedna.endfield.calyndrae.com/capture/states/header-share-open.png)
+![share list open](https://sitedna.endfield.calyndrae.com/capture/states/header-share-open.png)
 
-![Capture — mobile header, 390×844](https://sitedna.endfield.calyndrae.com/capture/states/mobile-home.png)
+![mobile header, 390×844](https://sitedna.endfield.calyndrae.com/capture/states/mobile-home.png)
 
-![Capture — mobile menu open](https://sitedna.endfield.calyndrae.com/capture/states/mobile-menu-open.png)
+![mobile menu open](https://sitedna.endfield.calyndrae.com/capture/states/mobile-menu-open.png)
 
-**INFERRED** The rail is a vertical tab bar that behaves like a dock: it only reveals labels on intent (hover), so the 160rem canvas is never obstructed. The yellow hover fill on the game block is the only saturated colour in the chrome, which makes "play" the single loudest call to action on every page.
+**INFERRED** — The rail is a vertical tab bar that behaves like a dock: it only reveals labels on intent (hover), so the 160rem canvas is never obstructed. The yellow hover fill on the game block is the only saturated colour in the chrome, which makes "play" the single loudest call to action on every page.
 
-**RULE FOR A CHILD SITE** Keep chrome to one narrow fixed column, reveal labels on hover with 0.2–0.3 s transitions, highlight the active item with a sliding bar rather than a filled background, and reserve the signal colour for the primary action.
+**RULE FOR A CHILD SITE** — Keep chrome to one narrow fixed column, reveal labels on hover with 0.2–0.3 s transitions, highlight the active item with a sliding bar rather than a filled background, and reserve the signal colour for the primary action.
 
 Readable code: [HomeLayout → SiteHeader / NavRailItem / HeaderActionButton / GoToGameButton / ShareButton](#js-HomeLayout-83597-js).
 
-## Chapter 11 — First-load screen
+## 11 First-load screen
 
-**OBSERVED** LoadingScreen receives a list of task functions (home: 33 portrait preloads through a 5-slot Image pool plus the point-cloud setup; subpages: their own shorter list) and counts settled promises. A framer-motion spring (stiffness 120, damping 20) drives the percentage; tweens of 0.5 s drive the yellow progress bar (vertical in landscape at left 0 / width 1.25rem, horizontal in portrait) and the blur of the background photo from 8px to 0. The percent label (4.375rem SansMedium digits, 3.25rem "%" in SansRegular, #fffa00) rides along the bar at left 3.125rem; the grey "Updating…" caption uses #666; the logo sits at left 64.45% / top 27.625rem with the slogan OVER THE FRONTIER / INTO THE FRONT at 1.5rem SansRegular under a 70rem gradient hairline.
+_Chapter 11 · 2 observed · 1 measured · 1 inferred · 1 rules · code: LoadingScreen.71272.js_
 
-**OBSERVED** Exit: when every task has settled the container gets the leaving class → opacity 0 with transition opacity 1s delayed 1.4s, while a yellow :after sheet scales from 0 with the fadeIn keyframe (.6s cubic-bezier(1,0,.7,1) delayed .5s); the shared loaded store flips after 1500 ms (sections start their entrances) and onFinished unmounts the screen after 2400 ms.
+**OBSERVED** — LoadingScreen receives a list of task functions (home: 33 portrait preloads through a 5-slot Image pool plus the point-cloud setup; subpages: their own shorter list) and counts settled promises. A framer-motion spring (stiffness 120, damping 20) drives the percentage; tweens of 0.5 s drive the yellow progress bar (vertical in landscape at left 0 / width 1.25rem, horizontal in portrait) and the blur of the background photo from 8px to 0. The percent label (4.375rem SansMedium digits, 3.25rem "%" in SansRegular, #fffa00) rides along the bar at left 3.125rem; the grey "Updating…" caption uses #666; the logo sits at left 64.45% / top 27.625rem with the slogan OVER THE FRONTIER / INTO THE FRONT at 1.5rem SansRegular under a 70rem gradient hairline.
 
-**MEASURED** Headless Chromium saw the bar go 0 → 100% between 2.9 s and 7.6 s on the home page (44 frames logged) and 3.5 → 5.8 s on the news page; the screen left at 8749 ms on the news page and 8299 ms on the article page. On the home page the percentage stays at 0 for the first seconds because every task is a multi-megabyte portrait.
+**OBSERVED** — Exit: when every task has settled the container gets the leaving class → opacity 0 with transition opacity 1s delayed 1.4s, while a yellow :after sheet scales from 0 with the fadeIn keyframe (.6s cubic-bezier(1,0,.7,1) delayed .5s); the shared loaded store flips after 1500 ms (sections start their entrances) and onFinished unmounts the screen after 2400 ms.
+
+**MEASURED** — Headless Chromium saw the bar go 0 → 100% between 2.9 s and 7.6 s on the home page (44 frames logged) and 3.5 → 5.8 s on the news page; the screen left at 8749 ms on the news page and 8299 ms on the article page. On the home page the percentage stays at 0 for the first seconds because every task is a multi-megabyte portrait.
 
 | Element | Window | Animated properties |
 | --- | --- | --- |
@@ -788,7 +784,7 @@ Readable code: [HomeLayout → SiteHeader / NavRailItem / HeaderActionButton / G
 
 **Code — LoadingScreen.71272.js lines 48–87 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   runTasks = () => {
     for (let task of (setCompletedCount(0), taskList))
       task().finally(() => {
@@ -831,7 +827,7 @@ return (0, jsx.jsxs)("div", {
   onClick: () => {},
 ```
 
-```css
+```
 .__00-Loading_container__aBijT {
   position: fixed;
   top: 0;
@@ -931,29 +927,31 @@ return (0, jsx.jsxs)("div", {
 }
 ```
 
-```css
+```
 @keyframes __00-Loading_fadeIn__CDcQn{0%{transform:scaleX(0)}to{transform:scaleX(1)}}
 ```
 
-![Capture — home page loader at 2.2 s, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/loading-home-2200ms.png)
+![home page loader at 2.2 s, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/loading-home-2200ms.png)
 
-![Capture — article page loader at 4.5 s (37 %)](https://sitedna.endfield.calyndrae.com/capture/states/loading-article-4500ms.png)
+![article page loader at 4.5 s (37 %)](https://sitedna.endfield.calyndrae.com/capture/states/loading-article-4500ms.png)
 
-![Capture — portrait loader at 390×844](https://sitedna.endfield.calyndrae.com/capture/states/loading-mobile-2200ms.png)
+![portrait loader at 390×844](https://sitedna.endfield.calyndrae.com/capture/states/loading-mobile-2200ms.png)
 
-**INFERRED** The loader is a progress curtain rather than a spinner: it is honest about asset weight and hands over with the brand colour sweeping across, which also hides the first paint of the sections.
+**INFERRED** — The loader is a progress curtain rather than a spinner: it is honest about asset weight and hands over with the brand colour sweeping across, which also hides the first paint of the sections.
 
-**RULE FOR A CHILD SITE** Gate the first paint on a real task list, show a numeric percentage, and exit with a one-colour wipe timed so that section entrances start just before the curtain is gone (1.5 s store flip vs 2.4 s unmount).
+**RULE FOR A CHILD SITE** — Gate the first paint on a real task list, show a numeric percentage, and exit with a one-colour wipe timed so that section entrances start just before the curtain is gone (1.5 s store flip vs 2.4 s unmount).
 
 Readable code: [LoadingScreen.71272.js](#js-LoadingScreen-71272-js).
 
-## Chapter 12 — Section viewer: chapter navigation by wheel, scroll and hash
+## 12 Section viewer: chapter navigation by wheel, scroll and hash
 
-**OBSERVED** SectionViewer renders the rail (sticky) and a column of section wrappers. A lodash-throttled (100 ms) handler on window scroll and wheel picks the section whose vertical centre is the smallest positive distance from the viewport top (within 2× innerHeight), stores it in a zustand store and mirrors it to the URL hash with history.replaceState. Clicking a rail item calls setCurrentSection: it sets a programmatic flag, scrolls the section into view with behavior:"smooth" and ignores scroll events until that section is reached. On mount a matching hash (except #home) scrolls to the section. There is no keyboard handling.
+_Chapter 12 · 2 observed · 1 measured · 1 inferred · 1 rules · code: HomeLayout.83597.js_
+
+**OBSERVED** — SectionViewer renders the rail (sticky) and a column of section wrappers. A lodash-throttled (100 ms) handler on window scroll and wheel picks the section whose vertical centre is the smallest positive distance from the viewport top (within 2× innerHeight), stores it in a zustand store and mirrors it to the URL hash with history.replaceState. Clicking a rail item calls setCurrentSection: it sets a programmatic flag, scrolls the section into view with behavior:"smooth" and ignores scroll events until that section is reached. On mount a matching hash (except #home) scrolls to the section. There is no keyboard handling.
 
 **Code — HomeLayout.83597.js lines 1661–1706 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   handleScrollThrottled = (0, lodashThrottle.A)(() => {
     let nearestSectionKey = "",
       nearestDistance = 2 * window.innerHeight;
@@ -1002,23 +1000,25 @@ return (
     },
 ```
 
-**MEASURED** Home section order and heights at 1440×900: home 900, operator 810, information 810, calendar 1990, gameplay 943, aic 695, notice 767 px. Each 600px wheel step in the capture advanced the active section by one.
+**MEASURED** — Home section order and heights at 1440×900: home 900, operator 810, information 810, calendar 1990, gameplay 943, aic 695, notice 767 px. Each 600px wheel step in the capture advanced the active section by one.
 
-**OBSERVED** Wrappers: .sections_sectionViewer / .SectionViewer_contentContainer (flex:1, overflow-x hidden) with scroll-margin-top 9.625rem in portrait. The hero (__01-Home) is exactly 100vh with overflow hidden; the other sections are fixed rem heights (operator stage, information 90rem #000, gameplay 104.75rem, aic 77.25rem, notice 85.25rem + 10rem margin).
+**OBSERVED** — Wrappers: .sections_sectionViewer / .SectionViewer_contentContainer (flex:1, overflow-x hidden) with scroll-margin-top 9.625rem in portrait. The hero (__01-Home) is exactly 100vh with overflow hidden; the other sections are fixed rem heights (operator stage, information 90rem #000, gameplay 104.75rem, aic 77.25rem, notice 85.25rem + 10rem margin).
 
-**INFERRED** Native document scrolling with a smart highlighter rather than scroll-jacking: trackpads, touch and the back button behave normally while the rail still reads like a chapter index.
+**INFERRED** — Native document scrolling with a smart highlighter rather than scroll-jacking: trackpads, touch and the back button behave normally while the rail still reads like a chapter index.
 
-**RULE FOR A CHILD SITE** Do not hijack scrolling. Track the nearest section centre, throttle it, and let the chrome follow the document.
+**RULE FOR A CHILD SITE** — Do not hijack scrolling. Track the nearest section centre, throttle it, and let the chrome follow the document.
 
 Readable code: [HomeLayout → SectionViewer, useSectionViewerStore](#js-HomeLayout-83597-js).
 
-## Chapter 13 — Homepage character stage (__02-Operator)
+## 13 Homepage character stage (__02-Operator)
 
-**OBSERVED** The stage is a 90rem-tall white section. Left: a wrap-around avatar rail (OperatorSwitcher) whose items are spaced 12.25rem vertically in landscape (13rem horizontally in portrait) with a 1.875rem base offset and page by four; the active avatar carries a circular SVG ring. Centre-left: the REC header, the name block (4.875rem SansBold), classification icons, faction/race/CV rows, a biography and the dark "All Operators" button. Right: a 2D illustration that slides in from 18rem over 8000 ms with cubicBezier(0,1,0,.97), or in 3D mode a TransparentVideo canvas that plays the operator's enter clip once and then loops idle (loading badge fades 300 ms easeOutQuad in / easeInCubic out). Low-end browsers (Vivo/Oppo/MIUI/Quark) hide the 3D switch.
+_Chapter 13 · 2 observed · 1 measured · 1 inferred · 1 rules · code: OperatorSection.3492.js_
 
-**OBSERVED** Entrance timeline (anime.js), started when the section is 40% in view and the loader store says loaded: at 300 ms the deco flag fades in and the hollow ENDFIELD text, tape and line slide from translateX(110%) (400 ms easeOutQuad, 1 ms in portrait); at 600 ms title/content/header containers slide from translateX(−100%) (300 ms easeOutQuad); the illustration fades in over 300 ms and slides from 15rem over 5000 ms with cubicBezier(0,1,0,.95); buttons fade in at 1200 ms (landscape) or 800 ms (portrait). Sounds: char_click on avatar change, arrow_click on paging, char_detail_enter on entering detail, close_click on leaving; a content_view tracking event per operator.
+**OBSERVED** — The stage is a 90rem-tall white section. Left: a wrap-around avatar rail (OperatorSwitcher) whose items are spaced 12.25rem vertically in landscape (13rem horizontally in portrait) with a 1.875rem base offset and page by four; the active avatar carries a circular SVG ring. Centre-left: the REC header, the name block (4.875rem SansBold), classification icons, faction/race/CV rows, a biography and the dark "All Operators" button. Right: a 2D illustration that slides in from 18rem over 8000 ms with cubicBezier(0,1,0,.97), or in 3D mode a TransparentVideo canvas that plays the operator's enter clip once and then loops idle (loading badge fades 300 ms easeOutQuad in / easeInCubic out). Low-end browsers (Vivo/Oppo/MIUI/Quark) hide the 3D switch.
 
-**MEASURED** Chromium logged the same choreography as inline style mutations: illustration container opacity 0 → 1 and translateX(15rem) → 0 across 218 frames, deco text/tape/line translateX(100%) → 0 across 34 frames, title/content/header translateX(−100%) → 0 across 15 frames, switcher opacity 0 → 1 across 11 frames.
+**OBSERVED** — Entrance timeline (anime.js), started when the section is 40% in view and the loader store says loaded: at 300 ms the deco flag fades in and the hollow ENDFIELD text, tape and line slide from translateX(110%) (400 ms easeOutQuad, 1 ms in portrait); at 600 ms title/content/header containers slide from translateX(−100%) (300 ms easeOutQuad); the illustration fades in over 300 ms and slides from 15rem over 5000 ms with cubicBezier(0,1,0,.95); buttons fade in at 1200 ms (landscape) or 800 ms (portrait). Sounds: char_click on avatar change, arrow_click on paging, char_detail_enter on entering detail, close_click on leaving; a content_view tracking event per operator.
+
+**MEASURED** — Chromium logged the same choreography as inline style mutations: illustration container opacity 0 → 1 and translateX(15rem) → 0 across 218 frames, deco text/tape/line translateX(100%) → 0 across 34 frames, title/content/header translateX(−100%) → 0 across 15 frames, switcher opacity 0 → 1 across 11 frames.
 
 | Element | Window | Animated properties |
 | --- | --- | --- |
@@ -1052,7 +1052,7 @@ Readable code: [HomeLayout → SectionViewer, useSectionViewerStore](#js-HomeLay
 
 **Code — OperatorSection.3492.js lines 472–541 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   sectionElement = sectionRef.current;
 (entranceTimeline.add({
   targets: {},
@@ -1125,7 +1125,7 @@ Readable code: [HomeLayout → SectionViewer, useSectionViewerStore](#js-HomeLay
       easing: "cubicBezier(0,1,0,.95)",
 ```
 
-```css
+```
 .__02-Operator_sectionContainer__D66c4 .__02-Operator_listButton__jKExN {
   position: absolute;
   opacity: 0;
@@ -1278,23 +1278,25 @@ Readable code: [HomeLayout → SectionViewer, useSectionViewerStore](#js-HomeLay
 }
 ```
 
-![Capture — operator stage after its entrance, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/operator-stage.png)
+![operator stage after its entrance, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/operator-stage.png)
 
-![Capture — operator stage (installed Chrome capture from the earlier session)](https://sitedna.endfield.calyndrae.com/screenshots/home-operator-verified.png)
+![operator stage (installed Chrome capture from the earlier session)](https://sitedna.endfield.calyndrae.com/screenshots/home-operator-verified.png)
 
-**INFERRED** The stage is composed like a dossier: the character art is the only large colour event, the data column is small and left-aligned to the canvas edge, and the hollow ENDFIELD word plus tape and line decorations enter from the right to frame the art. The 5–8 s illustration drift is far longer than the UI motion, so the art keeps moving after the interface has settled.
+**INFERRED** — The stage is composed like a dossier: the character art is the only large colour event, the data column is small and left-aligned to the canvas edge, and the hollow ENDFIELD word plus tape and line decorations enter from the right to frame the art. The 5–8 s illustration drift is far longer than the UI motion, so the art keeps moving after the interface has settled.
 
-**RULE FOR A CHILD SITE** One oversized expressive asset plus a compact factual column; stagger entrances at 300/600/1200 ms with ease-out quads; give the hero asset a slow long-tail drift (5–8 s) after the UI settles.
+**RULE FOR A CHILD SITE** — One oversized expressive asset plus a compact factual column; stagger entrances at 300/600/1200 ms with ease-out quads; give the hero asset a slow long-tail drift (5–8 s) after the UI settles.
 
 Readable code: [OperatorSection.3492.js](#js-OperatorSection-3492-js), [clipRevealAnimation.84245.js](#js-clipRevealAnimation-84245-js), [RollingText.96664.js](#js-RollingText-96664-js).
 
-## Chapter 14 — Transparent video renderer (the "3D" mode)
+## 14 Transparent video renderer (the "3D" mode)
 
-**OBSERVED** The "3D" view is not a mesh: it is a pre-rendered MP4 whose frame carries RGB in one half and a grayscale alpha mask in the other half. Hypergryph's @hg-web/trans-video class draws it into a canvas: WebGL path (fullscreen quad, fragment shader alpha = 0.3R + 0.59G + 0.11B, SRC_ALPHA/DST_ALPHA blending), Canvas2D fallback doing the same per pixel; layouts left-right / right-left / top-bottom / bottom-top, image-mask and luminance modes; frames scheduled with requestVideoFrameCallback (requestAnimationFrame on Android). The React wrapper renders a canvas plus a hidden muted playsInline crossOrigin video and exposes {video, trans, controller}.
+_Chapter 14 · 2 observed · 0 measured · 1 inferred · 1 rules · code: TransVideo.25221.js_
+
+**OBSERVED** — The "3D" view is not a mesh: it is a pre-rendered MP4 whose frame carries RGB in one half and a grayscale alpha mask in the other half. Hypergryph's @hg-web/trans-video class draws it into a canvas: WebGL path (fullscreen quad, fragment shader alpha = 0.3R + 0.59G + 0.11B, SRC_ALPHA/DST_ALPHA blending), Canvas2D fallback doing the same per pixel; layouts left-right / right-left / top-bottom / bottom-top, image-mask and luminance modes; frames scheduled with requestVideoFrameCallback (requestAnimationFrame on Android). The React wrapper renders a canvas plus a hidden muted playsInline crossOrigin video and exposes {video, trans, controller}.
 
 **Code — TransVideo.25221.js lines 457–466 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 brightnessGlsl =
   "\nfloat getBrightness(vec3 color) {\n    return color.x * 0.3 + color.y * 0.59 + color.z * 0.11;\n}\n",
 webglModeHandlers = {
@@ -1309,7 +1311,7 @@ webglModeHandlers = {
 
 **Code — TransVideo.25221.js lines 647–660 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
       : seekToStart();
   });
 }),
@@ -1326,7 +1328,7 @@ webglModeHandlers = {
 (this.video = (null == options ? void 0 : options.video) || document.createElement("video")),
 ```
 
-**OBSERVED** OPERATOR_VIDEO_CLIPS maps 33 operators to enter/idle pairs under /_next/static/media/video/. The stage sets video.src to enter, calls trans.activate(), and on ended switches to idle with loop. (This Chromium has no H.264 decoder, so the clips could not be rendered in the capture; the URLs below are the originals.)
+**OBSERVED** — OPERATOR_VIDEO_CLIPS maps 33 operators to enter/idle pairs under /_next/static/media/video/. The stage sets video.src to enter, calls trans.activate(), and on ended switches to idle with loop. (This Chromium has no H.264 decoder, so the clips could not be rendered in the capture; the URLs below are the originals.)
 
 | Operator | enter clip | idle clip |
 | --- | --- | --- |
@@ -1364,7 +1366,7 @@ webglModeHandlers = {
 | typhoea | [enter.f77ca5.mp4](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.f77ca5.mp4) | [idle.b4f2dd.mp4](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.b4f2dd.mp4) |
 | purrche | [enter.5809fa.mp4](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/enter.5809fa.mp4) | [idle.885f2f.mp4](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/video/idle.885f2f.mp4) |
 
-```css
+```
 .TransparentVideo_container__Inu2a {
   position: relative;
 }
@@ -1414,21 +1416,23 @@ webglModeHandlers = {
 }
 ```
 
-**INFERRED** Pre-rendering the characters as alpha videos gives film-quality lighting without shipping meshes or a game engine; the WebGL compositor only costs one texture upload per frame.
+**INFERRED** — Pre-rendering the characters as alpha videos gives film-quality lighting without shipping meshes or a game engine; the WebGL compositor only costs one texture upload per frame.
 
-**RULE FOR A CHILD SITE** For hero characters, ship side-by-side RGB+alpha MP4s and composite them in a tiny WebGL quad; keep a Canvas2D fallback and a luminance mode for simple masks.
+**RULE FOR A CHILD SITE** — For hero characters, ship side-by-side RGB+alpha MP4s and composite them in a tiny WebGL quad; keep a Canvas2D fallback and a luminance mode for simple masks.
 
 Readable code: [TransVideo.25221.js](#js-TransVideo-25221-js), [TransparentVideo.40489.js](#js-TransparentVideo-40489-js), [OPERATOR_VIDEO_CLIPS.68408.js](#js-OPERATOR-VIDEO-CLIPS-68408-js), [BackgroundVideo.73992.js](#js-BackgroundVideo-73992-js).
 
-## Chapter 15 — LORE: three.js point-cloud scene and particles
+## 15 LORE: three.js point-cloud scene and particles
 
-**OBSERVED** Below the operator stage, the LORE section renders a three.js r178 scene (data-engine="three.js r178" on the canvas, measured 1830×1080 at 1440×900) into .__03-Lore_canvasContainer with cursor:grab. PointCloudModelPlayer loads six binary point models (spaceship, anchor, factory, pile, trinity, enemy — .bin files under /_next/static/media/model/) and draws them as a point cloud with a scan-line reveal, laser rays, glitch effects and drag-to-rotate (mouse and touch). setup() runs during the loader: it benchmarks a 10 000-point render and picks renderLevel 2/1/0 (rays per batch 8/14/20, maximum rays 500/1000/2000, pixel ratio 0.75 at level 2), then normalises every model binary. Switching models plays the "model" sound and fires content_view tracking.
+_Chapter 15 · 2 observed · 0 measured · 1 inferred · 1 rules · code: HomeLayout.83597.js_
 
-**OBSERVED** Model binaries referenced from chunk 226: spaceship.752e25.bin, factory.bd9a36.bin, trinity.d6c060.bin, anchor.0e6c6a.bin, enemy.6a1a19.bin, pile.251dc1.bin (plain Float32 position buffers; not encrypted).
+**OBSERVED** — Below the operator stage, the LORE section renders a three.js r178 scene (data-engine="three.js r178" on the canvas, measured 1830×1080 at 1440×900) into .__03-Lore_canvasContainer with cursor:grab. PointCloudModelPlayer loads six binary point models (spaceship, anchor, factory, pile, trinity, enemy — .bin files under /_next/static/media/model/) and draws them as a point cloud with a scan-line reveal, laser rays, glitch effects and drag-to-rotate (mouse and touch). setup() runs during the loader: it benchmarks a 10 000-point render and picks renderLevel 2/1/0 (rays per batch 8/14/20, maximum rays 500/1000/2000, pixel ratio 0.75 at level 2), then normalises every model binary. Switching models plays the "model" sound and fires content_view tracking.
+
+**OBSERVED** — Model binaries referenced from chunk 226: spaceship.752e25.bin, factory.bd9a36.bin, trinity.d6c060.bin, anchor.0e6c6a.bin, enemy.6a1a19.bin, pile.251dc1.bin (plain Float32 position buffers; not encrypted).
 
 **Code — HomeLayout.83597.js lines 2385–2396 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
     color: 0xffffff,
   }),
   benchPoints = new threeJs2.ONl(benchGeometry, benchMaterial);
@@ -1445,7 +1449,7 @@ for (let rawModel of (benchDuration > 60
 
 **Code — HomeLayout.83597.js lines 2280–2289 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 static get renderLevelValue() {
   return this.renderLevel;
 }
@@ -1458,7 +1462,7 @@ static getMaxRays() {
 setupInteraction() {
 ```
 
-```css
+```
 .__03-Lore_sectionDivider__RVkKY {
   margin-bottom: 2rem;
   height: 9.125rem;
@@ -1586,21 +1590,23 @@ setupInteraction() {
 }
 ```
 
-![Capture — scrolling past LORE into INFORMATION, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-information.png)
+![scrolling past LORE into INFORMATION, 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-information.png)
 
-**INFERRED** The point cloud is the site's "signal" motif made literal: objects are rendered as data rather than surfaces, which matches the dossier/telemetry language of the typography (REC, counters, hairlines). The quality tiers protect frame rate on weak GPUs instead of disabling the effect.
+**INFERRED** — The point cloud is the site's "signal" motif made literal: objects are rendered as data rather than surfaces, which matches the dossier/telemetry language of the typography (REC, counters, hairlines). The quality tiers protect frame rate on weak GPUs instead of disabling the effect.
 
-**RULE FOR A CHILD SITE** If a real-time scene is used, benchmark once during the loader and pick a quality tier; keep interaction to drag-rotate and reuse the same ease-out language as the DOM animations.
+**RULE FOR A CHILD SITE** — If a real-time scene is used, benchmark once during the loader and pick a quality tier; keep interaction to drag-rotate and reuse the same ease-out language as the DOM animations.
 
 Readable code: [HomeLayout → PointCloudModelPlayer, PointCloudActor, PerlinNoise, TypewriterText](#js-HomeLayout-83597-js).
 
-## Chapter 16 — INFORMATION section: background video, swiper and media modal
+## 16 INFORMATION section: background video, swiper and media modal
 
-**OBSERVED** A 90rem black section. A muted looping background video (VideoBasic/VideoCanvas depending on UA; 90% × 90% object-fit cover, fades out .6s via the fadeOut class) sits under a black gradient scrim; a 1px yellow decoLine (linear-gradient(90deg,#fdfd1f 40%, transparent 75%)) at bottom 16.875rem; a 47rem blurred logo at top 39rem; the current video's tag (#38383a chip), date (#fdfd1f SansRegular), title (2rem/1.8 auto-fitted with a hidden probe) and two buttons (play: 4.5rem #fdfd1f square whose triangle scales 1.25 on hover; "more": Button component). Right: a swiper of 33.75rem covers (height 19rem); the active slide is brightness 1 / scale 1, the others brightness .5 / scale .8 (.3s ease-out), with a yellow gradient footer on the active cover; prev/next 4.5rem circular #fafafa buttons with #35373c chevrons and a "01 / 03" readout.
+_Chapter 16 · 2 observed · 1 measured · 1 inferred · 1 rules · code: MediaModal.12914.js_
 
-**OBSERVED** Playing a video opens the Media modal (fixed, rgba(0,0,0,.5), opacity .3s ease-in-out) with a 125rem × 70.3rem YouTube iframe and a yellow 4rem close button whose icon rotates 90° on hover; while open the background music is disabled and video_play_start/end tracking fires.
+**OBSERVED** — A 90rem black section. A muted looping background video (VideoBasic/VideoCanvas depending on UA; 90% × 90% object-fit cover, fades out .6s via the fadeOut class) sits under a black gradient scrim; a 1px yellow decoLine (linear-gradient(90deg,#fdfd1f 40%, transparent 75%)) at bottom 16.875rem; a 47rem blurred logo at top 39rem; the current video's tag (#38383a chip), date (#fdfd1f SansRegular), title (2rem/1.8 auto-fitted with a hidden probe) and two buttons (play: 4.5rem #fdfd1f square whose triangle scales 1.25 on hover; "more": Button component). Right: a swiper of 33.75rem covers (height 19rem); the active slide is brightness 1 / scale 1, the others brightness .5 / scale .8 (.3s ease-out), with a yellow gradient footer on the active cover; prev/next 4.5rem circular #fafafa buttons with #35373c chevrons and a "01 / 03" readout.
 
-**MEASURED** Swiper classes switched at 2.84 s and 3.49 s (swiper-slide-active / __04-Information_active); the section title arrow block translated from −58.5px to 0 and the title text flickered to opacity 1 (SectionTitle reveal, 400/600 ms after in-view).
+**OBSERVED** — Playing a video opens the Media modal (fixed, rgba(0,0,0,.5), opacity .3s ease-in-out) with a 125rem × 70.3rem YouTube iframe and a yellow 4rem close button whose icon rotates 90° on hover; while open the background music is disabled and video_play_start/end tracking fires.
+
+**MEASURED** — Swiper classes switched at 2.84 s and 3.49 s (swiper-slide-active / __04-Information_active); the section title arrow block translated from −58.5px to 0 and the title text flickered to opacity 1 (SectionTitle reveal, 400/600 ms after in-view).
 
 | Element | Window | Animated properties |
 | --- | --- | --- |
@@ -1635,7 +1641,7 @@ Readable code: [HomeLayout → PointCloudModelPlayer, PointCloudActor, PerlinNoi
 
 **Code — MediaModal.12914.js lines 54–77 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 (0, React.useEffect)(() => {
   if (visible)
     return (
@@ -1662,7 +1668,7 @@ Readable code: [HomeLayout → PointCloudModelPlayer, PointCloudActor, PerlinNoi
 (0, jsx.jsx)("div", {
 ```
 
-```css
+```
 .__04-Information_sectionContainer__OXMtV {
   position: relative;
   width: 100%;
@@ -1808,25 +1814,27 @@ Readable code: [HomeLayout → PointCloudModelPlayer, PointCloudActor, PerlinNoi
 }
 ```
 
-![Capture — INFORMATION at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-information.png)
+![INFORMATION at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-information.png)
 
-**INFERRED** The only dark section on the home page is the one that frames video: black makes the covers read like a cinema wall and lets the yellow date/line act as a cursor. The scale/brightness pair on inactive slides is a focus metaphor rather than a carousel border.
+**INFERRED** — The only dark section on the home page is the one that frames video: black makes the covers read like a cinema wall and lets the yellow date/line act as a cursor. The scale/brightness pair on inactive slides is a focus metaphor rather than a carousel border.
 
-**RULE FOR A CHILD SITE** Use one dark chapter for motion media; indicate focus with brightness + scale (not borders); keep the accent as a thin line and a chip, not a panel.
+**RULE FOR A CHILD SITE** — Use one dark chapter for motion media; indicate focus with brightness + scale (not borders); keep the accent as a thin line and a chip, not a panel.
 
 Readable code: [HomeLayout → InformationSection, InfoVideoTitle](#js-HomeLayout-83597-js), [MediaModal.12914.js](#js-MediaModal-12914-js), [BackgroundVideo.73992.js](#js-BackgroundVideo-73992-js), [SectionTitle.73560.js](#js-SectionTitle-73560-js).
 
-## Chapter 17 — CALENDAR section: sticky title and timeline images
+## 17 CALENDAR section: sticky title and timeline images
 
-**OBSERVED** A max-content-height section padded 6rem 0 2rem. A 142.8rem-wide stick container (title + timeline images) starts absolute at left calc(50% − 66.5625rem) with opacity 0; in landscape it becomes position:fixed at top 0 (z-index 2) while the section scrolls and is parked absolute at the bottom at the end (stickFixed / stickBottom classes), with a white gradient fade under it. The calendar artwork (141.375rem wide, margin-top 25rem) fades in; in portrait a horizontally draggable 63.75rem calendar scroll replaces it. The download-button background breathes with the downloadBgBreath keyframe.
+_Chapter 17 · 1 observed · 0 measured · 1 inferred · 1 rules · code: HomeLayout.83597.js_
 
-```css
+**OBSERVED** — A max-content-height section padded 6rem 0 2rem. A 142.8rem-wide stick container (title + timeline images) starts absolute at left calc(50% − 66.5625rem) with opacity 0; in landscape it becomes position:fixed at top 0 (z-index 2) while the section scrolls and is parked absolute at the bottom at the end (stickFixed / stickBottom classes), with a white gradient fade under it. The calendar artwork (141.375rem wide, margin-top 25rem) fades in; in portrait a horizontally draggable 63.75rem calendar scroll replaces it. The download-button background breathes with the downloadBgBreath keyframe.
+
+```
 @keyframes __09-Calendar_downloadBgBreath__9_Ko0{0%,to{background-color:rgba(0,0,0,.42)}50%{background-color:rgba(0,0,0,.62)}}
 ```
 
 **Code — HomeLayout.83597.js lines 5344–5349 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 children: [
   (0, jsx.jsxs)("div", {
     className: classnamesDefault()(styles17().stickContainer, {
@@ -1835,7 +1843,7 @@ children: [
     }),
 ```
 
-```css
+```
 .__09-Calendar_sectionContainer__MrVnT {
   position: relative;
   width: 100%;
@@ -1925,21 +1933,23 @@ children: [
 }
 ```
 
-![Capture — CALENDAR at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-calendar.png)
+![CALENDAR at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-calendar.png)
 
-**INFERRED** The calendar is the one section that relies on scroll position as a timeline: fixing the title while the body scrolls turns the page into a long poster you read downward. It is also the only place using position:fixed inside content, which is why it needs the parked bottom state.
+**INFERRED** — The calendar is the one section that relies on scroll position as a timeline: fixing the title while the body scrolls turns the page into a long poster you read downward. It is also the only place using position:fixed inside content, which is why it needs the parked bottom state.
 
-**RULE FOR A CHILD SITE** When one section is much taller than the viewport, pin its title with a fixed/parked pair instead of sticky so the pin can be released at a precise scroll offset.
+**RULE FOR A CHILD SITE** — When one section is much taller than the viewport, pin its title with a fixed/parked pair instead of sticky so the pin can be released at a precise scroll offset.
 
 Readable code: [HomeLayout → CalendarSection](#js-HomeLayout-83597-js).
 
-## Chapter 18 — GAMEPLAY and AIC: the GameplayAlbum carousel
+## 18 GAMEPLAY and AIC: the GameplayAlbum carousel
 
-**OBSERVED** Both sections reuse GameplayAlbum: a 111.5rem × 54.375rem image container with three stacked layers (bottom #191919 plate, middle image with filter grayscale(1) brightness(.76) contrast(200) url(#red-green) and a #fffa00 div variant, top video via the players component), a 19rem yellow right strip carrying a rotated 51.5rem white line with the ENDFIELD wordmark, the section title in 4.5rem Novecentosanswide-DemiBold and a Gilroy-Medium caption; below it a detail block (2rem index scaled .5, 3rem SansMedium title, 1.875rem/1.5 description within 90.125rem) and a Pagination. The GAMEPLAY variant is positioned at calc(50% − 80rem + 3.75rem + 38rem) / top 30.375rem; the AIC variant is mirrored (row-reverse, #ededed strip) at + 28.3125rem / top 5.75rem and is hidden from the rail (hideNav).
+_Chapter 18 · 2 observed · 1 measured · 1 inferred · 1 rules · code: clipRevealAnimation.84245.js_
 
-**OBSERVED** Item changes play the clip-reveal animation: anime.js animates clip-path polygons from a collapsed edge with an ease-out-quart curve (1 − (1 − p)^4); the decoLeft code-printer block flashes once with the flashing keyframe (1s ease-out).
+**OBSERVED** — Both sections reuse GameplayAlbum: a 111.5rem × 54.375rem image container with three stacked layers (bottom #191919 plate, middle image with filter grayscale(1) brightness(.76) contrast(200) url(#red-green) and a #fffa00 div variant, top video via the players component), a 19rem yellow right strip carrying a rotated 51.5rem white line with the ENDFIELD wordmark, the section title in 4.5rem Novecentosanswide-DemiBold and a Gilroy-Medium caption; below it a detail block (2rem index scaled .5, 3rem SansMedium title, 1.875rem/1.5 description within 90.125rem) and a Pagination. The GAMEPLAY variant is positioned at calc(50% − 80rem + 3.75rem + 38rem) / top 30.375rem; the AIC variant is mirrored (row-reverse, #ededed strip) at + 28.3125rem / top 5.75rem and is hidden from the rail (hideNav).
 
-**MEASURED** Chromium logged the album layers' clip-path going from polygon(100% 0, 100% 0, 100% 100%, …) to polygon(0 0, 100% 0, 100% 100%, 0 100%) (bottom 2.84–3.49 s, middle to 3.57 s, top video to 4.34 s) and the index/title/description opacity 0 → 1 over 46 frames each.
+**OBSERVED** — Item changes play the clip-reveal animation: anime.js animates clip-path polygons from a collapsed edge with an ease-out-quart curve (1 − (1 − p)^4); the decoLeft code-printer block flashes once with the flashing keyframe (1s ease-out).
+
+**MEASURED** — Chromium logged the album layers' clip-path going from polygon(100% 0, 100% 0, 100% 100%, …) to polygon(0 0, 100% 0, 100% 100%, 0 100%) (bottom 2.84–3.49 s, middle to 3.57 s, top video to 4.34 s) and the index/title/description opacity 0 → 1 over 46 frames each.
 
 | Element | Window | Animated properties |
 | --- | --- | --- |
@@ -1954,17 +1964,17 @@ Readable code: [HomeLayout → CalendarSection](#js-HomeLayout-83597-js).
 | __05-Gameplay_decoLeft __05-Gameplay_active | 10830–11375 ms | opacity: 0 → 1 |
 | __08-AIC_decoLeft __08-AIC_active | 10830–11375 ms | opacity: 0 → 1 |
 
-```css
+```
 @keyframes __05-Gameplay_flashing__W8_Z1{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}
 ```
 
-```css
+```
 @keyframes __08-AIC_flashing__pEebW{0%{opacity:0}10%{opacity:.5}11%{opacity:0}20%{opacity:.5}21%{opacity:0}40%{opacity:.5}41%{opacity:0}to{opacity:1}}
 ```
 
 **Code — clipRevealAnimation.84245.js lines 130–159 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
   clipElement &&
     ("left" === direction && isReveal
@@ -1997,7 +2007,7 @@ clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
                 .concat(percentString, ", 0 ")
 ```
 
-```css
+```
 .GameplayAlbum_gameplayAlbum__iz9mA.GameplayAlbum_aic__COk_i .GameplayAlbum_imageContainer__g5rE9 {
   position: relative;
 }
@@ -2178,26 +2188,49 @@ clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
 }
 ```
 
-![Capture — GAMEPLAY at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-gameplay.png)
+![GAMEPLAY at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-gameplay.png)
 
-![Capture — AIC at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-aic.png)
+![AIC at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-aic.png)
 
-**INFERRED** The album is a wipe-reveal slideshow: each change redraws the picture from one edge, which reads as a shutter rather than a slide. The three-layer stack (plate, duotone still, live video) is why the transition never shows an empty frame.
+**INFERRED** — The album is a wipe-reveal slideshow: each change redraws the picture from one edge, which reads as a shutter rather than a slide. The three-layer stack (plate, duotone still, live video) is why the transition never shows an empty frame.
 
-**RULE FOR A CHILD SITE** Reveal media with clip-path wipes (300–600 ms, quart ease-out) over a dark plate; stack a still under the video so the wipe always has pixels to show.
+**RULE FOR A CHILD SITE** — Reveal media with clip-path wipes (300–600 ms, quart ease-out) over a dark plate; stack a still under the video so the wipe always has pixels to show.
 
 Readable code: [HomeLayout → GameplayAlbum, GameplayMarquee, AicSection](#js-HomeLayout-83597-js), [clipRevealAnimation.84245.js](#js-clipRevealAnimation-84245-js), [GAMEPLAY_ITEMS.26915.js](#js-GAMEPLAY-ITEMS-26915-js), [AIC_ITEMS.89622.js](#js-AIC-ITEMS-89622-js).
 
-## Chapter 19 — NOTICE section: bulletin carousel, Pagination and Button
+## 19 NOTICE section: bulletin carousel, Pagination and Button
 
-**OBSERVED** An 85.25rem section (margin-bottom 10rem). A 152.5rem carousel container, masked with a horizontal gradient (transparent 0 → black 1.5rem … 151rem → transparent), holds 55rem × 30.9rem notice cards: the active card is scale(1), the others scale(.818) with an rgba(0,0,0,.5) overlay (transform/opacity .4s ease-in-out). Above it the subtitle (tab + time, 1.5rem SansMedium gray) and a 2.25rem title with a 149.5rem #d9d9d9 hairline; below, the Pagination (number type) at top 50.625rem and a Button ("detail") at top 51rem / left 18.75rem. The left column is an 8.25rem yellow deco bar with masked images and the word LATEST (2.25rem SansBold #2e2e2e). Clicking a card plays common_click and opens /news/<cid> in a new tab; the mobile variant shows two cards per page with number pagination.
+_Chapter 19 · 1 observed · 0 measured · 1 inferred · 1 rules · code: HomeLayout.83597.js_
+
+**OBSERVED** — An 85.25rem section (margin-bottom 10rem). A 152.5rem carousel container, masked with a horizontal gradient (transparent 0 → black 1.5rem … 151rem → transparent), holds 55rem × 30.9rem notice cards: the active card is scale(1), the others scale(.818) with an rgba(0,0,0,.5) overlay (transform/opacity .4s ease-in-out). Above it the subtitle (tab + time, 1.5rem SansMedium gray) and a 2.25rem title with a 149.5rem #d9d9d9 hairline; below, the Pagination (number type) at top 50.625rem and a Button ("detail") at top 51rem / left 18.75rem. The left column is an 8.25rem yellow deco bar with masked images and the word LATEST (2.25rem SansBold #2e2e2e). Clicking a card plays common_click and opens /news/ in a new tab; the mobile variant shows two cards per page with number pagination.
 
 ### Live specimens
 
 **The bulletin card (__06-Notice_noticeItem) is styled only inside .__06-Notice_sectionContainer**, so it is shown in the section screenshot below and by its CSS; its captured markup is in capture/states/states.json (notice_carousel).
 
+**Specimen — Pagination (number type) — prev/next 4.625rem #fafafa discs on a #e6e6e6 pill with a hatched :before at 5% opacity. Hover a disc: background → #fffa00, texture opacity .4 → 1 (.2s)**
+
 ```html
-<table><tbody><tr><th colspan="3"><p>Pagination (number type) — prev/next 4.625rem #fafafa discs on a #e6e6e6 pill with a hatched :before at 5% opacity. Hover a disc: background → #fffa00, texture opacity .4 → 1 (.2s)</p></th></tr><tr><td><p>In the section it is absolutely positioned and shrink-wrapped; here the middle cell approximates that width.</p></td><td><div class="Pagination_pagination__3IDBu __06-Notice_carouselPagination__XTWO2"><div class="Pagination_button__cVH8L Pagination_disabled__WlgMt"><div class="Pagination_border__Sfc_h"></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n"><path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z"></path></svg></div><div class="Pagination_button__cVH8L"><div class="Pagination_border__Sfc_h"></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n Pagination_right__NDQb6"><path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z"></path></svg></div></div></td><td><p>Arrow buttons play arrow_click; the readout is current+1 / total in Novecentosanswide-Medium.</p></td></tr></tbody></table>
+In the section it is absolutely positioned and shrink-wrapped; here the middle cell approximates that width.
+<div class="Pagination_pagination__3IDBu __06-Notice_carouselPagination__XTWO2">
+<div class="Pagination_button__cVH8L Pagination_disabled__WlgMt">
+<div class="Pagination_border__Sfc_h">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n">
+<path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z">
+</path>
+</svg>
+</div>
+<div class="Pagination_button__cVH8L">
+<div class="Pagination_border__Sfc_h">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n Pagination_right__NDQb6">
+<path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z">
+</path>
+</svg>
+</div>
+</div>
+Arrow buttons play arrow_click; the readout is current+1 / total in Novecentosanswide-Medium.
 ```
 
 **Specimen — Button — 20rem × 4.5rem #383838 block with a textured :before and a yellow clip-path marker :after. Hover: background #484848, radius 6px, marker becomes an arrow and shifts .875rem (.2s)**
@@ -2216,7 +2249,7 @@ Readable code: [HomeLayout → GameplayAlbum, GameplayMarquee, AicSection](#js-H
 
 **Code — HomeLayout.83597.js lines 4072–4087 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 carouselItemTransform = (slotIndex, activeSlot) => {
   let slotDelta = slotIndex - activeSlot,
     slotOffsetPx =
@@ -2235,7 +2268,7 @@ carouselItemTransform = (slotIndex, activeSlot) => {
 NoticeCarousel = (carouselProps) => {
 ```
 
-```css
+```
 .__06-Notice_sectionContainer__2x0Mi .__06-Notice_carouselContainer__2AoYR {
   position: absolute;
   left: calc(50% - 51.0625rem - 3.75rem);
@@ -2353,7 +2386,7 @@ html[lang=es-mx] .__06-Notice_sectionContainer__2x0Mi .__06-Notice_leftDeco__ML9
 }
 ```
 
-```css
+```
 .Button_button__njqVS {
   position: relative;
   width: 20rem;
@@ -2424,17 +2457,19 @@ html[lang=es-mx] .__06-Notice_sectionContainer__2x0Mi .__06-Notice_leftDeco__ML9
 }
 ```
 
-![Capture — NOTICE at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-notice.png)
+![NOTICE at 1440×900](https://sitedna.endfield.calyndrae.com/capture/states/section-notice.png)
 
-**INFERRED** Cards are presented like a film strip with a focused frame: scale + dim instead of arrows-and-dots. The Button's yellow marker turning into an arrow on hover is the site's signature micro-interaction and appears everywhere a Button is used.
+**INFERRED** — Cards are presented like a film strip with a focused frame: scale + dim instead of arrows-and-dots. The Button's yellow marker turning into an arrow on hover is the site's signature micro-interaction and appears everywhere a Button is used.
 
-**RULE FOR A CHILD SITE** Carousels: one focused card at scale 1, siblings at ~0.82 and dimmed 50%, .4 s ease-in-out; buttons: dark textured block, 2px radius that rounds to 6px on hover, and a left marker that animates into an arrow.
+**RULE FOR A CHILD SITE** — Carousels: one focused card at scale 1, siblings at ~0.82 and dimmed 50%, .4 s ease-in-out; buttons: dark textured block, 2px radius that rounds to 6px on hover, and a left marker that animates into an arrow.
 
 Readable code: [HomeLayout → NoticeCarousel, NoticeCarouselItem, NoticePagination](#js-HomeLayout-83597-js), [Pagination.2682.js](#js-Pagination-2682-js), [BulletinListContextProvider.30257.js](#js-BulletinListContextProvider-30257-js).
 
-## Chapter 20 — Download panel, reservation and account modals
+## 20 Download panel, reservation and account modals
 
-**OBSERVED** The download panel (downloader + pc-oversea layout) is a 12.5rem translucent block (rgba(0,0,0,.5) with a .9375rem border-left of the same colour, radius .25rem) holding a yellow 1.6875rem icon square, a SansMedium title with a #4d4d4d left rule, and platform items: 12.25rem × 3.625rem black tiles with a 1px #8f8f8f border on the overseas build, hover #222 / active #333 (.2s). Store badges are sized per platform (App Store 3.375rem tall, Google Play 100%, Epic 6.3125rem wide, PS5 7.5rem, Windows inverted). Clicking a tile goes through Tracking.download or the launcher deep link.
+_Chapter 20 · 2 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — The download panel (downloader + pc-oversea layout) is a 12.5rem translucent block (rgba(0,0,0,.5) with a .9375rem border-left of the same colour, radius .25rem) holding a yellow 1.6875rem icon square, a SansMedium title with a #4d4d4d left rule, and platform items: 12.25rem × 3.625rem black tiles with a 1px #8f8f8f border on the overseas build, hover #222 / active #333 (.2s). Store badges are sized per platform (App Store 3.375rem tall, Google Play 100%, Epic 6.3125rem wide, PS5 7.5rem, Windows inverted). Clicking a tile goes through Tracking.download or the launcher deep link.
 
 **Why the panel is not embedded live:** its store badges are <img> elements sized by the two-class rule .downloader_item img.downloader_appStore (height 3.375rem), and this article template's own rule .__20-NoticeDetail_content img { max-width:100%; height:auto } has higher specificity, so inside an article the badges would fall back to their natural pixel size. The panel is therefore shown by screenshot and CSS; its captured markup is in capture/states/states.json (downloader).
 
@@ -2442,7 +2477,7 @@ Readable code: [HomeLayout → NoticeCarousel, NoticeCarouselItem, NoticePaginat
 | --- | --- | --- | --- |
 | downloader_item | downloader_item | background-color: rgb(0, 0, 0) → rgb(34, 34, 34) | background-color 0.2s |
 
-```css
+```
 .downloader_downloadContainer__z2AUJ {
   position: relative;
   width: max-content !important;
@@ -2554,9 +2589,9 @@ html[data-oversea=true] .downloader_platforms__qTgeb .downloader_line__YlNIA {
 }
 ```
 
-**OBSERVED** Modals share ModalFrame: a 109rem #fafafa frame with a dotted points-bg texture, an 8.75rem #1f1f1f header with the hatched gradient and a 3.75em SansRegular title, a close icon that rotates 90° on hover (.2s ease-in-out), and a decoLB corner mark. ReserveModal (z-index 90), UserModal (52.5rem container, 37.5rem content), the ja-jp Originium query modal and the Media modal all fade in with opacity .3s ease-in-out over an rgba(0,0,0,.5) scrim; Toast (z-index 2000) fades 300 ms with cubic-bezier(.25,.1,.25,1) and lasts 2000 ms.
+**OBSERVED** — Modals share ModalFrame: a 109rem #fafafa frame with a dotted points-bg texture, an 8.75rem #1f1f1f header with the hatched gradient and a 3.75em SansRegular title, a close icon that rotates 90° on hover (.2s ease-in-out), and a decoLB corner mark. ReserveModal (z-index 90), UserModal (52.5rem container, 37.5rem content), the ja-jp Originium query modal and the Media modal all fade in with opacity .3s ease-in-out over an rgba(0,0,0,.5) scrim; Toast (z-index 2000) fades 300 ms with cubic-bezier(.25,.1,.25,1) and lasts 2000 ms.
 
-```css
+```
 .ModalFrame_modalFrame__WKkW2 {
   position: relative;
   width: 109rem;
@@ -2726,21 +2761,23 @@ html[data-oversea=true] .downloader_platforms__qTgeb .downloader_line__YlNIA {
 }
 ```
 
-**INFERRED** Every overlay uses the same three ingredients (half-black scrim, hatched dark header, dotted light body), so dialogs feel like printed forms rather than web pop-ups. The reservation and account flows are SDK-driven; the site only styles the frame.
+**INFERRED** — Every overlay uses the same three ingredients (half-black scrim, hatched dark header, dotted light body), so dialogs feel like printed forms rather than web pop-ups. The reservation and account flows are SDK-driven; the site only styles the frame.
 
-**RULE FOR A CHILD SITE** One modal frame for everything: 50% scrim, dark textured header with a single centred title, light dotted body, close icon with a 90° hover twist.
+**RULE FOR A CHILD SITE** — One modal frame for everything: 50% scrim, dark textured header with a single centred title, light dotted body, close icon with a 90° hover twist.
 
 Readable code: [HomeLayout → DownloadPanel, DownloadPlatformItem, ReserveModal](#js-HomeLayout-83597-js), [UserModalRoot.92610.js](#js-UserModalRoot-92610-js), [OrigQueryModalRoot.94150.js](#js-OrigQueryModalRoot-94150-js), [MediaModal.12914.js](#js-MediaModal-12914-js), [Toast.71985.js](#js-Toast-71985-js).
 
-## Chapter 21 — Footer and language picker (live below)
+## 21 Footer and language picker (live below)
+
+_Chapter 21 · 1 observed · 0 measured · 1 inferred · 1 rules · code: Footer.46173.js_
 
 Scroll to the bottom of this page: the footer there is the live component.
 
-**OBSERVED** A #101010 band. The top container (border-bottom 1px rgba(81,81,81,.5)) centres a 1.25rem SansMedium #6e6e6e label, a 23.25rem × 4.5rem #f0f0f0 language picker (globe SVG at left 1.375rem, text in the system stack, an arrow rotated 90° that turns 270° when active) whose dropdown (opacity .2s, z-index 1000, 17.25rem scroll area, 3.75rem rows separated by 90% #888 hairlines) lists the 13 languages; picking one rewrites the first path segment. The legal links (1.25rem SansMedium #f0f0f0, separated by 3rem gutters and rgba(240,240,240,.3) rules) are rendered into the bottom container by the Gryphline SDK (Tracking.insertFooter).
+**OBSERVED** — A #101010 band. The top container (border-bottom 1px rgba(81,81,81,.5)) centres a 1.25rem SansMedium #6e6e6e label, a 23.25rem × 4.5rem #f0f0f0 language picker (globe SVG at left 1.375rem, text in the system stack, an arrow rotated 90° that turns 270° when active) whose dropdown (opacity .2s, z-index 1000, 17.25rem scroll area, 3.75rem rows separated by 90% #888 hairlines) lists the 13 languages; picking one rewrites the first path segment. The legal links (1.25rem SansMedium #f0f0f0, separated by 3rem gutters and rgba(240,240,240,.3) rules) are rendered into the bottom container by the Gryphline SDK (Tracking.insertFooter).
 
 **Code — Footer.46173.js lines 107–114 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 switchLanguage = (0, React.useCallback)(
   (targetLang) => {
     let newPathname = window.location.pathname.replace("/".concat(lang), "/".concat(targetLang));
@@ -2751,7 +2788,7 @@ switchLanguage = (0, React.useCallback)(
 clickOutsideRef = (0, useClickOutsideHook.W)(() => setDropdownOpen(!1));
 ```
 
-```css
+```
 .footer_footer__6jTqE {
   position: relative;
   width: 100%;
@@ -2867,26 +2904,86 @@ clickOutsideRef = (0, useClickOutsideHook.W)(() => setDropdownOpen(!1));
 }
 ```
 
-![Capture — footer at rest](https://sitedna.endfield.calyndrae.com/capture/states/footer.png)
+![footer at rest](https://sitedna.endfield.calyndrae.com/capture/states/footer.png)
 
-![Capture — language dropdown open](https://sitedna.endfield.calyndrae.com/capture/states/footer-language-open.png)
+![language dropdown open](https://sitedna.endfield.calyndrae.com/capture/states/footer-language-open.png)
 
-**INFERRED** The footer is deliberately utilitarian and near-black so the white canvas above ends with a hard stop; the only control is language, which is the one setting every visitor may need.
+**INFERRED** — The footer is deliberately utilitarian and near-black so the white canvas above ends with a hard stop; the only control is language, which is the one setting every visitor may need.
 
-**RULE FOR A CHILD SITE** End with a near-black utility band; put only global settings and legal links there; use a light button for the one interactive control so it reads against the dark field.
+**RULE FOR A CHILD SITE** — End with a near-black utility band; put only global settings and legal links there; use a light button for the one interactive control so it reads against the dark field.
 
 Readable code: [Footer.46173.js](#js-Footer-46173-js), [Tracking.1162.js](#js-Tracking-1162-js).
 
-## Chapter 22 — Operator catalogue (/en-us/operator): cards, filters, detail
+## 22 Operator catalogue (/en-us/operator): cards, filters, detail
 
-**OBSERVED** A 100vh catalogue over a background deco (hollow ENDFIELD at 31rem / opacity .35 masked downward, a hatched shallow field 32.8rem tall at the bottom, a 23rem illustrated strip on the right). Two FilterDropdowns (Class: guard, caster, support, shielder, vanguard, assault; Element: fire, ice, electric, nature, physic; "all" clears) sit at calc(50% − 80rem + 3.75rem + 13rem) / top 9.5rem with a 2.375rem gap; the list container starts at top 16.375rem, is 134.4375rem wide, calc(100vh − 18.125rem) tall, has a .625rem white custom scrollbar with a #b6b6b6 thumb and lays cards out with flex-wrap, padding 2rem 4.25rem and gap 2.375rem. Filters combine with AND; the index on each card follows the filtered order but the total stays 33.
+_Chapter 22 · 2 observed · 1 measured · 1 inferred · 1 rules · code: OperatorListSection.50999.js_
 
-**MEASURED** Six cards per row at 1440×900 (card 19rem × 24.25rem = 171 × 218.25px, gap 21.375px); three per row at 390×844. Hovering a card translates it −4.5px (translateY(−.5rem), transition transform .2s). The dropdown trigger's border turns hsla(0,0%,100%,.45) on hover (.15s).
+**OBSERVED** — A 100vh catalogue over a background deco (hollow ENDFIELD at 31rem / opacity .35 masked downward, a hatched shallow field 32.8rem tall at the bottom, a 23rem illustrated strip on the right). Two FilterDropdowns (Class: guard, caster, support, shielder, vanguard, assault; Element: fire, ice, electric, nature, physic; "all" clears) sit at calc(50% − 80rem + 3.75rem + 13rem) / top 9.5rem with a 2.375rem gap; the list container starts at top 16.375rem, is 134.4375rem wide, calc(100vh − 18.125rem) tall, has a .625rem white custom scrollbar with a #b6b6b6 thumb and lays cards out with flex-wrap, padding 2rem 4.25rem and gap 2.375rem. Filters combine with AND; the index on each card follows the filtered order but the total stays 33.
+
+**MEASURED** — Six cards per row at 1440×900 (card 19rem × 24.25rem = 171 × 218.25px, gap 21.375px); three per row at 390×844. Hovering a card translates it −4.5px (translateY(−.5rem), transition transform .2s). The dropdown trigger's border turns hsla(0,0%,100%,.45) on hover (.15s).
 
 ### Live specimens — hover the cards and the dropdown trigger
 
+**Specimen — OperatorItem — three catalogue cards as captured (portrait layer, three-colour rule, SansBold auto-fitted name, codename, 01 / 33 index, class and element icons, rarity-coloured .5625rem base: 6★ #fe5a00, 5★ #ffbb03, 4★ #9452fa)**
+
 ```html
-<table><tbody><tr><th colspan="3"><p>OperatorItem — three catalogue cards as captured (portrait layer, three-colour rule, SansBold auto-fitted name, codename, 01 / 33 index, class and element icons, rarity-coloured .5625rem base: 6★ #fe5a00, 5★ #ffbb03, 4★ #9452fa)</p></th></tr><tr><td><div class="OperatorItem_operatorItem__gPezu"><div class="OperatorItem_image__fyd3C" data-key="typhoea" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png)"></div><div class="OperatorItem_contentBlock__I_0_3" data-rarity="6"><div class="OperatorItem_name__OvU8c"><span class="OperatorItem_nameText__ibYGO" style="font-size: 1.6875rem">Typhoeus</span></div><div class="OperatorItem_subTitle___c7GD"><div class="OperatorItem_codename__U3_VI">// Typhoeus</div><div class="OperatorItem_index__ivv9h">01<!-- --> / <!-- -->33</div></div><div class="OperatorItem_icons__x_ht1"><div class="OperatorItem_icon__jOzZV" data-key="assault"></div><div class="OperatorItem_icon__jOzZV" data-key="nature"></div></div></div></div></td><td><div class="OperatorItem_operatorItem__gPezu"><div class="OperatorItem_image__fyd3C" data-key="purrche" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png)"></div><div class="OperatorItem_contentBlock__I_0_3" data-rarity="5"><div class="OperatorItem_name__OvU8c"><span class="OperatorItem_nameText__ibYGO" style="font-size: 1.6875rem">Purrchena</span></div><div class="OperatorItem_subTitle___c7GD"><div class="OperatorItem_codename__U3_VI">// Purrchena</div><div class="OperatorItem_index__ivv9h">02<!-- --> / <!-- -->33</div></div><div class="OperatorItem_icons__x_ht1"><div class="OperatorItem_icon__jOzZV" data-key="shielder"></div><div class="OperatorItem_icon__jOzZV" data-key="physic"></div></div></div></div></td><td><div class="OperatorItem_operatorItem__gPezu"><div class="OperatorItem_image__fyd3C" data-key="endministrator2" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png)"></div><div class="OperatorItem_contentBlock__I_0_3" data-rarity="6"><div class="OperatorItem_name__OvU8c"><span class="OperatorItem_nameText__ibYGO" style="font-size: 1.42444rem">Endministrator</span></div><div class="OperatorItem_subTitle___c7GD"><div class="OperatorItem_codename__U3_VI">// Endministrator</div><div class="OperatorItem_index__ivv9h">03<!-- --> / <!-- -->33</div></div><div class="OperatorItem_icons__x_ht1"><div class="OperatorItem_icon__jOzZV" data-key="guard"></div><div class="OperatorItem_icon__jOzZV" data-key="physic"></div></div></div></div></td></tr></tbody></table>
+<div class="OperatorItem_operatorItem__gPezu">
+<div class="OperatorItem_image__fyd3C" data-key="typhoea" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/typhoea.87cfb4cd.png)">
+</div>
+<div class="OperatorItem_contentBlock__I_0_3" data-rarity="6">
+<div class="OperatorItem_name__OvU8c">
+<span class="OperatorItem_nameText__ibYGO" style="font-size: 1.6875rem">Typhoeus</span>
+</div>
+<div class="OperatorItem_subTitle___c7GD">
+<div class="OperatorItem_codename__U3_VI">// Typhoeus</div>
+<div class="OperatorItem_index__ivv9h">01<!-- --> / <!-- -->33</div>
+</div>
+<div class="OperatorItem_icons__x_ht1">
+<div class="OperatorItem_icon__jOzZV" data-key="assault">
+</div>
+<div class="OperatorItem_icon__jOzZV" data-key="nature">
+</div>
+</div>
+</div>
+</div>
+<div class="OperatorItem_operatorItem__gPezu">
+<div class="OperatorItem_image__fyd3C" data-key="purrche" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/purrche.d6659019.png)">
+</div>
+<div class="OperatorItem_contentBlock__I_0_3" data-rarity="5">
+<div class="OperatorItem_name__OvU8c">
+<span class="OperatorItem_nameText__ibYGO" style="font-size: 1.6875rem">Purrchena</span>
+</div>
+<div class="OperatorItem_subTitle___c7GD">
+<div class="OperatorItem_codename__U3_VI">// Purrchena</div>
+<div class="OperatorItem_index__ivv9h">02<!-- --> / <!-- -->33</div>
+</div>
+<div class="OperatorItem_icons__x_ht1">
+<div class="OperatorItem_icon__jOzZV" data-key="shielder">
+</div>
+<div class="OperatorItem_icon__jOzZV" data-key="physic">
+</div>
+</div>
+</div>
+</div>
+<div class="OperatorItem_operatorItem__gPezu">
+<div class="OperatorItem_image__fyd3C" data-key="endministrator2" style="background-image:url(https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/endministrator2.5ccb44a8.png)">
+</div>
+<div class="OperatorItem_contentBlock__I_0_3" data-rarity="6">
+<div class="OperatorItem_name__OvU8c">
+<span class="OperatorItem_nameText__ibYGO" style="font-size: 1.42444rem">Endministrator</span>
+</div>
+<div class="OperatorItem_subTitle___c7GD">
+<div class="OperatorItem_codename__U3_VI">// Endministrator</div>
+<div class="OperatorItem_index__ivv9h">03<!-- --> / <!-- -->33</div>
+</div>
+<div class="OperatorItem_icons__x_ht1">
+<div class="OperatorItem_icon__jOzZV" data-key="guard">
+</div>
+<div class="OperatorItem_icon__jOzZV" data-key="physic">
+</div>
+</div>
+</div>
+</div>
 ```
 
 **Specimen — Dropdown (closed) — 18.9375rem root, 4rem #3a3a3a trigger with the selected icon at right and an arrow that rotates 180° when open**
@@ -3030,11 +3127,11 @@ The open panel is position:absolute and may overlap the next rows; that is the r
 | OperatorItem_operatorItem | OperatorItem_operatorItem | transform: none → matrix(1, 0, 0, 1, 0, -4.5) | transform 0.2s |
 | Dropdown_trigger | Dropdown_trigger | border-color: rgb(255, 255, 255) → rgba(255, 255, 255, 0.45) | border-color 0.15s, background 0.15s |
 
-**OBSERVED** Selecting a card switches the list for a detail panel: AnimatePresence (mode wait) fades the list out and the detail in with 0.3 s easeOut opacity; the detail reuses the homepage OperatorSection with a detail class (same avatar rail, same illustration/3D switch). The name-fit algorithm (28 bisection steps between .5625 and 1.6875rem against an 11.1875rem box) runs per card.
+**OBSERVED** — Selecting a card switches the list for a detail panel: AnimatePresence (mode wait) fades the list out and the detail in with 0.3 s easeOut opacity; the detail reuses the homepage OperatorSection with a detail class (same avatar rail, same illustration/3D switch). The name-fit algorithm (28 bisection steps between .5625 and 1.6875rem against an 11.1875rem box) runs per card.
 
 **Code — OperatorListSection.50999.js lines 198–237 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let fitName = () => {
   let rootFontSizePx = (function () {
       if ("undefined" == typeof document) return 16;
@@ -3077,7 +3174,7 @@ fitName();
 let resizeObserver = new ResizeObserver(() => fitName());
 ```
 
-```css
+```
 .OperatorItem_operatorItem__gPezu {
   position: relative;
   width: 19rem;
@@ -3245,7 +3342,7 @@ html[lang=th-th] .OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I
 }
 ```
 
-```css
+```
 .Dropdown_root__O4Qqi {
   position: relative;
   width: 18.9375rem;
@@ -3364,27 +3461,29 @@ html[lang=th-th] .OperatorItem_operatorItem__gPezu .OperatorItem_contentBlock__I
 }
 ```
 
-![Capture — catalogue at 1440×900](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/desktop-1440x900.png)
+![catalogue at 1440×900](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/desktop-1440x900.png)
 
-![Capture — Class dropdown open](https://sitedna.endfield.calyndrae.com/capture/states/dropdown-open.png)
+![Class dropdown open](https://sitedna.endfield.calyndrae.com/capture/states/dropdown-open.png)
 
-![Capture — list filtered to one class](https://sitedna.endfield.calyndrae.com/capture/states/operator-list-filtered.png)
+![list filtered to one class](https://sitedna.endfield.calyndrae.com/capture/states/operator-list-filtered.png)
 
-![Capture — detail panel after clicking a card](https://sitedna.endfield.calyndrae.com/capture/states/operator-detail.png)
+![detail panel after clicking a card](https://sitedna.endfield.calyndrae.com/capture/states/operator-detail.png)
 
-![Capture — catalogue at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/mobile-390x844.png)
+![catalogue at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/mobile-390x844.png)
 
-**INFERRED** The catalogue is a denser restatement of the stage: same taxonomy icons, same rarity colours, same hollow word in the background, but as a grid with a stage-like backdrop rather than a neutral list. The custom scrollbar keeps the page itself from scrolling so the chrome stays fixed.
+**INFERRED** — The catalogue is a denser restatement of the stage: same taxonomy icons, same rarity colours, same hollow word in the background, but as a grid with a stage-like backdrop rather than a neutral list. The custom scrollbar keeps the page itself from scrolling so the chrome stays fixed.
 
-**RULE FOR A CHILD SITE** Catalogue pages: keep the global rail, put filters above a self-scrolling grid, size cards from the rem canvas (six per row on the desktop canvas), lift cards .5rem on hover, and open details in place with a 0.3 s cross-fade.
+**RULE FOR A CHILD SITE** — Catalogue pages: keep the global rail, put filters above a self-scrolling grid, size cards from the rem canvas (six per row on the desktop canvas), lift cards .5rem on hover, and open details in place with a 0.3 s cross-fade.
 
 Readable code: [OperatorListSection.50999.js](#js-OperatorListSection-50999-js), [I18nProvider → useOperators (33-operator table)](#js-I18nProvider-4948-js).
 
-## Chapter 23 — News index (/en-us/news): subpage header, tabs, cards
+## 23 News index (/en-us/news): subpage header, tabs, cards
 
-**OBSERVED** The news index is a document page: a 31.625rem SubpageHeader whose background is white for 15.5625rem and #fffa00 below (border-bottom 1rem #c6c6c6), carrying a 4.375rem #191919 icon square, a colon glyph, the ENDFIELD wordmark (viewBox 0 0 354 57), the English subtitle and a dotted deco SVG at the canvas left edge; then the SubpageTab bar (3.75rem tall; tabs padded 0 3rem, radius 4px, hover #f3f3f3, active #e5e5e5 with the text shifted −1.75rem and a 2.3125rem #fafafa arrow disc); then a 114.375rem flex-wrap grid (gap 5rem 1.5rem) of 37rem × 33.375rem cards (20.8125rem image with radius .5rem and a 25% black hover scrim, 2rem type badge on #e6e6e6, 1.5rem SansRegular date, 1.75rem ellipsised title); finally a 30rem Pagination (nav type) centred with margin 3.125rem auto 16.25rem.
+_Chapter 23 · 2 observed · 0 measured · 1 inferred · 1 rules · code: NoticeListSection.92731.js_
 
-**OBSERVED** Tabs: latest / notices / events / news. Page size is DEFAULT_PAGE_SIZE 9 in landscape and 4 in portrait; the list fades 0 → 1 → 0 (0.3 s easeOut, AnimatePresence wait, key page-tab); cards open /en-us/news/<cid> in a new tab after common_click; portrait titles are truncated by TextShrink at 20 characters.
+**OBSERVED** — The news index is a document page: a 31.625rem SubpageHeader whose background is white for 15.5625rem and #fffa00 below (border-bottom 1rem #c6c6c6), carrying a 4.375rem #191919 icon square, a colon glyph, the ENDFIELD wordmark (viewBox 0 0 354 57), the English subtitle and a dotted deco SVG at the canvas left edge; then the SubpageTab bar (3.75rem tall; tabs padded 0 3rem, radius 4px, hover #f3f3f3, active #e5e5e5 with the text shifted −1.75rem and a 2.3125rem #fafafa arrow disc); then a 114.375rem flex-wrap grid (gap 5rem 1.5rem) of 37rem × 33.375rem cards (20.8125rem image with radius .5rem and a 25% black hover scrim, 2rem type badge on #e6e6e6, 1.5rem SansRegular date, 1.75rem ellipsised title); finally a 30rem Pagination (nav type) centred with margin 3.125rem auto 16.25rem.
+
+**OBSERVED** — Tabs: latest / notices / events / news. Page size is DEFAULT_PAGE_SIZE 9 in landscape and 4 in portrait; the list fades 0 → 1 → 0 (0.3 s easeOut, AnimatePresence wait, key page-tab); cards open /en-us/news/ in a new tab after common_click; portrait titles are truncated by TextShrink at 20 characters.
 
 ### Live specimens
 
@@ -3478,8 +3577,39 @@ Readable code: [OperatorListSection.50999.js](#js-OperatorListSection-50999-js),
 
 **The news card (__10-NoticeList_item) is styled only inside .__10-NoticeList_sectionContainer**, so it is shown in the screenshots below and by its CSS; its captured markup is in capture/states/states.json (news_item).
 
+**Specimen — Pagination (nav type) — zero-padded page blocks in Novecentosanswide-Medium with a sliding window of four and a horizontal mask**
+
 ```html
-<table><tbody><tr><th colspan="3"><p>Pagination (nav type) — zero-padded page blocks in Novecentosanswide-Medium with a sliding window of four and a horizontal mask</p></th></tr><tr><td><p>On the news index it sits in a 30rem wrapper centred under the grid.</p></td><td><div class="Pagination_pagination__3IDBu Pagination_nav__BS7X4 __10-NoticeList_pagination__goU3_"><div class="Pagination_button__cVH8L Pagination_disabled__WlgMt"><div class="Pagination_border__Sfc_h"></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n"><path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z"></path></svg></div><div class="Pagination_carousel__A3MAp" style="width: 16rem"><div class="Pagination_block__RqQAA Pagination_active__jZfae" style="width: 4rem">01</div><div class="Pagination_block__RqQAA" style="width: 4rem">02</div><div class="Pagination_block__RqQAA" style="width: 4rem">03</div><div class="Pagination_block__RqQAA" style="width: 4rem">04</div><div class="Pagination_block__RqQAA" style="width: 4rem">05</div><div class="Pagination_block__RqQAA" style="width: 4rem">06</div><div class="Pagination_block__RqQAA" style="width: 4rem">07</div><div class="Pagination_block__RqQAA" style="width: 4rem">08</div></div><div class="Pagination_button__cVH8L"><div class="Pagination_border__Sfc_h"></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n Pagination_right__NDQb6"><path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z"></path></svg></div></div></td><td><p>Clicking a block plays common_click and calls goToPage(index).</p></td></tr></tbody></table>
+On the news index it sits in a 30rem wrapper centred under the grid.
+<div class="Pagination_pagination__3IDBu Pagination_nav__BS7X4 __10-NoticeList_pagination__goU3_">
+<div class="Pagination_button__cVH8L Pagination_disabled__WlgMt">
+<div class="Pagination_border__Sfc_h">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n">
+<path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z">
+</path>
+</svg>
+</div>
+<div class="Pagination_carousel__A3MAp" style="width: 16rem">
+<div class="Pagination_block__RqQAA Pagination_active__jZfae" style="width: 4rem">01</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">02</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">03</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">04</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">05</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">06</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">07</div>
+<div class="Pagination_block__RqQAA" style="width: 4rem">08</div>
+</div>
+<div class="Pagination_button__cVH8L">
+<div class="Pagination_border__Sfc_h">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 27" class="Pagination_arrow__xgX6n Pagination_right__NDQb6">
+<path fill-rule="evenodd" fill="currentColor" d="M14.142,0.127 L17.753,3.737 L7.963,13.527 L17.753,23.318 L14.142,26.928 L0.743,13.527 L14.142,0.127 Z">
+</path>
+</svg>
+</div>
+</div>
+Clicking a block plays common_click and calls goToPage(index).
 ```
 
 | Element | Node | Computed change | Transition |
@@ -3488,7 +3618,7 @@ Readable code: [OperatorListSection.50999.js](#js-OperatorListSection-50999-js),
 
 **Code — NoticeListSection.92731.js lines 86–113 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 goToPage = (0, React.useCallback)(
   async (pageIndex, tab) => {
     let pageSize = "portrait" === orientation ? 4 : BulletinApi.a;
@@ -3519,7 +3649,7 @@ goToPage = (0, React.useCallback)(
 goPrev = (0, React.useCallback)(() => {
 ```
 
-```css
+```
 .SubpageHeader_subpageHeader__eGnaM {
   position: relative;
   height: 31.625rem;
@@ -3751,25 +3881,27 @@ goPrev = (0, React.useCallback)(() => {
 }
 ```
 
-![Capture — news index at 1440×900](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/desktop-1440x900.png)
+![news index at 1440×900](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/desktop-1440x900.png)
 
-![Capture — second tab selected](https://sitedna.endfield.calyndrae.com/capture/states/news-tab2.png)
+![second tab selected](https://sitedna.endfield.calyndrae.com/capture/states/news-tab2.png)
 
-![Capture — news index at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/mobile-390x844.png)
+![news index at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/mobile-390x844.png)
 
-**INFERRED** The masthead's hard white-to-yellow split restates the LORE band of the home page at document scale: one colour event, then disciplined white cards. Tabs are segmented controls, not links, and the active tab physically makes room for an arrow — a small mechanical gesture typical of the whole site.
+**INFERRED** — The masthead's hard white-to-yellow split restates the LORE band of the home page at document scale: one colour event, then disciplined white cards. Tabs are segmented controls, not links, and the active tab physically makes room for an arrow — a small mechanical gesture typical of the whole site.
 
-**RULE FOR A CHILD SITE** Secondary indexes: one bold two-tone masthead, a segmented tab bar with a mechanical active state, a 3-column card grid on the 160rem canvas and the shared Pagination.
+**RULE FOR A CHILD SITE** — Secondary indexes: one bold two-tone masthead, a segmented tab bar with a mechanical active state, a 3-column card grid on the 160rem canvas and the shared Pagination.
 
 Readable code: [NoticeListSection.92731.js](#js-NoticeListSection-92731-js), [SubpageHeader.86797.js](#js-SubpageHeader-86797-js), [TextShrink.51967.js](#js-TextShrink-51967-js), [Pagination.2682.js](#js-Pagination-2682-js).
 
-## Chapter 24 — Article page (this page): template, tables, back-to-top
+## 24 Article page (this page): template, tables, back-to-top
 
-**OBSERVED** The section is min-height 100vh with two decorative corners (:before 39.25rem × 23.375rem top-right and :after 43.0625rem × 43.125rem bottom-left background images, hidden in portrait), a 37.5rem points-bg band at the bottom (1.5em dots, masked) and a decoLB corner mark at the canvas left edge. The content column is 97.75rem wide, padded 13.75rem top and bottom. Tables are the richest element: every th receives a deco wrapper (hatched #f2f2f2 plate, a yellow .5rem bottom bar, the 6rem Novecentosanswide-Bold ENDFIELD ghost word in yellow, corner marks) inserted by decorateNoticeHtml; td cells are 5.625rem tall with #e5e5e5 borders; a special notice-detail-formula-table variant uses #d9d9d9 hairlines and column widths 15/50/35%.
+_Chapter 24 · 2 observed · 1 measured · 1 inferred · 1 rules · code: NoticeDetailSection.36979.js_
 
-**OBSERVED** A fixed 5rem circular #f1f1f1 back-to-top button (bottom/right 2rem, z-index 200) becomes active when documentElement.scrollTop > 600 (throttled 300 ms on scroll and wheel); clicking scrolls to top smoothly and plays arrow_click. A close icon appears in the title when the page was opened from the site (window.opener on the same host) and rotates 90° on hover; it calls window.close().
+**OBSERVED** — The section is min-height 100vh with two decorative corners (:before 39.25rem × 23.375rem top-right and :after 43.0625rem × 43.125rem bottom-left background images, hidden in portrait), a 37.5rem points-bg band at the bottom (1.5em dots, masked) and a decoLB corner mark at the canvas left edge. The content column is 97.75rem wide, padded 13.75rem top and bottom. Tables are the richest element: every th receives a deco wrapper (hatched #f2f2f2 plate, a yellow .5rem bottom bar, the 6rem Novecentosanswide-Bold ENDFIELD ghost word in yellow, corner marks) inserted by decorateNoticeHtml; td cells are 5.625rem tall with #e5e5e5 borders; a special notice-detail-formula-table variant uses #d9d9d9 hairlines and column widths 15/50/35%.
 
-**MEASURED** Back-to-top opacity was 1 after scrolling the live article to 1200px. The title row is 3rem with min-height 7.75rem; the date is formatted as information.displayTimeFormat + " HH:mm" by dayjs.
+**OBSERVED** — A fixed 5rem circular #f1f1f1 back-to-top button (bottom/right 2rem, z-index 200) becomes active when documentElement.scrollTop > 600 (throttled 300 ms on scroll and wheel); clicking scrolls to top smoothly and plays arrow_click. A close icon appears in the title when the page was opened from the site (window.opener on the same host) and rotates 90° on hover; it calls window.close().
+
+**MEASURED** — Back-to-top opacity was 1 after scrolling the live article to 1200px. The title row is 3rem with min-height 7.75rem; the date is formatted as information.displayTimeFormat + " HH:mm" by dayjs.
 
 **Specimen — __20-NoticeDetail_backButton — the back-to-top control as captured (on this page it is live at the bottom-right once you scroll)**
 
@@ -3784,7 +3916,7 @@ Readable code: [NoticeListSection.92731.js](#js-NoticeListSection-92731-js), [Su
 
 **Code — NoticeDetailSection.36979.js lines 52–81 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 decorateNoticeHtml = (html) => {
   if (SiteUtils.isServer) return html;
   if (!html) return "";
@@ -3819,7 +3951,7 @@ decorateNoticeHtml = (html) => {
 
 **Code — NoticeDetailSection.36979.js lines 96–109 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
     handleScroll = (0, lodashThrottle.A)(() => {
       docElement.scrollTop > 600
         ? (isPastThresholdRef.current || setShowBackToTop(!0), (isPastThresholdRef.current = !0))
@@ -3836,7 +3968,7 @@ decorateNoticeHtml = (html) => {
 }, []);
 ```
 
-```css
+```
 .__20-NoticeDetail_sectionContainer__06Hmx {
   position: relative;
   min-height: 100vh;
@@ -3965,17 +4097,19 @@ decorateNoticeHtml = (html) => {
 }
 ```
 
-![Capture — live article scrolled, back-to-top visible](https://sitedna.endfield.calyndrae.com/capture/states/article-back-to-top.png)
+![live article scrolled, back-to-top visible](https://sitedna.endfield.calyndrae.com/capture/states/article-back-to-top.png)
 
-**INFERRED** The article template is the quietest surface on the site, which is exactly why its tables are so decorated: editorial tables are the only place the brand voice can appear inside CMS content.
+**INFERRED** — The article template is the quietest surface on the site, which is exactly why its tables are so decorated: editorial tables are the only place the brand voice can appear inside CMS content.
 
-**RULE FOR A CHILD SITE** Keep long-form pages plain (one column, hairline divider, 1.625rem body) and let the decoration live in reusable editorial elements such as table headers.
+**RULE FOR A CHILD SITE** — Keep long-form pages plain (one column, hairline divider, 1.625rem body) and let the decoration live in reusable editorial elements such as table headers.
 
 Readable code: [NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js), [NoticeDetailContextProvider.61127.js](#js-NoticeDetailContextProvider-61127-js), [useCloseButton.67002.js](#js-useCloseButton-67002-js).
 
-## Chapter 25 — Buttons and controls inventory
+## 25 Buttons and controls inventory
 
-**OBSERVED** Fourteen interactive control families exist across the captured pages. All of them follow the same recipe: a rectangular block with 2–4px radius, a hatched or dotted texture layer, a 0.2 s colour transition on hover, and either a yellow fill or a yellow marker as the active signal. There are no outlined "ghost" buttons and no gradients on controls.
+_Chapter 25 · 1 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — Fourteen interactive control families exist across the captured pages. All of them follow the same recipe: a rectangular block with 2–4px radius, a hatched or dotted texture layer, a 0.2 s colour transition on hover, and either a yellow fill or a yellow marker as the active signal. There are no outlined "ghost" buttons and no gradients on controls.
 
 | Control | Where | Size / colour | Hover / active | In this handbook |
 | --- | --- | --- | --- | --- |
@@ -3995,7 +4129,7 @@ Readable code: [NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js),
 | footer language item | footer | 23.25rem × 4.5rem #f0f0f0 | arrow 90° → 270° when active; dropdown opacity .2s | live footer |
 | Mobile preserve button / menu items | mobile header | 15.5rem hatched #191919; 6.75rem rows | active brightness(.95); active row #fffa00 | screenshot |
 
-```css
+```
 .HomeButton_button__a_6Gh {
   position: relative;
   min-width: 25rem;
@@ -4070,7 +4204,7 @@ Readable code: [NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js),
 }
 ```
 
-```css
+```
 .BackButton_backButton__5Hmrb {
   position: relative;
   min-width: 14.875rem;
@@ -4112,13 +4246,15 @@ Readable code: [NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js),
 }
 ```
 
-**INFERRED** Controls are "mechanical": hover states change material (texture opacity, fill) and move a marker rather than scaling the whole control. That restraint keeps motion for content (cards, media) and makes controls feel like switches.
+**INFERRED** — Controls are "mechanical": hover states change material (texture opacity, fill) and move a marker rather than scaling the whole control. That restraint keeps motion for content (cards, media) and makes controls feel like switches.
 
-**RULE FOR A CHILD SITE** One control recipe: block + texture + 2px radius + 0.2 s colour transition; express hover by fill/marker, not by scale or shadow; disabled = #888/#666 with pointer-events none.
+**RULE FOR A CHILD SITE** — One control recipe: block + texture + 2px radius + 0.2 s colour transition; express hover by fill/marker, not by scale or shadow; disabled = #888/#666 with pointer-events none.
 
-## Chapter 26 — Hover and focus states: complete inventory
+## 26 Hover and focus states: complete inventory
 
-**OBSERVED** 67 :hover / :active / :focus rules exist in the stylesheets; 43 of them are wrapped in @media (any-hover:hover) so touch devices never get stuck hover states. Hover durations are .15s (dropdown), .2s (most) and .3s (rail, share); easing is the default ease or ease-out; no hover uses a spring.
+_Chapter 26 · 1 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — 67 :hover / :active / :focus rules exist in the stylesheets; 43 of them are wrapped in @media (any-hover:hover) so touch devices never get stuck hover states. Hover durations are .15s (dropdown), .2s (most) and .3s (rail, share); easing is the default ease or ease-out; no hover uses a spring.
 
 ### Measured on the live site (computed style before → after, 700 ms after pointer entry)
 
@@ -4228,15 +4364,17 @@ Readable code: [NoticeDetailSection.36979.js](#js-NoticeDetailSection-36979-js),
 | .Dropdown_option:hover | background: rgba(0,0,0,.06) |  |
 | .OperatorItem_operatorItem:hover | transform: translateY(-.5rem) | (any-hover:hover) |
 
-**INFERRED** Hover is treated as a material change (fill, texture, colour) at a fixed 0.2 s; movement is limited to a −.5rem card lift and the Button marker. Consistency of duration matters more than variety.
+**INFERRED** — Hover is treated as a material change (fill, texture, colour) at a fixed 0.2 s; movement is limited to a −.5rem card lift and the Button marker. Consistency of duration matters more than variety.
 
-**RULE FOR A CHILD SITE** Wrap hover rules in any-hover:hover; use 0.2 s for colour/fill, 0.3 s for layout reveals; move at most one element per control.
+**RULE FOR A CHILD SITE** — Wrap hover rules in any-hover:hover; use 0.2 s for colour/fill, 0.3 s for layout reveals; move at most one element per control.
 
 Data: [analysis/hover-states.json](https://sitedna.endfield.calyndrae.com/analysis/hover-states.json) and [analysis/motion.json](https://sitedna.endfield.calyndrae.com/analysis/motion.json).
 
-## Chapter 27 — Entrance, scroll and transition motion: keyframes, transitions, timelines
+## 27 Entrance, scroll and transition motion: keyframes, transitions, timelines
 
-**OBSERVED** Motion is split between CSS and JavaScript. CSS holds 13 keyframe animations (loader fadeIn, scroll-tip move/breathing, rolling marquee, code-printer flashing in gameplay/AIC/finalpage, OrigQuery rotate, calendar breath, swiper preloader) and 134 transition/animation declarations. JavaScript (anime.js 3.2.1 timelines and framer-motion springs/tweens) drives entrances: section reveals, clip-path wipes, text flickers, the loader, carousels and the rail expansion.
+_Chapter 27 · 1 observed · 0 measured · 1 inferred · 1 rules · code: clipRevealAnimation.84245.js, RollingText.96664.js_
+
+**OBSERVED** — Motion is split between CSS and JavaScript. CSS holds 13 keyframe animations (loader fadeIn, scroll-tip move/breathing, rolling marquee, code-printer flashing in gameplay/AIC/finalpage, OrigQuery rotate, calendar breath, swiper preloader) and 134 transition/animation declarations. JavaScript (anime.js 3.2.1 timelines and framer-motion springs/tweens) drives entrances: section reveals, clip-path wipes, text flickers, the loader, carousels and the rail expansion.
 
 ### JavaScript motion vocabulary (readable reconstructions)
 
@@ -4256,7 +4394,7 @@ Data: [analysis/hover-states.json](https://sitedna.endfield.calyndrae.com/analys
 
 **Code — clipRevealAnimation.84245.js lines 31–58 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let flickerReveal = (flickerElement, isExit) => {
     let flickerTimeline = animeJsDefault.A.timeline();
     return (
@@ -4289,7 +4427,7 @@ let flickerReveal = (flickerElement, isExit) => {
 
 **Code — RollingText.96664.js lines 28–63 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let createRollingTimeline = (rollingTarget, overflowWidth) => {
     let rollingTimeline = animeJsDefault.A.timeline({
       loop: !0,
@@ -4431,17 +4569,19 @@ let createRollingTimeline = (rollingTarget, overflowWidth) => {
 | OrigQuery_rotate__o1MMK 1.5s linear infinite | 1 |
 | background-color .2s ease,border-color .2s ease | 1 |
 
-**INFERRED** Three tempos coexist: micro (70–100 ms flickers that make text "boot up"), interface (200–600 ms ease-out moves) and cinematic (5–8 s art drifts). Entrances always move toward the canvas centre from the nearest edge, which is why the composition feels like it assembles.
+**INFERRED** — Three tempos coexist: micro (70–100 ms flickers that make text "boot up"), interface (200–600 ms ease-out moves) and cinematic (5–8 s art drifts). Entrances always move toward the canvas centre from the nearest edge, which is why the composition feels like it assembles.
 
-**RULE FOR A CHILD SITE** Use ease-out quads for interface moves, three-step flickers for labels, quart ease-out for wipes, and one slow drift per hero; never animate layout properties on hover.
+**RULE FOR A CHILD SITE** — Use ease-out quads for interface moves, three-step flickers for labels, quart ease-out for wipes, and one slow drift per hero; never animate layout properties on hover.
 
 Readable code: [clipRevealAnimation.84245.js](#js-clipRevealAnimation-84245-js), [OperatorSection.3492.js](#js-OperatorSection-3492-js), [LoadingScreen.71272.js](#js-LoadingScreen-71272-js), [RollingText.96664.js](#js-RollingText-96664-js), [Toast.71985.js](#js-Toast-71985-js). Data: [analysis/motion-timelines.json](https://sitedna.endfield.calyndrae.com/analysis/motion-timelines.json).
 
-## Chapter 28 — Audio: background music, sound effects, mute state
+## 28 Audio: background music, sound effects, mute state
 
-**OBSERVED** BackgroundMusic wraps the BgmPlayer class with static/media/sound/bgm.3ce37f.mp3 (2.9 MB): loop, autoPlay (retried on first click), fade (VolumeFader ticks every 10 ms, duration scaled by the volume distance, easeInQuad in / easeOutQuad out, default 1000 ms), suspend on visibilitychange and on Skland app lifecycle events, PAUSE/RESUME via the window event HG_MEDIA_BGM_EVENT, volume 1 on desktop and 0.1 on mobile user agents. The rail's mute button toggles the SoundControlStore (zustand persist key "ef-official-sound-control", enabled by default); the Media modal disables music while a video plays.
+_Chapter 28 · 2 observed · 1 measured · 1 inferred · 1 rules · code: SOUND_EFFECT_SOURCES.26097.js, BgmPlayer.58572.js_
 
-**OBSERVED** Sound effects: a SoundEffectPlayer with a pool of 10 <audio> elements primed with a silent WAV (to unlock audio on touch); play(key) returns early when the store is disabled. Twelve cues ship under static/media/sound/: news_cate_click, reserve_click.
+**OBSERVED** — BackgroundMusic wraps the BgmPlayer class with static/media/sound/bgm.3ce37f.mp3 (2.9 MB): loop, autoPlay (retried on first click), fade (VolumeFader ticks every 10 ms, duration scaled by the volume distance, easeInQuad in / easeOutQuad out, default 1000 ms), suspend on visibilitychange and on Skland app lifecycle events, PAUSE/RESUME via the window event HG_MEDIA_BGM_EVENT, volume 1 on desktop and 0.1 on mobile user agents. The rail's mute button toggles the SoundControlStore (zustand persist key "ef-official-sound-control", enabled by default); the Media modal disables music while a video plays.
+
+**OBSERVED** — Sound effects: a SoundEffectPlayer with a pool of 10  elements primed with a silent WAV (to unlock audio on touch); play(key) returns early when the store is disabled. Twelve cues ship under static/media/sound/: news_cate_click, reserve_click.
 
 | Cue | Triggered by | File |
 | --- | --- | --- |
@@ -4458,7 +4598,7 @@ Readable code: [clipRevealAnimation.84245.js](#js-clipRevealAnimation-84245-js),
 
 **Code — SOUND_EFFECT_SOURCES.26097.js lines 55–78 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 play(soundSrc) {
   if (!SoundControlStore.E.getState().enabled) return this;
   let audioElement = this.pool.pop();
@@ -4487,7 +4627,7 @@ play(soundSrc) {
 
 **Code — BgmPlayer.58572.js lines 83–128 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 var VolumeFader = (function () {
     function VolumeFaderClass() {
       ((this.timer = null), (this.isEasing = !1));
@@ -4536,7 +4676,7 @@ var VolumeFader = (function () {
           },
 ```
 
-**MEASURED** Media log from the capture: bgm.3ce37f.mp3 play() was called 1.3 s after navigation on the home page (loop true, muted false, volume 1) and 2.5–3.7 s on the subpages; the INFORMATION background video (01.1e0eb1.mp4, 53 MB) and the gameplay upload videos play muted and looped.
+**MEASURED** — Media log from the capture: bgm.3ce37f.mp3 play() was called 1.3 s after navigation on the home page (loop true, muted false, volume 1) and 2.5–3.7 s on the subpages; the INFORMATION background video (01.1e0eb1.mp4, 53 MB) and the gameplay upload videos play muted and looped.
 
 | Page | Media play() calls (t, kind, src, loop, volume) |
 | --- | --- |
@@ -4547,15 +4687,17 @@ var VolumeFader = (function () {
 | en-us_protocol_privacy_policy |  |
 | en-us_protocol_terms_of_service |  |
 
-**INFERRED** Sound is treated as part of the interface grammar: every click class has its own cue, and the music fades rather than cuts. The persisted mute flag respects the visitor across visits, and the mobile volume of 0.1 avoids startling users on phones.
+**INFERRED** — Sound is treated as part of the interface grammar: every click class has its own cue, and the music fades rather than cuts. The persisted mute flag respects the visitor across visits, and the mobile volume of 0.1 avoids startling users on phones.
 
-**RULE FOR A CHILD SITE** Ship one looping theme with 1 s fades and a persisted mute; give each interaction class (menu, arrow, confirm, close) its own short cue; never play audio before a user gesture.
+**RULE FOR A CHILD SITE** — Ship one looping theme with 1 s fades and a persisted mute; give each interaction class (menu, arrow, confirm, close) its own short cue; never play audio before a user gesture.
 
 Readable code: [backgroundMusic.7725.js](#js-backgroundMusic-7725-js), [BgmPlayer.58572.js](#js-BgmPlayer-58572-js), [SOUND_EFFECT_SOURCES.26097.js](#js-SOUND-EFFECT-SOURCES-26097-js), [useSoundControlStore.2285.js](#js-useSoundControlStore-2285-js).
 
-## Chapter 29 — Icons, imagery and textures
+## 29 Icons, imagery and textures
 
-**OBSERVED** 24 inline SVG icon components are compiled into the bundles (logos, arrows, chevrons, close, globe, share-network glyphs, triangles, colon marks, section icons keyed home/operator/lore/information/gameplay/notice/aicGameplay/milestone/calendar). 162 image assets are imported as modules (with blur placeholders): 33 operator avatars (120px), 33 portraits, 33 full illustrations (up to 13 MB PNGs), per-language title images, store badges, section decorations. 154 further assets are referenced from CSS (textures, masks, decorations), 124 of which are archived in capture/assets/css.
+_Chapter 29 · 2 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — 24 inline SVG icon components are compiled into the bundles (logos, arrows, chevrons, close, globe, share-network glyphs, triangles, colon marks, section icons keyed home/operator/lore/information/gameplay/notice/aicGameplay/milestone/calendar). 162 image assets are imported as modules (with blur placeholders): 33 operator avatars (120px), 33 portraits, 33 full illustrations (up to 13 MB PNGs), per-language title images, store badges, section decorations. 154 further assets are referenced from CSS (textures, masks, decorations), 124 of which are archived in capture/assets/css.
 
 ### Taxonomy icons (class and element) — the same files are used on cards, dropdowns and the stage
 
@@ -4608,7 +4750,7 @@ Readable code: [backgroundMusic.7725.js](#js-backgroundMusic-7725-js), [BgmPlaye
 | [triangles.bcbd794a.svg](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/triangles.bcbd794a.svg) | 0.3 KB | __00-landing, __00-Loading |
 | [wave-bg.8955885a.png](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/wave-bg.8955885a.png) | 16.7 KB | __02-Operator |
 
-**OBSERVED** Recurring texture vocabulary: a 45° hatch (linear-gradient(−45deg, transparent, transparent n%, black 0, black m%, …) at .5rem tiles, opacity .05–.1) on pagination pills, button frames, modal headers and the mobile menu; a dotted points-bg.png (1.5em tiles) on modals and the article bottom; mask-image gradients to fade carousels, the hollow ENDFIELD word and the stage illustration; drop-shadow stacks of white (#ffffff .25rem/.5rem/.5rem) behind corner marks; the HallowText outline made from the same hatch gradient with background-clip text.
+**OBSERVED** — Recurring texture vocabulary: a 45° hatch (linear-gradient(−45deg, transparent, transparent n%, black 0, black m%, …) at .5rem tiles, opacity .05–.1) on pagination pills, button frames, modal headers and the mobile menu; a dotted points-bg.png (1.5em tiles) on modals and the article bottom; mask-image gradients to fade carousels, the hollow ENDFIELD word and the stage illustration; drop-shadow stacks of white (#ffffff .25rem/.5rem/.5rem) behind corner marks; the HallowText outline made from the same hatch gradient with background-clip text.
 
 ### Operator image assets (module imports)
 
@@ -4655,17 +4797,19 @@ Readable code: [backgroundMusic.7725.js](#js-backgroundMusic-7725-js), [BgmPlaye
 | lastrite.8560c002.png | [open](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/lastrite.8560c002.png) |
 | alesh.ca99268b.png | [open](https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/alesh.ca99268b.png) |
 
-**INFERRED** Imagery follows a strict division: photographic/painted assets are only characters and key visuals; everything else is vector, hatch or dots in two inks. That is what lets the saturated art stand out on a page full of structure.
+**INFERRED** — Imagery follows a strict division: photographic/painted assets are only characters and key visuals; everything else is vector, hatch or dots in two inks. That is what lets the saturated art stand out on a page full of structure.
 
-**RULE FOR A CHILD SITE** Allow colour photography only for hero art; build all other decoration from one hatch gradient, one dot texture, hairlines and outlined words.
+**RULE FOR A CHILD SITE** — Allow colour photography only for hero art; build all other decoration from one hatch gradient, one dot texture, hairlines and outlined words.
 
 Data: [capture/fonts-and-css-assets.json](https://sitedna.endfield.calyndrae.com/capture/fonts-and-css-assets.json), [source/module-map.json](https://sitedna.endfield.calyndrae.com/source/module-map.json).
 
-## Chapter 30 — Responsive behaviour: portrait rules and measured mobile layout
+## 30 Responsive behaviour: portrait rules and measured mobile layout
 
-**OBSERVED** 432 rules apply only in portrait. The rail hides, the 9.625rem mobile header appears, sections switch to calc(100vh − var(--vh-offset) − 9.625rem) heights, the operator stage becomes a drawer (contentContainer translateY(100%) → 0 with transition transform .3s ease after entrance), the calendar becomes a draggable scroll, the notice carousel becomes a two-per-page list, the news grid uses page size 4, and the catalogue shows three cards per row.
+_Chapter 30 · 1 observed · 1 measured · 1 inferred · 1 rules_
 
-**MEASURED** Root font-size at 390×844: 5.77778px; no horizontal overflow on any page (scrollWidth ≤ innerWidth: home true, catalogue true). Section heights at 390×844: __01-Home_sectionContainer 788, __02-Operator_sectionContainer 638, __04-Information_sectionContainer 637, __09-Calendar_sectionContainer 889, __05-Gameplay_sectionContainer 638, __08-AIC_sectionContainer 638, __06-Notice_sectionContainer 638 px.
+**OBSERVED** — 432 rules apply only in portrait. The rail hides, the 9.625rem mobile header appears, sections switch to calc(100vh − var(--vh-offset) − 9.625rem) heights, the operator stage becomes a drawer (contentContainer translateY(100%) → 0 with transition transform .3s ease after entrance), the calendar becomes a draggable scroll, the notice carousel becomes a two-per-page list, the news grid uses page size 4, and the catalogue shows three cards per row.
+
+**MEASURED** — Root font-size at 390×844: 5.77778px; no horizontal overflow on any page (scrollWidth ≤ innerWidth: home true, catalogue true). Section heights at 390×844: __01-Home_sectionContainer 788, __02-Operator_sectionContainer 638, __04-Information_sectionContainer 637, __09-Calendar_sectionContainer 889, __05-Gameplay_sectionContainer 638, __08-AIC_sectionContainer 638, __06-Notice_sectionContainer 638 px.
 
 | Component | Portrait-only rules |
 | --- | --- |
@@ -4690,19 +4834,21 @@ Data: [capture/fonts-and-css-assets.json](https://sitedna.endfield.calyndrae.com
 | Header | 8 |
 | GameplayAlbum | 8 |
 
-![Capture — home at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/mobile-390x844.png)
+![home at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/mobile-390x844.png)
 
-![Capture — catalogue at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/mobile-390x844.png)
+![catalogue at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/mobile-390x844.png)
 
-![Capture — article at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/mobile-390x844.png)
+![article at 390×844](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/mobile-390x844.png)
 
-**INFERRED** Portrait is a second design, not a reflow: the 1080×1920 canvas has its own compositions (drawer, vertical bands with rotated wordmarks, stacked cards). Because both canvases scale with rem, there is exactly one phone layout and one desktop layout.
+**INFERRED** — Portrait is a second design, not a reflow: the 1080×1920 canvas has its own compositions (drawer, vertical bands with rotated wordmarks, stacked cards). Because both canvases scale with rem, there is exactly one phone layout and one desktop layout.
 
-**RULE FOR A CHILD SITE** Design two canvases (2560×1440 and 1080×1920) and switch on orientation only; do not add intermediate breakpoints.
+**RULE FOR A CHILD SITE** — Design two canvases (2560×1440 and 1080×1920) and switch on orientation only; do not add intermediate breakpoints.
 
-## Chapter 31 — Internationalisation and runtime fonts
+## 31 Internationalisation and runtime fonts
 
-**OBSERVED** Each of the 13 locales ships as its own module in the main layout chunk (26–97 KB): UI text keys (operator.content.<key>.name, notice.tab.*, modal.user.*, gameplay.items.N.title …), per-locale title images, the font map (SansRegular/Medium/Bold/Black → HarmonyOS Sans for en-us; HarmonyOS Sans SC/TC, Noto Sans JP/KR/Thai Looped for other scripts) and locale components (footer, SvgLogo). I18nProvider exposes {lang, langs, images, text, font, data, components}; useText resolves flat keys first, then dotted paths. FontLoader creates a FontFace per alias, falls back to the .woff2 entry alone, and logs failures.
+_Chapter 31 · 2 observed · 0 measured · 1 inferred · 1 rules · code: FontLoader.45965.js_
+
+**OBSERVED** — Each of the 13 locales ships as its own module in the main layout chunk (26–97 KB): UI text keys (operator.content..name, notice.tab.*, modal.user.*, gameplay.items.N.title …), per-locale title images, the font map (SansRegular/Medium/Bold/Black → HarmonyOS Sans for en-us; HarmonyOS Sans SC/TC, Noto Sans JP/KR/Thai Looped for other scripts) and locale components (footer, SvgLogo). I18nProvider exposes {lang, langs, images, text, font, data, components}; useText resolves flat keys first, then dotted paths. FontLoader creates a FontFace per alias, falls back to the .woff2 entry alone, and logs failures.
 
 | Locale bundle | Minified bytes |
 | --- | --- |
@@ -4723,7 +4869,7 @@ Data: [capture/fonts-and-css-assets.json](https://sitedna.endfield.calyndrae.com
 
 **Code — FontLoader.45965.js lines 22–41 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let loadFontFace = async (family, source) => {
   try {
     let fontFace = new FontFace(family, source);
@@ -4746,21 +4892,23 @@ let loadFontFace = async (family, source) => {
 };
 ```
 
-**OBSERVED** Language-specific CSS exists for widths that differ by script: html[lang=ja-jp] uses vertical-rl text in the rail's game button, de/es/ru/th get larger letter-spaced labels, zh-cn/zh-tw/ja-jp get taller button groups, ko-kr sets word-break keep-all, and portrait titles are capitalised on the overseas build (html[data-oversea=true]).
+**OBSERVED** — Language-specific CSS exists for widths that differ by script: html[lang=ja-jp] uses vertical-rl text in the rail's game button, de/es/ru/th get larger letter-spaced labels, zh-cn/zh-tw/ja-jp get taller button groups, ko-kr sets word-break keep-all, and portrait titles are capitalised on the overseas build (html[data-oversea=true]).
 
-**INFERRED** Shipping fonts per locale through the i18n bundle (not CSS) lets the same alias names (SansMedium…) resolve to different families, so component CSS never changes per language.
+**INFERRED** — Shipping fonts per locale through the i18n bundle (not CSS) lets the same alias names (SansMedium…) resolve to different families, so component CSS never changes per language.
 
-**RULE FOR A CHILD SITE** Alias your body faces (SansRegular/Medium/Bold/Black) and bind the alias to a family per locale at runtime; keep per-locale overrides as html[lang] selectors.
+**RULE FOR A CHILD SITE** — Alias your body faces (SansRegular/Medium/Bold/Black) and bind the alias to a family per locale at runtime; keep per-locale overrides as html[lang] selectors.
 
 Readable code: [I18nProvider.4948.js](#js-I18nProvider-4948-js), [FontLoader.45965.js](#js-FontLoader-45965-js), [SITE_CONFIG.56006.js](#js-SITE-CONFIG-56006-js).
 
-## Chapter 32 — Interactions measured live: clicks, hovers, drags, keyboard, resize, real-time calculations
+## 32 Interactions measured live: clicks, hovers, drags, keyboard, resize, real-time calculations
+
+_Chapter 32 · 2 observed · 21 measured · 1 inferred · 1 rules · code: applyRootFontSize.14577.js, HomeLayout.83597.js, BgmPlayer.58572.js, OperatorSection.3492.js +7_
 
 Static images cannot prove behaviour, so every interactive mechanism below was driven in headless Chromium on the live site and its effect recorded (DOM, computed styles, store values, audio calls, mutation timelines), and the reconstructed code that produces that effect is quoted next to it. Where a calculation runs in real time (root font-size, operator-name fitting), the same algorithm was re-executed in the page and compared with what the site applied.
 
 ### A. Root font-size recomputed at eight viewports
 
-**MEASURED** The html font-size was read after each viewport change and compared with the formula from applyRootFontSize. All eight match to 0.01px.
+**MEASURED** — The html font-size was read after each viewport change and compared with the formula from applyRootFontSize. All eight match to 0.01px.
 
 | Viewport | Orientation | Measured | Formula | Match |
 | --- | --- | --- | --- | --- |
@@ -4775,7 +4923,7 @@ Static images cannot prove behaviour, so every interactive mechanism below was d
 
 **Code — applyRootFontSize.14577.js lines 24–63 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 function applyRootFontSize() {
   let baseFontSize = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : 16;
   void 0 === baseFontSize && (baseFontSize = 16);
@@ -4820,7 +4968,7 @@ function applyRootFontSize() {
 
 ### B. Navigation rail: hover expansion, section clicks, mute
 
-**MEASURED** Hovering the rail: the :before panel transform went from none to matrix(1, 0, 0, 1, 135, 0), nav items widened to 202.5px, label opacity 0 → 1 with transform matrix(1, 0, 0, 1, 0, -6.32812).
+**MEASURED** — Hovering the rail: the :before panel transform went from none to matrix(1, 0, 0, 1, 135, 0), nav items widened to 202.5px, label opacity 0 → 1 with transform matrix(1, 0, 0, 1, 0, -6.32812).
 
 | Rail item | scrollY before → after | hash before → after | hash changed after | active index | overlay transform | sounds |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -4834,7 +4982,7 @@ function applyRootFontSize() {
 
 **Code — HomeLayout.83597.js lines 1322–1329 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   headerClassName,
 ),
 onMouseEnter: () => {
@@ -4847,7 +4995,7 @@ onMouseLeave: () => {
 
 **Code — HomeLayout.83597.js lines 1661–1686 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 handleScrollThrottled = (0, lodashThrottle.A)(() => {
   let nearestSectionKey = "",
     nearestDistance = 2 * window.innerHeight;
@@ -4876,11 +5024,11 @@ handleScrollThrottled = (0, lodashThrottle.A)(() => {
     useSectionViewerStore.setState({
 ```
 
-**OBSERVED** How a click cue is played (this is why the media log sometimes shows a data-URI WAV): the effect pool keeps spare <audio> elements parked on a silent WAV data URI; play() pops one, sets its src attribute to the cue, calls load() and play(), and onended re-parks it on the silent WAV and returns it to the pool.
+**OBSERVED** — How a click cue is played (this is why the media log sometimes shows a data-URI WAV): the effect pool keeps spare  elements parked on a silent WAV data URI; play() pops one, sets its src attribute to the cue, calls load() and play(), and onended re-parks it on the silent WAV and returns it to the pool.
 
 **Code — BgmPlayer.58572.js lines 275–296 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 (SoundEffectsPool.prototype.play = function (effectKey, playOptions) {
   var poolThis = this;
   if (!1 !== this.isEnable) {
@@ -4905,11 +5053,11 @@ handleScrollThrottled = (0, lodashThrottle.A)(() => {
 }));
 ```
 
-**MEASURED** Mute button: localStorage ef-official-sound-control {&quot;state&quot;:{&quot;enabled&quot;:true},&quot;version&quot;:0} → {&quot;state&quot;:{&quot;enabled&quot;:false},&quot;version&quot;:0} → {&quot;state&quot;:{&quot;enabled&quot;:true},&quot;version&quot;:0}; background audio [] → [] → []; media calls during the first click: [{&quot;t&quot;:77228,&quot;kind&quot;:&quot;AUDIO&quot;,&quot;src&quot;:&quot;bgm.3ce37f.mp3&quot;,&quot;paused&quot;:true}]; button label "Sound: Off".
+**MEASURED** — Mute button: localStorage ef-official-sound-control {"state":{"enabled":true},"version":0} → {"state":{"enabled":false},"version":0} → {"state":{"enabled":true},"version":0}; background audio [] → [] → []; media calls during the first click: [{"t":77228,"kind":"AUDIO","src":"bgm.3ce37f.mp3","paused":true}]; button label "Sound: Off".
 
 ### C. Character stage: avatar switch, 2D/3D switch, All Operators
 
-**MEASURED** Avatar rail: 12 switchItem elements are rendered (the component maps centerIndex−5 … centerIndex+6 and wraps the operator list); the active item was index 4; items whose centre lies inside the itemContainer box ({&quot;x&quot;:96.46875,&quot;y&quot;:167.0625,&quot;width&quot;:176.625,&quot;height&quot;:456.75}) are the visible ones, [4,5,6,7] here, because the container's mask-image hides everything outside its border box. A real mouse click at the centre of item 5's image (hit-test under the pointer: {&quot;itemBox&quot;:{&quot;x&quot;:146.53125,&quot;y&quot;:299.8125,&quot;width&quot;:76.5,&quot;height&quot;:76.5},&quot;itemCentre&quot;:&quot;__02-Operator_border__rjZXw&quot;,&quot;imageBox&quot;:{&quot;x&quot;:151.03125,&quot;y&quot;:304.3125,&quot;width&quot;:67.5,&quot;height&quot;:67.5},&quot;imageCentre&quot;:&quot;__02-Operator_border__rjZXw&quot;}; method mouse on image centre) made the active index 4 → 5 (the clicked item becomes the new centre, so the active element's position in the DOM list moves); readout "Typhoeus1 / 33" → "Purrchena2 / 33", illustration typhoea.c4a79f82.png&quot;) → purrche.bdb051d3.png&quot;); sounds [&quot;char_click.beff5b.mp3&quot;]. Item transforms after the click: [&quot;translateY(-47.125rem)&quot;,&quot;translateY(-34.875rem)&quot;,&quot;translateY(-22.625rem)&quot;,&quot;translateY(-10.375rem)&quot;,&quot;translateY(1.875rem)&quot;,&quot;translateY(14.125rem)&quot;,&quot;translateY(26.375rem)&quot;,&quot;translateY(38.625rem)&quot;,&quot;translateY(50.875rem)&quot;,&quot;translateY(63.125rem)&quot;,&quot;translateY(75.375rem)&quot;,&quot;translateY(87.625rem)&quot;].
+**MEASURED** — Avatar rail: 12 switchItem elements are rendered (the component maps centerIndex−5 … centerIndex+6 and wraps the operator list); the active item was index 4; items whose centre lies inside the itemContainer box ({"x":96.46875,"y":167.0625,"width":176.625,"height":456.75}) are the visible ones, [4,5,6,7] here, because the container's mask-image hides everything outside its border box. A real mouse click at the centre of item 5's image (hit-test under the pointer: {"itemBox":{"x":146.53125,"y":299.8125,"width":76.5,"height":76.5},"itemCentre":"__02-Operator_border__rjZXw","imageBox":{"x":151.03125,"y":304.3125,"width":67.5,"height":67.5},"imageCentre":"__02-Operator_border__rjZXw"}; method mouse on image centre) made the active index 4 → 5 (the clicked item becomes the new centre, so the active element's position in the DOM list moves); readout "Typhoeus1 / 33" → "Purrchena2 / 33", illustration typhoea.c4a79f82.png") → purrche.bdb051d3.png"); sounds ["char_click.beff5b.mp3"]. Item transforms after the click: ["translateY(-47.125rem)","translateY(-34.875rem)","translateY(-22.625rem)","translateY(-10.375rem)","translateY(1.875rem)","translateY(14.125rem)","translateY(26.375rem)","translateY(38.625rem)","translateY(50.875rem)","translateY(63.125rem)","translateY(75.375rem)","translateY(87.625rem)"].
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -4926,11 +5074,11 @@ handleScrollThrottled = (0, lodashThrottle.A)(() => {
 | __02-Operator_titleContainer__6rOf9 | 371–371 ms | 2 |  |
 | __02-Operator_contentContainer__4GC_U | 371–371 ms | 2 |  |
 
-![Capture — stage after the avatar click](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-after-avatar-switch.png)
+![stage after the avatar click](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-after-avatar-switch.png)
 
 **Code — OperatorSection.3492.js lines 104–110 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 getSwitchItemTransform = (railItemIndex, railCenterIndex, railIsPortrait) => {
   let railOffset = railItemIndex - railCenterIndex;
   return railIsPortrait
@@ -4942,7 +5090,7 @@ useOperatorIndex = function (indexHookList) {
 
 **Code — OperatorSection.3492.js lines 336–341 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 style: {
   transform: getSwitchItemTransform(itemIndex, centerIndex, isPortraitSwitcher),
 },
@@ -4953,7 +5101,7 @@ onClick: () => {
 
 **Code — OperatorSection.3492.js lines 150–179 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let loadingInTimeline = animeJsDefault.A.timeline();
 (loadingInTimeline.add({
   targets: loadingContainerRef.current,
@@ -4986,9 +5134,9 @@ let revealTimeline = animeJsDefault.A.timeline();
       targets: videoEleContainerRef.current,
 ```
 
-**OBSERVED** The 2D/3D switch is an empty div (&lt;div class=&quot;__02-Operator_switcher3d__I_Eai&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;): the knob is its ::before pseudo-element, whose content is "2D" or "3D" and whose translate3d moves it between the two ends of the pill. Clicking toggles the is3dMode state, which adds the active class; four browsers (vivo, OPPO, MIUI, Quark user agents) get noDisplay instead.
+**OBSERVED** — The 2D/3D switch is an empty div (<div class="__02-Operator_switcher3d__I_Eai" style="opacity: 1;"></div>): the knob is its ::before pseudo-element, whose content is "2D" or "3D" and whose translate3d moves it between the two ends of the pill. Clicking toggles the is3dMode state, which adds the active class; four browsers (vivo, OPPO, MIUI, Quark user agents) get noDisplay instead.
 
-**MEASURED** Before the click: class "__02-Operator_switcher3d", ::before content &quot;2D&quot; at matrix(1, 0, 0, 1, -16.875, 28.125), background rgba(0, 0, 0, 0.5). After one click: class "__02-Operator_switcher3d __02-Operator_active", ::before content &quot;3D&quot; at matrix(1, 0, 0, 1, -16.875, 3.375), background rgba(0, 0, 0, 0.7). After a second click: class "__02-Operator_switcher3d", ::before content &quot;2D&quot; at matrix(1, 0, 0, 1, -16.875, 28.125), background rgba(0, 0, 0, 0.5). Sounds: [&quot;char_click.beff5b.mp3&quot;]. Transparent-video elements after the first click: [{&quot;class&quot;:&quot;__02-Operator_videoContainer__8Cx6H&quot;,&quot;canvas&quot;:true,&quot;video&quot;:{&quot;src&quot;:&quot;enter.5809fa.mp4&quot;,&quot;muted&quot;:true,&quot;readyState&quot;:0,&quot;error&quot;:4}},{&quot;class&quot;:&quot;TransparentVideo_container__Inu2a __02-Operator_video__wMiK7&quot;,&quot;canvas&quot;:true,&quot;video&quot;:{&quot;src&quot;:&quot;enter.5809fa.mp4&quot;,&quot;muted&quot;:true,&quot;readyState&quot;:0,&quot;error&quot;:4}}]; media files requested: [&quot;a92f49a53810d0a162584a10daa9de39.mp4&quot;,&quot;01.1e0eb1.mp4&quot;,&quot;f3b195d0491b0dd8e38cdfca476c7d62.mp4&quot;,&quot;a92f49a53810d0a162584a10daa9de39.mp4&quot;,&quot;enter.5809fa.mp4&quot;]; console: [&quot;[E.P.S] performance test duration 20.40000000037253&quot;,&quot;[E.P.S] renderLevel 0&quot;]. This Chromium's canPlayType for H.264 is &quot;&quot; (empty = cannot decode), so the clip could be assigned and requested but not decoded here; on a desktop browser with H.264 the same path renders the RGB+alpha clip through WebGL.
+**MEASURED** — Before the click: class "__02-Operator_switcher3d", ::before content "2D" at matrix(1, 0, 0, 1, -16.875, 28.125), background rgba(0, 0, 0, 0.5). After one click: class "__02-Operator_switcher3d __02-Operator_active", ::before content "3D" at matrix(1, 0, 0, 1, -16.875, 3.375), background rgba(0, 0, 0, 0.7). After a second click: class "__02-Operator_switcher3d", ::before content "2D" at matrix(1, 0, 0, 1, -16.875, 28.125), background rgba(0, 0, 0, 0.5). Sounds: ["char_click.beff5b.mp3"]. Transparent-video elements after the first click: [{"class":"__02-Operator_videoContainer__8Cx6H","canvas":true,"video":{"src":"enter.5809fa.mp4","muted":true,"readyState":0,"error":4}},{"class":"TransparentVideo_container__Inu2a __02-Operator_video__wMiK7","canvas":true,"video":{"src":"enter.5809fa.mp4","muted":true,"readyState":0,"error":4}}]; media files requested: ["a92f49a53810d0a162584a10daa9de39.mp4","01.1e0eb1.mp4","f3b195d0491b0dd8e38cdfca476c7d62.mp4","a92f49a53810d0a162584a10daa9de39.mp4","enter.5809fa.mp4"]; console: ["[E.P.S] performance test duration 20.40000000037253","[E.P.S] renderLevel 0"]. This Chromium's canPlayType for H.264 is "" (empty = cannot decode), so the clip could be assigned and requested but not decoded here; on a desktop browser with H.264 the same path renders the RGB+alpha clip through WebGL.
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5000,11 +5148,11 @@ let revealTimeline = animeJsDefault.A.timeline();
 | DIV | 352–352 ms | 2 | position: absolute → absolute (352–352 ms, 2 frames) · width: 100% → 100% (352–352 ms, 2 frames) |
 | __02-Operator_loadingContainer__XM2OO | 352–611 ms | 36 | opacity: 0 → 1 (352–611 ms, 36 frames) · transform: translateY(-20%) translateX(-50%) → translateY(-50%) translateX(-50%) (352–611 ms, 36 frames) |
 
-![Capture — stage after clicking the 2D/3D switch](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-3d-toggle.png)
+![stage after clicking the 2D/3D switch](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-3d-toggle.png)
 
 **Code — OperatorSection.3492.js lines 422–431 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   [isDowngraded, setIsDowngraded] = (0, React.useState)(!1);
 (0, React.useEffect)(() => {
   let userAgent = SiteUtils.isServer ? "" : window.navigator.userAgent;
@@ -5019,7 +5167,7 @@ let revealTimeline = animeJsDefault.A.timeline();
 
 **Code — OperatorSection.3492.js lines 968–979 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   className: styles2().switchLayer,
   children: (0, jsx.jsx)("div", {
     className: classnamesDefault()(
@@ -5036,7 +5184,7 @@ let revealTimeline = animeJsDefault.A.timeline();
 
 **Code — OperatorSection.3492.js lines 134–203 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 playEnterSequence = (0, React.useCallback)(async () => {
   var enterClipLookup;
   let transVideoHandle = transVideoRef.current;
@@ -5109,11 +5257,11 @@ playEnterSequence = (0, React.useCallback)(async () => {
     ));
 ```
 
-**MEASURED** "All Operators": opens a new tab = true, URL https://endfield.gryphline.com/en-us/operator, sounds [&quot;char_click.beff5b.mp3&quot;].
+**MEASURED** — "All Operators": opens a new tab = true, URL https://endfield.gryphline.com/en-us/operator, sounds ["char_click.beff5b.mp3"].
 
 **Code — OperatorSection.3492.js lines 1207–1211 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 !detailMode &&
   (0, jsx.jsx)("div", {
     className: classnamesDefault()(styles2().listButton),
@@ -5123,9 +5271,9 @@ playEnterSequence = (0, React.useCallback)(async () => {
 
 ### D. LORE point cloud: quality tier, model switch, drag
 
-**MEASURED** Console on entering the section: []; canvas {&quot;engine&quot;:&quot;three.js r178&quot;,&quot;w&quot;:3150,&quot;h&quot;:1080}. Dots at rest [true,false,false,false,false,false] with codename "DIJIANG" and intro "OMV Dijiang is a spacecraft in the artificial geostationary orbit above Talos-II…".
+**MEASURED** — Console on entering the section: []; canvas {"engine":"three.js r178","w":3150,"h":1080}. Dots at rest [true,false,false,false,false,false] with codename "DIJIANG" and intro "OMV Dijiang is a spacecraft in the artificial geostationary orbit above Talos-II…".
 
-**MEASURED** Clicking the next arrow (dispatched): codename "DIJIANG" → "ANKHOR", dots [false,true,false,false,false,false], intro "Ankhors are mysterious constructs that trigger the formation of Aggeloi. Their o…", canvas pixels changed = true, sounds [&quot;model.569c5b.mp3&quot;], console [].
+**MEASURED** — Clicking the next arrow (dispatched): codename "DIJIANG" → "ANKHOR", dots [false,true,false,false,false,false], intro "Ankhors are mysterious constructs that trigger the formation of Aggeloi. Their o…", canvas pixels changed = true, sounds ["model.569c5b.mp3"], console [].
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5138,7 +5286,7 @@ playEnterSequence = (0, React.useCallback)(async () => {
 
 **Code — HomeLayout.83597.js lines 4474–4485 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   }, []));
 let switchModel = async (requestedModelIndex) => {
     let wrappedModelIndex = requestedModelIndex;
@@ -5155,7 +5303,7 @@ let switchModel = async (requestedModelIndex) => {
 
 **Code — HomeLayout.83597.js lines 2515–2528 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   return void console.warn("Invalid model index: ".concat(nextModelIndex));
 if (nextModelIndex === this.modelIndex || (0, swiper._)(this, switchingField)) return;
 ((0, swiper3._)(this, switchingField, !0), (this.modelIndex = nextModelIndex), this.stopGlitchLoop());
@@ -5172,11 +5320,11 @@ let nextModel = PointCloudModelPlayer.models[nextModelIndex],
   this.currentActor.setCameraFadeDistance(nextModel.cameraFadeDistance),
 ```
 
-**MEASURED** Drag: container cursor grab; two idle frames 700 ms apart differ = true (the scene auto-rotates and animates its particles, so the canvas is never static); after a 300px horizontal mouse drag the canvas differs from the last idle frame = true. The rotation itself lives in the three.js scene (targetRotationY), not in any DOM transform, so the proof of what the drag does is the handler below rather than a style diff.
+**MEASURED** — Drag: container cursor grab; two idle frames 700 ms apart differ = true (the scene auto-rotates and animates its particles, so the canvas is never static); after a 300px horizontal mouse drag the canvas differs from the last idle frame = true. The rotation itself lives in the three.js scene (targetRotationY), not in any DOM transform, so the proof of what the drag does is the handler below rather than a style diff.
 
 **Code — HomeLayout.83597.js lines 2387–2398 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   benchPoints = new threeJs2.ONl(benchGeometry, benchMaterial);
 benchScene.add(benchPoints);
 let benchStart = performance.now();
@@ -5193,7 +5341,7 @@ for (let rawModel of (benchDuration > 60
 
 **Code — HomeLayout.83597.js lines 2316–2323 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 }
 updateRotation() {
   (this.autoRotation && !this.isDragging && (this.targetRotationY += this.autoRotationSpeed),
@@ -5206,7 +5354,7 @@ setAutoRotation(autoRotationEnabled) {
 
 **Code — HomeLayout.83597.js lines 2744–2769 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 (this.handleMouseDown = (mouseDownEvent) => {
   ((this.isDragging = !0),
     (this.previousMouseX = mouseDownEvent.clientX),
@@ -5235,11 +5383,11 @@ setAutoRotation(autoRotationEnabled) {
   ((this.targetRotationY += touchDeltaX * this.rotationSpeed),
 ```
 
-![Capture — LORE scene after the drag](https://sitedna.endfield.calyndrae.com/capture/interactions/lore-after-drag.png)
+![LORE scene after the drag](https://sitedna.endfield.calyndrae.com/capture/interactions/lore-after-drag.png)
 
 ### E. INFORMATION: thumbnail hover, next, play → media modal
 
-**MEASURED** Thumbnails: 10; readout "010 / 010LAST" → "01 / 010LAST"; active index 1 → 2; cover at rest {&quot;filter&quot;:&quot;brightness(0.5)&quot;,&quot;transform&quot;:&quot;matrix(0.8, 0, 0, 0.8, 0, 0)&quot;} → hovered {&quot;filter&quot;:&quot;brightness(0.5)&quot;,&quot;transform&quot;:&quot;matrix(0.8, 0, 0, 0.8, 0, 0)&quot;}; next-click sounds [&quot;arrow_click.a72c10.mp3&quot;]; background video after next: [{&quot;src&quot;:&quot;f3b195d0491b0dd8e38cdfca476c7d62.mp4&quot;,&quot;fadeOut&quot;:false,&quot;opacity&quot;:&quot;1&quot;}].
+**MEASURED** — Thumbnails: 10; readout "010 / 010LAST" → "01 / 010LAST"; active index 1 → 2; cover at rest {"filter":"brightness(0.5)","transform":"matrix(0.8, 0, 0, 0.8, 0, 0)"} → hovered {"filter":"brightness(0.5)","transform":"matrix(0.8, 0, 0, 0.8, 0, 0)"}; next-click sounds ["arrow_click.a72c10.mp3"]; background video after next: [{"src":"f3b195d0491b0dd8e38cdfca476c7d62.mp4","fadeOut":false,"opacity":"1"}].
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5251,13 +5399,13 @@ setAutoRotation(autoRotationEnabled) {
 | __04-Information_title__nPfW6 | 341–662 ms | 2 | opacity: 0 → 1 (341–662 ms, 2 frames) |
 | __04-Information_sectionContainer__OXMtV | 349–349 ms | 2 |  |
 
-**MEASURED** Play: modal class Media_mediaModal__4NhcG Media_active__t0_Nv, opacity/pointer-events {&quot;class&quot;:&quot;Media_mediaModal__4NhcG Media_active__t0_Nv&quot;,&quot;opacity&quot;:&quot;1&quot;,&quot;pointer-events&quot;:&quot;auto&quot;}, iframe {&quot;src&quot;:&quot;https://www.youtube.com/embed/4f3PxzS5iFc&quot;,&quot;allow&quot;:&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;}, audio while open [], media calls [{&quot;t&quot;:179695,&quot;kind&quot;:&quot;AUDIO&quot;,&quot;src&quot;:&quot;common_click.52e9d4.mp3&quot;,&quot;loop&quot;:false,&quot;volume&quot;:1,&quot;muted&quot;:false},{&quot;t&quot;:179695,&quot;kind&quot;:&quot;VIDEO&quot;,&quot;src&quot;:&quot;f3b195d0491b0dd8e38cdfca476c7d62.mp4&quot;,&quot;paused&quot;:true},{&quot;t&quot;:180733,&quot;kind&quot;:&quot;AUDIO&quot;,&quot;src&quot;:&quot;bgm.3ce37f.mp3&quot;,&quot;paused&quot;:true}]. Close: class Media_mediaModal__4NhcG, audio after close [], media calls [{&quot;t&quot;:181860,&quot;kind&quot;:&quot;VIDEO&quot;,&quot;src&quot;:&quot;f3b195d0491b0dd8e38cdfca476c7d62.mp4&quot;,&quot;loop&quot;:true,&quot;volume&quot;:1,&quot;muted&quot;:true},{&quot;t&quot;:181860,&quot;kind&quot;:&quot;AUDIO&quot;,&quot;src&quot;:&quot;bgm.3ce37f.mp3&quot;,&quot;loop&quot;:true,&quot;volume&quot;:0,&quot;muted&quot;:false}].
+**MEASURED** — Play: modal class Media_mediaModal__4NhcG Media_active__t0_Nv, opacity/pointer-events {"class":"Media_mediaModal__4NhcG Media_active__t0_Nv","opacity":"1","pointer-events":"auto"}, iframe {"src":"https://www.youtube.com/embed/4f3PxzS5iFc","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"}, audio while open [], media calls [{"t":179695,"kind":"AUDIO","src":"common_click.52e9d4.mp3","loop":false,"volume":1,"muted":false},{"t":179695,"kind":"VIDEO","src":"f3b195d0491b0dd8e38cdfca476c7d62.mp4","paused":true},{"t":180733,"kind":"AUDIO","src":"bgm.3ce37f.mp3","paused":true}]. Close: class Media_mediaModal__4NhcG, audio after close [], media calls [{"t":181860,"kind":"VIDEO","src":"f3b195d0491b0dd8e38cdfca476c7d62.mp4","loop":true,"volume":1,"muted":true},{"t":181860,"kind":"AUDIO","src":"bgm.3ce37f.mp3","loop":true,"volume":0,"muted":false}].
 
-![Capture — media modal open over the information section](https://sitedna.endfield.calyndrae.com/capture/interactions/media-modal-open.png)
+![media modal open over the information section](https://sitedna.endfield.calyndrae.com/capture/interactions/media-modal-open.png)
 
 **Code — MediaModal.12914.js lines 54–77 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 (0, React.useEffect)(() => {
   if (visible)
     return (
@@ -5286,7 +5434,7 @@ setAutoRotation(autoRotationEnabled) {
 
 ### F. CALENDAR pin states while scrolling
 
-**MEASURED** Section height 1990px. The stick container's position/class as the section scrolls:
+**MEASURED** — Section height 1990px. The stick container's position/class as the section scrolls:
 
 | Scroll from section top | stick classes | position | top | opacity | calendar opacity |
 | --- | --- | --- | --- | --- | --- |
@@ -5301,7 +5449,7 @@ setAutoRotation(autoRotationEnabled) {
 
 **Code — HomeLayout.83597.js lines 5344–5349 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 children: [
   (0, jsx.jsxs)("div", {
     className: classnamesDefault()(styles17().stickContainer, {
@@ -5312,7 +5460,7 @@ children: [
 
 ### G. GAMEPLAY album: next → clip-path reveal
 
-**MEASURED** Index "1 / 4" → "2 / 4", sounds [&quot;arrow_click.a72c10.mp3&quot;].
+**MEASURED** — Index "1 / 4" → "2 / 4", sounds ["arrow_click.a72c10.mp3"].
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5325,11 +5473,11 @@ children: [
 | contentWrapper___UanRy | 526–526 ms | 2 | width: 100% → 100% (526–526 ms, 2 frames) · mask: none → none (526–526 ms, 2 frames) |
 | inner___c_1NH | 526–526 ms | 1 | width: 100% → 100% (526–526 ms, 1 frames) |
 
-![Capture — album after clicking next](https://sitedna.endfield.calyndrae.com/capture/interactions/gameplay-after-next.png)
+![album after clicking next](https://sitedna.endfield.calyndrae.com/capture/interactions/gameplay-after-next.png)
 
 **Code — clipRevealAnimation.84245.js lines 130–159 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
   clipElement &&
     ("left" === direction && isReveal
@@ -5364,7 +5512,7 @@ clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
 
 ### H. NOTICE carousel: card states, next, detail button
 
-**MEASURED** 5 cards; active index 0 → 0; Carousel_item transforms [&quot;matrix(1, 0, 0, 1, 0, 0)&quot;,&quot;matrix(1, 0, 0, 1, 470.205, 0)&quot;,&quot;matrix(1, 0, 0, 1, 895.365, 0)&quot;,&quot;matrix(1, 0, 0, 1, 1320.53, 0)&quot;,&quot;matrix(1, 0, 0, 1, 1745.69, 0)&quot;] → [&quot;matrix(1, 0, 0, 1, 0, 0)&quot;,&quot;matrix(1, 0, 0, 1, 470.205, 0)&quot;,&quot;matrix(1, 0, 0, 1, 895.365, 0)&quot;,&quot;matrix(1, 0, 0, 1, 1320.53, 0)&quot;,&quot;matrix(1, 0, 0, 1, 1745.69, 0)&quot;]; card states [{&quot;active&quot;:true,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 0, 0)&quot;,&quot;overlayOpacity&quot;:&quot;0&quot;},{&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(0.818, 0, 0, 0.818, 0, 0)&quot;,&quot;overlayOpacity&quot;:&quot;1&quot;},{&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(0.818, 0, 0, 0.818, 0, 0)&quot;,&quot;overlayOpacity&quot;:&quot;1&quot;},{&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(0.818, 0, 0, 0.818, 0, 0)&quot;,&quot;overlayOpacity&quot;:&quot;1&quot;}]; readout 2/5; sounds [&quot;arrow_click.a72c10.mp3&quot;]; detail button opens new tab true to https://endfield.gryphline.com/en-us/news with sounds [&quot;common_click.52e9d4.mp3&quot;].
+**MEASURED** — 5 cards; active index 0 → 0; Carousel_item transforms ["matrix(1, 0, 0, 1, 0, 0)","matrix(1, 0, 0, 1, 470.205, 0)","matrix(1, 0, 0, 1, 895.365, 0)","matrix(1, 0, 0, 1, 1320.53, 0)","matrix(1, 0, 0, 1, 1745.69, 0)"] → ["matrix(1, 0, 0, 1, 0, 0)","matrix(1, 0, 0, 1, 470.205, 0)","matrix(1, 0, 0, 1, 895.365, 0)","matrix(1, 0, 0, 1, 1320.53, 0)","matrix(1, 0, 0, 1, 1745.69, 0)"]; card states [{"active":true,"transform":"matrix(1, 0, 0, 1, 0, 0)","overlayOpacity":"0"},{"active":false,"transform":"matrix(0.818, 0, 0, 0.818, 0, 0)","overlayOpacity":"1"},{"active":false,"transform":"matrix(0.818, 0, 0, 0.818, 0, 0)","overlayOpacity":"1"},{"active":false,"transform":"matrix(0.818, 0, 0, 0.818, 0, 0)","overlayOpacity":"1"}]; readout 2/5; sounds ["arrow_click.a72c10.mp3"]; detail button opens new tab true to https://endfield.gryphline.com/en-us/news with sounds ["common_click.52e9d4.mp3"].
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5374,7 +5522,7 @@ clipRevealAnimation = (clipElement, direction, isReveal, clipDuration) => (
 
 **Code — HomeLayout.83597.js lines 4072–4087 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 carouselItemTransform = (slotIndex, activeSlot) => {
   let slotDelta = slotIndex - activeSlot,
     slotOffsetPx =
@@ -5395,11 +5543,11 @@ NoticeCarousel = (carouselProps) => {
 
 ### I. Footer language picker
 
-**MEASURED** Options [&quot;English&quot;,&quot;繁體中文&quot;,&quot;日本語&quot;,&quot;한국어&quot;,&quot;Español&quot;,&quot;Português&quot;,&quot;Français&quot;,&quot;Deutsch&quot;,&quot;Русский&quot;,&quot;Italiano&quot;,&quot;Indonesia&quot;,&quot;ไทย&quot;,&quot;Tiếng Việt&quot;]; dropdown {&quot;class&quot;:&quot;footer_dropDown__SAbib&quot;,&quot;opacity&quot;:&quot;1&quot;,&quot;pointer-events&quot;:&quot;all&quot;}; choosing an option navigated to https://endfield.gryphline.com/zh-tw#notice.
+**MEASURED** — Options ["English","繁體中文","日本語","한국어","Español","Português","Français","Deutsch","Русский","Italiano","Indonesia","ไทย","Tiếng Việt"]; dropdown {"class":"footer_dropDown__SAbib","opacity":"1","pointer-events":"all"}; choosing an option navigated to https://endfield.gryphline.com/zh-tw#notice.
 
 **Code — Footer.46173.js lines 107–114 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 switchLanguage = (0, React.useCallback)(
   (targetLang) => {
     let newPathname = window.location.pathname.replace("/".concat(lang), "/".concat(targetLang));
@@ -5412,7 +5560,7 @@ clickOutsideRef = (0, useClickOutsideHook.W)(() => setDropdownOpen(!1));
 
 ### J. Catalogue: name-fit recomputed for every card, keyboard dropdown, filter, detail
 
-**MEASURED** The bisection from OperatorCard was re-run in the page with the loaded SansBold face for 33 cards; 33 applied font sizes match the recomputation within 0.002rem.
+**MEASURED** — The bisection from OperatorCard was re-run in the page with the loaded SansBold face for 33 cards; 33 applied font sizes match the recomputation within 0.002rem.
 
 | Name | Applied rem | Recomputed rem | Text width px | Box px | Match |
 | --- | --- | --- | --- | --- | --- |
@@ -5452,7 +5600,7 @@ clickOutsideRef = (0, useClickOutsideHook.W)(() => setDropdownOpen(!1));
 
 **Code — OperatorListSection.50999.js lines 198–237 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 let fitName = () => {
   let rootFontSizePx = (function () {
       if ("undefined" == typeof document) return 16;
@@ -5495,7 +5643,7 @@ fitName();
 let resizeObserver = new ResizeObserver(() => fitName());
 ```
 
-**MEASURED** Dropdown keyboard: {&quot;focusOutline&quot;:&quot;solid rgba(255, 204, 26, 0.85)&quot;,&quot;role&quot;:&quot;button&quot;,&quot;ariaHaspopup&quot;:&quot;listbox&quot;,&quot;ariaExpandedBefore&quot;:&quot;false&quot;,&quot;afterEnter&quot;:{&quot;ariaExpanded&quot;:&quot;true&quot;,&quot;rootClass&quot;:&quot;Dropdown_root Dropdown_prof Dropdown_open&quot;,&quot;panel&quot;:{&quot;class&quot;:&quot;Dropdown_panel__ujBcP&quot;,&quot;opacity&quot;:&quot;1&quot;,&quot;visibility&quot;:&quot;visible&quot;,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 0, 0)&quot;,&quot;pointer-events&quot;:&quot;auto&quot;},&quot;listboxRole&quot;:&quot;listbox&quot;,&quot;optionRoles&quot;:[&quot;option&quot;,&quot;option&quot;,&quot;option&quot;]},&quot;afterEscape&quot;:{&quot;ariaExpanded&quot;:&quot;false&quot;,&quot;panel&quot;:{&quot;class&quot;:&quot;Dropdown_panel__ujBcP&quot;,&quot;opacity&quot;:&quot;0&quot;,&quot;visibility&quot;:&quot;hidden&quot;}}}. Filter "Caster": {&quot;option&quot;:&quot;Caster&quot;,&quot;cards&quot;:5,&quot;indices&quot;:[&quot;01 / 33&quot;,&quot;02 / 33&quot;,&quot;03 / 33&quot;,&quot;04 / 33&quot;,&quot;05 / 33&quot;],&quot;triggerIcon&quot;:&quot;caster&quot;,&quot;selectedBg&quot;:{&quot;class&quot;:&quot;Dropdown_bg__0iRXw&quot;,&quot;opacity&quot;:&quot;1&quot;}}. Card click → detail: {&quot;detailClass&quot;:&quot;__12-OperatorList_totalContainer __12-OperatorList_detail&quot;,&quot;stagePresent&quot;:true,&quot;sounds&quot;:[]}.
+**MEASURED** — Dropdown keyboard: {"focusOutline":"solid rgba(255, 204, 26, 0.85)","role":"button","ariaHaspopup":"listbox","ariaExpandedBefore":"false","afterEnter":{"ariaExpanded":"true","rootClass":"Dropdown_root Dropdown_prof Dropdown_open","panel":{"class":"Dropdown_panel__ujBcP","opacity":"1","visibility":"visible","transform":"matrix(1, 0, 0, 1, 0, 0)","pointer-events":"auto"},"listboxRole":"listbox","optionRoles":["option","option","option"]},"afterEscape":{"ariaExpanded":"false","panel":{"class":"Dropdown_panel__ujBcP","opacity":"0","visibility":"hidden"}}}. Filter "Caster": {"option":"Caster","cards":5,"indices":["01 / 33","02 / 33","03 / 33","04 / 33","05 / 33"],"triggerIcon":"caster","selectedBg":{"class":"Dropdown_bg__0iRXw","opacity":"1"}}. Card click → detail: {"detailClass":"__12-OperatorList_totalContainer __12-OperatorList_detail","stagePresent":true,"sounds":[]}.
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5512,7 +5660,7 @@ let resizeObserver = new ResizeObserver(() => fitName());
 
 **Code — OperatorListSection.50999.js lines 35–94 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 function FilterDropdown(props) {
   var tmpSelectedKey, tmpIconKey;
   let {
@@ -5575,11 +5723,11 @@ function FilterDropdown(props) {
               (keyEvent.preventDefault(), toggleOpen()),
 ```
 
-![Capture — catalogue detail after clicking a card](https://sitedna.endfield.calyndrae.com/capture/interactions/catalogue-detail.png)
+![catalogue detail after clicking a card](https://sitedna.endfield.calyndrae.com/capture/interactions/catalogue-detail.png)
 
 ### K. News: tab click, card hover, pagination, opener-aware close, portrait TextShrink
 
-**MEASURED** Tabs [&quot;Latest&quot;,&quot;Notices&quot;,&quot;Events&quot;,&quot;News&quot;]; after clicking the second tab: {&quot;activeTab&quot;:[&quot;Notices&quot;],&quot;textShift&quot;:{&quot;class&quot;:&quot;SubpageTab_text__x2QY7&quot;,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, -15.75, 0)&quot;},&quot;arrowOpacity&quot;:{&quot;class&quot;:&quot;SubpageTab_arrow__vyyID&quot;,&quot;opacity&quot;:&quot;1&quot;},&quot;cards&quot;:9,&quot;types&quot;:[&quot;Notices&quot;],&quot;sounds&quot;:[&quot;news_cate_click.cb3c01.mp3&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]}. Card image hover scrim {&quot;scrimBefore&quot;:&quot;0&quot;,&quot;scrimAfter&quot;:&quot;1&quot;,&quot;transition&quot;:&quot;opacity 0.2s&quot;}. Pagination {&quot;blocks&quot;:[{&quot;text&quot;:&quot;01&quot;,&quot;active&quot;:true,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 0, 0)&quot;},{&quot;text&quot;:&quot;02&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 36, 0)&quot;},{&quot;text&quot;:&quot;03&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 72, 0)&quot;},{&quot;text&quot;:&quot;04&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 108, 0)&quot;},{&quot;text&quot;:&quot;05&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 144, 0)&quot;},{&quot;text&quot;:&quot;06&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 180, 0)&quot;},{&quot;text&quot;:&quot;07&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 216, 0)&quot;},{&quot;text&quot;:&quot;08&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 252, 0)&quot;}],&quot;afterClick&quot;:{&quot;blocks&quot;:[{&quot;text&quot;:&quot;01&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 0, 0)&quot;},{&quot;text&quot;:&quot;02&quot;,&quot;active&quot;:true,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 36, 0)&quot;},{&quot;text&quot;:&quot;03&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 72, 0)&quot;},{&quot;text&quot;:&quot;04&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 108, 0)&quot;},{&quot;text&quot;:&quot;05&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 144, 0)&quot;},{&quot;text&quot;:&quot;06&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 180, 0)&quot;},{&quot;text&quot;:&quot;07&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 216, 0)&quot;},{&quot;text&quot;:&quot;08&quot;,&quot;active&quot;:false,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, 252, 0)&quot;}],&quot;firstTitleBefore&quot;:&quot;[OrbiPom! MERGE!] Fun &amp; Games Event Details&quot;,&quot;firstTitleAfter&quot;:&quot;[Dreamscape of Wind and Snow] Version Pre-Download &amp; Update Notice&quot;,&quot;sounds&quot;:[&quot;common_click.52e9d4.mp3&quot;]}}.
+**MEASURED** — Tabs ["Latest","Notices","Events","News"]; after clicking the second tab: {"activeTab":["Notices"],"textShift":{"class":"SubpageTab_text__x2QY7","transform":"matrix(1, 0, 0, 1, -15.75, 0)"},"arrowOpacity":{"class":"SubpageTab_arrow__vyyID","opacity":"1"},"cards":9,"types":["Notices"],"sounds":["news_cate_click.cb3c01.mp3","","","","","","","","",""]}. Card image hover scrim {"scrimBefore":"0","scrimAfter":"1","transition":"opacity 0.2s"}. Pagination {"blocks":[{"text":"01","active":true,"transform":"matrix(1, 0, 0, 1, 0, 0)"},{"text":"02","active":false,"transform":"matrix(1, 0, 0, 1, 36, 0)"},{"text":"03","active":false,"transform":"matrix(1, 0, 0, 1, 72, 0)"},{"text":"04","active":false,"transform":"matrix(1, 0, 0, 1, 108, 0)"},{"text":"05","active":false,"transform":"matrix(1, 0, 0, 1, 144, 0)"},{"text":"06","active":false,"transform":"matrix(1, 0, 0, 1, 180, 0)"},{"text":"07","active":false,"transform":"matrix(1, 0, 0, 1, 216, 0)"},{"text":"08","active":false,"transform":"matrix(1, 0, 0, 1, 252, 0)"}],"afterClick":{"blocks":[{"text":"01","active":false,"transform":"matrix(1, 0, 0, 1, 0, 0)"},{"text":"02","active":true,"transform":"matrix(1, 0, 0, 1, 36, 0)"},{"text":"03","active":false,"transform":"matrix(1, 0, 0, 1, 72, 0)"},{"text":"04","active":false,"transform":"matrix(1, 0, 0, 1, 108, 0)"},{"text":"05","active":false,"transform":"matrix(1, 0, 0, 1, 144, 0)"},{"text":"06","active":false,"transform":"matrix(1, 0, 0, 1, 180, 0)"},{"text":"07","active":false,"transform":"matrix(1, 0, 0, 1, 216, 0)"},{"text":"08","active":false,"transform":"matrix(1, 0, 0, 1, 252, 0)"}],"firstTitleBefore":"[OrbiPom! MERGE!] Fun & Games Event Details","firstTitleAfter":"[Dreamscape of Wind and Snow] Version Pre-Download & Update Notice","sounds":["common_click.52e9d4.mp3"]}}.
 
 | Element | Window | Mutations | What changed |
 | --- | --- | --- | --- |
@@ -5589,15 +5737,15 @@ function FilterDropdown(props) {
 | __10-NoticeList_sectionContainer__tmyCM | 343–343 ms | 2 |  |
 | __10-NoticeList_image__2vMeD | 343–1307 ms | 11 | · src 343ms b477b4aa5b1b132275fef5d5a69c690e.jpg; 343ms 121e71a2c9ea6036f6d06be488f9bf68.jpg; 343ms 82eb128394df3c98ba50e01a12fc2e0e.png; 343ms 8e90c45ea77f1a1f092e5e7a718ae493.jpg; 343ms faf45ea862bee7e7e7b02bc2b1095482.png; 343ms f5d748ab8f058ba69cc38a14593 |
 
-**MEASURED** Opening a card in a new tab (so window.opener exists): {&quot;url&quot;:&quot;https://endfield.gryphline.com/en-us/news/5209&quot;,&quot;closeIconPresent&quot;:true,&quot;openerSameHost&quot;:true,&quot;closeRest&quot;:&quot;none&quot;,&quot;closeHover&quot;:&quot;matrix(0, 1, -1, 0, 0, 0)&quot;}.
+**MEASURED** — Opening a card in a new tab (so window.opener exists): {"url":"https://endfield.gryphline.com/en-us/news/5209","closeIconPresent":true,"openerSameHost":true,"closeRest":"none","closeHover":"matrix(0, 1, -1, 0, 0, 0)"}.
 
-![Capture — article opened from the index: the close icon is present](https://sitedna.endfield.calyndrae.com/capture/interactions/article-with-close.png)
+![article opened from the index: the close icon is present](https://sitedna.endfield.calyndrae.com/capture/interactions/article-with-close.png)
 
-**MEASURED** Portrait (390×844): page size 4, pagination null, titles [{&quot;rendered&quot;:&quot;[OrbiPom! MERGE!] Fun &amp; Games Event Details&quot;,&quot;ellipsis&quot;:false,&quot;chars&quot;:43},{&quot;rendered&quot;:&quot;[Dreamscape of Wind and Snow] Version Upda...&quot;,&quot;ellipsis&quot;:true,&quot;chars&quot;:45},{&quot;rendered&quot;:&quot;Dense Forest Slumbers Beneath the Snow, Ech...&quot;,&quot;ellipsis&quot;:true,&quot;chars&quot;:46},{&quot;rendered&quot;:&quot;[Resplendent Spectrum] RE-Factor Headhuntin...&quot;,&quot;ellipsis&quot;:true,&quot;chars&quot;:46}].
+**MEASURED** — Portrait (390×844): page size 4, pagination null, titles [{"rendered":"[OrbiPom! MERGE!] Fun & Games Event Details","ellipsis":false,"chars":43},{"rendered":"[Dreamscape of Wind and Snow] Version Upda...","ellipsis":true,"chars":45},{"rendered":"Dense Forest Slumbers Beneath the Snow, Ech...","ellipsis":true,"chars":46},{"rendered":"[Resplendent Spectrum] RE-Factor Headhuntin...","ellipsis":true,"chars":46}].
 
 **Code — NoticeListSection.92731.js lines 86–113 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
 goToPage = (0, React.useCallback)(
   async (pageIndex, tab) => {
     let pageSize = "portrait" === orientation ? 4 : BulletinApi.a;
@@ -5630,7 +5778,7 @@ goPrev = (0, React.useCallback)(() => {
 
 **Code — TextShrink.51967.js lines 5–30 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
  * TextShrink: a component (export A) that returns a string, truncating `text` with '...' so it fits options.length character widths. shrinkText measures with a 2D canvas context using font '16px <options.font>' and a width budget of 16 * options.length px: starting at length-3 characters it grows the candidate while candidate+'...' still fits, and returns candidate+'...' once the plain candidate also overflows; if no canvas is available it falls back to slice(0, length-3)+'...'. Returns the text unchanged when length is 0 or the text is already shorter. On the server it returns the raw text; on the client the result is recomputed in an effect whenever text or options change.
  *
  * Exports (minified key → meaning):
@@ -5661,7 +5809,7 @@ const module_51967 = (webpackModule, webpackExports, webpackRequire) => {
 
 **Code — useCloseButton.67002.js lines 2–23 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
  * useCloseButton — readable reconstruction of webpack module 67002 (chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js
  *
@@ -5688,15 +5836,15 @@ const module_67002 = (webpackModule, webpackExports, webpackRequire) => {
 
 ### L. Mobile header and menu (390×844, touch)
 
-**MEASURED** Header {&quot;class&quot;:&quot;Header_h5HeaderContainer__ctquk SectionViewer_header__G6fOm&quot;,&quot;height&quot;:&quot;55.6094px&quot;,&quot;box-shadow&quot;:&quot;rgba(0, 0, 0, 0.3) 0px 0px 11.5556px 0px&quot;}; menu opened by tap failed → click({force}); menu transform matrix(1, 0, 0, 1, -409.5, 0) → matrix(1, 0, 0, 1, 0, 0) with classes Header_h5Menu Header_active; items [{&quot;text&quot;:&quot;Home&quot;,&quot;active&quot;:true,&quot;bg&quot;:&quot;rgb(255, 250, 0)&quot;},{&quot;text&quot;:&quot;Operators&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;Lore&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;Media&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;Version Calendar&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;Gameplay&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;AIC Factory Intro&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;},{&quot;text&quot;:&quot;News&quot;,&quot;active&quot;:false,&quot;bg&quot;:&quot;rgb(242, 242, 242)&quot;}]; tapping the second item: {&quot;itemBox&quot;:{&quot;x&quot;:50.546875,&quot;y&quot;:303.1875,&quot;width&quot;:288.875,&quot;height&quot;:39},&quot;tapMethod&quot;:&quot;tap&quot;,&quot;menuTransform&quot;:{&quot;class&quot;:&quot;Header_h5Menu__Tl_yj&quot;,&quot;transform&quot;:&quot;matrix(1, 0, 0, 1, -409.5, 0)&quot;},&quot;hash&quot;:&quot;#operator&quot;,&quot;scrollY&quot;:788,&quot;sounds&quot;:[&quot;common_click.52e9d4.mp3&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;]}; operator drawer {&quot;class&quot;:&quot;__02-Operator_contentContainer__4GC_U&quot;,&quot;transform&quot;:&quot;none&quot;,&quot;transition&quot;:&quot;transform 0.3s&quot;}.
+**MEASURED** — Header {"class":"Header_h5HeaderContainer__ctquk SectionViewer_header__G6fOm","height":"55.6094px","box-shadow":"rgba(0, 0, 0, 0.3) 0px 0px 11.5556px 0px"}; menu opened by tap failed → click({force}); menu transform matrix(1, 0, 0, 1, -409.5, 0) → matrix(1, 0, 0, 1, 0, 0) with classes Header_h5Menu Header_active; items [{"text":"Home","active":true,"bg":"rgb(255, 250, 0)"},{"text":"Operators","active":false,"bg":"rgb(242, 242, 242)"},{"text":"Lore","active":false,"bg":"rgb(242, 242, 242)"},{"text":"Media","active":false,"bg":"rgb(242, 242, 242)"},{"text":"Version Calendar","active":false,"bg":"rgb(242, 242, 242)"},{"text":"Gameplay","active":false,"bg":"rgb(242, 242, 242)"},{"text":"AIC Factory Intro","active":false,"bg":"rgb(242, 242, 242)"},{"text":"News","active":false,"bg":"rgb(242, 242, 242)"}]; tapping the second item: {"itemBox":{"x":50.546875,"y":303.1875,"width":288.875,"height":39},"tapMethod":"tap","menuTransform":{"class":"Header_h5Menu__Tl_yj","transform":"matrix(1, 0, 0, 1, -409.5, 0)"},"hash":"#operator","scrollY":788,"sounds":["common_click.52e9d4.mp3","","","","","","","","",""]}; operator drawer {"class":"__02-Operator_contentContainer__4GC_U","transform":"none","transition":"transform 0.3s"}.
 
-![Capture — mobile menu open](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-menu-open.png)
+![mobile menu open](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-menu-open.png)
 
-![Capture — mobile operator drawer](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-operator.png)
+![mobile operator drawer](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-operator.png)
 
 **Code — HomeLayout.83597.js lines 1427–1432 (readable reconstruction of the shipped module; values and control flow unchanged):**
 
-```js
+```
   [styles2().active]: isHeaderExpanded,
 }),
 onClick: () => {
@@ -5705,15 +5853,17 @@ onClick: () => {
 children: [
 ```
 
-**INFERRED** Every interaction resolves to one of three kinds of change: a class toggle that the CSS animates (rail, tabs, menu, modal, calendar pin), an inline style written by anime.js or framer-motion (entrances, carousel, clip-path wipes), or a store/URL change (hash, mute flag, language path). There is no interaction that depends on a timer alone; everything is event-driven and ends in a settled state.
+**INFERRED** — Every interaction resolves to one of three kinds of change: a class toggle that the CSS animates (rail, tabs, menu, modal, calendar pin), an inline style written by anime.js or framer-motion (entrances, carousel, clip-path wipes), or a store/URL change (hash, mute flag, language path). There is no interaction that depends on a timer alone; everything is event-driven and ends in a settled state.
 
-**RULE FOR A CHILD SITE** Implement interactions as class toggles animated by CSS where the end state is static, as JS timelines where the motion needs sequencing, and mirror navigation state into the URL hash and persisted stores.
+**RULE FOR A CHILD SITE** — Implement interactions as class toggles animated by CSS where the end state is static, as JS timelines where the motion needs sequencing, and mirror navigation state into the URL hash and persisted stores.
 
 Raw data: [capture/interactions.json](https://sitedna.endfield.calyndrae.com/capture/interactions.json).
 
-## Chapter 33 — JavaScript map: chunks, modules, readable reconstructions
+## 33 JavaScript map: chunks, modules, readable reconstructions
 
-**OBSERVED** Deobfuscation pipeline: every chunk was beautified (source/beautified), split into its 708 webpack modules (source/modules), named by evidence (exports, CSS-module classes, strings, library signatures), and the 49 site-owned modules were renamed scope-aware with Babel: library aliases from the module map, CSS-module objects → styles, then every remaining minified binding was made unique and mapped to a meaningful name by reading the code. Values, strings, class names and control flow are unchanged. Vendor libraries are identified by name/version instead of being renamed (their readable sources are public).
+_Chapter 33 · 2 observed · 0 measured · 1 inferred · 1 rules_
+
+**OBSERVED** — Deobfuscation pipeline: every chunk was beautified (source/beautified), split into its 708 webpack modules (source/modules), named by evidence (exports, CSS-module classes, strings, library signatures), and the 49 site-owned modules were renamed scope-aware with Babel: library aliases from the module map, CSS-module objects → styles, then every remaining minified binding was made unique and mapped to a meaningful name by reading the code. Values, strings, class names and control flow are unchanged. Vendor libraries are identified by name/version instead of being renamed (their readable sources are public).
 
 | Readable file | Module | Chunk | Minified bytes | Renames | Summary |
 | --- | --- | --- | --- | --- | --- |
@@ -5808,21 +5958,23 @@ Raw data: [capture/interactions.json](https://sitedna.endfield.calyndrae.com/cap
 | react/jsx-runtime | 41 |
 | anime.js 3.2.1 | 27 |
 
-**OBSERVED** Runtime data stores (zustand): section viewer (currentSection), loader (loaded), sound control (persisted), media modal, reserve modal, user modal, orig-query modal. Context providers: I18n, BulletinList, VideoList, NoticeDetail. Tracking: Gryphline SDK ETL events (content_view, web_page_swipe, click, download, book_success, social_media_redirect, video_play_start/end) plus Google Analytics gtag.
+**OBSERVED** — Runtime data stores (zustand): section viewer (currentSection), loader (loaded), sound control (persisted), media modal, reserve modal, user modal, orig-query modal. Context providers: I18n, BulletinList, VideoList, NoticeDetail. Tracking: Gryphline SDK ETL events (content_view, web_page_swipe, click, download, book_success, social_media_redirect, video_play_start/end) plus Google Analytics gtag.
 
-**INFERRED** The code is organised by section, not by widget: each home section is a self-contained component with its own CSS module, its own entrance timeline and its own tracking calls, and shared primitives (Button, Pagination, SectionTitle, HollowText, TransparentVideo, RollingText) are few and small.
+**INFERRED** — The code is organised by section, not by widget: each home section is a self-contained component with its own CSS module, its own entrance timeline and its own tracking calls, and shared primitives (Button, Pagination, SectionTitle, HollowText, TransparentVideo, RollingText) are few and small.
 
-**RULE FOR A CHILD SITE** Structure a child site as sections with co-located CSS modules and timelines; keep a short list of shared primitives; put all cross-section state in tiny stores.
+**RULE FOR A CHILD SITE** — Structure a child site as sections with co-located CSS modules and timelines; keep a short list of shared primitives; put all cross-section state in tiny stores.
 
 Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/MODULE-MAP.md) · raw archive: [capture/js](https://sitedna.endfield.calyndrae.com/capture/js/) · beautified: [source/beautified](https://sitedna.endfield.calyndrae.com/source/beautified/).
 
-## Chapter 34 — Components declared in CSS but not rendered on the captured pages
+## 34 Components declared in CSS but not rendered on the captured pages
 
-**OBSERVED** 14 of 52 CSS-module components ship in the stylesheets but never appeared in the DOM of any captured en-us page (desktop or portrait snapshot): BackButton, HomeButton, LandingBottom, LandingGameplay, OrigQuery, ScrollViewer, TextShrink, Toast, TransparentVideo, __00-landing, __03-gameplay, __04-finalpage, h5-cn, pc-cn. Their exact CSS is listed so that the inventory is complete; nothing is invented for them.
+_Chapter 34 · 1 observed · 0 measured · 1 inferred · 0 rules_
+
+**OBSERVED** — 14 of 52 CSS-module components ship in the stylesheets but never appeared in the DOM of any captured en-us page (desktop or portrait snapshot): BackButton, HomeButton, LandingBottom, LandingGameplay, OrigQuery, ScrollViewer, TextShrink, Toast, TransparentVideo, __00-landing, __03-gameplay, __04-finalpage, h5-cn, pc-cn. Their exact CSS is listed so that the inventory is complete; nothing is invented for them.
 
 ### BackButton — 3 landscape rules (0ff6a898df0edefb.css) — unused on the captured pages
 
-```css
+```
 .BackButton_backButton__5Hmrb {
   position: relative;
   min-width: 14.875rem;
@@ -5863,7 +6015,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### HomeButton — 15 landscape rules (0ff6a898df0edefb.css) — landing route buttons
 
-```css
+```
 .HomeButton_button__a_6Gh {
   position: relative;
   min-width: 25rem;
@@ -5929,7 +6081,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### LandingBottom — 15 landscape rules (0ff6a898df0edefb.css) — landing route
 
-```css
+```
 .LandingBottom_container__BGiWo {
   position: absolute;
   bottom: 0;
@@ -6008,7 +6160,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### LandingGameplay — 27 landscape rules (0ff6a898df0edefb.css) — landing route
 
-```css
+```
 .LandingGameplay_gameplayAlbum__Xu9oc.LandingGameplay_aic__bjiyS .LandingGameplay_imageContainer__Xl75Q {
   position: relative;
 }
@@ -6097,7 +6249,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### OrigQuery — 31 landscape rules (3bd8ebba7b8795c3.css) — renders only when lang = ja-jp
 
-```css
+```
 .OrigQuery_origQueryModal__yXuao {
   position: fixed;
   top: 0;
@@ -6177,7 +6329,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### ScrollViewer — 3 landscape rules (1ef245f541070a31.css) — landing route scroll tip
 
-```css
+```
 .ScrollViewer_container__wn7Yp {
   width: 100%;
   height: 100%;
@@ -6200,7 +6352,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### TextShrink — 2 landscape rules (3bd8ebba7b8795c3.css) — portrait news titles only
 
-```js
+```
 .TextShrink_indentLeft__aN70U {
   display: inline-block;
   margin-left: calc(var(--textIndent-half, .5em)*-1);
@@ -6213,7 +6365,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### Toast — 3 landscape rules (1ef245f541070a31.css) — renders only on network errors
 
-```css
+```
 .Toast_toast__ZnoVW {
   position: fixed;
   z-index: 2000;
@@ -6253,7 +6405,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### TransparentVideo — 3 landscape rules (6b6d9a58b4c43339.css) — mounts only after switching the stage to 3D
 
-```css
+```
 .TransparentVideo_container__Inu2a {
   position: relative;
 }
@@ -6278,7 +6430,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### __00-landing — 39 landscape rules (0ff6a898df0edefb.css) — pre-launch landing route (outside the depth-1 crawl)
 
-```css
+```
 .__00-landing_container__0qC45 {
   width: 100%;
   height: 100%;
@@ -6392,7 +6544,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### __03-gameplay — 24 landscape rules (0ff6a898df0edefb.css) — landing route
 
-```css
+```
 .__03-gameplay_sectionContainer__Pq_YT {
   position: relative;
   width: 100%;
@@ -6457,7 +6609,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### __04-finalpage — 22 landscape rules (1ef245f541070a31.css) — landing route
 
-```css
+```
 .__04-finalpage_sectionContainer__w2kZ2 {
   position: relative;
   width: 100%;
@@ -6528,7 +6680,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### h5-cn — 17 landscape rules (79293df1a997d2da.css) — mainland-China portrait download panel
 
-```css
+```
 .h5-cn_container__Ys2AK {
   position: absolute;
   inset: 0;
@@ -6616,7 +6768,7 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 ### pc-cn — 19 landscape rules (79293df1a997d2da.css) — mainland-China build of the hero download panel
 
-```css
+```
 .pc-cn_container__CKshH {
   position: absolute;
   inset: 0;
@@ -6689,9 +6841,11 @@ Full map: [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/M
 
 **… 9 more rules for this component in analysis/css-rules.json**
 
-**INFERRED** The landing family shows the same grammar (yellow progress, hatched buttons, hollow words), confirming that the DNA predates the current home page.
+**INFERRED** — The landing family shows the same grammar (yellow progress, hatched buttons, hollow words), confirming that the DNA predates the current home page.
 
-## Chapter 35 — Coverage matrix: every component and where it is used here
+## 35 Coverage matrix: every component and where it is used here
+
+_Chapter 35 · 1 observed · 0 measured · 0 inferred · 0 rules_
 
 Proof of the rule "use all of them": every CSS-module component of the site is either live on this page, embedded as verbatim markup, shown by screenshot with its exact CSS, or listed as not rendered at depth 1.
 
@@ -6750,9 +6904,11 @@ Proof of the rule "use all of them": every CSS-module component of the site is e
 | protocol | 3 | 637308dda4dd7f2d.css | CSS listed in [unrendered](#unrendered) |
 | sections | 6 | dd1a1cedef0d47ea.css | live (sections_sectionViewer wrapper) |
 
-**OBSERVED** 12 components are embedded as verbatim markup in 6 chapters; the remaining ones are live chrome of this page, screenshots with CSS, or declared-only components.
+**OBSERVED** — 12 components are embedded as verbatim markup in 6 chapters; the remaining ones are live chrome of this page, screenshots with CSS, or declared-only components.
 
-## Chapter 36 — Build a child site: the transferable rules
+## 36 Build a child site: the transferable rules
+
+_Chapter 36 · 0 observed · 0 measured · 0 inferred · 0 rules_
 
 These are the inferred, transferable rules. Each one is derived from an OBSERVED or MEASURED fact earlier on this page; the facts are the authority, the rules are the interpretation.
 
@@ -6775,7 +6931,7 @@ These are the inferred, transferable rules. Each one is derived from an OBSERVED
 
 ### How to work with this repository
 
-```js
+```
 # archive & analysis (already produced; re-run to refresh)
 node tools/capture.mjs            # depth-1 capture with instrumentation
 node tools/analyze-css.mjs        # rule database and token tables
@@ -6789,308 +6945,177 @@ node tools/verify.mjs             # headless checks + screenshots → verificati
 
 Original pages through the mirror: [/en-us](https://sitedna.endfield.calyndrae.com/en-us) · [/en-us/operator](https://sitedna.endfield.calyndrae.com/en-us/operator) · [/en-us/news](https://sitedna.endfield.calyndrae.com/en-us/news). Everything in this handbook that is not an original component is text, and the text is tagged.
 
-## Index — Components, files, fonts, colours and terms
+## Visual record: every captured screenshot
 
-Page numbers refer to the chapters (the code appendices are not indexed; use Contents for them). Identifiers are matched exactly; terms are matched regardless of case.
+Every screenshot taken while the site was captured and measured, in the order the capture scripts produced them. They are the visual counterpart of the measurements in the chapters: the chapters give the numbers, these show what the numbers describe. All were taken in headless Chromium on 2026-10-03 against the live site.
 
-#### _
+### Home page /en-us
 
-- __00-landing 11, 12, 13, 111, 112, 114, 146, 153, 159
-- __00-Loading 6, 11, 12, 13, 111, 112, 159
-- __01-Home 32, 159
-- __02-Operator 1, 6, 11, 12, 13, 34, 37, 111, 112, 114, 159
-- __03-gameplay 11, 12, 13, 111, 114, 146, 155, 159
-- __03-Lore 11, 12, 13, 111, 114, 159
-- __04-finalpage 11, 12, 13, 111, 114, 146, 156, 159
-- __04-Information 11, 12, 13, 114, 159
-- __05-Gameplay 12, 13, 111, 159
-- __06-Notice 11, 12, 13, 111, 112, 159
-- __08-AIC 12, 13, 111, 114, 159
-- __09-Calendar 11, 159
-- __10-NoticeList 11, 12, 13, 114, 159
-- __12-OperatorList 111, 159
-- __20-NoticeDetail 6, 11, 13, 111, 112, 114, 159
-- __21-ProtocolDetail 5, 11, 13, 111, 112, 114, 159
-#### #
+![Home page /en-us — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/desktop-1440x900.png)
 
-- #000 11, 12, 32, 41, 44, 48, 63, 96, 101, 148, 157, 158
-- #00ffa2 11, 12, 44, 76, 161
-- #191919 11, 12, 16, 20, 22, 36, 54, 56, 57, 66, 71, 76 … (26 pages)
-- #2e2e2e 11, 12, 60, 61, 68, 148
-- #35373c 11, 12, 46
-- #424242 11, 12, 36, 96, 98, 101, 146
-- #666 11, 12, 28, 44, 63, 98
-- #888 11, 63, 70, 72, 87, 96, 97, 98, 147, 154
-- #999 11, 12, 36, 57, 96, 97, 100, 147, 156
-- #b3b3b3 11, 12, 150
-- #ccc 11, 12, 97, 101, 147, 150
-- #d9d9d9 11, 12, 15, 16, 17, 20, 36, 46, 60, 76, 87, 91 … (17 pages)
-- #e5e5e5 11, 12, 82, 87, 91, 93, 96, 101
-- #e6e6e6 11, 12, 16, 20, 60, 82
-- #f0f0f0 11, 12, 70, 71, 72, 96, 101, 150
-- #f2f2f2 11, 12, 20, 21, 91, 94, 97, 147
-- #fafafa 11, 12, 46, 60, 67, 68, 82, 87, 96, 102
-- #ff00f0 11, 12, 76, 161
-- #ff1aac 11, 44
-- #fff 11, 12, 20, 22, 29, 36, 44, 45, 48, 56, 63, 66 … (29 pages)
-- #fff000 11
-- #fffa00 11, 12, 20, 21, 28, 29, 44, 54, 56, 60, 61, 63 … (23 pages)
-- #ffffff 11, 112, 150
-- 2D/3D 34, 121, 123, 124
-#### A
+![Home page /en-us — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/desktop-full.png)
 
-- AIC_ITEMS 1, 59, 143
-- alignment 1, 3, 17, 18
-- alpha 40, 41, 123, 161
-- analytics 7, 144, 145
-- anime.js 3, 6, 34, 54, 104, 141, 142, 143, 144, 145
-- App Router 5, 6, 144, 161
-- applyRootFontSize 1, 8, 119, 143
-- article 1, 3, 4, 5, 7, 9, 12, 15, 16, 18, 19, 28 … (23 pages)
-- avatar 34, 75, 109, 121, 122, 142
-- axios 3, 5, 6, 144
-#### B
+![Home page /en-us — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us/mobile-390x844.png)
 
-- back-to-top 1, 9, 10, 91, 94, 109, 142, 161
-- BackButton 11, 12, 13, 96, 111, 146, 159
-- background music 1, 4, 46, 109
-- backgroundMusic 2, 110, 144
-- BackgroundVideo 2, 42, 50, 142
-- bg 11, 29, 44, 67, 68, 76, 91, 92, 96, 111, 112, 114 … (16 pages)
-- BgmPlayer 2, 109, 110, 120, 142, 144
-- blueprint 3, 161
-- border-radius 22, 36, 60, 63, 66, 76, 78, 79, 87, 88, 97, 98 … (21 pages)
-- box-shadow 11, 12, 21, 79, 88, 97, 107, 139, 147
-- BulletinListContextProvider 2, 64
-- Button 1, 11, 12, 13, 46, 60, 64, 96, 103, 111, 145, 159
-#### C
+### News index /en-us/news
 
-- calendar 1, 9, 10, 11, 18, 32, 51, 52, 53, 104, 106, 111 … (18 pages)
-- canvas 1, 3, 8, 14, 18, 27, 34, 38, 40, 41, 43, 72 … (27 pages)
-- Carousel 104, 159
-- carousel 1, 13, 50, 54, 60, 62, 104, 114, 131, 132, 141, 142, 159
-- catalogue 1, 3, 4, 5, 7, 9, 73, 79, 81, 96, 104, 109 … (18 pages)
-- child site 1, 3, 7, 8, 10, 145, 161
-- chunk 5, 6, 7, 43, 118, 139, 142, 143, 144, 161
-- click cue 120
-- clip-path 36, 37, 54, 59, 60, 63, 101, 102, 104, 106, 107, 130, 141, 161
-- clipRevealAnimation 2, 39, 54, 55, 59, 104, 108, 131
-- colour 1, 3, 11, 12, 20, 27, 31, 38, 65, 73, 90, 96 … (17 pages)
-- cookie 6
-- coverage 1, 3, 159
-- CSS modules 1, 6, 145, 161
-- cubic-bezier 28, 29, 67, 104
-- curtain 31, 161
-#### D
+![News index /en-us/news — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/desktop-1440x900.png)
 
-- dayjs 3, 6, 91, 144
-- dotted 67, 69, 82, 96, 112, 118
-- download 1, 51, 65, 137, 143, 145, 157, 158, 160
-- downloader 11, 12, 13, 65, 96, 111, 114, 160
-- drag 43, 45, 126, 128
-- drop-shadow 63, 76, 112, 158
-- Dropdown 11, 12, 13, 73, 74, 96, 111, 134, 159
-- dropdown 9, 11, 12, 13, 70, 71, 72, 73, 74, 75, 78, 79 … (22 pages)
-#### E
+![News index /en-us/news — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/desktop-full.png)
 
-- easing 35, 99, 104, 105, 110, 123, 125
-- emotion 3, 6, 144
-- entrance 1, 34, 38, 104, 105, 114, 145
-#### F
+![News index /en-us/news — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news/mobile-390x844.png)
 
-- filter 11, 12, 28, 29, 49, 54, 63, 76, 78, 85, 102, 118 … (17 pages)
-- focus 1, 50, 78, 96, 99, 100, 103
-- FontLoader 2, 118, 143
-- footer 4, 5, 6, 9, 11, 13, 46, 70, 72, 96, 114, 118, 142, 160
-- Footer 1, 2, 6, 70, 72, 132, 142
-- footer 1, 2, 4, 5, 6, 9, 11, 13, 46, 70, 71, 72 … (19 pages)
-- formatNumberWithCommas 2, 143
-- framer-motion 3, 6, 28, 104, 141, 142, 144, 145
-#### G
+### News article /en-us/news/7013
 
-- GAMEPLAY_ITEMS 2, 59, 143
-- GameplayAlbum 1, 13, 54, 59, 114, 159
-- getBulletinDetail 2, 143
-- getChargeInfo 2, 143
-- getVideoList 2, 143
-- ghost 14, 91, 96, 161
-- Gilroy 13, 14, 36, 44, 54, 56, 57, 86, 149, 154, 161
-- gradient 12, 28, 29, 36, 44, 46, 48, 49, 51, 60, 61, 67 … (24 pages)
-- grid 81, 82, 84, 90, 114, 161
-- Gryphline 3, 6, 70, 142, 145
-#### H
+![News article /en-us/news/7013 — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/desktop-1440x900.png)
 
-- h5-cn 11, 13, 146, 157, 160
-- h5-oversea 160
-- HallowText 13, 112, 159
-- hamburger 21
-- HarmonyOS Sans 7, 13, 14, 16, 118
-- hash 1, 4, 5, 6, 32, 70, 120, 132, 139, 141, 144, 161
-- hatched 20, 60, 67, 69, 73, 74, 91, 96, 158
-- Header 1, 11, 12, 13, 20, 96, 111, 112, 114, 139, 159
-- HollowText 2, 144, 145
-- HomeButton 11, 12, 13, 96, 111, 146, 147, 159
-- HomeLayout 2, 5, 6, 21, 27, 32, 33, 43, 45, 50, 51, 53 … (23 pages)
-- hover 1, 3, 8, 12, 20, 24, 27, 46, 60, 64, 65, 67 … (31 pages)
-#### I
+![News article /en-us/news/7013 — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/desktop-full.png)
 
-- i18n 118, 142, 143, 145, 161
-- I18nProvider 2, 6, 81, 118, 142
-- icon 6, 12, 20, 22, 37, 44, 46, 54, 57, 65, 66, 67 … (34 pages)
-- image 6, 11, 12, 28, 29, 36, 37, 40, 44, 48, 49, 54 … (44 pages)
-- isQuarkBrowser 2, 143
-#### J
+![News article /en-us/news/7013 — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_news_7013/mobile-390x844.png)
 
-- jpg 29, 37, 44, 76, 77, 111, 132, 137, 148, 155, 156
-#### K
+### Operator catalogue /en-us/operator
 
-- keyboard 1, 3, 32, 119, 132, 134
-- keyframes 1, 30, 51, 54, 104, 106, 107
-#### L
+![Operator catalogue /en-us/operator — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/desktop-1440x900.png)
 
-- LandingBottom 11, 12, 13, 146, 148, 159
-- LandingGameplay 11, 13, 114, 146, 149, 159
-- landscape 8, 28, 34, 35, 51, 82, 119, 143, 146, 147, 148, 149 … (21 pages)
-- language 1, 5, 7, 9, 11, 45, 70, 72, 96, 118, 132, 141, 142
-- launcher 4, 65, 143
-- layer 1, 3, 9, 58, 73, 96, 161
-- lazy 9
-- loader 4, 7, 12, 14, 19, 30, 31, 34, 43, 45, 104, 105, 145, 161
-- loading screen 9
-- LoadingScreen 2, 28, 31, 104, 108, 142
-- locale 118, 161
-- LORE 1, 11, 12, 13, 18, 34, 35, 43, 44, 45, 46, 47 … (21 pages)
-- lottie 3, 6
-- lottie 3, 6
-#### M
+![Operator catalogue /en-us/operator — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/desktop-full.png)
 
-- mask-image 11, 61, 66, 68, 94, 112, 121
-- Media 11, 46, 67, 96, 100, 101, 102, 103, 109, 110, 139, 159, 161
-- MediaModal 2, 47, 50, 69, 129, 143
-- mobile menu 9, 12, 27, 112, 140, 161
-- modal 1, 9, 46, 67, 69, 109, 112, 118, 128, 129, 141, 142 … (16 pages)
-- ModalFrame 11, 13, 67, 96, 111, 114, 159
-- mute 1, 20, 109, 110, 120, 121, 141, 161
-#### N
+![Operator catalogue /en-us/operator — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_operator/mobile-390x844.png)
 
-- name-fit 75, 132
-- navigation rail 1, 4, 18, 20, 120
-- news 1, 3, 4, 5, 6, 7, 14, 20, 21, 28, 60, 82 … (33 pages)
-- Next.js 1, 3, 5, 6, 161
-- NoticeDetailContextProvider 2, 5, 95, 142, 143
-- NoticeDetailSection 2, 5, 7, 92, 95, 142
-- NoticeListSection 2, 5, 6, 84, 90, 138, 142
-- Novecento 14, 161
-#### O
+### Privacy policy /en-us/protocol/privacy_policy
 
-- opacity 3, 20, 22, 28, 29, 34, 35, 36, 45, 46, 48, 49 … (60 pages)
-- operator 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13 … (50 pages)
-- OPERATOR_VIDEO_CLIPS 2, 40, 42
-- OperatorItem 11, 12, 13, 73, 111, 159
-- OperatorListSection 2, 5, 7, 75, 81, 133, 135, 142
-- OperatorSection 2, 6, 35, 39, 75, 104, 108, 122, 124, 125, 142
-- orientation 1, 8, 9, 35, 85, 104, 117, 119, 138, 161
-- OrigQuery 11, 13, 104, 114, 146, 150, 159
-- OrigQueryModalRoot 2, 69
-#### P
+![Privacy policy /en-us/protocol/privacy_policy — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_privacy_policy/desktop-1440x900.png)
 
-- Pagination 1, 2, 11, 12, 13, 54, 60, 64, 82, 84, 90, 96 … (17 pages)
-- Pagination 1, 2, 11, 12, 13, 54, 60, 64, 82, 84, 90, 96 … (17 pages)
-- pagination 1, 2, 11, 12, 13, 54, 60, 64, 82, 84, 90, 96 … (23 pages)
-- pc-cn 11, 13, 146, 158, 160
-- pc-oversea 65, 160
-- players 11, 54, 160
-- png 36, 37, 44, 61, 62, 63, 66, 68, 76, 78, 93, 97 … (25 pages)
-- point cloud 43, 45, 126
-- portrait 1, 4, 8, 14, 18, 21, 28, 31, 32, 34, 35, 51 … (31 pages)
-- privacy 4, 5
-- protocol 4, 5, 13, 159, 160
-- protocol 4, 5, 13, 110, 159, 160
-#### R
+![Privacy policy /en-us/protocol/privacy_policy — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_privacy_policy/desktop-full.png)
 
-- rail 1, 4, 5, 8, 10, 12, 18, 20, 21, 23, 24, 27 … (29 pages)
-- React 3, 5, 6, 28, 40, 47, 70, 74, 85, 124, 125, 129 … (17 pages)
-- rem canvas 1, 3, 8
-- ReserveModal 11, 13, 67, 69, 114, 159
-- Roboto 13, 71
-- RollingContent 159
-- RollingText 2, 39, 104, 108, 143, 145
-- root font-size 3, 4, 8, 114, 119
-- rounded 20
-#### S
+![Privacy policy /en-us/protocol/privacy_policy — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_privacy_policy/mobile-390x844.png)
 
-- SansBlack 7, 13, 148
-- SansBold 7, 13, 14, 34, 46, 60, 61, 73, 76, 86, 132
-- SansMedium 7, 13, 14, 16, 28, 36, 54, 60, 63, 65, 66, 70 … (24 pages)
-- SansRegular 7, 13, 14, 16, 28, 29, 46, 67, 68, 82, 87, 118, 161
-- scroll 1, 6, 9, 18, 32, 51, 53, 70, 87, 91, 92, 104 … (16 pages)
-- ScrollViewer 146, 151, 159
-- SDK 1, 3, 6, 69, 70, 142, 145
-- sections 5, 17, 18, 21, 28, 31, 32, 54, 114, 142, 145, 160
-- SectionTitle 2, 6, 11, 12, 13, 46, 50, 104, 142, 145, 159
-- SectionTitle 2, 6, 11, 12, 13, 46, 50, 104, 142, 145, 159
-- SectionViewer 18, 32, 33, 142, 159
-- share 10, 12, 18, 20, 25, 67, 96, 99, 109, 111
-- SITE_CONFIG 2, 118, 143
-- sound 1, 2, 3, 4, 5, 43, 109, 110, 121, 143, 144, 145, 161
-- SOUND_EFFECT_SOURCES 2, 109, 110
-- SpaceGrotesk 13
-- spacing 1, 14, 15, 16, 17, 61, 93, 148
-- specimen 3, 14, 34, 46, 60, 73, 74, 82, 84, 91, 159
-- stagger 39
-- SubpageHeader 2, 11, 12, 13, 82, 90, 114, 142, 159
-- SubpageHeader 2, 11, 12, 13, 82, 90, 114, 142, 159
-- SubpageTab 11, 13, 82, 84, 96, 159
-- SVG 6, 20, 29, 34, 46, 47, 70, 82, 83, 84, 91, 92 … (18 pages)
-- swiper 1, 3, 6, 9, 11, 46, 104, 107, 126, 144
-#### T
+### Terms of service /en-us/protocol/terms_of_service
 
-- terms 3, 4, 5
-- TextShrink 2, 14, 82, 90, 136, 138, 143, 146, 151, 159
-- TextShrink 2, 14, 82, 90, 136, 138, 143, 146, 151, 159
-- texture 41, 60, 63, 67, 96, 97, 98, 103, 111, 112, 113, 147, 161
-- three.js 1, 3, 5, 6, 7, 43, 126, 144
-- timeline 1, 6, 34, 51, 52, 53, 104, 105, 112, 113, 123, 125, 144, 145
-- Toast 2, 5, 9, 13, 67, 69, 85, 104, 108, 138, 143, 146, 151, 159
-- Toast 2, 5, 9, 13, 67, 69, 85, 104, 108, 138, 143, 146, 151, 159
-- Tracking 2, 6, 32, 47, 65, 70, 72, 120, 129, 142, 144, 145
-- tracking 2, 6, 32, 34, 43, 46, 47, 65, 70, 72, 120, 129 … (15 pages)
-- TRACKING_GROUPS 2, 144
-- trans-video 6, 40, 142, 143
-- transform 3, 16, 20, 21, 22, 29, 30, 34, 36, 41, 44, 45 … (71 pages)
-- transition 1, 3, 16, 20, 28, 29, 34, 36, 48, 49, 58, 60 … (45 pages)
-- transparent video 1, 40
-- TransparentVideo 2, 34, 42, 143, 145, 146, 152, 159
-- TransparentVideo 2, 34, 42, 143, 145, 146, 152, 159
-- TransVideo 2, 40, 42, 142
-- typography 1, 3, 13, 14, 45
-#### U
+![Terms of service /en-us/protocol/terms_of_service — first viewport at 1440×900 after the loader](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_terms_of_service/desktop-1440x900.png)
 
-- useCloseButton 2, 95, 138, 139, 143
-- useOrientation 2, 8, 28, 143
-- UserModal 11, 13, 67, 159
-- UserModalRoot 2, 69, 143
-- useSoundControlStore 2, 110
-#### V
+![Terms of service /en-us/protocol/terms_of_service — full page at 1440 wide](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_terms_of_service/desktop-full.png)
 
-- video 1, 2, 5, 6, 7, 10, 40, 41, 42, 46, 47, 48 … (25 pages)
-- VideoListContextProvider 2
-#### W
+![Terms of service /en-us/protocol/terms_of_service — first viewport at 390×844 (portrait)](https://sitedna.endfield.calyndrae.com/capture/pages/en-us_protocol_terms_of_service/mobile-390x844.png)
 
-- WebGL 40, 41, 123, 161
-- webpack 6, 139, 142
-#### Y
+### Interaction states
 
-- YouTube 46
-#### Z
+States reached by driving the page: rail hover, share list, dropdown open, operator detail, filtered catalogue, news tabs, footer language picker, mobile menu, the home-page sections scrolled into view, and the loader at 800, 2200 and 4500 ms on the home, article and mobile routes.
 
-- z-index 9, 16, 20, 22, 29, 49, 51, 52, 67, 68, 70, 71 … (21 pages)
-- zustand 3, 6, 32, 109, 142, 143, 144, 145
-## Appendix A — The twelve stylesheets, complete and beautified
+![article back to top](https://sitedna.endfield.calyndrae.com/capture/states/article-back-to-top.png)
 
-These are the site's own CSS files, archived verbatim from the CDN and reformatted with prettier (no rule changed, no selector renamed). Class names carry the CSS-module hash the site ships with; a child site built with CSS modules will generate its own hashes, so copy the rules, not the hashed names. Font and image URLs point at the original CDN.
+![dropdown open](https://sitedna.endfield.calyndrae.com/capture/states/dropdown-open.png)
 
-| # | File | Minified bytes | Lines (beautified) | Components styled |
+![footer language open](https://sitedna.endfield.calyndrae.com/capture/states/footer-language-open.png)
+
+![footer](https://sitedna.endfield.calyndrae.com/capture/states/footer.png)
+
+![header rail hover](https://sitedna.endfield.calyndrae.com/capture/states/header-rail-hover.png)
+
+![header rail](https://sitedna.endfield.calyndrae.com/capture/states/header-rail.png)
+
+![header share open](https://sitedna.endfield.calyndrae.com/capture/states/header-share-open.png)
+
+![loading article 2200 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-article-2200ms.png)
+
+![loading article 4500 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-article-4500ms.png)
+
+![loading article 800 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-article-800ms.png)
+
+![loading home 2200 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-home-2200ms.png)
+
+![loading home 4500 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-home-4500ms.png)
+
+![loading home 800 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-home-800ms.png)
+
+![loading mobile 2200 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-mobile-2200ms.png)
+
+![loading mobile 4500 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-mobile-4500ms.png)
+
+![loading mobile 800 ms](https://sitedna.endfield.calyndrae.com/capture/states/loading-mobile-800ms.png)
+
+![mobile home](https://sitedna.endfield.calyndrae.com/capture/states/mobile-home.png)
+
+![mobile menu open](https://sitedna.endfield.calyndrae.com/capture/states/mobile-menu-open.png)
+
+![news list](https://sitedna.endfield.calyndrae.com/capture/states/news-list.png)
+
+![news tab2](https://sitedna.endfield.calyndrae.com/capture/states/news-tab2.png)
+
+![operator detail](https://sitedna.endfield.calyndrae.com/capture/states/operator-detail.png)
+
+![operator list filtered](https://sitedna.endfield.calyndrae.com/capture/states/operator-list-filtered.png)
+
+![operator stage 3d](https://sitedna.endfield.calyndrae.com/capture/states/operator-stage-3d.png)
+
+![operator stage](https://sitedna.endfield.calyndrae.com/capture/states/operator-stage.png)
+
+![section aic](https://sitedna.endfield.calyndrae.com/capture/states/section-aic.png)
+
+![section calendar](https://sitedna.endfield.calyndrae.com/capture/states/section-calendar.png)
+
+![section gameplay](https://sitedna.endfield.calyndrae.com/capture/states/section-gameplay.png)
+
+![section information](https://sitedna.endfield.calyndrae.com/capture/states/section-information.png)
+
+![section notice](https://sitedna.endfield.calyndrae.com/capture/states/section-notice.png)
+
+### Interaction measurements
+
+Screenshots taken by the interaction driver (chapter 32) after each measured action.
+
+![article with close](https://sitedna.endfield.calyndrae.com/capture/interactions/article-with-close.png)
+
+![catalogue detail](https://sitedna.endfield.calyndrae.com/capture/interactions/catalogue-detail.png)
+
+![gameplay after next](https://sitedna.endfield.calyndrae.com/capture/interactions/gameplay-after-next.png)
+
+![lore after drag](https://sitedna.endfield.calyndrae.com/capture/interactions/lore-after-drag.png)
+
+![media modal open](https://sitedna.endfield.calyndrae.com/capture/interactions/media-modal-open.png)
+
+![mobile menu open](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-menu-open.png)
+
+![mobile operator](https://sitedna.endfield.calyndrae.com/capture/interactions/mobile-operator.png)
+
+![stage 3d toggle](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-3d-toggle.png)
+
+![stage after avatar switch](https://sitedna.endfield.calyndrae.com/capture/interactions/stage-after-avatar-switch.png)
+
+### Verification of the handbook page
+
+Screenshots from the verification run of the live single-page handbook: the original article shell with the handbook as its data, specimens rendered by the live stylesheets, the rail, footer and mobile layout.
+
+![handbook catalogue](https://sitedna.endfield.calyndrae.com/verification/handbook-catalogue.png)
+
+![handbook coverage](https://sitedna.endfield.calyndrae.com/verification/handbook-coverage.png)
+
+![handbook footer](https://sitedna.endfield.calyndrae.com/verification/handbook-footer.png)
+
+![handbook language open](https://sitedna.endfield.calyndrae.com/verification/handbook-language-open.png)
+
+![handbook mobile 390](https://sitedna.endfield.calyndrae.com/verification/handbook-mobile-390.png)
+
+![handbook mobile catalogue](https://sitedna.endfield.calyndrae.com/verification/handbook-mobile-catalogue.png)
+
+![handbook news](https://sitedna.endfield.calyndrae.com/verification/handbook-news.png)
+
+![handbook notice](https://sitedna.endfield.calyndrae.com/verification/handbook-notice.png)
+
+![handbook operator stage](https://sitedna.endfield.calyndrae.com/verification/handbook-operator-stage.png)
+
+![handbook rail hover](https://sitedna.endfield.calyndrae.com/verification/handbook-rail-hover.png)
+
+![handbook top 1440](https://sitedna.endfield.calyndrae.com/verification/handbook-top-1440.png)
+
+![handbook typography](https://sitedna.endfield.calyndrae.com/verification/handbook-typography.png)
+
+![pages top 1440](https://sitedna.endfield.calyndrae.com/verification/pages-top-1440.png)
+
+## Appendix A: The twelve stylesheets, complete and beautified
+
+These are the site's own CSS files, archived verbatim from the CDN and reformatted with prettier. Class names carry the CSS-module hash the site ships with; a child site built with CSS modules generates its own hashes, so copy the rules, not the hashed names. Font and image URLs point at the original CDN.
+
+| # | File | Minified bytes | Lines | Components styled |
 | --- | --- | --- | --- | --- |
 | A.1 | [0ff6a898df0edefb.css](#css-0ff6a898df0edefb-css) | 94054 | 4078 | BackButton, HomeButton, LandingBottom, LandingGameplay, Pagination, RollingContent, SectionTitle, SubpageHeader, SubpageTab, __00-landing, __01-Home, __03-Lore, __03-gameplay, bg, footer |
 | A.2 | [1ef245f541070a31.css](#css-1ef245f541070a31-css) | 8222 | 384 | ScrollViewer, Toast, __04-finalpage |
@@ -7106,7 +7131,7 @@ These are the site's own CSS files, archived verbatim from the CDN and reformatt
 
 ### A.1 0ff6a898df0edefb.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/0ff6a898df0edefb.css · 4078 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/0ff6a898df0edefb.css · 4078 lines_
 
 ```css
 .LandingBottom_container__BGiWo {
@@ -11191,7 +11216,7 @@ html[lang="pt-br"] .bg_bgContainer__8_h2E .bg_bg__JeUZA .bg_title__g7Ei1 {
 
 ### A.2 1ef245f541070a31.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/1ef245f541070a31.css · 384 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/1ef245f541070a31.css · 384 lines_
 
 ```css
 .__04-finalpage_sectionContainer__w2kZ2 {
@@ -11582,7 +11607,7 @@ https://sitedna.endfield.calyndrae.com/capture/css/1ef245f541070a31.css · 384 l
 
 ### A.3 2174f0c4d179760f.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/2174f0c4d179760f.css · 260 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/2174f0c4d179760f.css · 260 lines_
 
 ```css
 .__10-NoticeList_sectionContainer__tmyCM {
@@ -11849,7 +11874,7 @@ https://sitedna.endfield.calyndrae.com/capture/css/2174f0c4d179760f.css · 260 l
 
 ### A.4 3bd8ebba7b8795c3.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/3bd8ebba7b8795c3.css · 4241 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/3bd8ebba7b8795c3.css · 4241 lines_
 
 ```css
 .__20-NoticeDetail_sectionContainer__06Hmx {
@@ -16097,7 +16122,7 @@ html[lang="zh-cn"] .Header_h5Menu__Tl_yj .Header_mediaList__gE3ct {
 
 ### A.5 5db72e0ba5b54b39.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/5db72e0ba5b54b39.css · 2927 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/5db72e0ba5b54b39.css · 2927 lines_
 
 ```css
 .__02-Operator_sectionDivider__PbN7_ {
@@ -19031,9 +19056,9 @@ html[data-oversea="true"]
 
 ### A.6 637308dda4dd7f2d.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/637308dda4dd7f2d.css · 281 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/637308dda4dd7f2d.css · 281 lines_
 
-```js
+```css
 html.protocol_html__0huJ4 {
   text-size-adjust: 100%;
   font-family: sans-serif;
@@ -19319,7 +19344,7 @@ html[lang="ko-kr"] {
 
 ### A.7 6b6d9a58b4c43339.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/6b6d9a58b4c43339.css · 21 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/6b6d9a58b4c43339.css · 21 lines_
 
 ```css
 .TransparentVideo_container__Inu2a {
@@ -19347,7 +19372,7 @@ https://sitedna.endfield.calyndrae.com/capture/css/6b6d9a58b4c43339.css · 21 li
 
 ### A.8 79293df1a997d2da.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/79293df1a997d2da.css · 848 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/79293df1a997d2da.css · 848 lines_
 
 ```css
 .downloader_downloadContainer__z2AUJ {
@@ -20202,7 +20227,7 @@ html[lang="zh-tw"] .pc-oversea_rtButtonGroup__ymp3q {
 
 ### A.9 89618c72836110eb.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/89618c72836110eb.css · 819 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/89618c72836110eb.css · 819 lines_
 
 ```css
 @font-face {
@@ -21028,7 +21053,7 @@ https://sitedna.endfield.calyndrae.com/capture/css/89618c72836110eb.css · 819 l
 
 ### A.10 cca0e7eae4809d1e.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/cca0e7eae4809d1e.css · 661 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/cca0e7eae4809d1e.css · 661 lines_
 
 ```css
 .Dropdown_root__O4Qqi {
@@ -21696,7 +21721,7 @@ html[lang="th-th"]
 
 ### A.11 dd1a1cedef0d47ea.css
 
-https://sitedna.endfield.calyndrae.com/capture/css/dd1a1cedef0d47ea.css · 1520 lines
+_https://sitedna.endfield.calyndrae.com/capture/css/dd1a1cedef0d47ea.css · 1520 lines_
 
 ```css
 @media (orientation: landscape) {
@@ -23221,7 +23246,7 @@ html[lang="vi-vn"]
 
 ```
 
-## Appendix B — The readable first-party JavaScript, complete
+## Appendix B: The readable first-party JavaScript, complete
 
 Each file is one webpack module of the site's own code, split out of its chunk, with every minified identifier renamed to a meaningful one (library aliases resolved from the module map, CSS modules as styles, locals named for what they hold). The header comment of each file states its origin, exports and a summary. Vendor libraries are not reprinted; their names and versions are in chapter 33.
 
@@ -23272,13 +23297,13 @@ Each file is one webpack module of the site's own code, split out of its chunk, 
 | B.43 | useSoundControlStore | [useSoundControlStore.2285.js](#js-useSoundControlStore-2285-js) | 8963-234f979bdd6b491c | 41 |
 | B.44 | VideoListContextProvider | [VideoListContextProvider.3787.js](#js-VideoListContextProvider-3787-js) | [lang]__(main)__(home)__layout-282874dd3834757d | 68 |
 
-### B.1 AIC_ITEMS — AIC_ITEMS.89622.js
+### B.1 AIC_ITEMS
 
-https://sitedna.endfield.calyndrae.com/source/readable/AIC_ITEMS.89622.js · chunk 8963-234f979bdd6b491c · 59 lines · 1 identifiers renamed
+_AIC_ITEMS.89622.js · https://sitedna.endfield.calyndrae.com/source/readable/AIC_ITEMS.89622.js · chunk 8963-234f979bdd6b491c · 59 lines · 1 identifiers renamed_
 
 AicItemsText exports (as j) the five-entry list for the AIC (knowledge) section: keys '01' to '05', each pairing an i18n titleKey 'aic.items.N.title' and descriptionKey 'aic.items.N.description' with an imported image module (m01Image to m05Image). Components resolve the keys through the i18n t() function at render time.
 
-```css
+```js
 /**
  * AIC_ITEMS — readable reconstruction of webpack module 89622 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -23340,13 +23365,13 @@ const module_89622 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.2 applyRootFontSize — applyRootFontSize.14577.js
+### B.2 applyRootFontSize
 
-https://sitedna.endfield.calyndrae.com/source/readable/applyRootFontSize.14577.js · chunk 8963-234f979bdd6b491c · 70 lines · 10 identifiers renamed
+_applyRootFontSize.14577.js · https://sitedna.endfield.calyndrae.com/source/readable/applyRootFontSize.14577.js · chunk 8963-234f979bdd6b491c · 70 lines · 10 identifiers renamed_
 
 RootFontSizeScaler (export Z) sets the <html> font-size so rem units map to a design canvas: base 16px scaled by height/1920 or width/1080 in portrait (threshold aspect 0.5625) and by height/1440 or width/2560 in landscape (threshold 2560/1440), picking the axis that keeps the canvas fully visible. It caches the last viewport size and skips when unchanged, or when only one dimension changed on a mobile UA (DeviceUtils.Fr) to ignore address-bar resizes. On HarmonyOS/OpenHarmony/bdhonorbrowser/HeyTap/Huawei user agents it rewrites the viewport meta to width=outerWidth*dpr with initial/maximum-scale of 1/dpr, user-scalable=0 and viewport-fit=cover.
 
-```css
+```js
 /**
  * applyRootFontSize — readable reconstruction of webpack module 14577 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -23419,13 +23444,13 @@ const module_14577 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.3 backgroundMusic — backgroundMusic.7725.js
+### B.3 backgroundMusic
 
-https://sitedna.endfield.calyndrae.com/source/readable/backgroundMusic.7725.js · chunk 226-d5292700ff68fd13 · 40 lines · 2 identifiers renamed
+_backgroundMusic.7725.js · https://sitedna.endfield.calyndrae.com/source/readable/backgroundMusic.7725.js · chunk 226-d5292700ff68fd13 · 40 lines · 2 identifiers renamed_
 
 BackgroundMusic (export K) instantiates the BgmPlayer class from module 58572 (aliased GryphlineWebSDK) with static/media/sound/bgm.3ce37f.mp3, loop, autoPlay, fade, suspendWhenHidden and suspendWhenHiddenInSkland all enabled, and volume 0.1 on mobile user agents (DeviceUtils.Fr) or 1 otherwise. On the server it is a stub exposing no-op enable() and disable().
 
-```css
+```js
 /**
  * backgroundMusic — readable reconstruction of webpack module 7725 (chunk 226-d5292700ff68fd13.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js
@@ -23468,13 +23493,13 @@ const module_7725 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.4 BackgroundVideo — BackgroundVideo.73992.js
+### B.4 BackgroundVideo
 
-https://sitedna.endfield.calyndrae.com/source/readable/BackgroundVideo.73992.js · chunk 8963-234f979bdd6b491c · 283 lines · 61 identifiers renamed
+_BackgroundVideo.73992.js · https://sitedna.endfield.calyndrae.com/source/readable/BackgroundVideo.73992.js · chunk 8963-234f979bdd6b491c · 283 lines · 61 identifiers renamed_
 
 VideoPlayers exports a single BackgroundVideo component (export Q) chosen at module load from the user agent: VideoCanvas when the UA is QQ Browser, or iOS with Quark/Baidu app; otherwise VideoBasic. VideoBasic renders a muted, looped, playsInline <video> with webm then mp4 <source>s, sets Tencent x5-video-player-type=h5 / x5-playsinline attributes, retries play on WeixinJSBridgeReady for iOS WeChat, falls back to a one-time window click when autoplay is rejected, and scales width/height by devicePixelRatio on loadedmetadata. VideoCanvas creates an offscreen <video> and draws it into a <canvas> via a requestAnimationFrame loop throttled to frameLimit fps (default 30) using an accumulator against 1000/fps ms. Both expose {videoElement, play, pause} through useImperativeHandle, and a UserAgentMatcher class tests UA regexes for baiduApp, quark, wechat, huawei, harmonyOS, oppo, vivo, android, ios, qq, qqBrowser and honor.
 
-```css
+```js
 /**
  * BackgroundVideo — readable reconstruction of webpack module 73992 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -23760,13 +23785,13 @@ const module_73992 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.5 BgmPlayer — BgmPlayer.58572.js
+### B.5 BgmPlayer
 
-https://sitedna.endfield.calyndrae.com/source/readable/BgmPlayer.58572.js · chunk 4231-53da7c4de7468a06 · 756 lines · 179 identifiers renamed
+_BgmPlayer.58572.js · https://sitedna.endfield.calyndrae.com/source/readable/BgmPlayer.58572.js · chunk 4231-53da7c4de7468a06 · 756 lines · 179 identifiers renamed_
 
 SoundPlayer is a compiled TypeScript audio library (tslib __extends/__awaiter/__generator helpers inlined). It defines an unexported SoundListManager (enable/disable broadcast to a sound list), a SoundBase class, a VolumeFader whose easing() ticks every 10ms with duration scaled by |end-start| (fadeIn uses easeInQuad, fadeOut uses easeOutQuad), an unexported SoundEffectsPool (default volume 0.5, 10 pooled <audio> elements primed with a silent WAV data URI), and the exported BgmPlayer class (export Mj) that wraps one <audio> with volume default 0.5, optional fade (default fadeDuration 1000ms), autoPlay retried on first window click, suspend/resume on document visibilitychange and on Skland SDK lifecycle events (pageDidAppear/appWillEnterForeground/pageDidDisappear/appDidEnterBackground), and PAUSE/RESUME control via the window event HG_MEDIA_BGM_EVENT. A trailing unexported VideoSourcePlayer plays mp4 directly or m3u8 through a lazily loaded hls.js chunk.
 
-```css
+```js
 /**
  * BgmPlayer — readable reconstruction of webpack module 58572 (chunk 4231-53da7c4de7468a06.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4231-53da7c4de7468a06.js
@@ -24525,13 +24550,13 @@ const module_58572 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.6 BulletinListContextProvider — BulletinListContextProvider.30257.js
+### B.6 BulletinListContextProvider
 
-https://sitedna.endfield.calyndrae.com/source/readable/BulletinListContextProvider.30257.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 67 lines · 20 identifiers renamed
+_BulletinListContextProvider.30257.js · https://sitedna.endfield.calyndrae.com/source/readable/BulletinListContextProvider.30257.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 67 lines · 20 identifiers renamed_
 
 React context provider for the home-page bulletin (news) list. It seeds state from the SSR-provided value {bulletins, total}, then on mount calls getBulletinList(lang, 1, 10); when code === 0 it stores data.list filtered through SiteUtils' hidden-bulletin check (cid vs SiteConfig.hide_bulletin_dict for the current lang), stores data.total and sets frontBulletinReady = true, otherwise logs '拉取公告列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontBulletinReady, bulletins, total}; useBulletinList reads it.
 
-```css
+```js
 /**
  * BulletinListContextProvider — readable reconstruction of webpack module 30257 (chunk [lang]__(main)__(home)__layout-282874dd3834757d.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(home)/layout-282874dd3834757d.js
@@ -24601,13 +24626,13 @@ const module_30257 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.7 clipRevealAnimation — clipRevealAnimation.84245.js
+### B.7 clipRevealAnimation
 
-https://sitedna.endfield.calyndrae.com/source/readable/clipRevealAnimation.84245.js · chunk 8963-234f979bdd6b491c · 239 lines · 39 identifiers renamed
+_clipRevealAnimation.84245.js · https://sitedna.endfield.calyndrae.com/source/readable/clipRevealAnimation.84245.js · chunk 8963-234f979bdd6b491c · 239 lines · 39 identifiers renamed_
 
 TextRevealAnimations holds anime.js helpers used across sections. zI (flickerReveal) runs three chained opacity 0->1 easeOutQuad steps of 100/85/70ms for an enter (70/85/100ms for an exit) and leaves the element at opacity 1 or 0. An internal uniform variant uses 3x100ms. iv (RevealPresence) is a div wrapper bound to framer-motion usePresence: on mount it runs the optional enter(el) callback (after enterDelay ms, preceded by a flicker), and on exit awaits exit(el) plus an exit flicker before calling safeToRemove. WO (clipRevealAnimation) returns an anime.js step config that animates clip-path polygons from a collapsed edge (left/right/top/bottom) with an ease-out-quart curve 1-(1-p)^4, in reveal or wipe-out mode, over the given duration. iI (addStaggeredReveal) appends elements (or {ele, portrait, options} entries) to a timeline as 300ms steps offset by -100ms, skipping display:none elements and portrait-mismatched entries by setting them straight to opacity 1.
 
-```css
+```js
 /**
  * clipRevealAnimation — readable reconstruction of webpack module 84245 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -24849,13 +24874,13 @@ const module_84245 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.8 FontLoader — FontLoader.45965.js
+### B.8 FontLoader
 
-https://sitedna.endfield.calyndrae.com/source/readable/FontLoader.45965.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 54 lines · 16 identifiers renamed
+_FontLoader.45965.js · https://sitedna.endfield.calyndrae.com/source/readable/FontLoader.45965.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 54 lines · 16 identifiers renamed_
 
 Headless FontLoader component that renders null. On first render (run-once hook from module 9995) it reads the font map from useI18n().font and, for every [family, source] entry, creates a FontFace(family, source), adds it to document.fonts and awaits load(). If loading fails the FontFace is removed and it retries with only the comma-separated source part containing '.woff2' (falling back to the full source string); any remaining error is logged with console.error.
 
-```css
+```js
 /**
  * FontLoader — readable reconstruction of webpack module 45965 (chunk [lang]__(main)__layout-493920d1b65733f5.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/layout-493920d1b65733f5.js
@@ -24912,13 +24937,13 @@ const module_45965 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.9 Footer — Footer.46173.js
+### B.9 Footer
 
-https://sitedna.endfield.calyndrae.com/source/readable/Footer.46173.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 175 lines · 29 identifiers renamed
+_Footer.46173.js · https://sitedna.endfield.calyndrae.com/source/readable/Footer.46173.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 175 lines · 29 identifiers renamed_
 
 Site footer component. The top row shows the 'common.selectLanguage' label and a language picker (globe SVG, current language name from LANG_DISPLAY_NAMES, a chevron arrow SVG and a scrollable dropdown of availableLangs, defaulting to AVAILABLE_LANGS) that toggles an 'active' class and closes via a click-outside ref hook; picking a language rewrites window.location.pathname by replacing '/<currentLang>' with '/<newLang>' and preserves the hash. The bottom container is a ref passed to Tracking.insertFooter so the Gryphline SDK renders the legal/footer links into it. Two inline SVG components (31x31 globe, 25x65 arrow) use an Object.assign polyfill to spread props.
 
-```css
+```js
 /**
  * Footer — readable reconstruction of webpack module 46173 (chunk [lang]__(main)__layout-493920d1b65733f5.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/layout-493920d1b65733f5.js
@@ -25096,13 +25121,13 @@ const module_46173 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.10 formatNumberWithCommas — formatNumberWithCommas.97521.js
+### B.10 formatNumberWithCommas
 
-https://sitedna.endfield.calyndrae.com/source/readable/formatNumberWithCommas.97521.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 55 lines · 14 identifiers renamed
+_formatNumberWithCommas.97521.js · https://sitedna.endfield.calyndrae.com/source/readable/formatNumberWithCommas.97521.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 55 lines · 14 identifiers renamed_
 
 SiteUtils exports isServer (a constant false in this client bundle), ZV formatNumberWithCommas (toFixed(0) then inserts a comma every three digits from the right, returning '0' for falsy input), aT pickRandom (returns a random element using the random-int helper from module 15790) and jx isBulletinVisible(bulletinId, regionKey), which hides a bulletin when SiteConfig.hide_bulletin_dict lists it under any region unless the given region's own list also contains it. The flattened list of all hidden bulletin ids is precomputed at module load.
 
-```css
+```js
 /**
  * formatNumberWithCommas — readable reconstruction of webpack module 97521 (chunk [lang]__(main)__layout-493920d1b65733f5.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/layout-493920d1b65733f5.js
@@ -25160,13 +25185,13 @@ const module_97521 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.11 GAMEPLAY_ITEMS — GAMEPLAY_ITEMS.26915.js
+### B.11 GAMEPLAY_ITEMS
 
-https://sitedna.endfield.calyndrae.com/source/readable/GAMEPLAY_ITEMS.26915.js · chunk 8963-234f979bdd6b491c · 48 lines · 1 identifiers renamed
+_GAMEPLAY_ITEMS.26915.js · https://sitedna.endfield.calyndrae.com/source/readable/GAMEPLAY_ITEMS.26915.js · chunk 8963-234f979bdd6b491c · 48 lines · 1 identifiers renamed_
 
 GameplayItemsText exports (as g) the four-entry list for the gameplay section: keys '01' to '04', each with an i18n titleKey 'gameplay.items.N.title', descriptionKey 'gameplay.items.N.description' and an image required inline from modules 51282, 46301, 63376 and 20371.
 
-```css
+```js
 /**
  * GAMEPLAY_ITEMS — readable reconstruction of webpack module 26915 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -25217,13 +25242,13 @@ const module_26915 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.12 getBulletinDetail — getBulletinDetail.91627.js
+### B.12 getBulletinDetail
 
-https://sitedna.endfield.calyndrae.com/source/readable/getBulletinDetail.91627.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 99 lines · 23 identifiers renamed
+_getBulletinDetail.91627.js · https://sitedna.endfield.calyndrae.com/source/readable/getBulletinDetail.91627.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 99 lines · 23 identifiers renamed_
 
 Axios client for the CMS bulletin (news) API. The instance uses baseURL SiteConfig.cms.host (https://web-news.gryphline.com), responseType json and a 5000 ms timeout; a request interceptor turns request errors into {code:-1, msg} (default '请求错误') and a response interceptor unwraps response.data on success or normalizes failures to {statusCode, code, msg} from the error body (falling back to statusText/message). getBulletinList(lang, page=1, pageSize=9, tab) GETs /api/bulletin with params {lang, code: cms.appCode, page, pageSize, tabs:[tab]}; getBulletinDetail(cid, lang) GETs /api/bulletin/<cid> with {lang, code}. The default page size 9 is also exported.
 
-```css
+```js
 /**
  * getBulletinDetail — readable reconstruction of webpack module 91627 (chunk [lang]__(main)__(home)__layout-282874dd3834757d.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(home)/layout-282874dd3834757d.js
@@ -25325,13 +25350,13 @@ const module_91627 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.13 getChargeInfo — getChargeInfo.21086.js
+### B.13 getChargeInfo
 
-https://sitedna.endfield.calyndrae.com/source/readable/getChargeInfo.21086.js · chunk 3696-03b8256f1fece6bb · 97 lines · 21 identifiers renamed
+_getChargeInfo.21086.js · https://sitedna.endfield.calyndrae.com/source/readable/getChargeInfo.21086.js · chunk 3696-03b8256f1fece6bb · 97 lines · 21 identifiers renamed_
 
 Axios client for the site's own account endpoints under '/api/account', using baseURL SiteConfig.serverPrefix (empty string), responseType json and a 5000 ms timeout, with the same request/response interceptors as the bulletin client (errors normalized to {statusCode, code, msg}, default msg '请求错误'). getChargeInfo() fetches the SDK token via Tracking.getToken() and POSTs /api/account/charge-info with {token}, returning {total:null, data:null} when no token; getOrigData(serverId, roleToken) POSTs /api/account/orig-data with {roleToken, serverId}.
 
-```css
+```js
 /**
  * getChargeInfo — readable reconstruction of webpack module 21086 (chunk 3696-03b8256f1fece6bb.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js
@@ -25431,13 +25456,13 @@ const module_21086 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.14 getVideoList — getVideoList.60108.js
+### B.14 getVideoList
 
-https://sitedna.endfield.calyndrae.com/source/readable/getVideoList.60108.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 37 lines · 9 identifiers renamed
+_getVideoList.60108.js · https://sitedna.endfield.calyndrae.com/source/readable/getVideoList.60108.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 37 lines · 9 identifiers renamed_
 
 Fetch-based video list API. getVideoList({lang='zh-cn', cate, page=1, pageSize=10}) builds '/api/content/info_video?lang=<lang>&page=<page>&pageSize=<pageSize>' (plus '&cate=<cate>' when given), requests it from SiteConfig.api_server_host (https://endfield.gryphline.com) with fetch, and returns body.data when the HTTP status is 2xx/3xx and body.code === 0; otherwise it throws Error('Failed to fetch video list').
 
-```css
+```js
 /**
  * getVideoList — readable reconstruction of webpack module 60108 (chunk [lang]__(main)__(home)__layout-282874dd3834757d.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(home)/layout-282874dd3834757d.js
@@ -25477,13 +25502,13 @@ const module_60108 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.15 HollowText — HollowText.52652.js
+### B.15 HollowText
 
-https://sitedna.endfield.calyndrae.com/source/readable/HollowText.52652.js · chunk 8963-234f979bdd6b491c · 39 lines · 7 identifiers renamed
+_HollowText.52652.js · https://sitedna.endfield.calyndrae.com/source/readable/HollowText.52652.js · chunk 8963-234f979bdd6b491c · 39 lines · 7 identifiers renamed_
 
 HollowText (export A) is a forwardRef div with the CSS-module `hollowText` class (outlined text) that renders the `text` prop, merging className and style. displayName is set to 'HollowText'. OperatorSection uses it for the large 'ENDFIELD' background decoration.
 
-```css
+```js
 /**
  * HollowText — readable reconstruction of webpack module 52652 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -25525,13 +25550,13 @@ const module_52652 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.16 HomeLayout — HomeLayout.83597.js
+### B.16 HomeLayout
 
-https://sitedna.endfield.calyndrae.com/source/readable/HomeLayout.83597.js · chunk 226-d5292700ff68fd13 · 5946 lines · 992 identifiers renamed
+_HomeLayout.83597.js · https://sitedna.endfield.calyndrae.com/source/readable/HomeLayout.83597.js · chunk 226-d5292700ff68fd13 · 5946 lines · 992 identifiers renamed_
 
 Webpack module 83597 is the Arknights: Endfield homepage layout (export Layout -> HomeLayout). HomeLayout mounts a SectionViewer with the HOME_SECTIONS list in this order: home (hero with OperatorSection-less hero module 17224 plus a portrait/landscape download overlay), operator (OperatorSection.W from module 3492), lore (three.js point-cloud PointCloudModelPlayer with scan-line fade in/out, laser rays, glitch effects and drag-to-rotate; models spaceship, anchor, factory, pile, trinity, enemy), information (background video, swiper of video thumbnails, title auto-fit, media modal), calendar (sticky title/timeline images with a horizontally draggable calendar on portrait), gameplay (GameplayAlbum carousel of videos + scroll-linked marquee), aic (GameplayAlbum of blueprint images, hidden from nav), and notice (NoticeCarousel of bulletins with pagination/detail button and a paged mobile list). Around the sections it renders the i18n footer, the loading screen (loadingScreen.E) with LOADER_TASKS = 33 image preloads through a 5-slot Image pool plus PointCloudModelPlayer.setup() (which benchmarks a 10k-point render to choose renderLevel 0/1/2 and normalizes every model binary), and a modal layer (ReserveModal, user text-links modal, media modal, account menu). SiteHeader provides the desktop navigation rail (NavRailItem per non-hidden section, overlay transform by active index, user/charge/creator/mute action buttons, Go-To-Game launcher that probes a custom URL scheme via hidden iframe before falling back to download, share dropdown, expand switcher) and the mobile header with hamburger menu; it also toggles BackgroundMusic/SoundControlStore. Section navigation: SectionViewer registers throttled window scroll and wheel listeners that pick the section whose vertical center is closest to the top (within 2x viewport height), stores it in a zustand store, mirrors it into the URL hash, and reads the hash on mount; setCurrentSection scrolls the target section into view smoothly and suppresses the scroll listener until it arrives; the lore canvas additionally handles mousedown/mousemove/mouseup and touchstart/touchmove/touchend for rotation, and the mobile calendar uses drag scrolling; there is no keyboard handling in this module. Sounds: common_click on header buttons, menu items, share links, notice items, video thumbnails, play/more buttons and mute; arrow_click on platform toggles in the reserve modal and information prev/next; menu_click on nav rail items; reserve_click on the reserve button; model when switching lore models. Tracking: book_success and gtag Registration-complete after a reservation, social_media_redirect for share links, click with targets recharge_center/reserve_button/official_community, web_page_swipe on first scroll, content_view per section/model/album item, and Tracking.download for store links.
 
-```css
+```js
 /**
  * HomeLayout — readable reconstruction of webpack module 83597 (chunk 226-d5292700ff68fd13.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js
@@ -31480,13 +31505,13 @@ const module_83597 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.17 I18nProvider — I18nProvider.4948.js
+### B.17 I18nProvider
 
-https://sitedna.endfield.calyndrae.com/source/readable/I18nProvider.4948.js · chunk 4948-4c0b17ed78d1fd30 · 285 lines · 32 identifiers renamed
+_I18nProvider.4948.js · https://sitedna.endfield.calyndrae.com/source/readable/I18nProvider.4948.js · chunk 4948-4c0b17ed78d1fd30 · 285 lines · 32 identifiers renamed_
 
 I18n context provider and hooks for the Endfield site. Holds a hard-coded JSON table of 33 operators (key, codename, camp, race, rarity, prof, elem) and three CDN image maps (avatar, illust, portrait) served from https://web-static.hg-cdn.com/endfield/official-v4/_next/static/media/<key>.<hash>.png; the available language list comes from SiteConfig.i18n (first entry is the default lang) and a display-name table maps codes such as en-us, zh-cn, ja-jp to native names. useI18n reads the context {lang, langs, images, text, font, data, components}; useText returns t(key) which first tries a flat key then walks dotted paths (e.g. 'operator.content.<key>.name'); useOperators memoizes operator records merging the table, images and localized name/intro/camp/race plus cv voice actors for zh-cn, ja-jp, ko-kr and en-us.
 
-```css
+```js
 /**
  * I18nProvider — readable reconstruction of webpack module 4948 (chunk 4948-4c0b17ed78d1fd30.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js
@@ -31774,13 +31799,13 @@ const module_4948 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.18 isQuarkBrowser — isQuarkBrowser.15723.js
+### B.18 isQuarkBrowser
 
-https://sitedna.endfield.calyndrae.com/source/readable/isQuarkBrowser.15723.js · chunk 8963-234f979bdd6b491c · 60 lines · 16 identifiers renamed
+_isQuarkBrowser.15723.js · https://sitedna.endfield.calyndrae.com/source/readable/isQuarkBrowser.15723.js · chunk 8963-234f979bdd6b491c · 60 lines · 16 identifiers renamed_
 
 DeviceUtils exports eight case-insensitive user-agent regex predicates: I7 MiuiBrowser, TN VivoBrowser, zZ HeyTapBrowser|OppoBrowser, Jc bdhonorbrowser (Honor), B$ Quark, un iPhone|iPad|iPod, Fr Mobi|Android|iPhone|Huawei (generic mobile) and Cb skland (the HyperGryph Skland app webview). OperatorSection uses TN/zZ/I7/B$ to disable the 3D video mode, and RootFontSizeScaler and BackgroundMusic use Fr.
 
-```css
+```js
 /**
  * isQuarkBrowser — readable reconstruction of webpack module 15723 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -31843,9 +31868,9 @@ const module_15723 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.19 LoadingScreen — LoadingScreen.71272.js
+### B.19 LoadingScreen
 
-https://sitedna.endfield.calyndrae.com/source/readable/LoadingScreen.71272.js · chunk 8963-234f979bdd6b491c · 190 lines · 22 identifiers renamed
+_LoadingScreen.71272.js · https://sitedna.endfield.calyndrae.com/source/readable/LoadingScreen.71272.js · chunk 8963-234f979bdd6b491c · 190 lines · 22 identifiers renamed_
 
 LoadingScreen (export E) runs every task function from the `tasks` prop on mount and counts completions; a framer-motion spring (stiffness 120, damping 20) and tween transitions of 0.5s drive a background blur from 8px to 0px, a progress bar (height in landscape, width in portrait) and a percent label that follows the bar (left 3.125rem in landscape), with the numeric text updated via onUpdate. When all tasks finish it calls onLeaving, adds the leaving class, sets the shared zustand store (export r) to loaded:true after 1500ms and calls onFinished after 2400ms. The layout shows the i18n SvgLogo component, the slogan 'OVER THE FRONTIER / INTO THE FRONT' and an 'Updating...' caption.
 
@@ -32042,13 +32067,13 @@ const module_71272 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.20 MediaModal — MediaModal.12914.js
+### B.20 MediaModal
 
-https://sitedna.endfield.calyndrae.com/source/readable/MediaModal.12914.js · chunk 226-d5292700ff68fd13 · 120 lines · 19 identifiers renamed
+_MediaModal.12914.js · https://sitedna.endfield.calyndrae.com/source/readable/MediaModal.12914.js · chunk 226-d5292700ff68fd13 · 120 lines · 19 identifiers renamed_
 
 MediaModalStore keeps a zustand store {visible, title, src, onClose} with an activate(title, src, onClose) action; export C is a hook returning that action and export A is the MediaModal component wrapped in the module 44990 `D` container. While visible it disables BackgroundMusic and sends a video_play_start tracking event (video_title, video_url), sending video_play_end on cleanup; when hidden it re-enables music if SoundControlStore is enabled and clears src after 300ms so the iframe unmounts after the close transition. The body renders a close button (SvgIcon29190) and a YouTube iframe with allow 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' and allowFullScreen.
 
-```css
+```js
 /**
  * MediaModal — readable reconstruction of webpack module 12914 (chunk 226-d5292700ff68fd13.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js
@@ -32171,13 +32196,13 @@ const module_12914 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.21 NoticeDetailContextProvider — NoticeDetailContextProvider.61127.js
+### B.21 NoticeDetailContextProvider
 
-https://sitedna.endfield.calyndrae.com/source/readable/NoticeDetailContextProvider.61127.js · chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac · 59 lines · 17 identifiers renamed
+_NoticeDetailContextProvider.61127.js · https://sitedna.endfield.calyndrae.com/source/readable/NoticeDetailContextProvider.61127.js · chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac · 59 lines · 17 identifiers renamed_
 
 React context for the news article page. NoticeDetailContextProvider seeds state with props.value.bulletin (server-provided), then on mount parses window.location.pathname with /\/news\/(\d+)/ and, if a cid is found, refetches via BulletinApi.Jq(cid, lang); on code 0 with data it replaces the bulletin, otherwise shows Toast 'toast.networkError'. The memoized context value is { bulletin }. Export z is the useNoticeDetail hook returning the current bulletin.
 
-```css
+```js
 /**
  * NoticeDetailContextProvider — readable reconstruction of webpack module 61127 (chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/[cid]/page-8dbf59fd3d1ac5ac.js
@@ -32239,13 +32264,13 @@ const module_61127 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.22 NoticeDetailSection — NoticeDetailSection.36979.js
+### B.22 NoticeDetailSection
 
-https://sitedna.endfield.calyndrae.com/source/readable/NoticeDetailSection.36979.js · chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac · 190 lines · 27 identifiers renamed
+_NoticeDetailSection.36979.js · https://sitedna.endfield.calyndrae.com/source/readable/NoticeDetailSection.36979.js · chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac · 190 lines · 27 identifiers renamed_
 
 News article page section. Reads the bulletin from NoticeDetailContextProvider and renders a back-to-top button (SVG viewBox 0 0 17 14; becomes `active` when documentElement.scrollTop > 600, checked by a lodash-throttled 300ms handler on scroll/wheel; click scrolls to top smoothly, hides the button and plays arrow_click), a bottom background, a left-bottom deco icon, a subtitle with the tab label and dayjs(displayTime*1000) formatted as information.displayTimeFormat + ' HH:mm', the title with an optional close icon from useCloseButton, a divider, and the HTML content. decorateNoticeHtml runs on the client only: it parses the HTML with DOMParser, prepends to every <th> a deco wrapper containing bg/l/rt/b divs, and sets paddingLeft = calc(<data-indent> * 1.5em) on p[data-indent]. A ref ensures Tracking.collect('content_view', {group: notice, target: cid}) fires once per cid.
 
-```css
+```js
 /**
  * NoticeDetailSection — readable reconstruction of webpack module 36979 (chunk [lang]__(main)__(subpage)__news__[cid]__page-8dbf59fd3d1ac5ac.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/[cid]/page-8dbf59fd3d1ac5ac.js
@@ -32438,13 +32463,13 @@ const module_36979 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.23 NoticeListSection — NoticeListSection.92731.js
+### B.23 NoticeListSection
 
-https://sitedna.endfield.calyndrae.com/source/readable/NoticeListSection.92731.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 280 lines · 35 identifiers renamed
+_NoticeListSection.92731.js · https://sitedna.endfield.calyndrae.com/source/readable/NoticeListSection.92731.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 280 lines · 35 identifiers renamed_
 
 News index section. Defines NEWS_TABS (latest/notices/events/news with i18n labels common.latest, notice.tab.*) and renders SubpageHeader (title subpage.news.title, titleEn "News", type "pumper"), the tab bar, a framer-motion fade (opacity 0->1->0, duration 0.3s, easeOut, AnimatePresence mode "wait", keyed by `<page>-<tab>`) around the bulletin cards, and pagination. Page size is 4 in portrait or BulletinApi.a in landscape; pageCount = ceil(total / pageSize). goToPage fetches BulletinApi.PZ(lang, page+1, pageSize, tab or undefined for 'latest') guarded by an in-flight ref and frontBulletinReady, filters hidden bulletins via SiteUtils.jx, and shows Toast 'toast.networkError' on failure; prev/next clamp the page index into [0, pageCount-1]. Cards open `/<lang>/news/<cid>` in a new tab with the common_click sound, show cover or images['bulletin.<tab>'], tab label, dayjs(displayTime*1000) formatted by information.displayTimeFormat, and in portrait the title goes through TextShrink (font HarmonySansRegular, length 20). Landscape uses 'nav' pagination with goToPage; portrait uses 'number' pagination plus an optional back button from useCloseButton.
 
-```css
+```js
 /**
  * NoticeListSection — readable reconstruction of webpack module 92731 (chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js
@@ -32727,13 +32752,13 @@ const module_92731 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.24 OPERATOR_VIDEO_CLIPS — OPERATOR_VIDEO_CLIPS.68408.js
+### B.24 OPERATOR_VIDEO_CLIPS
 
-https://sitedna.endfield.calyndrae.com/source/readable/OPERATOR_VIDEO_CLIPS.68408.js · chunk 8963-234f979bdd6b491c · 220 lines · 65 identifiers renamed
+_OPERATOR_VIDEO_CLIPS.68408.js · https://sitedna.endfield.calyndrae.com/source/readable/OPERATOR_VIDEO_CLIPS.68408.js · chunk 8963-234f979bdd6b491c · 220 lines · 65 identifiers renamed_
 
 OperatorVideoClips builds a lookup (export p) from operator key to a pair of transparent-video URLs under static/media/video/: an `enter` clip played once when 3D mode activates and an `idle` clip looped afterwards. It covers 33 operators (akekuri, alesh, antal, arclight, ardelia, avywenna, camille, catcher, chen, dapan, ember, endministrator1, endministrator2, estella, fluorite, gilberta, laevatain, lastrite, lifeng, liino, lizhiyan, mifu, perlica, pogranichnik, purrche, rossi, snowshine, tangtang, typhoea, wulfgard, xaihi, yvonne, zhuangfy); zhuangfy's enter.418594.mp4 / idle.7168ff.mp4 are inlined rather than hoisted. Each URL is webpack public path + hashed file name (e.g. akekuri enter.a66d56.mp4 / idle.5c433b.mp4).
 
-```css
+```js
 /**
  * OPERATOR_VIDEO_CLIPS — readable reconstruction of webpack module 68408 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -32956,13 +32981,13 @@ const module_68408 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.25 OperatorListSection — OperatorListSection.50999.js
+### B.25 OperatorListSection
 
-https://sitedna.endfield.calyndrae.com/source/readable/OperatorListSection.50999.js · chunk [lang]__(main)__(subpage)__operator__page-3a80441c18fd566a · 489 lines · 78 identifiers renamed
+_OperatorListSection.50999.js · https://sitedna.endfield.calyndrae.com/source/readable/OperatorListSection.50999.js · chunk [lang]__(main)__(subpage)__operator__page-3a80441c18fd566a · 489 lines · 78 identifiers renamed_
 
 Operator catalogue page. FilterDropdown is an accessible listbox (role button/listbox/option, Enter/Space toggle, Escape closes, click-outside closes via module44705.W) with an 'all' option plus options for type 'prof' (guard, caster, support, shielder, vanguard, assault) or 'elem' (fire, ice, electric, nature, physic); labels come from operator.filter.<type> and operator.<type>.<key>, and the icon div is keyed so it re-mounts on change. OperatorCard shows portrait, name, '// codename', zero-padded index / total, and prof/elem icons; a layout effect fits the name into 11.1875rem by bisecting the font size 28 times between 0.5625rem and 1.6875rem using canvas measureText with font '"SansBold", sans-serif', re-running after document.fonts.ready/load and on ResizeObserver. OperatorListSection keeps isDetailMode/detailIndex, prof and elem filters, filters I18n operators (gL), and swaps between the list (background deco with hollow 'ENDFIELD' text, dropdowns, a vertical scroll container) and OperatorSection in detailMode inside AnimatePresence mode 'wait' with 0.3s easeOut opacity fades.
 
-```css
+```js
 /**
  * OperatorListSection — readable reconstruction of webpack module 50999 (chunk [lang]__(main)__(subpage)__operator__page-3a80441c18fd566a.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/operator/page-3a80441c18fd566a.js
@@ -33454,13 +33479,13 @@ const module_50999 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.26 OperatorSection — OperatorSection.3492.js
+### B.26 OperatorSection
 
-https://sitedna.endfield.calyndrae.com/source/readable/OperatorSection.3492.js · chunk 226-d5292700ff68fd13 · 1239 lines · 149 identifiers renamed
+_OperatorSection.3492.js · https://sitedna.endfield.calyndrae.com/source/readable/OperatorSection.3492.js · chunk 226-d5292700ff68fd13 · 1239 lines · 149 identifiers renamed_
 
 OperatorSection renders the homepage character stage: a wrap-around avatar rail (OperatorSwitcher, items spaced 13rem horizontally in portrait or 12.25rem vertically in landscape with a 1.875rem base offset, paging by 4), a 2D illustration that slides in from 18rem over 8000ms with cubicBezier(0,1,0,.97), and a 3D mode that swaps in a TransparentVideo playing the operator's `enter` clip then looping `idle` (loading badge fades in over 300ms easeOutQuad, out over 300ms easeInCubic). Once the section is 40% in view and the LoadingScreen store reports loaded, an anime.js entrance timeline runs: deco flag/text/tape/line slide in at 300ms (400ms easeOutQuad, 1ms in portrait), title/content/header slide from -100% at 600ms, illustration fades in and slides from 15rem over 5000ms cubicBezier(0,1,0,.95), buttons fade in at 1200ms (landscape) or 800ms (portrait). Clicks play char_click / arrow_click / close_click / char_detail_enter sounds; viewing an operator fires a content_view tracking event in group section_character; the 'All Operators' button opens /{lang}/operator in a new tab, and low-end browsers (Vivo/Oppo/MIUI/Quark) hide the 3D switch.
 
-```css
+```js
 /**
  * OperatorSection — readable reconstruction of webpack module 3492 (chunk 226-d5292700ff68fd13.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/226-d5292700ff68fd13.js
@@ -34702,13 +34727,13 @@ const module_3492 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.27 OrigQueryModalRoot — OrigQueryModalRoot.94150.js
+### B.27 OrigQueryModalRoot
 
-https://sitedna.endfield.calyndrae.com/source/readable/OrigQueryModalRoot.94150.js · chunk 3696-03b8256f1fece6bb · 533 lines · 87 identifiers renamed
+_OrigQueryModalRoot.94150.js · https://sitedna.endfield.calyndrae.com/source/readable/OrigQueryModalRoot.94150.js · chunk 3696-03b8256f1fece6bb · 533 lines · 87 identifiers renamed_
 
 Originium ('orig') balance query modal shown only when lang === 'ja-jp' (Japanese paid-currency disclosure). A zustand store holds isActive; useActivateOrigQueryModal returns its activate action. On activation it awaits Tracking.sdkReady(), calls Role.API.getActiveRoleV2('ef') and, with the role's serverId and token, posts AccountApi.getOrigData to load {paid, free, total}; the user can switch role via Role.UI.showSelectDialog('ef'). A status ref ('default'|'loading'|'success'|'error') plus loading/role-error/request-error flags drive the UI: a 12-spoke 100x100 spinner SVG, an error block with 'modal.origQuery.content.networkError' and a confirm button, a header with globe (server name) and swap-arrows (role nickname / switch) icons, and the orig list rendering origPaid/origFree/origTotal through SiteUtils' thousands-separator formatter, a plus-square divider icon and 'modal.origQuery.content.notice'. State resets when the account from the SDK hook becomes null; the root export wraps the modal in module 44990's container.
 
-```css
+```js
 /**
  * OrigQueryModalRoot — readable reconstruction of webpack module 94150 (chunk 3696-03b8256f1fece6bb.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js
@@ -35244,13 +35269,13 @@ const module_94150 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.28 Pagination — Pagination.2682.js
+### B.28 Pagination
 
-https://sitedna.endfield.calyndrae.com/source/readable/Pagination.2682.js · chunk 8963-234f979bdd6b491c · 193 lines · 40 identifiers renamed
+_Pagination.2682.js · https://sitedna.endfield.calyndrae.com/source/readable/Pagination.2682.js · chunk 8963-234f979bdd6b491c · 193 lines · 40 identifiers renamed_
 
 Pagination (export Ay) renders prev/next arrow buttons (each plays arrow_click) around either a 'number' readout (current+1 / total) or a 'nav' carousel of zero-padded page blocks. The carousel keeps a sliding window of 4 visible blocks (CENTER_OFFSET = Math.ceil(2)-1 = 1), renders up to 4 extra blocks on each side for the slide animation, positions each block with translateX in multiples of blockWidth (default 4rem) and sets the container width to min(total,4)*blockWidth rem; clicking a block plays common_click and calls goToPage(index). The type prop (default 'light') maps to a CSS-module class and disablePrev/disableNext add the disabled class. Export MS is the 18x27 left-chevron SVG used by the arrow buttons and reused by OperatorSection.
 
-```css
+```js
 /**
  * Pagination — readable reconstruction of webpack module 2682 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -35446,13 +35471,13 @@ const module_2682 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.29 RollingText — RollingText.96664.js
+### B.29 RollingText
 
-https://sitedna.endfield.calyndrae.com/source/readable/RollingText.96664.js · chunk 8963-234f979bdd6b491c · 103 lines · 14 identifiers renamed
+_RollingText.96664.js · https://sitedna.endfield.calyndrae.com/source/readable/RollingText.96664.js · chunk 8963-234f979bdd6b491c · 103 lines · 14 identifiers renamed_
 
 Despite the 'EasingFunctions' label, this module is a RollingText marquee component (export A): after a 0ms timeout it measures the inner content against its container and, when the content is wider, adds the `rolling` class and plays a looping anime.js timeline: 1000ms hold, linear scroll by the overflow width at 1000ms per 40px (duration 1000*ceil(overflow/40)), 1000ms hold, 300ms easeInCubic fade out, a 10ms reset of translateX to 0, then a 300ms easeOutCubic fade in. It is used in OperatorSection for the operator camp value, which may overflow in some locales. Named easings used here are linear, easeInCubic and easeOutCubic.
 
-```css
+```js
 /**
  * RollingText — readable reconstruction of webpack module 96664 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -35558,13 +35583,13 @@ const module_96664 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.30 SectionTitle — SectionTitle.73560.js
+### B.30 SectionTitle
 
-https://sitedna.endfield.calyndrae.com/source/readable/SectionTitle.73560.js · chunk 8963-234f979bdd6b491c · 176 lines · 36 identifiers renamed
+_SectionTitle.73560.js · https://sitedna.endfield.calyndrae.com/source/readable/SectionTitle.73560.js · chunk 8963-234f979bdd6b491c · 176 lines · 36 identifiers renamed_
 
 SectionTitle renders a section heading made of an 'ARKNIGHTS ENDFIELD' wordmark SVG (viewBox 0 0 122 6), an arrow block (23x23 arrow icon plus the English title, which is hidden when lang is en-us) and a Chinese/localised title whose lines are split on newline unless keepTitlePC (landscape) or keepTitleH5 (portrait) asks to keep it whole. Once the element is in view (useInView once) and, when loadingEable is true, the LoadingScreen store reports loaded, it fires TextRevealAnimations.zI flicker reveals on the EN title after 400ms and on the CN title after 600ms. Props also accept theme (default 'light', mapped to a CSS-module class), className, style and titleClassName.
 
-```css
+```js
 /**
  * SectionTitle — readable reconstruction of webpack module 73560 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -35743,13 +35768,13 @@ const module_73560 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.31 SITE_CONFIG — SITE_CONFIG.56006.js
+### B.31 SITE_CONFIG
 
-https://sitedna.endfield.calyndrae.com/source/readable/SITE_CONFIG.56006.js · chunk 4948-4c0b17ed78d1fd30 · 26 lines · 1 identifiers renamed
+_SITE_CONFIG.56006.js · https://sitedna.endfield.calyndrae.com/source/readable/SITE_CONFIG.56006.js · chunk 4948-4c0b17ed78d1fd30 · 26 lines · 1 identifiers renamed_
 
 Runtime site configuration parsed from an inlined JSON string and extended with isOversea: true. It carries the launcher download URL (https://launcher.gryphline.com/s/zpEg5p), the Gryphline web SDK script (https://web-api.gryphline.com/static/gl_web_sdk/sdk.entry.js), the ad/ETL app code v9k3ppfah0j2lm5u1js8tg42, the i18n list of 13 language codes (en-us, zh-tw, ja-jp, ko-kr, es-mx, pt-br, fr-fr, de-de, ru-ru, it-it, id-id, th-th, vi-vn), the CMS host https://web-news.gryphline.com with appCode arknights_endfield_official, a Sentry DSN and release official-v4-web@0.0.1, user-center/top-up/survey/creator links, hide_bulletin_dict (ko-kr hides bulletin 2664), accessChecker download URLs, deep links (gryphlinklauncher-TiaytKBUIEdoEwRT://open?ta=endfield, https://endfield.gryphline.com/u-link/) and api_server_host https://endfield.gryphline.com.
 
-```css
+```js
 /**
  * SITE_CONFIG — readable reconstruction of webpack module 56006 (chunk 4948-4c0b17ed78d1fd30.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/4948-4c0b17ed78d1fd30.js
@@ -35778,13 +35803,13 @@ const module_56006 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.32 SOUND_EFFECT_SOURCES — SOUND_EFFECT_SOURCES.26097.js
+### B.32 SOUND_EFFECT_SOURCES
 
-https://sitedna.endfield.calyndrae.com/source/readable/SOUND_EFFECT_SOURCES.26097.js · chunk 8963-234f979bdd6b491c · 91 lines · 22 identifiers renamed
+_SOUND_EFFECT_SOURCES.26097.js · https://sitedna.endfield.calyndrae.com/source/readable/SOUND_EFFECT_SOURCES.26097.js · chunk 8963-234f979bdd6b491c · 91 lines · 22 identifiers renamed_
 
 SoundEffects defines the SFX key map (export d) of twelve mp3 files under static/media/sound/: arrow_click, char_click, char_detail_enter, char_list_enter, close_click, common_click, enter_click, home_enter, menu_click, model, news_cate_click and reserve_click. Export A is a SoundEffectPlayer singleton with a pool of 10 <audio> elements primed with a silent WAV data URI; play(src) returns early when SoundControlStore is disabled, pops an element, sets volume 1, loads the src and returns it to the pool on ended or on a play() rejection, and on the first call also plays every pooled element once to unlock audio on touch devices. Note the constructor primes a throwaway element but pushes a fresh document.createElement('audio') into the pool.
 
-```css
+```js
 /**
  * SOUND_EFFECT_SOURCES — readable reconstruction of webpack module 26097 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -35878,13 +35903,13 @@ const module_26097 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.33 SubpageHeader — SubpageHeader.86797.js
+### B.33 SubpageHeader
 
-https://sitedna.endfield.calyndrae.com/source/readable/SubpageHeader.86797.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 154 lines · 27 identifiers renamed
+_SubpageHeader.86797.js · https://sitedna.endfield.calyndrae.com/source/readable/SubpageHeader.86797.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 154 lines · 27 identifiers renamed_
 
 Shared presentational pieces for the news subpage header. Exports SubpageHeader (export A), which renders a decorative header row: an icon slot, a small two-square 'colon' SVG (viewBox 0 0 6 14), the ENDFIELD wordmark SVG (viewBox 0 0 354 57, fill currentColor), an English subtitle (titleEn), and a dotted deco SVG (viewBox 0 0 112 55); below it the localized title with another colon glyph and a background image div whose variant class comes from the `type` prop (default "pumper"). The two createElement-based SVGs cache their <path> node in module-level variables and use an inlined Object.assign polyfill to spread props onto the <svg>.
 
-```css
+```js
 /**
  * SubpageHeader — readable reconstruction of webpack module 86797 (chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js
@@ -36041,13 +36066,13 @@ const module_86797 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.34 TextShrink — TextShrink.51967.js
+### B.34 TextShrink
 
-https://sitedna.endfield.calyndrae.com/source/readable/TextShrink.51967.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 54 lines · 16 identifiers renamed
+_TextShrink.51967.js · https://sitedna.endfield.calyndrae.com/source/readable/TextShrink.51967.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 54 lines · 16 identifiers renamed_
 
 TextShrink: a component (export A) that returns a string, truncating `text` with '...' so it fits options.length character widths. shrinkText measures with a 2D canvas context using font '16px <options.font>' and a width budget of 16 * options.length px: starting at length-3 characters it grows the candidate while candidate+'...' still fits, and returns candidate+'...' once the plain candidate also overflows; if no canvas is available it falls back to slice(0, length-3)+'...'. Returns the text unchanged when length is 0 or the text is already shorter. On the server it returns the raw text; on the client the result is recomputed in an effect whenever text or options change.
 
-```css
+```js
 /**
  * TextShrink — readable reconstruction of webpack module 51967 (chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js
@@ -36104,13 +36129,13 @@ const module_51967 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.35 Toast — Toast.71985.js
+### B.35 Toast
 
-https://sitedna.endfield.calyndrae.com/source/readable/Toast.71985.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 87 lines · 16 identifiers renamed
+_Toast.71985.js · https://sitedna.endfield.calyndrae.com/source/readable/Toast.71985.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 87 lines · 16 identifiers renamed_
 
 Toast component with an imperative Toast.message(content, {duration=2000}) helper. The component animates its root div with anime.js (opacity [0,1] when visible, [1,0] when hidden, 300 ms, easing cubicBezier(0.25, 0.1, 0.25, 1)) and calls afterClose (default: a no-op from the anime.js 3.2.1 alias) once the hide animation completes. message() appends a div to document.body, creates a React root (createRoot), renders the toast visible inside a setTimeout, then after `duration` ms re-renders it hidden with an afterClose that unmounts the root and removes the container. CSS classes used: styles.toast and styles.content.
 
-```css
+```js
 /**
  * Toast — readable reconstruction of webpack module 71985 (chunk [lang]__(main)__(home)__layout-282874dd3834757d.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(home)/layout-282874dd3834757d.js
@@ -36200,13 +36225,13 @@ const module_71985 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.36 TRACKING_GROUPS — TRACKING_GROUPS.29521.js
+### B.36 TRACKING_GROUPS
 
-https://sitedna.endfield.calyndrae.com/source/readable/TRACKING_GROUPS.29521.js · chunk 8963-234f979bdd6b491c · 32 lines · 1 identifiers renamed
+_TRACKING_GROUPS.29521.js · https://sitedna.endfield.calyndrae.com/source/readable/TRACKING_GROUPS.29521.js · chunk 8963-234f979bdd6b491c · 32 lines · 1 identifiers renamed_
 
 TrackingGroups (export Z) maps homepage section ids to the analytics group names sent with Tracking.collect: home -> section_homepage, notice -> section_announcement, operator -> section_character, lore -> section_lore, information -> section_video, aic -> section_knowledge, gameplay -> section_gameplay and milestone -> section_reservation_reward.
 
-```css
+```js
 /**
  * TRACKING_GROUPS — readable reconstruction of webpack module 29521 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -36241,13 +36266,13 @@ const module_29521 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.37 Tracking — Tracking.1162.js
+### B.37 Tracking
 
-https://sitedna.endfield.calyndrae.com/source/readable/Tracking.1162.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 217 lines · 53 identifiers renamed
+_Tracking.1162.js · https://sitedna.endfield.calyndrae.com/source/readable/Tracking.1162.js · chunk [lang]__(main)__layout-493920d1b65733f5 · 217 lines · 53 identifiers renamed_
 
 Static Tracking facade over the Gryphline web SDK. init(lang) builds an ETL config {domain:'endfield', sub_domain:'official', third_domain: 'psn_access_checker'|'access_checker'|'' by pathname, pageProperties:{language, source, share_type, share_by from SdkInit}, config:{appId: etl_app_id}} and obtains sdkReady via getSDKReadyFunc({src: SiteConfig.sdk, language, etl, cookiesReminder:{enabled:true, theme:'dark'}}). Every method awaits sdkReady() and throws 'Invalid SDK configuration.' unless SDK_TYPE === 'GL': insertFooter renders projects.endfield.renderFooter(el), checkAnswerStatus/survey, download, getToken, getUserInfo (user.checkSession -> formatUserInfo with hgId/email/phone or displayName/reservePlatforms), showLoginDialog (user.auth), logout, queryReserve/submitReserve (reservation API for 'endfield'), getProtocol('endfield/game/<name>'), collect (ETL.event), ADcollect (ETL instance for ad_app_code) and jumpURL which appends a 'ua' tracking-code query param and calls projects.endfield.download with ad_landing/mkt properties. SDKInitializer is a render-null component that calls init once with langProp or the context lang.
 
-```css
+```js
 /**
  * Tracking — readable reconstruction of webpack module 1162 (chunk [lang]__(main)__layout-493920d1b65733f5.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/layout-493920d1b65733f5.js
@@ -36467,13 +36492,13 @@ const module_1162 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.38 TransparentVideo — TransparentVideo.40489.js
+### B.38 TransparentVideo
 
-https://sitedna.endfield.calyndrae.com/source/readable/TransparentVideo.40489.js · chunk 8963-234f979bdd6b491c · 77 lines · 9 identifiers renamed
+_TransparentVideo.40489.js · https://sitedna.endfield.calyndrae.com/source/readable/TransparentVideo.40489.js · chunk 8963-234f979bdd6b491c · 77 lines · 9 identifiers renamed_
 
 TransparentVideo (export y) is a forwardRef React wrapper over the @hg-web/trans-video class from module 25221: it renders a <canvas> plus a hidden muted, playsInline, crossOrigin='anonymous' <video>, constructs the trans-video instance with manualStart:true on mount, exposes {video, trans, controller:{fadeOut}} through the forwarded ref (function or object ref) and disposes the instance on unmount. OperatorSection drives it by setting video.src to the operator's enter/idle clips and calling trans.activate().
 
-```css
+```js
 /**
  * TransparentVideo — readable reconstruction of webpack module 40489 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -36553,13 +36578,13 @@ const module_40489 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.39 TransVideo — TransVideo.25221.js
+### B.39 TransVideo
 
-https://sitedna.endfield.calyndrae.com/source/readable/TransVideo.25221.js · chunk 8498-2c5f8c0351c886c2 · 755 lines · 185 identifiers renamed
+_TransVideo.25221.js · https://sitedna.endfield.calyndrae.com/source/readable/TransVideo.25221.js · chunk 8498-2c5f8c0351c886c2 · 755 lines · 185 identifiers renamed_
 
 Hypergryph's @hg-web/trans-video module: it exports a TransVideo class that takes a canvas plus options and plays an MP4 whose frame carries RGB colour in one region and a grayscale alpha mask in another, compositing them into a transparent canvas. Two renderer classes extend a tiny BaseRenderer (canvas, option): WebGLRenderer compiles a fullscreen-quad vertex shader and a mode-specific fragment shader where alpha = 0.3R + 0.59G + 0.11B (getBrightness in GLSL, mirrored by a JS getBrightness for the fallback), uploads each video frame as an RGB texture and draws a TRIANGLE_STRIP with SRC_ALPHA/DST_ALPHA blending; Canvas2DRenderer is the fallback and does the same with drawImage/getImageData/putImageData per pixel. Three modes are supported via mode-handler tables (webglModeHandlers / canvas2dModeHandlers): 'video' samples colour and mask sub-rectangles chosen by texturePlacement (left-right, right-left, top-bottom, bottom-top), 'image' uses a separate mask image (uploaded as TEXTURE1 or precomputed into a maskData array), and 'luminance' uses the frame's own brightness with an optional reverse flag. TransVideo normalises options into modeConfig, picks WebGL unless forceContext2d/context2d is set, computes the output size from the video metadata (halving width or height for side-by-side layouts unless an explicit size is given), waits for loadedmetadata/canplay, seeks to time 0 and waits for 'seeked', then either renders one frame (manualStart) or calls start(). The ticker re-renders whenever the video has current data and reschedules itself via requestVideoFrameCallback, falling back to requestAnimationFrame when that API is missing or on Android; activate/deactivate toggle the loop and dispose releases GL textures, buffers, shaders and programs. Also present are inlined tslib helpers (__extends twice, __read, __spreadArray).
 
-```css
+```js
 /**
  * TransVideo — readable reconstruction of webpack module 25221 (chunk 8498-2c5f8c0351c886c2.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8498-2c5f8c0351c886c2.js
@@ -37317,13 +37342,13 @@ const module_25221 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.40 useCloseButton — useCloseButton.67002.js
+### B.40 useCloseButton
 
-https://sitedna.endfield.calyndrae.com/source/readable/useCloseButton.67002.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 48 lines · 6 identifiers renamed
+_useCloseButton.67002.js · https://sitedna.endfield.calyndrae.com/source/readable/useCloseButton.67002.js · chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1 · 48 lines · 6 identifiers renamed_
 
 useCloseButton hook for the news detail page. On mount it checks DeviceUtils' Honor-browser user-agent test (/bdhonorbrowser/i, with an empty UA on the server) and whether window.opener exists on the same hostname; when the page was opened from the same site and not in that browser it sets showClose = true (any cross-origin access error resets it to false). It returns {showClose, handleClose} where handleClose calls window.close().
 
-```css
+```js
 /**
  * useCloseButton — readable reconstruction of webpack module 67002 (chunk [lang]__(main)__(subpage)__news__page-e5ae1407cb8bddb1.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(subpage)/news/page-e5ae1407cb8bddb1.js
@@ -37374,13 +37399,13 @@ const module_67002 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.41 useOrientation — useOrientation.90286.js
+### B.41 useOrientation
 
-https://sitedna.endfield.calyndrae.com/source/readable/useOrientation.90286.js · chunk 8963-234f979bdd6b491c · 44 lines · 7 identifiers renamed
+_useOrientation.90286.js · https://sitedna.endfield.calyndrae.com/source/readable/useOrientation.90286.js · chunk 8963-234f979bdd6b491c · 44 lines · 7 identifiers renamed_
 
 useOrientation (export M) returns 'landscape' or 'portrait' by comparing window.innerWidth >= window.innerHeight, defaulting to 'landscape' for SSR. It relies on an internal useResizeEffect hook that runs the callback immediately and again on window resize, debounced to 100ms through the helper imported from module 90145 (aliased framerMotion here, but used as a debounce function).
 
-```css
+```js
 /**
  * useOrientation — readable reconstruction of webpack module 90286 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -37427,13 +37452,13 @@ const module_90286 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.42 UserModalRoot — UserModalRoot.92610.js
+### B.42 UserModalRoot
 
-https://sitedna.endfield.calyndrae.com/source/readable/UserModalRoot.92610.js · chunk 3696-03b8256f1fece6bb · 120 lines · 22 identifiers renamed
+_UserModalRoot.92610.js · https://sitedna.endfield.calyndrae.com/source/readable/UserModalRoot.92610.js · chunk 3696-03b8256f1fece6bb · 120 lines · 22 identifiers renamed_
 
 Account/user modal. A zustand store holds isActive and useActivateUserModal returns its activate action. The modal (SvgIcon80500 frame titled 'modal.user.title') shows the 'modal.user.currentUser' label and account.displayName from the SDK account hook, a 'modal.user.userCenter' button that opens SiteConfig.user_center_link (https://user.gryphline.com/) with an i18n_lang query param in a new tab, a 'modal.user.orig' button only for ja-jp that activates the Originium query modal from module 94150, and a 'modal.user.logout' button (hidden when a local flag is set) that closes the modal and calls the SDK logout action after 300 ms. The root export wraps it in module 44990's container.
 
-```css
+```js
 /**
  * UserModalRoot — readable reconstruction of webpack module 92610 (chunk 3696-03b8256f1fece6bb.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/3696-03b8256f1fece6bb.js
@@ -37556,13 +37581,13 @@ const module_92610 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.43 useSoundControlStore — useSoundControlStore.2285.js
+### B.43 useSoundControlStore
 
-https://sitedna.endfield.calyndrae.com/source/readable/useSoundControlStore.2285.js · chunk 8963-234f979bdd6b491c · 41 lines · 3 identifiers renamed
+_useSoundControlStore.2285.js · https://sitedna.endfield.calyndrae.com/source/readable/useSoundControlStore.2285.js · chunk 8963-234f979bdd6b491c · 41 lines · 3 identifiers renamed_
 
 SoundControlStore (export E) is a zustand store persisted under the localStorage key 'ef-official-sound-control' holding a single `enabled` flag that defaults to true. On the server it is replaced by a stub whose getState() returns {enabled: true} and whose setState() is a no-op. SoundEffects and MediaModal read it to decide whether to play SFX or re-enable background music.
 
-```css
+```js
 /**
  * useSoundControlStore — readable reconstruction of webpack module 2285 (chunk 8963-234f979bdd6b491c.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/8963-234f979bdd6b491c.js
@@ -37606,13 +37631,13 @@ const module_2285 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-### B.44 VideoListContextProvider — VideoListContextProvider.3787.js
+### B.44 VideoListContextProvider
 
-https://sitedna.endfield.calyndrae.com/source/readable/VideoListContextProvider.3787.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 68 lines · 20 identifiers renamed
+_VideoListContextProvider.3787.js · https://sitedna.endfield.calyndrae.com/source/readable/VideoListContextProvider.3787.js · chunk [lang]__(main)__(home)__layout-282874dd3834757d · 68 lines · 20 identifiers renamed_
 
 React context provider for the home-page video list. It seeds state from the SSR value {videos, total}, then on mount calls getVideoList({lang}) (module 60108, /api/content/info_video); on success it stores list and total and sets frontVideoReady = true, and on any thrown error logs '拉取视频列表失败' and shows Toast.message(t('toast.networkError')). The memoized context value is {frontVideoReady, videos, total}; useVideoList reads it.
 
-```css
+```js
 /**
  * VideoListContextProvider — readable reconstruction of webpack module 3787 (chunk [lang]__(main)__(home)__layout-282874dd3834757d.js)
  * Original: https://web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/app/[lang]/(main)/(home)/layout-282874dd3834757d.js
@@ -37683,7 +37708,7 @@ const module_3787 = (webpackModule, webpackExports, webpackRequire) => {
 
 ```
 
-## Appendix C — Data archives and captures (hosted, not reprinted)
+## Appendix C: Data archives and captures (hosted, not reprinted)
 
 The analysis and capture archives behind the chapters are large machine-readable files. Printing them would add thousands of pages without adding understanding, so they stay on the hosted site and are listed here with their sizes. Every link in the chapters that points at one of these files resolves to the same host.
 
@@ -37718,9 +37743,22 @@ The analysis and capture archives behind the chapters are large machine-readable
 | source/rename-maps/ | semantic rename maps with summaries | 106 KB | [https://sitedna.endfield.calyndrae.com/source/rename-maps/](https://sitedna.endfield.calyndrae.com/source/rename-maps/) |
 | source/readable/ | the readable first-party modules (also printed in Appendix B) | 693 KB | [https://sitedna.endfield.calyndrae.com/source/readable/](https://sitedna.endfield.calyndrae.com/source/readable/) |
 | original/ | the SSR responses the mirror serves | 1.4 MB | [https://sitedna.endfield.calyndrae.com/original/](https://sitedna.endfield.calyndrae.com/original/) |
-| verification/report.json | the 29-check verification report | 6 KB | [https://sitedna.endfield.calyndrae.com/verification/report.json](https://sitedna.endfield.calyndrae.com/verification/report.json) |
+| verification/report.json | the 29-check verification report | 2 KB | [https://sitedna.endfield.calyndrae.com/verification/report.json](https://sitedna.endfield.calyndrae.com/verification/report.json) |
 | verification/pages-report.json | the static-host verification | 2 KB | [https://sitedna.endfield.calyndrae.com/verification/pages-report.json](https://sitedna.endfield.calyndrae.com/verification/pages-report.json) |
 | handbook/handbook-bulletin.json | the live handbook as article data | 589 KB | [https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json](https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json) |
 
 The complete repository, including the tools that produced every file above and this document, is at [https://github.com/Calyndrae/Endfield-Site-DNA](https://github.com/Calyndrae/Endfield-Site-DNA).
 
+## Acknowledgements
+
+**Author:** Calyndrae.
+
+Hypergryph / Gryphline are acknowledged as the owners of the Arknights: Endfield website that is the subject of this handbook: its design, markup, stylesheets, scripts, fonts, images and sounds. Their material is reproduced here for study of the site's construction only.
+
+The site's own libraries are acknowledged with their maintainers: React, Next.js, framer-motion, anime.js, Swiper, three.js, lottie-web, axios, dayjs, zustand and Emotion. Credit for those tools belongs to their respective authors; their inclusion here does not imply that they endorse this handbook.
+
+The handbook was produced with Node.js, Playwright and headless Chromium (capture, measurement and specimen rendering), prettier and Babel (beautifying and renaming), PostCSS (stylesheet analysis), poppler (page-text extraction for the contents and index) and ReportLab (this printed edition).
+
+The page layout, beige front matter, body pages and acknowledgements treatment are adapted from the supplied template. Its publisher did not author, publish or endorse this handbook, and no mark of theirs appears in it.
+
+Noto Serif is used for the serif text. The template's Lucida Sans could not be embedded beyond the subset of glyphs the template itself carries, so DejaVu Sans, the closest available humanist sans, takes its role for the title, headings, contents and footer. Code is set in DejaVu Sans Mono. Tables, lists, inline identifiers and code excerpts are typeset from the handbook's own content rather than shown as raw formatting syntax.
