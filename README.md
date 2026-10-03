@@ -17,11 +17,24 @@ node tools/serve.mjs 8786        # local mirror of the original pages + the hand
 
 Windows: `OPEN-HANDBOOK.ps1` starts the mirror and opens the page. The mirror serves the archived original HTML at the original routes, proxies Next.js RSC navigation to the live origin, and answers the article's own data refetch of `/api/bulletin/7013` with `handbook/handbook-bulletin.json`. The page is therefore the untouched article shell (body byte-identical to the live response, verified) whose title and body data are the handbook.
 
+## Hosting
+
+The handbook needs three things from its host: the untouched article shell, the data file the shell's adapter points at, and the repository's own files (`capture/`, `source/`, `analysis/`, `verification/`) for its images and links. Three ways to provide them:
+
+| Option | Who can reach it | What it gives |
+| --- | --- | --- |
+| **Local mirror** — `node tools/serve.mjs 8786` | Only this machine (binds 127.0.0.1). Add `--host=0.0.0.0 --allow=172.20.10.2,fe80::f4a6:62d:5349:1c1e` to serve on the LAN and answer **403 to every client address not listed** | Everything: the handbook plus the original pages at their routes, with RSC navigation proxied to the live site |
+| **GitHub Codespaces** — open the repo in a codespace (`.devcontainer/devcontainer.json` installs the tools and starts the mirror on port 8786) | Only the GitHub account that created the codespace: the forwarded port is **private** by default and GitHub asks for your login before proxying | Same as the local mirror, hosted by GitHub, repository stays private |
+| **GitHub Pages** — Settings → Pages → Source "Deploy from a branch", branch `main`, folder `/ (root)` | **Anyone with the URL.** GitHub Pages is a public static host: it cannot restrict visitors by IP address, and a private LAN address such as 172.20.10.2 is never seen by a public server anyway. On the Free plan Pages also requires the repository to be public; the archived site assets would then be public too | The handbook only, at `https://<owner>.github.io/Endfield-Site-DNA/` (root redirect → `/en-us/news/7013/`), served as plain files. Links to the mirrored original pages point at the live site instead; folder links point at the repository tree |
+
+The Pages variant is built by `build-handbook.mjs` alongside the mirror variant: `en-us/news/7013/index.html` (the same shell, data path base-prefixed; the article's provider parses `/news/(\d+)` from `location.pathname`, so the shell must live under that path), `handbook/handbook-bulletin.pages.json` (the same content with `/capture…` links prefixed by `/Endfield-Site-DNA`), `index.html` (redirect) and `.nojekyll` (so GitHub serves every file verbatim). `node tools/verify-pages.mjs` serves the repository as a static project site under `/Endfield-Site-DNA/` and checks it in headless Chromium → `verification/pages-report.json`. Pass `--base=/other-name` (and `--repo=`) to both scripts if the repository is renamed.
+
 ## Layout of the repository
 
 | Path | What it is |
 | --- | --- |
-| `handbook/` | `index.html` (original article shell + data adapter + two extra *original* stylesheets), `handbook-bulletin.json` (the handbook as bulletin data), `coverage.json` |
+| `handbook/` | `index.html` (original article shell + data adapter + two extra *original* stylesheets), `handbook-bulletin.json` (the handbook as bulletin data), `handbook-bulletin.pages.json` (same content, base-prefixed for GitHub Pages), `coverage.json` |
+| `en-us/news/7013/index.html`, `index.html`, `.nojekyll`, `.devcontainer/` | GitHub Pages shell and root redirect, Jekyll bypass, Codespaces configuration (see Hosting) |
 | `capture/` | Raw archive: `interactions.json` (what every interaction actually does, measured live), `js/` (31 chunks), `css/` (12 stylesheets), `fonts/` (woff2), `assets/` (small CSS/JS-referenced assets), `pages/<route>/` (SSR+hydrated DOM, portrait DOM, screenshots, computed styles, hover diffs, style-mutation timelines, media logs), `states/` (interaction states: rail hover, share list, dropdown open, operator detail, news tabs, footer language picker, mobile menu, loader frames), `network-manifest.json` (every response: URL, type, bytes, SHA-256) |
 | `source/` | `beautified/` (prettier output of every chunk), `modules/<chunk>/<id>.js` (708 split webpack modules), `module-map.json` + `MODULE-MAP.md` (every module named: site / site-vendor / vendor / css-module / asset / i18n-bundle), `stage1/` (library aliases resolved, short names made unique), `rename-maps/` (semantic rename maps with summaries), `readable/` (45 first-party modules renamed scope-aware with Babel; values and control flow unchanged) |
 | `analysis/` | `css-rules.json` (every rule with media context), `colors.json`, `typography.json`, `spacing.json`, `layers.json`, `motion.json`, `breakpoints.json`, `hover-states.json`, `motion-timelines.json`, `components/<Component>.json` (per-component CSS, real markup, computed styles, hover, keyframes), `css-digest.md`, `DNA.md` (written specification) |
@@ -41,7 +54,8 @@ Windows: `OPEN-HANDBOOK.ps1` starts the mirror and opens the page. The mirror se
 | `beautify.mjs`, `split-modules.mjs`, `hint-modules.mjs`, `name-modules.mjs` (+ `source/module-names.json`), `rename.mjs`, `stage2.mjs` (+ `source/rename-maps/*.json`), `write-module-map.mjs` | Deobfuscation pipeline |
 | `analyze-css.mjs`, `css-digest.mjs`, `analyze-hover.mjs`, `analyze-motion.mjs`, `extract-components.mjs` | Design-token and component evidence extraction |
 | `build-handbook.mjs` (+ `handbook/chapters-*.mjs`, `handbook/lib.mjs`) | Builds the single-page handbook from the data |
-| `serve.mjs [port]` | Local mirror |
+| `serve.mjs [port] [--host=0.0.0.0] [--allow=ip,ip]` | Local mirror; optional LAN binding with a client-address allow list |
+| `verify-pages.mjs [--base=/Endfield-Site-DNA]` | Serves the repository as a static GitHub Pages project site and verifies the Pages variant in headless Chromium |
 | `verify.mjs` | Headless verification (shell untouched, loader finishes, anchors, specimen geometry, hover parity with live measurements, live rail/footer/back-to-top, mobile overflow, every code excerpt anchored in the readable source, interaction chapter and `capture/interactions.json` complete and self-consistent) |
 | `write-docs.mjs` | Regenerates `CHUNK_MAP.md` and `COVERAGE.md` |
 
