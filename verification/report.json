@@ -1,5 +1,5 @@
 {
- "startedAt": "2026-10-03T13:29:54.972Z",
+ "startedAt": "2026-10-03T14:10:48.118Z",
  "checks": [
   {
    "name": "body of handbook/index.html is byte-identical to the original SSR response",
@@ -30,7 +30,7 @@
    "ok": true,
    "detail": {
     "cid": "7013",
-    "chars": 459379
+    "chars": 592298
    }
   },
   {
@@ -38,14 +38,49 @@
    "ok": true
   },
   {
+   "name": "no chapter build errors and every code excerpt anchor resolved",
+   "ok": true,
+   "detail": {
+    "excerpts": 49
+   }
+  },
+  {
+   "name": "interactions chapter carries live measurements, tables and code excerpts",
+   "ok": true,
+   "detail": {
+    "measuredCount": 21,
+    "tableCount": 12,
+    "excerptCount": 27
+   }
+  },
+  {
+   "name": "root font-size formula matched the live value at all captured viewports",
+   "ok": true,
+   "detail": [
+    "2560×1440: 16px",
+    "1920×1080: 12px",
+    "1440×900: 9px",
+    "1280×720: 8px",
+    "1024×768: 6.4px",
+    "768×1024: 8.53333px",
+    "390×844: 5.77778px",
+    "360×780: 5.33333px"
+   ]
+  },
+  {
+   "name": "every interaction scenario produced data (no scenario-level errors)",
+   "ok": true,
+   "detail": "none"
+  },
+  {
    "name": "client refetch of /api/bulletin/7013 was answered by the local handbook record",
    "ok": true,
-   "detail": "3019 ms"
+   "detail": "2924 ms"
   },
   {
    "name": "first-load screen finished and left",
    "ok": true,
-   "detail": "8176 ms"
+   "detail": "8518 ms"
   },
   {
    "name": "article title replaced by the handbook title",
@@ -189,11 +224,11 @@
  "failedRequests": [],
  "stats": {
   "specimens": 13,
-  "chapters": 35,
-  "contentChars": 459379,
-  "loaderMs": 32685
+  "chapters": 36,
+  "contentChars": 592298,
+  "loaderMs": 33603
  },
- "passed": 25,
+ "passed": 29,
  "failed": 0,
- "finishedAt": "2026-10-03T13:30:27.924Z"
+ "finishedAt": "2026-10-03T14:11:22.051Z"
 }
