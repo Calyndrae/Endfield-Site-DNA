@@ -1,6 +1,6 @@
 {
  "base": "",
- "at": "2026-10-03T20:06:54.944Z",
+ "at": "2026-10-03T22:31:17.769Z",
  "results": [
   {
    "name": "root index.html redirects to the article path the shell needs",
@@ -15,7 +15,7 @@
   {
    "name": "first-load screen finished and left on a static host",
    "ok": true,
-   "detail": "9520 ms"
+   "detail": "8233 ms"
   },
   {
    "name": "page URL kept the Pages base path (no client-side redirect)",
@@ -40,7 +40,7 @@
    "name": "every root-relative content link carries the base path",
    "ok": true,
    "detail": {
-    "local": 126,
+    "local": 172,
     "stray": []
    }
   },

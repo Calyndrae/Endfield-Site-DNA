@@ -1,0 +1,44 @@
+[
+ {
+  "route": "/en-us",
+  "file": "archive/rsc/en-us.txt",
+  "bytes": 33648,
+  "sha256": "4bb8d40c7a3123d39e447aad02fe2170e81429e666ba38eca5a65db6ef5df35b",
+  "type": "text/x-component"
+ },
+ {
+  "route": "/en-us/operator",
+  "file": "archive/rsc/en-us_operator.txt",
+  "bytes": 24881,
+  "sha256": "e5e86b39c14e07eeca58e857a053bf365bf06988dc6c86ef7520233c87b3b60e",
+  "type": "text/x-component"
+ },
+ {
+  "route": "/en-us/news",
+  "file": "archive/rsc/en-us_news.txt",
+  "bytes": 29615,
+  "sha256": "4597d2fce065bcc6d225e88e1f65e21fa4c861dade13b479a81147de57c99f10",
+  "type": "text/x-component"
+ },
+ {
+  "route": "/en-us/news/7013",
+  "file": "archive/rsc/en-us_news_7013.txt",
+  "bytes": 26122,
+  "sha256": "08d2ec3c666d45f4ff95c97550b5c7d3d480ff781df6e5ec7400d8fe372145e5",
+  "type": "text/x-component"
+ },
+ {
+  "route": "/en-us/protocol/privacy_policy",
+  "file": "archive/rsc/en-us_protocol_privacy_policy.txt",
+  "bytes": 17374,
+  "sha256": "908d8cf9312723a71d417876df37c47e8e69f951a9a945ea67326fb325deac34",
+  "type": "text/x-component"
+ },
+ {
+  "route": "/en-us/protocol/terms_of_service",
+  "file": "archive/rsc/en-us_protocol_terms_of_service.txt",
+  "bytes": 17382,
+  "sha256": "850410a56a6b05b2502b1f4e384bf9f7583b8c43117a39c7b5ed0a3b8e9363f4",
+  "type": "text/x-component"
+ }
+]

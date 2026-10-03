@@ -21,7 +21,7 @@ node tools/serve.mjs 8786        # local mirror of the original pages + the hand
 # http://127.0.0.1:8786/en-us/news        ← original news index
 ```
 
-Windows: `OPEN-HANDBOOK.ps1` starts the mirror and opens the page. The mirror serves the archived original HTML at the original routes, proxies Next.js RSC navigation to the live origin, and answers the article's own data refetch of `/api/bulletin/7013` with `handbook/handbook-bulletin.json`. The page is therefore the untouched article shell (body byte-identical to the live response, verified) whose title and body data are the handbook.
+Windows: `OPEN-HANDBOOK.ps1` starts the mirror and opens the page. The original routes (`/en-us`, `/en-us/operator`, `/en-us/news`, the protocol pages and 107 archived articles) are the self-contained mirror pages under `en-us/`: the archived server responses with their asset tags and flight data pointed at the originals archive, plus a head adapter that answers the site's API and RSC requests from the archive (see `archive/` and `mirror/` below). The handbook route answers the article's own data refetch of `/api/bulletin/7013` with `handbook/handbook-bulletin.json`. The page is therefore the untouched article shell (body byte-identical to the live response, verified) whose title and body data are the handbook.
 
 ## Hosting
 
@@ -47,7 +47,10 @@ The Pages variant is built by `build-handbook.mjs` alongside the mirror variant:
 | `source/` | `beautified/` (prettier output of every chunk), `modules/<chunk>/<id>.js` (708 split webpack modules), `module-map.json` + `MODULE-MAP.md` (every module named: site / site-vendor / vendor / css-module / asset / i18n-bundle), `stage1/` (library aliases resolved, short names made unique), `rename-maps/` (semantic rename maps with summaries), `readable/` (45 first-party modules renamed scope-aware with Babel; values and control flow unchanged) |
 | `analysis/` | `css-rules.json` (every rule with media context), `colors.json`, `typography.json`, `spacing.json`, `layers.json`, `motion.json`, `breakpoints.json`, `hover-states.json`, `motion-timelines.json`, `components/<Component>.json` (per-component CSS, real markup, computed styles, hover, keyframes), `css-digest.md`, `DNA.md` (written specification) |
 | `verification/` | `report.json` + screenshots from `tools/verify.mjs` |
-| `original/` | The SSR responses the mirror serves (`*-response.html`), `routes.json` |
+| `archive/` | **Originals archive** (`tools/archive-originals.mjs`): `files/<host>/<path>` — every file the depth-1 pages load, verbatim, with URL, size and SHA-256 in `index.json`; `api/` — every answer the site's CMS and SDK gave the pages (`api/index.json` keys them by the exact request URL); `rsc/` — the React Server Components payload of every route; `clips-index.json` — all 66 character-stage clips with URL and size (7 archived within the 1 GB GitHub Pages limit; `--clips=all` fetches the rest, 785 MB) |
+| `mirror/` | Rewritten copies the mirror serves instead of an archived file when the file names CDN URLs inside itself (`files/` scripts and stylesheets, `api/` answers with their media URLs pointed at the archive, `rsc/` payloads rewritten row by row); `index.json` maps each copy to its archive file |
+| `en-us/` | The mirror pages (`tools/build-mirror.mjs`): one `index.html` per original route and per archived article, each the archived server response with its URLs rewritten and the head adapter added; `en-us/news/7013/` is the handbook |
+| `original/` | The SSR responses the mirror is built from (`*-response.html`), `routes.json` |
 | `tools/` | Node scripts (below) |
 | `legacy/` | The earlier session's Python tooling and invented presentation, kept for provenance only |
 | `COVERAGE.md`, `CHUNK_MAP.md`, `PLAN.md` | Component coverage proof, archived-file map, plan and status |
@@ -63,12 +66,15 @@ The Pages variant is built by `build-handbook.mjs` alongside the mirror variant:
 | `analyze-css.mjs`, `css-digest.mjs`, `analyze-hover.mjs`, `analyze-motion.mjs`, `extract-components.mjs` | Design-token and component evidence extraction |
 | `build-handbook.mjs` (+ `handbook/chapters-*.mjs`, `handbook/lib.mjs`) | Builds the single-page handbook from the data |
 | `build-doc.mjs` + `build-pdf.py` | Build the downloadable PDF (ReportLab, template geometry, three passes for verified page numbers) and the Markdown twin from the same chapters |
-| `serve.mjs [port] [--host=0.0.0.0] [--allow=ip,ip]` | Local mirror; optional LAN binding with a client-address allow list |
+| `archive-originals.mjs [--budget-mb=480] [--clips=all]` | Downloads every depth-1 file, API answer, RSC payload, article image (within the budget) and operator clip into `archive/` with digests |
+| `build-mirror.mjs` | Builds the self-contained mirror pages under `en-us/` and the rewritten copies under `mirror/` from the archive |
+| `verify-mirror.mjs` | Serves the repository as a plain static host and checks the mirror in headless Chromium: loader, local API/RSC answers, no live-CDN fetches, client navigation, article pages, no missing files (`verification/mirror-report.json`) |
+| `serve.mjs [port] [--host=0.0.0.0] [--allow=ip,ip]` | Local server (mirror pages, handbook, static files); optional LAN binding with a client-address allow list |
 | `verify-pages.mjs [--base=/Endfield-Site-DNA]` | Serves the repository as a static GitHub Pages project site and verifies the Pages variant in headless Chromium |
 | `verify.mjs` | Headless verification (shell untouched, loader finishes, anchors, specimen geometry, hover parity with live measurements, live rail/footer/back-to-top, mobile overflow, every code excerpt anchored in the readable source, interaction chapter and `capture/interactions.json` complete and self-consistent) |
 | `write-docs.mjs` | Regenerates `CHUNK_MAP.md` and `COVERAGE.md` |
 
-Rebuild everything: `node capture.mjs && node analyze-css.mjs && node split-modules.mjs && node name-modules.mjs && node rename.mjs && node stage2.mjs && node extract-components.mjs && node analyze-hover.mjs && node analyze-motion.mjs && node build-handbook.mjs && node verify.mjs` (from `tools/`). Chromium must trust the network path it runs on; in this repository's development container that meant adding the egress CA to Chromium's NSS store.
+Rebuild everything: `node capture.mjs && node analyze-css.mjs && node split-modules.mjs && node name-modules.mjs && node rename.mjs && node stage2.mjs && node extract-components.mjs && node analyze-hover.mjs && node analyze-motion.mjs && node archive-originals.mjs && node build-mirror.mjs && node verify-mirror.mjs && node build-handbook.mjs && node verify.mjs` (from `tools/`). Chromium must trust the network path it runs on; in this repository's development container that meant adding the egress CA to Chromium's NSS store.
 
 ## What was found, in one paragraph
 

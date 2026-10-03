@@ -13,8 +13,9 @@ import { chapters as B } from './handbook/chapters-b.mjs';
 import { chapters as C } from './handbook/chapters-c.mjs';
 import { chapters as D } from './handbook/chapters-d.mjs';
 import { chapters as E } from './handbook/chapters-e.mjs';
+import { chapters as F } from './handbook/chapters-f.mjs';
 const TITLE = 'Endfield website DNA — technical handbook (single page)';
-const chapters = [...A, ...B, ...C, ...E, ...D];
+const chapters = [...A, ...B, ...C, ...E, ...D, ...F];
 mkdirSync(join(root, 'handbook'), { recursive: true });
 const used = new Set();
 let body = '';
@@ -68,7 +69,7 @@ const CNAME = existsSync(join(root, 'CNAME')) ? readFileSync(join(root, 'CNAME')
 const PAGES_BASE = (process.argv.find(a => a.startsWith('--base=')) || ('--base=' + (CNAME ? '' : '/Endfield-Site-DNA'))).slice(7).replace(/\/$/, '');
 // A static host has no directory listings, so links to folders go to the repository tree on GitHub.
 const REPO_URL = (process.argv.find(a => a.startsWith('--repo=')) || '--repo=https://github.com/Calyndrae/Endfield-Site-DNA').slice(7).replace(/\/$/, '');
-const pagesContent = CONTENT.replace(/href="\/([^"]*\/)"/g, (m, dir) => `href="${REPO_URL}/tree/main/${dir.replace(/\/$/, '')}"`).replace(/(src|href)="\/(?!\/)/g, (m, attr) => `${attr}="${PAGES_BASE}/`).replace(new RegExp(`href="${PAGES_BASE.replace(/[/.]/g, '\\$&')}/en-us`, 'g'), 'href="https://endfield.gryphline.com/en-us');
+const pagesContent = CONTENT.replace(/href="\/([^"]*\/)"/g, (m, dir) => existsSync(join(root, dir, 'index.html')) || /^(archive|en-us|mirror)\//.test(dir) ? m : `href="${REPO_URL}/tree/main/${dir.replace(/\/$/, '')}"`).replace(/(src|href)="\/(?!\/)/g, (m, attr) => `${attr}="${PAGES_BASE}/`);
 writeFileSync(join(root, 'handbook/handbook-bulletin.pages.json'), JSON.stringify({ code: 0, data: { ...bulletin, data: pagesContent } }));
 // The article's own provider parses window.location.pathname with /\/news\/(\d+)/ before it refetches the
 // bulletin (NoticeDetailContextProvider), so the Pages shell must live under a /news/7013 path too.

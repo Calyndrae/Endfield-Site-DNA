@@ -35,7 +35,7 @@ Where a component could be captured verbatim from the live page it is shown rend
 
 Short excerpts of the reconstructed, readable JavaScript sit next to the behaviour they produce; the complete modules are in Appendix B. Minified identifiers were renamed scope-aware; values, strings and control flow are unchanged. Vendor libraries (React 19, Next.js, framer-motion, anime.js 3.2.1, swiper, three.js r178, lottie-web 5.12.2, axios, dayjs, zustand, @emotion, the Gryphline web SDK) are identified, not reprinted.
 
-Large machine-readable archives — the CSS rule database, colour and typography tables, captures, network manifest, module maps — are not reprinted. They are hosted with the live edition of this handbook at https://sitedna.endfield.calyndrae.com and listed with sizes in Appendix C; every link in the chapters resolves there. The source repository is https://github.com/Calyndrae/Endfield-Site-DNA. The supplied template provides the page layout: its cover, front-matter, body and acknowledgements roles and colours are kept; its wordmark is not.
+Large machine-readable archives — the CSS rule database, colour and typography tables, captures, network manifest, module maps — are not reprinted. They are hosted with the live edition of this handbook at https://sitedna.endfield.calyndrae.com and listed with sizes in Appendix C; every link in the chapters resolves there. The same host carries the originals archive and the self-contained mirror described in chapter 37: every file the pages load, every API answer, the server-components payload of every route, the SDK scripts and a subset of the character clips, with the original pages served from them. The source repository is https://github.com/Calyndrae/Endfield-Site-DNA. The supplied template provides the page layout: its cover, front-matter, body and acknowledgements roles and colours are kept; its wordmark is not.
 
 **Author:** Calyndrae.
 
@@ -79,6 +79,7 @@ Use the linked contents pages to open any section directly; the word Contents in
 - [Components declared in CSS but not rendered on the captured pages](#unrendered)
 - [Coverage matrix: every component and where it is used here](#coverage)
 - [Build a child site: the transferable rules](#blueprint)
+- [Originals archive and self-contained mirror: the real assets, data and pages on this host](#originals)
 
 ## Notice
 
@@ -88,7 +89,7 @@ The readable JavaScript in Appendix B is a reconstruction: the shipped minified 
 
 The page layout, beige front matter, body pages and acknowledgements treatment are adapted from the supplied template. The template's publisher did not author, publish or endorse this handbook, and no mark of theirs appears in it.
 
-Measurements describe the site as it answered on 2026-10-03 to one headless Chromium build in one container (no H.264 decoder, no GPU). Where that environment limited a measurement — the transparent-video clips could be requested but not decoded — the limit is stated in place.
+Measurements describe the site as it answered on 2026-10-03 to one headless Chromium build in one container (no H.264 decoder, no GPU). Where that environment limited a measurement — the transparent-video clips could be requested but not decoded — the limit is stated in place, and the mirror on the hosted site renders those parts in any normal browser from the archived files.
 
 ## 01 Scope, evidence rules and how to read this page
 
@@ -6945,6 +6946,103 @@ node tools/verify.mjs             # headless checks + screenshots → verificati
 
 Original pages through the mirror: [/en-us](https://sitedna.endfield.calyndrae.com/en-us) · [/en-us/operator](https://sitedna.endfield.calyndrae.com/en-us/operator) · [/en-us/news](https://sitedna.endfield.calyndrae.com/en-us/news). Everything in this handbook that is not an original component is text, and the text is tagged.
 
+## 37 Originals archive and self-contained mirror: the real assets, data and pages on this host
+
+_Chapter 37 · 7 observed · 1 measured · 2 inferred · 1 rules_
+
+Everything the chapters describe can be opened in its original form on this host. The archive holds, verbatim and with SHA-256 digests, every file the depth-1 pages load, every answer the site's own API gave the pages, the server-components payload of every route, and the third-party SDK scripts; the mirror serves the original pages from that archive with their own markup, data and client navigation. Together they close the gaps that a document alone cannot: the backend answers, the media, the compiled source and the parts a headless capture could not render are all here as files, not descriptions.
+
+### A. What is archived
+
+**OBSERVED** — Archived on 2026-10-03: 360 files (554.5 MB), 138 API responses, 6 RSC payloads, 7 of 66 operator clips. Each entry in [archive/index.json](https://sitedna.endfield.calyndrae.com/archive/index.json) carries its original URL, size and SHA-256; the digests of the depth-1 files match the network manifest taken during the first capture unless the entry says the content changed.
+
+| Kind | Files | Bytes | Where |
+| --- | --- | --- | --- |
+| mp4 | 10 | 218.3 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| png | 143 | 154.8 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| jpg | 101 | 111.8 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| gif | 9 | 53.6 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| js | 47 | 6.5 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| ? | 13 | 3.5 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| mp3 | 1 | 2.8 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| bin | 6 | 2.5 MB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| css | 12 | 395 KB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| woff2 | 10 | 244 KB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| woff | 1 | 81 KB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| svg | 5 | 16 KB | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+| json | 2 | 104 B | [archive/files/…](https://sitedna.endfield.calyndrae.com/archive/files/) |
+
+### B. The backend, as the pages saw it
+
+**OBSERVED** — The pages talk to three services: the CMS at web-news.gryphline.com (/api/bulletin for lists and articles), the site origin (/api/content/info_video for the media list) and the SDK host web-api.gryphline.com (grayscale.json configuration). Every GET the client built while the news index was driven through all its tabs and pages, every article those lists name (118 articles) and every page of the video list were recorded with the exact URL the client requests, so a child site can answer them from static files or copy their shapes.
+
+| Request (as the client builds it) | Status | Bytes | Archived answer |
+| --- | --- | --- | --- |
+| endfield.gryphline.com/api/content/info_video?lang=en-us&page=1&pageSize=10 | 200 | 5894 | [6e76c5c860f9d557.json](https://sitedna.endfield.calyndrae.com/archive/api/6e76c5c860f9d557.json) |
+| web-api.gryphline.com/static/gl_account_web_sdk/grayscale.json | 200 | 52 | [a86fba4d976a6e5b.json](https://sitedna.endfield.calyndrae.com/archive/api/a86fba4d976a6e5b.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=10 | 200 | 3757 | [077d61953d5fcdb0.json](https://sitedna.endfield.calyndrae.com/archive/api/077d61953d5fcdb0.json) |
+| web-api.gryphline.com/static/gl_web_sdk/grayscale.json | 200 | 52 | [23a4fd6b86011c3a.json](https://sitedna.endfield.calyndrae.com/archive/api/23a4fd6b86011c3a.json) |
+| web-news.gryphline.com/api/bulletin/7013?lang=en-us&code=arknights_endfield_official | 200 | 1470 | [7dd2256ed74cbcc8.json](https://sitedna.endfield.calyndrae.com/archive/api/7dd2256ed74cbcc8.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=2&pageSize=9 | 200 | 3386 | [8e42beb2daa421ff.json](https://sitedna.endfield.calyndrae.com/archive/api/8e42beb2daa421ff.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=3&pageSize=9 | 200 | 3286 | [32ef875524db45da.json](https://sitedna.endfield.calyndrae.com/archive/api/32ef875524db45da.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=4&pageSize=9 | 200 | 3485 | [8ffc12436f7f3978.json](https://sitedna.endfield.calyndrae.com/archive/api/8ffc12436f7f3978.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=5&pageSize=9 | 200 | 3367 | [6963e32e76394bdf.json](https://sitedna.endfield.calyndrae.com/archive/api/6963e32e76394bdf.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=7&pageSize=9 | 200 | 3307 | [58c8bc19780415fc.json](https://sitedna.endfield.calyndrae.com/archive/api/58c8bc19780415fc.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=8&pageSize=9 | 200 | 3463 | [e5fe0fc8f3cc52ea.json](https://sitedna.endfield.calyndrae.com/archive/api/e5fe0fc8f3cc52ea.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=10&pageSize=9 | 200 | 3400 | [92b296638599f428.json](https://sitedna.endfield.calyndrae.com/archive/api/92b296638599f428.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=11&pageSize=9 | 200 | 3358 | [73ceac169347b0cf.json](https://sitedna.endfield.calyndrae.com/archive/api/73ceac169347b0cf.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=12&pageSize=9 | 200 | 3782 | [fc109f9dd647eddc.json](https://sitedna.endfield.calyndrae.com/archive/api/fc109f9dd647eddc.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=notices | 200 | 3406 | [305ac130e604da8d.json](https://sitedna.endfield.calyndrae.com/archive/api/305ac130e604da8d.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=6&pageSize=9 | 200 | 3437 | [ff936f06754b876c.json](https://sitedna.endfield.calyndrae.com/archive/api/ff936f06754b876c.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=9&pageSize=9 | 200 | 3314 | [950842e18dfed0f3.json](https://sitedna.endfield.calyndrae.com/archive/api/950842e18dfed0f3.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=events | 200 | 3364 | [9a9828765e5a7b8e.json](https://sitedna.endfield.calyndrae.com/archive/api/9a9828765e5a7b8e.json) |
+| web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=1&pageSize=9&tabs[]=news | 200 | 3314 | [80c9b5cdeee77119.json](https://sitedna.endfield.calyndrae.com/archive/api/80c9b5cdeee77119.json) |
+| web-news.gryphline.com/api/bulletin/0748?lang=en-us&code=arknights_endfield_official | 200 | 2843 | [1d924e63ce081712.json](https://sitedna.endfield.calyndrae.com/archive/api/1d924e63ce081712.json) |
+| web-news.gryphline.com/api/bulletin/0750?lang=en-us&code=arknights_endfield_official | 200 | 1180 | [cc5fe556e92e7ba7.json](https://sitedna.endfield.calyndrae.com/archive/api/cc5fe556e92e7ba7.json) |
+| web-news.gryphline.com/api/bulletin/0751?lang=en-us&code=arknights_endfield_official | 200 | 26298 | [11f6277651b3228f.json](https://sitedna.endfield.calyndrae.com/archive/api/11f6277651b3228f.json) |
+| web-news.gryphline.com/api/bulletin/0752?lang=en-us&code=arknights_endfield_official | 200 | 2560 | [40c0c1b9e7dc4172.json](https://sitedna.endfield.calyndrae.com/archive/api/40c0c1b9e7dc4172.json) |
+| web-news.gryphline.com/api/bulletin/0753?lang=en-us&code=arknights_endfield_official | 200 | 1904 | [b5d1c6629dfae998.json](https://sitedna.endfield.calyndrae.com/archive/api/b5d1c6629dfae998.json) |
+| … 114 more in archive/api/index.json |  |  | [index](https://sitedna.endfield.calyndrae.com/archive/api/index.json) |
+
+**OBSERVED** — Client navigation: Next.js fetches a React Server Components payload for the target route (header rsc: 1). The payload of every route is archived under [archive/rsc/](https://sitedna.endfield.calyndrae.com/archive/rsc/) (/en-us 33 KB, /en-us/operator 24 KB, /en-us/news 29 KB, /en-us/news/7013 26 KB, /en-us/protocol/privacy_policy 17 KB, /en-us/protocol/terms_of_service 17 KB), so the mirror's router navigates without the origin server.
+
+**INFERRED** — What cannot be archived: the per-session answers of the SDK's own services (regular/check, cookie_store/account_token, event logging). The mirror lets those calls go to their live hosts, where the browser blocks them for a foreign origin exactly as it did for the local mirror; a child site replaces them with its own consent, login and analytics.
+
+### C. The media
+
+**OBSERVED** — All 262 images, videos, sounds and Lottie files the depth-1 pages load are archived, plus the images referenced by 118 archived articles up to the size budget. The character stage's transparent-video clips are 784.7 MB for 66 clips; GitHub Pages serves at most 1 GB per site, so 7 clips are archived (akekuri/enter, akekuri/idle, antal/enter, antal/idle, chen/enter, chen/idle, purrche/enter) and the other 59 are listed with URL, size and operator in [archive/clips-index.json](https://sitedna.endfield.calyndrae.com/archive/clips-index.json); the mirror loads them from the live CDN when the stage needs them, and tools/archive-originals.mjs --clips=all fetches every one for a local copy.
+
+### D. The source, three ways
+
+**OBSERVED** — The compiled chunks exactly as shipped (32 files under [archive/files/web-static.hg-cdn.com/…/_next/static/chunks/](https://sitedna.endfield.calyndrae.com/archive/files/web-static.hg-cdn.com/endfield/official-v4/_next/static/chunks/)), the same chunks beautified ([source/beautified/](https://sitedna.endfield.calyndrae.com/source/beautified/)), split into 708 named modules ([source/modules/](https://sitedna.endfield.calyndrae.com/source/modules/), [source/MODULE-MAP.md](https://sitedna.endfield.calyndrae.com/source/MODULE-MAP.md)) and the first-party modules renamed for reading ([source/readable/](https://sitedna.endfield.calyndrae.com/source/readable/)). The original TypeScript and JSX were never published; what a child site builds from is the readable layer, checked against the shipped chunk when a detail matters.
+
+### E. The mirror
+
+**OBSERVED** — The mirror is the archived server response of each route, served as a static file, with its URLs rewritten and one adapter script added in the document head. The rewrite points every static asset tag and every URL inside the embedded flight data at the archived file (the flight data is rewritten row by row, so the byte-length prefix of each text row is recomputed and the client parser reads it as before); the markup, data and order of the page are otherwise the original response. The adapter answers the page's API and RSC requests from the archive, redirects script, image, video and font loads to archived copies when they exist, and lets anything not archived reach its original URL. Routes: [/en-us](https://sitedna.endfield.calyndrae.com/en-us), [/en-us/operator](https://sitedna.endfield.calyndrae.com/en-us/operator), [/en-us/news](https://sitedna.endfield.calyndrae.com/en-us/news), [/en-us/protocol/privacy_policy](https://sitedna.endfield.calyndrae.com/en-us/protocol/privacy_policy), [/en-us/protocol/terms_of_service](https://sitedna.endfield.calyndrae.com/en-us/protocol/terms_of_service), plus 117 archived articles at /en-us/news/: each is the article shell with that article's archived record in its flight data and in its server-rendered body (the article at /en-us/news/7013 is this handbook).
+
+**OBSERVED** — Three kinds of archived file name CDN URLs inside themselves and are served from rewritten copies under [mirror/](https://sitedna.endfield.calyndrae.com/mirror/index.json) while the originals stay untouched in the archive: 18 scripts and stylesheets under mirror/files/ (the webpack runtime's public path pointed at the archive tree, the SDK bundles' asset expressions resolved to the archived fonts and images, url() in the stylesheets: 0ff6a898df0edefb.css, 1ef245f541070a31.css, 637308dda4dd7f2d.css, 5db72e0ba5b54b39.css, 79293df1a997d2da.css, 3bd8ebba7b8795c3.css, …), 60 API answers under mirror/api/ (the cover and article images they name), and 6 RSC payloads under mirror/rsc/. mirror/index.json lists every copy against its archive file.
+
+**MEASURED** — tools/verify-mirror.mjs loaded the mirror from a plain static server: 13 of 13 checks passed — ✓ home: loader finished from the archive; ✓ home: chunks, stylesheets, fonts, images, videos and audio came from this host; ✓ home: nothing was fetched from the live CDN; ✓ home: news and video data answered from the archive; ✓ home: rail, sections and footer rendered; ✓ home: background music requested from this host; ✓ router navigation payload (rsc: 1) answered from the archive as text/x-component; ✓ operator catalogue: loader finished and cards rendered; ✓ news index: initial list, second tab and second page all answered from the archive; ✓ article 0748: renders its own archived data (title matches the archived record); ✓ article 0748: images served from this host where archived (others fall back to the CDN); ✓ no JavaScript errors other than the site's own React #418 hydration notice; ✓ no missing files on this host.
+
+```
+// mirror adapter (head only), excerpt — tools/build-mirror.mjs
+const archived = u => { const x = new URL(u, location.href); if (!hostOf[x.host]) return null;
+  const p = '/archive/files/' + x.host + decodeURIComponent(x.pathname); return FILES.has(p) ? (LOCAL[p] || p) : null; };
+const unarchived = u => { /* a local archive path with no file behind it → the original https:// URL */ };
+XMLHttpRequest.prototype.open = function (m, u, ...r) { const k = key(u);
+  if (m === 'GET' && API[k]) u = location.origin + API[k]; else { const a = archived(u); if (a) u = a; }
+  return open.call(this, m, u, ...r); };
+window.fetch = async function (input, init) { /* rsc: 1 → RSC[route], API[key] → the archived answer, assets → archived(u) */ };
+// flight rows: `id:T<hex byte length>,text` — a URL rewritten inside the text changes the length, so every row is re-emitted
+const rewriteFlight = text => { /* parse rows, rewriteUrls(row), recompute T lengths, concat */ };
+```
+
+### F. What this changes for a child site
+
+**RULE FOR A CHILD SITE** — Build the backend to answer the archived requests in the archived shapes (archive/api/index.json is the contract; mirror/api/ shows the same answers with the media on this host), serve media from your own CDN with the same paths, keep the SDK calls behind your own consent and login, and use the mirror as the reference rendering: open a mirrored page and a child page side by side at 1440×900 and compare.
+
+**INFERRED** — With the archive and the mirror on the same host as this handbook, the only things a reader cannot take from here are Gryphline's live services and the rights to the material: everything that can be a file is a file.
+
 ## Visual record: every captured screenshot
 
 Every screenshot taken while the site was captured and measured, in the order the capture scripts produced them. They are the visual counterpart of the measurements in the chapters: the chapters give the numbers, these show what the numbers describe. All were taken in headless Chromium on 2026-10-03 against the live site.
@@ -7108,6 +7206,8 @@ Screenshots from the verification run of the live single-page handbook: the orig
 ![handbook top 1440](https://sitedna.endfield.calyndrae.com/verification/handbook-top-1440.png)
 
 ![handbook typography](https://sitedna.endfield.calyndrae.com/verification/handbook-typography.png)
+
+![mirror home](https://sitedna.endfield.calyndrae.com/verification/mirror-home.png)
 
 ![pages top 1440](https://sitedna.endfield.calyndrae.com/verification/pages-top-1440.png)
 
@@ -37742,10 +37842,12 @@ The analysis and capture archives behind the chapters are large machine-readable
 | source/stage1/ | library aliases resolved, short names made unique | 811 KB | [https://sitedna.endfield.calyndrae.com/source/stage1/](https://sitedna.endfield.calyndrae.com/source/stage1/) |
 | source/rename-maps/ | semantic rename maps with summaries | 106 KB | [https://sitedna.endfield.calyndrae.com/source/rename-maps/](https://sitedna.endfield.calyndrae.com/source/rename-maps/) |
 | source/readable/ | the readable first-party modules (also printed in Appendix B) | 693 KB | [https://sitedna.endfield.calyndrae.com/source/readable/](https://sitedna.endfield.calyndrae.com/source/readable/) |
-| original/ | the SSR responses the mirror serves | 1.4 MB | [https://sitedna.endfield.calyndrae.com/original/](https://sitedna.endfield.calyndrae.com/original/) |
-| verification/report.json | the 29-check verification report | 2 KB | [https://sitedna.endfield.calyndrae.com/verification/report.json](https://sitedna.endfield.calyndrae.com/verification/report.json) |
+| original/ | the SSR responses the mirror serves | 1.5 MB | [https://sitedna.endfield.calyndrae.com/original/](https://sitedna.endfield.calyndrae.com/original/) |
+| archive/ | the originals archive: every file the pages load, every API answer, RSC payloads, SDK scripts, clip subset (index.json has URL, bytes, SHA-256) | 546.7 MB | [https://sitedna.endfield.calyndrae.com/archive/](https://sitedna.endfield.calyndrae.com/archive/) |
+| en-us/ | the self-contained mirror of the original routes and archived articles, served from the archive | 22.0 MB | [https://sitedna.endfield.calyndrae.com/en-us/](https://sitedna.endfield.calyndrae.com/en-us/) |
+| verification/report.json | the 29-check verification report | 6 KB | [https://sitedna.endfield.calyndrae.com/verification/report.json](https://sitedna.endfield.calyndrae.com/verification/report.json) |
 | verification/pages-report.json | the static-host verification | 2 KB | [https://sitedna.endfield.calyndrae.com/verification/pages-report.json](https://sitedna.endfield.calyndrae.com/verification/pages-report.json) |
-| handbook/handbook-bulletin.json | the live handbook as article data | 589 KB | [https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json](https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json) |
+| handbook/handbook-bulletin.json | the live handbook as article data | 607 KB | [https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json](https://sitedna.endfield.calyndrae.com/handbook/handbook-bulletin.json) |
 
 The complete repository, including the tools that produced every file above and this document, is at [https://github.com/Calyndrae/Endfield-Site-DNA](https://github.com/Calyndrae/Endfield-Site-DNA).
 

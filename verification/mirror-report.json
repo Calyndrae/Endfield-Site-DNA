@@ -1,0 +1,97 @@
+{
+ "at": "2026-10-03T22:29:55.172Z",
+ "results": [
+  {
+   "name": "home: loader finished from the archive",
+   "ok": true,
+   "detail": "4131 ms"
+  },
+  {
+   "name": "home: chunks, stylesheets, fonts, images, videos and audio came from this host",
+   "ok": true,
+   "detail": {
+    "127.0.0.1:8797": 165,
+    "www.googletagmanager.com": 1,
+    "static.cloudflareinsights.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "web-api.gryphline.com": 4,
+    "event-log-api-data-platform-data-lake-prod.gryphline.com": 2
+   }
+  },
+  {
+   "name": "home: nothing was fetched from the live CDN",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "name": "home: news and video data answered from the archive",
+   "ok": true,
+   "detail": {
+    "apiLocal": 4,
+    "apiLive": 0
+   }
+  },
+  {
+   "name": "home: rail, sections and footer rendered",
+   "ok": true,
+   "detail": "7 sections"
+  },
+  {
+   "name": "home: background music requested from this host",
+   "ok": true,
+   "detail": [
+    "127.0.0.1:8797"
+   ]
+  },
+  {
+   "name": "router navigation payload (rsc: 1) answered from the archive as text/x-component",
+   "ok": true,
+   "detail": {
+    "type": "text/x-component",
+    "head": "1:\"$Sreact.fragment\"\n2:I[704,[],\"\"]\n3:I["
+   }
+  },
+  {
+   "name": "operator catalogue: loader finished and cards rendered",
+   "ok": true,
+   "detail": "33 cards"
+  },
+  {
+   "name": "news index: initial list, second tab and second page all answered from the archive",
+   "ok": true,
+   "detail": {
+    "cards": 9,
+    "listsLocal": 5,
+    "listsLive": 0
+   }
+  },
+  {
+   "name": "article 0748: renders its own archived data (title matches the archived record)",
+   "ok": true,
+   "detail": {
+    "title": "GRYPHLINK Real-Time Game Data Panel Now Live!",
+    "want": "GRYPHLINK Real-Time Game Data Panel Now Live!"
+   }
+  },
+  {
+   "name": "article 0748: images served from this host where archived (others fall back to the CDN)",
+   "ok": true,
+   "detail": {
+    "127.0.0.1:8797": 45
+   }
+  },
+  {
+   "name": "no JavaScript errors other than the site's own React #418 hydration notice",
+   "ok": true,
+   "detail": [
+    "Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors a"
+   ]
+  },
+  {
+   "name": "no missing files on this host",
+   "ok": true,
+   "detail": []
+  }
+ ]
+}

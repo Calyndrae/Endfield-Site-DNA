@@ -1,6 +1,6 @@
-// Local-only mirror: serves archived original pages at their original routes,
-// proxies Next.js RSC navigation requests to the live origin, and serves the
-// handbook at the article route. Static files are served from the repo root.
+// Local-only server: serves the self-contained mirror pages (en-us/…, built by build-mirror.mjs) and every
+// other file from the repo root exactly as GitHub Pages does, the handbook at its article route, and, for
+// a route the archive has no RSC payload for, proxies the Next.js RSC navigation request to the live origin.
 import http from 'node:http';
 import { readFileSync, existsSync, statSync, createReadStream } from 'node:fs';
 import { join, extname, resolve } from 'node:path';
@@ -14,12 +14,14 @@ const normalizeIp = ip => (ip || '').replace(/^::ffff:/, '').replace(/%.*$/, '')
 const allowed = ip => !allow.length || allow.some(a => normalizeIp(a) === normalizeIp(ip));
 const ORIGIN = 'https://endfield.gryphline.com';
 const routes = JSON.parse(readFileSync(join(root, 'original/routes.json'), 'utf8'));
-const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript', '.mjs':'text/javascript', '.css':'text/css', '.json':'application/json', '.png':'image/png', '.jpg':'image/jpeg', '.svg':'image/svg+xml', '.md':'text/markdown; charset=utf-8', '.txt':'text/plain; charset=utf-8', '.woff2':'font/woff2' };
+const types = { '.html':'text/html; charset=utf-8', '.js':'text/javascript', '.mjs':'text/javascript', '.css':'text/css', '.json':'application/json', '.png':'image/png', '.jpg':'image/jpeg', '.svg':'image/svg+xml', '.md':'text/markdown; charset=utf-8', '.txt':'text/plain; charset=utf-8', '.woff2':'font/woff2', '.woff':'font/woff', '.mp4':'video/mp4', '.mp3':'audio/mpeg', '.webp':'image/webp', '.ico':'image/x-icon' };
 http.createServer(async (req, res) => {
   if (!allowed(req.socket.remoteAddress)) { res.writeHead(403, { 'Content-Type': 'text/plain' }); return res.end('forbidden: ' + normalizeIp(req.socket.remoteAddress) + ' is not in the allow list'); }
   const url = new URL(req.url, `http://127.0.0.1:${port}`);
   let path = url.pathname.replace(/\/+$/, '') || '/';
   if (['/', '/handbook', '/handbook/index.html'].includes(path)) { res.writeHead(302, { Location: '/en-us/news/7013' }); return res.end(); }
+  const page = join(root, decodeURIComponent(path), 'index.html'); // the self-contained mirror pages (en-us/…), as GitHub Pages serves them
+  if (req.headers['rsc'] !== '1' && !(path in routes && routes[path].startsWith('handbook/')) && page.startsWith(root) && existsSync(page)) { res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' }); return createReadStream(page).pipe(res); }
   if (path in routes) {
     if (req.headers['rsc'] === '1') {
       try {
